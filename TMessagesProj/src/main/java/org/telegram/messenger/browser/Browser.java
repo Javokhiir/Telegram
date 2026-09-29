@@ -51,6 +51,7 @@ import org.telegram.ui.ActionBar.BottomSheetTabs;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.BubbleActivity;
 import org.telegram.ui.LaunchActivity;
+import org.telegram.ui.Components.UMessageSecurityGuard;
 
 import java.lang.ref.WeakReference;
 import java.net.IDN;
@@ -289,8 +290,30 @@ public class Browser {
     }
 
     public static void openUrl(final Context context, Uri uri, boolean _allowCustom, boolean tryTelegraph, boolean forceNotInternalForApps, Progress inCaseLoading, String browser, boolean allowIntent, boolean allowInAppBrowser, boolean forceRequest) {
+        openUrl(context, uri, _allowCustom, tryTelegraph, forceNotInternalForApps, inCaseLoading, browser, allowIntent, allowInAppBrowser, forceRequest, false);
+    }
+
+    /** Opens a link the user already confirmed in a UMessageSecurityGuard dialog. */
+    public static void openUrlSecurityConfirmed(final Context context, Uri uri, boolean allowCustom, boolean tryTelegraph, Progress inCaseLoading) {
+        openUrl(context, uri, allowCustom, tryTelegraph, false, inCaseLoading, null, false, true, false, true);
+    }
+
+    private static void openUrl(final Context context, Uri uri, boolean _allowCustom, boolean tryTelegraph, boolean forceNotInternalForApps, Progress inCaseLoading, String browser, boolean allowIntent, boolean allowInAppBrowser, boolean forceRequest, boolean securityConfirmed) {
         if (context == null || uri == null) {
             return;
+        }
+        if (!securityConfirmed) {
+            final Uri guardedUri = uri;
+            final boolean guardedAllowCustom = _allowCustom;
+            final boolean guardedTryTelegraph = tryTelegraph;
+            if (UMessageSecurityGuard.guardUrl(context, uri, () -> openUrl(context, guardedUri, guardedAllowCustom, guardedTryTelegraph,
+                    forceNotInternalForApps, inCaseLoading, browser, allowIntent, allowInAppBrowser, forceRequest, true))) {
+                // The link cell shows a loading state until progress ends; release it while the warning is up.
+                if (inCaseLoading != null) {
+                    inCaseLoading.end();
+                }
+                return;
+            }
         }
         final int currentAccount = UserConfig.selectedAccount;
         boolean[] forceBrowser = new boolean[]{false};

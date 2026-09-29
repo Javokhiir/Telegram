@@ -1209,7 +1209,8 @@ public class SelfStoryViewsPage extends FrameLayout implements NotificationCente
             if (totalCount < 200) {
                 useLocalFilters = true;
             }
-            isExpiredViews = StoriesUtilities.hasExpiredViews(storyItem) && !UserConfig.getInstance(currentAccount).isPremium();
+            // U message: always show who viewed profile stories, even without Premium and after 24h.
+            isExpiredViews = false;
             if (isExpiredViews && storyItem.views != null && storyItem.views.reactions_count > 0) {
                 isExpiredViews = false;
                 showReactionOnly = true;

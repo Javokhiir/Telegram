@@ -3291,6 +3291,7 @@ public class MessagesStorage extends BaseController {
                 for (int a = 0, N = vector.size(); a < N; a++) {
                     TLRPC.DialogFilter newFilter = (TLRPC.DialogFilter) vector.get(a);
                     filtersOrder.add(newFilter.id);
+                    UMessageConfig.setFolderEmoticon(currentAccount, newFilter.id, newFilter.emoticon);
                     int newFlags = 0;
                     if (newFilter.contacts) {
                         newFlags |= MessagesController.DIALOG_FILTER_FLAG_CONTACTS;

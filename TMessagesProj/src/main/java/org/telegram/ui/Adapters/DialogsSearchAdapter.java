@@ -8,6 +8,7 @@
 
 package org.telegram.ui.Adapters;
 
+import org.telegram.messenger.UMessageConfig;
 import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.content.Context;
@@ -283,6 +284,20 @@ public class DialogsSearchAdapter extends RecyclerListView.SelectionAdapter {
     }
 
     private boolean filter(Object obj) {
+        // U message: hidden chats are only found from the hidden chats page
+        if (UMessageConfig.isHiddenChatsEnabled() && (dialogsActivity == null || !dialogsActivity.isUMessageHiddenMode())) {
+            long did = 0;
+            if (obj instanceof TLRPC.User) {
+                did = ((TLRPC.User) obj).id;
+            } else if (obj instanceof TLRPC.Chat) {
+                did = -((TLRPC.Chat) obj).id;
+            } else if (obj instanceof TLRPC.EncryptedChat) {
+                did = DialogObject.makeEncryptedDialogId(((TLRPC.EncryptedChat) obj).id);
+            }
+            if (did != 0 && UMessageConfig.isChatHidden(currentAccount, did)) {
+                return false;
+            }
+        }
         if (dialogsType != DialogsActivity.DIALOGS_TYPE_START_ATTACH_BOT) {
             return true;
         }
@@ -1113,7 +1128,7 @@ public class DialogsSearchAdapter extends RecyclerListView.SelectionAdapter {
                 ConnectionsManager.getInstance(currentAccount).cancelRequest(sponsoredReqId, true);
                 sponsoredReqId = 0;
             }
-            if (query == null || query.length() < 4 || UserConfig.getInstance(currentAccount).isPremium() && MessagesController.getInstance(currentAccount).isSponsoredDisabled()) {
+            if (query == null || query.length() < 4 || UMessageConfig.isAdsBlocked() || UserConfig.getInstance(currentAccount).isPremium() && MessagesController.getInstance(currentAccount).isSponsoredDisabled()) {
                 sponsoredQuery = null;
             } else {
                 final TLRPC.TL_contacts_getSponsoredPeers req = new TLRPC.TL_contacts_getSponsoredPeers();

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- U message splash: the original mark (half of the logo) is drawn in the centre;
+     the intro screen then swings its twin in to complete the logo -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="240dp"
+            android:height="240dp"
+            android:viewportWidth="240"
+            android:viewportHeight="240">
+            <!-- mark bbox centre (340,224.5) -> (120,120) -->
+            <group
+                android:pivotX="525"
+                android:pivotY="224.5"
+                android:scaleX="0.2"
+                android:scaleY="0.2"
+                android:translateX="-368"
+                android:translateY="-104.5">
+                <path android:name="bar" android:pathData="M155,49 L525,49"
+                    android:strokeColor="#FF000000" android:strokeWidth="74" android:trimPathEnd="0" />
+                <path android:name="arc" android:pathData="M525,49 A175.5,175.5 0,0 0,525 400"
+                    android:strokeColor="#FF000000" android:strokeWidth="74" android:trimPathEnd="0" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="bar">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="120" android:propertyName="trimPathEnd"
+                android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+    <target android:name="arc">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="170" android:startOffset="80" android:propertyName="trimPathEnd"
+                android:valueFrom="0" android:valueTo="1" android:valueType="floatType"
+                android:interpolator="@android:interpolator/fast_out_slow_in" />
+        </aapt:attr>
+    </target>
+</animated-vector>

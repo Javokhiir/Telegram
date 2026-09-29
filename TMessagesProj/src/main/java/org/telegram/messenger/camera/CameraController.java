@@ -167,6 +167,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
                             if (ApplicationLoader.mainInterfacePaused && ApplicationLoader.externalInterfacePaused) {
                                 throw new RuntimeException("APP_PAUSED");
                             }
+                            org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
                             Camera camera = Camera.open(cameraInfo.getCameraId());
                             Camera.Parameters params = camera.getParameters();
 
@@ -498,6 +499,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
             Camera camera = session.cameraInfo.camera;
             try {
                 if (camera == null) {
+                    org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
                     camera = session.cameraInfo.camera = Camera.open(session.cameraInfo.cameraId);
                     camera.setErrorCallback(getErrorListener(session));
                 }
@@ -521,6 +523,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
             Camera camera = session.cameraInfo.camera;
             try {
                 if (camera == null) {
+                    org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
                     camera = session.cameraInfo.camera = Camera.open(session.cameraInfo.cameraId);
                     camera.setErrorCallback(getErrorListener(session));
                 }
@@ -550,6 +553,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
                     FileLog.d("start creating round camera session");
                 }
                 if (camera == null) {
+                    org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
                     camera = session.cameraInfo.camera = Camera.open(session.cameraInfo.cameraId);
                 }
                 Camera.Parameters params = camera.getParameters();
@@ -600,6 +604,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
             Camera camera = session.cameraInfo.camera;
             try {
                 if (camera == null) {
+                    org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
                     camera = session.cameraInfo.camera = Camera.open(session.cameraInfo.cameraId);
                 }
                 camera.setErrorCallback(getErrorListener(session));

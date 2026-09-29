@@ -80,6 +80,7 @@ import org.telegram.ui.Components.RLottieDrawable;
 import org.telegram.ui.Components.RLottieImageView;
 import org.telegram.ui.Components.ScaleStateListAnimator;
 import org.telegram.ui.Components.SimpleThemeDescription;
+import org.telegram.ui.Components.UMessageLogoView;
 import org.telegram.ui.Components.voip.CellFlickerDrawable;
 
 import java.util.ArrayList;
@@ -112,7 +113,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
     private int lastPage = 0;
     private boolean justCreated = false;
     private boolean startPressed = false;
-    private Drawable logoDrawable;
+    private UMessageLogoView logoView;
     private CharSequence[] titles;
     private String[] messages;
     private int currentViewPagerPage;
@@ -125,6 +126,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
     private LocaleController.LocaleInfo localeInfo;
 
     private boolean destroyed;
+    private boolean startupWorkScheduled;
 
     private boolean isOnLogout;
 
@@ -133,33 +135,22 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
         MessagesController.getGlobalMainSettings().edit().putLong("intro_crashed_time", System.currentTimeMillis()).apply();
 
         titles = new CharSequence[]{
-                null,
-                LocaleController.getString(R.string.Page2Title),
-                LocaleController.getString(R.string.Page3Title),
-                LocaleController.getString(R.string.Page5Title),
-                LocaleController.getString(R.string.Page4Title),
-                LocaleController.getString(R.string.Page6Title)
+                LocaleController.getString(R.string.UMessageIntro1Title),
+                LocaleController.getString(R.string.UMessageIntro2Title),
+                LocaleController.getString(R.string.UMessageIntro3Title),
+                LocaleController.getString(R.string.UMessageIntro4Title)
         };
         messages = new String[]{
-                LocaleController.getString(R.string.Page1Message),
-                LocaleController.getString(R.string.Page2Message),
-                LocaleController.getString(R.string.Page3Message),
-                LocaleController.getString(R.string.Page5Message),
-                LocaleController.getString(R.string.Page4Message),
-                LocaleController.getString(R.string.Page6Message)
+                LocaleController.getString(R.string.UMessageIntro1Message),
+                LocaleController.getString(R.string.UMessageIntro2Message),
+                LocaleController.getString(R.string.UMessageIntro3Message),
+                LocaleController.getString(R.string.UMessageIntro4Message)
         };
         return true;
     }
 
     @Override
     public View createView(Context context) {
-        logoDrawable = context.getResources().getDrawable(R.drawable.telegram_logo).mutate();
-        logoDrawable.setBounds(0, dp(8.666f), dp(115), dp(35));
-        SpannableStringBuilder ssb = new SpannableStringBuilder(LocaleController.getString(R.string.Page1Title));
-        ssb.setSpan(new ImageSpan(logoDrawable), 0, ssb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        titles[0] = ssb;
-
-
         actionBar.setAddToContainer(false);
 
         ScrollView scrollView = new ScrollView(context);
@@ -247,50 +238,9 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
         frameLayout2 = new FrameLayout(context);
         frameContainerView.addView(frameLayout2, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.LEFT | Gravity.TOP, 0, 78, 0, 0));
 
-        TextureView textureView = new TextureView(context);
-        frameLayout2.addView(textureView, LayoutHelper.createFrame(ICON_WIDTH_DP, ICON_HEIGHT_DP, Gravity.CENTER));
-        textureView.setSurfaceTextureListener(new TextureView.SurfaceTextureListener() {
-            @Override
-            public void onSurfaceTextureAvailable(@NonNull SurfaceTexture surface, int width, int height) {
-                if (eglThread == null && surface != null) {
-                    eglThread = new EGLThread(surface);
-                    eglThread.setSurfaceTextureSize(width, height);
-                    eglThread.postRunnable(()->{
-                        float time = (System.currentTimeMillis() - currentDate) / 1000.0f;
-                        Intro.setPage(currentViewPagerPage);
-                        Intro.setDate(time);
-                        Intro.onDrawFrame(0);
-                        if (eglThread != null && eglThread.isAlive() && eglThread.eglDisplay != null && eglThread.eglSurface != null) {
-                            try {
-                                eglThread.egl10.eglSwapBuffers(eglThread.eglDisplay, eglThread.eglSurface);
-                            } catch (Exception ignored) {} // If display or surface already destroyed
-                        }
-                    });
-                    eglThread.postRunnable(eglThread.drawRunnable);
-                }
-            }
-
-            @Override
-            public void onSurfaceTextureSizeChanged(@NonNull SurfaceTexture surface, final int width, final int height) {
-                if (eglThread != null) {
-                    eglThread.setSurfaceTextureSize(width, height);
-                }
-            }
-
-            @Override
-            public boolean onSurfaceTextureDestroyed(@NonNull SurfaceTexture surface) {
-                if (eglThread != null) {
-                    eglThread.shutdown();
-                    eglThread = null;
-                }
-                return true;
-            }
-
-            @Override
-            public void onSurfaceTextureUpdated(@NonNull SurfaceTexture surface) {
-
-            }
-        });
+        logoView = new UMessageLogoView(context);
+        logoView.setPadding(dp(16), dp(12), dp(16), dp(12));
+        frameLayout2.addView(logoView, LayoutHelper.createFrame(ICON_WIDTH_DP, ICON_HEIGHT_DP, Gravity.CENTER));
 
         viewPager = new ViewPager(context);
         viewPager.setAdapter(new IntroAdapter());
@@ -302,12 +252,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 bottomPages.setPageOffset(position, positionOffset);
 
-                float width = viewPager.getMeasuredWidth();
-                if (width == 0) {
-                    return;
-                }
-                float offset = (position * width + positionOffsetPixels - currentViewPagerPage * width) / width;
-                Intro.setScrollOffset(offset);
+                logoView.setPagePosition(position + positionOffset);
             }
 
             @Override
@@ -388,8 +333,9 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
             destroyed = true;
         });
 
-        bottomPages = new BottomPagesView(context, viewPager, 6);
-        frameContainerView.addView(bottomPages, LayoutHelper.createFrame(66, 5, Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, ICON_HEIGHT_DP + 200, 0, 0));
+        bottomPages = new BottomPagesView(context, viewPager, titles.length);
+        bottomPages.setColor(Theme.key_windowBackgroundWhiteGrayText, Theme.key_windowBackgroundWhiteBlackText);
+        frameContainerView.addView(bottomPages, LayoutHelper.createFrame(5 + 11 * (titles.length - 1), 5, Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0, ICON_HEIGHT_DP + 200, 0, 0));
 
         switchLanguageTextView = new TextView(context);
         switchLanguageTextView.setGravity(Gravity.CENTER);
@@ -426,11 +372,6 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
 
         fragmentView = scrollView;
 
-        NotificationCenter.getGlobalInstance().addObserver(this, NotificationCenter.suggestedLangpack);
-        NotificationCenter.getInstance(currentAccount).addObserver(this, NotificationCenter.configLoaded);
-        ConnectionsManager.getInstance(currentAccount).updateDcSettings();
-        LocaleController.getInstance().loadRemoteLanguages(currentAccount);
-        checkContinueText();
         justCreated = true;
 
         updateColors(false);
@@ -444,15 +385,36 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
         super.onResume();
         if (justCreated) {
             if (LocaleController.isRTL) {
-                viewPager.setCurrentItem(6);
-                lastPage = 6;
+                viewPager.setCurrentItem(titles.length - 1);
+                lastPage = titles.length - 1;
             } else {
                 viewPager.setCurrentItem(0);
                 lastPage = 0;
             }
             justCreated = false;
+            // the splash already drew the mark on app start, so continue from it
+            logoView.play(!isOnLogout);
         }
+        scheduleStartupWorkAfterFirstFrame();
         AndroidUtilities.lockOrientation(getParentActivity(), ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+    }
+
+    /** Non-visual startup work must not delay the first visible intro frame. */
+    private void scheduleStartupWorkAfterFirstFrame() {
+        if (startupWorkScheduled || frameContainerView == null) {
+            return;
+        }
+        startupWorkScheduled = true;
+        frameContainerView.postDelayed(() -> {
+            if (destroyed) {
+                return;
+            }
+            NotificationCenter.getGlobalInstance().addObserver(this, NotificationCenter.suggestedLangpack);
+            NotificationCenter.getInstance(currentAccount).addObserver(this, NotificationCenter.configLoaded);
+            ConnectionsManager.getInstance(currentAccount).updateDcSettings();
+            LocaleController.getInstance().loadRemoteLanguages(currentAccount);
+            checkContinueText();
+        }, 100);
     }
 
     @Override
@@ -961,26 +923,18 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
     }
 
     private void updateColors(boolean fromTheme) {
-        startMessagingButtonBackground.setColors(new int[]{getThemedColor(Theme.key_featuredStickers_addButton), getThemedColor(Theme.key_featuredStickers_addButton2)});
-        logoDrawable.setColorFilter(Theme.multAlpha(getThemedColor(Theme.key_actionBarDefaultTitle), 0.9f), PorterDuff.Mode.MULTIPLY);
-        fragmentView.setBackgroundColor(Theme.getColor(Theme.key_windowBackgroundWhite));
-        switchLanguageTextView.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlueText4));
-        startMessagingButton.setTextColor(Theme.getColor(Theme.key_featuredStickers_buttonText));
-        startMessagingButton.setBackground(Theme.createSimpleSelectorRoundRectDrawable(dp(24), Color.TRANSPARENT, Theme.getColor(Theme.key_featuredStickers_addButtonPressed)));
-        darkThemeDrawable.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_featuredStickers_addButton), PorterDuff.Mode.SRC_IN));
+        // U message: monochrome — ink on paper, inverted in dark themes
+        int ink = Theme.getColor(Theme.key_windowBackgroundWhiteBlackText);
+        int paper = Theme.getColor(Theme.key_windowBackgroundWhite);
+        startMessagingButtonBackground.setColors(new int[]{ink, ink});
+        logoView.setColor(ink);
+        fragmentView.setBackgroundColor(paper);
+        switchLanguageTextView.setTextColor(Theme.multAlpha(ink, 0.6f));
+        startMessagingButton.setTextColor(paper);
+        startMessagingButton.setBackground(Theme.createSimpleSelectorRoundRectDrawable(dp(24), Color.TRANSPARENT, Theme.multAlpha(paper, 0.2f)));
+        darkThemeDrawable.setColorFilter(new PorterDuffColorFilter(ink, PorterDuff.Mode.SRC_IN));
         bottomPages.invalidate();
         if (fromTheme) {
-            if (eglThread != null) {
-                eglThread.postRunnable(()->{
-                    eglThread.loadTexture(R.drawable.intro_powerful_mask, 17, Theme.getColor(Theme.key_windowBackgroundWhite), true);
-                    eglThread.updatePowerfulTextures();
-
-                    eglThread.loadTexture(eglThread.telegramMaskProvider, 23, true);
-                    eglThread.updateTelegramTextures();
-
-                    Intro.setBackgroundColor(Theme.getColor(Theme.key_windowBackgroundWhite));
-                });
-            }
             for (int i = 0; i < viewPager.getChildCount(); i++) {
                 View ch = viewPager.getChildAt(i);
                 TextView headerTextView = ch.findViewWithTag(pagerHeaderTag);
@@ -988,7 +942,7 @@ public class IntroActivity extends BaseFragment implements NotificationCenter.No
                 TextView messageTextView = ch.findViewWithTag(pagerMessageTag);
                 messageTextView.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlackText));
             }
-        } else Intro.setBackgroundColor(Theme.getColor(Theme.key_windowBackgroundWhite));
+        }
     }
 
     @Override

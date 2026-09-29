@@ -936,6 +936,9 @@ public class ContactsActivity extends BaseFragment implements FactorAnimator.Tar
         if (!createSecretChat && !returnAsResult) {
             floatingButton = new FragmentFloatingButton(context, resourceProvider);
             contentView.addView(floatingButton, FragmentFloatingButton.createDefaultLayoutParams());
+            if (hasMainTabs) {
+                floatingButton.setButtonVisible(false, false);
+            }
             floatingButton.setOnClickListener(v -> {
                 if (MessagesController.getInstance(currentAccount).isFrozen()) {
                     AccountFrozenAlert.show(currentAccount);
@@ -1668,7 +1671,8 @@ public class ContactsActivity extends BaseFragment implements FactorAnimator.Tar
 
     private void checkUi_floatingButtonVisible() {
         if (floatingButton != null && listViewAdapter != null) {
-            floatingButton.setButtonVisible(floatingButtonVisibleByScroll && !searching && !listViewAdapter.isEmpty(), true);
+            // U message: in the main tabs the dock action button adds contacts
+            floatingButton.setButtonVisible(!hasMainTabs && floatingButtonVisibleByScroll && !searching && !listViewAdapter.isEmpty(), true);
         }
     }
 

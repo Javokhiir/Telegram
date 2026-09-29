@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="115 -185.5 820 820" width="512" height="512" color="#000">
+  <title>U message</title>
+  <!-- Original mark ("me") + its twin rotated 180° around the ring centre ("U") -->
+  <g fill="currentColor">
+    <g id="me">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+    <g id="u" transform="rotate(180 525 224.5)">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+  </g>
+</svg>

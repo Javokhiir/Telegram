@@ -1,5 +1,8 @@
 package org.telegram.ui.Components;
 
+import java.io.File;
+import org.telegram.messenger.FileLoader;
+import org.telegram.messenger.UMessageTranscriber;
 import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
@@ -209,7 +212,7 @@ public class TranscribeButton {
         boolean processClick, toOpen = !shouldBeOpen;
         if (!shouldBeOpen) {
             processClick = !loading;
-            if ((premium || canTranscribeTrial(parent.getMessageObject())) && parent.getMessageObject().isSent()) {
+            if ((premium || canTranscribeTrial(parent.getMessageObject()) || useLocalTranscription(parent.getMessageObject())) && parent.getMessageObject().isSent()) {
                 setLoading(true, true);
             }
         } else {
@@ -224,7 +227,7 @@ public class TranscribeButton {
         pressed = false;
         if (processClick) {
             if (!premium && toOpen) {
-                if (canTranscribeTrial(parent.getMessageObject()) || parent.getMessageObject() != null && parent.getMessageObject().messageOwner != null && !TextUtils.isEmpty(parent.getMessageObject().messageOwner.voiceTranscription)) {
+                if (canTranscribeTrial(parent.getMessageObject()) || useLocalTranscription(parent.getMessageObject()) || parent.getMessageObject() != null && parent.getMessageObject().messageOwner != null && !TextUtils.isEmpty(parent.getMessageObject().messageOwner.voiceTranscription)) {
                     transcribePressed(parent.getMessageObject(), toOpen, parent.getDelegate());
                 } else {
                     if (parent.getDelegate() != null) {
@@ -694,6 +697,10 @@ public class TranscribeButton {
                     transcribeOperationsByDialogPosition = new HashMap<>();
                 }
                 transcribeOperationsByDialogPosition.put((Integer) reqInfoHash(messageObject), messageObject);
+                if (useLocalTranscription(messageObject)) {
+                    transcribeLocally(messageObject, dialogId, messageId, 0);
+                    return;
+                }
                 int flags = 0;
                 if (!UserConfig.getInstance(account).isPremium()) {
                     flags |= ConnectionsManager.RequestFlagDoNotWaitFloodWait;
@@ -833,6 +840,48 @@ public class TranscribeButton {
         return mc.transcribeAudioTrialCooldownUntil == 0 || cc.getCurrentTime() > mc.transcribeAudioTrialCooldownUntil || mc.transcribeAudioTrialCurrentNumber > 0;
     }
 
+    /** U message: without Premium voice messages are transcribed on the device (UMessageTranscriber). */
+    public static boolean useLocalTranscription(MessageObject messageObject) {
+        return messageObject != null && !UserConfig.getInstance(messageObject.currentAccount).isPremium() &&
+            !isFreeTranscribeInChat(messageObject) && UMessageTranscriber.isAvailable();
+    }
+
+    private static void transcribeLocally(MessageObject messageObject, long dialogId, int messageId, int attempt) {
+        final int account = messageObject.currentAccount;
+        File file = FileLoader.getInstance(account).getPathToMessage(messageObject.messageOwner);
+        if ((file == null || !file.exists()) && messageObject.getDocument() != null) {
+            file = FileLoader.getInstance(account).getPathToAttach(messageObject.getDocument(), true);
+        }
+        if (file == null || !file.exists()) {
+            // not downloaded yet: fetch it and try again for a while
+            if (attempt == 0 && messageObject.getDocument() != null) {
+                FileLoader.getInstance(account).loadFile(messageObject.getDocument(), messageObject, FileLoader.PRIORITY_HIGH, 0);
+            }
+            if (attempt < 60) {
+                AndroidUtilities.runOnUIThread(() -> transcribeLocally(messageObject, dialogId, messageId, attempt + 1), 500);
+            } else {
+                finishLocalTranscription(messageObject, dialogId, messageId, "");
+            }
+            return;
+        }
+        UMessageTranscriber.transcribe(file, text -> finishLocalTranscription(messageObject, dialogId, messageId, text == null ? "" : text));
+    }
+
+    private static void finishLocalTranscription(MessageObject messageObject, long dialogId, int messageId, String text) {
+        final int account = messageObject.currentAccount;
+        final long id = -(1 + (Utilities.random.nextLong() & Long.MAX_VALUE) % Integer.MAX_VALUE);
+        if (transcribeOperationsById == null) {
+            transcribeOperationsById = new HashMap<>();
+        }
+        transcribeOperationsById.put(id, messageObject);
+        messageObject.messageOwner.voiceTranscriptionId = id;
+        TranscribeButton.openVideoTranscription(messageObject);
+        messageObject.messageOwner.voiceTranscriptionOpen = true;
+        messageObject.messageOwner.voiceTranscriptionFinal = true;
+        MessagesStorage.getInstance(account).updateMessageVoiceTranscription(dialogId, messageId, text, messageObject.messageOwner);
+        finishTranscription(messageObject, id, text);
+    }
+
     public static boolean isFreeTranscribeInChat(MessageObject messageObject) {
         if (messageObject == null || messageObject.messageOwner == null) {
             return false;
@@ -865,7 +914,7 @@ public class TranscribeButton {
         }
         ConnectionsManager cc = ConnectionsManager.getInstance(messageObject.currentAccount);
         MessagesController mc = MessagesController.getInstance(messageObject.currentAccount);
-        if (UserConfig.getInstance(messageObject.currentAccount).isPremium()) {
+        if (UserConfig.getInstance(messageObject.currentAccount).isPremium() || useLocalTranscription(messageObject)) {
             return false;
         }
         return mc.transcribeAudioTrialCooldownUntil != 0 && cc.getCurrentTime() <= mc.transcribeAudioTrialCooldownUntil && mc.transcribeAudioTrialCurrentNumber <= 0;

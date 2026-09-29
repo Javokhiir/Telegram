@@ -73,6 +73,7 @@ class Camera1Session implements CameraSession {
 
     final Camera camera;
     try {
+      org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
       camera = Camera.open(cameraId);
     } catch (RuntimeException e) {
       callback.onFailure(FailureType.ERROR, e.getMessage());

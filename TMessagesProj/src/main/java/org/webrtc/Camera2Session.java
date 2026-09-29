@@ -355,6 +355,7 @@ class Camera2Session implements CameraSession {
     events.onCameraOpening();
 
     try {
+      org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
       cameraManager.openCamera(cameraId, new CameraStateCallback(), cameraThreadHandler);
     } catch (Exception e) {
       reportError("Failed to open camera: " + e);

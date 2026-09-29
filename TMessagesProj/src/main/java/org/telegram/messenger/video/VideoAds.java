@@ -1,5 +1,6 @@
 package org.telegram.messenger.video;
 
+import org.telegram.messenger.UMessageConfig;
 import static org.telegram.messenger.AndroidUtilities.checkAndroidTheme;
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
@@ -195,7 +196,7 @@ public static VideoAds make(
     private void load() {
         if (loading || loaded) return;
 
-        if (UserConfig.getInstance(currentAccount).isPremium() && MessagesController.getInstance(currentAccount).isSponsoredDisabled()) {
+        if (UMessageConfig.isAdsBlocked() || UserConfig.getInstance(currentAccount).isPremium() && MessagesController.getInstance(currentAccount).isSponsoredDisabled()) {
             return;
         }
 

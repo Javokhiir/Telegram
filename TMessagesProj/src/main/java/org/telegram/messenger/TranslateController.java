@@ -91,7 +91,8 @@ public class TranslateController extends BaseController {
     }
 
     public boolean isFeatureAvailable() {
-        return isChatTranslateEnabled() && UserConfig.getInstance(currentAccount).isPremium();
+        // U message: without Premium whole chats are translated on the device (UMessageTranslator)
+        return isChatTranslateEnabled();
     }
 
     public boolean isFeatureAvailable(long dialogId) {
@@ -101,6 +102,7 @@ public class TranslateController extends BaseController {
         final TLRPC.Chat chat = getMessagesController().getChat(-dialogId);
         return (
             UserConfig.getInstance(currentAccount).isPremium() ||
+            UMessageTranslator.shouldUse(currentAccount) ||
             chat != null && chat.autotranslation
         );
     }
@@ -1140,6 +1142,37 @@ public class TranslateController extends BaseController {
                     }
                     return;
                 }*/
+
+                if (UMessageTranslator.shouldUse(currentAccount)) {
+                    // U message: translate on the device instead of Telegram's Premium server translation
+                    final ArrayList<Integer> umIds;
+                    final ArrayList<Utilities.Callback4<Boolean, Integer, TLRPC.TL_textWithEntities, String>> umCallbacks;
+                    final ArrayList<TLRPC.TL_textWithEntities> umTexts;
+                    final String umLanguage;
+                    synchronized (TranslateController.this) {
+                        umIds = pendingTranslation1.messageIds;
+                        umCallbacks = pendingTranslation1.callbacks;
+                        umTexts = pendingTranslation1.messageTexts;
+                        umLanguage = pendingTranslation1.language;
+                    }
+                    for (int i = 0; i < umIds.size(); ++i) {
+                        final int id = umIds.get(i);
+                        final Utilities.Callback4<Boolean, Integer, TLRPC.TL_textWithEntities, String> umCallback = umCallbacks.get(i);
+                        final TLRPC.TL_textWithEntities umSource = umTexts.get(i);
+                        UMessageTranslator.translate(umSource.text, umLanguage, result -> {
+                            TLRPC.TL_textWithEntities translated = null;
+                            if (result != null) {
+                                translated = new TLRPC.TL_textWithEntities();
+                                translated.text = result;
+                            }
+                            umCallback.run(isTranscription, id, translated, umLanguage);
+                            synchronized (TranslateController.this) {
+                                loadingTranslations.remove(id);
+                            }
+                        });
+                    }
+                    return;
+                }
 
                 final TLRPC.TL_messages_translateText req = new TLRPC.TL_messages_translateText();
                 if (isTranscription) {

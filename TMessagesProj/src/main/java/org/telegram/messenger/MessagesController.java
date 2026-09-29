@@ -175,6 +175,8 @@ public class MessagesController extends BaseController implements NotificationCe
     public ConcurrentHashMap<Long, Integer> dialogs_read_outbox_max = new ConcurrentHashMap<>(100, 1.0f, 2);
     public LongSparseArray<TLRPC.Dialog> dialogs_dict = new LongSparseArray<>();
     public LongSparseArray<ArrayList<MessageObject>> dialogMessage = new LongSparseArray<>();
+    /** U message: hidden chats, shown only on the password protected hidden chats page. */
+    public final ArrayList<TLRPC.Dialog> dialogsUMessageHidden = new ArrayList<>();
     public LongSparseArray<MessageObject> dialogMessagesByRandomIds = new LongSparseArray<>();
     public LongSparseIntArray deletedHistory = new LongSparseIntArray();
     public SparseArray<MessageObject> dialogMessagesByIds = new SparseArray<>();
@@ -402,6 +404,25 @@ public class MessagesController extends BaseController implements NotificationCe
     private int statusRequest;
     private int statusSettingState;
     private boolean offlineSent;
+    private volatile long lastGhostOfflineTime;
+
+    /**
+     * U message ghost mode: the server marks us online whenever we send something,
+     * so right after a send (and once a minute as a safety net) we report offline again.
+     */
+    public void ghostGoOffline() {
+        if (!UMessageConfig.isGhostMode() || !getUserConfig().isClientActivated()) {
+            return;
+        }
+        lastGhostOfflineTime = System.currentTimeMillis();
+        TL_account.updateStatus req = new TL_account.updateStatus();
+        req.offline = true;
+        getConnectionsManager().sendRequest(req, (response, error) -> {
+            if (error == null) {
+                offlineSent = true;
+            }
+        });
+    }
     private String uploadingAvatar;
     private final LongSparseArray<ArrayList<MessageObject>> welcomeMessages = new LongSparseArray<>();
 
@@ -923,7 +944,11 @@ public class MessagesController extends BaseController implements NotificationCe
     }
 
     public boolean isPremiumUser(TLRPC.User currentUser) {
-        return currentUser != null && currentUser.premium && !isSupportUser(currentUser);
+        if (currentUser == null || isSupportUser(currentUser)) {
+            return false;
+        }
+        // U message app-only premium: treat granted U message users as premium in the UI too.
+        return currentUser.premium || UMessagePremiumController.getInstance().isPremium(currentUser.id);
     }
 
     public boolean didPressTranscribeButtonEnough() {
@@ -10524,7 +10549,8 @@ public class MessagesController extends BaseController implements NotificationCe
         checkReadTasks();
 
         if (getUserConfig().isClientActivated()) {
-            if (!ignoreSetOnline && getConnectionsManager().getPauseTime() == 0 && ApplicationLoader.isScreenOn && !ApplicationLoader.mainInterfacePausedStageQueue) {
+            // U message ghost mode: never report being online
+            if (!ignoreSetOnline && !UMessageConfig.isGhostMode() && getConnectionsManager().getPauseTime() == 0 && ApplicationLoader.isScreenOn && !ApplicationLoader.mainInterfacePausedStageQueue) {
                 if (ApplicationLoader.mainInterfacePausedStageQueueTime != 0 && Math.abs(ApplicationLoader.mainInterfacePausedStageQueueTime - System.currentTimeMillis()) > 1000) {
                     if (statusSettingState != 1 && (lastStatusUpdateTime == 0 || Math.abs(System.currentTimeMillis() - lastStatusUpdateTime) >= 55000 || offlineSent)) {
                         statusSettingState = 1;
@@ -10566,6 +10592,10 @@ public class MessagesController extends BaseController implements NotificationCe
                     }
                     statusRequest = 0;
                 });
+            }
+
+            if (UMessageConfig.isGhostMode() && Math.abs(System.currentTimeMillis() - lastGhostOfflineTime) >= 60000) {
+                ghostGoOffline();
             }
 
             if (updatesQueueChannels.size() != 0) {
@@ -11383,7 +11413,7 @@ public class MessagesController extends BaseController implements NotificationCe
     }
 
     public boolean sendTyping(long dialogId, long threadMsgId, int action, String emojicon, int classGuid) {
-        if (action < 0 || action >= sendingTypings.length || dialogId == 0) {
+        if (action < 0 || action >= sendingTypings.length || dialogId == 0 || UMessageConfig.isGhostMode()) {
             return false;
         }
         final long selfId = UserConfig.getInstance(UserConfig.selectedAccount).getClientUserId();
@@ -14405,6 +14435,10 @@ public class MessagesController extends BaseController implements NotificationCe
         long dialogId = messageObject.getDialogId();
         getMessagesStorage().markMessagesContentAsRead(dialogId, arrayList, 0, 0);
         getNotificationCenter().postNotificationName(NotificationCenter.messagesReadContent, dialogId, arrayList);
+        if (UMessageConfig.isGhostMode()) {
+            // U message ghost mode: listened/viewed state stays local
+            return;
+        }
         if (messageObject.getId() < 0) {
             markMessageAsRead(messageObject.getDialogId(), messageObject.messageOwner.random_id, Integer.MIN_VALUE);
         } else {
@@ -14557,6 +14591,10 @@ public class MessagesController extends BaseController implements NotificationCe
     }
 
     private void completeReadTask(ReadTask task) {
+        if (UMessageConfig.isGhostMode() && !ChatObject.isChannelAndNotMegaGroup(getChat(-task.dialogId))) {
+            // U message ghost mode: read locally, the sender does not get the read receipt
+            return;
+        }
         if (task.replyId != 0 && task.monoForumPeerId == 0) {
             TLRPC.TL_messages_readDiscussion req = new TLRPC.TL_messages_readDiscussion();
             req.msg_id = (int) task.replyId;
@@ -18814,6 +18852,11 @@ public class MessagesController extends BaseController implements NotificationCe
                 dialogs_read_outbox_max.put(dialogId, Math.max(value, update.max_id));
             } else if (baseUpdate instanceof TL_update.TL_updateDeleteMessages) {
                 TL_update.TL_updateDeleteMessages update = (TL_update.TL_updateDeleteMessages) baseUpdate;
+                if (UMessageConfig.isSaveDeleted()) {
+                    // U message: keep the messages and only mark them as deleted
+                    UMessageHistory.markDeleted(currentAccount, 0, update.messages);
+                    continue;
+                }
                 if (deletedMessages == null) {
                     deletedMessages = new LongSparseArray<>();
                 }
@@ -19339,6 +19382,10 @@ public class MessagesController extends BaseController implements NotificationCe
                 if (BuildVars.LOGS_ENABLED) {
                     FileLog.d(baseUpdate + " channelId = " + update.channel_id);
                 }
+                if (UMessageConfig.isSaveDeleted()) {
+                    UMessageHistory.markDeleted(currentAccount, -update.channel_id, update.messages);
+                    continue;
+                }
                 if (deletedMessages == null) {
                     deletedMessages = new LongSparseArray<>();
                 }
@@ -19469,6 +19516,9 @@ public class MessagesController extends BaseController implements NotificationCe
                 }
 
                 MessageObject.getDialogId(message);
+                if (UMessageConfig.isSaveEdited() && !message.edit_hide) {
+                    UMessageHistory.recordEdit(currentAccount, message);
+                }
 
                 ConcurrentHashMap<Long, Integer> read_max = message.out ? dialogs_read_outbox_max : dialogs_read_inbox_max;
                 Integer value = read_max.get(message.dialog_id);
@@ -20679,6 +20729,17 @@ public class MessagesController extends BaseController implements NotificationCe
                     } else if (baseUpdate instanceof TL_update.TL_updatePendingJoinRequests) {
                         TL_update.TL_updatePendingJoinRequests update = (TL_update.TL_updatePendingJoinRequests) baseUpdate;
                         getMemberRequestsController().onPendingRequestsUpdated(update);
+                        if (UMessageConfig.isAutoApproveRequests() && update.requests_pending > 0) {
+                            // U message: approve join requests to my groups and channels right away
+                            TLRPC.TL_messages_hideAllChatJoinRequests req = new TLRPC.TL_messages_hideAllChatJoinRequests();
+                            req.approved = true;
+                            req.peer = getInputPeer(update.peer);
+                            getConnectionsManager().sendRequest(req, (response, error) -> {
+                                if (response instanceof TLRPC.Updates) {
+                                    processUpdates((TLRPC.Updates) response, false);
+                                }
+                            });
+                        }
                     } else if (baseUpdate instanceof TL_update.TL_updateSavedRingtones) {
                         getMediaDataController().ringtoneDataStore.loadUserRingtones(true);
                     } else if (baseUpdate instanceof TL_update.TL_updateTranscribeAudio) {
@@ -21610,6 +21671,9 @@ public class MessagesController extends BaseController implements NotificationCe
     }
 
     public SponsoredMessagesInfo getSponsoredMessages(long dialogId) {
+        if (UMessageConfig.isAdsBlocked()) {
+            return null;
+        }
         SponsoredMessagesInfo info = sponsoredMessages.get(dialogId);
         if (info != null && (info.loading || Math.abs(SystemClock.elapsedRealtime() - info.loadTime) <= 5 * 60 * 1000)) {
             return info;
@@ -22312,6 +22376,7 @@ public class MessagesController extends BaseController implements NotificationCe
         dialogsUsersOnly.clear();
         dialogsForBlock.clear();
         dialogsForward.clear();
+        dialogsUMessageHidden.clear();
         checkCollapsedDialogsInCommunity();
         for (int a = 0; a < dialogsByFolder.size(); a++) {
             ArrayList<TLRPC.Dialog> arrayList = dialogsByFolder.valueAt(a);
@@ -22361,7 +22426,7 @@ public class MessagesController extends BaseController implements NotificationCe
                                 dialogId = encryptedChat.user_id;
                             }
                         }
-                        if (sortingDialogFilter.includesDialog(getAccountInstance(), dialogId, d)) {
+                        if (sortingDialogFilter.includesDialog(getAccountInstance(), dialogId, d) && !UMessageConfig.isHiddenFromChatList(currentAccount, d)) {
                             if (canAddToForward(d)) {
                                 dialogsForward.add(d);
                             }
@@ -22468,6 +22533,14 @@ public class MessagesController extends BaseController implements NotificationCe
                 allDialogs.remove(a);
                 a--;
                 N--;
+                continue;
+            }
+
+            if (UMessageConfig.isHiddenFromChatList(currentAccount, d)) {
+                // U message: hidden chats and (with stranger protection) chats with strangers stay out of the chat list
+                if (UMessageConfig.isChatHidden(currentAccount, d.id) && d instanceof TLRPC.TL_dialog) {
+                    dialogsUMessageHidden.add(d);
+                }
                 continue;
             }
 

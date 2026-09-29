@@ -83,6 +83,7 @@ import org.telegram.ui.Components.CombinedDrawable;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.EllipsizeSpanAnimator;
 import org.telegram.ui.Components.LayoutHelper;
+import org.telegram.ui.Components.UMessageWordmarkDrawable;
 import org.telegram.ui.Components.ListView.AdapterWithDiffUtils;
 import org.telegram.ui.Components.Premium.LimitReachedBottomSheet;
 import org.telegram.ui.Components.RadialProgress;
@@ -180,6 +181,47 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
     private ActionBar actionBar;
     private StoriesUtilities.EnsureStoryFileLoadedObject globalCancelable;
     private float menuItemsOffset;
+
+    private static final int TITLE_LEFT_DP = 16;
+    private boolean hideLogo;
+    private float titleRightPx;
+
+    public void setTitleRight(float titleRight) {
+        if (titleRightPx != titleRight) {
+            titleRightPx = titleRight;
+            invalidate();
+        }
+    }
+
+    /** U message: the header title (with its logo animation) is drawn by the action bar instead. */
+    public void setHideLogo(boolean hide) {
+        if (hideLogo != hide) {
+            hideLogo = hide;
+            checkUi_titleVisibility();
+        }
+    }
+    private float miniContentLeft;
+
+    /** listViewMini translation that centres the collapsed avatars horizontally. */
+    private float getCenteredCollapsedOffset() {
+        final int count = listViewMini.getChildCount();
+        if (count == 0 || getWidth() == 0) {
+            miniContentLeft = 0;
+            return menuItemsOffset;
+        }
+        float left = Float.MAX_VALUE, right = -Float.MAX_VALUE;
+        for (int i = 0; i < count; i++) {
+            final View child = listViewMini.getChildAt(i);
+            left = Math.min(left, child.getLeft());
+            right = Math.max(right, child.getRight());
+        }
+        miniContentLeft = left;
+        // centre the avatars in the free space between the header title and the header buttons
+        final float freeLeft = titleRightPx > 0 ? titleRightPx : dp(TITLE_LEFT_DP + 150);
+        final float freeRight = getWidth() - actionBar.menu.getVisibleItemsMeasuredWidthWithAlpha();
+        final float center = freeRight > freeLeft + (right - left) ? (freeLeft + freeRight) / 2f : freeLeft + (right - left) / 2f;
+        return center - listViewMini.getLeft() - (left + right) / 2f;
+    }
 
     public DialogStoriesCell(@NonNull Context context, BaseFragment fragment, int currentAccount, int type) {
         super(context);
@@ -335,11 +377,11 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
         telegramLogoView = new ImageView(context);
         telegramLogoView.setContentDescription(getString(R.string.AppName));
         telegramLogoView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-        telegramLogoView.setImageResource(R.drawable.telegram_logo_2);
+        telegramLogoView.setImageDrawable(new UMessageWordmarkDrawable(context, false));
         telegramLogoView.setColorFilter(getTextLogoColor(), PorterDuff.Mode.MULTIPLY);
         telegramLogoView.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
         telegramLogoView.setFocusableInTouchMode(true);
-        addView(telegramLogoView, LayoutHelper.createFrame(90, 22));
+        addView(telegramLogoView, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 22));
 
         statusDrawable = new AnimatedEmojiDrawable.SwapAnimatedEmojiDrawable(null, dp(26));
         statusDrawable.center = true;
@@ -688,7 +730,8 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
         float bottomY = AndroidUtilities.lerp(0, maxY, collapsedProgress1);
         recyclerListView.setTranslationY(bottomY);
         listViewMini.setTranslationY(bottomY);
-        listViewMini.setTranslationX(menuItemsOffset);
+        final float collapsedOffset = getCenteredCollapsedOffset();
+        listViewMini.setTranslationX(collapsedOffset);
 
         for (int i = 0; i < viewsDrawInParent.size(); i++) {
             viewsDrawInParent.get(i).drawInParent = false;
@@ -818,7 +861,7 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
                 } else {
                     toX = dp(COLLAPSED_DIS) + dp(COLLAPSED_DIS) * cellCollapsedProgress - AndroidUtilities.dpf2(0.5f) + AndroidUtilities.lerp(dp(COLLAPSED_DIS + COLLAPSED_DIS), 0f, collapsedProgress);
                 }
-                toX += menuItemsOffset;
+                toX += collapsedOffset;
                 if (!collapsed) {
                     float dstCellX = 0;
                     if (overscrollProgress > 0) {
@@ -936,10 +979,11 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
             titleView.setScaleX(lerp(1f, 0.95f, subtitleOverlayContainer.getTotalVisibility()));
             titleView.setScaleY(lerp(1f, 0.95f, subtitleOverlayContainer.getTotalVisibility()));
             titleView.setTranslationY(bottomY + dp(14) - offset + dp(FAKE_TOP_PADDING) - dp(6) * subtitleOverlayContainer.getTotalVisibility());
-            int cellWidth = dp(72);
-            lastViewRight += -cellWidth + getAvatarRight(cellWidth, collapsedProgress) + dp(12);
-            titleView.setTranslationX(lastViewRight);
-            titleView.getDrawable().setRightPadding(lastViewRight - dp(12) + actionBar.menu.getVisibleItemsMeasuredWidthWithAlpha() * progress);
+            // U message: the title sits on the left edge, the collapsed stories are centred
+            final float titleX = dp(TITLE_LEFT_DP);
+            final float clusterLeft = listViewMini.getLeft() + collapsedOffset + miniContentLeft;
+            titleView.setTranslationX(titleX);
+            titleView.getDrawable().setRightPadding(titleX + Math.max(0, getWidth() - clusterLeft + dp(8)));
 
             telegramLogoView.setTranslationX(titleView.getTranslationX() + dp(1));
             telegramLogoView.setTranslationY(bottomY + dp(14 + FAKE_TOP_PADDING + 4.333f) + translationOffset /*titleView.getTranslationY() + dpf2(37.33f)*/);
@@ -2209,8 +2253,9 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
         final float progress = MathUtils.clamp(Math.min(collapsedProgress, collapsedProgress2), 0, 1);
         final float titleVisibility = animatorHasTitleText.getFloatValue();
         final float logoVisibility = 1f - titleVisibility;
-        final float titleAlpha = titleVisibility * progress;
-        final float logoAlpha = logoVisibility * progress;
+        // U message: with hideLogo the action bar draws the title and "Connecting..." itself
+        final float titleAlpha = hideLogo ? 0 : titleVisibility * progress;
+        final float logoAlpha = hideLogo ? 0 : logoVisibility * progress;
 
         if (titleView != null) {
             titleView.setAlpha(titleAlpha);
@@ -2225,8 +2270,9 @@ public class DialogStoriesCell extends FrameLayout implements NotificationCenter
             emojiStatusView.setVisibility(logoAlpha > 0 ? VISIBLE : GONE);
         }
         if (subtitleOverlayContainer != null) {
-            subtitleOverlayContainer.setAlpha(progress);
-            subtitleOverlayContainer.setVisibility(progress > 0 ? VISIBLE : GONE);
+            final float subtitleAlpha = hideLogo ? 0 : progress;
+            subtitleOverlayContainer.setAlpha(subtitleAlpha);
+            subtitleOverlayContainer.setVisibility(subtitleAlpha > 0 ? VISIBLE : GONE);
         }
     }
 }

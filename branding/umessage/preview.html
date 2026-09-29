@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>U message logo</title>
+<style>
+body{margin:0;font:14px system-ui;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:#ddd;min-height:100vh}
+figure{margin:0;background:#fff;display:grid;place-items:center;padding:40px;gap:16px}
+img{width:220px;height:220px}
+button{font:inherit;padding:6px 14px;border:1px solid currentColor;background:none;border-radius:6px;cursor:pointer}
+</style>
+<figure><img src="umessage-logo.svg"><figcaption>Logo</figcaption></figure>
+<figure><img src="umessage-icon.svg"><figcaption>App icon</figcaption></figure>
+<figure><img id="anim" src="umessage-logo-animated.svg"><button onclick="anim.src='umessage-logo-animated.svg?'+Date.now()">Qayta</button></figure>
+<figure><img src="umessage-loader.svg" style="width:110px;height:110px"><figcaption>Loader</figcaption></figure>
+<figure style="grid-column:1/-1"><img src="umessage-lockup.svg" style="width:min(820px,92vw);height:auto"></figure>

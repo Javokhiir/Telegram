@@ -125,6 +125,7 @@ import org.telegram.messenger.NotificationCenter;
 import org.telegram.messenger.NotificationsController;
 import org.telegram.messenger.R;
 import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UMessageConfig;
 import org.telegram.messenger.UserConfig;
 import org.telegram.messenger.UserObject;
 import org.telegram.messenger.Utilities;
@@ -236,6 +237,8 @@ import org.telegram.ui.Components.FragmentContextView;
 import org.telegram.ui.Components.ItemOptions;
 import org.telegram.ui.Components.JoinGroupAlert;
 import org.telegram.ui.Components.LayoutHelper;
+import org.telegram.ui.Components.ScaleStateListAnimator;
+import org.telegram.ui.Components.UMessageWordmarkDrawable;
 import org.telegram.ui.Components.MediaActivity;
 import org.telegram.ui.Components.NumberTextView;
 import org.telegram.ui.Components.PacmanAnimation;
@@ -710,6 +713,13 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
     private final static int add_to_folder = 109;
     private final static int remove_from_folder = 110;
     private final static int community_ungroup = 111;
+    private final static int umessage_hide_chat = 112;
+    private ActionBarMenuItem hideChatItem;
+    private boolean umHiddenMode;
+
+    public boolean isUMessageHiddenMode() {
+        return umHiddenMode;
+    }
 
     private final static int ARCHIVE_ITEM_STATE_PINNED = 0;
     private final static int ARCHIVE_ITEM_STATE_SHOWED = 1;
@@ -754,6 +764,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
 
     private Long statusDrawableGiftId;
     private Drawable logoDrawable;
+    private UMessageWordmarkDrawable titleWordmark;
     private AnimatedEmojiDrawable.SwapAnimatedEmojiDrawable statusDrawable;
     private AnimatedStatusView animatedStatusView;
     public RightSlidingDialogContainer rightSlidingDialogContainer;
@@ -1629,6 +1640,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         final float factorSearch = Utilities.clamp(searchAnimationProgress * 2, 1f, 0f);
         dialogStoriesCell.setAlpha((1f - progressToActionMode) * alpha * progressToDialogStoriesCell * (1f - factorSearch));
         float containersAlpha;
+        float umStoriesCollapse = 1f;
 
         if (hasStories || animateToHasStories) {
             float p = Utilities.clamp(-scrollYOffset / dp(DialogStoriesCell.HEIGHT_IN_DP), 1f, 0f);
@@ -1636,6 +1648,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 p = 1f;
             }
             float pHalf = Utilities.clamp(p / 0.5f, 1f, 0f);
+            umStoriesCollapse = p;
             dialogStoriesCell.setClipTop(0);
             if (!hasStories && animateToHasStories) {
                 dialogStoriesCell.setTranslationY(-dp(DialogStoriesCell.HEIGHT_IN_DP) - dp(8));
@@ -1692,6 +1705,26 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             actionBar.getTitlesContainer().setVisibility(titleAlpha > 0 ? View.VISIBLE : View.INVISIBLE);
             actionBar.getAdditionalSubTitleOverlayContainer().setAlpha(titleAlpha);
             actionBar.getAdditionalSubTitleOverlayContainer().setVisibility(titleAlpha > 0 ? View.VISIBLE : View.INVISIBLE);
+        }
+        if (hasMainTabs && titleWordmark != null) {
+            // U message: the title never drops in. It stays in the header; while the stories
+            // expand the name moves right and the logo slides in from the left.
+            final float titleAlpha = (1f - factorSearch) * (1f - progressToActionMode);
+            actionBar.getTitlesContainer().setScaleX(1f);
+            actionBar.getTitlesContainer().setScaleY(1f);
+            actionBar.getTitlesContainer().setAlpha(titleAlpha);
+            actionBar.getTitlesContainer().setVisibility(titleAlpha > 0 ? View.VISIBLE : View.INVISIBLE);
+            final float markProgress = hasStories ? 1f - umStoriesCollapse : 1f;
+            titleWordmark.setMarkProgress(markProgress);
+            setPillSavedProgress(markProgress);
+            // the logo slide only applies to the wordmark; "Connecting..." keeps its place
+            final float markShift = actionBar.isTitleOverlayShown() ? 0 : titleWordmark.getMarkOffset() * (1f - markProgress);
+            actionBar.getTitlesContainer().setTranslationX(dp(4) - markShift);
+            actionBar.getTitleTextView().invalidate();
+            dialogStoriesCell.setHideLogo(true);
+            // where the collapsed title ends ("U message" + emoji status), for the stories next to it
+            dialogStoriesCell.setTitleRight(actionBar.getTitlesContainer().getLeft() + dp(4) + actionBar.getTitleTextView().getLeft()
+                    + titleWordmark.getIntrinsicWidth() - titleWordmark.getMarkOffset() + dp(34));
         }
     }
 
@@ -2848,6 +2881,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             checkCanWrite = arguments.getBoolean("checkCanWrite", true);
             afterSignup = arguments.getBoolean("afterSignup", false);
             folderId = arguments.getInt("folderId", 0);
+            umHiddenMode = arguments.getBoolean("umessageHidden", false);
             communityId = arguments.getLong("community_id", 0);
             if (communityId != 0) {
                 community = getMessagesController().getChat(communityId);
@@ -2978,7 +3012,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
 
         BirthdayController.getInstance(currentAccount).check();
         additionNavigationBarHeight = hasMainTabs ? dp(MAIN_TABS_HEIGHT_WITH_MARGINS) : 0;
-        additionFloatingButtonOffset = hasMainTabs ? dp(DialogsActivity.MAIN_TABS_HEIGHT + DialogsActivity.MAIN_TABS_MARGIN) : 0;
+        // U message: with main tabs the new message button sits in the dock row, not above it
+        additionFloatingButtonOffset = 0;
 
         return true;
     }
@@ -3294,6 +3329,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             speedItem.setOnClickListener(v -> showDialog(new PremiumFeatureBottomSheet(DialogsActivity.this, PremiumPreviewFragment.PREMIUM_FEATURE_DOWNLOAD_SPEED, true)));
 
             fragmentSearchField.addAdditionalIcon(speedItem);
+            if (hasMainTabs && downloadsItem != null) {
+                // U message: keep active downloads beside the ghost button in the lower search row.
+                AndroidUtilities.removeFromParent(downloadsItem);
+                downloadsItem.setLayoutParams(new LinearLayout.LayoutParams(dp(40), dp(40)));
+                fragmentSearchField.addAdditionalIcon(downloadsItem);
+            }
             fragmentSearchField.updateColors();
         }
 
@@ -3436,7 +3477,28 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         });
         fragmentSearchFieldWatcher.setDoNotCloseAfterFieldEmpty();
 
-        if (initialDialogsType == DIALOGS_TYPE_DEFAULT) {
+        if (initialDialogsType == DIALOGS_TYPE_DEFAULT && folderId == 0 && communityId == 0 && !umHiddenMode) {
+            if (hasMainTabs && fragmentSearchField != null) {
+                // U message: inside the search field, so the header keeps its room for the title
+                ghostSearchButton = new ImageView(context);
+                ghostSearchButton.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+                ghostSearchButton.setPadding(dp(9), dp(9), dp(9), dp(9));
+                ghostSearchButton.setImageResource(R.drawable.ghost);
+                ghostSearchButton.setBackground(Theme.createSelectorDrawable(getThemedColor(Theme.key_listSelector), Theme.RIPPLE_MASK_CIRCLE_20DP));
+                ghostSearchButton.setContentDescription(getString(R.string.UMessageGhostMode));
+                ghostSearchButton.setOnClickListener(v -> toggleGhostMode());
+                ghostSearchButton.setLayoutParams(new LinearLayout.LayoutParams(dp(40), dp(40)));
+                fragmentSearchField.addAdditionalIcon(ghostSearchButton);
+            } else {
+                ghostItem = menu.addItem(15, R.drawable.ghost);
+                ghostItem.setContentDescription(getString(R.string.UMessageGhostMode));
+            }
+            updateGhostItem();
+        }
+        if (initialDialogsType == DIALOGS_TYPE_DEFAULT && hasMainTabs) {
+            createHeaderPill(context, menu);
+        }
+        if (initialDialogsType == DIALOGS_TYPE_DEFAULT && !hasMainTabs && !umHiddenMode) {
             optionsItem = menu.addItem(4, R.drawable.ic_ab_other);
             optionsItem.setContentDescription(LocaleController.getString(R.string.AccDescrMoreOptions));
             optionsItem.setOnClickListener(v -> {
@@ -3495,10 +3557,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
             actionBar.setBackgroundColor(getThemedColor(Theme.key_windowBackgroundWhite));
         } else {
-            if (searchString != null || folderId != 0 || communityId != 0) {
+            if (searchString != null || folderId != 0 || communityId != 0 || umHiddenMode) {
                 actionBar.setBackButtonDrawable(backDrawable = new BackDrawable(false));
             }
-            if (folderId != 0) {
+            if (umHiddenMode) {
+                actionBar.setTitle(getString(R.string.UMessageHiddenChats));
+            } else if (folderId != 0) {
                 actionBar.setTitle(getString(R.string.ArchivedChats));
             } else if (communityId != 0) {
                 actionBar.setTitle(DialogObject.getName(community));
@@ -3511,10 +3575,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             } else {
                 statusDrawable = new AnimatedEmojiDrawable.SwapAnimatedEmojiDrawable(null, dp(26));
                 statusDrawable.center = true;
-                logoDrawable = context.getResources().getDrawable(R.drawable.telegram_logo_2).mutate();
-                logoDrawable.setBounds(0, dp(2), logoDrawable.getIntrinsicWidth(), dp(2) + logoDrawable.getIntrinsicHeight());
+                // U message: logo + name as one drawable (the brand name must not be replaced by langpacks)
+                titleWordmark = new UMessageWordmarkDrawable(context, true);
+                logoDrawable = titleWordmark;
+                logoDrawable.setBounds(0, dp(1), logoDrawable.getIntrinsicWidth(), dp(1) + logoDrawable.getIntrinsicHeight());
                 logoDrawable.setColorFilter(getThemedColor(Theme.key_telegram_color_dialogsLogo), PorterDuff.Mode.MULTIPLY);
-                SpannableStringBuilder ssb = new SpannableStringBuilder(getString(R.string.AppName));
+                SpannableStringBuilder ssb = new SpannableStringBuilder("U message");
                 ssb.setSpan(new ImageSpan(logoDrawable), 0, ssb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
                 actionBar.setTitle(ssb, statusDrawable);
                 updateStatus(UserConfig.getInstance(currentAccount).getCurrentUser(), false);
@@ -3819,6 +3885,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                                     FilterCreateActivity.FilterInvitesBottomSheet.show(DialogsActivity.this, finalFilter, null);
                                 }
                             })
+                            .addIf(dialogFilter != null && UMessageConfig.isHiddenChatsEnabled(), R.drawable.msg_archive_hide, LocaleController.getString(R.string.UMessageHideFolder), () -> {
+                                UMessageConfig.setFolderHidden(currentAccount, dialogFilter.id, true);
+                                filterTabsView.selectFirstTab();
+                                updateFilterTabs(true, true);
+                                BulletinFactory.of(DialogsActivity.this).createSimpleBulletin(R.raw.chats_hide, LocaleController.getString(R.string.UMessageHideFolder)).show();
+                            })
                             .addIf(!defaultTab, R.drawable.msg_delete, LocaleController.getString(R.string.FilterDeleteItem), true, () -> {
                                 showDeleteAlert(dialogFilter);
                             })
@@ -3908,6 +3980,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 } else if (id == 3) {
                     showSearch(true, true, true);
                     fragmentSearchFieldWatcher.toggleSearch(true);
+                } else if (id == 15) {
+                    toggleGhostMode();
                 } else if (id == 11) {
                     openAccountSelector(switchItem);
                 } else if (id == add_to_folder) {
@@ -4008,6 +4082,26 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                     hideActionMode(false);
                 } else if (id == pin || id == read || id == delete || id == clear || id == mute || id == archive || id == block || id == archive2 || id == pin2) {
                     performSelectedDialogsAction(selectedDialogs, id, true, false);
+                } else if (id == umessage_hide_chat) {
+                    final int count = selectedDialogs.size();
+                    if (umHiddenMode) {
+                        // back to the regular chat list
+                        UMessageConfig.setChatsHidden(currentAccount, new ArrayList<>(selectedDialogs), false);
+                        hideActionMode(true);
+                        BulletinFactory.of(DialogsActivity.this).createSimpleBulletin(R.raw.chats_unhide, getString(R.string.UMessageChatsShown)).show();
+                    } else if (count == 0) {
+                        if (UMessageConfig.isHiddenAccess(UMessageConfig.HIDDEN_ACCESS_HIDE_ICON)) {
+                            // nothing selected: the same button opens the hidden chats after the PIN
+                            hideActionMode(true);
+                            UMessageHiddenChats.open(DialogsActivity.this);
+                        } else {
+                            BulletinFactory.of(DialogsActivity.this).createSimpleBulletin(R.raw.chats_hide, getString(R.string.UMessageHideSelectChats)).show();
+                        }
+                    } else {
+                        UMessageConfig.setChatsHidden(currentAccount, new ArrayList<>(selectedDialogs), true);
+                        hideActionMode(true);
+                        BulletinFactory.of(DialogsActivity.this).createSimpleBulletin(R.raw.chats_hide, LocaleController.formatPluralString("UMessageChatsHidden", count)).show();
+                    }
                 }
             }
         });
@@ -4735,10 +4829,18 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         floatingButtonStories.setContentDescription(getString(R.string.StoryPrivacyButtonPost));
         floatingButtonStories.setImageResource(R.drawable.outline_fab_story_24);
         floatingButtonStories.setOnClickListener(v -> openStoriesRecorder());
-        contentView.addView(floatingButtonStories, FragmentFloatingButton.createSubButtonLayoutParams());
+        contentView.addView(floatingButtonStories, hasMainTabs
+                ? LayoutHelper.createFrame(FragmentFloatingButton.SIZE, FragmentFloatingButton.SIZE, Gravity.RIGHT | Gravity.BOTTOM, 0, 0, MAIN_TABS_MARGIN + 4, MAIN_TABS_MARGIN)
+                : FragmentFloatingButton.createSubButtonLayoutParams());
+
+        if (hasMainTabs) {
+            createEditBar(context, contentView);
+        }
 
         floatingButton3 = new FragmentFloatingButton(context, resourceProvider);
-        contentView.addView(floatingButton3, FragmentFloatingButton.createDefaultLayoutParams());
+        contentView.addView(floatingButton3, hasMainTabs
+                ? LayoutHelper.createFrame(MAIN_TABS_HEIGHT, MAIN_TABS_HEIGHT, Gravity.RIGHT | Gravity.BOTTOM, 0, 0, MAIN_TABS_MARGIN, MAIN_TABS_MARGIN)
+                : FragmentFloatingButton.createDefaultLayoutParams());
         floatingButton3.setOnClickListener(v -> {
             if (parentLayout != null && parentLayout.isInPreviewMode()) {
                 finishPreviewFragment();
@@ -4762,7 +4864,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
         });
 
-        if (!isArchive() && initialDialogsType == DIALOGS_TYPE_DEFAULT) {
+        if (!isArchive() && initialDialogsType == DIALOGS_TYPE_DEFAULT && !hasMainTabs) {
             if (MessagesController.getInstance(currentAccount).getMainSettings().getBoolean("storyhint", true)) {
                 storyHint = new HintView2(context, HintView2.DIRECTION_RIGHT)
                         .setRounding(8)
@@ -6737,6 +6839,9 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         muteItem = actionMode.addItemWithWidth(mute, R.drawable.msg_mute, dp(48));
         archive2Item = actionMode.addItemWithWidth(archive2, R.drawable.msg_archive, dp(48));
         deleteItem = actionMode.addItemWithWidth(delete, R.drawable.msg_delete, dp(48), LocaleController.getString(R.string.Delete));
+        hideChatItem = actionMode.addItemWithWidth(umessage_hide_chat, umHiddenMode ? R.drawable.msg_archive_show : R.drawable.msg_archive_hide, dp(48),
+                LocaleController.getString(umHiddenMode ? R.string.UMessageShowChat : R.string.UMessageHideChat));
+        hideChatItem.setVisibility(View.GONE);
 
         ActionBarMenuItem otherItem = actionMode.addItemWithWidth(0, R.drawable.ic_ab_other, dp(48), LocaleController.getString(R.string.AccDescrMoreOptions));
         actionMode.addView(new View(getContext()), LayoutHelper.createLinear(5, LayoutHelper.MATCH_PARENT));
@@ -6757,6 +6862,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         actionModeViews.add(archive2Item);
         actionModeViews.add(muteItem);
         actionModeViews.add(deleteItem);
+        actionModeViews.add(hideChatItem);
         actionModeViews.add(otherItem);
 
         updateCounters(false);
@@ -6855,7 +6961,15 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             filterOptions = null;
         }
         final ArrayList<MessagesController.DialogFilter> filters = getMessagesController().getDialogFilters();
-        if (filters.size() > 1) {
+        // U message: the folder tabs row can be hidden; the list then shows all chats
+        int visibleFilters = 0;
+        for (int i = 0; i < filters.size(); i++) {
+            final MessagesController.DialogFilter filter = filters.get(i);
+            if (filter.isDefault() || UMessageConfig.isFolderHidden(currentAccount, filter.id) == umHiddenMode) {
+                visibleFilters++;
+            }
+        }
+        if (visibleFilters > 1 && (!UMessageConfig.isFolderTabsHidden() || umHiddenMode)) {
             if (force || filterTabsView.getVisibility() != View.VISIBLE) {
                 boolean animatedUpdateItems = animated;
                 if (filterTabsView.getVisibility() != View.VISIBLE) {
@@ -6872,12 +6986,20 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                     selectWithStableId = true;
                 }
                 filterTabsView.removeTabs();
+                final boolean folderIcons = UMessageConfig.isFolderIcons();
                 for (int a = 0, N = filters.size(); a < N; a++) {
-                    if (filters.get(a).isDefault()) {
-                        filterTabsView.addTab(a, 0, LocaleController.getString(R.string.FilterAllChats), null, false, true, filters.get(a).locked);
+                    final MessagesController.DialogFilter filter = filters.get(a);
+                    if (!filter.isDefault() && UMessageConfig.isFolderHidden(currentAccount, filter.id) != umHiddenMode) {
+                        continue;
+                    }
+                    if (filter.isDefault()) {
+                        filterTabsView.addTab(a, 0, folderIcons ? UMessageConfig.getFolderIcon(currentAccount, filter) : LocaleController.getString(umHiddenMode ? R.string.UMessageHiddenChats : R.string.FilterAllChats), null, false, true, filter.locked);
                     } else {
-                        final MessagesController.DialogFilter filter = filters.get(a);
-                        filterTabsView.addTab(a, filter.localId, filter.name, filter.entities, filter.title_noanimate, false, filters.get(a).locked);
+                        if (folderIcons) {
+                            filterTabsView.addTab(a, filter.localId, UMessageConfig.getFolderIcon(currentAccount, filter), null, true, false, filters.get(a).locked);
+                        } else {
+                            filterTabsView.addTab(a, filter.localId, filter.name, filter.entities, filter.title_noanimate, false, filters.get(a).locked);
+                        }
                     }
                 }
                 if (stableId >= 0) {
@@ -7019,6 +7141,13 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         super.onResume();
         if (dialogStoriesCell != null) {
             dialogStoriesCell.onResume();
+        }
+        if (umessageSettingsVersion != UMessageConfig.getVersion()) {
+            // U message settings changed while this list was in the background
+            umessageSettingsVersion = UMessageConfig.getVersion();
+            updateGhostItem();
+            updateStoriesVisibility(false);
+            updateFilterTabs(true, false);
         }
         if (rightSlidingDialogContainer != null) {
             rightSlidingDialogContainer.onResume();
@@ -7163,7 +7292,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 if (undoView[0] != null && undoView[0].getVisibility() == View.VISIBLE) {
                     return;
                 }
-                additionalFloatingTranslation = Math.max(0, offset - navigationBarHeight - additionFloatingButtonOffset);
+                additionalFloatingTranslation = Math.max(0, offset - navigationBarHeight - (hasMainTabs ? dp(MAIN_TABS_HEIGHT_WITH_MARGINS) : 0));
                 updateFloatingButtonOffset();
             }
 
@@ -8843,13 +8972,13 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
     }
 
     private void updateFloatingButtonVisibility(boolean animated) {
-        final boolean isVisible = !(onlySelect && initialDialogsType != 10 || folderId != 0 || communityId != 0 || inPreviewMode || (searching && !onlySelect) || floatingButtonHidden);
+        final boolean isVisible = !(onlySelect && initialDialogsType != 10 || folderId != 0 || communityId != 0 || umHiddenMode || inPreviewMode || (searching && !onlySelect) || floatingButtonHidden);
 
         if (floatingButton3 != null) {
-            floatingButton3.setButtonVisible(isVisible, animated);
+            floatingButton3.setButtonVisible(isVisible && !hasMainTabs, animated);
         }
         if (floatingButtonStories != null) {
-            floatingButtonStories.setButtonVisible(isVisible, animated);
+            floatingButtonStories.setButtonVisible(isVisible && !hasMainTabs, animated);
         }
     }
 
@@ -8861,10 +8990,14 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         if (floatingButton3 != null) {
             floatingButton3.setTranslationY(baseTranslationY);
         }
+        if (editBar != null) {
+            editBar.setTranslationY(-navigationBarHeight);
+        }
         if (floatingButtonStories != null) {
-            floatingButtonStories.setTranslationY(baseTranslationY - dp(52));
+            final int storiesOffset = hasMainTabs ? dp(MAIN_TABS_HEIGHT + 8) : dp(52);
+            floatingButtonStories.setTranslationY(baseTranslationY - storiesOffset);
             if (storyHint != null) {
-                storyHint.setTranslationY(baseTranslationY - dp(52));
+                storyHint.setTranslationY(baseTranslationY - storiesOffset);
             }
         }
     }
@@ -9014,6 +9147,9 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
     }
 
     private void hideActionMode(boolean animateCheck) {
+        if (editMode) {
+            setEditMode(false);
+        }
         actionBar.hideActionMode();
         selectedDialogs.clear();
         if (backDrawable != null) {
@@ -9924,6 +10060,14 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 blockItem.setVisibility(View.VISIBLE);
             }
         }
+        if (hideChatItem != null) {
+            // U message: with hidden chats on, the top trash can becomes hide (with nothing selected: open hidden chats)
+            final boolean hideEnabled = UMessageConfig.isHiddenChatsEnabled() && folderId == 0 && communityId == 0 && (!umHiddenMode || count > 0);
+            hideChatItem.setVisibility(hideEnabled ? View.VISIBLE : View.GONE);
+            if (hideEnabled && deleteItem != null && !umHiddenMode) {
+                deleteItem.setVisibility(View.GONE);
+            }
+        }
         if (removeFromFolderItem != null) {
             boolean cantRemoveFromFolder = filterTabsView == null || filterTabsView.getVisibility() != View.VISIBLE || filterTabsView.currentTabIsDefault();
             if (!cantRemoveFromFolder) {
@@ -9996,11 +10140,210 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         return true;
     }
 
+    /* U message: ghost mode button next to search */
+
+    private ActionBarMenuItem ghostItem;
+    private int umessageSettingsVersion = UMessageConfig.getVersion();
+
+    private ImageView ghostSearchButton;
+
+    private void toggleGhostMode() {
+        UMessageConfig.setGhostMode(!UMessageConfig.isGhostMode());
+        updateGhostItem();
+        BulletinFactory.of(DialogsActivity.this).createSimpleBulletin(R.raw.chats_hide, getString(UMessageConfig.isGhostMode() ? R.string.UMessageGhostModeOn : R.string.UMessageGhostModeOff)).show();
+    }
+
+    private void updateGhostItem() {
+        final boolean on = UMessageConfig.isGhostMode();
+        if (ghostItem != null) {
+            ghostItem.setVisibility(UMessageConfig.isGhostButton() ? View.VISIBLE : View.GONE);
+            ghostItem.setIconColor(getThemedColor(on ? Theme.key_featuredStickers_addButton : Theme.key_actionBarDefaultIcon));
+            ghostItem.setAlpha(on ? 1f : 0.6f);
+        }
+        if (ghostSearchButton != null) {
+            // keep the ghost as the right-most icon; downloads/speed then sit to its left
+            if (fragmentSearchField != null) {
+                fragmentSearchField.moveAdditionalIconToEnd(ghostSearchButton);
+            }
+            // hidden while searching: the field then shows its own close button there
+            ghostSearchButton.setVisibility(UMessageConfig.isGhostButton() && !searching && !searchIsShowed ? View.VISIBLE : View.GONE);
+            ghostSearchButton.setColorFilter(new PorterDuffColorFilter(getThemedColor(on ? Theme.key_featuredStickers_addButton : Theme.key_windowBackgroundWhiteGrayIcon), PorterDuff.Mode.MULTIPLY));
+            ghostSearchButton.setAlpha(on ? 1f : 0.55f);
+        }
+    }
+
+    /* U message: header pill (add story + edit) and the iOS-like edit mode */
+
+    private boolean editMode;
+    private LinearLayout editBar;
+    private TextView editReadButton, editArchiveButton, editDeleteButton;
+    private ActionBarMenuItem pillItem;
+    private ImageView savedButton;
+    private float pillSavedProgress = 1f;
+
+    /** Saved messages joins the header pill only while the stories are expanded (the header is short otherwise). */
+    private void setPillSavedProgress(float progress) {
+        if (pillItem == null || savedButton == null || pillSavedProgress == progress) {
+            return;
+        }
+        pillSavedProgress = progress;
+        final int savedWidth = (int) (dp(44) * progress);
+        savedButton.getLayoutParams().width = savedWidth;
+        savedButton.setAlpha(progress);
+        savedButton.setScaleX(0.6f + 0.4f * progress);
+        savedButton.setScaleY(0.6f + 0.4f * progress);
+        savedButton.setVisibility(savedWidth > 0 ? View.VISIBLE : View.GONE);
+        pillItem.getLayoutParams().width = dp(96) + savedWidth;
+        pillItem.requestLayout();
+        savedButton.requestLayout();
+    }
+
+    private void createHeaderPill(Context context, ActionBarMenu menu) {
+        pillItem = menu.addItemWithWidth(14, 0, dp(140));
+        pillItem.setBackground(null);
+        LinearLayout pill = new LinearLayout(context);
+        pill.setOrientation(LinearLayout.HORIZONTAL);
+        pill.setBackground(Theme.createRoundRectDrawable(dp(20), Theme.multAlpha(getThemedColor(Theme.key_windowBackgroundWhiteBlackText), 0.06f)));
+        pillItem.addView(pill, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 40, Gravity.CENTER));
+
+        ImageView storyButton = createPillButton(context, R.drawable.umessage_header_story_add, getString(R.string.StoryPrivacyButtonPost));
+        storyButton.setOnClickListener(v -> openStoriesRecorder());
+        pill.addView(storyButton, LayoutHelper.createLinear(44, 40));
+
+        ImageView editButton = createPillButton(context, R.drawable.umessage_header_edit, getString(R.string.Edit));
+        editButton.setOnClickListener(v -> {
+            if (editMode) {
+                hideActionMode(true);
+            } else {
+                setEditMode(true);
+            }
+        });
+        editButton.setOnLongClickListener(v -> {
+            if (!UMessageConfig.isHiddenAccess(UMessageConfig.HIDDEN_ACCESS_EDIT_LONG_PRESS)) {
+                return false;
+            }
+            v.performHapticFeedback(android.view.HapticFeedbackConstants.LONG_PRESS);
+            UMessageHiddenChats.open(this);
+            return true;
+        });
+        pill.addView(editButton, LayoutHelper.createLinear(44, 40));
+
+        savedButton = createPillButton(context, R.drawable.umessage_header_saved, getString(R.string.SavedMessages));
+        savedButton.setOnClickListener(v -> {
+            Bundle args = new Bundle();
+            args.putLong("user_id", getUserConfig().getClientUserId());
+            presentFragment(new ChatActivity(args));
+        });
+        pill.addView(savedButton, LayoutHelper.createLinear(44, 40));
+    }
+
+    /** Main tabs dock action button on the chats tab: new message. */
+    public void onMainTabsActionClick() {
+        if (MessagesController.getInstance(currentAccount).isFrozen()) {
+            AccountFrozenAlert.show(currentAccount);
+            return;
+        }
+        openWriteContacts();
+    }
+
+    private ImageView createPillButton(Context context, int icon, String description) {
+        ImageView button = new ImageView(context);
+        button.setScaleType(ImageView.ScaleType.CENTER);
+        button.setImageResource(icon);
+        button.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_windowBackgroundWhiteBlackText), PorterDuff.Mode.MULTIPLY));
+        button.setBackground(Theme.createSelectorDrawable(getThemedColor(Theme.key_listSelector), Theme.RIPPLE_MASK_CIRCLE_20DP));
+        button.setContentDescription(description);
+        return button;
+    }
+
+    private void createEditBar(Context context, ViewGroup contentView) {
+        editBar = new LinearLayout(context);
+        editBar.setOrientation(LinearLayout.HORIZONTAL);
+        editBar.setGravity(Gravity.CENTER_VERTICAL);
+        editBar.setVisibility(View.GONE);
+
+        editReadButton = createEditBarButton(context, getString(R.string.UMessageReadAll));
+        editReadButton.setOnClickListener(v -> {
+            if (selectedDialogs.isEmpty()) {
+                ArrayList<TLRPC.Dialog> dialogs = new ArrayList<>(getDialogsArray(currentAccount, viewPages[0].dialogsType, folderId, false));
+                markDialogsAsRead(dialogs);
+                hideActionMode(true);
+            } else {
+                performSelectedDialogsAction(new ArrayList<>(selectedDialogs), read, true, false);
+            }
+        });
+        editArchiveButton = createEditBarButton(context, getString(R.string.Archive));
+        editArchiveButton.setOnClickListener(v -> {
+            if (!selectedDialogs.isEmpty()) {
+                performSelectedDialogsAction(new ArrayList<>(selectedDialogs), archive, true, false);
+            }
+        });
+        editDeleteButton = createEditBarButton(context, getString(R.string.Delete));
+        editDeleteButton.setOnClickListener(v -> {
+            if (!selectedDialogs.isEmpty()) {
+                performSelectedDialogsAction(new ArrayList<>(selectedDialogs), delete, true, false);
+            }
+        });
+
+        editBar.addView(editReadButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
+        editBar.addView(new View(context), LayoutHelper.createLinear(0, 1, 1f));
+        editBar.addView(editArchiveButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
+        editBar.addView(new View(context), LayoutHelper.createLinear(0, 1, 1f));
+        editBar.addView(editDeleteButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
+        contentView.addView(editBar, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, MAIN_TABS_HEIGHT_WITH_MARGINS, Gravity.BOTTOM, 16, 0, 16, 0));
+    }
+
+    private TextView createEditBarButton(Context context, String text) {
+        TextView button = new TextView(context);
+        button.setText(text);
+        button.setGravity(Gravity.CENTER);
+        button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
+        button.setTypeface(AndroidUtilities.bold());
+        button.setPadding(dp(20), 0, dp(20), 0);
+        button.setTextColor(getThemedColor(Theme.key_windowBackgroundWhiteBlackText));
+        button.setBackground(Theme.createSimpleSelectorRoundRectDrawable(dp(24), getThemedColor(Theme.key_windowBackgroundWhite), getThemedColor(Theme.key_listSelector)));
+        button.setElevation(dp(3));
+        ScaleStateListAnimator.apply(button);
+        return button;
+    }
+
+    private void setEditMode(boolean enabled) {
+        if (editMode == enabled) {
+            return;
+        }
+        editMode = enabled;
+        DialogCell.editModeCheckboxes = enabled;
+        if (enabled) {
+            showOrUpdateActionMode(0, null);
+        }
+        updateVisibleRows(MessagesController.UPDATE_MASK_SELECT_DIALOG);
+        if (editBar != null) {
+            editBar.setVisibility(enabled ? View.VISIBLE : View.GONE);
+        }
+        updateEditBar();
+        hideFloatingButton(enabled);
+        checkUi_mainTabsVisible();
+    }
+
+    private void updateEditBar() {
+        if (editBar == null) {
+            return;
+        }
+        final boolean hasSelection = !selectedDialogs.isEmpty();
+        editReadButton.setText(getString(hasSelection ? R.string.UMessageRead : R.string.UMessageReadAll));
+        editArchiveButton.setEnabled(hasSelection);
+        editArchiveButton.setAlpha(hasSelection ? 1f : 0.4f);
+        editDeleteButton.setEnabled(hasSelection);
+        editDeleteButton.setAlpha(hasSelection ? 1f : 0.4f);
+    }
+
     private void showOrUpdateActionMode(long dialogId, View cell) {
-        addOrRemoveSelectedDialog(dialogId, cell);
+        if (dialogId != 0) {
+            addOrRemoveSelectedDialog(dialogId, cell);
+        }
         boolean updateAnimated = false;
         if (actionBar.isActionModeShowed()) {
-            if (selectedDialogs.isEmpty()) {
+            if (selectedDialogs.isEmpty() && !editMode) {
                 hideActionMode(true);
                 return;
             }
@@ -10101,6 +10444,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         }
         updateCounters(false);
         selectedDialogsCountTextView.setNumber(selectedDialogs.size(), updateAnimated);
+        updateEditBar();
     }
 
     private void closeSearch() {
@@ -10991,7 +11335,9 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             return frozenDialogsList;
         }
         MessagesController messagesController = AccountInstance.getInstance(currentAccount).getMessagesController();
-        if (dialogsType == DIALOGS_TYPE_DEFAULT) {
+        if (dialogsType == DIALOGS_TYPE_DEFAULT && umHiddenMode) {
+            return messagesController.dialogsUMessageHidden;
+        } else if (dialogsType == DIALOGS_TYPE_DEFAULT) {
             return messagesController.getDialogs(folderId);
         } else if (dialogsType == DIALOGS_TYPE_WIDGET || dialogsType == DIALOGS_TYPE_IMPORT_HISTORY) {
             return messagesController.dialogsServerOnly;
@@ -11161,6 +11507,10 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         }
         if (hide && floatingForceVisible) {
             return;
+        }
+        if (hasMainTabs && !rightSlidingDialogContainer.hasFragment()) {
+            // U message: the new message button stays in place, it does not hide on scroll
+            hide = editMode;
         }
 
         floatingButtonHidden = hide;
@@ -12750,8 +13100,10 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         }
         boolean onlySelfStories = !isArchive() && getStoriesController().hasOnlySelfStories();
         boolean newVisibility;
-        if (communityId != 0) {
+        if (communityId != 0 || UMessageConfig.isStoriesHidden() || umHiddenMode) {
+            // U message: the stories row can be hidden from the chat list
             newVisibility = false;
+            onlySelfStories = false;
         } else if (isArchive()) {
             newVisibility = !getStoriesController().getHiddenList().isEmpty();
         } else {
@@ -14020,7 +14372,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
     }
 
     private void checkUi_mainTabsVisible() {
-        final boolean mainTabsVisible = !searching && (blurredView == null || blurredView.getBackground() == null || blurredView.getAlpha() < 0.01f || blurredView.getVisibility() == View.GONE);
+        updateGhostItem();
+        final boolean mainTabsVisible = !searching && !editMode && (blurredView == null || blurredView.getBackground() == null || blurredView.getAlpha() < 0.01f || blurredView.getVisibility() == View.GONE);
         if (mainTabsActivityController != null) {
             mainTabsActivityController.setTabsVisible(mainTabsVisible);
         }
@@ -14117,7 +14470,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
     }
 
     private void checkUi_itemSearchVisibility() {
-        final float factor0 = isSupportSearch() ? 1 : 0;
+        // U message: with main tabs the search field below the header is enough
+        final float factor0 = isSupportSearch() && !hasMainTabs ? 1 : 0;
         final float factor1 = animatorSearchButtonVisible.getFloatValue();
         final float factor2 = 1f - getRightSlidingProgress();
         final float factor3 = 1f - animatorDoneButtonVisible.getFloatValue();

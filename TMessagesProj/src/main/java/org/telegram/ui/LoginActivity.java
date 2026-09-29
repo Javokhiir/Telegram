@@ -3951,7 +3951,7 @@ public class LoginActivity extends BaseFragment implements NotificationCenter.No
                     if (nextPressed || timeText != null && timeText.getVisibility() != View.GONE || isResendingCode) {
                         return;
                     }
-                    boolean email = nextType == 0;
+                    boolean email = nextType == 0 && currentType != AUTH_TYPE_MESSAGE;
                     if (!email) {
                         if (radialProgressView.getTag() != null) {
                             return;
@@ -4179,7 +4179,10 @@ public class LoginActivity extends BaseFragment implements NotificationCenter.No
             req.phone_code_hash = phoneHash;
             int reqId = ConnectionsManager.getInstance(currentAccount).sendRequest(req, (response, error) -> AndroidUtilities.runOnUIThread(() -> {
                 nextPressed = false;
-                if (error == null) {
+                if (error == null && currentType == AUTH_TYPE_MESSAGE && response instanceof TLRPC.TL_auth_sentCode && ((TLRPC.TL_auth_sentCode) response).type instanceof TLRPC.TL_auth_sentCodeTypeApp) {
+                    // U message: the code was sent to the app again instead of an SMS
+                    needShowAlert(getString(R.string.RestorePasswordNoEmailTitle), getString(R.string.UMessageSmsUnavailable));
+                } else if (error == null) {
                     nextCodeParams = params;
                     nextCodeAuth = (TLRPC.TL_auth_sentCode) response;
                     if (nextCodeAuth.type instanceof TLRPC.TL_auth_sentCodeTypeSmsPhrase) {
@@ -4200,6 +4203,8 @@ public class LoginActivity extends BaseFragment implements NotificationCenter.No
                             needShowAlert(getString(R.string.RestorePasswordNoEmailTitle), getString(R.string.CodeExpired));
                         } else if (error.text.startsWith("FLOOD_WAIT")) {
                             needShowAlert(getString(R.string.RestorePasswordNoEmailTitle), getString(R.string.FloodWait));
+                        } else if (error.text.contains("SEND_CODE_UNAVAILABLE")) {
+                            needShowAlert(getString(R.string.RestorePasswordNoEmailTitle), getString(R.string.UMessageSmsUnavailable));
                         } else if (error.code != -1000) {
                             needShowAlert(getString(R.string.RestorePasswordNoEmailTitle), getString(R.string.ErrorOccurred) + "\n" + error.text);
                         }
@@ -4432,9 +4437,8 @@ public class LoginActivity extends BaseFragment implements NotificationCenter.No
                         problemText.setText(getString(R.string.DidNotGetTheCodePhone));
                     } else if (nextType == AUTH_TYPE_FRAGMENT_SMS) {
                         problemText.setText(getString(R.string.DidNotGetTheCodeFragment));
-                    } else if (nextType == 0) {
-                        problemText.setText(getString(R.string.DidNotGetTheCode));
                     } else {
+                        // U message: always offer SMS, the server decides whether it can send one
                         problemText.setText(getString(R.string.DidNotGetTheCodeSms));
                     }
                 } else {

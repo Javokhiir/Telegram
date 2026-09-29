@@ -1191,6 +1191,7 @@ public class NotificationsController extends BaseController implements Notificat
                     }
                     continue;
                 }
+                UMessageAutomation.onIncomingMessage(currentAccount, messageObject);
                 if (messageObject.messageOwner.mentioned) {
                     if (!allowPinned && messageObject.messageOwner.action instanceof TLRPC.TL_messageActionPinMessage) {
                         if (BuildVars.LOGS_ENABLED) {
@@ -1225,6 +1226,10 @@ public class NotificationsController extends BaseController implements Notificat
                     }
 
                     settingsCache.put(dialogId, value);
+                }
+                if (value && UMessageConfig.isNotificationSuppressed(currentAccount, originalDialogId)) {
+                    // U message: hidden chats and strangers (with stranger protection) never notify
+                    value = false;
                 }
 
                 if (BuildVars.LOGS_ENABLED) {
@@ -1322,6 +1327,13 @@ public class NotificationsController extends BaseController implements Notificat
                         }
                     }
                     canAddValue = canAddValue && !messageObject.isStoryPush;
+                    // U message focus mode: chats outside the allowed folders stay silent for now
+                    if (canAddValue && UMessageConfig.isSilencedByFocus(currentAccount, dialog_id, messageObject.messageOwner != null && messageObject.messageOwner.mentioned)) {
+                        canAddValue = false;
+                    }
+                    if (canAddValue && UMessageConfig.isNotificationSuppressed(currentAccount, dialog_id)) {
+                        canAddValue = false;
+                    }
 
                     if (canAddValue) {
                         if (getMessagesController().isCommunity(dialog_id)) {
@@ -4581,7 +4593,7 @@ public class NotificationsController extends BaseController implements Notificat
             PendingIntent contentIntent = PendingIntent.getActivity(ApplicationLoader.applicationContext, 0, intent, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_ONE_SHOT);
 
             mBuilder.setContentTitle(name)
-                    .setSmallIcon(R.drawable.notification)
+                    .setSmallIcon(R.drawable.umessage_notification)
                     .setAutoCancel(true)
                     .setNumber(total_unread_count)
                     .setContentIntent(contentIntent)
@@ -5583,7 +5595,7 @@ public class NotificationsController extends BaseController implements Notificat
 
             NotificationCompat.Builder builder = new NotificationCompat.Builder(ApplicationLoader.applicationContext)
                     .setContentTitle(name)
-                    .setSmallIcon(R.drawable.notification)
+                    .setSmallIcon(R.drawable.umessage_notification)
                     .setContentText(text.toString())
                     .setAutoCancel(true)
                     .setNumber(dialogKey.story ? storyPushMessages.size() : messageObjects.size())

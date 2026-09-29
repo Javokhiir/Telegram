@@ -576,7 +576,8 @@ public class UserConfig extends BaseController {
         if (user == null) {
             return false;
         }
-        return user.premium;
+        // U message app-only premium unlocks premium features locally for a granted user.
+        return user.premium || UMessagePremiumController.getInstance().isSelfPremium(currentAccount);
     }
 
     public Long getEmojiStatus() {

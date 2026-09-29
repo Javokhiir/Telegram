@@ -8,6 +8,9 @@
 
 package org.telegram.ui;
 
+import org.telegram.messenger.UMessageConfig;
+import org.telegram.messenger.UMessageHistory;
+import org.telegram.ui.Components.UMessagePublicProfileInfo;
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
 import static org.telegram.messenger.LocaleController.formatPluralStringComma;
@@ -534,6 +537,8 @@ public class ChatActivity extends BaseFragment implements
     private FrameLayout topChatPanelView;
     @Nullable
     private TextView addToContactsButton;
+    @Nullable
+    private TextView publicInfoButton;
     private boolean addToContactsButtonArchive;
     @Nullable
     private TextView reportSpamButton;
@@ -655,6 +660,7 @@ public class ChatActivity extends BaseFragment implements
     private int pinBullerinTag;
     protected boolean openKeyboardOnAttachMenuClose;
     private FlagSecureReason flagSecure;
+    private PrivacyGuardChatShield privacyGuardShield; // U message: Privacy Guard
     public boolean isFullyVisible;
 
     private MessageObject hintMessageObject;
@@ -1247,6 +1253,7 @@ public class ChatActivity extends BaseFragment implements
 
     public final static int OPTION_VIEW_STATISTICS = 115;
     public final static int OPTION_WELCOME_REVERT = 116;
+    public final static int OPTION_UMESSAGE_EDIT_HISTORY = 1001;
 
     private final static int[] allowedNotificationsDuringChatListAnimations = new int[]{
             NotificationCenter.messagesRead,
@@ -2923,6 +2930,7 @@ public class ChatActivity extends BaseFragment implements
             .add(NotificationCenter.didLoadSendAsPeers)
             .add(NotificationCenter.closeChatActivity)
             .add(NotificationCenter.messagesDeleted)
+            .add(NotificationCenter.umessageMessagesChanged)
             .add(NotificationCenter.historyCleared)
             .add(NotificationCenter.messageReceivedByServer)
             .add(NotificationCenter.messageReceivedByAck)
@@ -3353,6 +3361,10 @@ public class ChatActivity extends BaseFragment implements
     @Override
     public void onFragmentDestroy() {
         super.onFragmentDestroy();
+        if (privacyGuardShield != null) {
+            privacyGuardShield.destroy();
+            privacyGuardShield = null;
+        }
         if (messageMetricsView != null) {
             messageMetricsView.finish();
         }
@@ -7131,6 +7143,7 @@ public class ChatActivity extends BaseFragment implements
         reportSpamButton = null;
         emojiStatusSpamHint = null;
         addToContactsButton = null;
+        publicInfoButton = null;
         restartTopicButton = null;
         closeReportSpam = null;
         translateButton = null;
@@ -8966,6 +8979,21 @@ public class ChatActivity extends BaseFragment implements
 
         onBottomItemsVisibilityChanged();
         ViewCompat.setOnApplyWindowInsetsListener(fragmentView, this::onApplyWindowInsets);
+
+        // U message: Privacy Guard hides the chat while someone else may be viewing the screen
+        if (privacyGuardShield != null) {
+            privacyGuardShield.destroy();
+        }
+        privacyGuardShield = new PrivacyGuardChatShield(this, contentView, actionBar, themeDelegate, () -> {
+            if (scrimPopupWindow != null || scrimView != null) {
+                closeMenu();
+            }
+        });
+        privacyGuardShield.setComposerView(chatInputViewsContainer);
+        if (!paused) {
+            // views rebuilt while visible (theme change): keep guarding
+            privacyGuardShield.attach();
+        }
         Timer.finish(t);
 
         return fragmentView;
@@ -9627,31 +9655,31 @@ public class ChatActivity extends BaseFragment implements
                     width -= dp(SIDE_MENU_WIDTH);
                     leftMargin += dp(32);
                 }
-                if (addToContactsButton != null && addToContactsButton.getVisibility() == VISIBLE && reportSpamButton != null && reportSpamButton.getVisibility() == VISIBLE) {
-                    width = (width - dp(31)) / 2;
-                }
+                int visibleButtons = (addToContactsButton != null && addToContactsButton.getVisibility() == VISIBLE ? 1 : 0)
+                        + (publicInfoButton != null && publicInfoButton.getVisibility() == VISIBLE ? 1 : 0)
+                        + (reportSpamButton != null && reportSpamButton.getVisibility() == VISIBLE ? 1 : 0);
+                int buttonWidth = visibleButtons > 1 ? (width - dp(31)) / visibleButtons : width;
+                int buttonLeft = leftMargin;
                 ignoreLayout = true;
-                if (reportSpamButton != null && reportSpamButton.getVisibility() == VISIBLE) {
-                    FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) reportSpamButton.getLayoutParams();
-                    layoutParams.width = width;
-                    if (addToContactsButton != null && addToContactsButton.getVisibility() == VISIBLE) {
-                        reportSpamButton.setPadding(dp(4), 0, dp(4), 0);
-                        layoutParams.leftMargin = leftMargin + width;
-                        layoutParams.width -= dp(15);
-                    } else {
-                        reportSpamButton.setPadding(dp(48), 0, dp(48), 0);
-                        layoutParams.leftMargin = leftMargin;
-                    }
-                }
                 if (addToContactsButton != null && addToContactsButton.getVisibility() == VISIBLE) {
                     FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) addToContactsButton.getLayoutParams();
-                    layoutParams.width = width;
-                    if (reportSpamButton != null && reportSpamButton.getVisibility() == VISIBLE) {
-                        addToContactsButton.setPadding(dp(11), 0, dp(4), 0);
-                    } else {
-                        addToContactsButton.setPadding(dp(48), 0, dp(48), 0);
-                    }
-                    layoutParams.leftMargin = leftMargin;
+                    layoutParams.width = buttonWidth;
+                    layoutParams.leftMargin = buttonLeft;
+                    addToContactsButton.setPadding(dp(4), 0, dp(4), 0);
+                    buttonLeft += buttonWidth;
+                }
+                if (publicInfoButton != null && publicInfoButton.getVisibility() == VISIBLE) {
+                    FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) publicInfoButton.getLayoutParams();
+                    layoutParams.width = buttonWidth;
+                    layoutParams.leftMargin = buttonLeft;
+                    publicInfoButton.setPadding(dp(4), 0, dp(4), 0);
+                    buttonLeft += buttonWidth;
+                }
+                if (reportSpamButton != null && reportSpamButton.getVisibility() == VISIBLE) {
+                    FrameLayout.LayoutParams layoutParams = (FrameLayout.LayoutParams) reportSpamButton.getLayoutParams();
+                    layoutParams.width = visibleButtons > 1 ? buttonWidth - dp(15) : buttonWidth;
+                    layoutParams.leftMargin = buttonLeft;
+                    reportSpamButton.setPadding(visibleButtons > 1 ? dp(4) : dp(48), 0, visibleButtons > 1 ? dp(4) : dp(48), 0);
                 }
                 ignoreLayout = false;
                 super.onMeasure(widthMeasureSpec, heightMeasureSpec);
@@ -9758,6 +9786,18 @@ public class ChatActivity extends BaseFragment implements
                 presentFragment(activity);
             }
         });
+
+        publicInfoButton = new TextView(getContext());
+        publicInfoButton.setText(LocaleController.getString(R.string.UMessagePublicInfoButton));
+        publicInfoButton.setTextColor(getThemedColor(Theme.key_chat_addContact));
+        publicInfoButton.setVisibility(View.GONE);
+        publicInfoButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 13);
+        publicInfoButton.setTypeface(AndroidUtilities.bold());
+        publicInfoButton.setSingleLine(true);
+        publicInfoButton.setGravity(Gravity.CENTER);
+        publicInfoButton.setBackground(Theme.createInsetRoundRectDrawable(getThemedColor(Theme.key_chat_addContact) & 0x19ffffff, dp(18), dp(4)));
+        topChatPanelView.addView(publicInfoButton, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT, Gravity.LEFT | Gravity.TOP));
+        publicInfoButton.setOnClickListener(v -> UMessagePublicProfileInfo.show(ChatActivity.this, currentUser, userInfo));
 
         restartTopicButton = new TextView(getContext());
         restartTopicButton.setTextColor(getThemedColor(Theme.key_chat_addContact));
@@ -15737,7 +15777,7 @@ public class ChatActivity extends BaseFragment implements
                         videoPlayerContainer.setTag(R.id.parent_tag, null);
                         if (layoutParams.width != AndroidUtilities.roundPlayingMessageSize(isSideMenued()) || layoutParams.height != AndroidUtilities.roundPlayingMessageSize(isSideMenued())) {
                             layoutParams.width = layoutParams.height = AndroidUtilities.roundPlayingMessageSize(isSideMenued());
-                            aspectRatioFrameLayout.setResizeMode(AspectRatioFrameLayout.RESIZE_MODE_FIT);
+                            aspectRatioFrameLayout.setResizeMode(AspectRatioFrameLayout.RESIZE_MODE_ZOOM); // U message: non-square round videos are masked from the center
                             videoPlayerContainer.setLayoutParams(layoutParams);
                         }
                         float scale = (AndroidUtilities.roundPlayingMessageSize(isSideMenued()) + AndroidUtilities.roundMessageInset * 2) / (float) AndroidUtilities.roundPlayingMessageSize(isSideMenued());
@@ -17527,6 +17567,9 @@ public class ChatActivity extends BaseFragment implements
 
         @Override
         protected boolean drawChild(Canvas canvas, View child, long drawingTime) {
+            if (privacyGuardShield != null && privacyGuardShield.skipsChild(child)) {
+                return false;
+            }
             if ((scrimView != null || messageEnterTransitionContainer.isRunning()) && (child == sideControlsButtonsLayout || child == floatingDateView || child == floatingTopicSeparator || child == fireworksOverlay || child == quickShareSelectorOverlay || child == gifHintTextView || child == emojiHintTextView || child == undoView || child == topUndoView)) {
                 return false;
             }
@@ -18196,6 +18239,9 @@ public class ChatActivity extends BaseFragment implements
                 actionBar.draw(canvas);
                 canvas.restore();
                 canvas.restore();
+            }
+            if (privacyGuardShield != null) {
+                privacyGuardShield.drawOverlay(canvas, child -> super.drawChild(canvas, child, SystemClock.uptimeMillis()));
             }
 
             /*if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S && scrollableViewNoiseSuppressor != null) {
@@ -20281,6 +20327,12 @@ public class ChatActivity extends BaseFragment implements
     @Override
     public void onActivityResultFragment(int requestCode, int resultCode, Intent data) {
         if (resultCode == Activity.RESULT_OK) {
+            if (requestCode == ChatActivityEnterView.DICTATION_REQUEST_CODE) {
+                if (chatActivityEnterView != null) {
+                    chatActivityEnterView.onDictationResult(data);
+                }
+                return;
+            }
             if (requestCode == 0 || requestCode == 2) {
                 createChatAttachView();
                 if (chatAttachAlert != null) {
@@ -22240,6 +22292,17 @@ public class ChatActivity extends BaseFragment implements
             removeUnreadPlane(true);
             if (updated && chatAdapter != null) {
                 chatAdapter.notifyDataSetChanged(false);
+            }
+        } else if (id == NotificationCenter.umessageMessagesChanged) {
+            // U message: a kept deleted message or a saved edit changed how a visible message looks
+            if (chatListView != null) {
+                for (int a = 0, count = chatListView.getChildCount(); a < count; a++) {
+                    View child = chatListView.getChildAt(a);
+                    if (child instanceof ChatMessageCell && ((ChatMessageCell) child).getMessageObject() != null) {
+                        ((ChatMessageCell) child).getMessageObject().forceUpdate = true;
+                    }
+                }
+                updateVisibleRows();
             }
         } else if (id == NotificationCenter.messagesDeleted) {
             boolean scheduled = (Boolean) args[2];
@@ -24891,7 +24954,7 @@ public class ChatActivity extends BaseFragment implements
     private Pattern sponsoredUrlPattern;
     private MessageObject botSponsoredMessage;
     private void addSponsoredMessages(boolean animated) {
-        if (sponsoredMessagesAdded || chatMode != 0 || !ChatObject.isChannel(currentChat) && !UserObject.isBot(currentUser) || !forwardEndReached[0] || getUserConfig().isPremium() && getMessagesController().isSponsoredDisabled() || isReport()) {
+        if (sponsoredMessagesAdded || chatMode != 0 || !ChatObject.isChannel(currentChat) && !UserObject.isBot(currentUser) || !forwardEndReached[0] || getUserConfig().isPremium() && getMessagesController().isSponsoredDisabled() || isReport() || UMessageConfig.isAdsBlocked()) {
             return;
         }
         MessagesController.SponsoredMessagesInfo res = getMessagesController().getSponsoredMessages(dialog_id);
@@ -29296,6 +29359,9 @@ public class ChatActivity extends BaseFragment implements
 
         addToContactsButtonArchive = false;
         TLRPC.User user = currentUser != null ? getMessagesController().getUser(currentUser.id) : null;
+        if (publicInfoButton != null) {
+            publicInfoButton.setVisibility(View.GONE);
+        }
         boolean isChatWithAdmin = false;
         if (user != null && !TextUtils.isEmpty(chatWithAdmin)) {
             createTopPanel();
@@ -29348,6 +29414,7 @@ public class ChatActivity extends BaseFragment implements
                 addContactItem.setVisibility(View.VISIBLE);
                 addContactItem.setText(LocaleController.getString(R.string.AddToContacts));
                 addToContactsButton.setVisibility(View.VISIBLE);
+                publicInfoButton.setVisibility(View.VISIBLE);
                 if (showArchive) {
                     addToContactsButtonArchive = true;
                     addToContactsButton.setText(LocaleController.getString(R.string.Unarchive));
@@ -29440,7 +29507,9 @@ public class ChatActivity extends BaseFragment implements
             topPanelLayout.setViewVisible(chatWithAdminTextView, isChatWithAdmin, animated);
         }
 
-        if (userBlocked || ((addToContactsButton == null || addToContactsButton.getVisibility() == View.GONE) && (reportSpamButton == null || reportSpamButton.getVisibility() == View.GONE))) {
+        if (userBlocked || ((addToContactsButton == null || addToContactsButton.getVisibility() == View.GONE)
+                && (publicInfoButton == null || publicInfoButton.getVisibility() == View.GONE)
+                && (reportSpamButton == null || reportSpamButton.getVisibility() == View.GONE))) {
             show = false;
         }
 
@@ -29740,6 +29809,9 @@ public class ChatActivity extends BaseFragment implements
     public void onResume() {
         super.onResume();
         checkShowBlur(false);
+        if (privacyGuardShield != null) {
+            privacyGuardShield.attach();
+        }
         activityResumeTime = System.currentTimeMillis();
         if (openImport && getSendMessagesHelper().getImportingHistory(dialog_id) != null) {
             ImportingAlert alert = new ImportingAlert(getParentActivity(), null, this, themeDelegate);
@@ -29951,6 +30023,9 @@ public class ChatActivity extends BaseFragment implements
     @Override
     public void onPause() {
         super.onPause();
+        if (privacyGuardShield != null) {
+            privacyGuardShield.detach();
+        }
         scrolling = false;
         if (scrimPopupWindow != null) {
             scrimPopupWindow.setPauseNotifications(false);
@@ -34249,6 +34324,9 @@ public class ChatActivity extends BaseFragment implements
             case OPTION_WELCOME_REVERT:
                 getMessagesController().revertWelcomeEphemeralMessage(selectedObject);
                 break;
+            case OPTION_UMESSAGE_EDIT_HISTORY:
+                UMessageHistory.showEditHistory(this, selectedObject);
+                break;
             case OPTION_SUGGESTION_ADD_OFFER:
             case OPTION_SUGGESTION_EDIT_PRICE: {
                 final MessageObject msg = selectedObjectGroup != null ? selectedObjectGroup.findPrimaryMessageObject() : selectedObject;
@@ -35586,6 +35664,31 @@ public class ChatActivity extends BaseFragment implements
         }, stars);
     }
 
+    // U message: gallery videos are normalized on the media preparation thread and
+    // sent with Telegram's round_message document attribute.
+    public boolean canSendRoundVideoFromGallery() {
+        return editingMessageObject == null && ChatObject.canSendRoundVideo(currentChat) && (userInfo == null || !userInfo.voice_messages_forbidden);
+    }
+
+    public boolean sendRoundVideoFromGallery(MediaController.PhotoEntry photoEntry, boolean notify, int scheduleDate) {
+        if (photoEntry == null || !photoEntry.isVideo || TextUtils.isEmpty(photoEntry.path) || !checkSlowModeAlert()) {
+            return false;
+        }
+        final VideoEditedInfo videoEditedInfo = new VideoEditedInfo();
+        videoEditedInfo.roundVideo = true;
+        videoEditedInfo.originalPath = photoEntry.path;
+        videoEditedInfo.startTime = -1;
+        videoEditedInfo.endTime = -1;
+        AlertsCreator.ensurePaidMessageConfirmation(currentAccount, getDialogId(), 1, payStars -> {
+            if (scheduleDate == 0) {
+                getMessagesController().sendTyping(dialog_id, getThreadId(), 7, 0);
+            }
+            SendMessagesHelper.prepareSendingVideo(getAccountInstance(), photoEntry.path, videoEditedInfo, null, null, dialog_id, replyingMessageObject, getThreadMessage(), null, replyingQuote, null, 0, null, notify, scheduleDate, 0, false, false, null, getMessageChatSendParams(), 0, payStars, getSendMonoForumPeerId(), getSendMessageSuggestionParams());
+            afterMessageSend();
+        });
+        return true;
+    }
+
     private void runCloseInstantCameraAnimation() {
         if (instantCameraView == null) {
             return;
@@ -35598,6 +35701,7 @@ public class ChatActivity extends BaseFragment implements
                 ObjectAnimator.ofFloat(cameraContainer, View.SCALE_Y, 0.5f),
                 ObjectAnimator.ofFloat(cameraContainer, View.ALPHA, 0.0f),
                 ObjectAnimator.ofFloat(instantCameraView.getButtonsLayout(), View.ALPHA, 0.0f),
+                ObjectAnimator.ofFloat(instantCameraView.getEffectsCarousel(), View.ALPHA, 0.0f),
                 ObjectAnimator.ofInt(instantCameraView.getPaint(), AnimationProperties.PAINT_ALPHA, 0),
                 ObjectAnimator.ofFloat(instantCameraView.getMuteImageView(), View.ALPHA, 0.0f)
         );
@@ -36461,6 +36565,25 @@ public class ChatActivity extends BaseFragment implements
         });
     }
 
+    private static CharSequence getSpanShownText(ChatMessageCell cell, CharacterStyle span) {
+        MessageObject messageObject = cell == null ? null : cell.getMessageObject();
+        if (messageObject == null || span == null) {
+            return null;
+        }
+        CharSequence[] texts = {messageObject.messageText, messageObject.caption};
+        for (CharSequence text : texts) {
+            if (text instanceof Spanned) {
+                Spanned spanned = (Spanned) text;
+                int start = spanned.getSpanStart(span);
+                int end = spanned.getSpanEnd(span);
+                if (start >= 0 && end > start) {
+                    return spanned.subSequence(start, end);
+                }
+            }
+        }
+        return null;
+    }
+
     private void applyFullRichMessageLocally(ChatMessageCell cell, MessageObject messageObject, TL_iv.RichMessage richMessage) {
         if (messageObject == null || messageObject.messageOwner == null || richMessage == null) return;
         messageObject.messageOwner.rich_message = richMessage;
@@ -36471,6 +36594,12 @@ public class ChatActivity extends BaseFragment implements
     }
 
     private void processExternalUrl(int type, String url, CharacterStyle span, ChatMessageCell cell, boolean forceAlert, boolean forceNoIV) {
+        final String maskedHost = UMessageSecurityGuard.getMaskedHost(getSpanShownText(cell, span), url);
+        if (maskedHost != null) {
+            UMessageSecurityGuard.showMaskedLinkDanger(getParentActivity(), maskedHost, url,
+                    () -> Browser.openUrlSecurityConfirmed(getParentActivity(), Uri.parse(url), true, !forceNoIV, makeProgressForLink(cell, span)));
+            return;
+        }
         try {
             String host = AndroidUtilities.getHostAuthority(url);
             if ((currentEncryptedChat == null || getMessagesController().secretWebpagePreview == 1) && getMessagesController().authDomains.contains(host)) {
@@ -37752,6 +37881,7 @@ public class ChatActivity extends BaseFragment implements
                                             ObjectAnimator.ofFloat(cameraContainer, View.SCALE_Y, scale),
                                             ObjectAnimator.ofFloat(cameraContainer, View.TRANSLATION_Y, position[1] - rect.y),
                                             ObjectAnimator.ofFloat(instantCameraView.getButtonsLayout(), View.ALPHA, 0.0f),
+                                            ObjectAnimator.ofFloat(instantCameraView.getEffectsCarousel(), View.ALPHA, 0.0f),
                                             ObjectAnimator.ofInt(instantCameraView.getPaint(), AnimationProperties.PAINT_ALPHA, 0),
                                             ObjectAnimator.ofFloat(instantCameraView.getMuteImageView(), View.ALPHA, 0.0f)
                                     );
@@ -46278,6 +46408,11 @@ public class ChatActivity extends BaseFragment implements
             items.add(getString(R.string.WelcomeMessageRevert));
             options.add(OPTION_WELCOME_REVERT);
             icons.add(R.drawable.outline_revert_24);
+        }
+        if (selectedObject != null && UMessageHistory.hasEditHistory(currentAccount, selectedObject)) {
+            items.add(getString(R.string.UMessageEditHistory));
+            options.add(OPTION_UMESSAGE_EDIT_HISTORY);
+            icons.add(R.drawable.msg_edit);
         }
     }
 

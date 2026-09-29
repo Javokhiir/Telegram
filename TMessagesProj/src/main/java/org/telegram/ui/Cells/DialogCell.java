@@ -3138,8 +3138,11 @@ public class DialogCell extends BaseCell implements StoriesListPlaceProvider.Ava
         invalidate();
     }
 
+    /** U message edit mode: every dialog shows a (possibly empty) selection circle. */
+    public static boolean editModeCheckboxes;
+
     public void setChecked(boolean checked, boolean animated) {
-        if (checkBox == null && !checked) {
+        if (checkBox == null && !checked && !editModeCheckboxes) {
             return;
         }
         if (checkBox == null) {
@@ -3155,6 +3158,7 @@ public class DialogCell extends BaseCell implements StoriesListPlaceProvider.Ava
             checkBox.setDrawBackgroundAsArc(3);
             addView(checkBox);
         }
+        checkBox.setDrawUnchecked(editModeCheckboxes);
         checkBox.setChecked(checked, animated);
         checkTtl();
     }

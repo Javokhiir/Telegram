@@ -2591,6 +2591,9 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
                     final Runnable send = () -> {
                         getConnectionsManager().sendRequest(req, (response, error) -> {
                             if (error == null) {
+                                getMessagesController().ghostGoOffline(); // U message: sending marks us online
+                            }
+                            if (error == null) {
                                 SparseLongArray newMessagesByIds = new SparseLongArray();
                                 TLRPC.Updates updates = (TLRPC.Updates) response;
                                 for (int a1 = 0; a1 < updates.updates.size(); a1++) {
@@ -7542,6 +7545,9 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
         }
 
         getConnectionsManager().sendRequest(request, (response, error) -> {
+            if (error == null) {
+                getMessagesController().ghostGoOffline(); // U message: sending marks us online
+            }
             if (error != null && FileRefController.isFileRefError(error.text)) {
                 final int fileRefIndex = FileRefController.getFileRefErrorIndex(error.text);
                 if (parentObjects != null) {
@@ -7933,6 +7939,9 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
         }
 
         newMsgObj.reqId = getConnectionsManager().sendRequest(req, (response, error) -> {
+            if (error == null) {
+                getMessagesController().ghostGoOffline(); // U message: sending marks us online
+            }
             if (error != null && (req instanceof TLRPC.TL_messages_sendMedia || req instanceof TL_ephemeral.TL_sendMessage || req instanceof TLRPC.TL_messages_editMessage || req instanceof TLRPC.TL_messages_addPollAnswer) && FileRefController.isFileRefError(error.text)) {
                 if (FileRefController.isFileRefErrorCover(error.text)) {
                     if (removeCoverFromRequest(req)) {
@@ -11861,6 +11870,72 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
         return videoEditedInfo;
     }
 
+    /**
+     * Reads the source video on the media preparation thread and turns the lightweight
+     * round-video marker supplied by the gallery UI into real conversion settings.
+     * Keeping this work here avoids probing large videos on the UI thread.
+     */
+    private static VideoEditedInfo createRoundVideoCompressionSettings(String videoPath, VideoEditedInfo requestedInfo) {
+        if (requestedInfo == null || !requestedInfo.roundVideo || requestedInfo.originalWidth > 0 && requestedInfo.originalHeight > 0) {
+            return requestedInfo;
+        }
+
+        VideoEditedInfo videoEditedInfo = createCompressionSettings(videoPath, 0);
+        if (videoEditedInfo == null) {
+            return requestedInfo;
+        }
+
+        videoEditedInfo.roundVideo = true;
+
+        // Telegram delivers a video note as a circle only when it is square and at most
+        // 640x640; a bigger one arrives as an ordinary square video. So the short side is
+        // scaled to 640 (never upscaled) and the longer edge is clipped from the center,
+        // while a high bitrate keeps the circle sharp instead of the usual 400px note.
+        // Sizes are multiples of 16, as the converter rounds them, so the crop ratios stay exact.
+        final int maxRoundSide = 640;
+        final boolean landscape = videoEditedInfo.originalWidth >= videoEditedInfo.originalHeight;
+        final int sourceShortSide = Math.min(videoEditedInfo.originalWidth, videoEditedInfo.originalHeight);
+        final int sourceLongSide = Math.max(videoEditedInfo.originalWidth, videoEditedInfo.originalHeight);
+        final int squareSide = Math.max(16, Math.min(maxRoundSide, sourceShortSide) / 16 * 16);
+        final int longSide = Math.max(squareSide, Math.round(sourceLongSide * (squareSide / (float) sourceShortSide) / 16.0f) * 16);
+        videoEditedInfo.resultWidth = landscape ? longSide : squareSide;
+        videoEditedInfo.resultHeight = landscape ? squareSide : longSide;
+
+        final int maxRoundBitrate = 4_000_000;
+        final int sourceBitrate = Math.max(MediaController.getVideoBitrate(videoPath), videoEditedInfo.bitrate);
+        videoEditedInfo.bitrate = sourceBitrate > 0 ? Math.min(sourceBitrate, maxRoundBitrate) : maxRoundBitrate;
+        videoEditedInfo.estimatedSize = Math.max(1, (long) ((videoEditedInfo.bitrate + 128_000L) / 8.0 * videoEditedInfo.estimatedDuration / 1000.0));
+        videoEditedInfo.galleryRound = true;
+
+        // These ratios zoom the source just enough to fill the square canvas. The
+        // overflow is clipped equally on both sides, so faces and objects keep their
+        // original proportions instead of being squeezed into a square.
+        // The converter works in display orientation: for 90/270 rotated sources it swaps
+        // the result size, so the ratios have to be swapped with it.
+        final boolean rotated = videoEditedInfo.rotationValue == 90 || videoEditedInfo.rotationValue == 270;
+        final float cropWidth = squareSide / (float) videoEditedInfo.resultWidth;
+        final float cropHeight = squareSide / (float) videoEditedInfo.resultHeight;
+        videoEditedInfo.cropState = new MediaController.CropState();
+        videoEditedInfo.cropState.cropPw = rotated ? cropHeight : cropWidth;
+        videoEditedInfo.cropState.cropPh = rotated ? cropWidth : cropHeight;
+        videoEditedInfo.cropState.transformWidth = squareSide;
+        videoEditedInfo.cropState.transformHeight = squareSide;
+
+        // A Telegram video message is at most one minute. Longer gallery videos are
+        // converted from their first minute instead of being rejected by the server.
+        final long maxRoundVideoDurationMs = 60_000L;
+        if (videoEditedInfo.estimatedDuration > maxRoundVideoDurationMs) {
+            final long sourceDurationMs = videoEditedInfo.estimatedDuration;
+            videoEditedInfo.estimatedDuration = maxRoundVideoDurationMs;
+            videoEditedInfo.endTime = maxRoundVideoDurationMs * 1000L;
+            videoEditedInfo.estimatedSize = Math.max(1, (long) (
+                    videoEditedInfo.estimatedSize * (maxRoundVideoDurationMs / (double) sourceDurationMs)
+            ));
+        }
+
+        return videoEditedInfo;
+    }
+
     @UiThread
     public static void prepareSendingVideo(AccountInstance accountInstance, String videoPath, VideoEditedInfo info, String coverPath, TLRPC.Photo coverPhoto, long dialogId, MessageObject replyToMsg, MessageObject replyToTopMsg, TL_stories.StoryItem storyItem, ChatActivity.ReplyQuote quote, ArrayList<TLRPC.MessageEntity> entities, int ttl, MessageObject editingMessageObject, boolean notify, int scheduleDate, int scheduleRepeatPeriod, boolean forceDocument, boolean hasMediaSpoilers, CharSequence caption, SendMessageChatArguments sendMessageChatArguments, long effectId, long stars) {
         prepareSendingVideo(accountInstance, videoPath, info, coverPath, coverPhoto, dialogId, replyToMsg, replyToTopMsg, storyItem, quote, entities, ttl, editingMessageObject, notify, scheduleDate, scheduleRepeatPeriod, forceDocument, hasMediaSpoilers, caption, sendMessageChatArguments, effectId, stars, 0, null);
@@ -11875,7 +11950,9 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
             return;
         }
         new Thread(() -> {
-            final VideoEditedInfo videoEditedInfo = info != null ? info : createCompressionSettings(videoPath, 0);
+            final VideoEditedInfo videoEditedInfo = info != null && info.roundVideo
+                    ? createRoundVideoCompressionSettings(videoPath, info)
+                    : info != null ? info : createCompressionSettings(videoPath, 0);
 
             boolean isEncrypted = DialogObject.isEncryptedDialog(dialogId);
 
@@ -11896,6 +11973,15 @@ public class SendMessagesHelper extends BaseController implements NotificationCe
                         if (videoEditedInfo.resultWidth != videoEditedInfo.originalWidth) {
                             originalPath += "_" + videoEditedInfo.resultWidth;
                         }
+                    } else {
+                        // Keep square gallery video notes separate from older/raw round
+                        // uploads in the sent-file cache, otherwise Telegram may reuse a
+                        // server document whose round_message flag was stripped.
+                        originalPath += "_round_square_v7_" + videoEditedInfo.resultWidth + "x" + videoEditedInfo.resultHeight;
+                        if (videoEditedInfo.cropState != null) {
+                            originalPath += "_" + videoEditedInfo.cropState.transformWidth;
+                        }
+                        originalPath += "_" + videoEditedInfo.endTime;
                     }
                     startTime = videoEditedInfo.startTime >= 0 ? videoEditedInfo.startTime : 0;
                 }

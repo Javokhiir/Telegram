@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="115 -60 2150 570" width="2150" height="570" color="#000">
+  <title>U message</title>
+  <g fill="currentColor">
+    <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    <g transform="rotate(180 525 224.5)">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+    <text x="1010" y="270" font-family="Inter, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+          font-size="250" font-weight="700" letter-spacing="-8">U message</text>
+    <text x="1022" y="365" font-family="Inter, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+          font-size="54" font-weight="500" letter-spacing="8" opacity=".55">YOUR MESSENGER</text>
+  </g>
+</svg>

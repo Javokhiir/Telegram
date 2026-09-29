@@ -167,6 +167,7 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.ChatActivity;
 import org.telegram.ui.ChatBackgroundDrawable;
 import org.telegram.ui.Components.AlertsCreator;
+import org.telegram.ui.Components.UMessageSecurityGuard;
 import org.telegram.ui.Components.BackgroundGradientDrawable;
 import org.telegram.ui.Components.Bulletin;
 import org.telegram.ui.Components.ButtonSpan;
@@ -4211,6 +4212,11 @@ public class AndroidUtilities {
                     parentFragment.showDialog(builder.create());
                 }
             } else {
+                if (UMessageSecurityGuard.isApk(message.getDocumentName(), document.mime_type)) {
+                    openForView(f, message.getDocumentName(), document.mime_type, activity,
+                            parentFragment != null ? parentFragment.getResourceProvider() : null, false);
+                    return;
+                }
                 String realMimeType = null;
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -4269,6 +4275,10 @@ public class AndroidUtilities {
     }
 
     public static boolean openForView(File f, String fileName, String mimeType, final Activity activity, Theme.ResourcesProvider resourcesProvider, boolean restrict) {
+        return openForView(f, fileName, mimeType, activity, resourcesProvider, restrict, false);
+    }
+
+    private static boolean openForView(File f, String fileName, String mimeType, final Activity activity, Theme.ResourcesProvider resourcesProvider, boolean restrict, boolean securityConfirmed) {
         if (f != null && f.exists()) {
             String realMimeType = null;
             Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -4287,6 +4297,24 @@ public class AndroidUtilities {
                         realMimeType = null;
                     }
                 }
+            }
+            if (realMimeType == null && !TextUtils.isEmpty(mimeType)) {
+                realMimeType = mimeType;
+            }
+            // Telegram documents often declare an APK as application/octet-stream.
+            // The package installer only resolves the APK MIME type.
+            if (fileName != null && fileName.toLowerCase(Locale.ROOT).endsWith(".apk")) {
+                realMimeType = "application/vnd.android.package-archive";
+            }
+            final boolean isApk = UMessageSecurityGuard.isApk(fileName, realMimeType != null ? realMimeType : mimeType);
+            if (isApk && restrict) {
+                return true;
+            }
+            if (isApk && !securityConfirmed) {
+                final String checkedMimeType = realMimeType != null ? realMimeType : mimeType;
+                UMessageSecurityGuard.guardApk(activity, f, fileName, checkedMimeType, resourcesProvider,
+                        () -> openForView(f, fileName, mimeType, activity, resourcesProvider, false, true));
+                return true;
             }
             if (realMimeType != null && realMimeType.equals("application/vnd.android.package-archive")) {
                 if (restrict) return true;

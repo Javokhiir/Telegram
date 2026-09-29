@@ -476,6 +476,28 @@ public class UserCell extends FrameLayout implements NotificationCenter.Notifica
 
     private boolean callCellStyle;
 
+    /* U message: a small logo on the right when the other person also saved you as a contact */
+
+    private ImageView mutualBadge;
+
+    public void setMutualBadge(boolean mutual) {
+        if (!mutual) {
+            if (mutualBadge != null) {
+                mutualBadge.setVisibility(GONE);
+            }
+            return;
+        }
+        if (mutualBadge == null) {
+            mutualBadge = new ImageView(getContext());
+            mutualBadge.setScaleType(ImageView.ScaleType.FIT_CENTER);
+            mutualBadge.setImageResource(R.drawable.umessage_mark);
+            mutualBadge.setContentDescription(LocaleController.getString(R.string.UMessageMutualContact));
+            addView(mutualBadge, LayoutHelper.createFrame(20, 12, (LocaleController.isRTL ? Gravity.LEFT : Gravity.RIGHT) | Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
+        }
+        mutualBadge.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_featuredStickers_addButton, resourcesProvider), PorterDuff.Mode.SRC_IN));
+        mutualBadge.setVisibility(VISIBLE);
+    }
+
     public void setCallCellStyle(int padding) {
         callCellStyle = true;
         nameTextView.setTextSize(15);

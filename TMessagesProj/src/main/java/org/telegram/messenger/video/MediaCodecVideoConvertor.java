@@ -544,7 +544,9 @@ public class MediaCodecVideoConvertor {
                                 Mp4Movie movie = new Mp4Movie();
                                 movie.setCacheFile(cacheFile);
                                 movie.setRotation(0);
-                                movie.setSize(resultWidth, resultHeight);
+                                // Cropping can encode to transformWidth/transformHeight while
+                                // resultWidth/resultHeight retain the source aspect ratio.
+                                movie.setSize(w, h);
                                 muxer = new Muxer(new MP4Builder().createMovie(movie, isSecret, outputMimeType.equals("video/hevc")));
                             }
 

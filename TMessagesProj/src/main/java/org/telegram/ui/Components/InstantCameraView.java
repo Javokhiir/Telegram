@@ -49,6 +49,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.HapticFeedbackConstants;
 import android.view.MotionEvent;
@@ -62,6 +63,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
@@ -84,6 +86,7 @@ import org.telegram.messenger.MessagesController;
 import org.telegram.messenger.NotificationCenter;
 import org.telegram.messenger.R;
 import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UMessageConfig;
 import org.telegram.messenger.UserConfig;
 import org.telegram.messenger.Utilities;
 import org.telegram.messenger.VideoEditedInfo;
@@ -137,13 +140,17 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
     private RectF rect;
     private final FlashViews.ImageViewInvertable switchCameraButton;
     private final FlashViews.ImageViewInvertable flashButton;
+    private final FlashViews.ImageViewInvertable beautyButton;
+    private final TextView filterNameView;
+    private final RoundEffectsCarousel effectsCarousel;
+    private int circleShiftY;
     private final FlashViews flashViews;
     private RLottieDrawable flashOnDrawable, flashOffDrawable;
     private RLottieDrawable switchCameraDrawable;
     private ImageView muteImageView;
     private float progress;
     private CameraInfo selectedCamera;
-    private boolean isFrontface = true;
+    private boolean isFrontface = UMessageConfig.isRoundFrontCamera();
     private volatile boolean cameraReady;
     private AnimatorSet muteAnimation;
     private TLRPC.InputFile file;
@@ -216,12 +223,28 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
     private static final String FRAGMENT_SCREEN_SHADER =
             "#extension GL_OES_EGL_image_external : require\n" +
-                    "precision lowp float;\n" +
+                    "precision mediump float;\n" +
                     "varying vec2 vTextureCoord;\n" +
                     "uniform samplerExternalOES sTexture;\n" +
+                    RoundVideoEffects.GLSL +
                     "void main() {\n" +
-                    "   gl_FragColor = texture2D(sTexture, vTextureCoord);\n" +
+                    "   vec4 c = texture2D(sTexture, vTextureCoord);\n" +
+                    "   gl_FragColor = vec4(applyEffects(c.rgb, vTextureCoord), c.a);\n" +
                     "}\n";
+
+    private volatile int currentFilter;
+    private volatile int currentFilterIntensity;
+    private volatile int currentBeauty;
+    private volatile int currentFoundation;
+    private volatile int currentBlush;
+    private volatile int currentEyes;
+    private volatile int currentEyeTone;
+    private volatile BlushTracker blushTracker; // owned by the camera GL thread, mask shared with the encoder
+    private volatile int currentLipstickPercent;
+    private volatile RoundVideoEffects.Lipstick currentLipstick; // null is off
+    private int currentEffectPreset = RoundVideoEffects.PRESET_ORIGINAL;
+    private int currentEffectIntensity;
+    private volatile LipstickTracker lipstickTracker; // owned by the camera GL thread, lip contours shared with the encoder
 
     private FloatBuffer vertexBuffer;
     private FloatBuffer textureBuffer;
@@ -391,12 +414,23 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         });
         updateFlash();
 
+        beautyButton = new FlashViews.ImageViewInvertable(context);
+        beautyButton.setScaleType(ImageView.ScaleType.CENTER);
+        beautyButton.setImageResource(R.drawable.input_smile);
+        beautyButton.setColorFilter(Color.WHITE);
+        beautyButton.setContentDescription(LocaleController.getString(R.string.UMessageRoundEffects));
+        buttonsLayout.addView(beautyButton, LayoutHelper.createLinear(44, 44));
+        beautyButton.setOnClickListener(v -> setBeautyEnabled(currentFilterIntensity == 0 && currentBeauty == 0
+                && currentFoundation == 0 && currentBlush == 0 && currentEyes == 0 && currentLipstickPercent == 0, true));
+
         if (!isNewDesign) {
             flashViews.add(switchCameraButton);
             flashViews.add(flashButton);
+            flashViews.add(beautyButton);
         } else if (!resourcesProvider.isDark()) {
             switchCameraButton.setInvert(0.6f);
             flashButton.setInvert(0.6f);
+            beautyButton.setInvert(0.6f);
         }
 
         muteImageView = new ImageView(context);
@@ -427,8 +461,102 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         };
         addView(textureOverlayView, new LayoutParams(AndroidUtilities.roundPlayingMessageSize, AndroidUtilities.roundPlayingMessageSize, Gravity.CENTER));
 
+        filterNameView = new TextView(context);
+        filterNameView.setTextColor(Color.WHITE);
+        filterNameView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 22);
+        filterNameView.setTypeface(AndroidUtilities.bold());
+        filterNameView.setShadowLayer(dp(4), 0, dp(1), 0x66000000);
+        filterNameView.setGravity(Gravity.CENTER);
+        filterNameView.setAlpha(0.0f);
+        addView(filterNameView, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, Gravity.CENTER));
+
+        // U message: round effect thumbnails under the camera, the one in the ring is applied live
+        effectsCarousel = new RoundEffectsCarousel(context, this::applyEffectsPreset);
+        effectsCarousel.setAlpha(0.0f);
+        addView(effectsCarousel, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, CAROUSEL_HEIGHT, Gravity.BOTTOM, 0, 0, 0, CAROUSEL_BOTTOM_MARGIN));
+
         setVisibilityFromPause = false;
         setVisibility(INVISIBLE);
+    }
+
+    // U message: the face button turns the selected all-in-one makeup look on or off.
+    private void setBeautyEnabled(boolean enabled, boolean showName) {
+        if (enabled) {
+            if (currentEffectPreset == RoundVideoEffects.PRESET_ORIGINAL) {
+                currentEffectPreset = RoundVideoEffects.getConfiguredPreset();
+                if (currentEffectPreset == RoundVideoEffects.PRESET_ORIGINAL) {
+                    currentEffectPreset = RoundVideoEffects.PRESET_BEAUTY;
+                }
+            }
+            if (currentEffectIntensity <= 0) {
+                currentEffectIntensity = Math.max(1, RoundVideoEffects.getConfiguredIntensity());
+            }
+            applyLook(RoundVideoEffects.createLook(currentEffectPreset, currentEffectIntensity));
+            effectsCarousel.setSelected(currentEffectPreset);
+        } else {
+            applyLook(RoundVideoEffects.createLook(RoundVideoEffects.PRESET_ORIGINAL, 0));
+        }
+        beautyButton.setAlpha(enabled ? 1.0f : 0.6f);
+        if (showName) {
+            showEffectName(enabled ? RoundEffectsCarousel.getName(currentEffectPreset) : LocaleController.getString(R.string.UMessageBeautyOff));
+        }
+    }
+
+    private static final int CAROUSEL_HEIGHT = 76;
+    private static final int CAROUSEL_BOTTOM_MARGIN = 60; // above the camera buttons
+
+    private void applyEffectsPreset(int preset) {
+        currentEffectPreset = preset;
+        currentEffectIntensity = RoundVideoEffects.getConfiguredIntensity();
+        applyLook(RoundVideoEffects.createLook(preset, currentEffectIntensity));
+        beautyButton.setAlpha(currentFilterIntensity > 0 || currentBeauty > 0 || currentFoundation > 0
+                || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 ? 1.0f : 0.6f);
+        showEffectName(RoundEffectsCarousel.getName(preset));
+    }
+
+    private void applyLook(RoundVideoEffects.Look look) {
+        currentFilter = look.filter;
+        currentFilterIntensity = look.filterIntensity;
+        currentBeauty = look.beauty;
+        currentFoundation = look.foundation;
+        currentBlush = look.blush;
+        currentEyes = look.eyes;
+        currentEyeTone = look.eyeTone;
+        currentLipstickPercent = look.lipstickPercent;
+        currentLipstick = look.lipstick;
+    }
+
+    public View getEffectsCarousel() {
+        return effectsCarousel;
+    }
+
+    // thumbnails show the live camera frame, taken while no color filter or blush is applied
+    private final Runnable captureThumbRunnable = new Runnable() {
+        @Override
+        public void run() {
+            if (textureView == null || getVisibility() != VISIBLE) {
+                return;
+            }
+            if (videoPlayer == null && currentFilterIntensity == 0 && currentFoundation == 0 && currentBlush == 0
+                    && currentEyes == 0 && currentLipstickPercent == 0 && textureView.isAvailable()) {
+                try {
+                    Bitmap bitmap = textureView.getBitmap(dp(56), dp(56));
+                    if (bitmap != null && bitmap.getPixel(bitmap.getWidth() / 2, bitmap.getHeight() / 2) != 0) {
+                        effectsCarousel.setSource(bitmap);
+                    }
+                } catch (Exception e) {
+                    FileLog.e(e);
+                }
+            }
+            AndroidUtilities.runOnUIThread(this, 1000);
+        }
+    };
+
+    private void showEffectName(String name) {
+        filterNameView.setText(name);
+        filterNameView.animate().cancel();
+        filterNameView.setAlpha(1.0f);
+        filterNameView.animate().alpha(0.0f).setStartDelay(700).setDuration(250).start();
     }
 
     public void setButtonsBackground(BlurredBackgroundDrawableViewFactory factory, BlurredBackgroundColorProvider colorProvider) {
@@ -523,6 +651,21 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 cameraContainer.invalidateOutline();
             }
             updateTextureViewSize = false;
+        }
+
+        // U message: lift the circle so it stays above the effects carousel
+        final int available = MeasureSpec.getSize(heightMeasureSpec) - getPaddingBottom();
+        if (textureViewSize > 0 && available > 0) {
+            final int carouselTop = available - dp(CAROUSEL_HEIGHT + CAROUSEL_BOTTOM_MARGIN);
+            int shift = available / 2 + textureViewSize / 2 + dp(12) - carouselTop;
+            shift = Math.max(0, Math.min(shift, available / 2 - textureViewSize / 2 - dp(8)));
+            if (shift != circleShiftY) {
+                circleShiftY = shift;
+                ((LayoutParams) cameraContainer.getLayoutParams()).bottomMargin = shift;
+                ((LayoutParams) textureOverlayView.getLayoutParams()).bottomMargin = shift;
+                ((LayoutParams) muteImageView.getLayoutParams()).bottomMargin = shift;
+                ((LayoutParams) filterNameView.getLayoutParams()).bottomMargin = shift;
+            }
         }
 
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
@@ -635,6 +778,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         super.setVisibility(visibility);
 
         buttonsLayout.setAlpha(0.0f);
+        effectsCarousel.setAlpha(0.0f);
         cameraContainer.setAlpha(0.0f);
         textureOverlayView.setAlpha(0.0f);
         muteImageView.setAlpha(0.0f);
@@ -730,10 +874,16 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         cameraReady = false;
         selectedCamera = null;
         if (!fromPaused) {
-            if (!useCamera2) {
-                isFrontface = true;
-            }
+            // U message: video messages start with the camera chosen in the settings
+            isFrontface = UMessageConfig.isRoundFrontCamera();
             updateFlash();
+            // defaults chosen in U message settings
+            currentEffectPreset = RoundVideoEffects.getConfiguredPreset();
+            currentEffectIntensity = RoundVideoEffects.getConfiguredIntensity();
+            applyLook(RoundVideoEffects.createLook(currentEffectPreset, currentEffectIntensity));
+            beautyButton.setAlpha(currentFilterIntensity > 0 || currentBeauty > 0 || currentFoundation > 0
+                    || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 ? 1.0f : 0.6f);
+            effectsCarousel.setSelected(currentEffectPreset);
             recordedTime = 0;
             progress = 0;
         }
@@ -860,6 +1010,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
         startAnimation(true, fromPaused);
         MediaController.getInstance().requestRecordAudioFocus(true);
+        AndroidUtilities.cancelRunOnUIThread(captureThumbRunnable);
+        AndroidUtilities.runOnUIThread(captureThumbRunnable, 400);
     }
 
     public InstantViewCameraContainer getCameraContainer() {
@@ -898,6 +1050,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         });
         animatorSet.playTogether(
                 ObjectAnimator.ofFloat(buttonsLayout, View.ALPHA, open ? 1.0f : 0.0f),
+                ObjectAnimator.ofFloat(effectsCarousel, View.ALPHA, open ? 1.0f : 0.0f),
                 ObjectAnimator.ofFloat(muteImageView, View.ALPHA, 0.0f),
                 ObjectAnimator.ofInt(paint, AnimationProperties.PAINT_ALPHA, open ? 255 : 0),
                 ObjectAnimator.ofFloat(cameraContainer, View.ALPHA, open ? 1.0f : 0.0f),
@@ -1107,6 +1260,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
     }
 
     public void hideCamera(boolean async) {
+        AndroidUtilities.cancelRunOnUIThread(captureThumbRunnable);
         destroy(async);
         cameraContainer.setTranslationX(0);
         textureOverlayView.setTranslationX(0);
@@ -1489,6 +1643,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         private int textureMatrixHandle;
         private int positionHandle;
         private int textureHandle;
+        private final RoundVideoEffects.Uniforms effectsUniforms = new RoundVideoEffects.Uniforms();
+        private LipstickTracker.Mask lipstickMask;
 
         private boolean recording;
 
@@ -1667,6 +1823,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     textureHandle = GLES20.glGetAttribLocation(drawProgram, "aTextureCoord");
                     vertexMatrixHandle = GLES20.glGetUniformLocation(drawProgram, "uMVPMatrix");
                     textureMatrixHandle = GLES20.glGetUniformLocation(drawProgram, "uSTMatrix");
+                    effectsUniforms.init(drawProgram);
                 }
             } else {
                 if (BuildVars.LOGS_ENABLED) {
@@ -1722,6 +1879,18 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             if (eglSurface != null && eglContext != null) {
                 if (!eglContext.equals(egl10.eglGetCurrentContext()) || !eglSurface.equals(egl10.eglGetCurrentSurface(EGL10.EGL_DRAW))) {
                     egl10.eglMakeCurrent(eglDisplay, eglSurface, eglSurface, eglContext);
+                }
+                if (blushTracker != null) {
+                    blushTracker.release();
+                    blushTracker = null;
+                }
+                if (lipstickMask != null) {
+                    lipstickMask.release();
+                    lipstickMask = null;
+                }
+                if (lipstickTracker != null) {
+                    lipstickTracker.release();
+                    lipstickTracker = null;
                 }
                 if (cameraTexture != null && cameraTexture[0] != Integer.MIN_VALUE) {
                     GLES20.glDeleteTextures(1, cameraTexture, 0);
@@ -1826,6 +1995,27 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
             cameraSurface[surfaceIndex].getTransformMatrix(mSTMatrix);
 
+            // lip mask for this frame, drawn offscreen before the frame itself
+            final RoundVideoEffects.Lipstick lipstick = currentLipstick;
+            final boolean blush = currentBlush > 0;
+            final boolean makeupMask = blush || currentFoundation > 0 || currentEyes > 0;
+            if ((lipstick != null || makeupMask) && lipstickTracker == null) {
+                lipstickTracker = new LipstickTracker();
+            }
+            if (lipstick != null) {
+                if (lipstickMask == null) {
+                    lipstickMask = new LipstickTracker.Mask();
+                }
+                lipstickMask.render(lipstickTracker, lipstick.getSoftness());
+            }
+            // offscreen masks change vertex attributes and the framebuffer: draw them before setting up the frame
+            if (makeupMask && blushTracker == null) {
+                blushTracker = new BlushTracker();
+            }
+            if (blushTracker != null) {
+                blushTracker.render(lipstickTracker);
+            }
+
             GLES20.glUseProgram(drawProgram);
             GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
             GLES20.glBindTexture(GLES11Ext.GL_TEXTURE_EXTERNAL_OES, cameraTexture[surfaceIndex]);
@@ -1838,6 +2028,10 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
             GLES20.glUniformMatrix4fv(textureMatrixHandle, 1, false, mSTMatrix, 0);
             GLES20.glUniformMatrix4fv(vertexMatrixHandle, 1, false, mMVPMatrix, 0);
+            effectsUniforms.apply(currentFilter, currentFilterIntensity, currentBeauty, currentFoundation,
+                    currentBlush, currentEyes, currentEyeTone, blushTracker != null ? blushTracker.getTexture() : 0,
+                    surfaceWidth, surfaceHeight);
+            effectsUniforms.applyLipstick(lipstick, lipstickMask);
 
             GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
 
@@ -1846,6 +2040,9 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             GLES20.glBindTexture(GLES11Ext.GL_TEXTURE_EXTERNAL_OES, 0);
             GLES20.glUseProgram(0);
 
+            if (lipstick != null || makeupMask) {
+                lipstickTracker.capture(cameraTexture[surfaceIndex], mSTMatrix, mMVPMatrix, textureBuffer);
+            }
             egl10.eglSwapBuffers(eglDisplay, eglSurface);
 
             if (captureFirstFrameThumb) {
@@ -2181,6 +2378,9 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         private int previewSizeHandle;
         private int texelSizeHandle;
         private int alphaHandle;
+        private final RoundVideoEffects.Uniforms effectsUniforms = new RoundVideoEffects.Uniforms();
+        private LipstickTracker.Mask lipstickMask; // own mask in the encoder context, from the preview's lip contours
+        private BlushTracker blushMask; // own cheek mask in the encoder context, same face state as the preview
         private int zeroTimeStamps;
         private Integer lastCameraId = 0;
         private InstantCameraVideoEncoderOverlayHelper overlayHelper;
@@ -2616,6 +2816,21 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 return;
             }
 
+            final RoundVideoEffects.Lipstick lipstick = currentLipstick;
+            if (lipstick != null) {
+                if (lipstickMask == null) {
+                    lipstickMask = new LipstickTracker.Mask();
+                }
+                lipstickMask.render(lipstickTracker, lipstick.getSoftness());
+            }
+            final boolean makeupMask = currentBlush > 0 || currentFoundation > 0 || currentEyes > 0;
+            if (makeupMask) {
+                if (blushMask == null) {
+                    blushMask = new BlushTracker();
+                }
+                blushMask.render(lipstickTracker);
+            }
+
             if (overlayHelper != null) {
                 overlayHelper.bind();
             }
@@ -2629,6 +2844,11 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             GLES20.glUniformMatrix4fv(vertexMatrixHandle, 1, false, mMVPMatrix, 0);
 
             GLES20.glUniform2f(resolutionHandle, videoWidth, videoHeight);
+            final BlushTracker tracker = makeupMask ? blushMask : null;
+            effectsUniforms.apply(currentFilter, currentFilterIntensity, currentBeauty, currentFoundation,
+                    currentBlush, currentEyes, currentEyeTone, tracker != null ? tracker.getTexture() : 0,
+                    videoWidth, videoHeight);
+            effectsUniforms.applyLipstick(lipstick, lipstickMask);
 
             if (oldCameraTexture[0] != 0 && oldTextureBuffer != null && !bothCameras) {
                 if (!blendEnabled) {
@@ -2844,6 +3064,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             AnimatorSet animatorSet = new AnimatorSet();
             animatorSet.playTogether(
                     ObjectAnimator.ofFloat(buttonsLayout, View.ALPHA, 0.0f),
+                    ObjectAnimator.ofFloat(effectsCarousel, View.ALPHA, 0.0f),
                     ObjectAnimator.ofInt(paint, AnimationProperties.PAINT_ALPHA, 0),
                     ObjectAnimator.ofFloat(muteImageView, View.ALPHA, 1.0f));
             animatorSet.setDuration(180);
@@ -3082,6 +3303,14 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     didWriteData(videoFile, 0, true);
                     MediaController.getInstance().requestRecordAudioFocus(false);
                 });
+            }
+            if (lipstickMask != null) {
+                lipstickMask.release();
+                lipstickMask = null;
+            }
+            if (blushMask != null) {
+                blushMask.release();
+                blushMask = null;
             }
             EGL14.eglDestroySurface(eglDisplay, eglSurface);
             eglSurface = EGL14.EGL_NO_SURFACE;
@@ -3358,6 +3587,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     vertexMatrixHandle = GLES20.glGetUniformLocation(drawProgram, "uMVPMatrix");
                     textureMatrixHandle = GLES20.glGetUniformLocation(drawProgram, "uSTMatrix");
                     texelSizeHandle = GLES20.glGetUniformLocation(drawProgram, "texelSize");
+                    effectsUniforms.init(drawProgram);
                 }
             }
         }
@@ -3589,13 +3819,14 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     "uniform vec2 preview;\n" +
                     "uniform vec2 resolution;\n" +
                     "uniform samplerExternalOES sTexture;\n" +
+                    RoundVideoEffects.GLSL +
                     "void main() {\n" +
                     "   vec4 textColor = texture2D(sTexture, vTextureCoord);\n" +
                     "   vec2 coord = resolution * 0.5;\n" +
                     "   float radius = 0.51 * resolution.x;\n" +
                     "   float d = length(coord - gl_FragCoord.xy) - radius;\n" +
                     "   float t = clamp(d, 0.0, 1.0);\n" +
-                    "   vec3 color = mix(textColor.rgb, vec3(1, 1, 1), t);\n" +
+                    "   vec3 color = mix(applyEffects(textColor.rgb, vTextureCoord), vec3(1, 1, 1), t);\n" +
                     "   gl_FragColor = vec4(color * alpha, alpha);\n" +
                     "}\n";
         }
@@ -3608,6 +3839,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 "uniform float alpha;\n" +
 
                 "uniform samplerExternalOES sTexture;\n" +
+                    RoundVideoEffects.GLSL +
                 "void main() {\n" +
                 "   vec2 coord = resolution * 0.5;\n" +
                 "   float radius = 0.51 * resolution.x;\n" +
@@ -3629,7 +3861,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
                 "       vec4 x1 = mix(tl, tr, frac.x);\n" +
                 "       vec4 x2 = mix(bl, br, frac.x);\n" +
-                "       gl_FragColor = mix(x1, x2, frac.y) * alpha;" +
+                "       vec4 fc = mix(x1, x2, frac.y);\n" +
+                "       gl_FragColor = vec4(applyEffects(fc.rgb, vTextureCoord), fc.a) * alpha;\n" +
                 "   } else {\n" +
                 "       gl_FragColor = vec4(1, 1, 1, alpha);\n" +
                 "   }\n" +
@@ -3645,9 +3878,10 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     "uniform vec2 preview;\n" +
                     "uniform vec2 resolution;\n" +
                     "uniform samplerExternalOES sTexture;\n" +
+                    RoundVideoEffects.GLSL +
                     "void main() {\n" +
                     "   vec4 textColor = texture2D(sTexture, vTextureCoord);\n" +
-                    "   gl_FragColor = vec4(textColor.rgb * alpha, alpha);\n" +
+                    "   gl_FragColor = vec4(applyEffects(textColor.rgb, vTextureCoord) * alpha, alpha);\n" +
                     "}\n";
         }
         return "#extension GL_OES_EGL_image_external : require\n" +
@@ -3658,6 +3892,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 "uniform float alpha;\n" +
 
                 "uniform samplerExternalOES sTexture;\n" +
+                    RoundVideoEffects.GLSL +
                 "void main() {\n" +
                 "   vec2 c_textureSize = preview;\n" +
                 "   vec2 c_onePixel = (1.0 / c_textureSize);\n" +
@@ -3671,7 +3906,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 "   vec4 br = texture2D(sTexture, pixel + vec2(c_onePixel.x, c_onePixel.y));\n" +
                 "   vec4 x1 = mix(tl, tr, frac.x);\n" +
                 "   vec4 x2 = mix(bl, br, frac.x);\n" +
-                "   gl_FragColor = mix(x1, x2, frac.y) * alpha;\n" +
+                "   vec4 fc = mix(x1, x2, frac.y);\n" +
+                "   gl_FragColor = vec4(applyEffects(fc.rgb, vTextureCoord), fc.a) * alpha;\n" +
                 "}\n";
     }
 

@@ -51,6 +51,7 @@ import org.telegram.messenger.MessagesStorage;
 import org.telegram.messenger.NotificationCenter;
 import org.telegram.messenger.R;
 import org.telegram.messenger.SharedConfig;
+import org.telegram.messenger.UMessageConfig;
 import org.telegram.messenger.UserConfig;
 import org.telegram.messenger.UserObject;
 import org.telegram.tgnet.TLRPC;
@@ -63,6 +64,11 @@ import org.telegram.ui.Components.AnimatedEmojiDrawable;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.Bulletin;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
+import android.graphics.PorterDuffColorFilter;
+import android.widget.ImageView;
+import org.telegram.ui.Components.ScaleStateListAnimator;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.FolderDrawable;
 import org.telegram.ui.Components.HintsController;
@@ -90,9 +96,10 @@ import me.vkryl.android.animator.FactorAnimator;
 public class MainTabsActivity extends ViewPagerActivity implements NotificationCenter.NotificationCenterDelegate, FactorAnimator.Target {
 
     public static final int TABS_COUNT = 4;
-    private static final int POSITION_CHATS = 0;
-    private static final int POSITION_CONTACTS = 1;
-    private static final int POSITION_CALLS_OR_SETTINGS = 2;
+    // U message dock order: Contacts, Settings (or Calls), Chats, Profile
+    private static final int POSITION_CONTACTS = 0;
+    private static final int POSITION_CALLS_OR_SETTINGS = 1;
+    private static final int POSITION_CHATS = 2;
     private static final int POSITION_PROFILE = 3;
 
     private static final int INDEX_CHATS = 0;
@@ -102,8 +109,17 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
     private static final int INDEX_PROFILE = 4;
 
     private static int indexToPosition(int index) {
-        return index > 2 ? index - 1 : index;
+        switch (index) {
+            case INDEX_CONTACTS: return POSITION_CONTACTS;
+            case INDEX_SETTINGS:
+            case INDEX_CALLS: return POSITION_CALLS_OR_SETTINGS;
+            case INDEX_CHATS: return POSITION_CHATS;
+            default: return POSITION_PROFILE;
+        }
     }
+
+    /** Order in which the tab views are laid out in the dock (left to right). */
+    private static final int[] DOCK_ORDER = {INDEX_CONTACTS, INDEX_SETTINGS, INDEX_CALLS, INDEX_CHATS, INDEX_PROFILE};
 
     private static final int ANIMATOR_ID_TABS_VISIBLE = 0;
     private final BoolAnimator animatorTabsVisible = new BoolAnimator(ANIMATOR_ID_TABS_VISIBLE,
@@ -235,7 +251,7 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
         return ColorUtils.blendARGB(
                 getThemedColor(Theme.key_windowBackgroundGray),
                 getThemedColor(Theme.key_windowBackgroundWhite),
-                viewPager != null ? viewPager.getPositionVisibility(0) : 1);
+                viewPager != null ? viewPager.getPositionVisibility(POSITION_CHATS) : 1);
     }
 
     private boolean tabletLayout;
@@ -326,7 +342,7 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
         tabsView.addTabToIgnoreClick(tabs[INDEX_PROFILE]);
         tabsView.addTabToIgnoreClick(tabs[INDEX_CALLS]);
 
-        for (int index = 0; index < tabs.length; index++) {
+        for (int index : DOCK_ORDER) {
             final GlassTabView view = tabs[index];
 
             final int position = indexToPosition(index);
@@ -379,8 +395,52 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
 
         tabsViewWrapper = new FrameLayout(context);
         tabsViewWrapper.setOnClickListener(v -> {});
-        tabsViewWrapper.addView(tabsView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, DialogsActivity.MAIN_TABS_HEIGHT_WITH_MARGINS, Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL));
+        // U message: the dock sits on the left, a round action button (per tab) on the right
+        tabsViewWrapper.addView(tabsView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, DialogsActivity.MAIN_TABS_HEIGHT_WITH_MARGINS, Gravity.BOTTOM | Gravity.LEFT, 0, 0, DialogsActivity.MAIN_TABS_HEIGHT + DialogsActivity.MAIN_TABS_MARGIN, 0));
+
+        dockActionButton = new FrameLayout(context);
+        // same glass as the dock
+        dockActionBackground = iBlur3FactoryGlass.create(dockActionButton, BlurredBackgroundProviderImpl.mainTabs(resourceProvider));
+        dockActionBackground.setRadius(dp(DialogsActivity.MAIN_TABS_HEIGHT / 2f));
+        // like the dock: the view keeps a margin around the glass so its shadow is not clipped
+        dockActionBackground.setPadding(dp(DialogsActivity.MAIN_TABS_MARGIN - 0.334f));
+        dockActionButton.setBackground(dockActionBackground);
+        dockActionIcon = new ImageView(context);
+        dockActionIcon.setScaleType(ImageView.ScaleType.CENTER);
+        dockActionButton.addView(dockActionIcon, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+        ScaleStateListAnimator.apply(dockActionButton, .1f, 1.5f);
+        dockActionButton.setOnClickListener(v -> onDockActionClick());
+        dockActionButton.setOnLongClickListener(v -> {
+            // U message: long press on "new chat" can open the hidden chats (chosen in Settings)
+            if (viewPager.getCurrentPosition() != POSITION_CHATS || !UMessageConfig.isHiddenAccess(UMessageConfig.HIDDEN_ACCESS_NEW_CHAT_LONG_PRESS)) {
+                return false;
+            }
+            v.performHapticFeedback(android.view.HapticFeedbackConstants.LONG_PRESS);
+            UMessageHiddenChats.open(this);
+            return true;
+        });
+        // theme colors may not be final while the view is created: apply them again once attached
+        dockActionButton.addOnAttachStateChangeListener(new View.OnAttachStateChangeListener() {
+            @Override
+            public void onViewAttachedToWindow(View v) {
+                // re-create the icon once on screen so it gets the final theme color
+                v.post(() -> {
+                    if (dockActionIconRes > 0) {
+                        setDockIcon(dockActionIconRes);
+                    }
+                });
+            }
+
+            @Override
+            public void onViewDetachedFromWindow(View v) {
+            }
+        });
+        updateDockActionColors();
+        tabsViewWrapper.addView(dockActionButton, LayoutHelper.createFrame(DialogsActivity.MAIN_TABS_HEIGHT_WITH_MARGINS, DialogsActivity.MAIN_TABS_HEIGHT_WITH_MARGINS, Gravity.BOTTOM | Gravity.RIGHT));
+        updateDockAction(viewPager.getCurrentPosition(), false);
+
         tabsViewWrapper.setClipToPadding(false);
+        tabsViewWrapper.setClipChildren(false);
         contentView.addView(tabsViewWrapper, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.BOTTOM));
 
         updateLayoutWrapper = new UpdateLayoutWrapper(context);
@@ -852,6 +912,123 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
             GlassTabView tab = tabs[a];
             tab.setSelected(indexToPosition(a) == position, animated);
         }
+        updateDockAction(position, animated);
+    }
+
+    /* U message: one dock action button whose icon and action follow the selected tab */
+
+    private FrameLayout dockActionButton;
+    private ImageView dockActionIcon;
+    private BlurredBackgroundDrawable dockActionBackground;
+    private int dockActionIconRes = -1;
+
+    private int getDockActionIcon(int position) {
+        switch (position) {
+            case POSITION_CHATS: return R.drawable.filled_fab_compose_32;
+            case POSITION_CONTACTS: return R.drawable.msg_contact_add;
+            case POSITION_PROFILE: return R.drawable.filled_premium_camera;
+            case POSITION_CALLS_OR_SETTINGS: return getUserConfig().showCallsTab ? R.drawable.menu_call_create : R.drawable.umessage_mark;
+        }
+        return 0;
+    }
+
+    private void updateDockAction(int position, boolean animated) {
+        if (dockActionButton == null) {
+            return;
+        }
+        final int icon = getDockActionIcon(position);
+        updateDockActionColors();
+        if (icon == dockActionIconRes) {
+            return;
+        }
+        final boolean wasVisible = dockActionIconRes > 0;
+        dockActionIconRes = icon;
+        dockActionButton.setEnabled(icon != 0);
+        dockActionIcon.animate().cancel();
+        dockActionButton.animate().cancel();
+        if (!dockActionButton.isAttachedToWindow() || dockActionButton.getWidth() == 0) {
+            // not on screen yet: view animations would not finish, apply the state directly
+            animated = false;
+        }
+        if (!animated) {
+            if (icon != 0) {
+                setDockIcon(icon);
+            }
+            dockActionIcon.setScaleX(1f);
+            dockActionIcon.setScaleY(1f);
+            dockActionIcon.setRotation(0);
+            dockActionButton.setScaleX(icon != 0 ? 1f : 0f);
+            dockActionButton.setScaleY(icon != 0 ? 1f : 0f);
+            return;
+        }
+        if (icon == 0) {
+            dockActionButton.animate().scaleX(0f).scaleY(0f).setDuration(220).setInterpolator(CubicBezierInterpolator.EASE_OUT_QUINT).start();
+            return;
+        }
+        if (!wasVisible) {
+            setDockIcon(icon);
+            dockActionIcon.setRotation(0);
+            dockActionIcon.setScaleX(1f);
+            dockActionIcon.setScaleY(1f);
+            dockActionButton.animate().scaleX(1f).scaleY(1f).setDuration(320).setInterpolator(CubicBezierInterpolator.EASE_OUT_BACK).start();
+            return;
+        }
+        dockActionButton.setScaleX(1f);
+        dockActionButton.setScaleY(1f);
+        if (dockActionIcon.getScaleX() < 0.99f) {
+            // an earlier morph was interrupted: bring the new icon straight in
+            setDockIcon(icon);
+            dockActionIcon.animate().scaleX(1f).scaleY(1f).rotation(0).setDuration(220).setInterpolator(CubicBezierInterpolator.EASE_OUT_BACK).start();
+            return;
+        }
+        // morph: the old icon spins away, the new one spins in
+        dockActionIcon.animate().scaleX(0f).scaleY(0f).rotation(-90).setDuration(120).setInterpolator(CubicBezierInterpolator.EASE_IN).withEndAction(() -> {
+            setDockIcon(icon);
+            dockActionIcon.setRotation(90);
+            dockActionIcon.animate().scaleX(1f).scaleY(1f).rotation(0).setDuration(260).setInterpolator(CubicBezierInterpolator.EASE_OUT_BACK).start();
+        }).start();
+    }
+
+    /** Own (mutated) copy of the icon, tinted directly: shared drawable state must not leak its color. */
+    private void setDockIcon(int res) {
+        if (getContext() == null) {
+            return;
+        }
+        final Drawable drawable = getContext().getResources().getDrawable(res).mutate();
+        drawable.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_windowBackgroundWhiteBlackText), PorterDuff.Mode.SRC_IN));
+        dockActionIcon.setImageDrawable(drawable);
+    }
+
+    private void onDockActionClick() {
+        final BaseFragment fragment = getCurrentVisibleFragment();
+        final int position = viewPager.getCurrentPosition();
+        if (position == POSITION_CHATS && fragment instanceof DialogsActivity) {
+            ((DialogsActivity) fragment).onMainTabsActionClick();
+        } else if (position == POSITION_PROFILE && fragment instanceof ProfileActivity) {
+            ((ProfileActivity) fragment).onMainTabsActionClick();
+        } else if (position == POSITION_CONTACTS) {
+            new NewContactBottomSheet(this, getContext()).show();
+        } else if (position == POSITION_CALLS_OR_SETTINGS) {
+            if (getUserConfig().showCallsTab) {
+                CallLogActivity.openCreateCall(this);
+            } else {
+                presentFragment(new UMessageSettingsActivity());
+            }
+        }
+    }
+
+    private void updateDockActionColors() {
+        if (dockActionButton == null) {
+            return;
+        }
+        if (dockActionBackground != null) {
+            dockActionBackground.updateColors();
+        }
+        final Drawable drawable = dockActionIcon.getDrawable();
+        if (drawable != null) {
+            drawable.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_windowBackgroundWhiteBlackText), PorterDuff.Mode.SRC_IN));
+            dockActionIcon.invalidate();
+        }
     }
 
     public void setGestureSelectedOverride(float animatedPosition, boolean allow) {
@@ -1083,9 +1260,19 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
         tabsView.setEnabled(factor > 1);
         tabsView.setAlpha(factor);
         tabsView.setVisibility(factor > 0 ? View.VISIBLE : View.GONE);
+        if (dockActionButton != null) {
+            dockActionButton.setAlpha(factor);
+            dockActionButton.setVisibility(factor > 0 ? View.VISIBLE : View.GONE);
+            dockActionButton.setClickable(factor >= 1f);
+        }
     }
 
+
     private void checkUi_callTabVisible(boolean callTabsVisible, boolean animated) {
+        if (viewPager != null && viewPager.getCurrentPosition() == POSITION_CALLS_OR_SETTINGS) {
+            dockActionIconRes = -1;
+            updateDockAction(POSITION_CALLS_OR_SETTINGS, animated);
+        }
         if (tabsView != null) {
             tabsView.setViewVisible(tabs[INDEX_SETTINGS], !callTabsVisible, animated);
             tabsView.setViewVisible(tabs[INDEX_CALLS], callTabsVisible, animated);
@@ -1216,6 +1403,7 @@ public class MainTabsActivity extends ViewPagerActivity implements NotificationC
         if (tabsViewBackground != null) {
             tabsViewBackground.updateColors();
         }
+        updateDockActionColors();
         blur3_invalidateBlur();
         if (fadeView != null) {
             fadeView.invalidate();

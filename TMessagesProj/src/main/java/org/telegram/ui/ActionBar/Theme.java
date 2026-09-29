@@ -3510,6 +3510,7 @@ public class Theme {
 
     static {
         defaultColors = ThemeColors.createDefaultColors();
+        UMessageMonochrome.apply(defaultColors, false);
 
         fallbackKeys.put(key_iv_background, key_windowBackgroundWhite);
         fallbackKeys.put(key_iv_backgroundGray, key_windowBackgroundGray);
@@ -6075,6 +6076,7 @@ public class Theme {
         }
         applyCalculatedTableColors(currentColorsNoAccent, currentColors, currentTheme.isDark());
         applyCalculatedArticleCodeColors(currentColorsNoAccent, currentColors, currentTheme.isDark());
+        UMessageMonochrome.apply(currentColors, currentTheme.isDark());
         if (!messages) {
             boolean async = !(LaunchActivity.getLastFragment() instanceof ChatActivity);
             reloadWallpaper(async);

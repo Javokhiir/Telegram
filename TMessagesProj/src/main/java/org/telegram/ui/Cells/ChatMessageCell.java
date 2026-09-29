@@ -133,6 +133,8 @@ import org.telegram.messenger.SendMessagesHelper;
 import org.telegram.messenger.SharedConfig;
 import org.telegram.messenger.SvgHelper;
 import org.telegram.messenger.TranslateController;
+import org.telegram.messenger.UMessageConfig;
+import org.telegram.messenger.UMessageHistory;
 import org.telegram.messenger.UserConfig;
 import org.telegram.messenger.UserObject;
 import org.telegram.messenger.Utilities;
@@ -155,6 +157,7 @@ import org.telegram.ui.ActionBar.MessageDrawable;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.AvatarSpan;
 import org.telegram.ui.ChatActivity;
+import org.telegram.ui.LaunchActivity;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 import org.telegram.ui.Components.AnimatedFileDrawable;
@@ -4911,8 +4914,72 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
         return replyPressed;
     }
 
+    /* U message: deleted/edited marks next to the time; the pencil opens the earlier versions under the text */
+
+    private boolean umDeleted, umEditedIcon, umTimePressed;
+
+    private static void appendTimeIcon(SpannableStringBuilder sb, int iconRes) {
+        final int start = sb.length();
+        sb.append("d");
+        ColoredImageSpan span = new ColoredImageSpan(iconRes, ColoredImageSpan.ALIGN_CENTER);
+        span.setSize(dp(14));
+        sb.setSpan(span, start, start + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sb.append(" ");
+    }
+
+    private boolean isInTimeArea(float x, float y) {
+        if (timeLayout == null) {
+            return false;
+        }
+        final float timeY = getTimeY();
+        return x >= timeX - dp(12) && x <= timeX + timeWidth + dp(12) && y >= timeY - dp(12) && y <= timeY + timeLayout.getHeight() + dp(12);
+    }
+
+    private boolean checkEditHistoryTouch(MotionEvent event) {
+        if (!umEditedIcon || currentMessageObject == null) {
+            umTimePressed = false;
+            return false;
+        }
+        final float x = getEventX(event), y = getEventY(event);
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            umTimePressed = isInTimeArea(x, y);
+            return umTimePressed;
+        } else if (umTimePressed && event.getAction() == MotionEvent.ACTION_UP) {
+            umTimePressed = false;
+            if (isInTimeArea(x, y)) {
+                playSoundEffect(SoundEffectConstants.CLICK);
+                if (UMessageHistory.toggleInlineHistory(currentAccount, currentMessageObject)) {
+                    if (delegate != null) {
+                        delegate.forceUpdate(this, true);
+                    }
+                } else {
+                    UMessageHistory.showEditHistory(LaunchActivity.getSafeLastFragment(), currentMessageObject);
+                }
+            }
+            return true;
+        } else if (event.getAction() == MotionEvent.ACTION_CANCEL) {
+            umTimePressed = false;
+        }
+        return umTimePressed;
+    }
+
+    @Override
+    public void draw(@NonNull Canvas canvas) {
+        if (umDeleted) {
+            // kept deleted messages are drawn faded, still readable
+            final int restore = canvas.saveLayerAlpha(0, 0, getWidth(), getHeight(), 0x8C);
+            super.draw(canvas);
+            canvas.restoreToCount(restore);
+        } else {
+            super.draw(canvas);
+        }
+    }
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+        if (currentMessageObject != null && checkEditHistoryTouch(event)) {
+            return true;
+        }
         if (currentMessageObject == null || delegate != null && !delegate.canPerformActions() || animationRunning) {
             if (currentMessageObject != null && currentMessageObject.preview) {
                 return checkTextSelection(event);
@@ -12665,6 +12732,8 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
             (
                 UserConfig.getInstance(currentAccount).isPremium()
                 ||
+                TranscribeButton.useLocalTranscription(currentMessageObject)
+                ||
                 TranscribeButton.isFreeTranscribeInChat(currentMessageObject)
                 ||
                 MessagesController.getInstance(currentAccount).transcribeAudioTrialWeeklyNumber > 0 &&
@@ -18467,7 +18536,7 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
             timeString = LocaleController.formatSmallDateChat(currentMessageObject.realDate) + ", " + LocaleController.getInstance().getFormatterDay().format((long) (currentMessageObject.realDate) * 1000);
         } else if (currentMessageObject.isRepostPreview) {
             timeString = LocaleController.formatSmallDateChat(messageObject.messageOwner.date) + ", " + LocaleController.getInstance().getFormatterDay().format((long) (messageObject.messageOwner.date) * 1000);
-        } else if (edited) {
+        } else if (edited && !(UMessageConfig.isSaveEdited() && !currentMessageObject.isSponsored())) {
             timeString = AppGlobalConfig.getInstance(currentAccount).messagePrimaryEditedDate.get() ?
                 LocaleController.formatPmEditedDate(currentMessagesGroup != null ? currentMessagesGroup.getMaxEditDate() : messageObject.messageOwner.edit_date) :
                 (getString(R.string.EditedMessage) + " " + LocaleController.getInstance().getFormatterDay().format((long) (messageObject.messageOwner.date) * 1000));
@@ -18523,6 +18592,20 @@ public class ChatMessageCell extends BaseCell implements SeekBar.SeekBarDelegate
                 currentTimeString = TextUtils.concat(formatString(R.string.MessageScheduledRepeatSeconds, period), ", ", currentTimeString);
             }
         }
+        // U message: a trash can for kept deleted messages and a pencil for edited ones, before the time
+        umDeleted = UMessageHistory.isDeleted(currentAccount, currentMessageObject);
+        umEditedIcon = edited && UMessageConfig.isSaveEdited() && !currentMessageObject.isSponsored() && !TextUtils.isEmpty(timeString);
+        if ((umDeleted || umEditedIcon) && currentTimeString != null) {
+            SpannableStringBuilder icons = new SpannableStringBuilder();
+            if (umDeleted) {
+                appendTimeIcon(icons, R.drawable.msg_delete);
+            }
+            if (umEditedIcon) {
+                appendTimeIcon(icons, R.drawable.msg_edit);
+            }
+            currentTimeString = TextUtils.concat(icons, currentTimeString);
+            timeTextWidth = timeWidth = (int) Math.ceil(Layout.getDesiredWidth(currentTimeString, Theme.chat_timePaint));
+        } else
         timeTextWidth = timeWidth = (int) Math.ceil(Theme.chat_timePaint.measureText(currentTimeString, 0, currentTimeString == null ? 0 : currentTimeString.length()));
         if (currentMessageObject.scheduled && currentMessageObject.messageOwner.date == 0x7FFFFFFE || currentMessageObject.notime) {
             timeWidth -= dp(8);

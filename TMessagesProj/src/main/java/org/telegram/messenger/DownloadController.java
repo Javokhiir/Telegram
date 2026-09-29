@@ -624,7 +624,15 @@ public class DownloadController extends BaseController implements NotificationCe
         return canDownloadMediaInternal(messageObject) == 1;
     }
 
+    /** U message: "stop automatic downloads" keeps everything but stickers from loading until tapped. */
+    private static boolean isAutoDownloadStopped(TLRPC.Message msg) {
+        return UMessageConfig.isAutoDownloadStopped() && !MessageObject.isStickerMessage(msg) && !MessageObject.isAnimatedStickerMessage(msg);
+    }
+
     public boolean canDownloadMedia(int type, long size) {
+        if (UMessageConfig.isAutoDownloadStopped()) {
+            return false;
+        }
         Preset preset;
         int networkType = ApplicationLoader.getAutodownloadNetworkType();
         if (networkType == StatsController.TYPE_WIFI) {
@@ -691,6 +699,9 @@ public class DownloadController extends BaseController implements NotificationCe
             return canPreloadStories() ? 2 : 0;
         }
         TLRPC.Message msg = message.messageOwner;
+        if (isAutoDownloadStopped(msg)) {
+            return 0;
+        }
         int type;
         boolean isVideo;
         if ((isVideo = MessageObject.isVideoMessage(msg)) || MessageObject.isGifMessage(msg) || MessageObject.isRoundVideoMessage(msg) || MessageObject.isGameMessage(msg)) {
@@ -781,6 +792,9 @@ public class DownloadController extends BaseController implements NotificationCe
             return canPreloadStories() ? 2 : 0;
         }
         TLRPC.Message msg = message.messageOwner;
+        if (isAutoDownloadStopped(msg)) {
+            return 0;
+        }
         int type;
         boolean isVideo;
         if ((isVideo = MessageObject.isVideoMessage(msg)) || MessageObject.isGifMessage(msg) || MessageObject.isRoundVideoMessage(msg) || MessageObject.isGameMessage(msg)) {
@@ -862,6 +876,9 @@ public class DownloadController extends BaseController implements NotificationCe
         if (message == null || message.media instanceof TLRPC.TL_messageMediaStory) {
             return canPreloadStories() ? 2 : 0;
         }
+        if (isAutoDownloadStopped(message)) {
+            return 0;
+        }
         int type;
         boolean isVideo;
         if ((isVideo = MessageObject.isVideoMessage(message)) || MessageObject.isGifMessage(message) || MessageObject.isRoundVideoMessage(message) || MessageObject.isGameMessage(message)) {
@@ -942,6 +959,9 @@ public class DownloadController extends BaseController implements NotificationCe
     public int canDownloadMedia(TLRPC.Message message, TLRPC.MessageMedia media) {
         if (message == null || media instanceof TLRPC.TL_messageMediaStory) {
             return canPreloadStories() ? 2 : 0;
+        }
+        if (isAutoDownloadStopped(message)) {
+            return 0;
         }
         int type;
         boolean isVideo = false;
@@ -1409,7 +1429,9 @@ public class DownloadController extends BaseController implements NotificationCe
                                 TLRPC.Document document = delayedMessage.obj.getDocument();
                                 if (lastTime == null || lastTime + 4000 < System.currentTimeMillis()) {
                                     if (delayedMessage.obj.isRoundVideo()) {
-                                        getMessagesController().sendTyping(dialogId, topMessageId, 8, 0);
+                                        // U message: a gallery video note shows "recording video message" while it is converted and uploaded
+                                        final boolean galleryRound = delayedMessage.videoEditedInfo != null && delayedMessage.videoEditedInfo.galleryRound;
+                                        getMessagesController().sendTyping(dialogId, topMessageId, galleryRound ? 7 : 8, 0);
                                     } else if (delayedMessage.obj.isVideo()) {
                                         getMessagesController().sendTyping(dialogId, topMessageId, 5, 0);
                                     } else if (delayedMessage.obj.isVoice()) {
@@ -1786,6 +1808,9 @@ public class DownloadController extends BaseController implements NotificationCe
     }
 
     public boolean canPreloadStories() {
+        if (UMessageConfig.isAutoDownloadStopped()) {
+            return false;
+        }
         Preset preset;
         int networkType = ApplicationLoader.getAutodownloadNetworkType();
         if (networkType == StatsController.TYPE_WIFI) {

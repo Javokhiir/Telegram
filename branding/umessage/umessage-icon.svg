@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" color="#fff">
+  <title>U message</title>
+  <circle cx="256" cy="256" r="256" fill="#000"/>
+  <g fill="currentColor" transform="translate(256 256) scale(.5) translate(-525 -224.5)">
+    <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    <g transform="rotate(180 525 224.5)">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+  </g>
+</svg>

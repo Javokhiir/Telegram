@@ -246,33 +246,47 @@ public class ApplicationLoader extends Application {
 
         SharedConfig.loadConfig();
         SharedPrefsHelper.init(applicationContext);
-        for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) { //TODO improve account
+        // Load the small account configs first, then initialize only the account that
+        // is needed to draw the first screen. Other controllers, media, contacts,
+        // billing and resend checks are warmed after the UI is already visible.
+        for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) {
             UserConfig.getInstance(a).loadConfig();
-            MessagesController.getInstance(a);
-            if (a == 0) {
-                SharedConfig.pushStringStatus = "__FIREBASE_GENERATING_SINCE_" + ConnectionsManager.getInstance(a).getCurrentTime() + "__";
-            } else {
-                ConnectionsManager.getInstance(a);
-            }
-            TLRPC.User user = UserConfig.getInstance(a).getCurrentUser();
-            if (user != null) {
-                MessagesController.getInstance(a).putUser(user, true);
-                SendMessagesHelper.getInstance(a).checkUnsentMessages();
-            }
         }
-
-        ApplicationLoader app = (ApplicationLoader) ApplicationLoader.applicationContext;
-        app.initPushServices();
+        final int foregroundAccount = Math.max(0, Math.min(UserConfig.selectedAccount, UserConfig.MAX_ACCOUNT_COUNT - 1));
+        final MessagesController foregroundMessages = MessagesController.getInstance(foregroundAccount);
+        ConnectionsManager.getInstance(foregroundAccount);
+        // Push registration is startup-critical: request the token before the deferred warm-up.
+        // Delaying this used to leave U message without notifications after a cold start.
+        SharedConfig.pushStringStatus = "__FIREBASE_GENERATING_SINCE_" + ConnectionsManager.getInstance(0).getCurrentTime() + "__";
+        ((ApplicationLoader) ApplicationLoader.applicationContext).initPushServices();
+        final TLRPC.User foregroundUser = UserConfig.getInstance(foregroundAccount).getCurrentUser();
+        if (foregroundUser != null) {
+            foregroundMessages.putUser(foregroundUser, true);
+        }
         if (BuildVars.LOGS_ENABLED) {
             FileLog.d("app initied");
         }
 
-        MediaController.getInstance();
-        for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) { //TODO improve account
-            ContactsController.getInstance(a).checkAppAccount();
-            DownloadController.getInstance(a);
-        }
-        BillingController.getInstance().startConnection();
+        AndroidUtilities.runOnUIThread(() -> {
+            for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) {
+                MessagesController messagesController = MessagesController.getInstance(a);
+                if (a != 0) {
+                    ConnectionsManager.getInstance(a);
+                }
+                TLRPC.User user = UserConfig.getInstance(a).getCurrentUser();
+                if (user != null) {
+                    messagesController.putUser(user, true);
+                    SendMessagesHelper.getInstance(a).checkUnsentMessages();
+                }
+            }
+
+            MediaController.getInstance();
+            for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) {
+                ContactsController.getInstance(a).checkAppAccount();
+                DownloadController.getInstance(a);
+            }
+            BillingController.getInstance().startConnection();
+        }, 5000);
     }
 
     public ApplicationLoader() {
@@ -354,6 +368,7 @@ public class ApplicationLoader extends Application {
 
         LauncherIconController.tryFixLauncherIconIfNeeded();
         ProxyRotationController.init();
+        UMessageProxyManager.init();
 
         //if (BuildConfig.DEBUG_PRIVATE_VERSION) {
         //    Choreographer60FpsContent.getInstance().addFrameCallback(debugEverySecondChecks, 1);
@@ -396,7 +411,7 @@ public class ApplicationLoader extends Application {
         }
     }
 
-    private void initPushServices() {
+    private static void initPushServices() {
         AndroidUtilities.runOnUIThread(() -> {
             if (getPushProvider().hasServices()) {
                 getPushProvider().onRequestPushToken();
@@ -407,7 +422,7 @@ public class ApplicationLoader extends Application {
                 SharedConfig.pushStringStatus = "__NO_GOOGLE_PLAY_SERVICES__";
                 PushListenerController.sendRegistrationToServer(getPushProvider().getPushType(), null);
             }
-        }, 1000);
+        });
     }
 
     private boolean checkPlayServices() {

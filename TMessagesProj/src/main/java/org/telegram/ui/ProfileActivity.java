@@ -120,6 +120,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import org.telegram.ui.Components.ScrimOptions;
+import org.telegram.ui.Components.UMessagePublicProfileInfo;
 import org.telegram.ui.Components.blur3.drawable.color.impl.BlurredBackgroundProviderImpl;
 import org.telegram.ui.Components.blur3.source.BlurredBackgroundSourceBitmap;
 import org.telegram.ui.Components.blur3.utils.Blur3Utils;
@@ -435,6 +436,14 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
 
     private boolean doNotSetForeground;
     public boolean hasMainTabs;
+    private View addPostButton;
+
+    /** Main tabs dock action button on the profile tab: add a post. */
+    public void onMainTabsActionClick() {
+        if (addPostButton != null) {
+            addPostButton.performClick();
+        }
+    }
 
     private boolean[] isOnline = new boolean[1];
 
@@ -600,6 +609,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
     private final static int delete_group = 45;
     private final static int enable_no_forwards = 46;
     private final static int disable_no_forwards = 47;
+    private final static int public_info = 48;
 
     private Rect rect = new Rect();
 
@@ -2557,6 +2567,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                     args.putLong("user_id", user.id);
                     args.putBoolean("addContact", true);
                     openAddToContact(user, args);
+                } else if (id == public_info) {
+                    UMessagePublicProfileInfo.show(ProfileActivity.this, getMessagesController().getUser(userId), userInfo);
                 } else if (id == share_contact) {
                     Bundle args = new Bundle();
                     args.putBoolean("onlySelect", true);
@@ -3662,6 +3674,13 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 button2.addView(bottomButton[a], LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, LayoutHelper.MATCH_PARENT, Gravity.CENTER));
                 bottomButtonContainer[a].addView(button2, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 60, Gravity.CENTER_HORIZONTAL));
                 bottomButtonsContainer.addView(bottomButtonContainer[a], LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT, Gravity.BOTTOM | Gravity.FILL_HORIZONTAL));
+                if (a == 0) {
+                    addPostButton = button2;
+                    if (hasMainTabs) {
+                        // U message: in the main tabs the dock action button posts instead
+                        bottomButtonContainer[a].setVisibility(View.GONE);
+                    }
+                }
                 if (a == 1 || !getMessagesController().storiesEnabled()) {
                     bottomButtonContainer[a].setTranslationY(dp(72));
                 }
@@ -12126,6 +12145,9 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 if (userInfo != null && userInfo.phone_calls_available) {
                     callItemVisible = true;
                     videoCallItemVisible = userInfo.video_calls_available;
+                }
+                if (!user.bot && !UserObject.isDeleted(user)) {
+                    otherItem.addSubItem(public_info, R.drawable.msg_info, LocaleController.getString(R.string.UMessagePublicInfo));
                 }
                 if (isBot || getContactsController().contactsDict.get(userId) == null) {
                     if (MessagesController.isSupportUser(user)) {

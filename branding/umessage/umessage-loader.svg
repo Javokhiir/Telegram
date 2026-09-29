@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="115 -185.5 820 820" width="128" height="128" color="#000">
+  <title>U message loading</title>
+  <style>
+    /* twin orbits: single mark -> closed circle -> single mark */
+    #u { transform-box: view-box; transform-origin: 525px 224.5px;
+         animation: orbit 1.8s cubic-bezier(.7,0,.3,1) infinite; }
+    @keyframes orbit { 0% { transform: rotate(0); } 40%, 60% { transform: rotate(180deg); } 100% { transform: rotate(360deg); } }
+  </style>
+  <g fill="currentColor">
+    <g id="me">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+    <g id="u">
+      <rect x="155" y="12" width="370" height="74"/>
+      <path d="M525 12A212.5 212.5 0 0 0 525 437V363A138.5 138.5 0 0 1 525 86Z"/>
+    </g>
+  </g>
+</svg>

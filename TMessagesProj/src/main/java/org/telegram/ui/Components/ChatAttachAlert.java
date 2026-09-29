@@ -4001,6 +4001,29 @@ public class ChatAttachAlert extends BottomSheet implements NotificationCenter.N
                     }
                 });
             }
+            // U message: convert the single selected gallery video to a round video message
+            if (chatActivity != null && photoLayout != null && (currentAttachLayout == photoLayout || currentAttachLayout == photoPreviewLayout) && currentAttachLayout.getSelectedItemsCount() == 1 && chatActivity.canSendRoundVideoFromGallery()) {
+                MediaController.PhotoEntry roundEntry = null;
+                for (Object entry : photoLayout.getSelectedPhotos().values()) {
+                    if (entry instanceof MediaController.PhotoEntry && ((MediaController.PhotoEntry) entry).isVideo) {
+                        roundEntry = (MediaController.PhotoEntry) entry;
+                    }
+                }
+                if (roundEntry != null) {
+                    final MediaController.PhotoEntry finalRoundEntry = roundEntry;
+                    final ChatActivity finalRoundChatActivity = chatActivity;
+                    options.add(R.drawable.input_video, getString(R.string.UMessageSendAsRound), () -> {
+                        if (messageSendPreview != null) {
+                            messageSendPreview.dismiss(true);
+                            messageSendPreview = null;
+                        }
+                        if (finalRoundChatActivity.sendRoundVideoFromGallery(finalRoundEntry, true, 0)) {
+                            photoLayout.clearSelectedPhotos();
+                            dismiss(true);
+                        }
+                    });
+                }
+            }
             if (editingMessageObject == null && canHaveStars && chatActivity != null && ChatObject.isChannelAndNotMegaGroup(chatActivity.getCurrentChat()) && chatActivity.getCurrentChatInfo() != null && chatActivity.getCurrentChatInfo().paid_media_allowed) {
                 ActionBarMenuSubItem item = options.add(R.drawable.menu_feature_paid, getString(R.string.PaidMediaButton), null).getLast();
                 item.setOnClickListener(v -> {

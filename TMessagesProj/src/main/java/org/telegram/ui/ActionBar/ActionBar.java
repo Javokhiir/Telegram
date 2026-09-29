@@ -1649,6 +1649,11 @@ public class ActionBar extends FrameLayout implements FactorAnimator.Target, The
 
     boolean overlayTitleAnimationInProgress;
 
+    /** True while a status text such as "Connecting..." replaces the title. */
+    public boolean isTitleOverlayShown() {
+        return titleOverlayShown;
+    }
+
     public void setTitleOverlayText(String title, int titleId, Runnable action) {
         if (!allowOverlayTitle || parentFragment.parentLayout == null) {
             return;

@@ -28,6 +28,7 @@ import android.content.ClipData;
 import android.content.ClipDescription;
 import android.content.ClipboardManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -146,6 +147,7 @@ import org.telegram.messenger.R;
 import org.telegram.messenger.SendMessagesHelper;
 import org.telegram.messenger.SharedConfig;
 import org.telegram.messenger.SharedPrefsHelper;
+import org.telegram.messenger.UMessageConfig;
 import org.telegram.messenger.UserConfig;
 import org.telegram.messenger.UserObject;
 import org.telegram.messenger.Utilities;
@@ -2827,6 +2829,17 @@ public class ChatActivityEnterView extends FrameLayout implements
             attachButton.setImageResource(R.drawable.msg_input_attach2);
             attachButton.setBackground(Theme.createSelectorDrawable(getThemedColor(Theme.key_listSelector)));
             messageEditTextContainer.addView(attachButton, LayoutHelper.createFrame(DEFAULT_HEIGHT, DEFAULT_HEIGHT, Gravity.BOTTOM | Gravity.RIGHT));
+
+            if (UMessageConfig.isVoiceInputButton() && chatMode != ChatActivity.MODE_WELCOME_MESSAGES) {
+                dictationButton = new ImageView(context);
+                dictationButton.setScaleType(ImageView.ScaleType.CENTER);
+                dictationButton.setImageResource(R.drawable.msg_voice_unmuted);
+                dictationButton.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_glass_defaultIcon), PorterDuff.Mode.MULTIPLY));
+                dictationButton.setBackground(Theme.createSelectorDrawable(getThemedColor(Theme.key_listSelector)));
+                dictationButton.setContentDescription(getString(R.string.UMessageVoiceInput));
+                dictationButton.setOnClickListener(v -> startDictation());
+                attachLayout.addView(dictationButton, 0, LayoutHelper.createLinear(DEFAULT_HEIGHT, DEFAULT_HEIGHT));
+            }
             attachButton.setOnClickListener(v -> {
                 if (adjustPanLayoutHelper != null && adjustPanLayoutHelper.animationInProgress() || attachLayoutPaddingAlpha == 0f) {
                     return;
@@ -2992,9 +3005,9 @@ public class ChatActivityEnterView extends FrameLayout implements
                                         slideText.setEnabled(false);
                                     }
                                     delegate.toggleVideoRecordingPause();
-                                    AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
+                                    confirmVoiceSend(() -> AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
                                         sendMessageInternal(true, 0, 0, payStars, false);
-                                    });
+                                    }));
                                     return true;
                                 }
                                 delegate.needStartRecordVideo(1, true, 0, 0, voiceOnce ? 0x7FFFFFFF : 0, effectId, 0);
@@ -3003,7 +3016,7 @@ public class ChatActivityEnterView extends FrameLayout implements
                                 if (recordingAudioVideo && isInScheduleMode()) {
                                     AlertsCreator.createScheduleDatePickerDialog(parentActivity, parentFragment.getDialogId(), (notify, scheduleDate, scheduleRepeatPeriod) -> MediaController.getInstance().stopRecording(1, notify, scheduleDate, false, 0), () -> MediaController.getInstance().stopRecording(0, false, 0, false, 0), resourcesProvider);
                                 }
-                                if (AlertsCreator.needsPaidMessageAlert(currentAccount, dialog_id)) {
+                                if (AlertsCreator.needsPaidMessageAlert(currentAccount, dialog_id) || needsVoiceSendConfirm()) {
                                     if (isInVideoMode()) {
                                         if (slideText != null) {
                                             slideText.setEnabled(false);
@@ -3019,9 +3032,9 @@ public class ChatActivityEnterView extends FrameLayout implements
                                             slideText.setEnabled(false);
                                         }
                                     }
-                                    AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
+                                    confirmVoiceSend(() -> AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
                                         sendMessageInternal(true, 0, 0, payStars, false);
-                                    });
+                                    }));
                                     return true;
                                 }
                                 MediaController.getInstance().stopRecording(isInScheduleMode() ? 3 : 1, true, 0, voiceOnce, 0);
@@ -3114,9 +3127,9 @@ public class ChatActivityEnterView extends FrameLayout implements
                                         slideText.setEnabled(false);
                                     }
                                     delegate.toggleVideoRecordingPause();
-                                    AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
+                                    confirmVoiceSend(() -> AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
                                         sendMessageInternal(true, 0, 0, payStars, false);
-                                    });
+                                    }));
                                     return true;
                                 }
                                 CameraController.getInstance().cancelOnInitRunnable(onFinishInitCameraRunnable);
@@ -3125,7 +3138,7 @@ public class ChatActivityEnterView extends FrameLayout implements
                             } else if (!sendVoiceEnabled) {
                                 delegate.needShowMediaBanHint();
                             } else {
-                                if (AlertsCreator.needsPaidMessageAlert(currentAccount, dialog_id)) {
+                                if (AlertsCreator.needsPaidMessageAlert(currentAccount, dialog_id) || needsVoiceSendConfirm()) {
                                     if (sendButtonVisible) {
                                         calledRecordRunnable = true;
                                     }
@@ -3134,9 +3147,9 @@ public class ChatActivityEnterView extends FrameLayout implements
                                     if (slideText != null) {
                                         slideText.setEnabled(false);
                                     }
-                                    AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
+                                    confirmVoiceSend(() -> AlertsCreator.ensurePaidMessageConfirmation(currentAccount, dialog_id, 1, payStars -> {
                                         sendMessageInternal(true, 0, 0, payStars, false);
-                                    });
+                                    }));
                                     return true;
                                 }
                                 if (recordingAudioVideo && isInScheduleMode()) {
@@ -6049,6 +6062,7 @@ public class ChatActivityEnterView extends FrameLayout implements
             }
         });
         messageEditText.addTextChangedListener(new EditTextSuggestionsFix());
+        messageEditText.addTextChangedListener(new UMessageTemplatesWatcher(messageEditText));
         messageEditText.setEnabled(messageEditTextEnabled);
         if (messageEditTextWatchers != null) {
             for (TextWatcher textWatcher : messageEditTextWatchers) {
@@ -8729,6 +8743,9 @@ public class ChatActivityEnterView extends FrameLayout implements
                 layoutParams.rightMargin = dp(98);
             } else {
                 layoutParams.rightMargin = dp(50);
+            }
+            if (dictationButton != null && dictationButton.getVisibility() == VISIBLE) {
+                layoutParams.rightMargin += dp(DEFAULT_HEIGHT);
             }
         } else {
             if (scheduledButton != null && scheduledButton.getTag() != null) {
@@ -11444,7 +11461,12 @@ public class ChatActivityEnterView extends FrameLayout implements
             sendButton.setEffect(effectId = 0);
             SendMessagesHelper.getInstance(currentAccount).sendMessage(params);
         } else if (buttonTypeUrl != null) {
-            if (Browser.urlMustNotHaveConfirmation(buttonTypeUrl.url)) {
+            final String maskedHost = UMessageSecurityGuard.getMaskedHost(button.getText(), buttonTypeUrl.url);
+            if (maskedHost != null) {
+                // Button label names one site but the button opens another one.
+                UMessageSecurityGuard.showMaskedLinkDanger(parentActivity, maskedHost, buttonTypeUrl.url,
+                        () -> Browser.openUrlSecurityConfirmed(parentActivity, Uri.parse(buttonTypeUrl.url), true, true, progress));
+            } else if (Browser.urlMustNotHaveConfirmation(buttonTypeUrl.url)) {
                 Browser.openUrl(parentActivity, Uri.parse(buttonTypeUrl.url), true, true, progress);
             } else {
                 AlertsCreator.showOpenUrlAlert(parentFragment, buttonTypeUrl.url, false, true, true, progress, resourcesProvider);
@@ -12160,6 +12182,10 @@ public class ChatActivityEnterView extends FrameLayout implements
             }
 
             public void onGifSelected(View view, Object gif, String query, Object parent, boolean notify, int scheduleDate, int scheduleRepeatPeriod, MediaController.PhotoEntry entry, boolean invertMedia) {
+                if (confirmSend(UMessageConfig.isConfirmGif(), R.string.UMessageConfirmGifAsk,
+                        () -> onGifSelected(view, gif, query, parent, notify, scheduleDate, scheduleRepeatPeriod, entry, invertMedia))) {
+                    return;
+                }
                 if (replyingQuote != null && parentFragment != null && replyingQuote.outdated) {
                     parentFragment.showQuoteMessageUpdate();
                     return;
@@ -12505,9 +12531,85 @@ public class ChatActivityEnterView extends FrameLayout implements
         checkChannelRights();
     }
 
+    /* U message: dictation button next to the field (speech is typed into the message) */
+
+    public static final int DICTATION_REQUEST_CODE = 7301;
+    private ImageView dictationButton;
+
+    private void startDictation() {
+        if (parentFragment == null) {
+            return;
+        }
+        Intent intent = new Intent(android.speech.RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(android.speech.RecognizerIntent.EXTRA_LANGUAGE_MODEL, android.speech.RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(android.speech.RecognizerIntent.EXTRA_PROMPT, getString(R.string.UMessageVoiceInput));
+        try {
+            parentFragment.startActivityForResult(intent, DICTATION_REQUEST_CODE);
+        } catch (Exception e) {
+            BulletinFactory.of(parentFragment).createErrorBulletin(getString(R.string.UMessageVoiceInputUnavailable)).show();
+        }
+    }
+
+    public void onDictationResult(Intent data) {
+        if (data == null || messageEditText == null) {
+            return;
+        }
+        ArrayList<String> results = data.getStringArrayListExtra(android.speech.RecognizerIntent.EXTRA_RESULTS);
+        if (results == null || results.isEmpty() || TextUtils.isEmpty(results.get(0))) {
+            return;
+        }
+        String text = results.get(0);
+        Editable editable = messageEditText.getText();
+        int start = Math.max(0, Math.min(messageEditText.getSelectionStart(), editable.length()));
+        int end = Math.max(start, Math.min(messageEditText.getSelectionEnd(), editable.length()));
+        if (start > 0 && !Character.isWhitespace(editable.charAt(start - 1))) {
+            text = " " + text;
+        }
+        editable.replace(start, end, text);
+        messageEditText.setSelection(start + text.length());
+        openKeyboard();
+    }
+
+    /* U message: optional confirmation before a sticker, GIF or voice message goes out */
+
+    private boolean sendConfirmed;
+
+    private boolean needsVoiceSendConfirm() {
+        return UMessageConfig.isConfirmVoice() && !isInVideoMode();
+    }
+
+    /** The voice recording is already paused in its preview, so cancelling keeps it there to send or delete. */
+    private void confirmVoiceSend(Runnable send) {
+        if (needsVoiceSendConfirm()) {
+            UMessageConfig.showSendConfirm(parentFragment, resourcesProvider, R.string.UMessageConfirmVoiceAsk, send);
+        } else {
+            send.run();
+        }
+    }
+
+    /** Runs {@code send} right away, or after the user confirms when {@code confirm} is on. */
+    private boolean confirmSend(boolean confirm, int questionRes, Runnable send) {
+        if (!confirm || sendConfirmed || parentFragment == null) {
+            return false;
+        }
+        UMessageConfig.showSendConfirm(parentFragment, resourcesProvider, questionRes, () -> {
+            sendConfirmed = true;
+            try {
+                send.run();
+            } finally {
+                sendConfirmed = false;
+            }
+        });
+        return true;
+    }
+
     @Override
     public void onStickerSelected(TLRPC.Document sticker, String query, Object parent, MessageObject.SendAnimationData sendAnimationData, boolean clearsInputField, boolean notify, int scheduleDate, int scheduleRepeatPeriod) {
         if (isLiveComment) return;
+        if (confirmSend(UMessageConfig.isConfirmSticker() && !MessageObject.isGifDocument(sticker), R.string.UMessageConfirmStickerAsk,
+                () -> onStickerSelected(sticker, query, parent, sendAnimationData, clearsInputField, notify, scheduleDate, scheduleRepeatPeriod))) {
+            return;
+        }
         if (replyingQuote != null && parentFragment != null && replyingQuote.outdated) {
             parentFragment.showQuoteMessageUpdate();
             return;

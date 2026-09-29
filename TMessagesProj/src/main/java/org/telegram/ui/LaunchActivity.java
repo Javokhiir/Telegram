@@ -311,6 +311,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
     private FireworksOverlay fireworksOverlay;
     private BottomSheetTabsOverlay bottomSheetTabsOverlay;
     public DrawerLayoutContainer drawerLayoutContainer;
+    private org.telegram.ui.Components.PrivacyGuardAppShield privacyGuardAppShield; // U message: app-wide Privacy Guard
     private PasscodeViewDialog passcodeDialog;
     private List<PasscodeView> overlayPasscodeViews = new ArrayList<>();
     private TermsOfServiceView termsOfServiceView;
@@ -1466,6 +1467,10 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
             if (passcodeSaveIntent != null) {
                 handleIntent(passcodeSaveIntent, passcodeSaveIntentIsNew, passcodeSaveIntentIsRestore, true, null, false, true);
                 passcodeSaveIntent = null;
+            }
+            int switchAccount = view.consumeAcceptedAccount();
+            if (switchAccount >= 0 && switchAccount != UserConfig.selectedAccount) {
+                switchToAccount(switchAccount, true);
             }
             actionBarLayout.getView().setVisibility(View.VISIBLE);
             actionBarLayout.rebuildFragments(INavigationLayout.REBUILD_FLAG_REBUILD_LAST);
@@ -6728,6 +6733,9 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
     protected void onPause() {
         super.onPause();
         isResumed = false;
+        if (privacyGuardAppShield != null) {
+            privacyGuardAppShield.detach();
+        }
         pipActivityHandler.onPause();
         NotificationCenter.getGlobalInstance().postNotificationName(NotificationCenter.stopAllHeavyOperations, 4096);
         ApplicationLoader.mainInterfacePaused = true;
@@ -6960,10 +6968,26 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
 
     View feedbackView;
 
+    private void attachPrivacyGuardAppShield() {
+        if (!org.telegram.messenger.privacyguard.PrivacyGuardSettings.isSupported() || frameLayout == null) {
+            return;
+        }
+        if (privacyGuardAppShield == null) {
+            privacyGuardAppShield = new org.telegram.ui.Components.PrivacyGuardAppShield(this, frameLayout);
+        }
+        privacyGuardAppShield.attach();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
         isResumed = true;
+        attachPrivacyGuardAppShield();
+        for (int a = 0; a < UserConfig.MAX_ACCOUNT_COUNT; a++) {
+            if (UserConfig.getInstance(a).isClientActivated()) {
+                org.telegram.messenger.UMessagePremiumController.getInstance().register(a);
+            }
+        }
         pipActivityHandler.onResume();
         if (onResumeStaticCallback != null) {
             onResumeStaticCallback.run();

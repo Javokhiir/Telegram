@@ -394,6 +394,8 @@ public class MessageObject {
             " . "
     };
     public boolean isRepostPreview;
+    /** U message settings preview: draw this message as a kept deleted one. */
+    public boolean umPreviewDeleted;
     public boolean isRepostVideoPreview;
     public boolean business;
     public boolean forceAvatar;
@@ -3741,6 +3743,9 @@ public class MessageObject {
         return replyUpdated || false;
     }
 
+    /** U message: the text without the earlier versions while they are shown under it (null when collapsed). */
+    public CharSequence umTextBeforeHistory;
+
     public void applyNewText() {
         translated = false;
         summarized = false;
@@ -6780,10 +6785,29 @@ public class MessageObject {
                 type = TYPE_DATE;
             }
         }
+        if (type == TYPE_FILE && !messageOwner.out && UMessageConfig.isApkBlocked() && isApkDocument(getDocument())) {
+            // U message: incoming APK files are not shown at all
+            type = -1;
+        }
         if (oldType != 1000 && oldType != type && type != TYPE_EMOJIS) {
             updateMessageText(MessagesController.getInstance(currentAccount).getUsers(), MessagesController.getInstance(currentAccount).getChats(), null, null);
             generateThumbs(false);
         }
+    }
+
+    public static boolean isApkDocument(TLRPC.Document document) {
+        if (document == null) {
+            return false;
+        }
+        if ("application/vnd.android.package-archive".equalsIgnoreCase(document.mime_type)) {
+            return true;
+        }
+        final String name = FileLoader.getDocumentFileName(document);
+        if (name == null) {
+            return false;
+        }
+        final String lower = name.toLowerCase(java.util.Locale.ROOT);
+        return lower.endsWith(".apk") || lower.endsWith(".apks") || lower.endsWith(".xapk") || lower.endsWith(".apkm");
     }
 
     public boolean checkLayout() {

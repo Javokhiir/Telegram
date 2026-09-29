@@ -102,6 +102,7 @@ public class Camera1Enumerator implements CameraEnumerator {
     android.hardware.Camera camera = null;
     try {
       Logging.d(TAG, "Opening camera with index " + cameraId);
+      org.telegram.messenger.privacyguard.PrivacyGuardCameraArbiter.yieldCamera(); // U message: Privacy Guard hands over the camera
       camera = android.hardware.Camera.open(cameraId);
       parameters = camera.getParameters();
     } catch (RuntimeException e) {

@@ -1,0 +1,13 @@
+{
+  "name": "umessage-premium-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "U message premium backend — grants and reads an app-only premium flag for U message users (not real Telegram Premium).",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/kv": "^3.0.0"
+  }
+}
