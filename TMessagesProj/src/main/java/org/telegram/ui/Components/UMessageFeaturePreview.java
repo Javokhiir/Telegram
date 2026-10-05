@@ -16,6 +16,8 @@ import android.graphics.RenderEffect;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.graphics.drawable.GradientDrawable;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
 import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -200,7 +202,9 @@ public class UMessageFeaturePreview extends FrameLayout {
             case UMessageConfig.KEY_AUTO_APPROVE: return playAutoApprove();
             case UMessageConfig.KEY_STOP_AUTODOWNLOAD: return playStopAutoDownload();
             case UMessageConfig.KEY_BLOCK_ADS: return playBlockAds();
+            case UMessageConfig.KEY_UM_PREMIUM: return playPremium();
             case UMessageConfig.KEY_PROXY_FALLBACK: return playProxy();
+            case UMessageConfig.KEY_NEARBY_SHARE: return playNearbyShare();
             case PrivacyGuardSettings.KEY_OWNER_AWAY: return playGuardOwnerAway();
             case PrivacyGuardSettings.KEY_PROTECT_MEDIA: return playGuardMedia();
             case PrivacyGuardSettings.KEY_PROTECT_COMPOSER: return playGuardComposer();
@@ -647,6 +651,26 @@ public class UMessageFeaturePreview extends FrameLayout {
         return 3700;
     }
 
+    private long playPremium() {
+        final TLRPC.User self = UserConfig.getInstance(account).getCurrentUser();
+        final String name = UserObject.getUserName(self);
+        chatScene(self, name, LocaleController.getString(R.string.Online), false);
+        toast(LocaleController.getString(R.string.UMessagePreviewFriendScreen), 0, 1800);
+        later(700, () -> addMessage(textMessage(false, LocaleController.getString(R.string.UMessagePreviewHi))));
+        if (on) {
+            final TextView title = (TextView) header.getChildAt(1);
+            later(1600, () -> {
+                final SpannableStringBuilder text = new SpannableStringBuilder(name).append("  ");
+                final ColoredImageSpan star = new ColoredImageSpan(R.drawable.msg_premium_liststar);
+                star.setOverrideColor(0xffffb300);
+                text.setSpan(star, text.length() - 1, text.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                title.setText(text);
+                pulse(title);
+            });
+        }
+        return 3600;
+    }
+
     private long playProxy() {
         final Chat peer = firstPrivateChat();
         chatScene(peer.object, peer.name, LocaleController.getString(R.string.Connecting), false);
@@ -663,6 +687,20 @@ public class UMessageFeaturePreview extends FrameLayout {
             toast(LocaleController.getString(R.string.UMessagePreviewNoConnection), 1800, 1800);
         }
         return 4000;
+    }
+
+    private long playNearbyShare() {
+        final Chat peer = firstPrivateChat();
+        final UMessageNearbyCard card = new UMessageNearbyCard(getContext(), peer.name, null, LocaleController.getString(R.string.UMessagePreviewHi), null, null);
+        card.setScaleX(0.74f);
+        card.setScaleY(0.74f);
+        stage.addView(card, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.CENTER, 18, 0, 18, 0));
+        final long end = card.play(on);
+        if (!on) {
+            toast(LocaleController.getString(R.string.UMessageNearbyShareOff), 1400, 1600);
+            return 3000;
+        }
+        return end + 1400;
     }
 
     private long playGuardOwnerAway() {

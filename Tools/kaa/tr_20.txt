@@ -1,0 +1,571 @@
+GiftAuctionInfo2Header	Stavkanı ótkeriw
+GiftAuctionInfo2Text_one	Eger stavkańız dáslepki %d lıqtan shıǵıp qalsa, ol avtomat túrde keyingi raundqa ótedi.
+GiftAuctionInfo2Text_other	Eger stavkańız dáslepki %d lıqtan shıǵıp qalsa, ol avtomat túrde keyingi raundqa ótedi.
+GiftAuctionInfo3Header	Utpaǵan qatnasıwshılar
+GiftAuctionInfo3Text	Eger stavkańız sońǵı raundtan keyin utpasa, Juldızlarıńız tolıq qaytarıladı.
+GiftTopAction	**%1$s** sizge bul sawǵanı **%2$s** kúni jiberdi
+GiftTopActionFromTo	**%1$s** bul sawǵanı **%2$s** ǵa **%3$s** kúni jiberdi
+GiftSelfTopAction	Siz bul sawǵanı **%1$s** kúni satıp aldıńız
+GiftSelfTopActionCrafted	Siz bul sawǵanı **%1$s** kúni jasadıńız
+BotForumNewTopic	Jańa sáwbet
+BotForumContinueChat	Sońǵı tarmaqtı dawam etiw
+BotForumAskForStartNewChatTitle	Jańa tarmaq
+BotForumAskForStartNewChat	Jańa tarmaq jaratıw ushın qálegen xabar jazıń.
+BotForumAskForStartNewChatForward	Jańa tarmaq jaratıw ushın usı jerge qayta jiberiń.
+BotForumAskForStartOffNewChatTitle	Tarmaqtan tıs
+BotForumAskForStartOffNewChatForward	Tarmaqtan tıs xabar jiberiw ushın usı jerge qayta jiberiń.
+TypeMessageAskBot	%1$s tan sorań
+AddNotes	Jazba qosıw...
+AddNotesInfo	Jazbalar tek sizge kórinedi.
+ProfileNotesRemoveTitle	Jazbanı óshiriw
+ProfileNotesRemoveText	Jazbanı alıp taslawdı anıq qáleysiz be?
+ProfileNotes	Jazbalar
+ProfileNotesInfo	tek sizge kórinedi
+EphemeralMessageVisibleToYou	Tek sizge kórinedi
+EphemeralMessageVisibleToOther	Tek @%s ǵa kórinedi
+EphemeralMessageMenuHint	Bul xabardı tek siz kóresiz. Qaytadan kirgenińizden keyin ol joǵaladı.
+EphemeralWelcomeMessageMenuHint	Xabardıń bul nusqası tek sizge kórinedi.
+AddContactShareNumber	Telefon nomerimdi bólisiw
+AddContactShareNumberInfo	%s telefon nomerińizdi kórmewi ushın bunı óshiriń.
+UserSuggestBirthday	Tuwılǵan kúndi usınıw
+UserSuggestBirthdayTitle	%s tıń tuwılǵan kúni
+UserSuggestBirthdayButton	Tuwılǵan kúndi usınıw
+ActionSuggestBirthday	**un1** sizge tuwılǵan kúnińizdi qosıwdı usınadı
+ActionYouSuggestBirthday	Siz tuwılǵan kúndi qosıwdı usındıńız
+DateDay	Kún
+DateMonth	Ay
+DateYear	Jıl
+GiftRemovedDescription	**%s** tıń táriypi alıp taslandı!
+NotificationMessageSuggestBirthday	%s sizge tuwılǵan kúnińizdi usındı
+StarsTransactionRemovedDescription	Sawǵa táriypi alıp taslandı
+Gift2TransactionRemovedDescription	Sawǵa táriypi alıp taslandı
+Gift2TransactionPrepaidUpgrade	Sawǵanı jaqsılaw
+Gift2PeerColorProfileEmptyTitle	Sizde profil muqabası retinde qollanıwǵa bolatuǵın sawǵalar joq.
+Gift2PeerColorReplyEmptyTitle	Sizde juwap reńi retinde qollanıwǵa bolatuǵın sawǵalar joq.
+Gift2PeerColorEmptyButton	**Satıp alıwǵa bolatuǵın sawǵalardı kóriw >**
+MessageScheduledRepeatYearly	hár jılı
+MessageScheduledRepeatMonthly	hár ayda
+MessageScheduledRepeatMonthlyMany_one	hár %d ayda
+MessageScheduledRepeatMonthlyMany_other	hár %d ayda
+MessageScheduledRepeatWeekly	hár háptede
+MessageScheduledRepeatBiweekly	eki háptede bir
+MessageScheduledRepeatDaily	hár kúni
+MessageScheduledRepeatSeconds	hár %1$d sek
+MessageScheduledRepeatOption	Tákirarlaw:
+MessageScheduledRepeatOptionNever	Hesh qashan
+MessageScheduledRepeatOptionDaily	Hár kúni
+MessageScheduledRepeatOptionWeekly	Hár háptede
+MessageScheduledRepeatOptionBiweekly	Eki háptede bir
+MessageScheduledRepeatOptionMonthly	Hár ayda
+MessageScheduledRepeatOption3Monthly	Hár 3 ayda
+MessageScheduledRepeatOption6Monthly	Hár 6 ayda
+MessageScheduledRepeatOptionYearly	Hár jılı
+MessageScheduledRepeatPremium	Tákirarlanatuǵın xabarlardı rejelestiriw ushın **Telegram Premium** ǵa jazılıń.
+DateOfBirth	Tuwılǵan kún
+DateOfBirthHideYear	Jıldı jasırıw
+DateOfBirthAddToProfile	Profilime qosıw
+SuggestedDateOfBirthView	Kóriw
+LiveStoryStart	Tikkeley efirdi baslaw
+LiveStoryCommentPlaceholder	Pikir
+LiveStoryHighlightTitle	Ajıratıp kórsetiw hám bekitiw
+LiveStoryHighlightText	**%s** ushın Juldız qosıp, xabarıńızdı ajıratıp kórsetiń hám bekitiń
+LiveStoryHighlightFeaturePin	sáwbette bekitiw
+LiveStoryHighlightFeatureLength	belgi
+LiveStoryHighlightFeatureEmoji	emoji
+LiveStoryMessageSent	%s jiberildi
+LiveStoryAdminRole	administrator
+LiveStoryAlreadyStreamingTitle	Efir júrip atır
+LiveStoryAlreadyStreaming	Sizde tikkeley efir álleqashan júrip atır.
+LiveStoryPricePerComment	Bir pikir bahası
+LiveStoryPricePerCommentFree	Biypul
+LiveStoryPricePerCommentInfo	Kóriwshi pikir jiberiw ushın tólewi kerek bolǵan baha.
+LiveStoryRTMPEnable	Translyaciyanı jalǵaw
+LiveStoryRTMPRevoke	Translyaciya giltin biykarlaw
+LiveStoryRTMPRevokeTitle	Translyaciya giltin biykarlaw
+LiveStoryRTMPRevokeText	Translyaciya giltin qayta jaratıwdı anıq qáleysiz be?
+LiveStoryRTMPEnableInfo	Basqa baǵdarlama arqalı translyaciya qılıw.
+LiveStoryRTMPDisable	Telefonıńızdan translyaciya qılıw
+LiveStoryRTMPSettings	RTMP sazlamaları
+LiveStoryReactTitle	Juldızlar menen reakciya bildiriw
+LiveStoryReactText	**%s** ǵa Juldız jiberip, xabarıńızdı ajıratıp kórsetiń hám bekitiń
+LiveStoryReactAdminTitle	Kóriwshilerden Juldız alıw
+LiveStoryReactAdminText	Kóriwshiler sizge Juldız reakciyaların jibere aladı.
+LiveStoryReactAdminEmptyText	Kóriwshiler sizge Juldız reakciyaların jibere aladı hám eń kóp jibergenler usı jerde kórinedi.
+LiveStoryReactAdminCant	Óz tikkeley efirińizge Juldız reakciyaların jibere almaysız.
+LiveStorySettings	Efir sazlamaları
+LiveStorySettingsHeader	Efir sazlamaları
+LiveStoryPeerChange	ózgertiw >
+LiveStoryEnd	Tikkeley efirdi tamamlaw
+LiveStoryEndAlertTitle	Tikkeley efirdi tamamlaw
+LiveStoryEndAlertText	Tikkeley efirdi toqtatıwdı anıq qáleysiz be?
+LiveStoryEndAlertButton	Toqtatıw
+LiveStoryWatching_one	%d kórip atır
+LiveStoryWatching_other	%d kórip atır
+LiveStoryTopPanelWatching_one	%d kórip atır
+LiveStoryTopPanelWatching_other	%d kórip atır
+LiveStoryDisconnected	Translyaciya joq
+LiveStoryDisconnectedContinue	Translyaciyanı dawam etiw
+LiveStoryHighlightHint	Xabardı ajıratıp kórsetiw ushın usı jerdi basıń
+LiveStoryBadge	EFIR
+MessageScheduledRepeatDeleteTitle	Tákirarlanatuǵın xabardı óshiriw
+MessageScheduledRepeatDeleteText	Bul rejelestirilgen xabardı óshiriwdi anıq qáleysiz be? Bul tákirarlanatuǵın xabar.
+MessageScheduledRepeatDeleteAll	Barlıq keleshektegi xabarlardı óshiriw
+MessageScheduledRepeatDeletePostponeSeconds	%d sek keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeDays_one	%d kúnge keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeDays_other	%d kúnge keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeWeeks_one	%d háptege keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeWeeks_other	%d háptege keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeMonths_one	%d ayǵa keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeMonths_other	%d ayǵa keyinge qaldırıw
+MessageScheduledRepeatDeletePostponeYear	1 jılǵa keyinge qaldırıw
+LiveStoryMessageEditStars	Juldızlardı ózgertiw
+LiveStoryMessageRemoveStars	Juldızlardı alıp taslaw
+LiveStoryCommentsDisabled	Pikirler óshirilgen
+AddContactSync	Kontakttı telefonǵa sinxronlaw
+AddContactQr	QR kod arqalı qosıw
+Gift2ActiveAuctionsActiveAuctionTitle	Aktiv aukcion
+Gift2ActiveAuctionsActiveAuctionsTitle	%d aktiv aukcion
+Gift2ActiveAuctionsUpcomingAuctionTitle	Aldaǵı aukcion
+Gift2LinkUpcomingAuction	Aldaǵı aukcion
+Gift2LinkGiftAuction	Sawǵa aukcionı
+Gift2ActiveAuctionsUpcomingAuctionsTitle	%d aldaǵı aukcion
+Gift2ActiveAuctionsActiveStatusWinningOne	Siz utıp atırsız (%s).
+Gift2ActiveAuctionsActiveStatusWinning1Place	1-orın
+Gift2ActiveAuctionsActiveStatusWinning2Place	2-orın
+Gift2ActiveAuctionsActiveStatusWinning3Place	3-orın
+Gift2ActiveAuctionsActiveStatusWinningOtherPlace	%d-orın
+Gift2ActiveAuctionsActiveStatusWinningOtherSt	%d-orın
+Gift2ActiveAuctionsActiveStatusWinningOtherNd	%d-orın
+Gift2ActiveAuctionsActiveStatusWinningOtherRd	%d-orın
+Gift2ActiveAuctionsActiveStatusWinningOtherTh	%d-orın
+Gift2ActiveAuctionsActiveStatusWinningAll	Siz olardıń bárshesinde utıp atırsız.
+Gift2ActiveAuctionsActiveStatusOutbid	Stavkańızdan joqarı stavka qoyıldı.
+Gift2ActiveAuctionsActiveStatusEarly	Siz aldın ala stavka qoydıńız.
+Gift2ActiveAuctionsActiveRound	Raund %s / %s
+Gift2ActiveAuctionsActiveRaiseBid	Stavkanı kóteriw
+Gift2ActiveAuctionsActiveBidActive	**%s** stavkańız **#%d** orında
+Gift2ActiveAuctionsActiveBidOutbid	**%s** stavkańızdan joqarı stavka qoyıldı
+Gift2AuctionsItemsBought2_one	%1$d %2$s satıp alındı >
+Gift2AuctionsItemsBought2_other	%1$d %2$s satıp alındı >
+Gift2AuctionsAcquiredGifts_one	%1$d satıp alınǵan sawǵa
+Gift2AuctionsAcquiredGifts_other	%1$d satıp alınǵan sawǵa
+Gift2AuctionsAcquiredRound	Raund #%1$d
+Gift2AuctionsAcquiredRound2	%1$s #%2$d, %3$d-raund
+Gift2AuctionsAcquiredRecipient	Alıwshı
+Gift2AuctionsAcquiredDate	Sáne
+Gift2AuctionsAcquiredAcceptedBid	Qabıllanǵan stavka
+Gift2AuctionsAcquiredTop	TOP %d
+Gift2AuctionsBidHasBeenPlaced	Stavkańız qoyıldı
+Gift2AuctionsBidHasBeenIncreased	Stavkańız kóterildi
+Gift2AuctionsChangeRecipient	Alıwshını ózgertiw
+Gift2AuctionsChangeRecipient2	Siz bul sawǵaǵa **%s** ushın álleqashan stavka qoyǵansız. Stavkańızdı kóterip, alıwshını **%s** ge ózgertiwdi qáleysiz be?
+Passkey	Kirisiw giltleri
+PasskeyDeleteTitle	Kirisiw giltin óshiriw
+PasskeyDeleteText	Óshirilgennen keyin bul kirisiw gilti menen kiriw múmkin bolmaydı.\n\nOnı parol menedjerińizden de alıp taslawdı umıtpań.
+PasskeyTopInfo	Ózińiz tańlaǵan bult xızmetinde qáwipsiz saqlanatuǵın kirisiw giltińizdi basqarıń.
+PasskeyCreatedOn	Jaratılǵan: %s
+PasskeyLastUsedOn	Sońǵı qollanılǵan: %s
+PasskeyAdd	Kirisiw giltin qosıw
+PasskeyInfo	Kirisiw giltińiz parol menedjerińizde qáwipsiz saqlanadı. **Kóbirek biliw >**
+PasskeyFeatureTitle	Akkauntıńızdı qorǵań
+PasskeyFeatureSubtitle	Qáwipsiz kiriń hám akkauntıńızdı qorǵawda saqlań.
+PasskeyFeature1Title	Kirisiw giltin jaratıń
+PasskeyFeature1Subtitle	Ańsat hám qáwipsiz kiriw ushın kirisiw giltin jaratıń.
+PasskeyFeature2Title	Júzdi tanıw arqalı kiriń
+PasskeyFeature2Subtitle	Kiriw ushın júzińizdi, barmaq izińizdi yamasa ekran qulpın qollanıń.
+PasskeyFeature3Title	Kirisiw giltin qáwipsiz saqlań
+PasskeyFeature3Subtitle	Kirisiw giltińiz ózińiz tańlaǵan bult xızmetinde qáwipsiz saqlanadı.
+PasskeyFeatureButton	Kirisiw giltin jaratıw
+PasskeyAddedTitle	Kirisiw gilti qosıldı!
+PasskeyAddedText	Endi akkauntıńızǵa %s arqalı kire alasız.
+PasskeyUnknown	Kirisiw gilti
+PasskeyPopupTitle	🔑  Akkauntıńızdı qorǵań
+PasskeyPopupText	Júzińiz, barmaq izińiz yamasa ekran qulpı arqalı kiriń
+PasskeyNoOptionsTitle	Kirisiw giltleri baǵdarlaması joq
+PasskeyNoOptionsText	Telefonıńızǵa yamasa fizikalıq qurılmalarǵa kirisiw giltlerin saqlawdı qollap-quwatlaytuǵın baǵdarlama ornatıń.
+StoryMusicTitle2	Audio qosıw
+StoryMusicSelectFromFiles	Fayllardan tańlaw
+StoryMusicProfileMusic	Saqlanǵan muzıka
+StoryMusicSearchMusic	Bólisilgen audio
+StoryMusicLocalMusic	Qurılmadaǵı muzıka
+StoryMusicGlobalMusic	Global izlew
+AudioSearchLocal	Qurılmadaǵı muzıka
+AudioSearchChats	Bólisilgen muzıka
+AudioSearchProfile	Profil muzıkası
+AudioSearchGlobal	Global izlew
+GiftOfferToBuyMenu	Satıp alıwdı usınıw
+GiftOfferToBuyTitle	Satıp alıwdı usınıw
+GiftOfferStarsToOffer	Usınılatuǵın Juldızlar
+GiftOfferStarsToOfferInfo	**%s** ushın usınbaqshı bolǵan Juldızlar sanın kirgiziń.
+GiftOfferStarsToOfferInfoIsLow	Usınıs júdá tómen. **%2$s** ushın eń az usınıs — **%1$s Juldız**.
+GiftOfferStarsToOfferInfoIsHigh	Usınıs júdá joqarı. **%2$s** ushın eń kóp usınıs — **%1$s Juldız**.
+GiftOfferTONToOffer	Usınılatuǵın TON
+GiftOfferTONToOfferInfo	**%s** ushın usınbaqshı bolǵan TON muǵdarın kirgiziń.
+GiftOfferTONToOfferInfoIsLow	Usınıs júdá tómen. **%2$s** ushın eń az usınıs — **%1$s TON**.
+GiftOfferTONToOfferInfoIsHigh	Usınıs júdá joqarı. **%2$s** ushın eń kóp usınıs — **%1$s TON**.
+GiftOfferDuration	Usınıs múddeti
+GiftOfferDurationInfoStars	**%s** usınısıńızdı qansha waqıt ishinde qabıllay alatuǵının tańlań. Waqıt ótkennen keyin **Juldızlarıńız** qaytarıladı.
+GiftOfferDurationInfoTON	**%s** usınısıńızdı qansha waqıt ishinde qabıllay alatuǵının tańlań. Waqıt ótkennen keyin **TON** qaytarıladı.
+GiftOfferButtonStars	⭐️%s usınıw
+GiftOfferHours_one	%d saat
+GiftOfferHours_other	%d saat
+GiftOfferConfirmSend	Usınıstı tastıyıqlaw
+GiftOfferRowOffer	Usınıs
+GiftOfferRowFee	Komissiya
+GiftOfferRowValue	Qunı
+GiftOfferRowDuration	Múddeti
+GiftOfferPay	⭐️%s tólew
+GiftOfferPayMulti	%s hám %s tólew
+GiftOfferPayMultiPart	⭐️%s
+GiftOfferSellFor	⭐️%s ǵa satıw
+GiftOfferAmount	⭐️ %s
+GiftOfferAmountHigher	%s joqarı
+GiftOfferAmountLower	%s tómen
+GiftOfferAmountHigherHint	Bul sawǵanıń qunı usınıstan **%s joqarı**
+GiftOfferAmountLowerHint	Bul sawǵanıń qunı usınıstan **%s tómen**
+GiftOfferAmountHigherHint2	Sizge usınılǵan baha %2$s ushın ortasha bahadan\n**%1$s** joqarı
+GiftOfferAmountLowerHint2	Sizge usınılǵan baha %2$s ushın ortasha bahadan\n**%1$s** tómen
+GiftOfferStatusRejected	Bul usınıs biykarlandı.
+GiftOfferStatusAccepted	Bul usınıs qabıllandı.
+GiftOfferStatusExpired	Bul usınıstıń múddeti ótti.
+GiftOfferStatusPending	Bul usınıstıń múddeti **%s** tan keyin tamamlanadı.
+GiftOfferRejectConfirmTitle	Usınıstı biykarlaw
+GiftOfferRejectConfirmText	**%s** usınısın biykarlawdı anıq qáleysiz be?
+GiftOfferRejectConfirmConfirm	Biykarlaw
+GiftOfferAccept	Qabıllaw
+GiftOfferDecline	Biykarlaw
+GiftOfferTransferInfoTextStars	**%3$s** ushın **%2$s** ǵa **%1$s Juldız** usınıwdı qáleysiz be?
+GiftOfferTransferInfoTextTON	**%3$s** ushın **%2$s** ǵa **%1$s TON** usınıwdı qáleysiz be?
+GiftOfferTransferInfoTextSellStars	**%3$s** sawǵasın **%2$s** ǵa **%1$s Juldız** ǵa satıwdı qáleysiz be?\n\nKomissiyalardan keyin **%4$s Juldız** alasız.
+GiftOfferTransferInfoTextSellTON	**%3$s** sawǵasın **%2$s** ǵa **%1$s TON** ǵa satıwdı qáleysiz be?\n\nKomissiyalardan keyin **%4$s TON** alasız.
+GiftOfferOfferedTextStarsOut	Siz **%1$s** ǵa **%3$s** ushın **%2$s Juldız** usındıńız.
+GiftOfferOfferedTextTONOut	Siz **%1$s** ǵa **%3$s** ushın **%2$s TON** usındıńız.
+GiftOfferOfferedTextStars2	Bul paydalanıwshı sizge **%3$s** ushın **%2$s Juldız** usındı.
+GiftOfferOfferedTextTON2	Bul paydalanıwshı sizge **%3$s** ushın **%2$s TON** usındı.
+GiftOfferSentTitle	Sawǵa usınısı jiberildi
+GiftOfferSentText	**%2$s** ushın **%1$s** usınısın sátli jiberdińiz.
+GiftOfferOfferedTextStarsRejectedOut	Siz **%1$s** tıń **%3$s** sawǵańızdı **%2$s Juldız** ǵa satıp alıw usınısın biykarladıńız.
+GiftOfferOfferedTextTONRejectedOut	Siz **%1$s** tıń **%3$s** sawǵańızdı **%2$s TON** ǵa satıp alıw usınısın biykarladıńız.
+GiftOfferOfferedTextStarsRejected	**%1$s** usınısıńızdı biykarladı. **%3$s** ushın **%2$s Juldız**.
+GiftOfferOfferedTextTONRejected	**%1$s** usınısıńızdı biykarladı. **%3$s** ushın **%2$s TON**.
+GiftOfferOfferedTextStarsExpiredOut	**%1$s** usınısınıń múddeti ótti. **%3$s** ushın **%2$s Juldız**.
+GiftOfferOfferedTextTONExpiredOut	**%1$s** usınısınıń múddeti ótti. **%3$s** ushın **%2$s TON**.
+GiftOfferOfferedTextStarsExpired	**%1$s** ǵa usınısıńızdıń múddeti ótti. **%3$s** ushın **%2$s Juldız**.
+GiftOfferOfferedTextTONExpired	**%1$s** ǵa usınısıńızdıń múddeti ótti. **%3$s** ushın **%2$s TON**.
+FeaturePreviewGifts	Unikal kollekciyalıq sawǵalar
+FeaturePreviewGiftsDescription	Telegram sawǵaları — satıwǵa yamasa profilińizde kórsetiwge bolatuǵın kollekciyalıq buyımlar.
+GiftsFeature1Title	Unikal
+GiftsFeature1Text	Unikal nomer, model, fon hám belgi alıw ushın sawǵalarıńızdı jaqsılań.
+GiftsFeature2Title	Satıwǵa boladı
+GiftsFeature2Text	Sawǵańızdı Telegramda yamasa basqa NFT bazarlarında satıń
+GiftsFeature3Title	Taǵıwǵa boladı
+GiftsFeature3Text	Sawǵalardı betińizde kórsetiń hám olardı profil muqabası yamasa status retinde ornatıń.
+GiftPreviewModels	Modeller
+GiftPreviewBackdrops	Fonlar
+GiftPreviewSymbols	Belgiler
+GiftPreviewModel	model
+GiftPreviewBackdrop	fon
+GiftPreviewSymbol	belgi
+GiftPreviewCountModels_one	Bul kollekciyalıq sawǵada **%d** unikal model bar
+GiftPreviewCountModels_other	Bul kollekciyalıq sawǵada **%d** unikal model bar
+GiftPreviewCountModelsCrafting_one	Bul kollekciyalıq sawǵada **%d** jasalǵan model bar.
+GiftPreviewCountModelsCrafting_other	Bul kollekciyalıq sawǵada **%d** jasalǵan model bar.
+GiftPreviewCountModelsCrafting2_one	Bul kollekciyalıq sawǵada jasaw ushın qollanıwǵa bolatuǵın **%d** ápiwayı model bar.
+GiftPreviewCountModelsCrafting2_other	Bul kollekciyalıq sawǵada jasaw ushın qollanıwǵa bolatuǵın **%d** ápiwayı model bar.
+GiftPreviewCountBackdrops_one	Bul kollekciyalıq sawǵada **%d** unikal fon bar
+GiftPreviewCountBackdrops_other	Bul kollekciyalıq sawǵada **%d** unikal fon bar
+GiftPreviewCountSymbols_one	Bul kollekciyalıq sawǵada **%d** unikal belgi bar
+GiftPreviewCountSymbols_other	Bul kollekciyalıq sawǵada **%d** unikal belgi bar
+GiftAuctionWearInfoOnline	onlayn
+GiftAuctionWearInfoHeader	%s taǵıń
+GiftAuctionWearInfoText	hám usı artıqmashlıqlarǵa iye bolıń:
+GiftAuctionWearInfo1Header	Jarqıraǵan belgi
+GiftAuctionWearInfo1Text	Bul buyımnıń jıltıraǵan belgishesi atıńızdıń qasında kórsetiledi.
+GiftAuctionWearInfo2Header	Unikal profil dizaynı
+GiftAuctionWearInfo2Text	Profil betińiz bul buyımnıń reńi hám belgisin aladı.
+GiftAuctionWearInfo3Header	Iyelik dálili
+GiftAuctionWearInfo3Text	Atıńızdıń qasındaǵı bul buyımnıń belgishesin basqanda onıń maǵlıwmatı hám iyesi kórsetiledi.
+MainTabsContacts	Kontaktlar
+MainTabsCalls	Qońırawlar
+MainTabsChats	Sáwbetler
+MainTabsProfile	Profil
+MainTabsSettings	Sazlamalar
+SwitchThemeToDay	Kúndizgi rejim
+SwitchThemeToNight	Túngi rejim
+SettingsAccount	Akkaunt
+SettingsAccounts	Akkauntlar
+SettingsAccountInfo	Nomer, paydalanıwshı atı, ózi haqqında
+SettingsChat	Sáwbet sazlamaları
+SettingsChatInfo	Tusqaǵaz, túngi rejim, animaciyalar
+SettingsPrivacySecurity	Qupıyalıq hám qáwipsizlik
+SettingsPrivacySecurityInfo	Sońǵı kiriw, qurılmalar, kirisiw giltleri
+SettingsNotifications	Xabarlandırıwlar
+SettingsNotificationsInfo	Dawıslar, qońırawlar, belgisheler
+SettingsData	Maǵlıwmatlar hám saqlaw ornı
+SettingsDataInfo	Media júklep alıw sazlamaları
+SettingsFolders	Sáwbet papkaları
+SettingsFoldersInfo	Sáwbetlerdi papkalarǵa sortlaw
+SettingsDevices	Qurılmalar
+SettingsDevicesInfo	Jalǵanǵan qurılmalardı basqarıw
+SettingsPowerSaving	Quwat únemlew
+SettingsPowerSavingInfo	Zaryad az bolǵanda quwat sarpın azaytıw
+SettingsLanguage	Til
+AddAccountInfo1_one	Jáne %d qosımsha akkaunt qosa alasız.
+AddAccountInfo1_other	Jáne %d qosımsha akkaunt qosa alasız.
+AddAccountInfo2_one	%d akkauntqa shekem qollanıw ushın **Telegram Premium** ǵa jazılıń.
+AddAccountInfo2_other	%d akkauntqa shekem qollanıw ushın **Telegram Premium** ǵa jazılıń.
+CocoonPoweredBy	Awdarmalar\n**🥚 Cocoon** tiykarında isleydi.
+CocoonPoweredByLink	**Bul qalay isleydi?**
+CocoonSubtitle	Cocoon (**Co**nfidential **Co**mpute **O**pen **N**etwork)\nJI wazıypaların qáwipsiz hám nátiyjeli orınlaydı.
+CocoonFeature1Title	Qupıya
+CocoonFeature1Text	**@cocoon** ishindegi awdarmalar sıyaqlı hesh qanday maǵlıwmatqa úshinshi tárepler kire almaydı
+CocoonFeature1TextLink	https://t.me/cocoon
+CocoonFeature2Title	Nátiyjeli
+CocoonFeature2Text	Cocoon Telegramǵa awdarma qárejetlerin 6 ese azaytıwǵa múmkinshilik berdi.
+CocoonFeature3Title	Hámme ushın
+CocoonFeature3Text	Qálegen baǵdarlamashı Cocoon dı JI imkaniyatları ushın qollana aladı. Kóbirek maǵlıwmat: **cocoon.org**
+CocoonFeature3TextLink	https://cocoon.org/
+CocoonFooter	Cocoon dı joybarlarıńızǵa integraciyalawdı qáleysiz be?\nBizge jazıń: **t.me/cocoon?direct**
+CocoonFooterLink	https://t.me/cocoon?direct
+SummaryTitle	JI qısqasha mazmunı
+SummarySubtitle	Túp nusqa tekstti kóriw ushın basıń
+SummaryLimit	Úlken xabarlardı JI járdeminde qısqartıń — Telegram Premium da sheklewsiz.
+SummaryLimitUpgrade	Jaqsılaw
+StakeDiceTitle	Emoji stavkası
+StakeDiceTitleBeta	Beta
+StakeDiceText	Aldaǵı emoji mini-oyınlar platformasınıń kishi paydalanıwshılar toparı ushın sheklengen sınaw oyını.
+StakeDiceReturns	Nátiyjeler hám utıslar
+StakeDiceReturnsInfo	Seriya 3 🎲 den keyin yamasa stavka ózgergende nollenedi.
+StakeDicePlaceholder	Stavkańız
+StakeDiceButton	Saqlaw hám taslaw
+StakeDiceToast	Stavkańız: 💎 
+StakeDiceToastChange	ózgertiw
+StakeDiceToastButton	Jiberiw
+StakeDiceActionYouWon	Siz 💎 %s uttıńız
+StakeDiceActionYouLost	Siz 💎 %s uttırdıńız
+StakeDiceActionWon	un1 💎 %s uttı
+StakeDiceActionLost	un1 💎 %s uttırdı
+BotAuthTitle	**%s** ǵa kiriw
+BotAuthSiteSubtitle	Bul sayt sizdiń **atıńızdı**,\n**paydalanıwshı atıńızdı** hám **profil súwretińizdi** aladı.
+BotAuthBotSubtitle	Bul bot sizdiń **atıńızdı**,\n**paydalanıwshı atıńızdı** hám **profil súwretińizdi** aladı.
+BotAuthAppSubtitle	Bul baǵdarlama sizdiń **atıńızdı**,\n**paydalanıwshı atıńızdı** hám **profil súwretińizdi** aladı.
+BotAuthBasedOnIP	IP tiykarında (%s)
+BotAuthInfo	Bul kiriw urınısı joqarıdaǵı qurılmadan islendi.
+BotAuthAllowMessages	Xabarlarǵa ruqsat beriw
+BotAuthAllowMessagesInfo	Bul %s ǵa sizge xabar jazıwǵa ruqsat beredi.
+BotAuthPhoneNumber	Telefon nomeri
+BotAuthPhoneNumberText	**%1$s** sizdiń **%2$s** telefon nomerińizge kiriwdi qáleydi.\n\nRuqsat beresiz be?
+BotAuthPhoneNumberDeny	Biykarlaw
+BotAuthPhoneNumberAccept	Ruqsat beriw
+BotAuthLogin	Kiriw
+BotAuthLoggedInSuccessTitle	Kiriw sátli boldı
+BotAuthLoggedInSuccess	Siz endi **%s** ǵa kirdińiz.
+BotAuthLoggedInSuccessWithoutPhoneNumber	Siz endi **%s** ǵa kirdińiz, biraq telefon nomerińizge ruqsat bermedińiz.
+BotAuthNotificationTitle	Kiriw sorawı
+BotAuthNotification	%2$s tan %1$s ushın kiriw sorawı
+BotAuthSelectEmoji	Kiriw ekranıńızda kórsetilgen\nemojini basıń
+BotAuthSelectCode	Kiriw ekranıńızda kórsetilgen\nkodtı basıń
+BotAuthLoginRequestFrom	**%s** tan kiriw sorawı
+BotAuthLoggedInFailTitle	Kiriw sátsiz boldı
+BotAuthLoggedInFail	**%s** ǵa qaytadan kirip kóriń.
+BotAuthLoggedInFailNoDomain	Siltemeniń múddeti ótken.
+GalleryAccessAllowAccess	Súwretlerge ruqsat beriw
+GalleryAccessAllowAccessTextNonPremium	Hár biri 2 GB qa shekem bolǵan sheksiz\nsúwret hám videolardı bólisiń.
+GalleryAccessAllowAccessTextPremium	Hár biri 4 GB qa shekem bolǵan sheksiz\nsúwret hám videolardı bólisiń.
+GalleryAccessAllowAccessButton	Ruqsat beriw
+GalleryAccessAllowAccessOpenCamera	Kameranı ashıw
+GalleryAccessAllowAccessCamera	Kameraǵa ruqsat beriw
+GiftRarityUncommon	siyrek ushırasatuǵın
+GiftRarityRare	siyrek
+GiftRarityEpic	epikalıq
+GiftRarityLegendary	ápsanawiy
+GiftCraftTitle	Sawǵa jasaw
+GiftCraftViewAllVariants	Jasawǵa bolatuǵın barlıq modellerdi kóriw  >
+GiftCraftButton	Sawǵa jasaw
+GiftCraftButtonFailed	Jańa sawǵa jasaw
+GiftCraftButtonNext	Jańa sawǵa jasaw
+GiftCraftButtonEmpty	Birinshi sawǵańızdı qosıw ushın + basıń
+GiftCraftSuccessChance	Sátli bolıw múmkinshiligi: **%s**
+GiftCraftProgressTitle	Jasalmaqta
+GiftCraftProgressText	Eger jasaw sátsiz bolsa, barlıq tańlanǵan sawǵalar\njumsalıp ketedi.
+GiftCraftProgressSuccessChance	sátli bolıw múmkinshiligi: %s
+GiftCraftFailedTitle	Jasaw sátsiz boldı
+GiftCraftFailedText_one	Jasaw urınısı sátsiz boldı.\n**%d** sawǵa joǵaldı.
+GiftCraftFailedText_other	Jasaw urınısı sátsiz boldı.\n**%d** sawǵa joǵaldı.
+GiftCraftTextEmpty1	**4** ke shekem sawǵa qosıp, jańa sawǵa jasań:
+GiftCraftTextEmpty2	**%s**.\n\nEger jasaw sátsiz bolsa, barlıq tańlanǵan sawǵalar\n**joǵaladı**.
+GiftCraftText1	**4** ke shekem sawǵa qosıp, jańa sawǵa jasań:
+GiftCraftText2	**%1$s #%2$s**.\n\nEger jasaw sátsiz bolsa, barlıq tańlanǵan sawǵalar\n**joǵaladı**.
+GiftCraftSelectTitle	Sawǵanı tańlaw
+GiftCraftSelectYour	Sawǵalarıńız
+GiftCraftSelectYourEmpty	Sizde bul kollekciyadan\nbasqa sawǵalar joq.
+GiftCraftSelectResale	Qayta satıwdan jasawǵa jaramlıları
+GiftCraftSelect_one	Jasaw ushın usı kollekciyadan\n**%d sawǵa** ǵa shekem qosıwıńız kerek.
+GiftCraftSelect_other	Jasaw ushın usı kollekciyadan\n**%d sawǵa** ǵa shekem qosıwıńız kerek.
+GiftCraftInfoTitle	Sawǵa jasaw
+GiftCraftInfoText	Sawǵalarıńızdı siyrek, epikalıq\nhám ápsanawiy nusqalarǵa aylandırıń.
+GiftCraftInfoFeature1Title	Siyrek modellerdi alıń
+GiftCraftInfoFeature1Text	Jańa eksklyuziv model jasaw ushın 4 ke shekem sawǵa tańlań.
+GiftCraftInfoFeature2Title	Múmkinshilikti asırıń
+GiftCraftInfoFeature2Text	Sátli bolıw múmkinshiligin asırıw ushın kóbirek sawǵa biriktiriń.
+GiftCraftInfoFeature3Title	Nátiyjege tásir etiń
+GiftCraftInfoFeature3Text	Atributtıń múmkinshiligin asırıw ushın birdey atributlı sawǵalardı qollanıń.
+GiftCraftInfoButton	Jasawdı baslaw
+GiftCraftLaterTitle	Keyinirek urınıp kóriń
+GiftCraftLaterText	Bul sawǵanı %s jasay alasız.
+GiftCrafted	jasalǵan
+GiftCraft	Jasaw
+GiftCraftUnavailableTitle	Jasaw qoljetimsiz
+GiftCraftUnavailableText	Bul sawǵalardı házirshe jasaw múmkin emes.
+GiftCraftUnavailableTextTime	Bul sawǵa **%s** kúni jasaw ushın qoljetimli boladı.
+GiftCraftSymbolChance_one	Jasalǵan sawǵanıń **%2$s** belgisine iye bolıw múmkinshiligi — **%1$d%%**.
+GiftCraftSymbolChance_other	Jasalǵan sawǵanıń **%2$s** belgisine iye bolıw múmkinshiligi — **%1$d%%**.
+GiftCraftBackdropChance_one	Jasalǵan sawǵanıń **%2$s** fonına iye bolıw múmkinshiligi — **%1$d%%**.
+GiftCraftBackdropChance_other	Jasalǵan sawǵanıń **%2$s** fonına iye bolıw múmkinshiligi — **%1$d%%**.
+GiftOnSale	%s ǵa satılıwda
+GiftCraftCantChooseFirstTitle	Birinshi etip tańlaw múmkin emes
+GiftCraftCantChooseFirst	Bul sawǵanı jasawda birinshi etip qollanıw múmkin emes, sebebi ol blokcheynge jazılǵan.
+LeaveGroupTitle	Topardan shıǵıw kerek pe?
+LeaveChannelTitle	Kanaldan shıǵıw kerek pe?
+LeaveGroupNewOwnerText	Eger shıqsańız, **1 hápteden** keyin **%1$s** **%2$s** nıń jańa iyesi boladı.
+LeaveChannelNewOwnerText	Eger shıqsańız, **1 hápteden** keyin **%1$s** **%2$s** nıń jańa iyesi boladı.
+AppointNewOwner	Basqa iyesin tayınlaw
+LeaveGroupAndAppoint	%s ti tayınlaw hám topardan shıǵıw
+LeaveChannelAndAppoint	%s ti tayınlaw hám kanaldan shıǵıw
+GroupAdmins	Topar administratorları
+GroupMembers2	Topar aǵzaları
+ChannelAdmins	Kanal administratorları
+ChannelSubscribers2	Kanal jazılıwshıları
+MembersSearch	Adamlardı izlew
+MemberTagTitle	Aǵza tegi
+MemberTagSelfInfo	Usı topardaǵı rolińizdi, lawazımıńızdı yamasa qalay tanılatuǵınıńızdı bólisiń. Tegińiz barlıq aǵzalarǵa kórinedi.
+MemberTagTheirInfo	%s tıń atınıń qasına qısqa teg qosıń.
+MemberTagHintAdd	Aǵza tegin qosıw
+MemberTagHintEdit	Aǵza tegin ózgertiw
+MemberTagButtonAdd	Teg qosıw
+MemberTagButtonEdit	Tegti ózgertiw
+MemberTagButtonRemove	Tegti alıp taslaw
+AddMemberTag	Aǵza tegin qosıw
+EditMemberTag	Aǵza tegin ózgertiw
+EditAdminTag	Administrator tegin ózgertiw
+TagInfoMemberTitle	Aǵza tegi
+TagInfoAdminTitle	Administrator tegi
+TagInfoOwnerTitle	Iyesi tegi
+TagInfoMemberText	Bul kúlreń teg un1 — **%1$s** tıń aǵza tegi.\n**%1$s** — **%2$s** aǵzası.
+TagInfoAdminText	Bul jasıl teg un1 — **%1$s** tıń administrator tegi.\n**%1$s** — **%2$s** administratorı.
+TagInfoOwnerText	Bul qızǵılt kók teg un1 — **%1$s** tıń iyesi tegi.\n**%1$s** — **%2$s** iyesi.
+AddTag	Teg qosıw
+CantEditTagAdmins	Bul toparda aǵza teglerin tek administratorlar ornata aladı.
+TagInfoButtonAddMyTag	Tegimdi qosıw
+TagInfoButtonEditMyTag	Tegimdi ózgertiw
+TagInfoButtonAddTag	Teg qosıw
+TagInfoButtonEditTag	Tegti ózgertiw
+JoinedGroup	Siz toparǵa qosıldıńız.
+JoinedGroupAddTag	Teg qosıw
+TagAdded	Teg qosıldı
+TagEdited	Teg ózgertildi
+DisableSharingInfoHeader	Bólisiwdi óshiriw
+DisableSharingInfoButton	Bólisiwdi óshiriw
+DisableSharingInfoHeader1	Skrinshotsız
+DisableSharingInfoText1	Bul sáwbette skrinshotlardı hám ekrandı\njazıp alıwdı óshiriw.
+DisableSharingInfoHeader2	Qayta jiberiwsiz
+DisableSharingInfoText2	Xabarlardı basqa sáwbetlerge qayta\njiberiwdi óshiriw.
+DisableSharingInfoHeader3	Saqlawsız
+DisableSharingInfoText3	Tekstlerdi kóshiriwdi hám súwret penen\nvideolardı galereyaǵa saqlawdı óshiriw.
+DisableSharingToastDisabled	Bul sáwbet ushın bólisiw óshirildi
+DisableSharingToastEnabled	Bul sáwbet ushın bólisiw qosıldı
+DisableSharingToastDisabledPending	Eger **%s** maqullasa, bólisiw óshiriledi
+DisableSharingToastEnabledPending	Eger **%s** maqullasa, bólisiw qosıladı
+DisableSharing	Bólisiwdi óshiriw
+EnableSharing	Bólisiwdi qosıw
+DisableSharingActionYou	Siz bul sáwbette bólisiwdi óshirdińiz
+EnableSharingActionYou	Siz bul sáwbette bólisiwdi qostıńız
+DisableSharingActionOther	%s bul sáwbette bólisiwdi óshirdi
+EnableSharingActionOther	%s bul sáwbette bólisiwdi qostı
+DisableSharingActionStillDisabled	Bul sáwbette bólisiw ele de óshirilgen
+DisableSharingActionStillEnabled	Bul sáwbette bólisiw ele de qosılǵan
+PollAddingActionYou	Siz sorawnamaǵa \"%s\" variantın qostıńız
+PollAddingActionOther	%1$s sorawnamaǵa \"%2$s\" variantın qostı
+PollRemovedActionYou	Siz sorawnamadan \"%s\" variantın alıp tasladıńız
+PollRemovedActionOther	%1$s sorawnamadan \"%2$s\" variantın alıp tasladı
+DisableSharingOfferAccept	Qabıllaw
+DisableSharingOfferDecline	Biykarlaw
+SharingOfferEnableHeaderOther	**%s** bul sáwbette bólisiwdi qosıwdı qáleydi, oǵan tómendegiler kiredi:
+SharingOfferEnableHeaderYou	Siz bul sáwbette bólisiwdi qosıwdı usındıńız, oǵan tómendegiler kiredi:
+SharingOfferEnable1	\> xabarlardı qayta jiberiw
+SharingOfferEnable2	\> súwret hám videolardı saqlaw
+SharingOfferEnable3	\> xabarlardı kóshiriw
+SharingOfferEnable4	\> skrinshot alıw
+SharingOfferDisableHeaderShortOther	**%s** bul sáwbette bólisiwdi óshiriwdi qáleydi
+SharingOfferDisableHeaderShortYou	Siz bul sáwbette bólisiwdi óshiriwdi usındıńız
+SharingOfferEnableHeaderShortOther	**%s** bul sáwbette bólisiwdi qosıwdı qáleydi
+SharingOfferEnableHeaderShortYou	Siz bul sáwbette bólisiwdi qosıwdı usındıńız
+SharingOfferDisableHeaderOther	**%s** bul sáwbette bólisiwdi óshiriwdi qáleydi, oǵan tómendegiler kiredi:
+SharingOfferDisableHeaderYou	Siz bul sáwbette bólisiwdi óshiriwdi usındıńız, oǵan tómendegiler kiredi:
+SharingOfferDisable1	\> xabarlardı qayta jiberiw joq
+SharingOfferDisable2	\> súwret hám videolardı saqlaw joq
+SharingOfferDisable3	\> xabarlardı kóshiriw joq
+SharingOfferDisable4	\> skrinshot joq
+SharingOfferDisableCancelTitle	Bólisiwdi óshiriw
+SharingOfferDisableCancelText	Bólisiwdi óshirilgen halda qaldırıwdı anıq qáleysiz be?
+SharingOfferDisableConfirmText	Bólisiwdi óshiriwdi anıq qáleysiz be?
+SharingOfferEnableCancelTitle	Bólisiwdi qosıw
+SharingOfferEnableCancelText	Bólisiwdi qosılǵan halda qaldırıwdı anıq qáleysiz be?
+SharingOfferEnableConfirmText	Bólisiwdi qosıwdı anıq qáleysiz be?
+SharingOfferCancelYes	Awa
+RelativeDateFormatterWeek2	%1$s, %2$s
+RelativeDateAddDate	Sáne qosıw
+RelativeDateMenuCopy	Sáneni kóshiriw
+RelativeDateMenuAddToACalendar	Kalendarǵa qosıw
+RelativeDateMenuSetAReminder	Eskertiw ornatıw
+RelativeDateCopied	Sáne almasıw buferine kóshirildi
+GiftResaleStarsOnly	Tek Juldızǵa satılatuǵınlardı kórsetiw
+PollV2ShowWhoVoted	Kim dawıs bergenin kórsetiw
+PollV2ShowWhoVotedInfo	Hár bir variantta dawıs beriwshiniń atın kórsetiw
+PollV2AllowMultipleAnswers	Bir neshe juwapqa ruqsat beriw
+PollV2AllowMultipleAnswersInfo	Dawıs beriwshiler birden kóp variant tańlay aladı
+PollV2AllowAddingOptions	Variant qosıwǵa ruqsat beriw
+PollV2AllowAddingOptionsInfo	Qatnasıwshılar jańa variantlar usına aladı
+PollV2AllowRevoting	Qayta dawıs beriwge ruqsat beriw
+PollV2AllowRevotingInfo	Dawıs beriwshiler dawısın ózgerte aladı
+PollV2ShuffleOptions	Variantlardı aralastırıw
+PollV2ShuffleOptionsInfo	Juwaplar hár bir dawıs beriwshige tosınnan tártipte kórinedi
+PollV2SetCorrectAnswer	Durıs juwaptı belgilew
+PollV2SetCorrectAnswerInfo	Bir varianttı durıs juwap retinde belgilew
+PollV2LimitDuration	Múddetti sheklew
+PollV2LimitDurationInfo	Sorawnamanı belgilengen waqıtta avtomat jabıw
+PollV2RestrictToSubscribers	Tek jazılıwshılar ushın
+PollV2RestrictToSubscribersInfo	Tek 24+ saat aldın qosılǵan\njazılıwshılar dawıs bere aladı
+PollV2LimitByCountry	Mámleket boyınsha sheklew
+PollV2LimitByCountryInfo	Tek tańlanǵan mámleketlerdegi\npaydalanıwshılar dawıs bere aladı
+PollV2AllowedCountries	Ruqsat etilgen mámleketler
+PollV2MenuViewStats	Statistikanı kóriw
+PollV2StatsVoteTimeline	Dawıslar xronologiyası
+PollV2StatsPollStats	Sorawnama statistikası
+PollV2AddLinkTitle	Silteme qosıw
+PollV2AddLinkMessage	Bul variantqa silteme biriktiriń.
+PollV2AddLinkUrlHint	URL
+EmojiSearchBackToSearch	Izlewge qaytıw
+PollV2PollEnds	Sorawnama tamamlanadı
+PollV2PollDuration	Sorawnama múddeti
+PollV2PollDurationOptionCustom	Basqa
+PollV2HideResults	Nátiyjelerdi jasırıw
+PollV2HideResultsInfo	Eger bunı qossańız, nátiyjeler tek sorawnama jabılǵannan keyin kórinedi.
+PollCustomDeadlineClosesIn	%s tan keyin jabıladı
+PollCustomDeadlineClosesInFmt	%1$s %2$s %3$s
+PollEndsIn	%s tan keyin tamamlanadı
+PollResultsIn	nátiyjeler %s tan keyin
+PollAddAnOption	Variant qosıw
+PollAddAnOptionHint	Variant...
+PollAddedByAtTime	**%1$s** qostı, %2$s
+DiscardPollOptionWithMediaAlertTitle	Sorawnama variantı óshirilsin be?
+DiscardPollOptionWithMediaMessage	Bul sorawnama variantına media biriktirilgen. Onı óshiriwdi qáleysiz be?
+DiscardQuizOptionWithMediaAlertTitle	Viktorina juwabı óshirilsin be?
+DiscardQuizOptionWithMediaMessage	Bul viktorina juwabına media biriktirilgen. Onı óshiriwdi qáleysiz be?
+PollAddTextOrRemoveMedia	Aldın tekst qosıń yamasa medianı alıp taslań
+PollV2ToastOnlySubscribersCanVote	Tek **%1$s** jazılıwshıları dawıs bere aladı.
+PollV2ToastOnlySubscribersJoined24hCanVote	Tek **24 saattan** kóbirek waqıt aldın qosılǵan jazılıwshılar dawıs bere aladı.
+PollV2ToastOnlySubscribersFromCountriesCanVoteOne	Tek **%1$s** daǵı jazılıwshılar dawıs bere aladı.
+PollV2ToastOnlySubscribersFromCountriesCanVoteOther	Tek **%1$s** hám **%2$s** daǵı jazılıwshılar dawıs bere aladı.
+PollV2ToastOnlyUsersFromCountriesCanVoteOne	Tek **%1$s** daǵı paydalanıwshılar dawıs bere aladı.
+PollV2ToastOnlyUsersFromCountriesCanVoteOther	Tek **%1$s** hám **%2$s** daǵı paydalanıwshılar dawıs bere aladı.

@@ -54,11 +54,15 @@ public class UserObject {
 
     @NonNull
     public static String getUserName(TLRPC.User user) {
-        if (user == null || isDeleted(user)) {
+        if (user == null || isDeleted(user) && !hasSavedName(user)) {
             return LocaleController.getString(R.string.HiddenName);
         }
         String name = AndroidUtilities.removeRTL(AndroidUtilities.removeDiacritics(ContactsController.formatName(user.first_name, user.last_name)));
         return name.length() != 0 || TextUtils.isEmpty(user.phone) ? name : PhoneFormat.getInstance().format("+" + user.phone);
+    }
+
+    private static boolean hasSavedName(TLRPC.User user) {
+        return user != null && (!TextUtils.isEmpty(user.first_name) || !TextUtils.isEmpty(user.last_name));
     }
 
     public static String getPublicUsername(TLRPC.User user, boolean editable) {
@@ -106,7 +110,7 @@ public class UserObject {
     }
 
     public static String getFirstName(TLRPC.User user, boolean allowShort) {
-        if (user == null || isDeleted(user)) {
+        if (user == null || isDeleted(user) && !hasSavedName(user)) {
             return "DELETED";
         }
         String name = user.first_name;
@@ -119,7 +123,7 @@ public class UserObject {
     }
 
     public static String getForcedFirstName(TLRPC.User user) {
-        if (user == null || isDeleted(user)) {
+        if (user == null || isDeleted(user) && !hasSavedName(user)) {
             return LocaleController.getString(R.string.HiddenName);
         }
         String name = user.first_name;

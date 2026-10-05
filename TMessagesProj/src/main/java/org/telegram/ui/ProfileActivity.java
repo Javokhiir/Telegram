@@ -3902,6 +3902,9 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
 
             actionsView.setOnActionClickListener((key, x, y) -> {
                 switch (key) {
+                    case ProfileActionsView.KEY_LOCATION:
+                        presentFragment(UMessageFriendMapActivity.forUser(userId));
+                        break;
                     case ProfileActionsView.KEY_GIFT:
                         onGiftPermiumClicked();
                         break;
@@ -12382,6 +12385,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             actionsView.set(ProfileActionsView.KEY_STREAM, streamAction);
 
             actionsView.set(ProfileActionsView.KEY_GIFT, giftAction);
+            TLRPC.User locationUser = userId != 0 && !myProfile && !isBot && !isTopic ? getMessagesController().getUser(userId) : null;
+            actionsView.set(ProfileActionsView.KEY_LOCATION, locationUser != null && !UserObject.isDeleted(locationUser) && !UserObject.isUserSelf(locationUser) && !MessagesController.isSupportUser(locationUser));
             callItemVisible = videoCallItemVisible = false;
             if (!discussAction) {
                 if (isTopic) {

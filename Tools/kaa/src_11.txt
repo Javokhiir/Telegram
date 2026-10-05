@@ -1,0 +1,498 @@
+AboutTelegramPremium	About Telegram Premium
+AdditionalReactions	Additional Reactions
+AdditionalReactionsDescription	Unlock a wider range of reactions on messages by subscribing to Telegram Premium.
+PremiumPreviewAppIconDescription2	Unlock a wider range of app icons by subscribing to Telegram Premium.
+PaymentCheckoutAcceptRecurrent	I accept the *Terms of Service* of %1$s.
+PaymentCheckoutAcceptRecurrentFee	I accept the *Terms of Service*.
+RevokeLinksAlert	Are you sure you want to revoke these links?\n\nThe groups will become private.
+RevokeLinksAlertChannel	Are you sure you want to revoke these links?\n\nThe channels will become private.
+ClearRecentStickersAlertMessage	Do you want to clear all your recent stickers?
+AllSessionsTerminated	All other sessions terminated.
+RichEditorDraftSaved	Saved Draft.
+AllWebSessionsTerminated	All websites disconnected.
+BotCantOpenAttachMenuSameBot	This bot can\'t be opened in the chat with itself.
+UnlockPremiumStickersDescription	Unlock this sticker and many more by subscribing to Telegram Premium.
+LimitReachedPinDialogs	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to double the limit to **%2$d** chats.
+LimitReachedPinDialogsPremium	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned.
+LimitReachedPinDialogsLocked	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned. We are working to let you increase this limit in the future.
+LimitReachedPinSavedDialogs	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned or subscribe to **Telegram Premium** to increase the limit to **%2$d** chats.
+LimitReachedPinSavedDialogsPremium	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned.
+LimitReachedPinSavedDialogsLocked	Sorry, you can\'t pin more than %1$d chats to the top. Unpin some that are currently pinned. We are working to let you increase this limit in the future.
+LastActiveCommunities	Recently active communities
+ChatsLeaveAlert	<![CDATA[>Are you sure you want to leave the selected chats?]]>
+PremiumPreviewAdvancedChatManagementDescription	Tools to set the default folder, auto-archive and hide new chats from non-contacts.
+PremiumPreviewAdvancedChatManagementDescription2	Subscribers of Telegram Premium can set the default folder, auto-archive and hide new chats from non-contacts.
+TelegramPremiumUserDialogTitle	**%s** is a subscriber of Telegram Premium.
+TelegramPremiumUserDialogSubtitle	Owners of **Telegram Premium** accounts have exclusive access to multiple additional features.
+TelegramPremiumUserStatusDialogTitle	%1$s set this emoji from **%2$s** as their current status.
+TelegramPremiumUserStatusCollectibleDialogTitle	%1$s set this emoji from **%2$s** collection as their current status.
+TelegramPremiumUserStatusDialogSubtitle	Emoji status is a premium feature. Other features included in **Telegram Premium**:
+TelegramPremiumUserStatusDefaultDialogTitle	This is %1$s\'s current status.
+TelegramPremiumUserGiftedPremiumDialogTitleWithPlural	**%1$s** has gifted you a %2$s subscription for Telegram Premium.
+TelegramPremiumUserGiftedPremiumDialogTitleWithPluralSomeone	Someone has gifted you a %1$s subscription for Telegram Premium.
+TelegramPremiumUserGiftedPremiumDialogSubtitle	You now have access to additional features.
+TelegramPremiumUserGiftedPremiumOutboundDialogTitleWithPlural	You gifted **%1$s** a %2$s subscription for Telegram Premium.
+TelegramPremiumUserGiftedPremiumOutboundDialogSubtitle	**%1$s** now have access to additional features.
+PremiumPreviewNoAdsDescription2	Remove ads such as this one by subscribing to Telegram Premium.
+FeaturedStickersPremium	Trending Premium Stickers
+UnlockPremiumEmojiPack	Unlock %1$s
+UnlockPremiumEmojiHint	Subscribe to **Telegram Premium** to unlock this emoji.
+UnlockPremiumEmojiReaction	Subscribe to **Telegram Premium** to unlock this reaction.
+UnlockPremiumEmojiHint2	Try sending these emoji in **Saved Messages** for free to test.
+UnlockPremiumTranscriptionHint	Subscribe to **Telegram Premium** to convert voice to text.
+PremiumMore	More
+Unlock	Unlock
+Restore	Restore
+PremiumPreviewEmojiPack	This emoji pack is available only to subscribers of **Telegram Premium.**
+AllReactions	All reactions
+SomeReactions	Some reactions
+NoReactions	No reactions
+OnlyAllowThisReactions	Only allow this reactions
+ReactionsAll	All
+ReportReactionAndBan2	Ban and Report Reaction
+DeleteReaction	Delete Reaction
+BanUser	Ban user
+BanUserMonoforum	Ban User From Channel
+UnbanUserMonoforum	Ban User From Channel
+AccDescrCustomEmoji	Custom emoji
+RecentlyUsed	Recently Used
+PopularReactions	Popular
+EmojiPackCollectibles	Collectibles
+ReactionsLongtapHint	Press and hold to send a super reaction
+EmojiLongtapHint	Long tap on a emoji to set a timer
+EmojiStatusExpireHint	Your status expires %s
+EnableSomeReactionsInfo	Members of the group can use only some allowed emoji as reactions to messages.
+EnableAllReactionsInfo	Members of the group can use any emoji as reactions to messages.
+DisableReactionsInfo	Members of the group can’t add any reactions to messages.
+ClearRecentReactionsAlertTitle	Clear recent emoji
+ClearRecentReactionsAlertMessage	Do you want to clear your recent reaction emoji from suggestions?
+SelectSendAsPeerPremiumHint	Subscribe to **Telegram Premium** to be able to comment on behalf of your channels in any group chat.
+SelectSendAsPeerPremiumOpen	Open
+SetEmojiStatusUntilTitle	Set status until…
+SetEmojiStatusUntilButton	Set Status
+SetEmojiStatusUntil1Hour	Set for 1 hour
+SetEmojiStatusUntil2Hours	Set for 2 hours
+SetEmojiStatusUntil8Hours	Set for 8 hours
+SetEmojiStatusUntil2Days	Set for 2 days
+SetEmojiStatusUntilOther	Other…
+ReportSpamUserEmojiStatusHint	This account uses %1$s as a custom status next to its name. Such emoji statuses are available to all subscribers of %2$s.
+ReportSpamUserEmojiStatusHint2	%1$s is a mark for **Premium subscribers >**
+PremiumPreviewReactions2Description	React with thousands of emoji — with multiple reactions per message.
+PremiumPreviewReactions2	Infinite Reactions
+PremiumPreviewEmojiStatus	Emoji Status
+PremiumPreviewEmojiStatusDescription	Add any of thousands emojis next to your name to display current activity.
+PremiumPreviewTranslations	Real-Time Translation
+PremiumPreviewTranslationsDescription	Real-time translation of channels and chats into other languages.
+PremiumPreviewEffects	Message Effects
+PremiumPreviewEffectsDescription	Add over 500 animated effects to private messages.
+PremiumPreviewTodo	Checklists
+PremiumPreviewTodoDescription	Plan, assign, and complete tasks –\nseamlessly and efficiently.
+PremiumPreviewWallpaper	Wallpaper for Both Sides
+PremiumPreviewWallpaperDescription	Set custom wallpapers for you and your chat partner.
+PremiumPreviewProfileColor	Name and Profile Colors
+PremiumPreviewProfileColorDescription	Choose a color and logo for your profile and replies to your messages.
+PremiumPreviewMoreBusinessFeatures	More business features
+PremiumPreviewMoreBusinessFeaturesInfo	Check this section later for new business features.
+PremiumPreviewFolderTags	Tag Your Chats
+PremiumPreviewFolderTagsDescription	Display folder names for each chat in the chat list.
+PremiumPreviewBusinessEmojiStatus	Set Emoji Status
+PremiumPreviewBusinessEmojiStatusDescription	Display the current status of your business next to your name.
+PremiumPreviewSharingDisable	Disable Sharing
+PremiumPreviewSharingDisableDescription	Disable screenshots, saving and forwarding messages in private chats.
+PremiumPreviewAIEditor	AI Tools
+PremiumPreviewAIEditorDescription	Transform your messages and entire chats in your preferred style and language.
+PremiumPreviewRichEditor	Rich Formatting
+PremiumPreviewRichEditorDescription	Add headers, tables, lists, AI and inline media to messages.
+MicrophoneForVoiceMessages	Microphone for voice messages
+MicrophoneForVoiceMessagesBuiltIn	Built-In
+MicrophoneForVoiceMessagesSco	Headset
+MicrophoneForVoiceMessagesScoIfConnected	Headset (if connected)
+MicrophoneForVoiceMessagesScoHint	Using a headset microphone may reduce background noise but will slightly decrease audio quality.
+ReactionInDialog	Reacted with %s to your message
+DialogNotAvailable	Not available
+SetUsernameHeader	Set username
+UsernamesChannelHeader	Links order
+UsernamesProfileHeader	Usernames order
+UsernameActivateLink	Activate link
+UsernameDeactivateLink	Deactivate link
+UsernameLinkEditable	tap to edit
+UsernameLinkActive	active
+UsernameLinkInactive	not active
+UsernameProfileLinkEditable	tap to edit
+UsernameProfileLinkActive	active
+UsernameProfileLinkInactive	not active
+UsernameActivateLinkProfileMessage	Do you want to show this link on your info page?
+UsernameDeactivateLinkProfileMessage	Do you want to hide this link from your info page?
+UsernameActivateLinkChannelMessage	Do you want to show this link on the channel info page?
+UsernameDeactivateLinkChannelMessage	Do you want to hide this link from the channel info page?
+UsernameActivateErrorTitle	Too many active links
+UsernameActivateErrorMessage	Sorry, you have too many active public links already. Please hide one of your active public links first.
+Hide	Hide
+Unhide	Unhide
+Show	Show
+UsernamesProfileHelp	Drag and drop links to change the order in which they will be displayed on your info page.
+UsernamesChannelHelp	Drag and drop links to change the order in which they will be displayed on the channel info page.
+ChannelTopics	Topics
+NewTopic	New Topic
+CreateTopicTitle	Choose topic title and icon
+CreateGeneralTopicTitle	Choose topic title
+EnterTopicName	What do you want to discuss?
+TopicCreated	Topic was created
+CreateTopic	Create topic
+DiscardTopic	Discard topic
+DiscardTopicMessage	Topic isn’t created, because you haven\'t posted a message.\n\nDo you want to discard this topic?
+Discard	Discard
+EditTopic	Edit topic
+EditTopicHide	Show in Topics
+EditTopicHideInfo	If the \'General\' topic is hidden, group members can pull down in the topic list to view it.
+NoTopics	No topics here yet
+NoTopicsDescription	Tap the button below to start your first topic.
+NoTopicsDescriptionUser	Older messages from this group have been move to the **’%s’** topic.
+TapToCreateTopicHint	Tap to create a topic
+TopicViewAsMessages	View as messages
+CloseTopic	Close topic
+RestartTopic	Reopen topic
+CloseTopics	Close topics
+RestartTopics	Reopen topics
+OpenAllTopics	All Topics
+SavedViewAsChats	View as Chats
+SavedViewAsMessages	View as Messages
+TopicViewAsTopics	View as topics
+DeleteSelectedTopics	Are you sure you want delete these topics?
+DeleteSelectedTopic	Are you sure you want delete %s?
+DeleteTopics_one	Delete topic
+DeleteTopics_other	Delete topics
+Topics	Topics
+TopicsTitleMedia	Media
+DiscussionInfoShort	Add
+ChatHistoryShort	Chat History
+NoIconsFound	No icons found
+SelectTopic	Select topic
+TopicNotificationsExceptions_one	There is **%d topic** that is listed as exception.
+TopicNotificationsExceptions_other	There are **%d topics** that are listed as exceptions.
+TopicProfileStatus	In %s
+TopicClosed	Topic closed
+TopicHidden	General topic was hidden
+TopicHidden2	%s hid general
+TopicShown	General topic was unhidden
+TopicShown2	%s unhid general
+TopicRestarted	Topic reopened
+TopicClosed2	%s closed topic
+TopicRestarted2	%s reopened topic
+TopicClosedByAdmin	The topic is closed
+AlmostDone	Almost done
+TopicEmptyViewDescription	Send first message to start the topic
+NotificationTopicExceptionsDesctription_one	%s, %d exception
+NotificationTopicExceptionsDesctription_other	%s, %d exceptions
+FloatingDebugEnable	Enable floating debug
+FloatingDebugDisable	Disable floating debug
+DebugClearLocalDatabaseSuccess	Cleared local database.
+DebugClearSendMessageAsPeers	Clear Send Message As… peers
+DebugShareAlertSwitchDialogsMode	Switch sharing alert dialogs mode (%1$s)
+DebugShareAlertDialogsModeNormal	Normal
+DebugShareAlertDialogsModeLess	Less
+DebugShareAlertDialogsModeMore	More
+DebugShareAlertTopicsSlowMotion	Toggle sharing alert topics slow motion
+ForumToggleDescription	The group chat will be divided into topics created by admins or users.
+SwipeToReplyHint	Swipe to Reply
+SwipeToReplyHintMessage	Swipe left on any message to reply to it.
+ViewInTopic	View in Topic
+PinMessageInTopicAlert	Pin this message in the topic?
+ForumReplyToMessagesInTopic	Swipe left on a message to reply
+ChannelTopicsForbidden_one	Only groups with more than **%1$d member** can have topics enabled.
+ChannelTopicsForbidden_other	Only groups with more than **%1$d members** can have topics enabled.
+ChannelAntiSpamForbidden_one	Only groups with more than **%1$d member** can have Anti-Spam enabled.
+ChannelAntiSpamForbidden_other	Only groups with more than **%1$d members** can have Anti-Spam enabled.
+ChannelHiddenMembersForbidden_one	Only groups with more than **%1$d member** can hide members.
+ChannelHiddenMembersForbidden_other	Only groups with more than **%1$d members** can hide members.
+ChannelTopicsDiscussionForbidden	Topics are currently unavailable in groups connected to channels.
+TopicCreator	topic creator
+ManageTopicsPermission	Manage topics
+CreateTopicsPermission	Create topics
+TopicRenamedTo	%1$s renamed topic to %2$s
+TopicIconChanged	Topic icon changed
+TopicIconChangedTo	%1$s changed topic icon to %2$s
+TopicsDeleted_one	Topic deleted.
+TopicsDeleted_other	Topics deleted
+TopicRenamed	Topic renamed
+TopicWasCreatedAction	%s was created
+TopicWasClosedAction	%1$s closed %2$s
+TopicWasReopenedAction	%1$s reopened %2$s
+TopicWasRenamedToAction	%1$s renamed topic to %2$s
+TopicWasRenamedToAction2	%1$s changed the topic title and icon to %2$s
+TopicWasIconChangedToAction	%1$s changed the topic icon to %2$s
+TopicChangeIconAndTitleTo	%1$s changed the topic title and icon to %2$s
+TopicRenamedToInReply	renamed topic to %s
+TopicIconChangedToInReply	changed topic icon to %s
+TopicChangeIconAndTitleToInReply	changed the topic title and icon to %s
+SelectTopicIconHint	Select Topic Icon
+PremiumSpeedPromo	Increase Speed
+ChannelCaptionLimitPremiumPromo_one	Make the caption shorter or subscribe to *Telegram Premium* to double the limit to **%1$s** character.
+ChannelCaptionLimitPremiumPromo_other	Make the caption shorter or subscribe to *Telegram Premium* to double the limit to **%1$s** characters.
+AllChats	All Chats
+DebugShareAlert	Share Alert
+DebugDialogsActivity	Dialogs Activity
+DebugMessageSkeletons	Message Skeletons
+DebugMessageSkeletonsLightOverlayAlpha	Light overlay alpha
+DebugMessageSkeletonsSaturation	Saturation
+DebugGeneral	General
+DebugTestBackend	Test Backend
+YouTubeVideoErrorInvalid	This video has invalid URL.
+YouTubeVideoErrorHTML	An error occurred while trying to play this video.
+YouTubeVideoErrorNotFound	Video not found.
+YouTubeVideoErrorNotAvailableInApp	This video can\'t be played inside this app.
+YouTubeVideoErrorOpenExternal	Watch on YouTube
+AnonymousNumber	Anonymous Number
+AnonymousNumberNotice	This number is not tied to a SIM card and was acquired on *Fragment.*
+AutoDeleteMessages	Auto-Delete Messages
+SetCustomTime	Set Custom Time
+GlobalAutoDeleteInfo	If enabled, all new messages in chats you start will be automatically deleted for everyone at some point after they have been sent. You can also **apply this setting for your existing chats.**
+AutoDeleteDisabled	auto-deletion disabled
+AutoDeleteConfirmMessage	Are you sure you want all messages in new chats started by you to be automatically deleted for everyone %s after they have been sent?
+SelectChatsForDisableAutoDelete	to disable the self-destruct timer
+AutoDeleteGlobalTimerEnabled	Messages in all new chats you start will be automatically deleted after **%s.**
+AutoDeleteGlobalTimerDisabled	Self-destruct timer disabled for all new chats.
+AutodeleteTimerEnabledForChats	Self-destruct timer for **%1$s** has been enabled in %2$s.
+AutodeleteTimerDisabledForChats	Self-destruct timer has been disabled in %s.
+AutoDeletePopupDescription2	You can also set your default **self-destruct timer** for all chats in Settings.
+GroupCreateAutodeleteDescription	Automatically delete messages in this group for everyone after a period of time.
+GroupCreateMembersTwo	%1$s and %2$s
+GroupCreateMembersThree	%1$s, %2$s and %3$s
+GroupCreateMembersFour	%1$s, %2$s, %3$s and %4$s
+GroupCreateMembersFive	%1$s, %2$s, %3$s, %4$s and %5$s
+GroupCreateDiscussionDefaultName	%1$s chat
+AutoDeleteGlobalAction	**un1** uses a self-destruct timer for all chats.\nAll new messages in this chat will be automatically deleted after **%1$s** they’ve been sent.
+AutoDeleteGlobalActionFromYou	**You** set a self-destruct timer for all chats.\nAll new messages in this chat will be automatically deleted after **%s** they’ve been sent.
+NeedAdminRightForSetAutoDeleteTimer	You need admin rights in this group to enable auto-delete.
+SetAutoDeleteTimer	Set Auto-Delete
+AutoDeleteCustom2	Set custom time
+CacheOtherChats	Other Chats
+ClearCacheForChats	Are you sure you want to delete cached data for selected chats?
+ClearCacheForChat	Are you sure you want to delete cached data for selected chat?
+SelectChatsForAutoDelete	to apply the self-destruct timer
+SelectChatsForAutoDelete2	will have the self-destruct timer
+SelectChatsForDisableAutoDelete2	will remove the self-destruct timer
+DisableAutoDeleteTimer	Disable Auto-Delete
+PhotoEditorDraw	Draw
+PhotoEditorSticker	Sticker
+PhotoEditorText	Text
+PhotoEditorZoomOut	Zoom Out
+PhotoEditorClearAll	Clear All
+PaintRectangle	Rectangle
+PaintCircle	Circle
+PaintStar	Star
+PaintBubble	Bubble
+PhotoEditorTypefaceRoboto	Roboto
+PhotoEditorTypefaceCondensed	Condensed
+PhotoEditorTypefaceItalic	Italic
+PhotoEditorTypefaceSerif	Serif
+PhotoEditorTypefaceMono	Mono-serif
+PhotoEditorTypefaceMerriweather	Merriweather
+PhotoEditorTypefaceCourierNew	Courier New
+PaintPaletteGrid	Grid
+PaintPaletteSpectrum	Spectrum
+PaintPaletteSliders	Sliders
+PaintPaletteSlidersRed	RED
+PaintPaletteSlidersGreen	GREEN
+PaintPaletteSlidersBlue	BLUE
+PaintPaletteSlidersHexColor	Hex Color #
+UserSetPhoto	Set photo for %s
+SuggestPhotoFor	Suggest photo for %s
+SetPhotoFor	Set photo for %s
+SuggestPhotoAlertMessage	Do you want to suggest **%s** to set this photo for their account?
+SuggestVideoAlertMessage	Do you want to suggest **%s** to set this video for their account?
+SuggestUserPhoto	Suggest Photo for %s
+SetUserPhotoAlertMessage	Do you want to set this photo for **%1$s**? It will replace any photo %2$s sets, but only you will see it.
+SetUserPhotoSelfAlertMessage	Do you want to set this photo for your profile?
+SuggestPhotoShort	Suggest
+ResetToOriginalPhoto	Reset to Original Photo
+RemovePublicPhoto	Remove Public Photo
+UserCustomPhotoSeted	You will now always see this photo for **%s\'s** account.
+NewContactTitle	New Contact
+CreateContact	Create Contact
+ActionSuggestPhoto	Suggested Photo
+ActionSuggestVideo	Suggested Video
+ActionSuggestPhotoFromYouDescription	You suggested %s to use this photo for their account
+ActionSuggestVideoFromYouDescription	You suggested %s to use this video for their account
+ActionSuggestPhotoToYouDescription	%s suggests you to use this photo for your account
+ActionSuggestVideoToYouDescription	%s suggests you to use this video for your account
+ApplyAvatarHintTitle	**Photo updated**
+ApplyAvatarHint	You can change it in **Settings.**
+ActionSuggestPhotoShort	Suggested profile photo
+ActionSuggestVideoShort	Suggested profile video
+SetAsMyPhoto	Set as My Photo
+InviteToTelegramShort	Invite To Telegram
+ActionAttachMenuBotAllowed	You allowed this bot to message you when you added it to your attachment menu
+ActionRequestedPeer	You shared un1 with un2
+ActionRequestedPeerUserPlural_one	You shared a user with un2
+ActionRequestedPeerUserPlural_other	You shared a users with un2
+ActionRequestedPeerChatPlural_one	You shared a chat with un2
+ActionRequestedPeerChatPlural_other	You shared a chats with un2
+ActionRequestedPeerChannelPlural_one	You shared a channel with un2
+ActionRequestedPeerChannelPlural_other	You shared a channels with un2
+EnablePhotoSpoiler	Hide with spoiler
+DisablePhotoSpoiler	Remove spoiler
+UpdatePhotoForRest	Update Public Photo
+ResetToOriginalPhotoTitle	Reset Photo
+ResetToOriginalPhotoMessage	Are you sure you want to reset to the original photo from %s?
+SetPhotoForRest	Set Public Photo
+RemovePhotoForRestDescription	Are you sure you want to delete your public photo?
+CustomAvatarTooltip	photo set by you
+CustomAvatarTooltipVideo	video set by you
+FallbackTooltip	public photo
+PrivateChats	Private Chats
+GroupChats	Group Chats
+CacheChannels	Channels
+AddAnException	Add an exception
+ExceptionShort_one	%d exception
+ExceptionShort_other	%d exceptions
+PhotoForRestTooltip	This photo will be shown to those who are restricted from viewing your main photo.
+SetPhoto	Set Photo
+SetVideo	Set Video
+SuggestedVideo	Suggested Video
+SuggestedPhoto	Suggested Photo
+SetCover	Set a cover for this video
+PhotoForRestDescription	You can upload a public photo for those who are restricted from viewing your real profile photo.
+Remove	Remove
+SuggestVideo	Suggest Video
+SuggestPhoto	Suggest Photo
+SetSuggestedPhotoTooltip	%s suggests you to use this photo for your account.
+SetSuggestedVideoTooltip	%s suggests you to use this video for your account.
+ViewPhotoAction	View Photo
+ViewVideoAction	View Video
+Chats	Chats
+MediaTab	Media
+Files	Files
+Music	Music
+Voice	Voice
+AutoDeleteMediaNever	Never
+DeleteException	Delete Exception
+KeepMediaPopupDescription	Choose how long you wish to keep cached items from this chat.
+MaxCacheSize	Maximum cache size
+MaxCacheSizeInfo	If your cache size exceeds this limit, the oldest media will be removed from the device.
+Select	Select
+Deselect	Deselect
+CacheOpenFile	Open File
+PlayFile	Play File
+PowerUsage	Power Usage
+DeleteAllProxies	Delete All Proxies
+DeleteAllProxiesConfirm	Are you sure you want to delete all proxies?
+AccDescrSendAs	Send as %1$s
+SessionsSettingsInfo	Review the list of devices where you are logged into your Telegram account.
+SendMediaPermissionPhotos	Photos
+TapAndHoldToDeleteReaction	Tap and hold to delete reaction.
+PollV2YouCanAddXCountriesOnly	You can add **%d** countries only
+RestrictUserDeleteAllMessages	Delete all messages
+RestrictUserDeleteAllReactions	Delete all reactions
+SendMediaPermissionVideos	Videos
+SendMediaPermissionStickersGifs	<![CDATA[Stickers & GIFs]]>
+SendMediaPermissionMusic	Music
+SendMediaPermissionFiles	Files
+SendMediaPermissionVoice	Voice Messages
+SendMediaPermissionRound	Video Messages
+SendMediaEmbededLinks	Embed Links
+SendMediaPolls	Polls
+UseEmoji	Use an emoji
+UseProxyRotation	Auto-switch proxies
+ProxyRotationTimeoutInfo	You can configure the timeout for connecting to the nearest active proxy if the current one stops working.
+ProxyRotationTimeoutSeconds	%1$d sec.
+PeerRequirements	Requirements
+PeerRequirementPremiumTrue	The user should have a Premium subscription.
+PeerRequirementPremiumFalse	The user should not have a Premium subscription.
+PeerRequirementChannelPublicTrue	The channel should be public.
+PeerRequirementChannelPublicFalse	The channel should be private.
+PeerRequirementGroupPublicTrue	The group should be public.
+PeerRequirementGroupPublicFalse	The group should be private.
+PeerRequirementChannelBotParticipant	Bot should be in the channel.
+PeerRequirementGroupBotParticipant	Bot should be in the group.
+PeerRequirementChannelCreatorTrue	You should be the owner of the channel.
+PeerRequirementGroupCreatorTrue	You should be the owner of the group.
+PeerRequirementForumTrue	The group should have topics turned on.
+PeerRequirementForumFalse	The group should have topics turned off.
+PeerRequirementUserRights	You should have these admin rights:
+PeerRequirementUserRight	You should have admin rights to
+SetCommunityPhoto	Set Community Photo
+SetChannelPhoto	Set Channel Photo
+SetGroupPhoto	Set Group Photo
+PhotoEditor	Photo Editor
+ChooseBackground	Choose background
+AreYouSureSendChatToBotTitle	Send %1$s to %2$s?
+AreYouSureSendChatToBotMessage	Are you sure you want to send **%1$s** to **%2$s**?
+AreYouSureSendChatToBotAdd	This will also add **%1$s** to **%2$s**.
+AreYouSureSendChatToBotAddRights	This will also add **%1$s** to **%2$s** with the following rights: %3$s.
+MaxVideoSize	Maximum video size
+SaveToGalleryHintUser	Automatically save all new media from private chats to your phone\'s gallery.
+SaveToGalleryHintGroup	Automatically save all new media from groups to your phone\'s gallery.
+SaveToGalleryHintChannels	Automatically save all new media from channels to your phone\'s gallery.
+SaveToGalleryHintCurrent	Automatically save all new media from this chat to your phone\'s gallery.
+SaveToGalleryPhotos	Photos
+SaveToGalleryVideos	Videos
+SaveToGalleryVideoHintUser	All videos in private chats less than the selected size will be saved to your gallery.
+SaveToGalleryVideoHintGroup	All videos in groups less than the selected size will be saved to your gallery.
+SaveToGalleryVideoHintChannels	All videos in channels less than the selected size will be saved to your gallery.
+SaveToGalleryVideoHintCurrent	All videos from this chat less than the selected size will be saved to your gallery.
+AddException	Add Exception
+SaveToGalleryException	Exception
+SaveToGalleryOff	Off
+SaveToGalleryVideosUpTo	Videos up to %s
+SendPlainTextRestrictionHint	The admins of this group only allow to send %s.
+PlainTextRestrictedHint	Text not allowed
+ChooseEmojiOrSticker	Choose emoji or sticker
+UpToFileSize	Up to %s
+SaveException	Save exception
+EditException	Edit Exception
+TranslateTo	Translate To
+DetectedLanguage	Detected Language
+DoNotTranslateLanguage	Don\'t translate %s
+DoNotTranslateLanguageOther	Don\'t translate %s
+TranslateToButton	Translate to %s
+TranslateToButtonOther	Translate to %s
+ShowOriginalButton	Show Original
+ShowOriginalButtonLanguage	Show Original (%s)
+AddedToDoNotTranslate	**%s** is added to the Do Not Translate list.
+AddedToDoNotTranslateOther	**%s** is added to the Do Not Translate list.
+TranslationBarHiddenForChannel	Translation bar is now hidden for this channel.
+TranslationBarHiddenForGroup	Translation bar is now hidden for this group.
+TranslationBarHiddenForChat	Translation bar is now hidden for this chat.
+NoEmojiOrStickersFound	No emoji or stickers found
+SafetyNetErrorOccurred	An internal error occurred. Please try again later.
+UpgradePremiumTitle	Upgrade to Premium with a discount of **%1$d%%**
+UpgradePremiumMessage	Upgrade to the annual payment plan of Telegram Premium now to enjoy the discount.
+SaveOnAnnualPremiumTitle	Save on your subscription up to **%1$d%%**
+SaveOnAnnualPremiumMessage	Sign up for the annual payment plan for Telegram Premium now to get the discount.
+PauseMusicOnRecord	Pause music while recording
+PauseMusicOnRecordInfo	Pause music when you start recording a video message
+SetMyProfilePhotoAvatarConstructor	Set My Photo
+ProxyStatus	Status
+ClearStorageHintTitle	Free up to **%s**
+ClearStorageHintMessage	Clear storage space on your phone
+YourCurrentPlan	your current plan
+AccDescrDocumentType	%s file, 
+AccDescrArchivedChatsShown	Archived chats shown
+AccDescrArchivedChatsHidden	Archived chats hidden
+AccDescrNotificationsMuted	Muted
+AccDescrUserOnline	Online
+LiteMode	Animations
+LiteModeInfo	Reduce motion effects to save power.
+LiteBatteryTitle	Low power mode
+LiteBatteryRestricted	Please turn off Low Power Mode to change these settings.
+LowPowerEnabledTitle	Low Power Mode enabled
+LowPowerEnabledSubtitle	%s battery remaining
+LiteBatteryWhenBelow	When below %s
+LiteBatteryDisabled	Off
+LiteBatteryEnabled	On
+LiteBatteryAlwaysDisabled	Always Disabled
+LiteBatteryAlwaysEnabled	Always Enabled
+LiteBatteryInfoDisabled	Never reduce power usage and keep all animations even when your battery is low.
+LiteBatteryInfoBelow	Automatically reduce power usage and animations when your battery is below %s.
+LiteBatteryInfoEnabled	Always reduce power usage regardless of your battery level.
+LiteOptionsTitle	Power saving options
+LiteOptionsAutoplayKeyboard	Autoplay in keyboard
+LiteOptionsAutoplayChat	Autoplay in chat
+LiteOptionsAutoplayReactions	Autoplay in reactions menu
+LiteOptionsStickers	Animated Stickers
+LiteOptionsEmoji	Animated Emoji
+LiteOptionsChat	Animations in Chats
+LiteOptionsBackground	Background rotation
+LiteOptionsTopics	Side menu in topics
+LiteOptionsSpoiler	Animated spoiler effect

@@ -64,6 +64,8 @@ public class LipstickTracker {
     static final class State {
         /** x, y in 0..1 of the round frame, y down. */
         final float[] points = new float[POINT_COUNT * 2];
+        /** U message: every face mesh landmark ({@link FaceMeshData}), x, y in 0..1 of the round frame, y down. */
+        final float[] face = new float[FaceMeshData.LANDMARKS * 2];
         float centerX, centerY;
         float leftCheekX, leftCheekY, rightCheekX, rightCheekY, faceWidth;
         float faceCenterX, faceCenterY, faceAxisXX, faceAxisXY, faceAxisYX, faceAxisYY, faceRadiusX, faceRadiusY;
@@ -92,6 +94,7 @@ public class LipstickTracker {
     private boolean landmarkerFailed;
     private final float[] landmarks = new float[LipLandmarker.LANDMARK_COUNT * 2];
     private final OneEuroFilter[] filters = new OneEuroFilter[POINT_COUNT * 2];
+    private final OneEuroFilter[] faceFilters = new OneEuroFilter[FaceMeshData.LANDMARKS * 2];
 
     private final Bitmap captureBitmap = Bitmap.createBitmap(CAPTURE_SIZE, CAPTURE_SIZE, Bitmap.Config.ARGB_8888);
     private final ByteBuffer readBuffer = ByteBuffer.allocateDirect(CAPTURE_SIZE * CAPTURE_SIZE * 4).order(ByteOrder.nativeOrder());
@@ -280,6 +283,9 @@ public class LipstickTracker {
             for (int i = 0; i < filters.length; i++) {
                 filters[i] = new OneEuroFilter(FILTER_MIN_CUTOFF, FILTER_BETA, FILTER_DERIVATIVE_CUTOFF);
             }
+            for (int i = 0; i < faceFilters.length; i++) {
+                faceFilters[i] = new OneEuroFilter(FILTER_MIN_CUTOFF, FILTER_BETA, FILTER_DERIVATIVE_CUTOFF);
+            }
         }
         final float scale = 1f / CAPTURE_SIZE;
         final State s = new State();
@@ -297,6 +303,9 @@ public class LipstickTracker {
         }
         s.centerX = cx / POINT_COUNT;
         s.centerY = cy / POINT_COUNT;
+        for (int i = 0; i < s.face.length; i++) {
+            s.face[i] = faceFilters[i].filter(landmarks[i] * scale, time);
+        }
         s.leftCheekX = landmarks[205 * 2] * scale;
         s.leftCheekY = landmarks[205 * 2 + 1] * scale;
         s.rightCheekX = landmarks[425 * 2] * scale;
@@ -724,6 +733,10 @@ public class LipstickTracker {
         GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, fbo[0]);
         GLES20.glFramebufferTexture2D(GLES20.GL_FRAMEBUFFER, GLES20.GL_COLOR_ATTACHMENT0, GLES20.GL_TEXTURE_2D, texture[0], 0);
         GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, previous[0]);
+    }
+
+    static int createProgramForMask(String vertexSource, String fragmentSource) {
+        return createProgram(vertexSource, fragmentSource);
     }
 
     private static int createProgram(String vertexSource, String fragmentSource) {

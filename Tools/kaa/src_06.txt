@@ -1,0 +1,582 @@
+TerminateWebSessionInfo	Tap to disconnect from your Telegram account.
+TerminateWebSessionText	Are you sure you want to disconnect %1$s?
+TerminateWebSessionTitle	Disconnect website
+TerminateWebSessionsTitle	Disconnect websites
+Disconnect	Disconnect
+TerminateWebSessionStop	Block %1$s
+TerminateAllWebSessions	Disconnect All Websites
+AreYouSureWebSessions	Are you sure you want to disconnect all websites where you used Telegram to log in?
+ClearOtherWebSessionsHelp	You can log in on websites that support signing in with Telegram.
+LoginAttempts	Incomplete login attempts
+LoginAttemptsInfo	The devices above have no access to your messages. The code was entered correctly, but no correct password was given.
+Filters	Folders
+CreateNewFilter	Create New Folder
+CreateNewFilterInfo	Create folders for different groups of chats and quickly switch between them.
+FilterRecommended	Recommended Folders
+FilterAllChats	All Chats
+FilterAllChatsShort	All
+FilterReorder	Reorder
+FilterEdit	Edit folder
+FilterEditAll	Edit folders
+FilterMuteAll	Mute All
+FilterUnmuteAll	Unmute All
+FilterContacts	Contacts
+FilterNonContacts	Non Contacts
+FilterGroups	Groups
+FilterChannels	Channels
+FilterEditItem	Edit
+FilterDeleteItem	Delete
+FilterDelete	Delete Folder
+FilterMuted	Muted
+FilterRead	Read
+FilterArchived	Archived
+FilterAlwaysShow	Include Chats
+FilterNeverShow	Exclude Chats
+FilterAddChats	Add Chats
+FilterRemoveChats	Remove Chats
+FilterChatTypes	Chat types
+FilterChats	Chats
+FilterInclude	Included Chats
+FilterExclude	Excluded Chats
+FilterIncludeInfo	Choose chats and types of chats that will appear in this folder.
+FilterExcludeInfo	Choose chats and types of chats that will not appear in this folder.
+FilterBots	Bots
+FilterAddingChats	Adding chats
+FilterAddingChatsInfo	Please wait a few moments while we fill this folder for you...
+FilterNoChatsToDisplay	No chats found
+FilterNoChatsToDisplayInfo	No chats currently belong to this folder.
+FilterNoChatsToForward	No chats found
+FilterNoChatsToForwardInfo	No chats in this folder to forward to.
+FilterNew	New Folder
+FilterNoChats	No Chats
+FilterContact	Contact
+FilterNonContact	Non-Contact
+FilterNameHeader	Folder name
+FilterNameAnimationsEnable	Enable Animations
+FilterNameAnimationsDisable	Disable Animations
+FilterNameHint	Folder name
+FilterDeleteAlert	Are you sure you want to delete this folder?
+FilterDeleteAlertLinks	Are you sure you want to delete this folder? This will also deactivate all the invite links used to share this folder.
+FilterDiscardTitle	Apply Changes?
+FilterDiscardAlert	You have edited this folder. Apply changes?
+FilterDiscardNewTitle	Create Folder?
+FilterDiscardNewAlert	You have not finished creating the folder yet. Create now?
+FilterDiscardNewSave	Create
+FilterShowMoreChats_one	Show %1$d More Chat
+FilterShowMoreChats_other	Show %1$d More Chats
+FilterRemoveExclusionTitle	Remove exception
+FilterRemoveInclusionTitle	Remove exception
+FilterRemoveExclusionText	Are you sure you want to remove \"%1$s\" from always excluded chats?
+FilterRemoveExclusionChatText	Are you sure you want to remove \"%1$s\" from always excluded chats?
+FilterRemoveExclusionUserText	Are you sure you want to remove \"%1$s\" from always excluded chats?
+FilterRemoveInclusionText	Are you sure you want to remove \"%1$s\" from always included chats?
+FilterRemoveInclusionChatText	Are you sure you want to remove \"%1$s\" from always included chats?
+FilterRemoveInclusionUserText	Are you sure you want to remove \"%1$s\" from always included chats?
+FilterAvailableTitle	Chat folders
+FilterAvailableText	Open *Settings / Folders* to organize your chats into folders.
+FilterNameNonMuted	Not Muted
+FilterNameUnread	Unread
+FilterAddTo	Add to folder
+FilterRemoveFrom	Remove from folder
+FilterChoose	Choose a folder
+FilterUserAddedToExisting	**%1$s** added to **%2$s**
+FilterChatAddedToExisting	**%1$s** added to **%2$s**
+FilterChatsAddedToExisting	**%1$s** added to **%2$s**
+FilterUserRemovedFrom	**%1$s** removed from **%2$s**
+FilterChatRemovedFrom	**%1$s** removed from **%2$s**
+FilterChatsRemovedFrom	**%1$s** removed from **%2$s**
+FilterAddToAlertFullTitle	Limit reached
+FilterAddToAlertFullText	Sorry, you can\'t exlude more than 100 chats from a folder.
+Passcode	Passcode Lock
+ChangePasscode	Change Passcode
+ChangePasscodeInfo	When you set up an additional passcode, a lock icon will appear on the chats page. Tap it to lock and unlock your Telegram app.\n\nNote: if you forget the passcode, you\'ll need to delete and reinstall the app. All secret chats will be lost.
+ChangePasscodeInfoShort	When you set up a passcode, a lock icon will apear on the chats page. Tap it to lock and unlock the app.
+EnablePasscode	Enable passcode
+ConfirmCreatePasscode	Re-enter your passcode
+PasscodeSwitchToPassword	Switch to password
+PasscodeSwitchToPIN	Switch to PIN
+PasscodesDoNotMatchTryAgain	Passcodes don\'t match. Please try again.
+EnterYourPasscode	Enter your passcode
+EnterYourPasscodeInfo	Please enter your current Telegram passcode to manage this option.
+ForgotPasscode	Forgot passcode?
+ForgotPasscodeInfo	If you forgot your passcode, you\'ll need to delete and reinstall the app.\n\nAll secret chats will be lost.
+PasscodeScreenHint	Tap a lock icon on the chats page to lock and unlock the app.
+DisablePasscode	Turn Passcode Off
+DisablePasscodeConfirmMessage	Are you sure you want to turn off passcode?
+DisablePasscodeTurnOff	Turn Off
+EnterNewPasscode	Enter your new passcode
+EnterYourTelegramPasscode	Enter your Telegram passcode
+AutoLock	Auto-lock
+AutoLockInfo	Require passcode if away for a time.
+AutoLockInTime	in %1$s
+AutoLockDisabled	Disabled
+UnlockFingerprint	Unlock with Fingerprint
+ScreenCapture	Show App Content in Task Switcher
+ScreenCaptureHeader	App Content in Task Switcher
+ScreenCaptureShowContent	Show Content
+ScreenCaptureInfo	If disabled, you won\'t be able to take screenshots in the app but chat content will be hidden in the task switcher.
+ScreenCaptureAlert	This will hide the contents of your chats or chat list from the task switcher, but you will not be able to take screenshots on Telegram.\n\nYou may need to restart the app for this to take effect.
+TooManyTries	Too many tries.\nPlease try again in %1$s.
+January	January
+February	February
+March	March
+April	April
+May	May
+June	June
+July	July
+August	August
+September	September
+October	October
+November	November
+December	December
+SharedFilesTab2	Files
+SharedMediaTab2	Media
+SharedMediaTabFull2	Shared Media
+SharedGroupsTab2	Groups
+SharedLinksTab2	Links
+SharedMusicTab2	Music
+SharedPollTab	Polls
+SharedVoiceTab2	Voice
+SharedGIFsTab2	GIFs
+SharedContentTitle	Shared Content
+SimilarChannelsTab	Similar Channels
+SimilarBotsTab	Similar Bots
+NoMedia	Share photos and videos in this chat and access them on any of your devices.
+NoSharedAudio	Share music in this chat and access it on any of your devices.
+NoSharedFiles	Share files and documents in this chat and access them on any of your devices.
+NoSharedLinks	Share links in this chat and access them on any of your devices.
+NoSharedVoice	Share voice messages in this chat and access them on any of your devices.
+NoMediaSecret	Photos and videos from this chat will be shown here.
+NoSharedAudioSecret	Music from this chat will be shown here.
+NoSharedFilesSecret	Files and documents from this chat will be shown here.
+NoSharedLinksSecret	Shared links from this chat will be shown here.
+NoSharedVoiceSecret	Voice messages from this chat will be shown here.
+NoSharedGifSecret	GIFs from this chat will be shown here.
+Map	Map
+Satellite	Satellite
+Hybrid	Hybrid
+MetersAway2	%1$s m away
+KMetersAway2	%1$s km away
+FootsAway	%1$s ft away
+MilesAway	%1$s mi away
+FootsShort	%1$s ft
+MilesShort	%1$s mi
+MetersShort	%1$s m
+KMetersShort	%1$s km
+MetersFromYou2	%1$s m from&#160;you
+KMetersFromYou2	%1$s km from&#160;you
+FootsFromYou	%1$s ft from&#160;you
+MilesFromYou	%1$s mi from&#160;you
+Directions	Directions
+GetDirections	Get Directions
+NoPlacesFound	No places found
+NoPlacesFoundInfo	There are no matches with **%1$s** near you.
+SendLocation	Send my current location
+SendLiveLocation	Share My Live Location for...
+SendLiveLocationMenu	Share my Live Location
+StopLiveLocation	Stop Sharing Location
+SharingLiveLocation	Sharing Location...
+SharingLiveLocationAdd	tap to add more time
+StopLiveLocationAlertToTitle	Stop location sharing
+StopLiveLocationAlertToUserText	Do you want to stop sharing your live location with **%1$s**?
+StopLiveLocationAlertToGroupText	Do you want to stop sharing your live location with **%1$s**?
+StopLiveLocationAlertAllText	Do you want to stop sharing your live location?
+SendLiveLocationInfo	Updated in real time as you move
+SendSelectedLocation	Send selected location
+AttachSelectedLocation	Attach selected location
+SetThisLocation	Set This Location
+UnknownLocation	Unknown Location
+ShareLocation	Location
+SharedPlace	Place
+AccurateTo	Accurate to %1$s
+NearbyVenue	Or choose a venue
+LocationOnMap	Location on map
+TapToSendLocation	Tap to send this location
+LiveLocations	Live locations
+LiveLocationContext	Live Location
+SendLiveLocationFor15m	for 15 minutes
+SendLiveLocationFor1h	for 1 hour
+SendLiveLocationFor8h	for 8 hours
+SendLiveLocationForever	until I turn it off
+LocationUpdated	updated
+LocationUpdatedFormatted	updated %1$s
+LocationUpdatedJustNow	updated just now
+SharingYouAndOtherName	You and %1$s
+AttachLiveLocationIsSharing	%1$s sharing with %2$s
+AttachLiveLocationIsSharingChat	%1$s sharing with %2$s
+AttachLiveLocationIsSharingChats	%1$s sharing with %2$s
+StopAllLocationSharings	STOP ALL
+SharingLiveLocationTitle	You are sharing your Live Location with %1$s
+LiveLocationAlertExpandTitle	Add More Time
+LiveLocationAlertExpandMessage	For how long do you want to extend sharing your location?
+LiveLocationAlertPrivate	Choose for how long %1$s will see your accurate location.
+LiveLocationAlertGroup	Choose for how long people in this chat will see your live location.
+GpsDisabledAlertText	Please enable your GPS to access location-based features.
+ChatSetThisLocation	Set this location
+PlacesInThisArea	Places in this area
+OpenInMaps	Open in Maps
+LocationNotifiation	Proximity alert
+LocationNotifiationButtonUser	Notify when %1$s is within %2$s
+LocationNotifiationButtonGroup	Notify when someone is within %1$s
+LocationNotifiationCloser	You are already closer than %1$s
+ShareLocationAlertTitle	Share Location
+ShareLocationAlertButton	Share
+ShareLocationAlertText	For the alert to work, please share your live location in this chat.
+ProximityTooltioUser	Alert when %1$s is close
+ProximityTooltioGroup	Alert when other members of the group are close
+ProximityAlertSet	Proximity alert set
+ProximityAlertSetInfoUser	We will notify you once %1$s is within %2$s from you.
+ProximityAlertSetInfoGroup2	We will notify you once someone is within %1$s from you.
+ProximityAlertCancelled	Proximity alert cancelled
+Quality	Quality
+QualityList	Video Quality
+QualityAuto	Auto
+QualityOriginal	Original
+Quality2160	Ultra High
+Quality1440	Ultra High
+Quality1080	High
+Quality720	Medium
+Quality480	Low
+Quality360	Low
+Quality240	Low
+Quality144	Low
+Quality2160Short	4K
+Quality1440Short	2K
+Quality1080Short	HD
+Quality720Short	HD
+QualitySource	Source
+Speed	Speed
+SpeedSlow	Slow
+SpeedVerySlow	Very slow
+SpeedFast	Fast
+SpeedVeryFast	Very fast
+SpeedNormal	Normal
+SpeedMedium	Medium
+SpeedSuperFast	Super Fast
+VideoSpeedVeryFast	Very fast
+VideoSpeedFast	Fast
+VideoSpeedCustom	Custom %s
+VideoSpeedNormal	Normal
+VideoSpeedSlow	Slow
+VideoSpeedVerySlow	Very slow
+SpeedHint	Long tap for more speed values.
+ShowAsList	Show as list
+ShowAsGrid	Show as grid
+ShowAllMedia	Show all media
+ShowStickers	Show stickers
+ShowAllFiles	Show all files
+ShowAllGIFs	Show all GIFs
+TapToDownload	Tap to download
+OpenFile	OPEN FILE
+ShowInChat	Show in chat
+CreateSticker	Create Sticker
+StopDownload	Stop downloading
+SaveToGallery	Save to gallery
+Of	%1$d of %2$d
+OfS	%1$s of %2$s
+TaggedMessages_one	%1$d message
+TaggedMessages_other	%1$d messages
+SearchMessagesResultCount_one	%2$s result
+SearchMessagesResultCount_other	%2$s results
+SearchAsList	Show as List
+SearchAsChat	Show as Chat
+Gallery	Gallery
+AllPhotos	All photos
+AllMedia	All media
+AllVideos	All videos
+NoPhotos	No photos yet
+PleaseDownload	Please download media first
+PleaseStreamDownload	Please wait for the video to be fully downloaded.
+VideoDoesNotSupportStreaming	This video is not optimized for streaming. You may need to download it in full to play it.
+CantPlayVideo	App was unable to play this video. Try to play it with external player?
+NoRecentSearches	No recent searches
+ImagesTab2	Images
+GifsTab2	GIFs
+SearchImages	FIND IMAGES
+SearchGifs	FIND GIFS
+SearchImagesTitle	Search web
+SearchGifsTitle	Search GIFs
+CameraPermissionText	Tap to allow access to your Camera
+GalleryPermissionText	Tap to allow access to your Gallery
+CropImage	Crop image
+Enhance	Enhance
+Highlights	Highlights
+Contrast	Contrast
+Exposure	Exposure
+Warmth	Warmth
+Saturation	Saturation
+Vignette	Vignette
+Shadows	Shadows
+Grain	Grain
+Sharpen	Sharpen
+Fade	Fade
+SoftenSkin	Soften Skin
+TintShadows	SHADOWS
+TintHighlights	HIGHLIGHTS
+CurvesAll	ALL
+CurvesRed	RED
+CurvesGreen	GREEN
+CurvesBlue	BLUE
+BlurOff	Off
+BlurLinear	Linear
+BlurRadial	Radial
+AreYouSureDeletePhotoTitle	Delete photo
+AreYouSureDeletePhoto	Are you sure you want to delete this photo?
+AreYouSureDeleteVideoTitle	Delete video
+AreYouSureDeleteVideo	Are you sure you want to delete this video?
+AreYouSureDeleteGIFTitle	Delete GIF
+AreYouSureDeleteGIF	Are you sure you want to delete this GIF?
+AreYouSureDeletePhotoEveryone	Are you sure you want to delete this photo for everyone?
+AreYouSureDeleteVideoEveryone	Are you sure you want to delete this video for everyone?
+AreYouSureDeleteGIFEveryone	Are you sure you want to delete this GIF for everyone?
+DiscardChanges	Discard changes
+PhotoEditorDiscardAlert	Are you sure you want to discard all changes?
+ClearSearch	Clear search history?
+ClearSearchAlert	Are you sure you want to clear your search history?
+ClearSearchAlertPartial_one	Do you want to remove this chat from your search history?
+ClearSearchAlertPartial_other	Do you want to remove these %1$d chats from your search history?
+ClearSearchAlertTitle	Clear search history
+ClearSearchAlertPartialTitle	Remove from search history
+ClearSearchSingleAlertTitle	Search history
+ClearSearchSingleUserAlertText	Are you sure you want to remove \"%1$s\" from search history?
+ClearSearchSingleChatAlertText	Are you sure you want to remove \"%1$s\" from search history?
+ClearSearchSingleHashtagAlertText	Do you want to remove %1$s from your search history?
+ClearSearchRemove	Remove
+ClearButton	Clear
+AddCaption	Add a caption...
+Caption	Caption
+PaintDelete	Delete
+PaintEdit	Edit
+PaintArrow	Arrow
+PaintDuplicate	Duplicate
+CropReset	Reset
+CropOriginal	Original
+CropSquare	Square
+SendWithoutGrouping	Send without grouping
+SendWithoutCompression	Send without compression
+ChooseCover	Choose a cover for your profile video
+SetAsMain	Set as main
+EditPhoto	Open in editor
+MainProfilePhotoSetHint	This is your main profile photo now.
+MainProfileVideoSetHint	This is your main profile video now.
+MainChannelProfilePhotoSetHint	This is the main channel photo now.
+MainChannelProfileVideoSetHint	This is the main channel video now.
+MainGroupProfilePhotoSetHint	This is the main group photo now.
+MainGroupProfileVideoSetHint	This is the main group video now.
+PhotoSavedHint	Photo saved to gallery
+LivePhotoSavedHint	Motion Photo saved to gallery
+VideoSavedHint	Video saved to gallery
+PhotoSavedToDownloadsHintLinked	Photo saved to **downloads**.
+VideoSavedToDownloadsHintLinked	Video saved to **downloads**.
+GifSavedHint	Added to saved GIFs
+GifSavedToDownloadsHintLinked	GIF saved to **downloads**.
+AudioSavedHint	File saved to music
+FileSavedHintLinked	File saved to **downloads**.
+FilesSavedHintLinked_one	File saved to **downloads**.
+FilesSavedHintLinked_other	%1$d files saved to **downloads**.
+PhotosSavedHint_one	Photo saved to gallery
+PhotosSavedHint_other	%1$d photos saved to gallery
+LivePhotosSavedHint_one	Motion Photo saved to gallery
+LivePhotosSavedHint_other	%1$d motion photos saved to gallery
+VideosSavedHint_one	Video saved to gallery
+VideosSavedHint_other	%1$d videos saved to gallery
+AudiosSavedHint_one	File saved to music
+AudiosSavedHint_other	%1$d files saved to music
+MediaSavedHint_one	An item saved to gallery
+MediaSavedHint_other	%1$d items saved to gallery
+TwoStepVerification	Two-Step Verification
+TwoStepVerificationTitle	Two-Step Verification
+TwoStepVerificationPasswordSet	Password Set!
+TwoStepVerificationPasswordSetInfo	This password will be required when you log in on a new device in addition to the code you get in the SMS.
+TwoStepVerificationPasswordReturnSettings	Return to Settings
+TwoStepVerificationPasswordReturnPassport	Return to Passport
+TwoStepVerificationSetPassword	Set Password
+TwoStepVerificationShowPassword	Show password
+SetAdditionalPassword	Set Additional Password
+SetAdditionalPasswordInfo	You can set a password that will be required when you log in on a new device in addition to the code you get in the SMS.
+YourPassword	Your Password
+YourPasswordHeader	Your password
+YourPasswordRemember	Your account is protected by 2-Step Verification.\nDo you still remember your password?
+YourPasswordRememberYes	Yes, definitely
+YourPasswordRememberNo	Not sure
+PasswordOn	On
+PasswordOff	Off
+EnterPassword	Enter password
+PleaseEnterCurrentPassword	Enter your password
+CheckPassword	Check Password
+CheckPasswordInfo	Do you still remember your password?
+CheckPasswordPerfect	Perfect!
+CheckPasswordPerfectInfo	You still remember your password.
+CheckPasswordWrong	You entered the wrong password.
+CheckPasswordBackToSettings	Back to Settings
+PleaseEnterCurrentPasswordTransfer	Please enter your password to complete the transfer.
+PleaseEnterCurrentPasswordWithdraw	Please enter your password to withdraw.
+PleaseEnterCurrentPasswordGiftTransfer	Please enter your password to send **%s** to Fragment.
+PleaseEnterNewFirstPassword	Enter a new password
+PleaseReEnterPassword	Re-enter your password
+NewPassword	New Password
+PleaseEnterNewFirstPasswordLogin	You can now set a new password that will be used to log into your account.
+PleaseEnterNewFirstPasswordHint	Enter new password
+PleaseEnterNewSecondPasswordHint	Re-enter new password
+RecoveryEmail	Recovery email
+RecoveryEmailTitle	Recovery Email
+RecoveryEmailSubtitle	You can set a recovery email to be able to reset your password and restore access to your Telegram account.
+YourEmail	Your email
+YourNewEmail	Your new email
+YourLoginEmailChangedSuccess	Your email has been changed.
+YourEmailInfo	Please add your valid email. It is the only way to recover a forgotten password.
+YourEmailSkip	Skip
+YourEmailSkipWarning	Warning
+YourEmailSkipWarningText	No, seriously.\n\nIf you forget your password, you will lose access to your Telegram account. There will be no way to restore it.
+YourEmailAlmostThere	Almost there!
+YourEmailAlmostThereText	Please check your email (don\'t forget the spam folder) to complete Two-Step Verification setup.
+YourPasswordSuccess	Success!
+YourPasswordChangedSuccessText	Your password for Two-Step Verification has been changed.
+YourEmailSuccessText	Your recovery email for Two-Step Verification is now active.
+YourEmailSuccessChangedText	Your recovery email for Two-Step Verification is changed.
+ChangePassword	Change Password
+TurnPasswordOff	Turn Password Off
+SetRecoveryEmail	Set Recovery Email
+ChangeRecoveryEmail	Change Recovery Email
+TurnPasswordOffQuestionTitle	Disable password
+TurnPasswordOffQuestion	Are you sure you want to disable your password?
+CancelPasswordQuestion	Are you sure you want to abort two-step verification setup?
+CancelEmailQuestion	Are you sure you want to abort recovery email setup?
+CancelPasswordReset	Cancel the password reset process? If you request a new reset later, it will take another 7 days.
+CancelPasswordResetYes	YES
+CancelPasswordResetNo	NO
+CancelReset	Cancel reset
+CancelEmailQuestionTitle	Abort setup
+TurnPasswordOffPassport	Warning! All data saved in your Telegram Passport will be lost!
+PasswordHint	Password Hint
+PasswordHintDescription	You can create an optional hint for your password.
+PasswordHintPlaceholder	Hint
+PasswordHintText	Create a hint for your password
+PasswordHintTextLogin	Create a hint for your password.
+PasswordDoNotMatch	Passwords do not match
+ReEnterPassword	Re-enter password
+AbortPassword	Abort two-step verification setup
+AbortPasswordMenu	Abort setup
+AbortEmail	Abort recovery email setup
+Abort	Abort
+Disable	Disable
+EmailPasswordConfirmText2	To complete Two-Step Verification Setup, check your email (don\'t forget the spam folder) and enter the code we just sent you.
+PasswordAsHintError	Hint must be different from your password
+PasswordEmailInvalid	Invalid email address. Please check that you\'ve entered it correctly and try again.
+RestorePasswordNoEmailTitle	Sorry
+RestorePasswordNoEmailText	Since you didn\'t provide a recovery email when setting up your password, your remaining options are either to remember your password or to reset your account.
+RestorePasswordNoEmailText2	Since you didn’t provide a recovery email when setting up your password, your remaining options are either to remember your password or wait 7 days until your password is reset.
+RestorePasswordResetPasswordText	Are you sure you want to reset your 2-Step Verification password?
+RestorePasswordResetPasswordOk	Your 2-Step Verification password was reset.
+RestorePasswordResetAccount	RESET ACCOUNT
+RestorePasswordResetPassword	RESET PASSWORD
+RestorePasswordResetIn	You can reset your password in %1$s
+ResetPassword	Reset password
+RestoreEmailSentTitle	Recovery code
+RestoreEmailSent	We have sent a recovery code to the email address you provided:\n\n%1$s
+RestoreEmailSentInfo	Please check your email and enter the 6-digit code we sent you.
+RestoreEmailTrouble	Having trouble accessing your email %1$s?
+RestoreEmailTroubleNoEmail	Having trouble accessing your email?
+RestoreEmailTroubleText	If you can\'t restore access to your email, your remaining options are either to remember your password or to reset your account.
+RestoreEmailTroubleText2	If you don’t have access to your recovery email, your remaining options are either to remember your password or wait 7 days until your password is reset.
+RestoreEmailNoAccess	Unable to access %1$s?
+ResetPasswordWait	You recently requested a password reset that was canceled. Please wait %1$s before making a new request.
+ResetMyAccount	RESET MY ACCOUNT
+ResetMyAccountWarning	Warning
+ResetMyAccountWarningText	This action can\'t be undone.\n\nIf you reset your account, all your messages and chats will be deleted.
+ResetMyAccountWarningReset	Reset account
+LoginPassword	Password
+LoginPasswordText	You have Two-Step Verification enabled, so your account is protected with an additional password.
+LoginPasswordTextShort	Two-Step Verification enabled. Your account is protected with an additional password.
+ForgotPassword	Forgot password?
+PasswordRecovery	Password Recovery
+PasswordCode	Code
+PasswordReset	Password deactivated
+ResendCode	Resend code
+VerificationCode	Verification code
+EnterCode	Enter code
+ResendCodeInfo	The verification code was sent to your email.
+EnabledPasswordText	You have enabled Two-Step verification.\nYou\'ll need the password you set up here to log in to your Telegram account.
+AddEmailTitle	Add Email
+AddEmailSubtitle	Please enter your valid email address to protect your account.
+EnterNewEmail	Enter New Email
+VerificationCodeSubtitle	Please check your email %1$s (don\'t forget the spam folder) and enter the code we just sent you.
+CheckYourEmail	Check Your Email
+CheckYourEmailSubtitle	Please enter the code we have sent to your email %1$s.
+CheckYourNewEmail	Check Your New Email
+CheckYourNewEmailSubtitle	Please enter the code we have sent to your new email %1$s.
+LoginOrSingInWithGoogle	or
+DataSettings	Data and Storage
+DataUsage	Disk and network usage
+StorageUsage	Storage Usage
+StorageCleared	Storage Cleared
+StorageUsageCalculating	Calculating cache size...
+StorageUsageTelegram	Telegram uses %s of your device storage.
+StorageUsageTelegramLess	Telegram uses %s of your device storage.
+StorageCleared2	All media can be re-downloaded from the Telegram cloud if you need it again.
+StorageUsageInfo	All media will stay in the Telegram cloud and can be re-downloaded if you need it again.
+NetworkUsage	Data Usage
+StoragePath	Storage Path
+NetworkUsageAllTab	All
+NetworkUsageMobileTab	Mobile
+NetworkUsageWiFiTab	Wi-Fi
+NetworkUsageRoamingTab	Roaming
+MessagesDataUsage	Messages and other data
+CountSent	Sent
+CountReceived	Received
+BytesSent	Bytes sent
+BytesReceived	Bytes received
+FilesSentCount_one	**%s** file sent
+FilesSentCount_other	**%s** files sent
+FilesReceivedCount_one	**%s** file received
+FilesReceivedCount_other	**%s** files received
+FilesDataUsage	Files
+CallsDataUsage	Calls
+OutgoingCalls	Outgoing calls
+IncomingCalls	Incoming calls
+IncomingCallsSystemSetting	Internal calls notifications
+IncomingCallsSystemSettingDescription	You can change ringtone sound in Telegram -> Settings -> Notifications and Sounds.
+OutgoingCallsCount_one	%1$d outgoing call
+OutgoingCallsCount_other	%1$d outgoing calls
+IncomingCallsCount_one	%1$d incoming call
+IncomingCallsCount_other	%1$d incoming calls
+CallsTotalTime	Total time
+TotalDataUsage	Total
+TotalNetworkUsage	Total network usage
+DataUsageSectionsInfo	Tap on each section for detailed view.
+ResetStatistics	Reset Statistics
+NetworkUsageSince	Network usage since %1$s
+YourNetworkUsageSince	Your network usage since %1$s
+NoNetworkUsageSince	No network usage since %1$s
+ResetStatisticsAlertTitle	Reset statistics
+ResetStatisticsAlert	Do you want to reset your usage statistics?
+PrivacySettings	Privacy and Security
+PrivacyTitle	Privacy
+PrivacyLastSeen	Last Seen &amp; Online
+PrivacyMessagesContactsAndPremium	My Contacts and Premium users
+PrivacyMessages	Messages
+PrivacyMessagesInfo	You can restrict incoming messages to only contacts and Premium users.\n\n**What is Telegram Premium?**
+PrivacyVoiceMessages	Voice Messages
+PrivacyMessagesTitle	Who can send me messages?
+PrivacyVoiceMessagesTitle	Who can send me voice messages?
+PrivacyVoiceMessagesInfo	You can restrict who can send you voice messages with granular precision.
+PrivacyVoiceMessagesInfo2	You can add users or entire groups as exceptions that will override the settings above.
+PrivacyVoiceMessagesPremiumOnly	Only subscribers of *Telegram Premium* can restrict receiving voice messages.
+PrivacyProfilePhoto	Profile Photo
+PrivacyProfilePhotoTitle	Who can see my profile photo?
+PrivacyProfilePhotoInfo	You can restrict who can see your profile photo with granular precision.
+PrivacyProfilePhotoInfo3	You can add users or entire groups that will **not** see your profile photo.
+PrivacyProfilePhotoInfo4	Add users or entire groups that will still see your profile photo.
+PrivacyProfilePhotoInfo5	Add users or entire groups as exceptions that will override the settings above.
+PrivacyBio	Bio
+PrivacyBioTitle	Who can see my bio?
+PrivacyBioInfo	You can restrict who can see you bio with granular precision.
+PrivacyBioInfo3	You can add users or entire groups that will not see your bio.
+PrivacyMusic	Saved Music
+PrivacyMusicTitle	Who can see my saved music in profile?
+PrivacyMusicInfo	You can restrict who can see you music with granular precision.
+PrivacyMusicInfo3	You can add users or entire groups that will not see your music.
+PrivacyPhone	Phone Number
+PrivacyPhoneTitle	Who can see my phone number?
+PrivacyPhoneTitle2	Who can find me by my number?
+PrivacyPhoneInfo	Users who have your number saved in their contacts will also see it on Telegram.

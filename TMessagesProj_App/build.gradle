@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'org.telegram.build-app-plugin'
 
 repositories {
+    maven {
+        url 'https://api.mapbox.com/downloads/v2/releases/maven'
+        authentication { basic(BasicAuthentication) }
+        credentials {
+            username = 'mapbox'
+            password = project.findProperty('MAPBOX_DOWNLOADS_TOKEN') ?: ''
+        }
+    }
     mavenCentral()
     google()
 }
@@ -19,9 +27,16 @@ dependencies {
     implementation project(':TMessagesProj')
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
     implementation files('../TMessagesProj/libs/libgsaverification-client.aar')
+    implementation files('../TMessagesProj/libs/sherpa-onnx-static-1.13.8.aar')
 }
 
 android {
+    packagingOptions {
+        jniLibs {
+            // dictation (sherpa-onnx) ships for ARM phones only; x86 builds would add ~57 MB
+            excludes += ['lib/x86/libsherpa-onnx-jni.so', 'lib/x86/libonnxruntime.so', 'lib/x86_64/libsherpa-onnx-jni.so', 'lib/x86_64/libonnxruntime.so']
+        }
+    }
     compileSdkVersion 36
     buildToolsVersion '36.0.0'
 

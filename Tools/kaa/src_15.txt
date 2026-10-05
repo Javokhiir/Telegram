@@ -1,0 +1,502 @@
+UserProfileColorResetApplied	Your profile color has been reset!
+ChannelProfileColorResetApplied	Your channel profile color has been reset!
+UserProfileColorEmojiApplied	Your profile emoji has been put!
+ChannelProfileColorEmojiApplied	Your channel profile emoji has been put!
+CopyCode	Copy Code
+SimilarChannels	Similar Channels
+SimilarBots	Similar Bots
+ApplyWallpaperForMe	Apply for Me
+ApplyWallpaperForMeAndPeer	Apply for Me and %s
+ApplyWallpaperForChannel	Apply for %s
+ApplyWallpaper	Set Background
+RemoveWallpaperTitle	Remove wallpaper
+RemoveWallpaperMessage	Are you sure you want to reset wallpaper back?
+FwdMyStory	Repost\nStory
+RepostToStory	Repost\nto Story
+StoryRemoveRoundTitle	Remove Video
+StoryRemoveRoundMessage	Are you sure you want to remove your video message?
+TranscriptionTrialLeft_one	You have **%1$d** free voice transcription left.
+TranscriptionTrialLeft_other	You have **%1$d** free voice transcriptions left.
+TranscriptionTrialLeftUntil_one	You have **%1$d** free voice transcription left until %2$s.
+TranscriptionTrialLeftUntil_other	You have **%1$d** free voice transcriptions left until %2$s.
+TranscriptionTrialEnd_one	You have used your **%1$d** free transcription this week.
+TranscriptionTrialEnd_other	You have used all your **%1$d** free transcriptions this week.
+TranscriptionTrialEndWaitOrBuy	Wait until %1$s or subscribe to **Telegram Premium** now.
+TranscriptionTrialEndBuy	Subscribe to **Telegram Premium** to unlock unlimited transcriptions.
+UserProfileColorReset	Reset Profile Color
+ChannelProfileColorReset	Reset Profile Color
+UnlockSimilarChannelsPremium_other	Subscribe to **Telegram Premium** to unlock up to %d similar channels.
+ChatMultipleReactionsPromo	You can set multiple reactions with Telegram Premium.
+MoreSimilar	More Channels
+UnlockSimilar	Unlock more channels
+MoreSimilarButton	Show More Channels
+MoreSimilarText	Subscribe to **Telegram Premium**\nto unlock up to %s similar channels.
+MoreSimilarBotsButton	Show More Apps
+MoreSimilarBotsText	Subscribe to **Telegram Premium**\nto unlock up to %s similar apps.
+StoryRepostCommented	commented
+BoostLevel_other	Level %d
+BoostLevelPlus_other	Level %d+
+BoostFeatureStoriesPerDay_one	%d Story Per Day
+BoostFeatureStoriesPerDay_other	%d Stories Per Day
+BoostFeatureCustomReaction_one	%d Custom Reaction
+BoostFeatureCustomReaction_other	%d Custom Reactions
+BoostFeatureNameColor_other	%d Channel Name Colors
+BoostFeatureNameColorGroup_other	%d Group Name Colors
+BoostFeatureReplyColor_one	%d Styles for Links and Quotes
+BoostFeatureReplyColor_other	%d Styles for Links and Quotes
+BoostFeatureReplyIcon	Custom Logo for Links and Quotes
+BoostFeatureProfileColor_other	%d Colors for Channel Cover
+BoostFeatureProfileColorGroup_other	%d Colors for Group Cover
+BoostFeatureProfileIcon	Custom Logo for Channel Cover
+BoostFeatureProfileIconGroup	Custom Logo for Group Cover
+BoostFeatureEmojiStatuses	%s Emoji Statuses
+BoostFeatureBackground_one	%d Channel Background
+BoostFeatureBackground_other	%d Channel Backgrounds
+BoostFeatureBackgroundGroup_one	%d Group Background
+BoostFeatureBackgroundGroup_other	%d Group Backgrounds
+BoostFeatureCustomBackground	Custom Channel Background
+BoostFeatureCustomBackgroundGroup	Custom Group Background
+BoostFeatureCustomEmojiPack	Custom Emoji Pack
+BoostFeatureVoiceToTextConversion	Voice-to-Text Conversion
+BoostFeatureSwitchOffAds	Switch Off Ads
+BoostFeatureAutotranslation	Auto-Translation of Messages
+BoostLevelUnlocks_other	Level %d Unlocks:
+BoostLevelRequired_other	Level %1$d Required
+ChannelReplyLogo	Reply Logo
+ChannelReplyInfo	Choose a color for the name of your channel, the links it sends, and replies to its messages.
+ChannelProfileLogo	Profile Logo
+ChannelProfileInfo	Choose a color and a logo for the channel\'s profile.
+GroupProfileInfo	Choose a color and a logo for the group\'s profile.
+GroupEmojiPack	Group Emoji Pack
+GroupEmoji	Group Emoji
+GroupEmojiPackInfo	Choose an emoji pack that will be available to all members within the group.
+GroupStickerPack	Group Sticker Pack
+GroupStickerPackInfo	You can choose a sticker set that will be shown to all group members.
+ChannelEmojiStatus	Channel Emoji Status
+GroupEmojiStatus	Group Emoji Status
+ChannelEmojiStatusInfo	Choose a status that will be shown next to the channel\'s name.
+GroupEmojiStatusInfo	Choose a status that will be shown next to the group\'s name.
+ChannelWallpaper	Channel Wallpaper
+GroupWallpaper	Group Wallpaper
+ChooseFromGallery2	Choose from Gallery
+ChannelWallpaperRemove	Remove Wallpaper
+ChannelWallpaperInfo	Upload your own background image for the channel.
+GroupWallpaperInfo	Upload your own background image for the group.
+ChannelWallpaper2Info	Set a wallpaper that will be visible for everyone reading your channel.
+GroupWallpaper2Info	Set a wallpaper that will be visible for everyone reading your group.
+ReadMore	Read More
+RepostedToProfile	Message reposted to your profile.
+RepostedToChannelProfile	Message reposted to **%s**.
+GiftRepostedToProfile	Gift is reposted to your profile.
+GiftRepostedToChannelProfile	Gift is reposted to **%s**.
+StorySetWallpaper	Select Wallpaper
+SavedMessagesTab2	Saved
+SavedDialogsTab	Chats
+SavedDialogsTabCount_one	%d chat
+SavedDialogsTabCount_other	%d chats
+SavedMessagesCount_one	%d saved message
+SavedMessagesCount_other	%d saved messages
+AnonymousForward	Author Hidden
+ClearHistoryMyNotesTitle	Delete all your notes
+ClearHistoryMyNotesMessage	Are you sure you want to delete all your notes?
+ClearHistoryTitleSingle2	Unsave messages
+ClearHistoryTitleMultiple_other	Unsave messages from %d chats
+ClearHistoryMessageSingle	Are you sure you want to unsave messages from %s?
+ClearHistoryMessageMultiple_other	Are you sure you want to unsave messages from %d chats?
+SavedOpenChat	OPEN CHAT
+SavedOpenChatNoCaps	Open Chat
+SavedOpenGroup	OPEN GROUP
+SavedOpenGroupNoCaps	Open Group
+SavedOpenChannel	OPEN CHANNEL
+SavedOpenChannelNoCaps	Open Channel
+VoiceOnceHint	This voice message can only be played once.
+VoiceOnceOutHint	This message will disappear once **%s** plays it once.
+VideoOnceHint	This video message can only be played once.
+VideoOnceOutHint	This message will disappear once **%s** plays it once.
+VoiceOnceDeleteClose	Delete and Close
+VoiceOnceClose	Close
+VoiceOnceTurnOnSound	Please, turn on the sound first.
+VoiceSetOnceHint	Tap to set this message to **Play Once**.
+VoiceSetOnceHintEnabled	The recipient will be able to listen to it only once.
+VideoSetOnceHint	Tap to set this message to **Play Once**.
+VideoSetOnceHintEnabled	The recipient will be able to play it only once.
+VoiceOnceCloseTitle	Close Voice Message
+VoiceOnceCloseMessage	Are you sure you want to stop listening and delete voice message?
+VideoOnceCloseTitle	Close Video Message
+VideoOnceCloseMessage	Are you sure you want to stop listening and delete video message?
+MyNotes	My Notes
+GroupEmojiPackHint	All members of the group can use the %s pack.
+SavedMessagesHint	Tap to view your **Saved Messages** organized by type or source.
+AuthorHiddenDescription	Senders of these messages restricted to link their name when forwarding.
+HideReadTime	Hide Read Time
+HideReadTimeInfo	Hide the time when you read messages from people who can’t see your last seen. If you turn this on, their read time will also be hidden from you.\nThis setting does not affect group chats.
+PmRead	read
+PmReadShowWhen	show when
+PmReadTodayAt	read at %s
+PmReadYesterdayAt	yesterday at %s
+PmReadDateTimeAt	read %1$s at %2$s
+TodoCompletedTodayAt	Completed at %s
+TodoCompletedYesterdayAt	Completed yesterday at %s
+TodoCompletedDateTimeAt	Completed %1$s at %2$s
+PmReadUnknown	read time unknown
+PmEditedTodayAt	edited at %s
+PmEditedYesterdayAt	edited yesterday at %s
+PmEditedDateTimeAt	edited %1$s at %2$s
+PmSentTodayAt	sent at %s
+PmSentYesterdayAt	sent yesterday at %s
+PmSentDateTimeAt	sent %1$s at %2$s
+PmFwdOriginalTodayAt	original at %s
+PmFwdOriginalYesterdayAt	original yesterday at %s
+PmFwdOriginalDateTimeAt	original %1$s at %2$s
+PrivacyLastSeenPremium	Subscribe to Telegram Premium
+PrivacyLastSeenPremiumInfo	If you subscribe to Premium, you will see other users’ last seen and read time even if you hid yours from them (unless they specifically restricted it).
+PrivacyLastSeenPremiumForPremium	Subscribed to Telegram Premium
+PrivacyLastSeenPremiumInfoForPremium	Because you are a Telegram Premium subscriber, you will see the last seen and read time of all users who are sharing it with you – even if you are hiding yours.
+PremiumReadHeader1	Show Your Read Date
+PremiumReadText1	To see when **%s** read the message, either start showing your own read time...
+PremiumReadText1Locked	To see when **%s** read the message, start showing your own read time.
+PremiumReadButton1	Show My Read Time
+PremiumReadHeader2	Upgrade to Premium
+PremiumReadText2	Subscription will let you see **%s’s** read time without showing yours.
+PremiumReadButton2	Subscribe to Telegram Premium
+PremiumLastSeenHeader1	Show Your Last Seen
+PremiumLastSeenText1	To see **%s** Last Seen time, either start showing your own Last Seen time...
+PremiumLastSeenText1Locked	To see **%s** Last Seen time, start showing your own Last Seen time.
+PremiumLastSeenButton1	Show My Last Seen
+PremiumOr	or
+PremiumLastSeenHeader2	Upgrade to Premium
+PremiumLastSeenText2	Subscription will let you see **%s’s** Last Seen status without showing yours.
+PremiumLastSeenButton2	Subscribe to Telegram Premium
+StatusHiddenShow	when?
+PremiumLastSeenSet	Your last seen time is now visible.
+PremiumReadSet	Your read times are now visible.
+OptionPremiumRequiredTitle	Premium Required
+OptionPremiumRequiredMessage	Subscribe to **Telegram Premium** to select this option.
+OptionPremiumRequiredButton	Subscribe
+MessageLockedPremium	Subscribe to **Premium** to message **%s**.
+MessageLockedPremiumLocked	**%s** restricted messaging to only Premium users.
+MessagePremiumUnlock	Get Premium
+OnlyPremiumCanMessage	Only Premium users can message %s.\n**Learn more...**
+MessageLockedStars	**%1$s** charges **⭐️ %2$s** for each message.
+MessageStarsUnlock	Buy Stars
+MessageLockedStarsConfirmTitle	Confirm Payment
+MessageLockedStarsConfirmMessageMulti1_one	You selected **%1$d** chat that charge Stars for messages.
+MessageLockedStarsConfirmMessageMulti1_other	You selected **%1$d** chats that charge Stars for messages.
+MessageLockedStarsConfirmMessageMulti2_one	Would you like to pay **%1$d** Star to send %2$s?
+MessageLockedStarsConfirmMessageMulti2_other	Would you like to pay **%1$d** Stars to send %2$s?
+MessageLockedStarsConfirmMessageMulti2Messages_one	**%d** message
+MessageLockedStarsConfirmMessageMulti2Messages_other	**%d** messages
+MessageLockedStarsConfirmMessage1_one	**%2$s** charges **%1$d** Star per message.
+MessageLockedStarsConfirmMessage1_other	**%2$s** charges **%1$d** Stars per message.
+MessageLockedStarsConfirmMessage2One_one	Would you like to pay **%1$d** Star to send one message?
+MessageLockedStarsConfirmMessage2One_other	Would you like to pay **%1$d** Stars to send one message?
+MessageLockedStarsConfirmMessage2Many1_one	Would you like to pay **%1$d** Star
+MessageLockedStarsConfirmMessage2Many1_other	Would you like to pay **%d** Stars
+MessageLockedStarsConfirmMessage2Many2_one	to send %d message?
+MessageLockedStarsConfirmMessage2Many2_other	to send %d messages?
+MessageLockedStarsConfirmMessageDontAsk	Don\'t ask me again
+MessageLockedStarsConfirmMessagePay_one	Pay for %d Message
+MessageLockedStarsConfirmMessagePay_other	Pay for %d Messages
+MessageLockedStarsRemoveFeeShort	%1$s pays ⭐️ %2$s for each message to you.\n**Remove Fee**
+RemoveMessageFeeTitle	Remove Fee
+RemoveMessageFeeMessage	Are you sure you want to allow **%s** to message you for free?
+RemoveMessageFeeMessageChannel	Are you sure you want to allow **%s** to message channel for free?
+RemoveMessageFeeRefund_one	Refund already paid %d Star
+RemoveMessageFeeRefund_other	Refund already paid %d Stars
+PremiumMessageHeader	Unlock Messaging
+PremiumMessageText	**%1$s** restricted who can message them in Privacy Settings. Subscribe to **Telegram Premium** to message **%2$s**.
+PremiumMessageButton	Subscribe to Telegram Premium
+PremiumMessageHeaderLocked	Restricted Messaging
+PremiumMessageTextLocked	**%1$s** restricted messaging to them from only Premium users.
+SavedTagShowOtherMessages	Show Other Messages
+SavedTagHideOtherMessages	Hide Other Messages
+UserBlockedNonPremium	**%s** only accepts messages from contacts and Premium users.
+SavedTagRemoveTag	Remove Tag
+SavedTagLabelTag	Add Name
+SavedTagRenameTag	Edit Name
+SavedTagLabelPlaceholder	Name
+AddTagsToYourSavedMessages1	Add Tags
+AddTagsToYourSavedMessages2	to your Saved Messages
+SavedTagLabelTagText	You can label your emoji tag with a text name.
+SavedTagFilterByTag	Filter by Tag
+SavedTagSearchHint	Search messages or tags
+SavedTagSearchTooltipHint	Tap this icon to search by tags
+SavedTagLongpressHint	Tap and hold to add a name to your tag
+SavedTagReactionsHint	You can add a tag to the message
+SavedTagReactionsHint2	Tag the message with an emoji for quick search
+SavedTagReactionsPremiumHint	Organize your Saved Messages with tags\nfor quicker access. **Learn more…**
+SavedTagMessageTagged	Message tagged with
+SavedTagMessagesTagged_other	Messages tagged with
+UserBlockedNonPremiumButton	View
+StoryRepliesLocked	Replies restricted
+StoryGroupRepliesLocked	Comments restricted
+StoryRepliesLockedButton	Unlock
+UserBlockedRepliesNonPremium	You need a **Premium** Subscription to reply to **%s**’s stories.
+MessagePremiumErrorTitle	Unable to send
+MessagePremiumErrorMessage	Only Premium users can message %s
+NoFilteredMessages	No messages under this tag or search found
+SavedTagReactionsSelectedAddHint	Add a tag to selected messages
+SavedTagReactionsSelectedEditHint	Edit tags of selected messages
+StoryQualityIncrease	Increase Quality
+StoryQualityIncreasedTitle	Quality Increased
+StoryQualityIncreasedMessage	You can lower the quality later for faster downloads.
+StoryQualityDecrease	Lower Quality
+StoryQualityDecreasedTitle	Quality Lowered
+StoryQualityDecreasedMessage	Stories will now download faster.
+StoryQualityPremium	High-Quality Stories
+StoryQualityPremiumText	Subscribe to Premium to view stories in higher resolution.
+SavedMessagesProfileHint	Messages you sent to Saved Messages
+PremiumPreviewLastSeen	Last Seen Times
+PremiumPreviewLastSeenDescription	View the last seen and read times of others even if you hide yours.
+PremiumPreviewMessagePrivacy	Message Privacy
+PremiumPreviewMessagePrivacyDescription	Restrict people you don\'t know from sending you messages.
+TelegramBusiness	Telegram Business
+TelegramBusinessSubtitle	Subscribe to **Telegram Premium** to unlock these additional business features.
+TelegramBusinessSubtitleTemp	Turn your account into a **business page** with these additional features.\nThe benefits of Telegram Business are **temporarily included** with Telegram Premium.
+TelegramBusinessSubscribedSubtitle	You have now unlocked these additional business features.
+TelegramBusinessSubscribedSubtitleTemp	You have now unlocked Telegram Business features. These features are **temporarily included** with your Premium Subscription.
+TelegramBusinessSubtitle2	Turn your account to a business page with these additional features.
+PremiumPreviewBusinessDescription	Upgrade your account with business features such as location, opening hours and quick replies.
+PremiumBusinessLocation	Location
+PremiumBusinessLocationDescription	Display the location of your business on your account.
+PremiumBusinessOpeningHours	Opening Hours
+PremiumBusinessOpeningHoursDescription	Show to your customers when you are open for business.
+PremiumBusinessQuickReplies	Quick Replies
+PremiumBusinessQuickRepliesDescription	Set up shortcuts with rich text and media to respond to messages faster.
+PremiumBusinessGreetingMessages	Greeting Messages
+PremiumBusinessGreetingMessagesDescription	Create greetings that will be automatically sent to new customers.
+PremiumBusinessAwayMessages	Away Messages
+PremiumBusinessAwayMessagesDescription	Define messages that are automatically sent when you are off.
+PremiumBusinessChatbots	Chatbots
+PremiumBusinessChatbots2	Chatbots
+PremiumBusinessChatbotsDescription	Add any third party chatbots that will process customer interactions.
+PremiumBusinessChatLinks	Links to Chat
+PremiumBusinessChatLinksDescription	Create links that start a chat with you, suggesting the first message.
+PremiumBusinessIntro	Custom Intro
+PremiumBusinessIntroDescription	Customize the message people see before they start a chat with you.
+FolderShowTags	Show Folder Tags
+FolderShowTagsInfo	Display folder names for each chat in the chat list.
+FolderShowTagsInfoPremium	Subscribe to **Telegram Premium** to display folder names for each chat in the chat list.
+FolderTagColor	Folder color in chat list
+FolderTagColorInfo	Choose a color for the tag of this folder.
+FolderTagNoColor	No Tag
+FolderTagNoColorPremium	Premium expired
+BusinessHours	Business Hours
+BusinessHoursInfo	Turn this on to show your opening hours schedule to your customers.
+BusinessHoursShow	Show Business Hours
+BusinessHoursTimezone	Time Zone
+BusinessHoursTimezonePicker	Choose time zone
+BusinessHoursDayClosed	Closed
+BusinessHoursDayFullOpened	Open 24 hours
+BusinessHoursDayOpen	Open On This Day
+BusinessHoursDayAdd	Add a Set of Hours
+BusinessHoursDayInfo	Specify your working hours during the day.
+BusinessHoursDayOpenHour	Opening Time
+BusinessHoursDayOpenHourPicker	Choose opening time
+BusinessHoursDayCloseHour	Closing Time
+BusinessHoursDayCloseHourPicker	Choose closing time
+BusinessHoursNextDayPicker	Next day, %s
+BusinessHoursNextDay	%s (Next day)
+BusinessHoursProfile	Business hours
+BusinessHoursProfileOpen	open 24 hours
+BusinessHoursProfileFullOpen	open 24/7
+BusinessHoursProfileClose	closed
+BusinessHoursProfileNowOpen	Open
+BusinessHoursProfileNowClosed	Closed
+BusinessHoursProfileOpensInMinutes_one	opens in %d minute
+BusinessHoursProfileOpensInMinutes_other	opens in %d minutes
+BusinessHoursProfileOpensInHours_one	opens in %d hour
+BusinessHoursProfileOpensInHours_other	opens in %d hours
+BusinessHoursProfileOpensInDays_one	opens tomorrow
+BusinessHoursProfileOpensInDays_other	opens in %d days
+BusinessHoursProfileSwitchLocal	local time
+BusinessHoursProfileSwitchMy	my time
+BusinessBots2	Chat Automation
+BusinessBots2Info	Add a bot to answer messages on your behalf.
+BusinessBotLink	Bot Username or URL
+BusinessBotNotFound	Chatbot not found
+BusinessBotLinkInfo2	Choose a bot to manage your chats automatically.
+BusinessBotChats2	Chats the bot can access
+BusinessBotUnsavedChanges	You have changed the business bot settings. Apply changes?
+BusinessBotNoAddedTitle	No Bot Added
+BusinessBotNoAddedText	You haven’t added a bot to manage your account. Leave anyway?
+BusinessBotNoAddedButton	Leave
+BusinessBotDone	%s now manages your account.
+BusinessBotUpdated	Updated %s’s settings.
+BusinessBotUpdate	Update
+BusinessChatsAllPrivateExcept2	All private chats except…
+BusinessChatsOnlySelected2	Only selected chats
+BusinessChatsExcluded	Excluded chats
+BusinessChatsExcludedAdd2	Add
+BusinessBotChatsInfo2	Select the chats the bot won’t access.
+BusinessChatsIncluded	Included chats
+BusinessChatsIncludedAdd2	Add
+BusinessBotPermissions	Bot permissions
+BusinessBotPermissionsMessagesSection	Manage Messages
+BusinessBotPermissionsMessagesRead	Read Messages
+BusinessBotPermissionsMessagesReply	Reply to Messages
+BusinessBotPermissionsMessagesMarkAsRead	Mark Messages As Read
+BusinessBotPermissionsMessagesDeleteSent	Delete Sent Messages
+BusinessBotPermissionsMessagesDeleteReceived	Delete Received Messages
+BusinessBotPermissionsProfileSection	Manage Profile
+BusinessBotPermissionsProfileName	Edit Name
+BusinessBotPermissionsProfileBio	Edit Bio
+BusinessBotPermissionsProfilePicture	Edit Profile Picture
+BusinessBotPermissionsProfileUsername	Edit Username
+BusinessBotPermissionsGiftsSection	Manage Gifts and Stars
+BusinessBotPermissionsGiftsView	View Gifts
+BusinessBotPermissionsGiftsSell	Sell Gifts
+BusinessBotPermissionsGiftsSettings	Change Gift Settings
+BusinessBotPermissionsGiftsTransfer	Transfer and Upgrade Gifts
+BusinessBotPermissionsGiftsTransferStars	Transfer Stars
+BusinessBotPermissionsStories	Manage Stories
+BusinessBotPermissionsWarning	Warning
+BusinessBotPermissionsGiftsWarningText	The bot **@%s** will be able to manage your gifts and stars, including giving them away to other users.
+BusinessBotPermissionsUsernamesWarningText	The bot **@%s** will be able to manage your usernames, including transferring them away to other users.
+BusinessBotNotSupportedTitle	Oops
+BusinessBotNotSupportedMessage	This bot doesn’t support **Telegram Business** yet.
+BusinessGreet	Greeting Message
+BusinessGreetInfo	Greet customers when they message you the first time or after a period of no activity.
+BusinessGreetSend	Send Greeting Message
+BusinessGreetCreate	Create a Greeting Message
+BusinessGreetUnsavedChanges	You have changed the business greeting message settings. Apply changes?
+MessageSuggestionsUnsavedChanges	You have changed the direct messages settings. Apply changes?
+BusinessRecipients	Recipients
+BusinessRecipientsRemoveExcludeTitle	Remove recipient
+BusinessRecipientsRemoveExcludeMessage	Are you sure you want to remove \"%s\" from excluding list?
+BusinessRecipientsRemoveIncludeTitle	Remove recipient
+BusinessRecipientsRemoveIncludeMessage	Are you sure you want to remove \"%s\" from including list?
+BusinessGreetRecipientsInfo	Select chats or entire chat categories for sending a greeting message.
+BusinessGreetPeriod	Period of no activity
+BusinessGreetPeriodInfo	Choose how many days should pass after your last interaction with a recipient to send them a greeting in response to their message.
+BusinessAway	Away Message
+BusinessAwayInfo	Automatically reply with a message when you are away.
+BusinessAwaySend	Send Away Message
+BusinessAwayCreate	Create an Away Message
+BusinessAwayUnsavedChanges	You have changed the business away message settings. Apply changes?
+BusinessAwaySchedule	Schedule
+BusinessAwayScheduleAlways	Send Always
+BusinessAwayScheduleOutsideHours	Outside of Business Hours
+BusinessAwayScheduleCustom	Custom Schedule
+BusinessAwayScheduleCustomStart	Start Time
+BusinessAwayScheduleCustomEnd	End Time
+BusinessAwayScheduleCustomStartTitle	Choose start time
+BusinessAwayScheduleCustomEndTitle	Choose end time
+BusinessAwayScheduleCustomSetButton	Select
+BusinessAwayOnlyOffline	Only if Offline
+BusinessAwayOnlyOfflineInfo	Don’t send the away message if you’ve recently been online.
+BusinessLocation	Location
+BusinessProfileLocation	Location
+BusinessLocationInfo	Display the location of your business on your account.
+BusinessLocationAddress	Enter Address
+BusinessLocationMap	Set Location on Map
+BusinessLocationClear	Remove Location
+BusinessLocationUnsavedChanges	You have changed the business location. Apply changes?
+BusinessLocationClearTitle	Remove Location
+BusinessLocationClearMessage	Are you sure you want to remove business location?
+BusinessHoursClearTitle	Remove Hours
+BusinessHoursClearMessage	Are you sure you want to remove business opening hours?
+BirthdayClearTitle	Remove date of birth
+BirthdayClearMessage	Are you sure you want to remove date of birth from your profile?
+ProfileChannelClearTitle	Remove channel
+ProfileChannelClearMessage	Are you sure you want to remove channel from your profile?
+BusinessGreetingIntroTitle	New Greeting Message
+BusinessGreetingIntro	Create greetings that will be automatically sent to new customers.
+BusinessGreetingEnter	Add a Greeting
+BusinessAwayIntroTitle	New Away Message
+BusinessAwayIntro	Add messages that will be automatically sent when you are off.
+BusinessAwayEnter	Add Away Message
+BusinessRepliesIntroTitle	New Quick Reply
+BusinessRepliesIntro1	Enter a message below that will be sent in chat when you type \"/**%s**\".
+BusinessRepliesIntro2	You can access Quick Replies in any chat by typing "/" or using Attachment menu.
+BusinessRepliesEnter	Add Quick Reply
+BusinessRepliesLimit_other	Limit of **%d** messages reached.
+BusinessRepliesToastLimit_other	Limit of **%d** messages reached.
+BusinessRepliesDeleteTitle_one	Remove quick reply
+BusinessRepliesDeleteTitle_other	Remove quick replies
+BusinessRepliesDeleteMessage_one	Are you sure you want to remove this quick reply?
+BusinessRepliesDeleteMessage_other	Are you sure you want to remove %d quick replies?
+BusinessRepliesHint	To use this quick reply in a chat, type / and select the shortcut from the list.
+BusinessRepliesRemoveTitle	Remove shortcut
+BusinessRepliesRemoveMessage	You didn\'t create a quick reply message. Do you want to exit this page and remote the shortcut?
+BusinessReplies	Quick Replies
+BusinessRepliesInfo	Set up shortcuts with rich text and media to respond to messages faster.
+BusinessRepliesAdd	Add Quick Reply
+BusinessRepliesMore_other	+%d more
+BusinessRepliesAddInfo	Tap and hold on a reply to select or reorder.
+BusinessRepliesNewTitle	New Quick Reply
+BusinessRepliesNewMessage	Add a shortcut for your reply.
+BusinessRepliesEditTitle	Edit Shortcut
+BusinessRepliesEditMessage	Edit a name for a shortcut.
+BusinessRepliesNamePlaceholder	Shortcut
+BusinessRepliesNameBusy	This shortcut already exists.
+BusinessRepliesSearch	Search replies
+BusinessHoursCopyHeader	%s\'s opening hours:
+BusinessHoursCopyFooter	In %s timezone
+BusinessHoursCopied	Business hours copied
+BusinessLocationCopied	Business address copied
+BusinessInReplies	in %1$s
+BusinessIntro	Intro
+BusinessIntroHeader	Customize your intro
+BusinessIntroTitleHint	Enter Title
+BusinessIntroMessageHint	Enter Message
+BusinessIntroSticker	Choose Sticker
+BusinessIntroStickerRandom	Random
+BusinessIntroInfo	You can customize the message people see before they start a chat with you.
+BusinessIntroReset	Reset to Default
+BusinessIntroUnsavedChanges	You have changed your intro message. Apply changes?
+BusinessLink	Link to Chat
+BusinessLinks	Links to Chat
+BusinessLinksInfo	Give your customers short links that start a chat with you — and suggest the first message from them to you.
+BusinessLinksAdd	Create a Link to Chat
+BusinessLinksFooterOneLink	You can also use a simple link for a chat with you — %1$s.
+BusinessLinksFooterTwoLinks	You can also use a simple link for a chat with you — %1$s or %2$s.
+BusinessLinksEnter	Add Preset Message
+BusinessLinksIntro	Add a message that will be entered in the message field for anyone who starts a chat with you using the link:
+BusinessLinksRenameTitle	Link Name
+BusinessLinksRenameMessage	Add a name for this link that only you will see.
+BusinessLinksNamePlaceholder	Link Name
+BusinessLinkSaved	Preset message saved.
+BusinessLinkInvalid	Invalid link to chat
+BusinessLinksDeleteTitle	Delete chat link
+BusinessLinksDeleteMessage	Are you sure you want to delete this chat link?
+BusinessLinkDeleted	Chat link deleted.
+BusinessLinkDiscardChangesTitle	Discard changes
+BusinessLinkDiscardChangesMessage	You have unsaved changes to preset message, do you want to discard it?
+NoClicks	no clicks
+Clicks_one	%d click
+Clicks_other	%d clicks
+TimezoneTitle	Time Zone
+TimezoneDetectAutomatically	Detect automatically
+TimezoneDetectAutomaticallyInfo	The time zone for your business is set to %s.
+TimezoneNotFound	Timezone not found
+TimezoneHeader	Select your time zone
+FilterExistingChats	Existing chats
+FilterNewChats	New chats
+MessageBizBot	Only you can see that this message is sent by **bot**.
+FragmentUsernameTitle	**%s** is a collectible username that belongs to
+FragmentUsernameMessage	This username was bought on **Fragment** on %1$s for **%2$s** %3$s
+FragmentUsernameOpen	Learn More
+FragmentUsernameCopy	Copy Link
+FragmentPhoneTitle	**%s** is a collectible phone number that belongs to
+FragmentPhoneMessage	This phone number was bought on **Fragment** on %1$s for **%2$s** %3$s
+FragmentPhoneCopy	Copy Phone Number
+FragmentChannelUsername	The **%1$s** username was acquired on **Fragment** on %2$s for **%3$s** %4$s.
+FragmentAddFunds	You can add funds to your balance via the third-party platform Fragment.
+LearnMoreArrow	Learn More >
+Monetization	Monetization
+MonetizationInfoTitle	Earn From Your Channel
+MonetizationInfoFeature1Name	Telegram Ads
+MonetizationInfoFeature1Text	Telegram can display ads in your channel.
+MonetizationInfoFeature2Name	50:50 revenue split
+MonetizationInfoFeature2Text	You can receive 50% of the ad revenue in TON.
+MonetizationInfoFeature3Name	Flexible withdrawals
+MonetizationInfoFeature3Text	You can withdraw your TON any time.
+MonetizationInfoTONTitle	What is 💎 TON?
+MonetizationInfoTONText	**TON** is a blockchain platform and cryptocurrency that Telegram uses for its high speed and low commisions on transactions.
+MonetizationInfoTONLink	https://telegram.org/privacy
+MonetizationInfo	Telegram shares %1$d%% of the revenue from ads displayed in your channel. **Learn more >**
+MonetizationBalance	Available balance
+MonetizationBalanceInfo	You can collect your reward using Fragment, a third-party platform used by advertisers to pay for ads. **Learn more >**
+MonetizationBalanceInfoLink	https://telegram.org/tos/content-creator-rewards
+MonetizationBalanceInfoNotAvailable	In the coming weeks you will be able to collect your reward using Fragment, a third-party platform used by advertisers to pay ads. **Learn more >**

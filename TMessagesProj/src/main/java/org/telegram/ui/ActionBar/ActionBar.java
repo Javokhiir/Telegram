@@ -555,6 +555,11 @@ public class ActionBar extends FrameLayout implements FactorAnimator.Target, The
         }
     }
 
+    /** Called during measure with the width the title may take, before the title is measured. */
+    protected void onTitleAvailableWidth(int availableWidth) {
+
+    }
+
     public void setTitleRightMargin(int value) {
         titleRightMargin = value;
     }
@@ -1438,6 +1443,9 @@ public class ActionBar extends FrameLayout implements FactorAnimator.Target, The
             if (titleTextView[0] != null && titleTextView[0].getVisibility() != GONE || subtitleTextView != null && subtitleTextView.getVisibility() != GONE) {
                 int availableWidth = width - (menu != null ? menu.getMeasuredWidth() : 0) - dp(16) - textLeft - titleRightMargin;
                 availableWidth = Math.max(availableWidth, 0);
+                if (i == 0) {
+                    onTitleAvailableWidth(availableWidth);
+                }
 
                 if (((fromBottom && i == 0) || (!fromBottom && i == 1)) && overlayTitleAnimation && titleAnimationRunning) {
                     titleTextView[i].setTextSize(glassMode ? 17 : !AndroidUtilities.isTablet() && getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE ? 18 : 20);

@@ -56,13 +56,23 @@ public class UMessageWordmarkDrawable extends Drawable {
     }
 
     public int getMarkOffset() {
-        return markWidth + gap;
+        return (int) ((markWidth + gap) * getScale());
+    }
+
+    /** Width actually drawn: the wordmark shrinks to its bounds when the header is short of space. */
+    public int getDrawnWidth() {
+        return (int) (getIntrinsicWidth() * getScale());
+    }
+
+    private float getScale() {
+        Rect b = getBounds();
+        return b.isEmpty() ? 1f : Math.min(1f, b.width() / (float) getIntrinsicWidth());
     }
 
     @Override
     public void draw(@NonNull Canvas canvas) {
         Rect b = getBounds();
-        float scale = Math.min(1f, b.width() / (float) getIntrinsicWidth());
+        float scale = getScale();
         canvas.save();
         canvas.translate(b.left, b.top + (b.height() - height * scale) / 2f);
         canvas.scale(scale, scale);

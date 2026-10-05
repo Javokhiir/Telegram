@@ -1,0 +1,555 @@
+ProfileBotAffiliateProgram	Affiliate Program
+ProfileBotAffiliateProgramInfo	Share a link to %1$s with your friends and earn %2$s of their spending there.
+ProfileBotAffiliateProgramInfoOwner	Share a link to %1$s with other users and earn %2$s of their spending there.
+ProfileBotPreviewTab	Preview
+ProfileBotPreviewEmptyTitle	No Preview
+ProfileBotPreviewEmptyText_one	Upload up to %d screenshot and video demos for your mini app.
+ProfileBotPreviewEmptyText_other	Upload up to %d screenshots and video demos for your mini app.
+ProfileBotPreviewEmptyButton	Add preview
+BotPreviewEmpty	no images yet
+Images_one	%d image
+Images_other	%d images
+ProfileBotPreviewFooterGeneral	This preview will be displayed for all users except those for whom you provide a translated version.
+ProfileBotPreviewFooterLanguage	This preview will be displayed for all users who have %s set as their language.
+ProfileBotPreviewFooterCreateTranslation	Create a Translation
+ProfileBotPreviewFooterDeleteTranslation	Delete this Translation
+ProfileBotPreviewLanguageChoose	Add a Translation
+ProfileBotAddPreview	Add Preview
+ProfileBotLanguageGeneral	General
+ProfileBotLanguageAdd	Add Translation
+ProfileBotOr	or
+ProfileBotReorder	Reorder
+ProfileBotRemoveLang	Delete %s
+ProfileBotSelect	Select
+ProfileBotUnSelect	Unselect
+DeleteBotPreviewTitle	Delete Preview
+DeleteBotPreviewSubtitle	Are you sure you want to delete this preview?
+DeleteBotPreviewsTitle	Delete Previews
+DeleteBotPreviewsSubtitle_one	Are you sure you want to delete %d preview?
+DeleteBotPreviewsSubtitle_other	Are you sure you want to delete %d previews?
+BotPreviewsDeleted_one	%d preview deleted
+BotPreviewsDeleted_other	%d previews deleted
+UploadBotPreview	Add
+SearchApps	Bots
+SearchAppsMine	Apps you use
+SearchAppsPopular	Popular apps
+SearchAppsExamples	Examples
+BotUsers_one	%d user
+BotUsers_other	%d users
+BotUsersShort_one	%d user
+BotUsersShort_other	%d users
+AppsClearSearch	Apps history
+AppsClearSearchAlert	Do you want to remove %s from your apps usage history?
+WebBookmark	Bookmark
+WebBookmarkAdd	Add Bookmark
+WebBookmarkedToast	Link added to Bookmarks in **Saved Messages**.
+SearchEngine1Name	Google
+SearchEngine1SearchURL	https://www.google.com/search?q=
+SearchEngine1AutocompleteURL	https://suggestqueries.google.com/complete/search?client=chrome&amp;q=
+SearchEngine1PrivacyPolicyURL	https://policies.google.com/privacy
+SearchEngine2Name	DuckDuckGo
+SearchEngine2SearchURL	https://duckduckgo.com/?q=
+SearchEngine2AutocompleteURL	https://duckduckgo.com/ac/?q=
+SearchEngine2PrivacyPolicyURL	https://duckduckgo.com/privacy
+SearchEngine3Name	Bing
+SearchEngine3SearchURL	https://www.bing.com/search?q=
+SearchEngine3AutocompleteURL	https://api.bing.com/osjson.aspx?query=
+SearchEngine3PrivacyPolicyURL	https://privacy.microsoft.com/en-us/privacystatement
+SearchEngine4Name	Yahoo
+SearchEngine4SearchURL	https://search.yahoo.com/search?p=
+SearchEngine4AutocompleteURL	https://sugg.search.yahoo.net/sg/?output=json&amp;nresults=10&amp;command=
+SearchEngine4PrivacyPolicyURL	https://legal.yahoo.com/us/en/yahoo/privacy/index.html
+SearchEngine5Name	Brave Search
+SearchEngine5SearchURL	https://search.brave.com/search?q=
+SearchEngine5AutocompleteURL	https://search.brave.com/api/suggest?q=
+SearchEngine5PrivacyPolicyURL	https://search.brave.com/help/privacy-policy
+SearchEngine6Name	reserved
+SearchEngine6SearchURL	reserved
+SearchEngine6AutocompleteURL	reserved
+SearchEngine6PrivacyPolicyURL	reserved
+SearchEngine7Name	reserved
+SearchEngine7SearchURL	reserved
+SearchEngine7AutocompleteURL	reserved
+SearchEngine7PrivacyPolicyURL	reserved
+BrowserSettingsTitle	Web Browser
+BrowserSettingsEnable	Enable In-App Browser
+BrowserSettingsCustomTabsTitle	Open external links in
+BrowserSettingsCustomTabs	New Pages within Telegram
+BrowserSettingsNoCustomTabs	New Tabs in External Browser
+BrowserSettingsNoCustomTabsInfo	You can choose to open external link without leaving Telegram.
+BrowserSettingsEnableInfo	Open links inside Telegram without starting an external browser.
+BrowserSettingsCacheClear	Clear Cache
+BrowserSettingsCookiesClear	Clear Cookies
+BrowserSettingsCacheClearText	Are you sure you want to clear browser cache%s?
+BrowserSettingsCookiesClearText	Are you sure you want to clear browser cookies%s?\n\nThis might log you out from website account sessions.
+BrowserSettingsCookiesInfo	Delete all cookies and cache from the Telegram in-app browser and miniapps.
+BrowserSettingsHistoryShow	View History
+BrowserSettingsHistoryClear	Clear History
+BrowserSettingsHistoryPages_one	%d page
+BrowserSettingsHistoryPages_other	%d pages
+BrowserSettingsHistoryClearText	Are you sure you want to clear browser history since %s?
+BrowserSettingsNeverOpenInTitle2	Don’t open in-app
+BrowserSettingsAlwaysOpenInTitle2	Open in-app
+BrowserSettingsNeverOpenInAdd	Add Website
+BrowserSettingsNeverOpenInClearList2	Delete All Exceptions
+BrowserSettingsNeverOpenInInfo2	These sites will always be opened in external browser.
+BrowserSettingsAlwaysOpenInInfo2	These sites will still be opened in-app.
+WebBrowserDeleteAllExceptionsTitle	Delete All Exceptions
+WebBrowserDeleteAllExceptionsMessage	Are you sure you want to delete all website exceptions?
+WebBrowserShowCloseButton	Show Close Button
+WebBrowserShowCloseButtonInfo	Add a Close button when viewing websites.
+BrowserSettingsAddTitle	Add Website
+BrowserSettingsAddTitleExternal	Add Website
+BrowserSettingsAddText	Enter a domain that you don’t want to be opened in the in-app browser.
+BrowserSettingsAddTextExternal	Enter a domain that you want to be opened in the in-app browser.
+BrowserSettingsAddHint	Enter URL
+InappBrowser	In-App Browser
+InappBrowserInfo	Open external links within the app
+BrowserSettingsSearchEngine	Search Engine
+BrowserSettingsSearchEngineInfo	Search Engine is used in address bar to open search and auto-complete.
+BrowserExternalTitle	Open in Browser
+BrowserExternalText	Do you want to open this link in your default browser?
+BrowserExternalCheck	Always open links from **%s** in browser
+BrowserAlwaysOpenExternal	Always open this site in Browser
+BrowserAlwaysOpenInApp	Always open this site in-app
+BrowserExternalRestricted	Telegram will now open links from this website in the external browser. You can change this in **Settings.**
+StoryEditCover	Edit Cover
+StoryEditCoverInfo	Choose a frame from the story to show in your Profile.
+StoryEditCoverMenu	Edit Cover
+StoryCoverSave	Save Cover
+ProfileUnofficialSecurityRisk	%s uses an unofficial Telegram client — messages to this user may be less secure.
+WebBookmarks	Bookmarks
+WebHistory	History
+WebNoHistory	No history yet
+WebNoSearchedHistory	No search results
+WebNoBookmarks	No bookmarks found
+WebForward	Go Forward
+BotPrivacyPolicy	Privacy Policy
+RequireMonthlyFee	Require Monthly Fee
+RequireMonthlyFeePriceHint	Stars Amount per month
+RequireMonthlyFeePriceHintTest5Minutes	Stars Amount per 5 minutes
+RequireMonthlyFeePrice	~%s/month
+RequireMonthlyFeePriceTest5Minutes	~%s/5min
+RequireMonthlyFeeInfo	Charge a subscription fee from people joining your channel via this link.
+RequireMonthlyFeeInfoLink	https://telegram.org/tos/stars
+RequireMonthlyFeeInfoFrozen	If you need to change the subscription fee, create a new invite link with different price.
+LinkRevenue	Subscription fee
+LinkRevenuePrice	⭐️%1$d/month
+LinkRevenuePriceInfo	you get approximately %1$s monthly
+StarsSubscribeTitle	Subscribe to the Channel
+StarsSubscribeText_one	Do you want to subscribe to **%2$s** for **%1$d Star** per month?
+StarsSubscribeText_other	Do you want to subscribe to **%2$s** for **%1$d Stars** per month?
+StarsSubscribeTextTest_one	Do you want to subscribe to **%2$s** for **%1$d Star** per %3$s?
+StarsSubscribeTextTest_other	Do you want to subscribe to **%2$s** for **%1$d Stars** per %3$s?
+StarsSubscribeButton	Subscribe
+StarsSubscribeInfo	By subscribing you agree to the **Terms of Service**.
+StarsSubscribeInfoLink	https://telegram.org/tos/stars
+StarsSubscriptionCompleted	Subscription successful!
+StarsSubscriptionCompletedText_one	%1$d Star transferred to **%2$s**.
+StarsSubscriptionCompletedText_other	%1$d Stars transferred to **%2$s**.
+StarsTransactionSubscriptionMonthly	Monthly subscription fee
+StarsReactionTerms	By sending Stars you agree to the **Terms of Service**.
+StarsReactionTermsLink	https://telegram.org/tos/stars
+StarsSubscriptionRenews	renews on %s
+StarsSubscriptionExpires	expires on %s
+StarsSubscriptionExpired	expired on %s
+StarsSubscriptionStatusCancelled	cancelled
+StarsSubscriptionStatusBotCancelled	cancelled
+StarsSubscriptionStatusBizCancelled	cancelled
+StarsSubscriptionStatusExpired	expired
+StarsSubscriptionTitle	Subscription
+StarsSubscriptionPrice	⭐️%1$d/month
+StarsSubscriptionChannel	Subscription
+StarsSubscriptionBot	Bot
+StarsSubscriptionBotProduct	Subscription
+StarsSubscriptionBusiness	Business
+StarsSubscriptionBusinessProduct	Subscription
+StarsSubscriptionSince	Subscribed
+StarsSubscriptionUntilRenews	Renews
+StarsSubscriptionUntilExpires	Expires
+StarsSubscriptionUntilExpired	Expired
+StarsSubscriptionCancelledText	You have cancelled your subscription.
+StarsSubscriptionBotCancelledText	Bot has cancelled your subscription.
+StarsSubscriptionBusinessCancelledText	Business has cancelled your subscription.
+StarsSubscriptionRenew	Renew Subscription
+StarsSubscriptionAgain	Subscribe Again
+StarsSubscriptionCancel	Cancel Subscription
+StarsSubscriptionCancelInfo	If you cancel now, you will still be able to access your subscription until %s.
+StarsSubscriptionExpiredInfo	Your subscription expired on %s.
+StarsSubscriptionRefulfill	Join Channel
+StarsSubscriptionRefulfillInfo	You left channel, but you can still get back until %s.
+StarsSubscriptionBotRefulfill	Refulfill Subscription
+StarsSubscriptionBotRefulfillInfo	You can still refulfill subscription back until %s.
+StarsSubscriptionExpiredHintTitle2_one	⭐️%1$d Star needed for %2$s
+StarsSubscriptionExpiredHintTitle2_other	⭐️%1$d Stars needed for %2$s
+StarsSubscriptionExpiredHintText	Insufficient funds to cover your subscription.
+StarsParticipantSubscription	Subscriber
+StarsParticipantSubscriptionApproxMonth	appx. %1$s per month
+StarsParticipantSubscriptionStart	Subscribed
+StarsParticipantSubscriptionExpired	Expired
+StarsParticipantSubscriptionRenews	Renews
+StarsParticipantSubscriptionPerMonth	per month
+StarsSentTitle	Stars sent!
+StarsSentTitleChannel	Stars sent as %s!
+StarsSentAnonymouslyTitle	Stars sent anonymously!
+StarsSentText_one	You reacted with **%d** star.
+StarsSentText_other	You reacted with **%d** stars.
+StarsSentUndo	Undo
+StarsReactionTitle	Star Reaction
+StarsReactionTitle2	Star Reaction
+StarsReactionText	Choose how many stars you want to send to **%s** to support this post.
+StarsReactionTextSent_one	You sent **%1$d** Star to support this post.
+StarsReactionTextSent_other	You sent **%1$d** Stars to support this post.
+StarsReactionTopSenders	Top Senders
+StarsReactionShowMeInTopSenders	Show me in Top Senders
+StarsReactionAnonymous	Anonymous
+StarsReactionSend	Send ⭐️%s
+StarsAddHighlightedMessage	Add ⭐️%s
+StarsReactionTop	TOP
+StarsReactionTopX_one	TOP %d
+StarsReactionTopX_other	TOP %d
+StarsReactionsSent	Star Reaction
+ChannelEnablePaidReactions	Enable Paid Reactions
+ChannelEnablePaidReactionsInfo	Switch this on to let your subscribers set paid reactions with Telegram Stars, which you will be able to withdraw later as TON.
+ChannelEnablePaidReactionsInfoLink	https://telegram.org/tos/stars/
+ChannelSignInfo	Add names of admins to the messages they post.
+ChannelSignProfilesInfo	Add names and photos of admins to the messages they post, linking to their profiles.
+ChannelLinksInfoPaid	You can create additional invite links that have limited time, number of users or require a paid subscription.
+ChannelLinksInfo	You can create additional invite links that have limited time and number of users.
+StarSubscriptionTo	To
+StarGiveawayPrizeFrom	From
+StarGiveawayPrizeTo	To
+StarGiveawayGift	Gift
+StarGiveawayReason	Reason
+StarGiveawayReasonLink	Giveaway
+StarTransactionCommission	%s Commission
+StarAffiliate	Affiliate
+StarAffiliateCommission	Commission
+StarAffiliateMiniApp	Mini App
+StarAffiliateReferredUser	Referred User
+StarAffiliateReason	Reason
+StarAffiliateReasonProgram	Affiliate Program
+StarGiftReason	Reason
+StarGiftReasonUpgrade	Gift Upgraded
+StarGiftReasonUpgradeView	view
+StarGiftReasonTransfer	Gift Transferred
+StarGiftReasonRemovedDescription	Removed Description
+StarGiftReasonSale	Gift Sale
+StarGiftReasonPurchase	Gift Purchase
+StarGiftReasonOffer	Gift Offer
+StarGiftReasonOfferRefund	Gift Offer Refund
+StarGiftUpgradeGiftFrom	Gift From
+StarGiftTransactionGiftTransfer	Gift Transfer
+StarGiftTransactionGiftTransferRefund	Refunded Gift Transfer
+StarGiftTransactionGiftSale	Gift Sale
+StarGiftTransactionGiftSaleRefund	Refunded Gift Sale
+StarGiftTransactionGiftPurchase	Gift Purchase
+StarGiftTransactionGiftPurchaseRefund	Refunded Gift Purchase
+StarGiftTransactionGiftOffer	Gift Offer
+StarGiftTransactionGiftOfferRefund	Refunded Gift Offer
+StarSubscriptionPurchase	Monthly subscription fee
+StarMySubscriptions	My subscriptions
+StarMySubscriptionsExpand	Show More
+StarsTopupLinkEnough	You have enough stars at the moment.
+StarsTopupLinkTopupAnyway	Topup Anyway
+BotDefaultPrivacyPolicy	https://telegram.org/privacy-tpa
+PeopleSubscriptionExpired_one	%d expired subscription
+PeopleSubscriptionExpired_other	%d expired subscriptions
+StarsSubscriptionCancelledToast	Subscription cancelled
+StarsSubscriptionCancelledToastText	You will still have access to the channel until **%s**.
+StarsSubscriptionCancelledBotToastText	You will still have access to **%2$s** until **%1$s**.
+StarsSubscriptionCancelledBizToastText	You will still have access to **%2$s** until **%1$s**.
+StarsSubscriptionRenewedToast	Subscription renewed
+StarsSubscriptionRenewedToastText	You renewed your subscription to **%s**.
+StarsReactionsDisabled	Star Reactions were disabled on **%s**.
+BoostStars_one	%d Star
+BoostStars_other	%d Stars
+BoostFrom	From
+BoostGift	Gift
+BoostReason	Reason
+BoostReasonGiveaway	Giveaway
+BoostDate	Date
+BoostUntil	Until
+Gift2User	Gift %s
+Gift2Premium	Gift Premium
+Gift2PremiumInfo	Give **%s** access to exclusive features with Telegram Premium.
+Gift2PremiumInfoLink	See Features >
+Gift2Stars	Send a Gift
+Gift2StarsInfo	Give **%s** gifts that can be kept on the profile or converted to Stars.
+Gift2StarsCollectibleInfo	Collectible gifts are unique digital items you exchange or sell.
+Gift2StarsSelf	Buy a gift
+Gift2StarsSelfInfo1	Buy yourself a gift to display on your page or reserve for later.
+Gift2StarsSelfInfo2	Limited-edition gifts upgraded to collectibles can be gifted to others later.
+Gift2StarsChannel	Send a Gift
+Gift2StarsChannelInfo	Select a gift to show appreciation for **%s**.
+Gift2InfoInFreeUpgrade	Upgrade this gift for free to turn it into a unique collectible.
+Gift2InfoFreeUpgrade	%s can turn this gift into a unique collectible.
+Gift2StarsInfoLink	What are Stars >
+Gift2StarsInfoProfileLink	%s’s Gifts
+Gift2Title	Send a Gift
+Gift2TitleSelf1	Buy a Gift
+Gift2TitleSelf2	Gift to Myself
+Gift2Message	Enter Message
+Gift2MessageOptional	Enter Message (Optional)
+Gift2MessagePremiumInfo	Only %s will see your message.
+Gift2MessageStars	Pay with ⭐️%d
+Gift2MessageStarsInfo	Your balance is ⭐️%s
+Gift2MessageStarsInfoTON	Your balance is ⭐️**%s**
+Gift2MessageStarsInfoLink	**Get More Stars >**
+TitleSetupProxy	set up proxy >
+Gift2Hide	Hide My Name
+Gift2HideInfo	You can hide your name and message from visitors to %1$s`s profile. %1$s will still see your name and message.
+Gift2HideChannelInfo	You can hide your name and message from all visitors of this channel except its admins.
+Gift2HideSelf	Hide My Name
+Gift2HideSelfInfo	Hide my name and message from visitors to my profile
+Gift2AuctionInfo_one	%d gift is dropped at varying intervals to the top %d bidder by bid amount.
+Gift2AuctionInfo_other	%d gifts are dropped at varying intervals to the top %d bidders by bid amount.
+Gift2AuctionInfoLearnMore2_one	%d gift is dropped at varying intervals to the top %d bidder by bid amount. **Learn More >**
+Gift2AuctionInfoLearnMore2_other	%d gifts are dropped at varying intervals to the top %d bidders by bid amount. **Learn More >**
+Gift2AuctionInfo2_one	Top **%d** bidder will get an **%s**\nthis round.
+Gift2AuctionInfo2_other	Top **%d** bidders will get an **%s**\nthis round.
+Gift2AuctionInfo3	**%1$s** gifts are dropped in **%2$d** rounds\nto the top **%3$d** bidders. %4$s
+Gift2AuctionTableStarted	Started
+Gift2AuctionTableEnded	Ended
+Gift2AuctionEnded	Auction ended.
+Gift2AuctionEndedNoDot	Auction ended
+Gift2AuctionTableCurrentRound	Current Round
+Gift2AuctionTableCurrentRounds	Rounds
+Gift2AuctionTableCurrentRoundsOne	Round %d
+Gift2AuctionTableCurrentRoundsOneDuration	%1$s + %2$s for late bids in top %3$d
+Gift2AuctionTableCurrentRoundsTwo	Rounds %1$d-%2$d
+Gift2AuctionTableCurrentRoundsTwoDuration_one	%1$d minute each
+Gift2AuctionTableCurrentRoundsTwoDuration_other	%1$d minutes each
+Gift2AuctionUpgradedShort	upgraded
+Gift2AuctionTableCurrentAvailability	Availability
+Gift2AuctionTableCurrentQuantity	Quantity
+Gift2AuctionInfoLearnMore	**Learn More >**
+Gift2AuctionJoin	Join Auction
+Gift2AuctionTimeLeft	%s left
+Gift2AuctionStartsIn	starts in %s
+Gift2AuctionPlaceABid	Place a Bid
+Gift2AuctionPlaceAEarlyBid	Place an Early Bid
+Gift2AuctionPlaceABidTitle	Place a Bid
+Gift2AuctionPlaceACustomBid	Place a Custom Bid
+Gift2AuctionPlaceACustomBidHint	If you fall bellow the top %d, your bid will roll over to the next round.
+Gift2AuctionPlaceACustomBidHint2	Custom Bid...
+Gift2AuctionYourBid	your bid
+Gift2AuctionTapToBidMore	tap to bid more
+Gift2AuctionMinimumBidIncreased_one	You must bid at least **%d star**.
+Gift2AuctionMinimumBidIncreased_other	You must bid at least is **%d stars**.
+Gift2AuctionBidStatusFuture	Your bid will be
+Gift2AuctionBidStatusFuture2	Your bid will be %s
+Gift2AuctionBidStatusOutbid	You\'re been outbid
+Gift2AuctionBidStatusWinning	You\'re winning
+Gift2AuctionBidStatusWinning2	You\'re winning %s
+Gift2AuctionLearnMore2	Learn more about Telegram Gifts >
+Gift2AuctionLearnMore3	Learn more about wearing gifts >
+Gift2WearingHint	You can upgrade your gift for free, sell it on\nthe market, or set it as your profile cover.
+Gift2AuctionVariants	View %1$s %2$s Variants >
+Gift2AuctionBidInfoMinimumBid	minimum bid
+Gift2AuctionBidInfoUntilNextRound	until next round
+Gift2AuctionBidInfoUntilStart	until start
+Gift2AuctionBidInfoUntilEndRound	last round
+Gift2AuctionBidInfoLeft	left
+Gift2AuctionAlreadyParticipateTitle	Auction
+Gift2AuctionAlreadyParticipate	You are already participating in an auction for **%s**. You can only participate in one auction. Win the current round or wait until you are removed from the list of participants.
+Gift2AuctionAlreadyParticipateSelf	You are already participating in an auction. You can only participate in one auction. Win the current round or wait until you are removed from the list of participants.
+Gift2Upgrade	Make Unique for ⭐️%d
+Gift2UpgradeInfo	Enable this to let %s turn your gift into a unique collectible. **Learn More >**
+Gift2UpgradeChannelInfo	Enable this to let the admins of %s to turn your gift into a unique collectible. **Learn More >**
+Gift2UpgradeForcedInfo	%s only accepts unique gifts.
+Gift2UpgradeChannelForcedInfo	%s only accepts unique gifts.
+Gift2NoUpgradeForcedInfo	%s only accepts limited gifts.
+Gift2NoUpgradeChannelForcedInfo	%s only accepts limited gifts.
+Gift2UpgradeSelf	Make Unique for ⭐️%d
+Gift2UpgradeSelfInfo	Enable this to turn your gift into a unique collectible. **Learn More >**
+Gift2Send_one	Send a Gift for ⭐️%d
+Gift2Send_other	Send a Gift for ⭐️%d
+Gift2SendPremium	Send a Gift for %s
+Gift2SendPremiumStars	Send a Gift for ⭐️%s
+Gift2SendSelf_one	Buy a Gift for ⭐️%d
+Gift2SendSelf_other	Buy a Gift for ⭐️%d
+Gift2SendYourBalance_one	Your balance is %d Star
+Gift2SendYourBalance_other	Your balance is %d Stars
+Gift2ActionTitle	Gift from 
+Gift2ActionTitleTo	Gift for 
+Gift2AveragePriceHint	**%d Stars** is the average sale price for **%s** gifts.
+Gift2ActionWonActionText	You bought this gift at auction for %s Stars.
+Gift2ActionUpgradeTitle	Upgrade from 
+Gift2ActionUpgradeUnknownTitle	Upgrade from unknown
+Gift2ActionSelfTitle	Saved Gift
+Gift2ActionCraftedTitle	Crafted Gift
+Gift2ActionPurchasedTitle	Purchased Gift
+Gift2ActionUpgradedTitle	Upgraded Gift
+Gift2ActionTitleInAnonymous	%s received a gift!
+Gift2ActionTitleAnonymous	You received a gift!
+Gift2ActionConvertRefundedText	This gift cannot be converted to Stars because the payment related to it was refunded.
+Gift2ActionUpgradeRefundedText	This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned.
+Gift2ActionInfo_one	Display this gift on your page or convert it to %d Star.
+Gift2ActionInfo_other	Display this gift on your page or convert it to %d Stars.
+Gift2ActionInfoChannel_one	Display this gift in channel\'s Gifts or convert it to **%d** Star.
+Gift2ActionInfoChannel_other	Display this gift in channel\'s Gifts or convert it to **%d** Stars.
+Gift2ActionInfoChannelNoConvert	Display this gift in channel\'s Gifts.
+Gift2ActionBotInfo	You can display this gift on your page.
+Gift2ActionSavedInfo	You kept this gift on your page.
+Gift2ActionBotSavedInfo	This gift is now visible on your page.
+Gift2ActionConvertedInfo_one	You converted this gift to %d Star.
+Gift2ActionConvertedInfo_other	You converted this gift to %d Stars.
+Gift2ActionSelfInfo_one	Display this gift on your page or convert it to %1$d Star.
+Gift2ActionSelfInfo_other	Display this gift on your page or convert it to %1$d Stars.
+Gift2ActionSelfInfoNoConvert	Display this gift on your page.
+Gift2ActionSelfInfoUpgrade	You can display this gift on your page or turn it into a unique collectible and send to others.
+Gift2ActionOutInfo_one	**%2$s** can display this gift on their page or convert it to %1$d Star.
+Gift2ActionOutInfo_other	**%2$s** can display this gift on their page or convert it to %1$d Stars.
+Gift2ActionOutInfoNoConvert	**%s** can display this gift on their page.
+Gift2ActionOutInfoUpgrade	**%s** can display this gift on their page or convert it to unique collectible.
+Gift2StarsCount_one	%d Star
+Gift2StarsCount_other	%d Stars
+ProfileGifts	Gifts
+ProfileGiftsNotFoundTitle	No matching gifts
+ProfileGiftsNotFoundButton	View All Gifts
+ProfileGiftsInfo	These gifts were sent to you by other users.\nTap on a gift to convert it to Stars or change its privacy settings.
+ProfileGiftsCount_one	%d gift
+ProfileGiftsCount_other	%d gifts
+ProfilePollsCount_one	%d poll
+ProfilePollsCount_other	%d polls
+ProfileGiftsSend	Send Gifts to Friends
+ProfileGiftsSendChannel	Send Gifts to Channel
+ProfileGiftsSendUser	Send a Gift to %s
+Gift2TabAll	All Gifts
+Gift2TabInStock	In Stock
+Gift2TabLimited	Limited
+Gift2TabMine	My Gifts
+Gift2TabCollectibles	Collectibles
+Gift2TabResale	Resale
+Gift2TransferMine	Transfer
+Gift2LimitedRibbon	limited
+Gift2LimitedPremium	premium
+Gift2LimitedAuction	auction
+Gift2LimitedAuctionSoon	soon
+Gift2AuctionPriceJoin	Join
+Gift2AuctionPriceView	View
+Gift2AuctionTop3Winners	Top 3 Winners
+Gift2AuctionPlaceBid	Place a ⭐️%s Bid
+Gift2AuctionPlaceBidAdd	Add ⭐️%s to Your Bid
+Gift2PreviewRandomTraits	Random Traits
+Gift2PreviewSelectedTraits	Selected Traits
+Gift2LimitedSlider	Limited
+Gift2Limited1OfRibbon	1 of %s
+StarsGiftCompleted	Gift sent!
+StarsGiftCompletedText_one	You spent **%1$d** Star from your balance.
+StarsGiftCompletedText_other	You spent **%1$d** Stars from your balance.
+StarsGiftUpgradeCompleted	Gift Upgrade sent!
+StarsGiftUpgradeCompletedText	%s can now upgrade this gift for free.
+StarsGiftUpgradeCompletedMoreButton	Gift More
+StarsGiftCompletedChannelText_one	You sent a gift to **%2$s** for **%1$d** Star.
+StarsGiftCompletedChannelText_other	You sent a gift to **%2$s** for **%1$d** Stars.
+Gift2ChannelSend	Send Gift
+Gift2ChannelSendHint	Tap here to send gift
+Gift2TitleSent	Sent Gift
+Gift2TitleProfile	Gift
+Gift2TitleReceived	Received Gift
+Gift2TitleSaved	Saved Gift
+Gift2TitleChannel	Gift
+TelegramPremiumShort	Premium
+Gift2Info2Out_one	%2$s can keep this gift in their Profile or convert it to **%1$d** Star.
+Gift2Info2Out_other	%2$s can keep this gift in their Profile or convert it to **%1$d** Stars.
+Gift2Info2OutUpgrade	%1$s can keep this gift in their Profile or upgrade to unique collectible.
+Gift2Info2OutExpired	%1$s can keep this gift in their Profile.
+Gift2Info3_one	You can keep this gift in your Profile or convert it to **%1$d** Star.
+Gift2Info3_other	You can keep this gift in your Profile or convert it to **%1$d** Stars.
+Gift2Info3Channel_one	Your channel can keep this gift in channel\'s Gifts or convert it to **%1$d** Star.
+Gift2Info3Channel_other	Your channel can keep this gift in channel\'s Gifts or convert it to **%1$d** Stars.
+Gift2Info2Expired_one	You can keep this %d Star gift in your Profile.
+Gift2Info2Expired_other	You can keep this %d Stars gift in your Profile.
+Gift2Info2ChannelExpired_one	Your channel can keep this %d Star gift in channel\'s Gifts.
+Gift2Info2ChannelExpired_other	Your channel can keep this %d Stars gift in channel\'s Gifts.
+Gift2Info2BotRemove	You can remove this gift from your Profile.
+Gift2Info2BotKeep	You can keep this gift in your Profile.
+Gift2Info2ChannelRemove	Your channel can hide this gift from channel\'s Gifts.
+Gift2Info2ChannelKeep	Your channel can keep this gift in channel\'s Gifts.
+Gift2Info2RemoveUpgrade	You can remove this gift from your Profile or upgrade to unique collectible.
+Gift2Info2KeepUpgrade	You can keep this gift in your Profile or upgrade to unique collectible.
+Gift2InfoOut_one	%2$s can keep this gift in profile or convert it to **%1$d** Star.
+Gift2InfoOut_other	%2$s can keep this gift in profile or convert it to **%1$d** Stars.
+Gift2InfoConverted_one	You converted this gift to **%d** Star.
+Gift2InfoConverted_other	You converted this gift to **%d** Stars.
+Gift2InfoChannelConverted_one	Your channel converted this gift to **%d** Star.
+Gift2InfoChannelConverted_other	Your channel converted this gift to **%d** Stars.
+Gift2InfoOutConverted_one	%2$s converted this gift to **%d** Star.
+Gift2InfoOutConverted_other	%2$s converted this gift to **%d** Stars.
+Gift2InfoOutPinned	%1$s kept this gift in your Profile.
+Gift2InSenderHidden2	Only you can see the senderʼs name.
+Gift2InSenderMessageHidden2	Only you can see the senderʼs name and message.
+Gift2OutSenderHidden2	Only %s can see the senderʼs name.
+Gift2OutSenderMessageHidden2	Only %s can see the senderʼs name and message.
+Gift2ProfileVisible4	This gift is visible. **Hide from profile >**
+Gift2ProfileInvisible4	This gift is hidden. **Show on Profile >**
+Gift2ChannelProfileVisible3	This gift is visible in your channel\'s Gifts. **Hide >**
+Gift2ChannelProfileInvisible3	This gift is hidden from visitors of your channel. **Show >**
+Gift2More	**More about Stars >**
+Gift2From	From
+Gift2To	To
+Gift2Gift	Gift
+Gift2Visibility	Visibility
+Gift2Visible	Visible on your page
+Gift2VisibleHide	hide
+Gift2Invisible	Not visible on your page
+Gift2InvisibleShow	show
+Gift2Availability	Availability
+Gift2Quantity	Quantity
+Gift2QuantityIssued1_other	%d/
+Gift2QuantityIssued2_other	%d issued
+Gift2QuantityIssuedNone_one	None of %d left
+Gift2QuantityIssuedNone_other	None of %d left
+Gift2Availability4Value_one	%1$d of %2$s left
+Gift2Availability4Value_other	%1$d of %2$s left
+Gift2Availability2ValueNone_one	None of %1$d left
+Gift2Availability2ValueNone_other	None of %1$d left
+Gift2ProfileMakeVisible	Display on my Page
+Gift2ProfileMakeInvisible	Hide from my Page
+Gift2ToBalance_one	Convert to %d Star
+Gift2ToBalance_other	Convert to %d Stars
+Gift2ConvertTitle	Convert Gift to Stars
+Gift2ConvertText2_one	Do you want to convert this gift from **%2$s** to **%3$s**?\n\nConversion is available for the next **%1$d day**.\n\nThis action cannot be undone. This will permanently destroy the gift.
+Gift2ConvertText2_other	Do you want to convert this gift from **%2$s** to **%3$s**?\n\nConversion is available for the next **%1$d days**.\n\nThis action cannot be undone. This will permanently destroy the gift.
+Gift2ConvertStars_one	%d Star
+Gift2ConvertStars_other	%d Stars
+Gift2ConvertButton	Convert
+Gift2SoldOut	sold out
+Gift2AuctionCountdownFinished	Finished
+Gift2AuctionCountdownStartsIn	starts in %s
+ExplainStarsTitle	What are Stars?
+ExplainStarsTitle2	Telegram Stars allow users to:
+ExplainStarsFeature1Title	Send Gifts to Friends
+ExplainStarsFeature1Text	Give your friends gifts that can be kept on their profiles or converted to Stars.
+ExplainStarsFeature2Title	Use Stars in miniapps
+ExplainStarsFeature2Text	Buy additional content and services in Telegram miniapps. **See Examples >**
+ExplainStarsFeature3Title	Unlock content in channels
+ExplainStarsFeature3Text	Get access to paid content and services in Telegram channels.
+ExplainStarsFeature4Title	Send Star reactions
+ExplainStarsFeature4Text	Support your favorite channels by sending Star reactions to their posts.
+ExplainStarsButton	Got It
+Gift2MadePublicTitle	Gift Shown
+Gift2MadePublic	Gift is now visible in **your profile**.
+Gift2MadePrivateTitle	Gift Hidden
+Gift2MadePrivate	Gift is now hidden in **your profile**.
+Gift2ChannelMadePublicTitle	Gift Shown
+Gift2ChannelMadePublic	Gift is now visible in in your channel\'s Gifts.
+Gift2ChannelMadePrivateTitle	Gift Hidden
+Gift2ChannelMadePrivate	Gift is now hidden from visitors of your channel.
+Gift2ConvertedTitle	Converted Gift
+Gift2Converted_one	%d Star was sent to your balance
+Gift2Converted_other	%d Stars were sent to your balance
+Gift2ConvertedChannel_one	%d Star was sent to channel\'s balance
+Gift2ConvertedChannel_other	%d Stars were sent to channel\'s balance
+Gift2SoldAuctionPreviewGifts_one	%d Gift
+Gift2SoldAuctionPreviewGifts_other	%d Gifts
+Gift2SoldOutTitle	Sold Out!
+Gift2SoldOutCount_one	All %d gifts were already sold.
+Gift2SoldOutCount_other	All %d gifts were already sold.
+ReportStory	Report Story
+Report2	Report
+Report2Comment	Add Comment
+Report2CommentOptional	Add Comment (Optional)
+Report2CommentInfo	Please help us by telling what is wrong with the message you have selected.

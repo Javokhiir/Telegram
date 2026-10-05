@@ -1,0 +1,515 @@
+LiteOptionsBlur2	Buldırlaw
+LiteOptionsLiquidGlass	Suyıq ayna
+LiteOptionsScale	Masshtab animaciyaları
+LiteOptionsThanos	Shań effekti menen óshiriw
+LiteOptionsCalls	Qońırawlardaǵı animaciyalar
+LiteOptionsAutoplayVideo	Videolardı avto-oynatıw
+LiteOptionsAutoplayGifs	GIFlerdi avto-oynatıw
+LiteOptionsParticles	Bólekshe effektleri
+LiteSmoothTransitions	Tegis ótiwlerdi qosıw
+LiteSmoothTransitionsInfo	Qosımshanıń hár qıylı bólimleri arasındaǵı animaciyalı ótiwlerdi óshire alasız.
+DynamicPackOrder	Toplamlardıń dinamikalıq tártibi
+DynamicPackOrderInfo	Jaqında qollanılǵan stiker toplamların paneldiń basına avtomat qoyıw.
+DynamicPackOrderOff	Dinamikalıq tártip óshirilgen
+DynamicPackOrderOffInfo	Stiker qollanǵanıńızda stiker toplamları endi birinshi orınǵa qoyılmaydı.
+InviteRestrictedUsersOne	**%s** ózin toparlarǵa qosıwdı sheklegen. Onıń ornına oǵan mirát siltemesin xabar retinde jibere alasız.
+InviteRestrictedUsers_one	**%d paydalanıwshı** ózin toparlarǵa qosıwdı sheklegen. Onıń ornına olarǵa mirát siltemesin xabar retinde jibere alasız.
+InviteRestrictedUsers_other	**%d paydalanıwshı** ózin toparlarǵa qosıwdı sheklegen. Onıń ornına olarǵa mirát siltemesin xabar retinde jibere alasız.
+InviteCallRestrictedUsersOne	**%s** ózine qońıraw etiwdi sheklegen. Onıń ornına oǵan usı qońırawǵa mirát siltemesin jibere alasız.
+InviteCallRestrictedUsers_one	**%d paydalanıwshı** ózine qońıraw etiwdi sheklegen. Onıń ornına olarǵa usı qońırawǵa mirát siltemesin jibere alasız.
+InviteCallRestrictedUsers_other	**%d paydalanıwshı** ózine qońıraw etiwdi sheklegen. Onıń ornına olarǵa usı qońırawǵa mirát siltemesin jibere alasız.
+InviteChannelRestrictedUsersOne	**%s** ózin kanallarǵa qosıwdı sheklegen. Onıń ornına oǵan mirát siltemesin xabar retinde jibere alasız.
+InviteChannelRestrictedUsers_one	**%d paydalanıwshı** ózin kanallarǵa qosıwdı sheklegen. Onıń ornına olarǵa mirát siltemesin xabar retinde jibere alasız.
+InviteChannelRestrictedUsers_other	**%d paydalanıwshı** ózin kanallarǵa qosıwdı sheklegen. Onıń ornına olarǵa mirát siltemesin xabar retinde jibere alasız.
+InviteRestrictedUsers2One	**%s** ti tek silteme arqalı mirát etiwge boladı. Biraq bul topar administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteRestrictedUsers2_one	**%d paydalanıwshını** tek silteme arqalı mirát etiwge boladı. Biraq bul topar administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteRestrictedUsers2_other	**%d paydalanıwshını** tek silteme arqalı mirát etiwge boladı. Biraq bul topar administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteChannelRestrictedUsers2One	**%s** ti tek silteme arqalı mirát etiwge boladı. Biraq bul kanal administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteChannelRestrictedUsers2_one	**%d paydalanıwshını** tek silteme arqalı mirát etiwge boladı. Biraq bul kanal administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteChannelRestrictedUsers2_other	**%d paydalanıwshını** tek silteme arqalı mirát etiwge boladı. Biraq bul kanal administratorı sizge mirát siltemeleri menen bólisiwdi sheklegen.
+InviteLinkSentSingle	Mirát siltemesi **%s** ǵa jiberildi
+InviteLinkSent_one	Mirát siltemesi %d paydalanıwshıǵa jiberildi
+InviteLinkSent_other	Mirát siltemesi %d paydalanıwshıǵa jiberildi
+SendInviteLink	Mirát siltemesin jiberiw
+ActionSkip	Ótkerip jiberiw
+ChannelInviteViaLinkRestricted	Silteme jarata almaysız
+ChannelInviteViaLinkRestricted2	Bul paydalanıwshını mirát etip bolmaydı
+ChannelInviteViaLinkRestricted3	Bul paydalanıwshılardı mirát etip bolmaydı
+StoragePathFreeInternal	%1$s bos, joqarı tezlik
+StoragePathFreeExternal	%1$s bos, tómen tezlik
+StoragePathFreeValueExternal	%1$s bos, tómen tezlik %2$s
+AccDescrLiteBatteryWhenBelow	%s%% tan tómen bolǵanda qosıladı
+AccDescrRateTranscriptionUp	Jaqsı bahalaw
+AccDescrRateTranscriptionDown	Jaman bahalaw
+PauseMusicOnMedia	Media oynatılǵanda muzıkanı toqtatıp turıw
+ProxyBottomSheetCheckStatus	**Statustı tekseriw**
+ProxyBottomSheetChecking	Tekserilmekte
+ProxyBottomSheetCheckWarning	Eskertiw
+ProxyBottomSheetCheckWarningText	Bul IP mánzilińizdi proksi server administratorına ashadı.
+LoginCantAccessThisEmail	Bul emailǵa kire almay atırsız ba?
+LoginEmailResetInTime	Email %1$s tan keyin tiklenedi.\n*Házir SMS arqalı tiklew*
+LoginEmailResetInSinglePattern	%1$s
+LoginEmailResetInDoublePattern	%1$s hám %2$s
+LoginEmailResetTitle	Emaildi tiklew
+LoginEmailResetMessage	Eger Telegramǵa basqa qurılmadan kirgen bolsańız, kiriw emailıńızdı ózgerte alasız. Bolmasa, %1$s emailına kiriw múmkinshiligińiz bolmasa, bul emaildi **%2$s** tan keyin **SMS** kodı arqalı tikley alasız.
+LoginEmailResetButton	Kiriw emailin tiklew
+LoginEmailResetPremiumRequiredTitle	Telegram Premium kerek
+LoginEmailResetPremiumRequiredMessage	Mámleketińizde SMS bahası joqarı bolǵanı sebepli, bul emaildi SMS kodı arqalı dárhal tiklew ushın sizge **Telegram Premium** akkauntı kerek.\n\nDosıńızdan **%1$s** akkauntıńız ushın Premium jazılıwın sawǵa etiwdi sorawıńız múmkin
+LoginEmailResetPleaseWait	Email tiklenbekte, kútiń...
+DeleteAndBlock	Óshiriw hám bloklaw
+BlockBot	Bottı bloklaw
+AreYouSureDeleteThisChatWithBotWithCheckmark	**%1$s** penen sáwbetti óshiriwdi anıq qáleysiz be?
+DecreaseSpeed	Tezlikti azaytıw
+SdCardAlert	SD kartada saqlaw Telegramdı ásteletedi. Báribir dawam etesiz be?
+Proceed	Dawam etiw
+SdCardError	SD karta qáteligi
+SdCardErrorDescription	Telegram SD kartańızǵa maǵlıwmat saqlay almay atır.
+DoNotUseSDCard	SD kartadan paydalanbaw
+NextMediaTap	Basqanda keyingi medianı kórsetiw
+NextMediaTapInfo	Súwretler arasında ótiw ushın media kórip atırǵanda ekrannıń shetine basıń
+MediaAndSoundSettings	Media hám dawıs
+OtherSettings	Basqa sazlamalar
+StickersNameInfo2	Stikerler, emoji hám reakciyalardı basqarıw
+FilterShare	Papka menen bólisiw
+FilterInviteLinks	Mirát siltemeleri
+FilterShareFolder	Papka menen bólisiw
+FilterShareFolderButton	Mirát siltemesin jaratıw
+FilterInviteLinksHintNew	Bul papkanıń ayırım toparları hám kanallarına kiriw menen basqalar menen bólisiń.
+FilterInviteLinksHint	Hár qıylı adamlar ushın hár qıylı kiriw dárejelerin sazlaw ushın kóbirek silteme jaratıń.
+FilterInviteEditName	Bul siltemege at beriń
+FilterInviteChats_one	%d sáwbetti óz ishine aladı
+FilterInviteChats_other	%d sáwbetti óz ishine aladı
+FilterInviteHeader_one	Usı siltemesi bar hár bir adam **%2$s** papkasın hám tómende tańlanǵan **%1$d** sáwbetti qosa aladı.
+FilterInviteHeader_other	Usı siltemesi bar hár bir adam **%2$s** papkasın hám tómende tańlanǵan **%1$d** sáwbetti qosa aladı.
+FilterInviteHeaderNo	Bul papkada basqalar menen bólise alatuǵın sáwbetler joq.
+FilterInviteHeaderChats_one	%d sáwbet tańlandı
+FilterInviteHeaderChats_other	%d sáwbet tańlandı
+FilterInviteHeaderChatsNo	Bul sáwbetler menen bólisip bolmaydı
+FilterInviteHeaderChatsEmpty	Sáwbetler tańlanbaǵan
+FilterInviteHint	Papkanı mirát siltemesi arqalı qosqan hár bir adam qosılıwın qáleytuǵın topar hám kanallardı tańlań.
+FilterInviteHintNo	Tek mirát siltemelerin jaratıwǵa ruqsatıńız bar topar hám kanallar menen bólise alasız.
+FilterInviteGroup	bul jerge basqalardı mirát ete almaysız
+FilterInviteGroupToast	Sizde bul toparǵa mirát siltemeleri menen bólisiw ushın administrator huqıqları joq.
+FilterInvitePrivateGroupToast	Sizde bul jabıq toparǵa mirát siltemeleri menen bólisiw ushın administrator huqıqları joq.
+FilterInviteChannel	bul jerge basqalardı mirát ete almaysız
+FilterInviteChannelToast	Sizde bul kanalǵa mirát siltemeleri menen bólisiw ushın administrator huqıqları joq.
+FilterInvitePrivateChannelToast	Sizde bul jabıq kanalǵa mirát siltemeleri menen bólisiw ushın administrator huqıqları joq.
+FilterInviteUser	paydalanıwshılar menen sáwbetlerdi bólise almaysız
+FilterInviteUserToast	Paydalanıwshılardı ulıwma papkalarǵa qoya almaysız.
+FilterInviteBot	botlar menen sáwbetlerdi bólise almaysız
+FilterInviteBotToast	Botlardı ulıwma papkalarǵa qoya almaysız.
+FilterFinishCreating	Bólisiw ushın aldın bul papkanı jaratıwdı tamamlań.
+FilterInviteErrorEmpty	Bos papkalar menen bólise almaysız.
+FilterInviteErrorEmptyName	Atı joq papkalar menen bólise almaysız.
+FilterInviteErrorExcluded	Shıǵarıp taslanǵan sáwbetleri bar papkalar menen bólise almaysız.
+FilterInviteErrorTypes	Sáwbet túrleri qosılǵan papkalar menen bólise almaysız.
+FilterInviteErrorTypesExcluded	Tek sáwbet túrleri hám shıǵarıp taslanǵan sáwbetleri joq papkalar menen bólise alasız.
+UnsavedChanges	Saqlanbaǵan ózgerisler
+UnsavedChangesMessage	Siz bul mirát siltemesiniń sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+LimitReachedFolderLinks	Tek %1$d mirát siltemesin jarata alasız.\nBul shekti **%2$d** ge asırıw ushın **Telegram Premium** ǵa ótiń.
+LimitReachedFolderLinksPremium	Tek %1$d mirát siltemesin jarata alasız. Ayırım papka mirát siltemelerin óshirip kóriń.
+LimitReachedFolderLinksLocked	Tek %1$d mirát siltemesin jarata alasız. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+LimitReachedSharedFolders	Sizde tek %1$d bólisiletuǵın papka bolıwı múmkin.\nBul shekti **%2$d** ge asırıw ushın **Telegram Premium** ǵa ótiń.
+LimitReachedSharedFoldersPremium	Sizde tek %1$d bólisiletuǵın papka bolıwı múmkin. Ayırım bólisiletuǵın papkalardı óshirip kóriń.
+LimitReachedSharedFoldersLocked	Sizde tek %1$d bólisiletuǵın papka bolıwı múmkin. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+ActionSettingWallpaper	Jańa tusqaǵaz ornatılmaqta…
+ActionSetWallpaperForThisChatSelf	Siz bul sáwbet ushın jańa tusqaǵaz ornattıńız
+ActionSetWallpaperForThisChannel	Kanal jańa tusqaǵaz ornattı
+ActionSetWallpaperForThisGroup	Topar jańa tusqaǵaz ornattı
+ActionSetWallpaperForThisGroupByUser	%s jańa tusqaǵaz ornattı
+ActionSetSameWallpaperForThisChatSelf	Siz sáwbet ushın sol tusqaǵazdı ornattıńız
+ActionSetWallpaperForThisChat	%s bul sáwbet ushın jańa tusqaǵaz ornattı
+ActionSetWallpaperForThisChatBoth	%s bul sáwbet ushın jańa tusqaǵaz ornattı
+ActionSetSameWallpaperForThisChat	%s bul sáwbet ushın sol tusqaǵazdı ornattı
+ActionSetWallpaperForThisChatSelfBoth	Siz %s hám ózińiz ushın jańa tusqaǵaz ornattıńız
+FolderLinkTitleRemove	Papkanı alıp taslaw
+FolderLinkTitleAlready	Papka álleqashan qosılǵan
+FolderLinkTitleAdd	Papka qosıw
+FolderLinkTitleAddChats	Papkaǵa sáwbetler qosıw
+FolderLinkPreviewLeft	Barlıq sáwbetler
+FolderLinkPreviewRight	Jeke
+FolderLinkSubtitleRemove	Bul papkaǵa kirgen sáwbetlerden de shıǵıwdı qáleysiz be?
+FolderLinkSubtitleAlready	Siz **%s** papkasın hám onıń barlıq sáwbetlerin álleqashan qosqansız.
+FolderLinkSubtitleChats_one	**%1$d sáwbetke** qosılıp, olardı **%2$s** papkasına qosıwdı qáleysiz be?
+FolderLinkSubtitleChats_other	**%1$d sáwbetke** qosılıp, olardı **%2$s** papkasına qosıwdı qáleysiz be?
+FolderLinkSubtitle	Jańa **%s** sáwbet papkasın qosıp, onıń topar hám kanallarına qosılıwdı qáleysiz be?
+FolderLinkButtonRemove	Papkanı alıp taslaw
+FolderLinkButtonRemoveChats	Papkanı hám sáwbetlerdi alıp taslaw
+FolderLinkButtonAdd	%s ti qosıw
+FolderLinkButtonJoinPlural_one	Sáwbetke qosılıw
+FolderLinkButtonJoinPlural_other	Sáwbetlerge qosılıw
+FolderLinkButtonNone	Hesh bir sáwbetke qosılmaw
+FolderLinkHeaderChatsQuit_one	Shıǵıw ushın %d sáwbet
+FolderLinkHeaderChatsQuit_other	Shıǵıw ushın %d sáwbet
+FolderLinkHeaderChatsJoin_one	Qosılıw ushın %d sáwbet
+FolderLinkHeaderChatsJoin_other	Qosılıw ushın %d sáwbet
+FolderLinkHeaderAlready	Siz álleqashan qosılǵan sáwbetler
+FolderLinkHint	Qosılıwdı qálemeytuǵın sáwbetlerdiń tańlawın alıp taslay alasız.
+FolderLinkHintRemove	Shıǵıwdı qáleytuǵın sáwbetlerdi tańlay alasız.
+FolderLinkAlreadySubscribed	Siz bul kanalǵa álleqashan jazılǵansız.
+FolderLinkAlreadyJoined	Siz álleqashan bul topardıń aǵzasısız.
+SelectAll	Bárshesin tańlaw
+DeselectAll	Bárshesiniń tańlawın alıw
+FolderLinkAddedTitle	**%s** papkası qosıldı
+FolderLinkAddedSubtitle_one	Siz %d sáwbetke de qosıldıńız.
+FolderLinkAddedSubtitle_other	Siz %d sáwbetke de qosıldıńız.
+FolderLinkUpdatedTitle	**%s** papkası jańalandı
+FolderLinkUpdatedJoinedSubtitle_one	Siz %d jańa sáwbetke qosıldıńız.
+FolderLinkUpdatedJoinedSubtitle_other	Siz %d jańa sáwbetke qosıldıńız.
+FolderLinkUpdatedSubtitle_one	Siz %d jańa sáwbet qostıńız.
+FolderLinkUpdatedSubtitle_other	Siz %d jańa sáwbet qostıńız.
+FolderLinkDeleted	**%s** papkası óshirildi.
+FolderLinkDeletedTitle	%s papkası óshirildi
+FolderLinkDeletedSubtitle_one	Siz %d sáwbetten de shıqtıńız.
+FolderLinkDeletedSubtitle_other	Siz %d sáwbetten de shıqtıńız.
+FilterInviteNameEdited	Silteme atı saqlandı.
+ViewChatList	Sáwbetler dizimin kóriw
+FolderUpdatesTitle_one	**%d jańa sáwbetke** qosıla alasız
+FolderUpdatesTitle_other	**%d jańa sáwbetke** qosıla alasız
+FolderUpdatesSubtitle_one	Onı kóriw ushın usı jerdi basıń
+FolderUpdatesSubtitle_other	Olardı kóriw ushın usı jerdi basıń
+FolderLinkShareTitle2	%1$s papkası menen bólisiw
+FolderLinkShareSubtitleEmpty	Bul papkanıń ayırım toparları hám kanallarına kiriw menen basqalar menen bólisiń.
+FolderLinkShareSubtitle	Hár qıylı adamlar ushın hár qıylı kiriw dárejelerin sazlaw ushın kóbirek silteme jarata alasız.
+FolderLinkShareButton	Mirát siltemesin jaratıw
+CreateNewInviteLink	Jańa mirát siltemesin jaratıw
+FolderLinkAddedChats_one	Sáwbet papkaǵa qosıldı
+FolderLinkAddedChats_other	%d sáwbet papkaǵa qosıldı
+FolderLinkRemovedChats_one	Sáwbet papkadan alıp taslandı
+FolderLinkRemovedChats_other	%d sáwbet papkadan alıp taslandı
+FolderLinkChatlistUpdate	Bul usı papka siltemeleriniń sáwbetler dizimine tásir etpeydi.
+FolderLinkNoChatsError	Sizde bul sáwbetlerdiń hesh biri menen bólisiwge ruqsat joq.
+FolderLinkOtherAdminLimitError	Bul papkadaǵı toparlardıń birin qosıp bolmaydı, sebebi onıń administratorlarınıń birinde júdá kóp topar hám kanal bar.
+BotSettingsChangedAlert	Siz bul bottıń ayırım sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+DeleteBot	Bottı óshiriw
+BotPublicLink	Ashıq silteme
+BotPublicLinks	Ashıq siltemeler
+BotPublicLinksCount	%1$s/%2$s
+BotEditIntro	Tanıstırıwdı ózgertiw
+BotEditCommands	Buyrıqlardı ózgertiw
+BotBalance	Balans
+BotBalanceTON	Toncoin
+BotBalanceStars	Juldızlar
+BotChangeSettings	Bot sazlamaların ózgertiw
+BotManageInfo	Bul bottı basqarıw ushın @BotFather dan paydalanıń.
+BotSetPublicLinkHeader	Ashıq silteme ornatıw
+BotUsernamesHelp	Siltemelerdiń bot maǵlıwmat betinde kórsetiliw tártibin ózgertiw ushın olardı súyrep kóshiriń.
+SendWhenOnline	Onlayn bolǵanda jiberiw
+ChooseBackgroundFromGallery	Tusqaǵazdı galereyadan tańlaw
+ChooseANewWallpaper	Jańa tusqaǵaz tańlaw
+ChatThemeApplyHint	Tema %s ushın da qollanıladı
+BackgroundColorSinglePreviewLine3	Tusqaǵazdı usı sáwbette qollanıw
+ChannelBackgroundMessageReplyName	Du Rove kanalı
+ChannelBackgroundMessageReplyText	Sońǵı jańalıqlar
+ChannelBackgroundMessagePreview	Tolıq maǵlıwmat jaqında boladı.\nBizdi baqlap barıń!
+ChatBackgroundHint	%s bul tusqaǵazdı qollana aladı
+ChannelBackgroundHint	Barlıq jazılıwshılar bul tusqaǵazdı kóredi
+RestToDefaultBackground	Tusqaǵazdı alıp taslaw
+SetColorAsBackground	Reńdi tusqaǵaz etip ornatıw
+BotName	Bot atı
+BotUsernameHelp	Bul siltemeni ózgertip bolmaydı. Qosımsha paydalanıwshı atların *Fragment* te alıwıńız múmkin.
+PreviewWallpaperNight	Bul fondı túngi rejimde aldınnan kóriw.
+PreviewWallpaperDay	Bul fondı kúndizgi rejimde aldınnan kóriw.
+ViewWallpaperAction	Tusqaǵazdı kóriw
+RemoveWallpaperAction	Alıp taslaw
+WallpaperPreview	Tusqaǵaz
+WallpaperNotification	Jańa sáwbet tusqaǵazın ornattı
+WallpaperSameNotification	Sol sáwbet tusqaǵazın ornattı
+BotWebViewStartPermission2	Bul mini-qosımshanı iske túsiriw arqalı siz **Mini-qosımshalar ushın paydalanıw shártleri**ne kelisesiz.
+BotWebViewStartPermissionLink	https://telegram.org/tos/mini-apps
+MoreAboutThisBot	Bul bot haqqında kóbirek
+ChatThemeDaySwitchTooltip	Bul temanı kúndizgi rejimde kóriw ushın basıń.
+ChatThemeNightSwitchTooltip	Bul temanı túngi rejimde kóriw ushın basıń.
+BotWebAppInstantViewOpen	Qosımshanı ashıw
+RestorePremiumHintTitle	Premium dı **%1$d%%** ǵa shekem shegirme menen qaytarıń
+RestorePremiumHintMessage	Telegram Premium ıńızdıń múddeti jaqında tamamlandı. Onı uzaytıw ushın usı jerdi basıń.
+ReplyPrivately	Jeke juwap beriw...
+ReplyToGroupStory	Storiske pikir jazıw...
+SelfStoryTitle	Meniń storisim
+Stories_one	%d storis
+Stories_other	%d storis
+NewStories_one	%d jańa storis
+NewStories_other	%d jańa storis
+DeleteStoryTitle	Storisti óshiriw
+DeleteStorySubtitle	Bul storisti óshiriwdi anıq qáleysiz be?
+DeleteStoriesTitle	Storislerdi óshiriw
+DeleteStoriesSubtitle_one	%d storisti óshiriwdi anıq qáleysiz be?
+DeleteStoriesSubtitle_other	%d storisti óshiriwdi anıq qáleysiz be?
+StoryEditing	Ózgeris júklenbekte…
+NobodyViews	Ele kóriwler joq
+NobodyViewsArchived	Kóriwler qoljetimsiz
+StoryUploadError	Storisti júklewde qátelik
+MyStory	Meniń storisim
+UploadingStory	Júklenbekte…
+FailedStory	Sátsiz
+FailedToUploadStory	júklep bolmadı
+StoryError	Júklep bolmadı
+TryAgain	Qaytadan urınıw
+Story	Storis
+StoryStatistics	Storis statistikası
+PostStatistics	Post statistikası
+MessageSent	Xabar jiberildi.
+RightNow	Házir ǵana
+ExpiredStory	Múddeti ótken storis
+ProfileStories	Postlar
+ProfileArchivedStories	Arxivlengen postlar
+ReactionSent	Reakciya jiberildi.
+MyProfile	Meniń profilim
+ProfileMyStoriesTab	Saqlanǵan
+ProfileMyStoriesCount_one	%d saqlanǵan storis
+ProfileMyStoriesCount_other	%d saqlanǵan storis
+ProfileMyStories	Meniń storislerim
+ProfileStoriesArchive	Storisler arxivi
+ProfileStoriesArchiveTab	Arxiv
+ProfileStoriesArchiveHint	Arxivlengen storislerdi profilińizge saqlawdı tańlamasańız, olardı tek siz kóre alasız.
+ProfileStoriesArchiveChannelHint	Arxivlengen storislerdi kanal profiline jaylastırıwdı tańlamasańız, olardı tek administratorlar kóre aladı.
+ProfileStoriesArchiveGroupHint	Arxivlengen storisler topar betine jaylastırılmasa, olardı tek topar administratorları kóre aladı.
+ProfileStoriesArchiveCount_one	%d arxivlengen storis
+ProfileStoriesArchiveCount_other	%d arxivlengen storis
+ProfileStoriesCount_one	%d ashıq storis
+ProfileStoriesCount_other	%d ashıq storis
+ProfileStoriesCountZero	storisler joq
+StoriesSelected_one	%d tańlandı
+StoriesSelected_other	%d tańlandı
+MessagesSelected_one	%d tańlandı
+MessagesSelected_other	%d tańlandı
+StoryLive	Efir
+StoryPhoto	Súwret
+StoryVideo	Video
+StoryPrivacyNone	Hesh kim
+StoryPrivacyRecipients_one	%d alıwshı
+StoryPrivacyRecipients_other	%d alıwshı
+StoryPrivacyEveryone	Hámme
+StoryPrivacyEveryoneExclude_one	Hámme (-%d)
+StoryPrivacyEveryoneExclude_other	Hámme (-%d)
+StoryPrivacyCloseFriends	Jaqın doslar
+StoryPrivacyAllContacts	Kontaktlar
+StoryPrivacyContacts_one	%d kontakt
+StoryPrivacyContacts_other	%d kontakt
+StoryPrivacyContactsExclude_one	Kontaktlar (-%d)
+StoryPrivacyContactsExclude_other	Kontaktlar (-%d)
+StoryPrivacyAlertTitle	Storis penen bólisiw
+StoryLivePrivacyAlertTitle	Tikkeley efirdi baslaw
+StoryPrivacyAlertEditTitle	Qupıyalıq sazlamaların ózgertiw
+StoryPrivacyAlertSubtitle_one	Storisińizdi kim kóre alatuǵının tańlań
+StoryPrivacyAlertSubtitle_other	Storisińizdi kim kóre alatuǵının tańlań
+StoryPrivacyAlertSubtitleProfile	Storisińizdi kim kóre alatuǵının tańlań
+StoryLivePrivacyAlertSubtitleProfile	Tikkeley efirińizdi kim kóre alatuǵının tańlań
+StoryPrivacyAlertCloseFriendsTitle	Jaqın doslar
+StoryPrivacyAlertCloseFriendsSubtitle	Jaqın doslardı tańlań
+StoryPrivacyAlertExcludedContactsTitle	Shıǵarıp taslanǵan kontaktlar
+StoryPrivacyAlertExcludedContactsSubtitle	Kontaktlardı shıǵarıp taslaw
+StoryPrivacyAlertSelectContactsTitle	Kontaktlardı tańlaw
+StoryPrivacyAlertSelectContactsSubtitle	Kontaktlardı tańlań
+StoryPrivacyAlertAsMessageTitle	Xabar retinde jiberiw
+StoryPrivacyAlertAsMessageSubtitle	Alıwshılardı tańlań
+StoryPrivacyAlertBlocklistTitle	Storislerimdi kimnen jasırıw
+StoryPrivacyAlertBlocklistSubtitle	Adamlardı tańlań
+StoryPrivacyAlertExcludeFromEveryoneTitle	Hámme, tek…
+StoryPrivacyAlertExcludeFromEveryoneSubtitle	Kontaktlardı shıǵarıp taslaw
+StoryHideFrom	Storislerimdi %s tan jasırıw
+StoryShowBackTo	Storislerimdi %s tan jasırmaw
+StoryPrivacyButtonSave	Sazlamalardı saqlaw
+StoryPrivacyButtonPost	Storisti jaylastırıw
+StoryLivePrivacyButtonPost	Tikkeley efirdi baslaw
+StoryPrivacyButtonPostMultiple_one	%d storisti jaylastırıw
+StoryPrivacyButtonPostMultiple_other	%d storisti jaylastırıw
+StoryPrivacyButtonSaveCloseFriends	Dizimdi saqlaw
+StoryPrivacyButtonExcludeContacts	Kontaktlardı shıǵarıp taslaw
+StoryPrivacyOptionEveryone	Hámme
+StoryPrivacyOptionContacts	Kontaktlar
+StoryPrivacyOptionContactsDetail	adamlardı shıǵarıp taslaw
+StoryPrivacyOptionCloseFriends	Jaqın doslar
+StoryPrivacyOptionCloseFriendsDetail	dizimdi ózgertiw
+StoryPrivacyOptionSelectedContacts	Tańlanǵan kontaktlar
+StoryPrivacyOptionSelectedContactsDetail	dizimdi ózgertiw
+StoryPrivacyOptionPeople_one	%d adam
+StoryPrivacyOptionPeople_other	%d adam
+StoryPrivacyOptionExcludePerson	%s tan basqa
+StoryPrivacyOptionExcludePeople_one	%d adamnan basqa
+StoryPrivacyOptionExcludePeople_other	%d adamnan basqa
+StoryPrivacyHint	Storisińizdi kim kóre alatuǵının belgileń
+StoryHintPinchToZoom	Masshtablaw ushın eki barmaq penen qısıń
+StoryHintSwipeToZoom	Masshtablaw ushın sıpırıń
+SaveImage	Súwretti saqlaw
+SaveVideo	Videonı saqlaw
+SaveToProfile	Profilge saqlaw
+ArchiveStory	Storisti arxivlew
+ArchiveStories_one	Storisti arxivlew
+ArchiveStories_other	Storislerdi arxivlew
+HideStoriesFromAlbum_one	Storisti albomnan alıp taslaw
+HideStoriesFromAlbum_other	Storislerdi albomnan alıp taslaw
+EditStory	Storisti ózgertiw
+EditBotPreview	Aldınnan kóriwdi ózgertiw
+WhoCanSee	Kim kóre aladı
+VideoConvertFail	Video fayldı qayta islep bolmadı.
+PreparingVideo	Video tayarlanbaqta…
+PreparingSticker	Stiker tayarlanbaqta…
+NoStoriesTitle	Saqlanǵan storisler joq
+NoHashtagStoriesTitle	Storisler tabılmadı
+NoPublicStoriesTitle2	Ele postlar joq…
+NoStoriesSubtitle2	Profil betińizde kórsetiw ushın súwret hám videolardı járiyalań
+StoriesAddPost	Post qosıw
+NoArchivedStoriesTitle	Ele storisler joq…
+NoArchivedStoriesSubtitle	Bul jerde kóriw ushın jańa storis júkleń.
+StorySave	Profilge saqlaw
+StorySavedTitle_one	%d storis profilińizge saqlandı
+StorySavedTitle_other	%d storis profilińizge saqlandı
+StoryAddedToAlbumTitle_one	%d storis **%s** ǵa saqlandı
+StoryAddedToAlbumTitle_other	%d storis **%s** ǵa saqlandı
+StoryRemovedFromAlbumTitle_one	%d storis **%s** tan alıp taslandı
+StoryRemovedFromAlbumTitle_other	%d storis **%s** tan alıp taslandı
+StorySavedSubtitle	Saqlanǵan storislerdi siz alıp taslaǵanǵa shekem basqalar profilińizde kóre aladı.
+StoryArchived_one	%d storis profilińizden jasırıldı
+StoryArchived_other	%d storis profilińizden jasırıldı
+FoundStories_one	%d storis
+FoundStories_other	%d storis
+OpenLink	Siltemeni ashıw
+StorySharedToEveryone	Bul storis hámmege kórsetiledi.
+StorySharedToCloseFriends	Bul storis jaqın doslarıńızǵa kórsetiledi.
+StorySharedToAllContacts	Bul storis barlıq kontaktlarıńızǵa kórsetiledi.
+StorySharedToAllContactsExcluded_one	Bul storis kontaktlarıńızǵa kórsetiledi (%d adamnan basqa).
+StorySharedToAllContactsExcluded_other	Bul storis kontaktlarıńızǵa kórsetiledi (%d adamnan basqa).
+StorySharedToContacts_one	Bul storis %d kontaktqa kórsetiledi.
+StorySharedToContacts_other	Bul storis %d kontaktqa kórsetiledi.
+StoryPinnedToProfile	Bul storis profilińizge bekitildi.
+StoryPinnedToPosts	Storis kanal profiline saqlandı
+StoryArchivedFromProfile	Bul storis profilińizden jasırıldı.
+StoryUnpinnedFromPosts	Storis kanal profilinen alıp taslandı
+StoryAddedToAlbumX	Bul storis **%s** albomına qosıldı.
+StoryRemovedFromAlbumX	Bul storis **%s** albomınan alıp taslandı.
+StoryDraft	Shımtıq
+StoryDraftsAlbum	Shımtıqlar
+StoryKeepDraft	Shımtıqtı saqlap qalıw
+StorySaveDraft	Shımtıqtı saqlaw
+StoryDeleteDraft	Shımtıqtı óshiriw
+ShowInChats	Sáwbetlerde kórsetiw
+ForwardedStory	Jiberilgen storis
+ForwardedStoryFrom	**%s** tan
+UniqueGiftFrom	**%s** tan
+StoryPeriodHint	Storis qansha waqıt kórinetuǵının tańlań.
+StoryPeriodKeep	Bárqulla saqlaw
+TimerPeriodHint	Media ashılǵannan keyin qansha waqıt saqlanatuǵının tańlań.
+TimerPeriodDoNotDelete	Óshirmew
+TimerPeriodOnce	Bir ret kóriw
+StoriesMovedToContacts	**%s** storisleri **Arxiv**ke kóshirildi.
+StoriesMovedToDialogs	**%s** storisleri **Sáwbetler**ge kóshirildi.
+StoryShared	Storis bólisildi
+AddStory	Storis qosıw
+StoryDrafts_one	%d shımtıq
+StoryDrafts_other	%d shımtıq
+StorySoundMuted	Dawıs endi óshirilgen.
+StorySoundNotMuted	Dawıs endi qosılǵan.
+StoryOriginalSoundMuted	Original audio alıp taslanadı.
+StoryOriginalSoundNotMuted	Original audio saqlanadı.
+StoryDraftSaved	Shımtıq saqlandı
+StoryUploading	Storis júklenbekte…
+NotificationStory	%s siz benen storis bólisti
+NotificationChatStory	%s toparǵa storis bólisti
+NotificationChannelStory	%s storis bólisti
+StoriesSoundEnabled	Storisler
+ViewStory	Storisti kóriw
+StoryPeriodPremium_one	Storislerińiz %d saattan keyin joǵalıwı ushın **Telegram Premium** ǵa jazılıń.
+StoryPeriodPremium_other	Storislerińiz %d saattan keyin joǵalıwı ushın **Telegram Premium** ǵa jazılıń.
+StoryUnsupported	Bul storis sizdegi Telegram versiyasında qollap-quwatlanbaydı.
+StoryReplyDisabled	Bul storiske juwap bere almaysız
+StorySharedTo	Storis **%s** ǵa jiberildi.
+StorySharedToSavedMessages	Storis **Saqlanǵan xabarlar**ǵa jiberildi
+StorySharedToManyChats_one	Storis **sáwbetke** jiberildi.
+StorySharedToManyChats_other	Storis **%1$d sáwbetke** jiberildi.
+LinkSharedToSavedMessages	Silteme **Saqlanǵan xabarlar**ǵa jiberildi
+LinkSharedTo	Silteme **%s** ǵa jiberildi.
+LinkSharedToManyChats_one	Silteme **sáwbetke** jiberildi.
+LinkSharedToManyChats_other	Silteme **%1$d sáwbetke** jiberildi.
+StoryNotFound	Bul storis endi qoljetimsiz
+StoryAlbumNotFound	Bul albom endi qoljetimsiz
+StoryNotificationHidden_one	%d storis jaylastırıldı
+StoryNotificationHidden_other	%d storis jaylastırıldı
+StoryNotificationSingle	storis jaylastırdı
+StoryNotification1_one	storis jaylastırdı
+StoryNotification1_other	%d storis jaylastırdı
+StoryNotification2	%1$s hám %2$s jaylastırdı
+StoryNotification3	%1$s, %2$s hám %3$s jaylastırdı
+StoryNotification4_other	%2$s, %3$s hám jáne %1$d adam jaylastırdı
+StoryLiveNotificationSingle	tikkeley efirdi basladı!
+StoryNotificationMention	storiste sizdi atap ótti
+StoryUnavailable	Storis qoljetimsiz
+StoryExpiredSubtitle	Bul storistiń múddeti ótken
+AutoDownloadStories	Storisler
+AutoDownloadOn	Qosılǵan
+HiddenStories	Jasırın storisler
+StoryMentionInDialog	Storiste sizdi atap ótti
+StoryYouMentionInDialog	Siz %s ti atap óttińiz
+NotificationStories	Storisler
+NotificationEnabled	Qosılǵan
+NotificationEnabledAutomatically	Avtomat qosılǵan
+NotificationDisabled	Óshirilgen
+NoViewsStub	Bul storisti házirshe hesh kim kórmedi.
+NoReactionsStub	Bul storiske házirshe hesh kim reakciya qaldırmadı.
+StoryCloseFriendsHint	Siz bul storisti kórip atırsız, sebebi **%s** sizdi Jaqın doslar dizimine qosqan
+StorySelectedContactsHint	Bul storisti tek **%s** tańlaǵan ayırım kontaktlar kóre aladı.
+StoryContactsHint	Bul storisti tek **%s** tiń kontaktları kóre aladı.
+ExpiredViewsStub	Storis múddeti tamamlanǵannan **24 saat** ótkennen keyin kóriwshiler dizimi qoljetimsiz boladı.
+ArchivedStories	Arxivlengen storisler
+SavedStories	Saqlanǵan storisler
+RecorderNewStory	Jańa storis
+RecorderEditCover	Storis muqabası
+RecorderEditStory	Ózgertiw
+RecorderRepost	Repost
+StoryLiveAllowComments	Pikirlerge ruqsat beriw
+StoryAllowScreenshots	Skrinshotlarǵa ruqsat beriw
+StoryBlockListEmpty	Storislerińizdi kórmeytuǵın **adamlardı tańlań**.
+StoryBlockList_one	**%d adam** storislerińizdi kórmeydi.
+StoryBlockList_other	**%d adam** storislerińizdi kórmeydi.
+StoryLiveBlockListEmpty	Efirińizdi kórmeytuǵın **adamlardı tańlań**.
+StoryLiveBlockList_one	**%d adam** storislerińizdi kórmeydi.
+StoryLiveBlockList_other	**%d adam** storislerińizdi kórmeydi.
+StoryKeep	Betimde saqlaw
+StoryKeepInfo_one	Bul storisti %d saattan keyin múddeti tamamlansa da betińizde saqlaw. Qupıyalıq sazlamaları qollanıladı.
+StoryKeepInfo_other	Bul storisti %d saattan keyin múddeti tamamlansa da betińizde saqlaw. Qupıyalıq sazlamaları qollanıladı.
+StoryLiveKeepInfo	Bul efirdi profilińizde saqlaw.
+StoryLiveKeepGroupInfo	Bul efirdi topar profilinde saqlaw.
+StoryLiveKeepChannelInfo	Bul efirdi kanal profilinde saqlaw.
+StoryKeepChannel	Kanal betine jaylastırıw
+StoryKeepGroup	Topar betine jaylastırıw
+StoryKeepGroupInfo_one	Bul storisti %d saattan keyin múddeti tamamlansa da topar betinde saqlaw.
+StoryKeepGroupInfo_other	Bul storisti %d saattan keyin múddeti tamamlansa da topar betinde saqlaw.
+StoryKeepChannelInfo_one	Bul storisti %d saattan keyin múddeti tamamlansa da kanal betinde saqlaw.
+StoryKeepChannelInfo_other	Bul storisti %d saattan keyin múddeti tamamlansa da kanal betinde saqlaw.
+StoryEnabledScreenshots	Bul storis ushın júklew hám skrinshot alıw qosıladı.
+StoryEnabledScreenshotsShare	Bul storis ushın júklew, bólisiw hám skrinshot alıw qosıladı.
+StoryDisabledScreenshots	Bul storis ushın júklew hám skrinshot alıw óshiriledi.
+StoryDisabledScreenshotsShare	Bul storis ushın júklew, bólisiw hám skrinshot alıw óshiriledi.
+StoryEnableKeep	Storisińizdi kóriwge ruqsatı bar paydalanıwshılar múddeti tamamlanǵannan keyin onı betińizde kóredi.
+StoryChannelEnableKeep	Storisińizdi kóriwge ruqsatı bar paydalanıwshılar múddeti tamamlanǵannan keyin onı kanalda kóredi.
+StoryDisableKeep	Storis múddeti tamamlanǵannan keyin joǵaladı.
+StoryChannelDisableKeep	Storis múddeti tamamlanǵannan keyin joǵaladı.
+StoryRestrictions	Qupıyalıq sheklewleri
+StoryRestrictionsInfo	Storisińizdiń qupıyalıq sazlamaları siz belgilegen ayırım paydalanıwshılarǵa (%s) onı kóriwge jol qoymaydı.
+StoryCameraHint	Kontaktlarıńız ushın storis jaylastırıw ushın %s ti basıń.
+StoryCameraHint2	Barlıq kontaktlarıńız yamasa jaqın doslarıńız benen birden bólisiw ushın súwret yamasa video túsiriń.
+StoryCameraDualHint	Eki kameranı birden qosıw
+StoryCollageRemoveGrid	Tordı alıp taslaw ushın basıń
+StoryCollageMenuHint	Tártibin ózgertiw ushın plitkalardı basıp turıp súyreń.
+StoryCollageReorderHint	Tártibin ózgertiw ushın plitkanı súyrewińiz múmkin
+StoryMentionedTitle	**%s** storiste sizdi atap ótti.
+StoryMentionedAction	Storisti kóriw
+ExpiredStoryMention	Siz atap ótilgen storis endi qoljetimsiz
+ExpiredStoryMentioned	Siz %s ti atap ótken storis endi qoljetimsiz
+StoryYouMentionedTitle	Siz storiste %s ti atap óttińiz.
+FilterStories	Storisler
+CachedStory	keshlengen storis
+LocalStoriesCache	Storisler
+StoryNoSound	Bul videoda dawıs joq
+StoryTapToSound	Dawıstı qosıw ushın usı jerdi basıń
+TrashHintDrag	Óshiriw ushın súyreń
+TrashHintRelease	Óshiriw ushın jiberiń
+TextPlaceholder	Tekst qosıń
+StoryContainsStickers_one	Bul storiste **%d toplamnan** stikerler bar.
+StoryContainsStickers_other	Bul storiste **%d toplamnan** stikerler bar.
+StoryContainsStickersFrom	Bul storiste %s toplamınan stikerler bar.
+StoryContainsEmoji_other	Bul storiste **%d toplamnan** emoji bar.
+StoryContainsEmojiFrom	Bul storiste %s toplamınan emoji bar.
+StoryContainsStickersEmoji_one	Bul storiste **%d toplamnan** emoji hám stikerler bar.
+StoryContainsStickersEmoji_other	Bul storiste **%d toplamnan** emoji hám stikerler bar.
+StoryContainsStickersEmojiFrom	Bul storiste %s toplamınan emoji hám stikerler bar.

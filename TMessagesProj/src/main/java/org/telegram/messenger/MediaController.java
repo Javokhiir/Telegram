@@ -490,6 +490,7 @@ public class MediaController implements AudioManager.OnAudioFocusChangeListener,
         public String coverPath;
         public String imagePath;
         public String filterPath;
+        public String cleanupPath;
         public String paintPath;
         public String croppedPaintPath;
         public String fullPaintPath;
@@ -533,6 +534,7 @@ public class MediaController implements AudioManager.OnAudioFocusChangeListener,
             coverPhotoParentObject = null;
             thumbPath = null;
             filterPath = null;
+            cleanupPath = null;
             imagePath = null;
             paintPath = null;
             fullPaintPath = null;
@@ -556,6 +558,7 @@ public class MediaController implements AudioManager.OnAudioFocusChangeListener,
             thumbPath = state.thumbPath;
             imagePath = state.imagePath;
             filterPath = state.filterPath;
+            cleanupPath = state.cleanupPath;
             paintPath = state.paintPath;
             croppedPaintPath = state.croppedPaintPath;
             fullPaintPath = state.fullPaintPath;

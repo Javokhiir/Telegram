@@ -1265,6 +1265,9 @@ public class StoryViewer implements NotificationCenter.NotificationCenterDelegat
 
                 @Override
                 public void onPeerSelected(long dialogId, int position) {
+                    if (lastDialogId != 0 && lastDialogId != dialogId) {
+                        maybeShowStoryAd();
+                    }
                     if (lastPosition != position || lastDialogId != dialogId) {
                         lastDialogId = dialogId;
                         lastPosition = position;
@@ -2235,8 +2238,33 @@ public class StoryViewer implements NotificationCenter.NotificationCenterDelegat
         onCloseListener = listener;
     }
 
+    /* U message: brand story between people's stories, every N peer switches (N set in the admin panel). */
+    private UMessageStoryAdView storyAd;
+    private int peerSwitches;
+
+    private void maybeShowStoryAd() {
+        if (storyAd != null || containerView == null || ++peerSwitches % org.telegram.messenger.UMessageAds.storyEvery() != 0) {
+            return;
+        }
+        final org.telegram.messenger.UMessageAds.Ad ad = org.telegram.messenger.UMessageAds.forPage("story" + peerSwitches, org.telegram.messenger.UMessageAds.PLACEMENT_STORY);
+        if (ad == null) {
+            return;
+        }
+        final UMessageStoryAdView view = new UMessageStoryAdView(containerView.getContext(), ad, () -> {
+            if (storyAd != null && storyAd.getParent() != null) {
+                ((android.view.ViewGroup) storyAd.getParent()).removeView(storyAd);
+            }
+            storyAd = null;
+            updatePlayingMode();
+        });
+        storyAd = view;
+        containerView.addView(view, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+        updatePlayingMode();
+    }
+
     public boolean isPaused() {
         return (
+            storyAd != null ||
             isPopupVisible ||
             isTranslating ||
             isBulletinVisible ||
@@ -2668,6 +2696,12 @@ public class StoryViewer implements NotificationCenter.NotificationCenterDelegat
     }
 
     public void close(boolean backAnimation) {
+        if (storyAd != null) {
+            if (storyAd.getParent() != null) {
+                ((android.view.ViewGroup) storyAd.getParent()).removeView(storyAd);
+            }
+            storyAd = null;
+        }
         AndroidUtilities.hideKeyboard(windowView);
         isClosed = true;
         invalidateOutRect = true;
@@ -2705,6 +2739,10 @@ public class StoryViewer implements NotificationCenter.NotificationCenterDelegat
 
     @Override
     public boolean onAttachedBackPressed() {
+        if (storyAd != null) {
+            storyAd.finish();
+            return true;
+        }
         if (selfStoriesViewsOffset != 0) {
             if (selfStoryViewsView.onBackPressed()) {
                 return true;

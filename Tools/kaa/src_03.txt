@@ -1,0 +1,572 @@
+PromoteUrl	https://ads.telegram.org
+InstantViewReference	Reference
+InstantViewReferences	References
+IsSendingGame	%1$s is playing a game...
+IsSelectingLocation	%1$s is selecting location to share...
+IsSelectingContact	%1$s is selecting contact to share...
+IsSendingVideo	%1$s is sending video...
+IsRecordingVideo	%1$s is recording video...
+IsSendingFile	%1$s is sending file...
+RecordingAudio	recording a voice message...
+RecordingRound	recording a video message...
+SendingAudio	sending audio...
+SendingPhoto	sending a photo...
+SendingGame	playing a game...
+SelectingLocation	selecting a location to share...
+SelectingContact	selecting a contact to share...
+SendingVideoStatus	sending a video...
+RecordingVideoStatus	recording a video...
+SendingFile	sending a file...
+GotAQuestion	Got a question\nabout Telegram?
+ChatGallery	Gallery
+ChatLocation	Location
+ChatSticker	Sticker
+ChatLink	Link
+ChatEmoji	Emoji
+ChatDocument	File
+NoMessages	No messages here yet...
+NoScheduledMessages	No scheduled messages yet...
+From	From
+FromFormatted	From %1$s
+SearchFrom	from:
+NoRecent	No recent
+Message	Message
+TypeMessage	Message
+TypeMessageIn	Message in %1$s
+TypeMessageForStars	Message for ⭐️%s
+ShareMyPhone	SHARE MY PHONE NUMBER
+ShareMyPhoneNoCaps	Share my phone number
+ShareMyContactInfo	Share my contact
+AddToContacts	Add to contacts
+EncryptedPlaceholderTitleIncoming	%s invited you to join a secret chat.
+EncryptedPlaceholderTitleOutgoing	You have invited %s to join a secret chat.
+EncryptedDescriptionTitle	Secret chats:
+EncryptedDescription1	Use end-to-end encryption
+EncryptedDescription2	Leave no trace on our servers
+EncryptedDescription3	Have a self-destruct timer
+EncryptedDescription4	Do not allow forwarding
+YouWereKicked	you were removed
+YouLeft	You left this group
+DeleteThisGroup	Delete this group
+DeleteThisChat	Delete this chat
+DeleteThisChatBothSides	Delete this chat
+DeleteTheseChatsBothSides	Delete chats
+SlideToCancel2	Slide to cancel
+CancelRound	Cancel
+SaveToDownloads	Save to downloads
+SaveToGIFs	Save to GIFs
+SaveToMusic	Save to music
+ShareFile	Share
+ApplyLocalizationFile	Apply localization file
+ApplyThemeFile	Apply theme file
+UnsupportedAttachment	Unsupported attachment
+SetTimer	Set self-destruct timer
+ServiceNotifications	Service notifications
+VerifyCodesNotifications	Verification Codes
+GettingLinkInfo	Getting Link Info...
+OpenInBrowser	OPEN IN...
+OpenInExternalApp	Open in...
+PipMinimize	Minimize
+QualitySaveIn	Save in %dp
+QualityCached	・cached
+VideoPlayerSpeed	Speed
+VideoPlayerLoop	Loop
+VideoPlayerChromecast	Chromecast
+SendAsFile	Send as file
+SendAsFiles	Send as files
+OpenUrlTitle	Open Link
+OpenUrlAlert2	Do you want to open %1$s?
+OpenUrlOption1	Log in to %1$s as **%2$s**
+OpenUrlOption2	Allow **%1$s** to send me messages
+CancelSending	Cancel sending
+BotPermissionGameAlert	Allow %1$s to pass your Telegram name and id (not your phone number) to pages you open with this bot?
+ReportUnrelatedGroup	Report unrelated group
+ReportUnrelatedGroupText	Please let us know if this group is not related to this location:\n\n**%1$s**
+ReportUnrelatedGroupTextNoAddress	Please let us know if this group is not related to this location.
+ReportSpamTitle	Report spam
+BlockUserTitle	Block %1$s
+ViewContact	VIEW CONTACT
+SharedContactAdd	ADD
+SharedContactMessage	MESSAGE
+ReportSpamLocationNoCaps	Group unrelated to location?
+AddContactFullChatNoCaps	Add %1$s to Contacts
+AddContactChatNoCaps	Add Contact
+ReportSpamUserNoCaps	Block User
+ReportSpamNoCaps	Report Spam
+ReportSpamAndLeaveNoCaps	Report Spam and Leave
+BlockUserAlert	Do you want to block **%1$s** from messaging and calling you on Telegram?
+BlockUserReplyAlert	Do you want to block messages from **%1$s**?
+ReportSpamAlert	Are you sure you want to report spam from this user?
+ReportSpamAlertGroup	Are you sure you want to report spam from this group?
+ReportSpamAlertChannel	Are you sure you want to report spam from this channel?
+ReportReaction2	Report Reaction
+DeleteReactionMenu	Delete Reaction
+ReportAlertReaction	Are you sure you want to report reaction from this user?
+DeleteAlertReaction	Are you sure you want to delete reaction from this user?
+DeleteAlertReactionAll	Delete all user reactions
+NobodyLikesSpam1	Sorry, you can only send messages to mutual contacts at the moment.
+NobodyLikesSpam2	Sorry, you can only add mutual contacts to groups at the moment.
+NobodyLikesSpam3	Sorry, you are currently restricted from posting to public groups.
+MoreInfo	More info
+ShareSendTo	Send to...
+ShareSendToNewTopic	Send to new topic
+ShareSendToOffTopic	Send to off topic
+ShareSendPhoto	Send photo
+ShareSendVideo	Send video
+ShareSendPhotos_one	Send %1$d photo
+ShareSendPhotos_other	Send %1$d photos
+ShareSendVideos_one	Send %1$d video
+ShareSendVideos_other	Send %1$d videos
+ShareSendItems_one	Send %1$d media
+ShareSendItems_other	Send %1$d media
+ShareSendToChats	To %s
+ShareSendToMany_one	To %1$d chat
+ShareSendToMany_other	To %1$d chats
+ShareTapToEditMedia	Tap here to edit media
+ShareComment	Write a comment...
+TapHereGifs	Tap here to access saved GIFs
+TapHereEmoji	Tap %1$s to access more emoji.
+PinMessage	Pin
+PinNotify	Notify all members
+PinAlsoFor	Also pin for %1$s
+UnpinMessage	Unpin
+PinMessageAlertTitle	Pin message
+UnpinMessageAlertTitle	Unpin message
+PinOldMessageAlert	Do you want to pin an older message while leaving a more recent one pinned?
+PinMessageAlert	Do you want to pin this message for all members in the group?
+PinMessageAlertChannel	Do you want to pin this message in this channel?
+PinMessageAlertChat	Do you want to pin this message at the top of the chat?
+UnpinMessageAlert	Do you want to unpin this message?
+DeleteBan	Ban %1$s
+DeleteBanUsers	Ban users
+DeleteRestrict	Restrict %1$s
+DeleteRestrictUsers	Restrict users
+DeleteReportSpam	Report spam
+TranslateMessage	Translate
+HideTranslation	Hide Translation
+AutomaticTranslation	Automatic Translation
+CloseTranslation	Close Translation
+TranslationFailedAlert1	Translation failed. Try again later.
+TranslationFailedAlert2	Translation failed.
+DeleteAllFrom	Delete all from %1$s
+DeleteAllFromUsers	Delete all from users
+DeleteAllMessagesFrom	Delete all messages from %1$s
+DeleteAllMessagesFromUsers	Delete all messages from users
+DeleteAllReactionsFrom	Delete all reactions from %1$s
+DeleteAllReactionsFromUsers	Delete all reactions from users
+DeleteOptionsTitle_one	Delete %1$d Message?
+DeleteOptionsTitle_other	Delete %1$d Messages?
+DeleteReactionOptionsTitle_one	Delete %d Reaction?
+DeleteReactionOptionsTitle_other	Delete %d Reactions?
+DeleteReactionOptionsTitleAll	Delete All Reactions?
+DeleteMessagesOptionsTitleAll	Delete All Messages?
+DeleteAdditionalActions	Additional actions
+DeleteToggleBanUsers	Fully ban users
+DeleteToggleBanUser	Fully ban this user
+DeleteToggleRestrictUsers	Partially restrict users
+DeleteToggleRestrictUser	Partially restrict this user
+DeleteProceedBtn	Proceed
+MessagesDeleted	Messages Deleted
+ReactionsDeleted	Reactions Deleted
+UsersReported_one	%1$d user reported for spam.
+UsersReported_other	%1$d users reported for spam.
+UsersBanned_one	%1$d user banned.
+UsersBanned_other	%1$d users banned.
+UsersRestricted_one	%1$d user restricted.
+UsersRestricted_other	%1$d users restricted.
+ClearRecentEmojiTitle	Clear recent emoji
+ClearRecentEmojiText	Do you want to clear all your recent emoji?
+ClearRecentEmojiStatusesTitle	Clear recent statuses
+ClearRecentEmojiStatusesText	Do you want to clear your recent emoji statuses and reset suggestions?
+Emoji1	Smileys and people
+Emoji2	Animals and nature
+Emoji3	Food and drink
+Emoji4	Activity
+Emoji5	Travel and places
+Emoji6	Objects
+Emoji7	Symbols
+Emoji8	Flags
+ReportSelectMessages	Select messages
+ReportMessages	REPORT MESSAGES
+ReportMessagesNoCaps	Report Messages
+ReportMessagesCount	REPORT %1$s
+ReportMessagesCountNoCaps	Report %1$s
+ReportChat	Report
+ReportBot	Report
+ReportProfilePhoto	Report
+ReportChatSent	Report sent
+ReactionDeleteSent	Reaction deleted
+ReportTitleSpam	Report Spam
+ReportTitleFake	Report Fake
+ReportTitlePornography	Report Pornography
+ReportTitleChild	Report Child Abuse
+ReportTitleViolence	Report Violence
+ReportInfo	Please enter any additional details relevant to your report.
+ReportHint	Additional details...
+ReportSend	Send Report
+ReportSentInfo	Telegram moderators will study your report.\nThank you for your cooperation!
+ReportChatSpam	Spam
+ReportChatFakeAccount	Fake Account
+ReportChatViolence	Violence
+ReportChatPornography	Pornography
+ReportChatChild	Child Abuse
+ReportChatOther	Other
+ReportChatDescription	Description
+DescriptionMore	more
+PinnedMessage	Pinned Message
+PinnedCall	Pinned Call
+PreviousPinnedMessage	Previous Message
+EditedMessage	edited
+EditMessage	Edit Message
+EditCaption	Edit Caption
+EditMessageMedia	Tap to edit media
+AddMessageMedia	Tap to add media
+EditMessageEditPhoto	Edit this photo
+EditMessageEditVideo	Edit this video
+EditMessageReplacePhoto	Replace photo
+EditMessageReplaceVideo	Replace video
+EditMessageReplaceGif	Replace media
+EditMessageReplaceFile	Replace file
+EditMessageReplaceAudio	Replace audio file
+TimeToEdit	%1$s
+TimeToEditExpired	Sorry, editing time expired.
+AddShortcut	Add to Home screen
+SearchMembers	Search members
+ChatYourSelf	forward here to save
+SavedMessagesViewAsChatsHint	tap to view as chats >
+SavedMessages	Saved Messages
+SavedMessagesInfo	Forward here to save.
+SavedMessagesInfoQuote	Quote here to save.
+ChatYourSelfName	You
+GroupEmptyTitle1	You have created a **group**.
+GroupEmptyTitle2	Groups can have:
+GroupDescription1	Up to 200,000 members
+GroupDescription2	Persistent chat history
+GroupDescription3	Public links such as t.me/title
+GroupDescription4	Admins with different rights
+ChatYourSelfDescription1	Forward messages here to save them
+ChatYourSelfDescription2	Send media and files to store them
+ChatYourSelfDescription3	Access this chat from any device
+ChatYourSelfDescription4	Use search to quickly find things
+ChatYourSelfTitle	Your cloud storage
+JumpToDate	Jump to Date
+DeleteForUser	Delete for %1$s
+DeleteForAll	Delete for all members
+TextCopied	Text copied to clipboard
+ExactTextCopied	"%s" copied to clipboard
+CodeCopied	Code copied to clipboard
+HoldToAudioOnly	Hold to record audio.
+HoldToAudio	Hold to record audio. Tap to switch to video.
+HoldToVideo	Hold to record video. Tap to switch to audio.
+DiscardVoiceMessageTitle	Discard Voice Message
+DiscardVoiceMessageDescription	Are you sure you want to stop recording and discard your voice message?
+DiscardVideoMessageTitle	Discard Video Message
+DiscardVideoMessageDescription	Are you sure you want to stop recording and discard your video message?
+DiscardVoiceMessageAction	Discard
+AttachContactsSlowMode	Slow Mode is active. You can\'t send more than 1 contact.
+AttachMediaRestricted	The admins of this group have restricted you from sending media here until %1$s
+AttachAudioRestricted	The admins of this group have restricted you from sending audio here until %1$s
+AttachPhotoRestricted	The admins of this group have restricted you from sending photo here until %1$s
+AttachRoundRestricted	The admins of this group have restricted you from sending video messages here until %1$s
+AttachVoiceRestricted	The admins of this group have restricted you from sending voice messages here until %1$s
+AttachVideoRestricted	The admins of this group have restricted you from sending video here until %1$s
+AttachDocumentsRestricted	The admins of this group have restricted you from sending documents here until %1$s
+AttachInlineRestricted	The admins of this group have restricted you from sending inline content here until %1$s
+AttachStickersRestricted	The admins of this group have restricted you from sending stickers here until %1$s
+AttachGifRestricted	The admins of this group have restricted you from sending GIFs here until %1$s
+AttachPlainRestricted	The admins of this group have restricted you from sending text message here until %1$s
+SendMessageRestricted	The admins of this group have restricted you from writing here until %1$s
+AttachMediaRestrictedForever	The admins of this group have restricted you from sending media here.
+AttachAudioRestrictedForever	The admins of this group have restricted you from sending audio here.
+AttachDocumentsRestrictedForever	The admins of this group have restricted you from sending documents here.
+AttachPhotoRestrictedForever	The admins of this group have restricted you from sending photo here.
+AttachRoundRestrictedForever	The admins of this group have restricted you from sending video messages here.
+AttachVoiceRestrictedForever	The admins of this group have restricted you from sending voice messages here.
+AttachVideoRestrictedForever	The admins of this group have restricted you from sending video here.
+AttachInlineRestrictedForever	The admins of this group have restricted you from sending inline content here
+AttachStickersRestrictedForever	The admins of this group have restricted you from sending stickers.
+AttachGifRestrictedForever	The admins of this group have restricted you from sending GIFs.
+AttachPlainRestrictedForever	The admins of this group have restricted you from sending text message.
+SendMessageRestrictedForever	The admins of this group have restricted you from writing here.
+VoiceMessagesRestrictedByPrivacy	**%1$s** doesn\'t accept voice messages.
+VideoMessagesRestrictedByPrivacy	**%1$s** doesn\'t accept video messages.
+GlobalAttachPlainRestricted	Sending plain text isn\'t allowed in this group.
+GlobalAttachDocumentsRestricted	Sending documents isn\'t allowed in this group.
+GlobalAttachMediaRestricted	Sending media isn\'t allowed in this group.
+GlobalAttachAudioRestricted	Sending music isn\'t allowed in this group.
+GlobalAttachPhotoRestricted	Sending photo isn\'t allowed in this group.
+GlobalAttachVideoRestricted	Sending video isn\'t allowed in this group.
+GlobalAttachVoiceRestricted	Sending voice isn\'t allowed in this group.
+GlobalAttachRoundRestricted	Sending round video isn\'t allowed in this group.
+GlobalAttachInlineRestricted	Inline bots aren\'t allowed in this group.
+GlobalAttachStickersRestricted	Stickers aren\'t allowed in this group.
+GlobalAttachGifRestricted	GIFs aren\'t allowed in this group.
+GlobalAttachEmojiRestricted	Text message aren\'t allowed in this group.
+GlobalSendMessageRestricted	Writing messages isn\'t allowed in this group.
+AttachMediaPreview	Message preview
+AttachMediaPreviewButton	Show preview
+AttachMediaPhotoDeselected	Photo deselected.
+AttachMediaVideoDeselected	Video deselected.
+AttachMediaDragHint	Drag media to reorder
+ChatAdmin	admin
+ChatTagAdmin	Admin
+ChatTagOwner	Owner
+ApkRestricted	APK installation is restricted for this app. You can enable this in system settings.
+UnreadMessages	Unread Messages
+SearchStickersHint	Search sticker sets
+SearchTrendingStickersHint	Search trending stickers
+SearchEmojiHint	Search emoji
+URL	URL
+MapPreviewProvider	Map Preview Provider
+MapPreviewProviderTitle	Map preview provider
+MapPreviewProviderTelegram	Telegram
+MapPreviewProviderGoogle	Google
+MapPreviewProviderYandex	Yandex
+MapPreviewProviderNobody	No previews
+InstallGoogleMaps	Install Google Maps?
+InstallHuaweiMaps	Install Petal Maps?
+ScamMessage	SCAM
+FakeMessage	FAKE
+ViaBot	via
+MessageNotFound	Message doesn\'t exist
+UniqueGiftNotFound	Gift was not found
+UniqueGiftNotFoundBurned	Gift has already been burned.
+GiftAuctionNotFound	Gift auction was not found
+SlowModeHint	Slow Mode is enabled. You can send\nyour next message in %1$s
+TapForVideo	Tap for photo, hold for video
+SendWithoutSound	Send without sound
+SendAsNewPhoto	Send as a new photo
+ReplacePhoto	Replace photo
+MessageScheduleSend	Send Now
+MessageSuggestionPublishNow	Publish Now
+MessageScheduleEditTime	Reschedule
+MessageScheduleToday	Today
+Schedule	Schedule
+ScheduleMessage	Schedule message
+ScheduleNotifyOnChannel	Subscribers will be notified
+ScheduleNotifyOffChannel	Subscribers will receive a silent notification
+ScheduleNotifyOnGroup	Members will be notified
+ScheduleNotifyOffGroup	Members will receive a silent notification
+ScheduleNotifyOnChat	%s will be notified
+ScheduleNotifyOffChat	%s will receive a silent notification
+ScheduleNotifyOnSelf	You will be notified
+ScheduleNotifyOffSelf	You will receive a silent notification
+ScheduledMessages	Scheduled Messages
+ScheduleWhenOnline	Send when %1$s comes online
+Reminders	Reminders
+SetReminder	Set a reminder
+MessageScheduledOn	Scheduled for %1$s
+MessageScheduledUntilOnline	Scheduled until online
+MessageScheduledLimitReached	Sorry, you can not schedule more than 100 messages.
+MessageScheduledBotAction	This action will become available after the message is published.
+MessageScheduledVote	Voting will become available after the message is published.
+MessageScheduledTodo	Checklist will become available after the message is published.
+MessageScheduledVoteResults	Poll results will become available after the message is published.
+MessageScheduledReminderNotification	&#128197; Reminder
+OneResult	1 result
+VideoQualityIsTooLow	Video quality is too low to change compression settings.
+TextSelectionHint	Hold the **word**, then move the cursor to select more text to quote or copy.
+CardNumberCopied	Card number copied to clipboard
+CopyCardNumber	Copy
+DiceInfo2	Send a **:dice:** emoji to any chat to roll a die.
+DartInfo	Send a **:darts:** emoji to try your luck.
+DiceEmojiInfo	Send a %1$s emoji to try your luck.
+SendDice	SEND
+PsaTypeDefault	PSA
+PsaInfoDefault	PSA info test
+PsaMessageDefault	Important Notification
+PsaMessageInfoDefault	This is an important notification.
+PsaHideChatAlertTitle	Hide chat
+PsaHideChatAlertText	Are you sure you want to hide the selected chat?
+PsaHide	Hide
+NoMessagesGreetingsDescription	Send a message or tap the greeting below.
+ChatDistanceToPeer	%1$s is %2$s
+ChatWasMovedToMainList	The chat was moved to your main list.
+SecretChatTimerDays	d
+SecretChatTimerMonths	m
+SecretChatTimerSeconds	s
+SecretChatTimerMinutes	m
+SecretChatTimerHours	h
+SecretChatTimerWeeks	w
+BotOwnershipTransfer	Transfer Bot Ownership
+BotOwnershipTransferReadyAlertText	This will transfer the **full owner** rights for the bot to the selected user.
+BotOwnershipTransferChangeOwner	Change Owner
+BotOwnershipTransferAlertText	You can transfer bot only if you have:
+LeaveAComment	Leave a comment
+CommentsTitle	Comments
+Comment	Comment
+CommentFor	Comment for ⭐️%s
+RepliesTitle	Replies
+MonoforumTitle	%1$s Messages
+MonoforumSpan	DIRECT
+NoComments	No comments here yet...
+NoReplies	No replies here yet...
+ViewInChat	View in chat
+SendAnonymously	Send anonymously
+SendBotNoThread	Off-thread message
+DiscussionStarted	Discussion started
+ViewThread	View Thread
+ChooseDate	Choose date
+RepliesChatInfo	This chat helps you keep track of replies to your comments in Channels.
+VerifyChatInfo	This chat is used to receive verification codes from third-party services.
+ChannelPostDeleted	Sorry, this post has been removed from the discussion group.
+UnpinAllMessages	UNPIN ALL MESSAGES
+UnpinAllMessagesNoCaps	Unpin all Messages
+HidePinnedMessages	HIDE PINNED MESSAGES
+HidePinnedMessagesNoCaps	Hide pinned Messages
+PinnedMessagesHidden	Pinned messages hidden
+PinnedMessagesHiddenInfo	You will see the bar with pinned messages only if a new message is pinned.
+ImportedMessage	Imported
+ImportFileTooLarge	Importing file is too large.
+ImportFailedToUpload	Failed to upload file.
+AudioSpeedNormal	Audio will play at normal speed.
+AudioSpeedCustom	Audio will play at %1$sx speed.
+AudioSpeedFast	Audio will play two times faster.
+MessageCopied	Message copied to clipboard.
+HintSent	Delivered
+HintRead	Read
+InvLinkToSavedMessages	Invite link sent to **Saved Messages**.
+InvLinkToGroup	Invite link sent to **%1$s**.
+InvLinkToUser	Invite link sent to **%1$s**.
+InvLinkToChats	Invite link sent to **%1$s**.
+FwdMessageToSavedMessages	Message forwarded to **Saved Messages**.
+FwdMessagesToSavedMessages	Messages forwarded to **Saved Messages**.
+FwdMessageToGroup	Message forwarded to **%1$s**.
+FwdMessagesToGroup	Messages forwarded to **%1$s**.
+FwdMessageToUser	Message forwarded to **%1$s**.
+FwdMessagesToUser	Messages forwarded to **%1$s**.
+FwdMessageToUserShort	Forwarded to **%1$s**.
+FwdMessagesToUserShort	Forwarded to **%1$s**.
+FwdMessageToManyChats_one	Message forwarded to **a chat**.
+FwdMessageToManyChats_other	Message forwarded to **%1$d chats**.
+FwdMessagesToManyChats_one	Messages forwarded to **a chat**.
+FwdMessagesToManyChats_other	Messages forwarded to **%1$d chats**.
+BackgroundToSavedMessages	Background shared to **Saved Messages**.
+BackgroundToGroup	Background shared to **%1$s**.
+BackgroundToUser	Background shared to **%1$s**.
+BackgroundToChats	Background shared to **%1$s**.
+HiddenSendersNameDescription	Sender names removed
+ForwardingFromNames	From %s
+NoWordsRecognized	No words recognized.
+RateTranscription	Rate transcription
+NotificationMessageGiftCode	%1$s sent you a Gift Code for %2$s of Telegram Premium
+NotificationMessageGiveaway	%1$s sent you a giveaway of %2$sx %3$sm Premium subscriptions
+NotificationMessageStarsGiveaway2	%1$s sent you a giveaway of %3$s stars %2$s
+NotificationMessageChannelGiveaway	%1$s posted a giveaway of %2$sx %3$sm Premium subscriptions
+NotificationMessageChannelStarsGiveaway2	%1$s posted a giveaway of %3$s stars %2$s
+NotificationMessageChatGiveaway	%1$s sent a giveaway of %3$sx %4$sm Premium subscriptions to the group %2$s
+NotificationMessageChatStarsGiveaway2	%1$s sent a giveaway of %4$s stars %3$s to the group %2$s
+AmongWinners_one	among %d winner
+AmongWinners_other	among %d winners
+NotificationPinnedGiveaway	%1$s pinned a giveaway
+NotificationReactGiveaway	%1$s reacted %2$s to your giveaway
+NotificationChatReactGiveaway	%1$s reacted %3$s in group %2$s to your giveaway
+MessageLifetimeChanged	%1$s set the self-destruct timer to %2$s
+MessageLifetimeChangedOutgoing	You set the self-destruct timer to %1$s
+MessageLifetimeRemoved	%1$s disabled the self-destruct timer
+MessageLifetimeYouRemoved	You disabled the self-destruct timer
+YouHaveNewMessage	You have a new message
+NotificationMessageScheduled	&#128197; You: %1$s
+NotificationMessageScheduledName	&#128197; You
+NotificationMessageText	%1$s: %2$s
+NotificationMessageStarGift_one	%2$s sent you a Gift worth of %1$d Star
+NotificationMessageStarGift_other	%2$s sent you a Gift worth of %1$d Stars
+NotificationMessageUniqueStarGift	%1$s transferred you a Gift!
+NotificationMessageUniqueStarGiftUpgrade	%1$s upgraded your Gift
+NotificationMessageUniqueStarGiftPrepaidUpgrade_one	%2$s sent an Upgrade worth %1$d Star for your gift
+NotificationMessageUniqueStarGiftPrepaidUpgrade_other	%2$s sent an Upgrade worth %1$d Stars for your gift
+NotificationMessageUniqueStarGiftUnpackUpgrade	%1$s unpacked the Gift that you helped upgrade
+NotificationMessageFew	%1$s sent you %2$s
+NotificationMessageAlbum	%1$s sent you an album
+NotificationMessageForwardFew	%1$s forwarded you %2$s
+NotificationMessageNoText	%1$s sent you a message
+NotificationMessagePhoto	%1$s sent you a photo
+NotificationMessageVideo	%1$s sent you a video
+NotificationMessageInvoice	%1$s sent you an invoice for %2$s
+NotificationMessageSDPhoto	%1$s sent you a self-destructing photo
+NotificationMessageSDVideo	%1$s sent you a self-destructing video
+NotificationMessageContact2	%1$s shared a contact %2$s with you
+NotificationMessagePoll2	%1$s sent you a poll %2$s
+NotificationMessageTodo2	%1$s sent you a checklist %2$s
+NotificationMessageQuiz2	%1$s sent you a quiz %2$s
+NotificationMessageMap	%1$s sent you a location
+NotificationMessageLiveLocation	%1$s sent you a live location
+NotificationMessageGame	%1$s invited you to play %2$s
+NotificationMessageGameScored	%1$s scored %3$s in game %2$s
+NotificationMessageDocument	%1$s sent you a file
+NotificationMessageGif	%1$s sent you a GIF
+NotificationMessageAudio	%1$s sent you a voice message
+NotificationMessageRound	%1$s sent you a video message
+NotificationMessageMusic	%1$s sent you an audio file
+NotificationMessageSticker	%1$s sent you a sticker
+NotificationMessageStickerEmoji	%1$s sent you a %2$s sticker
+NotificationMessageGroupText	%1$s @ %2$s: %3$s
+NotificationMessageGroupNoText	%1$s sent a message to the group %2$s
+NotificationMessageGroupPhoto	%1$s sent a photo to the group %2$s
+NotificationMessageGroupVideo	%1$s sent a video to the group %2$s
+NotificationMessageGroupPoll2	%1$s sent a poll %3$s to the group %2$s
+NotificationMessageGroupTodo2	%1$s sent a checklist %3$s to the group %2$s
+NotificationMessageGroupTodoDone2	%1$s toggled %3$s tasks in the group %2$s
+NotificationMessageGroupTodoAppend2	%1$s added %3$s tasks in the group %2$s
+NotificationMessageGroupQuiz2	%1$s sent a quiz %3$s to the group %2$s
+NotificationMessageGroupContact2	%1$s shared a contact %3$s in the group %2$s
+NotificationMessageGroupMap	%1$s sent a location to the group %2$s
+NotificationMessageGroupLiveLocation	%1$s shared a live location with the group %2$s
+NotificationMessageGroupGame	%1$s invited the group %2$s to play %3$s
+NotificationMessageGroupGameScored	%1$s scored %4$s in game %3$s in the group %2$s
+NotificationMessageGroupDocument	%1$s sent a file to the group %2$s
+NotificationMessageGroupGif	%1$s sent a GIF to the group %2$s
+NotificationMessageGroupInvoice	%1$s sent an invoice to the group %2$s for %3$s
+NotificationMessageGroupAudio	%1$s sent a voice message to the group %2$s
+NotificationMessageGroupRound	%1$s sent a video message to the group %2$s
+NotificationMessageGroupMusic	%1$s sent an audio file to the group %2$s
+NotificationMessageGroupSticker	%1$s sent a sticker to the group %2$s
+NotificationMessageGroupStickerEmoji	%1$s sent a %3$s sticker to the group %2$s
+NotificationMessageRecurringPay	%1$s were charged %2$s
+NotificationPaidMedia_one	%1$d ⭐️ media
+NotificationPaidMedia_other	%1$d ⭐️ media
+NotificationMessagePaidMedia_one	%2$s sent you a paid post for %1$d star
+NotificationMessagePaidMedia_other	%2$s sent you a paid post for %1$d stars
+NotificationChannelMessagePaidMedia_one	%2$s posted a paid post for %1$d star
+NotificationChannelMessagePaidMedia_other	%2$s posted a paid post for %1$d stars
+NotificationPinnedPaidMedia_one	%2$s pinned a paid post for %1$d star
+NotificationPinnedPaidMedia_other	%2$s pinned a paid post for %1$d stars
+NotificationChatMessagePaidMedia_one	%2$s posted a paid post in %3$s group for %1$d star
+NotificationChatMessagePaidMedia_other	%2$s posted a paid post in %3$s group for %1$d stars
+NotificationInvitedToGroup	%1$s invited you to the group %2$s
+NotificationEditedGroupName	%1$s renamed the group %2$s
+NotificationEditedGroupPhoto	%1$s changed the group photo for %2$s
+NotificationEditedGroupVideo	%1$s changed the group video for %2$s
+NotificationGroupAddMember	%1$s invited %3$s to the group %2$s
+NotificationGroupInvitedToCall	%1$s invited %3$s to a voice chat in the group %2$s
+NotificationGroupInvitedYouToCall	%1$s invited you to a voice chat in the group %2$s
+NotificationGroupCreatedCall	%1$s started a voice chat in the group %2$s
+NotificationGroupEndedCall	%1$s ended a voice chat in the group %2$s
+NotificationGroupAddSelf	%1$s returned to the group %2$s
+NotificationGroupAddSelfMega	%1$s joined the group %2$s
+NotificationGroupKickMember	%1$s removed %3$s from the group %2$s
+NotificationGroupKickYou	%1$s removed you from the group %2$s
+NotificationGroupLeftMember	%1$s left the group %2$s
+NotificationContactJoined	%1$s joined Telegram!
+NotificationUnrecognizedDevice	%1$s,\nWe detected a login into your account from a new device on %2$s\n\nDevice: %3$s\nLocation: %4$s\n\nIf this wasn\'t you, you can go to Settings - Privacy and Security - Sessions and terminate that session.\n\nIf you think that somebody logged in to your account against your will, you can enable two-step verification in Privacy and Security settings.\n\nSincerely,\nThe Telegram Team
+NotificationContactNewPhoto	%1$s updated profile photo
+NotificationInvitedToGroupByLink	%1$s joined to the group %2$s via invite link
+NotificationGroupFew	%1$s sent %3$s to the group %2$s
+NotificationGroupAlbum	%1$s sent an album to the group %2$s
+NotificationGroupForwardedFew	%1$s forwarded %3$s to the group %2$s
+NotificationHiddenName	Telegram
+NotificationHiddenChatName	Telegram
+NotificationHiddenChatUserName	User
+NotificationHiddenMessage	New message
+Reply	Reply
+ReplyToGroup	Reply to %1$s
+ReplyToUser	Reply to %1$s
+NotificationMessagesPeopleDisplayOrder	%1$s %2$s
+NotificationActionPinnedText	%1$s pinned \"%2$s\" in the group %3$s
+NotificationActionPinnedNoText	%1$s pinned a message in the group %2$s
+NotificationActionPinnedPoll2	%1$s pinned a poll %3$s in the group %2$s
+NotificationActionPinnedTodo2	%1$s pinned a checklist %3$s in the group %2$s
+NotificationActionPinnedQuiz2	%1$s pinned a quiz %3$s in the group %2$s
+NotificationActionPinnedPhoto	%1$s pinned a photo in the group %2$s
+NotificationActionPinnedGame	%1$s pinned a game in the group %2$s
+NotificationActionPinnedGameScore	%1$s pinned a game score in the group %2$s

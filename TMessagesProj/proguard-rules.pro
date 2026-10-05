@@ -54,3 +54,11 @@
 # Use -keep to explicitly keep any other classes shrinking would remove
 #-dontoptimize
 #-dontobfuscate
+# ONNX Java classes and fields are looked up by the native JNI runtime.
+-keep class ai.onnxruntime.** { *; }
+
+# U message: Banuba Face AR (JNI proxies and reflection)
+
+# U message: sherpa-onnx (offline Uzbek speech) — classes and fields are read by name from JNI.
+-keep class com.k2fsa.sherpa.onnx.** { *; }
+-dontwarn com.k2fsa.sherpa.onnx.**

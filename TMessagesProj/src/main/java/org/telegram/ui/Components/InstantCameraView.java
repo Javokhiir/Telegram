@@ -242,6 +242,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
     private volatile BlushTracker blushTracker; // owned by the camera GL thread, mask shared with the encoder
     private volatile int currentLipstickPercent;
     private volatile RoundVideoEffects.Lipstick currentLipstick; // null is off
+    private volatile String currentMakeup; // Snap lens id, null is off
+    private volatile int currentMakeupTexture; // Snap lens frame of the camera GL thread, read by the encoder
     private int currentEffectPreset = RoundVideoEffects.PRESET_ORIGINAL;
     private int currentEffectIntensity;
     private volatile LipstickTracker lipstickTracker; // owned by the camera GL thread, lip contours shared with the encoder
@@ -421,7 +423,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         beautyButton.setContentDescription(LocaleController.getString(R.string.UMessageRoundEffects));
         buttonsLayout.addView(beautyButton, LayoutHelper.createLinear(44, 44));
         beautyButton.setOnClickListener(v -> setBeautyEnabled(currentFilterIntensity == 0 && currentBeauty == 0
-                && currentFoundation == 0 && currentBlush == 0 && currentEyes == 0 && currentLipstickPercent == 0, true));
+                && currentFoundation == 0 && currentBlush == 0 && currentEyes == 0 && currentLipstickPercent == 0
+                && currentMakeup == null, true));
 
         if (!isNewDesign) {
             flashViews.add(switchCameraButton);
@@ -472,6 +475,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
         // U message: round effect thumbnails under the camera, the one in the ring is applied live
         effectsCarousel = new RoundEffectsCarousel(context, this::applyEffectsPreset);
+        SnapCameraKit.prepare();
         effectsCarousel.setAlpha(0.0f);
         addView(effectsCarousel, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, CAROUSEL_HEIGHT, Gravity.BOTTOM, 0, 0, 0, CAROUSEL_BOTTOM_MARGIN));
 
@@ -510,7 +514,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         currentEffectIntensity = RoundVideoEffects.getConfiguredIntensity();
         applyLook(RoundVideoEffects.createLook(preset, currentEffectIntensity));
         beautyButton.setAlpha(currentFilterIntensity > 0 || currentBeauty > 0 || currentFoundation > 0
-                || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 ? 1.0f : 0.6f);
+                || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 || currentMakeup != null ? 1.0f : 0.6f);
         showEffectName(RoundEffectsCarousel.getName(preset));
     }
 
@@ -524,6 +528,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         currentEyeTone = look.eyeTone;
         currentLipstickPercent = look.lipstickPercent;
         currentLipstick = look.lipstick;
+        currentMakeup = look.lens;
     }
 
     public View getEffectsCarousel() {
@@ -538,7 +543,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 return;
             }
             if (videoPlayer == null && currentFilterIntensity == 0 && currentFoundation == 0 && currentBlush == 0
-                    && currentEyes == 0 && currentLipstickPercent == 0 && textureView.isAvailable()) {
+                    && currentEyes == 0 && currentLipstickPercent == 0 && currentMakeup == null && textureView.isAvailable()) {
                 try {
                     Bitmap bitmap = textureView.getBitmap(dp(56), dp(56));
                     if (bitmap != null && bitmap.getPixel(bitmap.getWidth() / 2, bitmap.getHeight() / 2) != 0) {
@@ -882,7 +887,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             currentEffectIntensity = RoundVideoEffects.getConfiguredIntensity();
             applyLook(RoundVideoEffects.createLook(currentEffectPreset, currentEffectIntensity));
             beautyButton.setAlpha(currentFilterIntensity > 0 || currentBeauty > 0 || currentFoundation > 0
-                    || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 ? 1.0f : 0.6f);
+                    || currentBlush > 0 || currentEyes > 0 || currentLipstickPercent > 0 || currentMakeup != null ? 1.0f : 0.6f);
             effectsCarousel.setSelected(currentEffectPreset);
             recordedTime = 0;
             progress = 0;
@@ -1621,6 +1626,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
         private final static int EGL_CONTEXT_CLIENT_VERSION = 0x3098;
         private final static int EGL_OPENGL_ES2_BIT = 4;
+        private final static int EGL_OPENGL_ES3_BIT_KHR = 0x40;
         private SurfaceTexture surfaceTexture;
         private EGL10 egl10;
         private EGLDisplay eglDisplay;
@@ -1645,6 +1651,8 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
         private int textureHandle;
         private final RoundVideoEffects.Uniforms effectsUniforms = new RoundVideoEffects.Uniforms();
         private LipstickTracker.Mask lipstickMask;
+        private SnapCameraKit.Renderer makeupRenderer;
+        private boolean gles3; // Camera Kit needs an OpenGL ES 3 context
 
         private boolean recording;
 
@@ -1715,8 +1723,9 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
             int[] configsCount = new int[1];
             EGLConfig[] configs = new EGLConfig[1];
+            // U message: OpenGL ES 3 when available, Snap Camera Kit needs it; ES 2 otherwise
             int[] configSpec = new int[]{
-                    EGL10.EGL_RENDERABLE_TYPE, EGL_OPENGL_ES2_BIT,
+                    EGL10.EGL_RENDERABLE_TYPE, EGL_OPENGL_ES3_BIT_KHR,
                     EGL10.EGL_RED_SIZE, 8,
                     EGL10.EGL_GREEN_SIZE, 8,
                     EGL10.EGL_BLUE_SIZE, 8,
@@ -1726,7 +1735,11 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     EGL10.EGL_NONE
             };
             EGLConfig eglConfig;
-            if (!egl10.eglChooseConfig(eglDisplay, configSpec, configs, 1, configsCount)) {
+            gles3 = egl10.eglChooseConfig(eglDisplay, configSpec, configs, 1, configsCount) && configsCount[0] > 0;
+            if (!gles3) {
+                configSpec[1] = EGL_OPENGL_ES2_BIT;
+            }
+            if (!gles3 && !egl10.eglChooseConfig(eglDisplay, configSpec, configs, 1, configsCount)) {
                 if (BuildVars.LOGS_ENABLED) {
                     FileLog.e("InstantCamera eglChooseConfig failed " + GLUtils.getEGLErrorString(egl10.eglGetError()));
                 }
@@ -1742,8 +1755,13 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 return false;
             }
 
-            int[] attrib_list = {EGL_CONTEXT_CLIENT_VERSION, 2, EGL10.EGL_NONE};
+            int[] attrib_list = {EGL_CONTEXT_CLIENT_VERSION, gles3 ? 3 : 2, EGL10.EGL_NONE};
             eglContext = egl10.eglCreateContext(eglDisplay, eglConfig, EGL10.EGL_NO_CONTEXT, attrib_list);
+            if (gles3 && (eglContext == null || eglContext == EGL10.EGL_NO_CONTEXT)) {
+                gles3 = false;
+                attrib_list[1] = 2;
+                eglContext = egl10.eglCreateContext(eglDisplay, eglConfig, EGL10.EGL_NO_CONTEXT, attrib_list);
+            }
             if (eglContext == null) {
                 if (BuildVars.LOGS_ENABLED) {
                     FileLog.e("InstantCamera eglCreateContext failed " + GLUtils.getEGLErrorString(egl10.eglGetError()));
@@ -1884,6 +1902,11 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     blushTracker.release();
                     blushTracker = null;
                 }
+                if (makeupRenderer != null) {
+                    makeupRenderer.release();
+                    makeupRenderer = null;
+                }
+                currentMakeupTexture = 0;
                 if (lipstickMask != null) {
                     lipstickMask.release();
                     lipstickMask = null;
@@ -1995,6 +2018,17 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
             cameraSurface[surfaceIndex].getTransformMatrix(mSTMatrix);
 
+            // U message: Snap lens, drawn offscreen from this frame before the frame itself
+            final String makeup = currentMakeup;
+            int makeupTexture = 0;
+            if (makeup != null && gles3) {
+                if (makeupRenderer == null) {
+                    makeupRenderer = new SnapCameraKit.Renderer();
+                }
+                makeupTexture = makeupRenderer.render(makeup, cameraTexture[surfaceIndex], mSTMatrix, mMVPMatrix, textureBuffer, isFrontface);
+            }
+            currentMakeupTexture = makeupTexture;
+
             // lip mask for this frame, drawn offscreen before the frame itself
             final RoundVideoEffects.Lipstick lipstick = currentLipstick;
             final boolean blush = currentBlush > 0;
@@ -2032,6 +2066,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                     currentBlush, currentEyes, currentEyeTone, blushTracker != null ? blushTracker.getTexture() : 0,
                     surfaceWidth, surfaceHeight);
             effectsUniforms.applyLipstick(lipstick, lipstickMask);
+            effectsUniforms.applyMakeup(makeupTexture);
 
             GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
 
@@ -2862,6 +2897,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
 
                 GLES20.glUniformMatrix4fv(textureMatrixHandle, 1, false, moldSTMatrix, 0);
                 GLES20.glUniform1f(alphaHandle, 1.0f);
+                effectsUniforms.applyMakeup(0); // the previous camera fades out without the current frame's makeup
                 GLES20.glBindTexture(GLES11Ext.GL_TEXTURE_EXTERNAL_OES, oldCameraTexture[0]);
                 GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
             }
@@ -2875,6 +2911,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             if (tex != Integer.MIN_VALUE) {
                 GLES20.glUniformMatrix4fv(textureMatrixHandle, 1, false, mSTMatrix, 0);
                 GLES20.glUniform1f(alphaHandle, cameraTextureAlpha);
+                effectsUniforms.applyMakeup(currentMakeup != null ? currentMakeupTexture : 0);
                 GLES20.glBindTexture(GLES11Ext.GL_TEXTURE_EXTERNAL_OES, tex);
                 GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
             }
@@ -3501,7 +3538,11 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
             }
 
             if (eglContext == EGL14.EGL_NO_CONTEXT) {
-                int renderableType = EGL14.EGL_OPENGL_ES2_BIT;
+                // U message: same client version as the camera context it shares textures with (ES 3 for Snap Camera Kit)
+                final int[] sharedVersion = new int[1];
+                EGL14.eglQueryContext(eglDisplay, sharedEglContext, EGL14.EGL_CONTEXT_CLIENT_VERSION, sharedVersion, 0);
+                final boolean es3 = sharedVersion[0] >= 3;
+                int renderableType = es3 ? 0x40 /* EGL_OPENGL_ES3_BIT_KHR */ : EGL14.EGL_OPENGL_ES2_BIT;
 
                 int[] attribList = {
                         EGL14.EGL_RED_SIZE, 8,
@@ -3519,7 +3560,7 @@ public class InstantCameraView extends FrameLayout implements NotificationCenter
                 }
 
                 int[] attrib2_list = {
-                        EGL14.EGL_CONTEXT_CLIENT_VERSION, 2,
+                        EGL14.EGL_CONTEXT_CLIENT_VERSION, es3 ? 3 : 2,
                         EGL14.EGL_NONE
                 };
                 eglContext = EGL14.eglCreateContext(eglDisplay, configs[0], sharedEglContext, attrib2_list, 0);

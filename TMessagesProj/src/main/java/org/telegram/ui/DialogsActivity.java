@@ -1724,7 +1724,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             dialogStoriesCell.setHideLogo(true);
             // where the collapsed title ends ("U message" + emoji status), for the stories next to it
             dialogStoriesCell.setTitleRight(actionBar.getTitlesContainer().getLeft() + dp(4) + actionBar.getTitleTextView().getLeft()
-                    + titleWordmark.getIntrinsicWidth() - titleWordmark.getMarkOffset() + dp(34));
+                    + titleWordmark.getDrawnWidth() - titleWordmark.getMarkOffset() + dp(34));
         }
     }
 
@@ -3150,6 +3150,22 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
 
             @Override
+            protected void onTitleAvailableWidth(int availableWidth) {
+                // U message: shrink the wordmark instead of cutting it when the menu grows (lock, ghost...)
+                if (titleWordmark == null || getTitleTextView() == null) {
+                    return;
+                }
+                SimpleTextView textView = getTitleTextView();
+                int fit = availableWidth - textView.getSideDrawablesSize() - textView.getPaddingLeft() - textView.getPaddingRight() - dp(4);
+                int width = Math.max(dp(40), Math.min(titleWordmark.getIntrinsicWidth(), fit));
+                Rect b = titleWordmark.getBounds();
+                if (b.width() != width) {
+                    titleWordmark.setBounds(b.left, b.top, b.left + width, b.bottom);
+                    textView.setText(textView.getText(), true);
+                }
+            }
+
+            @Override
             protected boolean drawChild(Canvas canvas, View child, long drawingTime) {
                 if (inPreviewMode && avatarContainer != null && child != avatarContainer) {
                     return false;
@@ -3300,7 +3316,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             proxyMenuSubItem.setTextAndIcon(getString(R.string.MenuProxyTitle), 0, proxyDrawable);
             proxyMenuSubItem.setContentDescription(getString(R.string.ProxySettings));
 
-            passcodeItem = menu.addItem(1, R.drawable.outline_header_lock_24);
+            passcodeItem = menu.addItemWithWidth(1, R.drawable.outline_header_lock_24, dp(40));
             passcodeItem.setContentDescription(getString(R.string.AccDescrPasscodeLock));
 
             downloadsItem = menu.addItem(3, new ColorDrawable(Color.TRANSPARENT));
@@ -3329,6 +3345,10 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             speedItem.setOnClickListener(v -> showDialog(new PremiumFeatureBottomSheet(DialogsActivity.this, PremiumPreviewFragment.PREMIUM_FEATURE_DOWNLOAD_SPEED, true)));
 
             fragmentSearchField.addAdditionalIcon(speedItem);
+            if (hasMainTabs) {
+                // U message: let lower search-row actions sit flush with the right field edge.
+                fragmentSearchField.setAdditionalIconsEndMargin(4);
+            }
             if (hasMainTabs && downloadsItem != null) {
                 // U message: keep active downloads beside the ghost button in the lower search row.
                 AndroidUtilities.removeFromParent(downloadsItem);
@@ -7866,6 +7886,10 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             int color2 = getThemedColor(Theme.key_actionBarActionModeDefaultSelector);
             actionBar.setItemsBackgroundColor(ColorUtils.blendARGB(color1, color2, searchAnimationProgress), false);
         }
+        if (pillItem != null) {
+            pillItem.setAlpha(1f - progress);
+            pillItem.setVisibility(progress >= 1f ? View.INVISIBLE : View.VISIBLE);
+        }
         if (fragmentView != null) {
             fragmentView.invalidate();
         }
@@ -10193,13 +10217,13 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         savedButton.setScaleX(0.6f + 0.4f * progress);
         savedButton.setScaleY(0.6f + 0.4f * progress);
         savedButton.setVisibility(savedWidth > 0 ? View.VISIBLE : View.GONE);
-        pillItem.getLayoutParams().width = dp(96) + savedWidth;
+        pillItem.getLayoutParams().width = dp(88) + savedWidth;
         pillItem.requestLayout();
         savedButton.requestLayout();
     }
 
     private void createHeaderPill(Context context, ActionBarMenu menu) {
-        pillItem = menu.addItemWithWidth(14, 0, dp(140));
+        pillItem = menu.addItemWithWidth(14, 0, dp(132));
         pillItem.setBackground(null);
         LinearLayout pill = new LinearLayout(context);
         pill.setOrientation(LinearLayout.HORIZONTAL);
@@ -10228,12 +10252,8 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         });
         pill.addView(editButton, LayoutHelper.createLinear(44, 40));
 
-        savedButton = createPillButton(context, R.drawable.umessage_header_saved, getString(R.string.SavedMessages));
-        savedButton.setOnClickListener(v -> {
-            Bundle args = new Bundle();
-            args.putLong("user_id", getUserConfig().getClientUserId());
-            presentFragment(new ChatActivity(args));
-        });
+        savedButton = createPillButton(context, R.drawable.umessage_header_map, getString(R.string.UMessageFriendMap));
+        savedButton.setOnClickListener(v -> presentFragment(new UMessageFriendMapActivity(new Bundle())));
         pill.addView(savedButton, LayoutHelper.createLinear(44, 40));
     }
 
@@ -10285,11 +10305,11 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
         });
 
-        editBar.addView(editReadButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
-        editBar.addView(new View(context), LayoutHelper.createLinear(0, 1, 1f));
-        editBar.addView(editArchiveButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
-        editBar.addView(new View(context), LayoutHelper.createLinear(0, 1, 1f));
-        editBar.addView(editDeleteButton, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, 48));
+        editBar.addView(editReadButton, LayoutHelper.createLinear(0, 48, 1f));
+        editBar.addView(new View(context), LayoutHelper.createLinear(8, 1));
+        editBar.addView(editArchiveButton, LayoutHelper.createLinear(0, 48, 1f));
+        editBar.addView(new View(context), LayoutHelper.createLinear(8, 1));
+        editBar.addView(editDeleteButton, LayoutHelper.createLinear(0, 48, 1f));
         contentView.addView(editBar, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, MAIN_TABS_HEIGHT_WITH_MARGINS, Gravity.BOTTOM, 16, 0, 16, 0));
     }
 
@@ -10299,7 +10319,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         button.setGravity(Gravity.CENTER);
         button.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
         button.setTypeface(AndroidUtilities.bold());
-        button.setPadding(dp(20), 0, dp(20), 0);
+        button.setSingleLine(true);
+        button.setIncludeFontPadding(false);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            button.setAutoSizeTextTypeUniformWithConfiguration(11, 16, 1, TypedValue.COMPLEX_UNIT_SP);
+        }
+        button.setPadding(dp(12), 0, dp(12), 0);
         button.setTextColor(getThemedColor(Theme.key_windowBackgroundWhiteBlackText));
         button.setBackground(Theme.createSimpleSelectorRoundRectDrawable(dp(24), getThemedColor(Theme.key_windowBackgroundWhite), getThemedColor(Theme.key_listSelector)));
         button.setElevation(dp(3));

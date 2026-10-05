@@ -6900,6 +6900,7 @@ public class MessagesController extends BaseController implements NotificationCe
                 }
             }
         }
+        preserveDeletedUserIdentity(user, oldUser);
         if (!TextUtils.isEmpty(user.username)) {
             objectsByUsernames.put(user.username.toLowerCase(), user);
         }
@@ -6978,6 +6979,24 @@ public class MessagesController extends BaseController implements NotificationCe
             }
         }
         return false;
+    }
+
+    private void preserveDeletedUserIdentity(TLRPC.User user, TLRPC.User oldUser) {
+        if (user == null || oldUser == null || !UserObject.isDeleted(user)) {
+            return;
+        }
+        if (TextUtils.isEmpty(user.first_name) && !TextUtils.isEmpty(oldUser.first_name)) {
+            user.first_name = oldUser.first_name;
+            user.flags |= 2;
+        }
+        if (TextUtils.isEmpty(user.last_name) && !TextUtils.isEmpty(oldUser.last_name)) {
+            user.last_name = oldUser.last_name;
+            user.flags |= 4;
+        }
+        if (user.photo == null && oldUser.photo != null) {
+            user.photo = oldUser.photo;
+            user.flags |= 32;
+        }
     }
 
     public void reloadUser(long userId) {

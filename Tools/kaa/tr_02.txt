@@ -1,0 +1,583 @@
+ChannelUserCantAdd	Keshiriń, bul paydalanıwshını kanallarǵa qosa almaysız.
+ChannelUserCantAdmin	Keshiriń, bul kanalda adminler júdá kóp.
+ChannelUserCantBot	Keshiriń, bul kanalda botlar júdá kóp.
+ChannelUserAddLimit	Keshiriń, kanalǵa tek birinshi 200 aǵzanı qosa alasız. Kanal siltemesi arqalı sheksiz adam qosılıwı múmkin.
+ChannelTooMuchTitle	Jámiyetler júdá kóp
+ChannelTooMuch	Keshiriń, siz júdá kóp topar hám kanallardıń aǵzasısız. Jańasın jaratıwdan aldın ayırımlarınan shıǵıń.
+ChannelTooMuchJoin	Keshiriń, siz júdá kóp topar hám kanallardıń aǵzasısız. Jańasına qosılıwdan aldın ayırımlarınan shıǵıń.
+ChannelAddedBy	un1 sizdi bul kanalǵa qostı
+ChannelJoined	Siz bul kanalǵa qosıldıńız
+YouJoinedChannel	Siz %s kanalına qosıldıńız
+ChannelMegaJoined	Siz bul toparǵa qosıldıńız
+ChannelRemoveUser	Kanaldan alıp taslaw
+ChannelCantSendMessage	Keshiriń, bul kanalǵa xabar jibere almaysız.
+ChannelAddedByNotification	%1$s sizdi %2$s kanalına qostı
+ChannelPhotoEditNotification	%1$s kanalı súwretin jańaladı
+ChannelVideoEditNotification	%1$s kanalı videosın jańaladı
+ChannelMessageNoText	%1$s xabar jariyaladı
+ChannelMessagePhoto	%1$s súwret jariyaladı
+ChannelMessageVideo	%1$s video jariyaladı
+ChannelMessageContact2	%1$s %2$s kontaktın jariyaladı
+ChannelMessagePoll2	%1$s %2$s sorawnamasın jariyaladı
+ChannelMessageTodo2	%1$s %2$s tapsırmalar dizimin jariyaladı
+ChannelMessageTodoDone2	%1$s %2$s tapsırmanı belgiledi
+ChannelMessageTodoAppend2	%1$s %2$s tapsırma qostı
+ChannelMessageQuiz2	%1$s %2$s viktorinasın jariyaladı
+ChannelMessageMap	%1$s jaylasıw jariyaladı
+ChannelMessageLiveLocation	%1$s jonlı jaylasıw jariyaladı
+ChannelMessageDocument	%1$s fayl jariyaladı
+ChannelMessageGIF	%1$s GIF jariyaladı
+ChannelMessageFew	%1$s %2$s jariyaladı
+ChannelMessageAlbum	%1$s albom jariyaladı
+ChannelMessageAudio	%1$s dawıslı xabar jariyaladı
+ChannelMessageRound	%1$s video xabar jariyaladı
+ChannelMessageMusic	%1$s audio fayl jariyaladı
+ChannelMessageSticker	%1$s stiker jariyaladı
+ChannelMessageStickerEmoji	%1$s %2$s stikerin jariyaladı
+ChannelNotifyMembersInfoOn	Jariyalaǵanıńızda aǵzalarǵa bildiriw baradı
+ChannelNotifyMembersInfoOff	Aǵzalar dawıssız bildiriw aladı
+ChannelSignMessages	Xabarlarǵa qol qoyıw
+ChannelSignMessagesWithProfile	Avtorlar profilin kórsetiw
+ChannelSignMessagesInfo	Adminlerdiń atların olar jariyalaǵan xabarlarǵa qosıw.
+EditAdmin	Admin huqıqları
+EditAdminRank	Arnawlı ataq
+EditAdminRankInfo	Barlıq aǵzalarǵa \'%1$s\' ornına kórsetiletuǵın arnawlı ataq.
+EditMemberRankInfo	%1$s atı qasına qısqa teg qosıw.
+EditAdminWhatCanDo	Bul admin ne isley aladı?
+EditAdminChangeChannelInfo	Kanal maǵlıwmatın ózgertiw
+EditAdminChangeGroupInfo	Topar maǵlıwmatın ózgertiw
+EditAdminPostMessages	Xabar jariyalaw
+EditAdminManageDirect	Jeke xabarlardı basqarıw
+EditAdminUserManageWelcomeMessages	Qutlıqlaw xabarların basqarıw
+EditAdminBotChannelSendWelcomeMessages	Qutlıqlaw xabarların jiberiw
+EditAdminBotGroupSendWelcomeMessages	Qutlıqlaw xabarların jiberiw
+EditAdminEditMessages	Basqalardıń xabarların ózgertiw
+EditAdminDeleteMessages	Basqalardıń xabarların óshiriw
+EditAdminPostStories	Storis jariyalaw
+EditAdminEditStories	Basqalardıń storislerin ózgertiw
+EditAdminDeleteStories	Basqalardıń storislerin óshiriw
+EditAdminGroupDeleteMessages	Xabarlardı óshiriw
+EditAdminAddAdmins	Jańa adminler qosıw
+EditAdminSendAnonymously	Anonim jiberiw
+EditAdminProcessJoinRequests	Qosılıw sorawların qarap shıǵıw
+EditAdminProcessJoinRequestsInfo	Bul botqa jańa aǵzalardı óziniń interfeysi (mısalı, kapcha) arqalı maqullawǵa ruqsat beriw.
+EditAdminRemoveAdmin	Adminlikten shıǵarıw
+EditAdminGroupTransfer	Topar iyeligin beriw
+EditAdminChannelTransfer	Kanal iyeligin beriw
+EditAdminTransferAlertTitle	Qáwipsizlik tekseriwi
+EditAdminTransferAlertText	Bul topardı **%1$s** ge tek tómendegi jaǵdayda bere alasız:
+EditChannelAdminTransferAlertText	Bul kanaldı **%1$s** ge tek tómendegi jaǵdayda bere alasız:
+WithdrawChannelAlertText	Qarjını tek tómendegi jaǵdayda shıǵara alasız:
+EditAdminTransferAlertText1	**Eki basqıshlı tastıyıqlaw** **7 kúnnen** aldın qosılǵan bolsa.
+EditAdminTransferAlertText2	Bul qurılmaǵa **24 saattan** aldın kirgen bolsańız.
+EditAdminTransferAlertText3	Keyinirek qaytıp keliń.
+EditAdminTransferSetPassword	Parol ornatıw
+Gift2TransferToTONAlertTitle	Qáwipsizlik tekseriwi
+Gift2TransferToTONAlertText	Sawǵańızdı TON ǵa tek tómendegi jaǵdayda ótkere alasız:
+Gift2TransferToTONAlertText1	**Eki basqıshlı tastıyıqlaw** **7 kúnnen** aldın qosılǵan bolsa.
+Gift2TransferToTONAlertText2	Bul qurılmaǵa **24 saattan** aldın kirgen bolsańız.
+Gift2TransferToTONAlertText3	Keyinirek qaytıp keliń.
+Gift2TransferToTONSetPassword	Parol ornatıw
+EditAdminTransferReadyAlertText	Bul **%1$s** ushın **tolıq iyelik** huqıqların **%2$s** ge beredi.
+EditAdminTransferReadyAlertText2	Bul **%1$s** ushın tolıq **iyelik huqıqların** **%2$s** ge beredi.
+EditAdminTransferChangeOwner	Iyesin ózgertiw
+EditAdminTransferGroupToast	**%1$s** endi topardıń iyesi.
+EditAdminTransferChannelToast	**%1$s** endi kanaldıń iyesi.
+EditAdminBanUsers	Paydalanıwshılardı bloklaw
+EditAdminAddUsers	Paydalanıwshılar qosıw
+EditAdminAddUsersViaLink	Silteme arqalı mirát etiw
+EditAdminPinMessages	Xabarlardı bekitiw
+EditAdminEditTags	Aǵza teglerin ózgertiw
+EditAdminPromotedBy	%1$s tayınlaǵan
+EditAdminCantEdit	Bul adminniń huqıqların ózgerte almaysız.
+EditCantEditPermissions	Bul ruqsattı ózgerte almaysız.
+EditCantEditPermissionsPublic	Bul ruqsat ashıq toparlarda qoljetimsiz.
+EditCantEditPermissionsDiscussion	Bul ruqsat talqılaw toparlarında qoljetimsiz.
+UserRemovedBy	%1$s alıp tasladı
+UserRestrictions	Paydalanıwshı ruqsatları
+UserRestrictionsCanDo	Bul paydalanıwshı ne isley aladı?
+UserRestrictionsCanDoUsers_one	%1$s tańlanǵan paydalanıwshı ne isley aladı?
+UserRestrictionsCanDoUsers_other	%1$s tańlanǵan paydalanıwshı ne isley aladı?
+UserRestrictionsSend	Xabar jiberiw
+UserRestrictionsSendPollsShort	Sorawnama jiberiw
+UserRestrictionsSendText	Tekst xabar jiberiw
+UserRestrictionsSendMedia	Media jiberiw
+UserRestrictionsSendPolls	Sorawnama jiberiw
+UserRestrictionsSendStickers	Stiker &amp; GIF jiberiw
+UserRestrictionsEmbedLinks	Silteme kórinisi
+UserRestrictionsChangeInfo	Sáwbet maǵlıwmatın ózgertiw
+UserRestrictionsPinMessages	Xabarlardı bekitiw
+UserRestrictionsEditTags	Óz teglerin ózgertiw
+UserRestrictionsSendReactions	Reakciya jiberiw
+UserRestrictionsInviteUsers	Paydalanıwshılar qosıw
+UserRestrictionsNoRead	oqıy almaydı
+UserRestrictionsNoSend	xabar jibere almaydı
+UserRestrictionsNoSendText	tekst xabar jibere almaydı
+UserRestrictionsNoSendPolls	sorawnamasız
+UserRestrictionsNoSendMedia	mediasız
+UserRestrictionsNoSendPhotos	súwretsiz
+UserRestrictionsNoSendVideos	videosız
+UserRestrictionsNoSendMusic	muzıkasız
+UserRestrictionsNoSendDocs	faylsız
+UserRestrictionsNoSendVoice	dawıssız
+UserRestrictionsNoSendRound	dóńgelek videosız
+UserRestrictionsNoSendStickers	stiker &amp; GIF siz
+UserRestrictionsNoEmbedLinks	silteme kórinissiz
+UserRestrictionsNoChangeInfo	maǵlıwmattı ózgerte almaydı
+UserRestrictionsNoPinMessages	bekitiwsiz
+UserRestrictionsNoEditTags	tegsiz
+UserRestrictionsNoSendReactions	reakciyasız
+UserRestrictionsNoInviteUsers	paydalanıwshı qosa almaydı
+UserRestrictionsDuration	Múddeti
+UserRestrictionsUntilForever	Máńgige
+UserRestrictionsBlock	Bloklaw hám topardan alıp taslaw
+UserRestrictionsApplyChanges	Ózgerislerdi qollanıw kerekpe?
+UserRestrictionsApplyChangesText	Siz bul paydalanıwshınıń **%1$s** degi huqıqların ózgerttińiz. Ózgerislerdi qollanıw kerekpe?
+UserRestrictionsCantModify	Bul sazlamanı ózgertiw múmkin emes
+UserRestrictionsCustom	Arnawlı
+BotRestrictionsCanDo	Bul bot ne isley aladı?
+ManageGroup	Topardı basqarıw
+ChatHistory	Jańa aǵzalar ushın sáwbet tariyxı
+ChatSetNewPhoto	Jańa súwret ornatıw
+ChatSetPhotoOrVideo	Súwret yamasa video ornatıw
+ChatHistoryVisible	Kórinedi
+ChatHistoryVisibleInfo	Jańa aǵzalar olar qosılıwdan aldın jiberilgen xabarlardı kóredi.
+ChatHistoryHidden	Jasırın
+ChatHistoryHiddenInfo	Jańa aǵzalar aldınǵı xabarlardı kórmeydi.
+ChatHistoryHiddenInfo2	Jańa aǵzalar aldınǵı 100 den artıq xabardı kórmeydi.
+ProfileJoinChannel	Kanalǵa qosılıw
+ProfileJoinGroup	Toparǵa qosılıw
+GroupType	Topar túri
+ChannelType	Kanal túri
+GroupTypeHeader	Topar túri
+ChannelTypeHeader	Kanal túri
+GroupSettingsTitle	Topar sazlamaları
+ChannelSettingsTitle	Kanal sazlamaları
+TypePrivate	Jabıq
+TypePublic	Ashıq
+TypePrivateGroup	Jabıq
+TypePublicGroup	Ashıq
+TypeLocationGroup	Silteme
+TypeLocationGroupEdit	Turaqlı silteme qosıw ushın basıń
+ChoosePhoto	Súwret tańlaw
+ChoosePhotoForSticker	Súwretten stiker jaratıw
+AddImage	Súwret qosıw
+ChoosePhotoOrVideo	Súwret yamasa video tańlaw
+AddPhoto	Jańa súwret ornatıw
+ChooseTakePhoto	Súwretke alıw
+ChooseRecordVideo	Video jazıw
+ChooseFromGallery	Galereyadan júklew
+SelectFromGallery	Galereyadan tańlaw
+ChooseFromSearch	Internetten izlew
+Statistics	Statistika
+StatisticsAndBoosts	Statistika hám kúsheytiwler
+AddBot	Bot qosıw
+AddBotAdmin	Bottı admin etip qosıw
+AddBotAdminAlert	Bottı admin etip qosıw kerekpe?
+AddAsAdmin	Admin etip qosıw
+AddBotButton	Bot qosıw
+AddBotButtonAsMember	Aǵza retinde
+AddBotButtonAsAdmin	Admin retinde
+AddBotMessageAdminChannel	Bul bottı **%1$s** kanalına admin etip qosıwǵa isenimińiz kámil me?
+AddBotMessageAdminGroup	Bul bottı **%1$s** toparına admin etip qosıwǵa isenimińiz kámil me?
+AddBotAsAdmin	Botlardı tek administrator retinde qosıwǵa boladı.
+CantAddBotAsAdmin	Keshiriń, botlardı kanallarǵa tek administrator retinde qosıwǵa boladı.
+AdminWillBeRemoved	%1$s di sheklesenińiz, ol adminlerden alıp taslanadı.
+Discussion	Talqılaw
+ViewDiscussion	Talqılawdı kóriw
+DiscussionInfo	Kommentariyler ushın topar sáwbetin qosıń
+LinkedChannel	Baylanıslı kanal
+DiscussionChannelHelp3	Kanalıńızdıń kommentariyleri jaylasatuǵın topar sáwbetin tańlań.
+DiscussionChannelHelp2	Kanalda jariyalaǵan hár bir nárseńiz usı toparǵa jiberiledi.
+DiscussionChannelGroupSetHelp2	**%1$s** kanalıńız kommentariyleri ushın topar retinde tańlanǵan.
+DiscussionGroupHelp	**%1$s** bul topardı óziniń talqılaw taxtası retinde baylanıstırǵan.
+DiscussionGroupHelp2	Bul kanalda jariyalanǵan barlıq jańa xabarlar toparǵa jiberiledi.
+DiscussionCreateGroup	Jańa topar jaratıw
+DiscussionUnlinkGroup	Topardı ajıratıw
+DiscussionUnlinkChannel	Kanaldı ajıratıw
+DiscussionUnlink	Ajıratıw
+DiscussionLinkGroup	Topardı baylanıstırıw
+DiscussionLinkGroupPublicAlert	**%1$s** di **%2$s** ushın talqılaw taxtası etiw kerekpe?
+DiscussionLinkGroupPrivateAlert	**%1$s** di **%2$s** ushın talqılaw taxtası etiw kerekpe?\n\nBul topardıń qálegen aǵzası kanaldaǵı xabarlardı kóre aladı.
+DiscussionLinkGroupPublicPrivateAlert	**%1$s** di **%2$s** ushın talqılaw taxtası etiw kerekpe?\n\nKanaldaǵı hár kim bul topardaǵı xabarlardı kóre aladı.
+DiscussionLinkGroupAlertHistory	\"Jańa aǵzalar ushın sáwbet tariyxı\" Kórinedi halına ótkeriledi.
+DiscussionUnlinkGroupAlert	**%1$s** di bul topardan ajıratıwǵa isenimińiz kámil me?
+DiscussionUnlinkChannelAlert	**%1$s** di bul kanaldan ajıratıwǵa isenimińiz kámil me?
+DiscussChannel	kanal
+Slowmode	Áste rejim
+SlowmodeOff	Óshirilgen
+SlowmodeSeconds	%1$ds
+SlowmodeMinutes	%1$dm
+SlowmodeHours	%1$dh
+SlowmodeInfoOff	Hár bir aǵza keyingi xabarın jiberiwden aldın qansha kútiwi kerekligin tańlań.
+SlowmodeInfoSelected	Aǵzalar hár %1$s de tek bir xabar jibere aladı.
+SlowmodeSendError	Áste rejim qosılǵan. Bir waqıtta birden artıq xabar jibere almaysız.
+SlowmodeSelectSendError	Áste rejim qosılǵan. Basqa elementlerdi tańlay almaysız.
+SlowmodeSendErrorTooLong	Keshiriń, bul tekst bir xabar retinde jiberiw ushın júdá uzın.\n\nÁste rejim qosılǵan. Bir waqıtta birden artıq xabar jibere almaysız.
+UserSetAsAdminHint	**%1$s** admin etip tayınlandı
+UserAddedAsAdminHint	**%1$s** admin etip qosıldı
+UserRemovedFromChatHint	**%1$s** **%2$s** den alıp taslandı
+NewPoll	Jańa sorawnama
+NewQuiz	Jańa viktorina
+Poll	Sorawnama
+PollQuestion2	Soraw
+QuestionHint	Soraw beriń
+QuestionDescriptionHint	Táriyp qosıw (mindetli emes)
+AnswerOptions2	Variantlar
+QuizAnswers	Viktorina juwapları
+PollResults	Sorawnama nátiyjeleri
+PollAnonymous	Anonim dawıs beriw
+PollQuiz	Viktorina rejimi
+PollSelectOption	Aldın variant tańlań
+PollCollapse	Jıynaw
+PollExpand	Keńeytiw
+TodoCantForward	Keshiriń, tapsırmalar dizimin kanallarǵa jiberiw múmkin emes.
+TodoCantForwardSecretChat	Keshiriń, tapsırmalar dizimin jasırın sáwbetlerge jiberiw múmkin emes.
+PublicPollCantForward	Keshiriń, ashıq sorawnamalardı kanallarǵa jiberiw múmkin emes.
+InvoiceCantForwardSecretChat	Keshiriń, esap-fakturalardı jasırın sáwbetlerge jiberiw múmkin emes.
+PollCantForwardSecretChat	Keshiriń, sorawnamalardı jasırın sáwbetlerge jiberiw múmkin emes.
+GameCantSendSecretChat	Keshiriń, oyınlardı jasırın sáwbetlerge jiberiw múmkin emes.
+InvoiceCantSendSecretChat	Keshiriń, esap-fakturalardı jasırın sáwbetlerge jiberiw múmkin emes.
+PollMultiple	Bir neshe juwap
+PollTapToSelect	Durıs juwaptı tańlaw ushın basıń
+AddAnOption	Variant qosıw...
+AddAnOptionInfo	Jáne %1$s qosa alasız.
+AddAnOptionInfoMax	Siz variantlardıń maksimal sanın qostıńız.
+TodoAddTaskInfoMax	Siz tapsırmalardıń maksimal sanın qostıńız.
+AnonymousPoll	Anonim sorawnama
+QuizWrongAnswer	Juwap qáte!
+QuizWrongAnswerInfo	Siz durıs variantı tappadıńız.
+QuizWellDone	Jaqsı!
+QuizWellDoneInfo	Siz durıs juwaptı tańladıńız.
+PublicPoll	Sorawnama
+QuizPoll	Viktorina
+PollSubmitVotesNoCaps	Dawıs beriw
+PollViewResultsNoCaps	Nátiyjelerdi kóriw
+PollViewVotesX	Dawıslardı kóriw (%d)
+PollViewVotesAsAdmin_one	%d dawıs >
+PollViewVotesAsAdmin_other	%d dawıs >
+PollViewBack	&lt; Dawıs beriw
+PollButtonSave	Saqlaw
+PollViewVotes	Dawıslardı kóriw
+AnonymousQuizPoll	Anonim viktorina
+StopPoll	Sorawnamanı toqtatıw
+StopPollDeadlineHeader	Múddet
+StopPollDeadlineButton	Múddet ornatıw
+StopPollAlertTitle	Sorawnamanı toqtatıw kerekpe?
+StopPollAlertText	Bul sorawnamanı házir toqtatsańız, onda endi hesh kim dawıs bere almaydı. Bul háreketti biykarlaw múmkin emes.
+StopQuiz	Viktorinanı toqtatıw
+StopQuizAlertTitle	Viktorinanı toqtatıw kerekpe?
+StopQuizAlertText	Bul viktorinanı házir toqtatsańız, onda endi hesh kim dawıs bere almaydı. Bul háreketti biykarlaw múmkin emes.
+CancelPollAlertTitle	Sorawnamadan bas tartıw kerekpe?
+CancelPollAlertText	Bul sorawnamadan bas tartıwǵa isenimińiz kámil me?
+CancelTodoAlertTitle	Tapsırmalar diziminen bas tartıw
+CancelTodoAlertText	Bul tapsırmalar diziminen bas tartıwǵa isenimińiz kámil me?
+SendReactionsIsRestrictedInThisChat	Bul sáwbette reakciya jibere almaysız.
+Unvote	Dawıstı qaytarıp alıw
+FinalResults	Aqırǵı nátiyjeler
+NoVotes	Dawıslar joq
+PollResultsWillLater	Nátiyjeler sorawnama tamamlanǵannan keyin shıǵadı
+PollStatsWillLater	Sorawnama statistikası házir qoljetimsiz
+NoVotesQuiz	Hesh kim juwap bermedi
+Vote_one	%1$d dawıs
+Vote_other	%1$d dawıs
+Answer_one	%1$d juwap
+Answer_other	%1$d juwap
+ShowVotes_one	Kóbirek kórsetiw (%1$d)
+ShowVotes_other	Kóbirek kórsetiw (%1$d)
+Option_one	jáne %1$d variant
+Option_other	jáne %1$d variant
+OptionHint	Variant
+EventLog	Sońǵı háreketler
+EventLogAllEvents	Barlıq háreketler
+EventLogSelectedEvents	Tańlanǵan háreketler
+EventLogAllAdmins	Barlıq adminler
+EventLogEmpty2	**Bul jerde ele háreketler joq**\n\nTopar aǵzaları hám adminleri sońǵı **48** saatta hesh qanday xızmet háreketin islemedi.
+EventLogEmptyChannel2	**Bul jerde ele háreketler joq**\n\nKanal adminleri sońǵı **48** saatta hesh qanday xızmet háreketin islemedi.
+EventLogInfoTitle	Sońǵı háreketler degen ne?
+EventLogInfoDetail	Bul — topar aǵzaları hám adminleri sońǵı 48 saatta islegen barlıq xızmet háreketleriniń dizimi.
+EventLogInfoDetailChannel	Bul — kanal adminleri sońǵı 48 saatta islegen barlıq xızmet háreketleriniń dizimi.
+EventLogEditedGroupTitle	un1 topar atın \"%1$s\" etip ózgertti
+EventLogEditedChannelTitle	un1 kanal atın \"%1$s\" etip ózgertti
+EventLogLeftGroup	un1 topardan shıqtı
+EventLogLeftChannel	un1 kanaldan shıqtı
+EventLogAdded	un1 un2 di qostı
+EventLogGroupJoined	un1 toparǵa qosıldı
+EventLogChannelRestricted	%1$s bloklandı
+EventLogChannelUnrestricted	%1$s bloktan shıǵarıldı
+EventLogChannelJoined	un1 kanalǵa qosıldı
+EventLogEditedGroupPhoto	un1 jańa topar súwretin ornattı
+EventLogEditedChannelPhoto	un1 jańa kanal súwretin ornattı
+EventLogEditedGroupVideo	un1 jańa topar videosın ornattı
+EventLogEditedChannelVideo	un1 jańa kanal videosın ornattı
+EventLogRemovedWGroupPhoto	un1 topar súwretin alıp tasladı
+EventLogRemovedChannelPhoto	un1 kanal súwretin alıp tasladı
+EventLogEditedMessages	un1 bul xabardı ózgertti:
+EventLogEditedCaption	un1 jazıwdı ózgertti:
+EventLogEditedMedia	un1 medianı ózgertti:
+EventLogAddedMedia	un1 medianı ózgertti:
+EventLogEditedMediaCaption	un1 media hám jazıwdı ózgertti:
+EventLogOriginalMessages	Túp nusqa xabar
+EventLogOriginalCaption	Túp nusqa jazıw
+EventLogOriginalCaptionEmpty	Bos
+EventLogPinnedMessages	un1 bul xabardı bekitti:
+EventLogUnpinnedMessages	un1 xabardı bekitiwden aldı
+EventLogStopPoll	un1 sorawnamanı toqtattı:
+EventLogStopQuiz	un1 viktorinanı toqtattı:
+EventLogDeletedMessages	un1 bul xabardı óshirdi:
+EventLogDeletedMultipleMessagesToExpand_one	un1 %2$s xabarın óshirdi
+EventLogDeletedMultipleMessagesToExpand_other	un1 %2$s den %1$d xabardı óshirdi
+EventLogDeletedMultipleMessages_one	un1 %2$s xabarın óshirdi:
+EventLogDeletedMultipleMessages_other	un1 %2$s den %1$d xabardı óshirdi:
+EventLogDeletedMultipleMessagesHide	Hámmesin jasırıw
+EventLogDeletedMultipleMessagesShow	Hámmesin kórsetiw
+EventLogChangedLocation	un1 topar jaylasıwın \"%1$s\" etip ózgertti
+EventLogRemovedLocation	un1 topar jaylasıwın alıp tasladı
+EventLogChangedOwnership	iyelikti %1$s ge berdi
+EventLogChangedStickersSet	un1 topar stiker toplamın ózgertti
+EventLogRemovedStickersSet	un1 topar stiker toplamın alıp tasladı
+EventLogChangedEmojiPack	un1 topar emoji toplamın ózgertti
+EventLogRemovedEmojiPack	un1 topar emoji toplamın alıp tasladı
+EventLogChangedLinkedGroup	un1 un2 di bul kanaldıń talqılaw toparı etti
+EventLogRemovedLinkedGroup	un1 un2 talqılaw toparın alıp tasladı
+EventLogChangedLinkedChannel	un1 bul topardı un2 menen baylanıstırdı
+EventLogRemovedLinkedChannel	un1 bul topardı un2 den ajırattı
+EventLogChangedGroupLink	un1 topar siltemesin ózgertti:
+EventLogChangedChannelLink	un1 kanal siltemesin ózgertti:
+EventLogRemovedGroupLink	un1 topar siltemesin alıp tasladı
+EventLogRemovedChannelLink	un1 kanal siltemesin alıp tasladı
+EventLogPreviousLink	Aldınǵı silteme
+EventLogEditedGroupDescription	un1 topar táriypin ózgertti:
+EventLogEditedChannelDescription	un1 kanal táriypin ózgertti:
+EventLogEditedGroupTheme	un1 topar temasın ózgertti:
+EventLogEditedChannelTheme	un1 kanal temasın ózgertti:
+EventLogPreviousGroupDescription	Aldınǵı táriyp
+EventLogPreviousGroupTheme	Aldınǵı tema
+EventLogToggledInvitesHistoryOn	un1 topar tariyxın jańa aǵzalar ushın kórinetuǵın etti
+EventLogToggledInvitesHistoryOff	un1 topar tariyxın jańa aǵzalar ushın jasırın etti
+EventLogToggledInvitesOn	un1 toparǵa mirát etiwdi qostı
+EventLogToggledInvitesOff	un1 toparǵa mirát etiwdi óshirdi
+EventLogToggledSignaturesOn	un1 qoltańbalardı qostı
+EventLogToggledSignaturesOff	un1 qoltańbalardı óshirdi
+EventLogSubExtend	un1 jazılıwdı uzarttı
+EventLogToggledSignaturesProfilesOn	un1 avtorlar profillerin qostı
+EventLogToggledSignaturesProfilesOff	un1 avtorlar profillerin óshirdi
+EventLogRestrictedUntil	%1$s ushın ruqsatlardı ózgertti\n\nMúddeti: %2$s
+EventLogDefaultPermissions	ádettegi ruqsatlardı ózgertti
+EventLogRestrictedSendStickers	Stiker &amp; GIF jiberiw
+EventLogRestrictedSendMedia	Media jiberiw
+EventLogRestrictedChangeInfo	Maǵlıwmattı ózgertiw
+EventLogRestrictedInviteUsers	Paydalanıwshılar qosıw
+EventLogRestrictedPinMessages	Xabarlardı bekitiw
+EventLogRestrictedEditRank	Teglerdi ózgertiw
+EventLogRestrictedSendReactions	Reakciya jiberiw
+EventLogRestrictedSendPolls	Sorawnama jiberiw
+EventLogRestrictedSendMessages	Xabar jiberiw
+EventLogRestrictedSendEmbed	Silteme kórinisi
+EventLogRestrictedReadMessages	Xabarlardı oqıw
+EventLogPromoted	%1$s huqıqların ózgertti
+EventLogPromotedNoRights	%1$s di tayınladı
+EventLogPromotedChangeChannelInfo	Kanal maǵlıwmatın ózgertiw
+EventLogPromotedChangeGroupInfo	Topar maǵlıwmatın ózgertiw
+EventLogPromotedPostMessages	Xabar jariyalaw
+EventLogPromotedEditMessages	Xabarlardı ózgertiw
+EventLogPromotedDeleteMessages	Xabarlardı óshiriw
+EventLogPromotedPostStories	Storis jariyalaw
+EventLogPromotedEditStories	Storislerdi ózgertiw
+EventLogPromotedDeleteStories	Storislerdi óshiriw
+EventLogPromotedAddAdmins	Admin qosıw
+EventLogPromotedSendAnonymously	Anonim jiberiw
+EventLogPromotedBanUsers	Paydalanıwshılardı bloklaw
+EventLogPromotedManageCall	Jonlı efirlerdi basqarıw
+EventLogPromotedAddUsers	Paydalanıwshılar qosıw
+EventLogPromotedTitle	Ataǵı: %1$s
+EventLogPromotedRemovedTitle	Ataǵı
+EventLogPromotedPinMessages	Xabarlardı bekitiw
+EventLogPromotedEditRanks	Teglerdi ózgertiw
+EventLogPromotedManageTopics	Temalardı basqarıw
+EventLogPromotedManageDirect	Jeke xabarlardı basqarıw
+EventLogPromotedManageWelcomeMessages	Qutlıqlaw xabarların basqarıw
+EventLogFilterAll	Barlıq háreketler
+EventLogFilterNewRestrictions	Jańa ayrıqshalıqlar
+EventLogFilterNewAdmins	Admin huqıqları
+EventLogFilterNewMembers	Jańa aǵzalar
+EventLogFilterNewSubscribers	Jańa jazılıwshılar
+EventLogFilterGroupInfo	Topar maǵlıwmatı
+EventLogFilterChannelInfo	Kanal maǵlıwmatı
+EventLogFilterDeletedMessages	Óshirilgen xabarlar
+EventLogFilterEditedMessages	Ózgertilgen xabarlar
+EventLogFilterPinnedMessages	Bekitilgen xabarlar
+EventLogFilterLeavingMembers	Shıqqan aǵzalar
+EventLogFilterLeavingMembers2	Topardan shıqqan aǵzalar
+EventLogFilterMembersRank	Aǵza teglerin jańalaw
+EventLogFilterLeavingSubscribers2	Kanaldan shıqqan aǵzalar
+EventLogFilterSectionMembers	Aǵzalar hám adminler
+EventLogFilterSectionSubscribers	Jazılıwshılar hám adminler
+EventLogFilterApply	Filtrdi qollanıw
+EventLogFilterSectionAdmin	Jańa admin huqıqları
+EventLogFilterSectionMessages	Xabarlar
+EventLogFilterSectionGroupSettings	Topar sazlamaları
+EventLogFilterSectionChannelSettings	Kanal sazlamaları
+EventLogFilterByActions	Háreketlerdi túri boyınsha súziw
+EventLogFilterByAdmins	Háreketlerdi adminler boyınsha súziw
+EventLogFilterByAdminsAll	Barlıq adminlerdiń háreketlerin kórsetiw
+EventLogFilterCalls	Dawıslı sáwbetler
+EventLogFilterInvites	Mirát siltemeleri
+EventLogToggledSlowmodeOn	un1 áste rejim taymerin %1$s etip ornattı
+EventLogToggledSlowmodeOff	un1 áste rejimdi óshirdi
+EventLogToggledAutotranslationOn	un1 avto-awdarmanı qostı
+EventLogToggledAutotranslationOff	un1 avto-awdarmanı óshirdi
+EventLogStartedVoiceChat	un1 dawıslı sáwbetti basladı
+EventLogEndedVoiceChat	un1 dawıslı sáwbetti tamamladı
+EventLogStartedLiveStream	un1 jonlı efirdi basladı
+EventLogEndedLiveStream	un1 jonlı efirdi tamamladı
+EventLogVoiceChatMuted	un1 un2 di únsiz etti
+EventLogVoiceChatUnmuted	un1 un2 diń dawısın qostı
+EventLogVoiceChatAllowedToSpeak	un1 jańa qatnasıwshılarǵa sóylewge ruqsat berdi
+EventLogVoiceChatNotAllowedToSpeak	un1 jańa qatnasıwshılardı únsiz etti
+EventLogChangeUsernames	un1 topar paydalanıwshı atların %1$s den %2$s ge ózgertti
+EventLogDeactivatedUsername	un1 %1$s paydalanıwshı atın óshirdi
+EventLogActivatedUsername	un1 %1$s paydalanıwshı atın qostı
+EventLogSwitchToForum	un1 topardı forumǵa aylandırdı
+EventLogSwitchToGroup	un1 forumdı toparǵa aylandırdı
+EventLogCreateTopic	un1 un2 temasın jarattı
+EventLogEditTopic	un1 tema atın un2 den un3 ke ózgertti
+EventLogClosedTopic	%s un2 temasın japtı
+EventLogReopenedTopic	%s un2 temasın qayta ashtı
+EventLogDeleteTopic	un1 un2 temasın óshirdi
+EventLogPinTopic	un1 un2 temasın bekitti
+EventLogUnpinTopic	un1 un2 temasın bekitiwden aldı
+EventLogEnabledAntiSpam	un1 anti-spamdı qostı
+EventLogDisabledAntiSpam	un1 anti-spamdı óshirdi
+EventLogChangedColor	un1 kanal reńin %1$s den %2$s ge ózgertti
+EventLogChangedEmoji	un1 kanal emojisin %1$s den %2$s ge ózgertti
+EventLogChangedPeerColorIcon	un1 kanal reńi hám belgisin %1$s den %2$s ge ózgertti
+EventLogChangedProfileColorIcon	un1 kanal profil reńi hám belgisin %1$s den %2$s ge ózgertti
+EventLogChangedEmojiStatusFrom	un1 kanal emoji statusın %1$s den %2$s ge ózgertti
+EventLogChangedEmojiStatus	un1 kanal emoji statusın %2$s ge ózgertti
+EventLogChangedEmojiStatusFromFor	un1 kanal emoji statusın %1$s den %2$s ge ózgertti (%3$s ge)
+EventLogChangedEmojiStatusFor	un1 kanal emoji statusın %2$s ge ózgertti (%3$s ge)
+EventLogChangedWallpaper	un1 kanal fonın ózgertti
+EventLogRemovedWallpaper	un1 kanal fonın alıp tasladı
+EventLogChangedColorGroup	un1 topar reńin %1$s den %2$s ge ózgertti
+EventLogChangedEmojiGroup	un1 topar emojisin %1$s den %2$s ge ózgertti
+EventLogChangedPeerColorIconGroup	un1 topar reńi hám belgisin %1$s den %2$s ge ózgertti
+EventLogChangedProfileColorIconGroup	un1 topar profil reńi hám belgisin %1$s den %2$s ge ózgertti
+EventLogChangedEmojiStatusFromGroup	un1 topar emoji statusın %1$s den %2$s ge ózgertti
+EventLogChangedEmojiStatusGroup	un1 topar emoji statusın %2$s ge ózgertti
+EventLogChangedEmojiStatusFromForGroup	un1 topar emoji statusın %1$s den %2$s ge ózgertti (%3$s ge)
+EventLogChangedEmojiStatusForGroup	un1 topar emoji statusın %2$s ge ózgertti (%3$s ge)
+EventLogChangedWallpaperGroup	un1 topar fonın ózgertti
+EventLogRemovedWallpaperGroup	un1 topar fonın alıp tasladı
+EventLogEmojiNone	joq
+EventLogRankSelfAdd	un1 óz tegin «%1$s» etip ornattı
+EventLogRankSelfEdit	un1 óz tegin «%1$s» den «%2$s» ge ózgertti
+EventLogRankSelfRemove	un1 óziniń «%1$s» tegin alıp tasladı
+EventLogRankAdd	un1 un2 tegin «%1$s» etip ornattı
+EventLogRankEdit	un1 un2 tegin «%1$s» den «%2$s» ge ózgertti
+EventLogRankRemove	un1 un2 diń «%1$s» tegin alıp tasladı
+NewBroadcastList	Jańa taratıw dizimi
+EnterListName	Dizim atın kiritiń
+YouCreatedBroadcastList	Siz taratıw dizimin jarattıńız
+KickFromBroadcast	Taratıw diziminen alıp taslaw
+NoAudioFiles	Audio fayllar joq
+NoAudioFilesInfo	Muzıka kitapxanańız bos.
+NoAudioFound	Nátiyje tabılmadı
+NoAudioFoundInfo	Muzıka kitapxanańızda **%1$s** ǵa sáykes nárse joq.
+NoAudioFoundInfo2	**%1$s** ǵa sáykes nárse joq.
+NoAudioFoundPlayerInfo	**%1$s** boyınsha sáykes nárse joq.
+AttachMusic	Muzıka
+AudioUnknownArtist	Belgisiz atqarıwshı
+AudioUnknownTitle	Belgisiz at
+RepeatSong	Qosıqtı qaytalaw
+RepeatList	Dizimdi qaytalaw
+ShuffleList	Aralastırıw
+ReverseOrder	Keri tártip
+SelectFile	Fayl tańlaw
+FreeOfTotal	%2$s den %1$s bos
+UnknownError	Belgisiz qátelik
+UnknownErrorCode	Belgisiz qátelik: %s
+AccessError	Kiriw qáteligi
+InternalStorage	Ishki yad
+ExternalStorage	Sırtqı yad
+SdCard	SD karta
+Folder	Papka
+RecentFiles	Sońǵı fayllar
+RecentFilesAZ	Fayllar A-Z
+GalleryInfo	Súwretlerdi qısıwsız jiberiw ushın
+MusicInfo	Muzıka fayllarin jiberiw ushın
+AppFolderInfo	Qosımsha papkasın kóriw
+InternalFolderInfo	Fayl sistemańızdı kóriw
+ExternalFolderInfo	Sırtqı yadıńızdı kóriw
+SearchMusic	Muzıka izlew
+GroupStickers	Topar stikerleri
+GroupStickersInfo	Bul toparda sáwbetleskende barlıq topar aǵzalarına qoljetimli bolatuǵın stiker toplamın tańlay alasız.
+ChooseStickerSet	STIKER TOPLAMIN TAŃLAW
+ChooseStickerSetHeader	Stiker toplamın tańlaw
+ChooseEmojiPackHeader	Emoji toplamın tańlaw
+ChooseStickerSetMy	@stickers botı arqalı óz stiker toplamlarıńızdı jarata alasız.
+ChooseEmojiPackMy	@stickers botı arqalı óz emoji toplamlarıńızdı jarata alasız.
+SetAsGroupStickerSet	Topar stiker toplamı etip ornatıw
+RemoveGroupStickerSet	Topar stiker toplamın alıp taslaw
+SetAsGroupEmojiPackSet	Topar emoji toplamı etip ornatıw
+RemoveGroupEmojiPackSet	Topar emoji toplamın alıp taslaw
+ChooseStickerNoResultsFound	\"%1$s\" boyınsha nátiyje tabılmadı
+ChooseStickerMyStickerSets	Meniń stiker toplamlarım
+ChooseStickerMyEmojiPacks	Meniń emoji toplamlarım
+AddEmojiPackHeader	Silteme arqalı emoji toplamın qosıw
+AddGroupEmojiPackHint	Barlıq aǵzalar Telegram Premium bolmasa da, bul emojilerdi toparda paydalana aladı.
+AddEmojiPackLinkHint	emojiset
+Invisible	kórinbeydi
+SupportStatus	qollap-quwatlaw
+Typing	jazıp atır...
+IsTyping	jazıp atır...
+AreTyping	jazıp atır...
+IsTypingGroup	%1$s jazıp atır...
+AreTypingGroup	%1$s jazıp atır...
+IsRecordingAudio	%1$s dawıslı xabar jazıp atır...
+IsRecordingRound	%1$s video xabar jazıp atır...
+IsSendingAudio	%1$s audio jiberip atır...
+IsSendingPhoto	%1$s súwret jiberip atır...
+InstantView	INSTANT VIEW
+OpenGroup	TOPARDI KÓRIW
+OpenBackground	FONDI KÓRIW
+OpenTheme	TEMANI KÓRIW
+OpenChannel	KANALDI KÓRIW
+OpenChannelDirect	KANALǴA JAZIW
+OpenMessage	XABARDI KÓRIW
+OpenBot	BOTTI ASHIW
+OpenAIStyle	STILDI KÓRIW
+OpenInstantView	Instant View
+OpenLocalInstantView	Instant View
+SponsoredMessage	reklama
+SponsoredMessage2	Reklama
+SponsoredMessage2Recommended	Usınıladı
+SponsoredMessageAd	Reklama
+SponsoredMessageAdWhatIsThis	bul ne?
+SponsoredMessageSponsor	Reklama beriwshi haqqında
+SponsoredMessageSponsorReportable	Demewshi haqqında
+SponsoredMessageInfo	Reklama xabarları\ndegen ne?
+SponsoredMessageInfo2Description1	Basqa qosımshalardan ayırmashılıǵı, Telegram reklamanı baǵdarlaw ushın hesh qashan jeke maǵlıwmatlarıńızdan paydalanbaydı. [Qupıyalıq siyasatında tolıǵıraq](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)
+SponsoredMessageInfo2Description2	Basqa qosımshalardan ayırmashılıǵı, Telegram siz reklama xabarın basqanıńızdı baqlamaydı hám iskerligińiz boyınsha profil dúzbeydi. Úshinshi tárepler paydalanıwshılarımızdı ańlay almawı ushın reklama xabarlarındaǵı sırtqı siltemelerge de jol qoymaymız. Biz hár kimniń qupıyalıqqa huqıqı bar dep esaplaymız hám texnologiyalıq platformalar bunı húrmet etiwi kerek.
+SponsoredMessageInfo2Description3	Telegram júzlegen million paydalanıwshıǵa biypul hám sheksiz xızmet usınadı, bul úlken server hám trafik qárejetlerin talap etedi. Ǵárezsiz qalıw hám óz qádiriyatlarına sadıq bolıw ushın Telegram paydalanıwshı qupıyalıǵın esapqa alıp, xabarlardı alǵa jıljıtıw ushın aqılı qural islep shıqtı. Juwapker reklama beriwshilerdi mına mánzilde kútemiz:
+SponsoredMessageInfo2Description4	Reklama endi paydalanıwshı qupıyalıǵın buzıw menen teń bolmawı kerek. Kelińiz, texnologiya kompaniyası qalay islewi kerekligin birge qaytadan anıqlayıq.
+SponsoredMessageAlertLearnMore	TOLIǴIRAQ
+SponsoredMessageAlertLearnMoreUrl	https://telegram.org
+RevenueSharingAdsAlertSubtitle	Telegram reklamaları basqa platformalardaǵı reklamalardan úlken ayırmashılıqqa iye. Usıǵan uqsas reklamalar:
+RevenueSharingAdsInfo1Title	Qupıyalıǵıńızdı húrmet etedi
+RevenueSharingAdsInfo1Subtitle	Telegram daǵı reklamalar jeke maǵlıwmatlarıńızdan paydalanbaydı hám olardı kórip turǵan kanalıńızǵa tiykarlanadı.
+RevenueSharingAdsInfo2Title	Kanal avtorına járdem beredi
+RevenueSharingAdsInfo2Subtitle	Telegram reklamalarınan túsken dáramattıń 50% i olar kórsetilgen kanaldıń iyesine beriledi.
+RevenueSharingAdsInfo3Title	Alıp taslawǵa boladı
+RevenueSharingAdsInfo3Subtitle	**Telegram Premium** ǵa jazılıp, reklamalardı óshire alasız, al %1$s dárejeli kanallar olardı jazılıwshıları ushın alıp taslay aladı.
+RevenueSharingAdsInfo3SubtitleBot	**Telegram Premium** ǵa jazılıp, reklamalardı óshire alasız.
+RevenueSharingAdsInfo4Title	Men reklama bere alamanba?
+RevenueSharingAdsInfo4TitleBot	Men reklama bere alamanba?
+RevenueSharingAdsInfo4Subtitle2	Hár kim bul kanalda kórsetiw ushın az byudjet penen reklama jarata aladı. Tolıǵıraq maǵlıwmat ushın **Telegram Ad Platform** dı qarań. %1$s
+RevenueSharingAdsInfo4SubtitleLearnMore	**Tolıǵıraq >**
+RevenueSharingAdsAlertButton	Túsinikli
+RevenueSharingAdsInfo1TitleBot	Qupıyalıǵıńızdı húrmet etedi
+RevenueSharingAdsInfo1SubtitleBot	Telegram daǵı reklamalar jeke maǵlıwmatlarıńızdan paydalanbaydı hám olardı kórip turǵan botıńızǵa tiykarlanadı.
+RevenueSharingAdsInfo2TitleBot	Bot avtorına járdem beredi
+RevenueSharingAdsInfo2SubtitleBot	Telegram reklamalarınan túsken dáramattıń 50% i olar kórsetilgen bottıń iyesine beriledi.
+RevenueSharingAdsInfo4Subtitle2Bot	Hár kim bul botta kórsetiw ushın az byudjet penen reklama jarata aladı. Tolıǵıraq maǵlıwmat ushın **Telegram Ad Platform** dı qarań. %1$s

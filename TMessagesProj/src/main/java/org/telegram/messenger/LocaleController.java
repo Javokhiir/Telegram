@@ -572,6 +572,7 @@ public class LocaleController {
                 "nl", "nn", "no", "sv", "af", "bg", "bn", "ca", "eu", "fur", "fy", "gu", "ha", "is", "ku",
                 "lb", "ml", "mr", "nah", "ne", "om", "or", "pa", "pap", "ps", "so", "sq", "sw", "ta", "te",
                 "tk", "ur", "zu", "mn", "gsw", "chr", "rm", "pt", "an", "ast"}, new PluralRules_One());
+        addRules(new String[]{"kaa"}, new PluralRules_One());
         addRules(new String[]{"cs", "sk"}, new PluralRules_Czech());
         addRules(new String[]{"ff", "fr", "kab"}, new PluralRules_French());
         addRules(new String[]{"ru", "uk", "be"}, new PluralRules_Balkan());
@@ -669,6 +670,16 @@ public class LocaleController {
         localeInfo.name = "Українська";
         localeInfo.nameEnglish = "Ukrainian";
         localeInfo.shortName = localeInfo.pluralLangCode = "uk";
+        localeInfo.pathToFile = null;
+        localeInfo.builtIn = true;
+        languages.add(localeInfo);
+        languagesDict.put(localeInfo.shortName, localeInfo);
+
+        // Karakalpak: shipped in res/values-b+kaa, no server langpack exists.
+        localeInfo = new LocaleInfo();
+        localeInfo.name = "Qaraqalpaqsha";
+        localeInfo.nameEnglish = "Karakalpak";
+        localeInfo.shortName = localeInfo.pluralLangCode = "kaa";
         localeInfo.pathToFile = null;
         localeInfo.builtIn = true;
         languages.add(localeInfo);

@@ -1,0 +1,516 @@
+Report2CommentInfoMany	Please help us by telling what is wrong with the message you have selected.
+Report2CommentInfoUser	Please help us by telling what is wrong with the user you have selected.
+Report2CommentInfoGroup	Please help us by telling what is wrong with the group you have selected.
+Report2CommentInfoChannel	Please help us by telling what is wrong with the channel you have selected.
+Report2Send	Send Report
+Reported2	Telegram moderators will review your report. Thank you!
+Gift2TransactionRefundedAuctionBid	Refunded Auction Bid
+Gift2TransactionRefundedSent	Refunded Sent Gift
+Gift2TransactionRefundedUpgrade	Refunded Gift Upgrade
+Gift2TransactionRefundedConverted	Refunded Converted Gift
+Gift2TransactionConverted	Converted Gift
+Gift2TransactionAuctionBid	Auction Bid
+Gift2TransactionSent	Gift
+Gift2TransactionUpgraded	Collectible Upgrade
+Gift2Notification_one	sent a Gift worth of %d Star
+Gift2Notification_other	sent a Gift worth of %d Stars
+Gift2UniqueNotification	sent a Unique Gift!
+Gift2UniqueUpgradeNotification	upgraded your Gift
+Gift2UniquePrepaidUpgradeNotification	sent an Upgrade for your Gift
+Gift2UniqueUnpackUpgradeNotification	unpacked the Gift
+YourStarsBalance	your balance
+YourTonBalance	your balance
+StarsBuy	Buy Stars
+StarsBuyMore	Buy More Stars
+Gift2CaptionMore	more
+Gift2SoldOutSheetTitle	Unavailable
+Gift2SoldOutSheetSubtitle	This gift has been sold out
+Gift2SoldOutSheetFirstSale	First Sale
+Gift2SoldOutSheetLastSale	Last Sale
+Gift2SoldOutSheetValue	Value
+Gift2Value	Value
+Gift2ButtonSendGift	send a gift
+Gift2ButtonSell_one	sell for %d Star
+Gift2ButtonSell_other	sell for %d Stars
+MessageAddPhotoVideo	Add Photo or Video
+MessageAddFile	Add File
+MessageAddMusic	Add Music
+MessageReplacePhotoVideo	To Photo or Video
+MessageReplaceFile	To File
+MessageReplaceMusic	To Music
+PublicPostsSection	Public posts
+PublicPostsTabs	Public Posts
+PublicPostsMore	Show more \>
+AppsTabInfo	Which apps are included here? **Learn \>**
+AppsTabInfoTitle	Top Mini Apps
+AppsTabInfoText	This catalogue ranks mini apps based on their daily revenue, measured in Stars. To be listed, developers must set their main mini apps in @botfather (as described [here](https://core.telegram.org/bots/webapps#launching-the-main-mini-app)), have over **1,000** daily users, and earn a daily revenue above **1,000** Stars, based on the weekly average.
+AppsTabInfoButton	Understood
+ScheduledTimeApprox	appx. %s
+VideoConversionTitle	Improving Video...
+VideoConversionText	The video will be published after it\'s optimized for the best viewing experience.
+VideoConversionAction	The video will be published once converted and optimized
+VideoConversionInfo	The video will be published once converted and optimized.
+VideoConversionTimeInfo	Processing video may take a few minutes.
+BotAdWhat	what\'s this?
+BotStatsStars	Stars
+BotStatsTON	Toncoin
+BotMonetizationGraphImpressions	Ad impressions
+BotMonetizationGraphRevenue	Ad revenue
+BotMonetizationOverview	Proceeds overview
+BotMonetizationOverviewAvailable	Balance available to withdraw
+BotMonetizationOverviewLastWithdrawal	Proceeds since last withdrawal
+BotMonetizationOverviewTotal	Total lifetime proceeds
+BotMonetizationBalance	Available balance
+BotMonetizationTransactions	Transactions
+BotMonetizationInfo	Telegram shares %1$d%% of the revenue from ads displayed in your bot. **Learn more >**
+BotMonetizationProceedsTONInfo	TON from your total balance become available for spending on ads and rewards 3 days after they are earned.
+BotMonetizationProceedsTONInfoLink	https://telegram.org/tos/content-creator-rewards
+BotMonetizationBalanceInfo	You can collect your reward using Fragment, a third-party platform used by advertisers to pay for ads. **Learn more >**
+BotMonetizationBalanceInfoLink	https://telegram.org/tos/content-creator-rewards
+BotMonetizationBalanceInfoNotAvailable	In the coming weeks you will be able to collect your reward using Fragment, a third-party platform used by advertisers to pay ads. **Learn more >**
+BotMonetizationInfoTitle	Earn From Your Bot
+BotMonetizationInfoFeature1Name	Telegram Ads
+BotMonetizationInfoFeature1Text	Telegram can display ads in your bot.
+BotMonetizationInfoFeature2Name	50:50 revenue split
+BotMonetizationInfoFeature2Text	You can receive 50% of the ad revenue in TON.
+BotMonetizationInfoFeature3Name	Flexible withdrawals
+BotMonetizationInfoFeature3Text	You can withdraw your TON any time.
+BotMonetizationInfoTONTitle	What is 💎 TON?
+BotMonetizationInfoTONText	**TON** is a blockchain platform and cryptocurrency that Telegram uses for its high speed and low commisions on transactions.
+BotMonetizationInfoTONLink	https://telegram.org/privacy
+HashtagSuggestion1Title	Use %s
+HashtagSuggestion1Text	searches posts from all channels
+HashtagSuggestion2Title	Use %s
+HashtagSuggestion2Text	searches only posts from your channel
+VideoConversionDone	Video published.
+VideoConversionDoneView	View
+SeekSpeedHint	Swipe sideways to change speed
+VideoConversionNowTitle	Wait!
+VideoConversionNowText	This video hasn\'t been converted and optimized yet. If you send it now, the viewers of the video may experience slow download speed.
+VideoConversionNowSend	Send Anyway
+BotEmojiStatusConfirm	Confirm
+BotEmojiStatusSetRequest	Do you want to set this emoji status suggested by **%1$s**?
+BotEmojiStatusSetRequestFor	Do you want to set this emoji status suggested by **%1$s** for **%2$s**?
+BotEmojiStatusSetRequestForMinute_one	%d minute
+BotEmojiStatusSetRequestForMinute_other	%d minutes
+BotEmojiStatusSetRequestForHour_one	%d hour
+BotEmojiStatusSetRequestForHour_other	%d hours
+BotEmojiStatusSetRequestForDay_one	%d day
+BotEmojiStatusSetRequestForDay_other	%d days
+BotEmojiStatusPermissionRequest	**%1$s** requests access to set your **emoji status**. You will be able to revoke this access in the profile page of **%2$s**.
+BotLocationPermissionRequest	**%1$s** requests access to your location. You will be able to revoke this access in the profile page of **%2$s**.
+BotEmojiStatusPermissionAllow	Allow
+BotEmojiStatusPermissionDecline	Decline
+BotLocationPermissionAllow	Allow
+BotLocationPermissionDecline	Decline
+BotLocationPermissionSettings	Settings
+BotProfilePermissions	Allow access to
+BotProfilePermissionLocation	Geolocation
+BotProfilePermissionEmojiStatus	Emoji Status
+BotProfilePermissionBiometry	Biometry
+BotLocationPermissionRequestGranted	**%s** can now have access to your location
+BotLocationPermissionRequestDeniedApp	**%s** can\'t have access to your location since you restricted Telegram from accessing it.
+BotLocationPermissionRequestDeniedAppSettings	Change in Settings \>
+BotEmojiStatusPermissionRequestGranted	**%s** can now set your emoji status anytime.
+BotEmojiStatusUpdated	Your emoji status is updated.
+BotFullscreenBack	Back
+BotFullscreenClose	Close
+BotDownloads	Downloads
+BotDownloadFileTitle	Download Document
+BotDownloadFileText	**%s** suggests you download the following file:
+BotDownloadFileDownload	Download
+BotShareMessage	Share Message
+BotShareMessagePreview	Message preview
+BotShareMessageInfo	%s mini app suggests you to send this message to a chat you select.
+BotShareMessageShare	Share with...
+BotShareToTopic	Share to…
+BotSharedToOne	Sent message to **%s**
+BotSharedToMany_one	Sent message to %d chat
+BotSharedToMany_other	Sent message to %d chats
+LiveStreamWillNotify	You will be notified when the live stream starts.
+LiveStreamWillNotNotify	You will not be notified when the live stream starts.
+BotOpen	Open
+BotFileDownloading	Downloading...
+BotFileDownloaded	File saved to Downloads
+BotFileDownloadOpen	Open
+BotFileDownloadCancel	Cancel
+StoreCollageRetake	Retake
+Percent	%d%
+AffiliateProgramBot	Affiliate Program
+AffiliateProgramBotOff	Off
+BotAffiliateProgramTitle	Affiliate Program
+BotAffiliateProgramText	Reward those who help grow your user base.
+BotAffiliateProgramFeature1Title	Share revenue with affiliates
+BotAffiliateProgramFeature1	Set the commission for revenue generated by users referred to you.
+BotAffiliateProgramFeature2Title	Launch your affiliate program
+BotAffiliateProgramFeature2	Telegram will feature your program for millions of potential affiliates.
+BotAffiliateProgramFeature3Title	Let affiliates promote you
+BotAffiliateProgramFeature3	Affiliates will share your referral link with their audience.
+AffiliateProgramCommission	Commission
+AffiliateProgramCommissionInfo	Define the percentage of star revenue your affiliates earn for referring users to your bot.
+AffiliateProgramDuration	Duration
+AffiliateProgramDurationInfo	Set the duration for which affiliates will earn commissions from referred users.
+AffiliateProgramExistingProgramsTitle	View existing programs
+AffiliateProgramExistingProgramsText	Explore what other mini apps offer.
+AffiliateProgramStart	Start Affiliate Program
+AffiliateProgramStartInfo	By creating an affiliate program, you agree to the **Terms and Conditions** of Affiliate Programs.
+AffiliateProgramStartInfoLink	https://telegram.org/privacy
+AffiliateProgramStartAvailableIn	Available in %s
+AffiliateProgramStartAlertText	Once you start the affiliated program, you won\'t be able to decrease its commission or duration. You can only increase these parameters or end the program, which will disable all previously distributed referral links.
+AffiliateProgramStartAlertButton	Start
+AffiliateProgramUpdate	Update Affiliate Program
+AffiliateProgramUpdateInfo	By updating an affiliate program, you agree to the **Terms and Conditions** of Affiliate Programs.
+AffiliateProgramUpdateInfoLink	https://telegram.org/privacy
+AffiliateProgramUpdateAlertText	This change is irreversible. You won\'t be able to reduce commission or duration. You can only increase these parameters or end the program, which will disable all previously shared referral links.
+AffiliateProgramUpdateAlertButton	Update
+AffiliateProgramAlert	Warning
+AffiliateProgramStop	End Affiliate Program
+AffiliateProgramStopText	If you end your affiliate program:
+AffiliateProgramStopText1	Any referral links already shared will be disabled in **24** hours.
+AffiliateProgramStopText2	All participants affiliates will be notified.
+AffiliateProgramStopText3	You will be able to start a new affiliate program only in **24** hours.
+AffiliateProgramStopButton	End Anyway
+ChannelAffiliatePrograms	Affiliate Programs
+ChannelAffiliateProgramTitle	Affiliate Programs
+ChannelAffiliateProgramText	Earn a commission each time a user who first accessed a mini app through your referral link spends **Stars** within it.
+ChannelAffiliateProgramFeature1Title	Reliable
+ChannelAffiliateProgramFeature1	Receive guaranteed commissions for spending by users you refer.
+ChannelAffiliateProgramFeature2Title	Transparent
+ChannelAffiliateProgramFeature2	Track your commissions from referred users in real time.
+ChannelAffiliateProgramFeature3Title	Simple
+ChannelAffiliateProgramFeature3	Choose a mini app below, get your referral link, and start earning Stars.
+ChannelAffiliateProgramMyPrograms	My Programs
+ChannelAffiliateProgramPrograms	Programs
+ChannelAffiliateProgramProgramsSort	Sort by
+ChannelAffiliateProgramProgramsSortDate	Date
+ChannelAffiliateProgramProgramsSortRevenue	Revenue
+ChannelAffiliateProgramProgramsSortProfitability	Profitability
+ChannelAffiliateProgramJoinTitle	Affiliate Program
+ChannelAffiliateProgramJoinRevenue	App\'s daily revenue per user: ⭐️ %s
+ChannelAffiliateProgramJoinText	**%1$s** will share **%2$s** of the revenue from each user you refer to it for **%3$s**.
+ChannelAffiliateProgramJoinViewBot	View %s
+ChannelAffiliateProgramJoinText_Months_one	%d month
+ChannelAffiliateProgramJoinText_Months_other	%d months
+ChannelAffiliateProgramJoinText_Years_one	%d year
+ChannelAffiliateProgramJoinText_Years_other	%d years
+ChannelAffiliateProgramJoinText_Lifetime	lifetime
+ChannelAffiliateProgramJoinMonthlyUsers	Monthly users
+ChannelAffiliateProgramJoinDailyRevenue	Their average daily\nrevenue per user
+ChannelAffiliateProgramJoinButton	Join Program
+ChannelAffiliateProgramJoinButtonInfo	By joining this program, you agree to the **Terms and Services** of Affiliate Programs.
+ChannelAffiliateProgramJoinButtonInfoLink	https://telegram.org/privacy
+UserAffiliateProgramRowTitle	Earn Stars
+UserAffiliateProgramRowText	Distribute links to mini apps and earn a share of their revenue in Stars.
+ChannelAffiliateProgramRowTitle	Earn Stars
+ChannelAffiliateProgramRowText	Distribute links to mini apps and earn a share of their revenue in Stars.
+BotAffiliateProgramRowTitle	Earn Stars
+BotAffiliateProgramRowText	Distribute links to mini apps and earn a share of their revenue in Stars.
+ChannelAffiliateProgramLinkTitle	Referral Link
+ChannelAffiliateProgramLinkTextUser	Share this link with your friends to earn a **%1$s** commission on their spending in **%2$s** for **%3$s**.
+ChannelAffiliateProgramLinkTextChannel	Share this link with your subscribers to earn a **%1$s** commission on their spending in **%2$s** for **%3$s**.
+ChannelAffiliateProgramLinkTextRevoked	You revoked this referral link.
+ChannelAffiliateProgramLinkSendTo	Commissions will be sent to:
+ChannelAffiliateProgramLinkCopy	Copy Link
+ChannelAffiliateProgramLinkOpenedNone	No one has opened %s through this link.
+ChannelAffiliateProgramLinkOpened_one	%1$d user has opened %2$s through this link.
+ChannelAffiliateProgramLinkOpened_other	%1$d users have opened %2$s through this link.
+ChannelAffiliateProgramLinkRejoin	Rejoin Program
+AffiliateProgramLinkCopiedTitle	Link copied to clipboard
+AffiliateProgramLinkCopiedText	Share this link and earn **%1$s** of what people who use it spend in **%2$s**!
+AffiliateProgramJoinedTitle	Joined Program
+AffiliateProgramJoinedText	You can now copy the referral link.
+AffiliateProgramEndedTitle	Affiliate program ended
+AffiliateProgramEndedText	Participating affiliates have been notified. All referral links will be disabled in **24** hours.
+AffiliateProgramStartedTitle	Affiliate program started
+AffiliateProgramStartedText	Any Telegram user, channel owner or mini app developer can now join your program.
+AffiliateLinkExpiredTitle	Link expired
+AffiliateLinkExpiredText	This link was part of an affiliate program, that has been terminated by the app owner.
+StoryTimeline	Timeline
+MoveCaptionUp	Move caption up
+MovedCaptionUp	Caption moved up
+MovedCaptionUpText	Caption will be shown above the media
+MoveCaptionDown	Move caption down
+MovedCaptionDown	Caption moved down
+MovedCaptionDownText	Caption will be shown below the media
+HintAddYourPhoto	Add your photo! 📸
+HintAddYourPhotoText	Help your friends spot you easily.
+SendAnotherGift	Send Another Gift
+SendGiftTo	Send Gift to %s
+SearchMessagesFilterAll	All Chats
+SearchMessagesFilterPrivate	Private Chats
+SearchMessagesFilterGroup	Group Chats
+SearchMessagesFilterChannels	Channels
+SearchMessagesFilterAllFrom	From all chats
+SearchMessagesFilterPrivateFrom	From private chats
+SearchMessagesFilterGroupFrom	From groups
+SearchMessagesFilterChannelsFrom	From channels
+SearchMessagesFilterEmptyTitle	No results
+SearchMessagesFilterEmptyText	There were no results for \"%s\".\nTry a new search.
+SearchMessagesFilterEmptySearchAll	Search in All Messages
+BotVerifyAccounts	Verify Accounts
+BotChooseChatToVerify	Choose Chat To Verify
+BotVerifyUserTitle	Verify User
+BotVerifyBotTitle	Verify Bot
+BotVerifyChannelTitle	Verify Channel
+BotVerifyGroupTitle	Verify Group
+BotVerifyText	Do you want to verify **%s** with your verification mark and description?
+BotVerifyDescription	Description
+BotVerifyDescriptionInfo	You can customize your description for each account.
+BotVerifyDescriptionInfoChat	You can customize your description for each chat.
+BotRemoveVerificationTitle	Remove verification
+BotRemoveVerificationText	This account is already verified by you.\nDo you want to revoke verification?
+BotRemoveVerificationChatText	This chat is already verified by you.\nDo you want to revoke verification?
+BotSentVerifyRequest	**%s** has been notified and will receive your verification mark and description upon accepting.
+BotSentRevokeVerifyRequest	**%s**\'s verification has been revoked.
+ReportSpamUserBotVerificationHint	This page is verified by the %1$s
+BotVerifierRepresentatives	This community is verified as official by the representatives of %s.
+Gift2Status	Status
+Gift2StatusNonUnique	Non-Unique
+Gift2StatusUpgrade	upgrade
+Gift2UpgradeTitle	Upgrade Gift
+Gift2UpgradeText	Turn your gift into a unique collectible that you can transfer or auction.
+Gift2PrepayUpgradeTitle	Make Unique
+Gift2PrepayUpgradeText	Let %s turn your gift into a unique collectible.
+Gift2UpgradeFeature1Title	Unique
+Gift2UpgradeFeature1Text	Get a unique number, model, backdrop and a symbol for your gift.
+Gift2PrepayUpgradeFeature1Text	%s will get a unique number, model, backdrop, and symbol for the gift.
+Gift2UpgradeFeature1TextLearn	The recipient will get a unique number, model, backdrop, and symbol for the gift.
+Gift2UpgradeFeature2Title	Transferable
+Gift2UpgradeFeature2Text	Send your upgraded gift to any of your friends on Telegram.
+Gift2PrepayUpgradeFeature2Text	%s will be able to send the gift to anyone on Telegram.
+Gift2UpgradeFeature2TextLearn	The recipient will be able to send the gift to anyone on Telegram.
+Gift2UpgradeFeature3Title	Tradable
+Gift2UpgradeFeatureSoon	SOON
+Gift2UpgradeFeature3Text	Sell or auction your gift on third-party NFT marketplaces.
+Gift2PrepayUpgradeFeature3Text	%s will be able to auction the gift on third-party NFT marketplaces.
+Gift2UpgradeFeature3TextLearn	The recipient will be able to auction the gift on third-party NFT marketplaces.
+Gift2WearTitle	Wear %s
+Gift2WearSubtitle	and get these benefits
+Gift2WearFeature1Title	Radiant Badge
+Gift2WearFeature1Text	The glittering icon of this item will be displayed next to your name.
+Gift2WearFeature2Title	Unique Profile Design
+Gift2WearFeature2Text	Your profile page will get the color and the symbol of this item.
+Gift2WearFeature3Title	Proof of Ownership
+Gift2WearFeature3Text	Tapping the icon of this item next to your name will show its info and owner.
+Gift2WearStart	Start Wearing
+Gift2ActionTransfer	Transfer
+Gift2ActionWear	Wear
+Gift2ActionWearOff	Take Off
+Gift2ActionWearDone	You put on **%s**
+Gift2ActionWearOffDone	You took off **%s**
+Gift2ActionShare	Share
+Gift2ActionResell	Resell
+Gift2ActionUnlist	Unlist
+Gift2UnlistTitle	Unlist %s
+Gift2UnlistText	Are you sure you want to unlist your gift?
+Gift2ActionWearNeededPremium	Subscribe to **Telegram Premium** to wear collectibles.
+Gift2LearnMoreTitle	Make Unique
+Gift2LearnMoreText	Let %s turn your gift into a unique collectible.
+Gift2UpgradeButton	Upgrade for ⭐️%d
+Gift2UpgradeButtonDecreasesIn	Price decreases in %s
+Gift2PrepayUpgradeButton	Pay ⭐️%d for Upgrade
+Gift2UpgradeButtonFree	Upgrade for Free
+Gift2UpgradeButtonGift	Upgrade
+Gift2AddSenderName	Add sender\'s name to the gift
+Gift2AddSenderNameComment	Add sender\'s name and comment
+Gift2AddMyNameName	Add my name to the gift
+Gift2AddMyNameNameChannel	Add channel\'s name to the gift
+Gift2ChannelNotify	Notify About New Gifts
+Gift2ChannelNotifyChecked	You will receive a message from Telegram when your channel receives a gift.
+Gift2ChannelNotifyNotChecked	You will not receive a message from Telegram when your channel receives a gift.
+Gift2ChannelDoesntSupportGiftsTitle	Not Available
+Gift2ChannelDoesntSupportGiftsText	This channel can\'t receive any star gifts.
+Gift2CollectionNumber_one	Collectible #%d
+Gift2CollectionNumber_other	Collectible #%d
+Gift2CollectionNumberBy_one	Collectible #%1$d by **%2$s**
+Gift2CollectionNumberBy_other	Collectible #%1$d by **%2$s**
+Gift2Owner	Owner
+Gift2Host	Telegram
+Gift2HostAddress	Owner
+Gift2CantDoTitle	Action Locked
+Gift2CantDoText	Transfer this gift to your Telegram account on Fragment to unlock this action.
+Gift2OwnerChange	transfer
+Gift2AttributeModel	Model
+Gift2AttributeBackdrop	Backdrop
+Gift2AttributeSymbol	Symbol
+Gift2PriceUnique	Unique
+GiftResaleFilterAllListings	All Listings
+GiftResaleFilterForStarsOnly	For Stars Only
+Gift2AttributeOriginalDetails	Gifted by %1$s to %2$s on %3$s.
+Gift2AttributeOriginalDetailsComment	Gifted by %1$s to %2$s on %3$s with the comment: “%4$s”
+Gift2AttributeOriginalDetailsSelf	Gifted saved by %1$s on %2$s.
+Gift2AttributeOriginalDetailsSelfComment	Gifted by %1$s on %2$s with the comment: “%3$s”
+Gift2AttributeOriginalDetailsNoSender	Gifted to %1$s on %2$s.
+Gift2AttributeOriginalDetailsNoSenderComment	Gifted to %1$s on %2$s with the comment: “%3$s”
+Gift2Transfer	Transfer %s
+Gift2TransferShort	Transfer Gift
+VideoChooseCover	Choose cover
+Gift2TransferText	Do you want to transfer ownership of **%1$s** to **%2$s**?
+Gift2TransferPriceText_one	Do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d Star**?
+Gift2TransferPriceText_other	Do you want to transfer ownership of **%2$s** to **%3$s** for **%1$d Stars**?
+Gift2TransferDo	Transfer
+Gift2TransferDoPrice	Transfer for ⭐️%d
+Gift2RemoveDescriptionTitle	Remove Description
+Gift2RemoveDescriptionText	Do you want to permanently remove this description from your gift?
+Gift2RemoveDescriptionButton	Remove for ⭐️%d
+Gift2UpgradedTitle	Gift Upgraded
+Gift2UpgradedText	Your gift **%s** now has unique attributes and can be transferred to others.
+Gift2UniqueTitle	Gift from %s
+Gift2UniqueTitle2	Gift
+Gift2UniqueView	View
+Gift2Unpack	Unpack
+Gift2UniqueRibbon	gift
+Gift2UniqueRibbonBurned	burned
+Gift2ExportTONTitle	Send via Blockchain
+Gift2ExportTONUnlocksIn_one	unlocks in %d day
+Gift2ExportTONUnlocksIn_other	unlocks in %d days
+Gift2ExportTONUnlocksAlertTitle	Unlocking in progress
+Gift2ExportTONUnlocksAlertText_one	In %d day, youll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction.
+Gift2ExportTONUnlocksAlertText_other	In %d days, youll be able to send this collectible to any TON blockchain address outside Telegram for sale or auction.
+Gift2ExportTONUpdateRequiredTitle	Update required
+Gift2ExportTONUpdateRequiredText	Please update your Telegram application to the latest version.
+Gift2ExportTONFragmentTitle	Manage with Fragment
+Gift2ExportTONFragmentText	You can use Fragment, a third-party service, to transfer **%s** to your TON account. After that, you can manage it as an NFT with any TON wallet outside Telegram.\n\nYou can also move such NFTs back to your Telegram account via Fragment.
+Gift2ExportTONFragmentOpen	Open Fragment
+Gift2RarityHint	Only %s of such collectibles have this attribute
+Gift2Refunded	This gift was downgraded because a request to refund the payment related to this gift was made, and the money was returned.
+Gift2MyselfSection	This is You
+Gift2Myself	buy yourself a gift
+Gift2TransferredTitle	Gift Transferred
+Gift2TransferredText	You have successfully transferred **%1$s** to **%2$s**.
+Gift2SelfInfoUpgrade	You can display this gift on your page or turn it into a unique collectible and send to others.
+Gift2SelfInfoConvert_one	Display this gift on your page or convert it to **%d Star**.
+Gift2SelfInfoConvert_other	Display this gift on your page or convert it to **%d Stars**.
+Gift2SelfInfoConverted_one	You converted this gift to **%d Star**.
+Gift2SelfInfoConverted_other	You converted this gift to **%d Stars**.
+Gift2SelfInfo	You can display this gift on your page.
+Gift2ActionUpgrade	Tap “Unpack” to turn this gift into a unique collectible.
+Gift2ActionUpgradeOut	%s can turn this gift into a unique collectible.
+Gift2TransferOption	Transfer
+Gift2ViewInProfile	View in Profile
+EditorMuteHint	Sound is now muted, so the video will play and loop like a GIF.
+YourProfilePhotoUploading	Your profile photo is uploading...
+YourProfileVideoUploading	Your profile video is uploading...
+YourProfilePhotoDone	Your profile photo is now set.
+YourProfileVideoDone	Your profile video is now set.
+Gift2FilterSortByDate	Sort By Date
+Gift2FilterSortByValue	Sort By Value
+Gift2FilterUnlimited	Unlimited
+Gift2FilterLimited	Limited
+Gift2FilterUpgradable	Upgradable
+Gift2FilterUnique	Unique
+Gift2FilterDisplayed	Displayed
+Gift2FilterHidden	Hidden
+UserProfileCollectibleHeader	Use a gift
+UserProfileCollectibleInfo	Apply your collectible\'s unique look to your profile.
+VideoShareAddTimestamp	Start at %s
+VideoStartsAt	Starts at %s
+Gift2InBlockchain	This gift is in TON Blockchain. **View >**
+EditorSetCover	Edit Cover
+EditorSetCoverTitle	Select Frame
+EditorSetCoverGallery	Choose from Gallery
+EditorSetCoverSave	Save Cover
+PremiumAvatarToast	Subscribe to **Telegram Premium** to set premium avatars.
+ChromecastStarted	Started streaming media to Chromecast.
+ChromecastStartedTo	Started streaming media to %s.
+CallInviteMembersButton	Call
+GroupMessagesChargePrice	Charge Stars for Messages
+GroupMessagesChargePriceInfo	If you turn this on, regular members of the group will have to pay Stars to send messages.
+GroupMessagesPriceHeader	Set price per message
+GroupMessagesPriceInfo	Your group will receive %1$s of the selected fee (~%2$s$) for each incoming message.
+PrivateMessagesChargePrice	Charge for Messages
+PrivateMessagesChargePriceInfo	Charge a fee for messages from people outside your contacts or those you haven\'t messaged first.
+PrivateMessagesPriceHeader	Set your price per message
+PrivateMessagesPriceInfo	You will receive %1$s of the selected fee (~%2$s$) for each incoming message.
+PrivateMessagesChargePremiumLocked	Unlock with Telegram Premium
+PrivateMessagesExceptionsHeader	Exception
+PrivateMessagesExceptions	Remove Fee
+PrivateMessagesExceptionsInfo	Add users or entire groups who won\'t be charged for sending messages to you.
+PaidMessageActionOut_one	You paid %d Star to send a message
+PaidMessageActionOut_other	You paid %d Stars to send a message
+PaidMessageActionIn_one	You received %1$d Star from un1
+PaidMessageActionIn_other	You received %1$d Stars from un1
+PaidMessageAction_one	un1 paid %1$d Star to send a message
+PaidMessageAction_other	un1 paid %1$d Stars to send a message
+PaidMessageActionMessages_one	%d message
+PaidMessageActionMessages_other	%d messages
+PaidMessageActionOutMany_one	You paid %1$d Star to send %2$s
+PaidMessageActionOutMany_other	You paid %1$d Stars to send %2$s
+PaidMessageActionMany_one	un1 paid %1$d Star to send %2$s
+PaidMessageActionMany_other	un1 paid %1$d Stars to send %2$s
+StarsTransactionMessageFee_one	Fee for %d Message
+StarsTransactionMessageFee_other	Fee for %d Messages
+StarsTransactionLiveStoryMessageFee	Fee for Live Story Comment
+StarsTransactionLiveStoryReactionFee	Fee for Live Story Reaction
+StarsTransactionFullPrice	Full Price
+StarsTransactionMessageFeeInfo	You receive **%s** of the price that you charge for each incoming message.
+StarsTransactionMessageFeeInfoLink	**Change Fee >**
+PremiumOrStarsPrice	or ⭐️ %s
+CheckPrivacyInviteTitle	Invitation Settings
+CheckPrivacyInviteText	You\'ve restricted who can message you, but anyone can still invite you to groups and channels. Would you like to review these settings?
+CheckPrivacyCallsTitle	Call Settings
+CheckPrivacyCallsText	You\'ve restricted who can message you, but anyone can still call you. Would you like to review these settings?
+CheckPrivacyReview	Review
+PaidMessageSentTitleOne	Message sent!
+PaidMessageSentTitle_one	%d message sent!
+PaidMessageSentTitle_other	%d messages sent!
+PaidMessageSentSubtitle_one	You paid **%d** star.
+PaidMessageSentSubtitle_other	You paid **%d** stars.
+ContactInfoIsNotContact	Not a contact
+ContactInfoIsContact	Contact
+ContactInfoPhone	Phone number
+ContactInfoPhoneFragment	Anonymous
+ContactInfoLocation	Location
+ContactInfoRegistration	Registration
+ContactInfoCommonGroups	Common groups
+ContactInfoNotVerified	Not an official account
+Gift2ResellTimeoutTitle	Try Later
+Gift2ResellTimeout	You will be able to resell this gift in %s.
+Gift2TransferTimeoutTitle	Try Later
+Gift2TransferTimeout	You will be able to transfer this gift in %s.
+Gift2ChangePrice	Change Price
+Gift2Unpin	Unpin
+Gift2Pin	Pin
+Gift2Reorder	Reorder
+Gift2ShowGift	Show
+Gift2HideGift	Hide
+Gift2Wear	Wear
+Gift2Unwear	Take Off
+GiftsPinLimit_one	You can\'t pin more than %d gift.
+GiftsPinLimit_other	You can\'t pin more than %d gifts.
+Gift2PinnedTitle	Gift pinned
+Gift2PinnedSubtitle	Now it will always be shown on top.
+Gift2Unpinned	Gift unpinned
+StarsTopUp	Top Up
+StarsStats	Stats
+TonTopUp	Top Up
+TonStats	Stats
+PaidMessagesSendErrorToast1_one	Price went up from ⭐️%d
+PaidMessagesSendErrorToast1_other	Price went up from ⭐️%d
+PaidMessagesSendErrorToast2_one	to ⭐️%d
+PaidMessagesSendErrorToast2_other	to ⭐️%d
+PaidMessagesSendErrorState1_one	Price went up from ⭐️%d
+PaidMessagesSendErrorState1_other	Price went up from ⭐️%d
+PaidMessagesSendErrorState2_one	to ⭐️%d
+PaidMessagesSendErrorState2_other	to ⭐️%d
+ContactInfoUserUpdatedPhoto	User updated photo %s
+ContactInfoUserUpdatedName	User updated name %s
+StarsTransactionPostsSearch	Posts Search
+StarsTransactionPremiumGift	Telegram Premium
+StarsTransactionPremiumGiftDuration	Duration
+AccountFrozenAlertTitle	Your account is frozen!
+AccountFrozenAlertSubtitle	Tap to view details and submit an appeal.
+AccountFrozenBottomTitle	Your account is frozen
+AccountFrozenBottomSubtitle	Tap to view details
+AccountFrozenTitle	Your Account is Frozen
+AccountFrozen1Title	Violation of Terms
+AccountFrozen1Text	Your account was frozen for breaking Telegram’s Terms and Conditions.
+AccountFrozen2Title	Read-Only Mode
+AccountFrozen2Text	You can access your account but can’t send messages or take actions.
+AccountFrozen3Title	Appeal Before Deactivation
+AccountFrozen3Text	Appeal via **@SpamBot** before %s, or your account will be deleted
+AccountFrozenButtonAppeal	Submit an Appeal
+AccountFrozenButtonUnderstood	Understood
+SMSFeeTitle	SMS Fee
+SMSFee1Title	High SMS Costs
+SMSFee1Text	Telecom providers in your country charge Telegram very high prices for SMS.

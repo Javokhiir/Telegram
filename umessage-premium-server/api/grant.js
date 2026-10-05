@@ -1,9 +1,10 @@
 import { getRecord, putRecord, publicView } from '../lib/store.js';
 import { json, readBody, isValidId, checkAdmin } from '../lib/http.js';
+import { withUsage } from '../lib/meter.js';
 
 // POST /api/grant  { userId, days? }   header: x-admin-secret: <ADMIN_SECRET>
 // Grants (or extends) U message premium. days omitted or 0 => lifetime. Negative days => revoke.
-export default async function handler(req, res) {
+export default withUsage('grant', async function handler(req, res) {
   if (req.method !== 'POST') {
     return json(res, 405, { error: 'method_not_allowed' });
   }
@@ -31,4 +32,4 @@ export default async function handler(req, res) {
   }
   await putRecord(userId, record);
   return json(res, 200, publicView(userId, record));
-}
+});

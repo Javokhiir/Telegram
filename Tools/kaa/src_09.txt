@@ -1,0 +1,789 @@
+VoipRecordVoiceChatInfo	Choose how to record this chat
+VoipRecordStart	Start Recording
+VoipRateCallTitle	Rate this call
+VoipRateCallDescription	Please rate the quality of this call.
+VoipHintEncryptionKey	Encryption key of this call
+VoipCallEncryptionEndToEnd	This call is end to end encrypted
+VoipWeakNetwork	Weak network signal
+VoipHideEmoji	Hide Emoji
+VoipMyMicrophoneState	Your microphone is turned off
+NoRtmpStreamFromAppOwner	**Oops!** Telegram doesn\'t see any stream coming from your streaming app.\n\nPlease make sure you entered the right Server URL and Stream Key in your app.
+NoRtmpStreamFromAppViewer	%1$s is currently not broadcasting live stream data to Telegram.
+ManageInviteLinks	Manage Invite Links
+ManageLinksInfoHelp	You can create additional invite links that have a limited time or number of uses.
+ManageLinksInfoHelpPaid	You can create additional invite links that have a limited time, number of uses or require a paid subscription.
+PrimaryLinkHelp	Anyone on Telegram will be able to join your group by following this link.
+PrimaryLinkHelpChannel	Anyone on Telegram will be able to join your channel by following this link.
+EditLink	Edit link
+SaveLink	Save Link
+NoLimit	No limit
+LimitByPeriod	Limit by time period
+LimitNumberOfUses	Limit number of uses
+NewLink	New Link
+TimeLimitHint	Set custom duration
+UsesLimitHint	Enter custom limit
+TimeLimitHelp	You can make the link expire after a certain time.
+UsesLimitHelp	You can make the link expire after it has been used for a certain number of times.
+NoOneJoinedYet	No one joined yet
+Expired	Expired
+GetQRCode	Get QR code
+LinkCreatedeBy	Link created by
+InviteByQRCode	Invite by QR Code
+ShareQrCode	Share QR Code
+ScanQrCode	Scan QR Code
+Revoked	Revoked
+LinkExpiresIn	The link expires %s
+ExpireAfter	Expire after
+SetTimeLimit	Set Time Limit
+RevokedLinks	Revoked Links
+DeleteLink	Delete Link
+RevokedLink	Revoked Link
+LinkIsNoActive	This link is no longer active
+LinkIsExpired	The time limit for this link has expired.
+LinkIsExpiredLimitReached	This link reached its usage limit.
+CreateNewLink	Create a New Link
+DeleteAllRevokedLinks	Delete All Revoked Links
+NoOneJoined	No one joined
+NoOneSubscribed	No one subscribed
+LinkLimitReached	Limit reached
+QRCodeLinkHelpGroup	Everyone on Telegram can scan this code to join your group.
+DeleteLinkHelp	This will delete link.
+DeleteAllRevokedLinkHelp	This will delete all revoked links.
+LinksCreatedByThisAdmin	Invite links created by this admin
+LinksCreatedByOtherAdmins	Invite links created by other admins
+PermanentLinkForThisAdmin	Invite link for this admin
+QRCodeLinkHelpChannel	Everyone on Telegram can scan this code to join your channel.
+QRCodeLinkHelpChannelDirect	Everyone on Telegram can scan this code to write to your channel.
+QRCodeLinkHelpProxy	Your friends can add this proxy by scanning this code with phone or in-app camera.
+QRCodeLinkHelpFolder	Everyone on Telegram can scan this code to add this folder and join the chats included in this invite link.
+QRCodeLinkGroupCall	Everyone on Telegram can scan this code to join your group call.
+LinkInfoChannel	Anyone who has Telegram installed will be able to join your channel by following this link.
+LinkExpiresInTime	The link expires in %s
+PublicLink	Public link
+InviteExpired	This invite link has expired.
+LinkActionCopy	Copy
+LinkActionShare	Share
+InviteRevokedHint	The invite link has been revoked.
+ExpiredLink	Expired Link
+ContactShortcutMessage	Message %1$s
+ContactShortcutVoiceCall	Voice call %1$s
+ContactShortcutVideoCall	Video call %1$s
+RevokeLinks_one	Revoke link
+RevokeLinks_other	Revoke %d links
+LeaveCommunities_one	Leave community
+LeaveCommunities_other	Leave %d communities
+RemoveDocumentsMessage_one	Do you want remove this document from Downloads?
+RemoveDocumentsMessage_other	Do you want remove these **%d documents** from Downloads?
+RemoveDocumentsTitle_one	Remove %d document
+RemoveDocumentsTitle_other	Remove %d documents
+ForceSetPasswordAlertMessage_one	Proceed without a password? If you do not set a password, you will only be able to log into your account via SMS once every %1$s day.
+ForceSetPasswordAlertMessage_other	Proceed without a password? If you do not set a password, you will only be able to log into your account via SMS once every %1$s days.
+MessagesDeletedUndo_one	Messages for %1$s day deleted
+MessagesDeletedUndo_other	Messages for %1$s days deleted
+DeleteDays_one	Delete %1$s day
+DeleteDays_other	Delete %1$s days
+MembersAreSpeakingToast_one	un1 is speaking
+MembersAreSpeakingToast_other	un1 are speaking
+DeleteBackground_one	Delete background
+DeleteBackground_other	Delete %1$d backgrounds
+Recipient_one	%1$d recipient
+Recipient_other	%1$d recipients
+OnlineCount_one	%1$d online
+OnlineCount_other	%1$d online
+TelegramContacts_one	%1$d contact on Telegram
+TelegramContacts_other	%1$d contacts on Telegram
+InviteTextNum_one	Hey, I\'m using Telegram to chat – and so are %1$d of our other contact. Join us! Download it here: %2$s
+InviteTextNum_other	Hey, I\'m using Telegram to chat – and so are %1$d of our other contacts. Join us! Download it here: %2$s
+PeopleJoined_one	%1$d people joined
+PeopleJoined_other	%1$d people joined
+PeopleJoinedRemaining_one	%1$d remaining
+PeopleJoinedRemaining_other	%1$d remaining
+CanJoin_one	%1$d can join
+CanJoin_other	%1$d can join
+DaysLeft_one	%1$d day left
+DaysLeft_other	%1$d days left
+Chats_one	%1$d chat
+Chats_other	%1$d chats
+ChatsSelected_one	%1$d chat
+ChatsSelected_other	%1$d chats
+ChatsSelectedClearCache_one	%1$d chat
+ChatsSelectedClearCache_other	%1$d chats
+ChatsSelectedClear_one	%1$d chat
+ChatsSelectedClear_other	%1$d chats
+ChatsException_one	%1$d chat
+ChatsException_other	%1$d chats
+Channels_one	%1$d channel
+Channels_other	%1$d channels
+Bots_one	%1$d bot
+Bots_other	%1$d bots
+Groups_one	%1$d group
+Groups_other	%1$d groups
+Members_one	%1$d member
+Members_other	%1$d members
+Participants_one	%1$d participant
+Participants_other	%1$d participants
+ViewersWatching_one	%1$d watching
+ViewersWatching_other	%1$d watching
+AndMoreTyping_one	and %1$d more are typing
+AndMoreTyping_other	and %1$d more are typing
+AndMoreTypingGroup_one	%1$s and %2$d more are typing
+AndMoreTypingGroup_other	%1$s and %2$d more are typing
+NewMessages_one	%1$d new message
+NewMessages_other	%1$d new messages
+MessagesUnpinned_one	Message unpinned
+MessagesUnpinned_other	%1$d messages unpinned
+messages_one	%1$d message
+messages_other	%1$d messages
+MessagesBold_one	**%1$d** message
+MessagesBold_other	**%1$d** messages
+items_one	%1$d item
+items_other	%1$d items
+FromChats_one	from %1$d chat
+FromChats_other	from %1$d chats
+SecondsSchedule_one	%1$d second
+SecondsSchedule_other	%1$d seconds
+MinutesSchedule_one	%1$d minute
+MinutesSchedule_other	%1$d minutes
+HoursSchedule_one	%1$d hour
+HoursSchedule_other	%1$d hours
+DaysSchedule_one	%1$d day
+DaysSchedule_other	%1$d days
+Seconds_one	%1$d second
+Seconds_other	%1$d seconds
+Minutes_one	%1$d minute
+Minutes_other	%1$d minutes
+Hours_one	%1$d hour
+Hours_other	%1$d hours
+Days_one	%1$d day
+Days_other	%1$d days
+Weeks_one	%1$d week
+Weeks_other	%1$d weeks
+Months_one	%1$d month
+Months_other	%1$d months
+MonthsShort_one	%1$dm
+MonthsShort_other	%1$dm
+YearsShort_one	%1$dy
+YearsShort_other	%1$dy
+Infinity	∞
+Lifetime	Lifetime
+GiftMonths_one	%1$d-month
+GiftMonths_other	%1$d-months
+Gift2Months_one	%1$d month
+Gift2Months_other	%1$d months
+PrepaidGiveawayMonths_one	%1$d-month
+PrepaidGiveawayMonths_other	%1$d-month
+BoldMonths_one	**%1$d** month
+BoldMonths_other	**%1$d** months
+BoldYears_one	**%1$d** year
+BoldYears_other	**%1$d** years
+Years_one	%1$d year
+Years_other	%1$d years
+Users_one	%1$d user
+Users_other	%1$d users
+Times_one	%1$d time
+Times_other	%1$d times
+Meters_one	%1$d meter
+Meters_other	%1$d meters
+Stickers_one	%1$d sticker
+Stickers_other	%1$d stickers
+MasksCount_one	%1$d mask
+MasksCount_other	%1$d masks
+EmojiCount_one	%1$d emoji
+EmojiCount_other	%1$d emoji
+EmojiCountButton_one	%1$d Emoji
+EmojiCountButton_other	%1$d Emoji
+EmojiPackCount_one	%1$d Emoji Pack
+EmojiPackCount_other	%1$d Emoji Packs
+Subscribers_one	%1$d subscriber
+Subscribers_other	%1$d subscribers
+Exception_one	%1$d exception
+Exception_other	%1$d exceptions
+AutoException_one	%1$d automatic exception
+AutoException_other	%1$d automatic exceptions
+RemovedUser_one	%1$d removed user
+RemovedUser_other	%1$d removed users
+Points_one	%1$d
+Points_other	%1$d
+UpdatedMinutes_one	updated %1$d minute ago
+UpdatedMinutes_other	updated %1$d minutes ago
+ShortNow	now
+ShortToday	today
+ShortYesterday	yesterday
+ShortMinutesAgo_one	%dm
+ShortMinutesAgo_other	%dm
+ShortHoursAgo_one	%dh
+ShortHoursAgo_other	%dh
+LessMinuteAgo	just now
+MinuteAgo	a minute ago
+MinutesAgo_one	%1$d minute ago
+MinutesAgo_other	%1$d minutes ago
+HourAgo	an hour ago
+HoursAgo_one	%d hour ago
+HoursAgo_other	%d hours ago
+DayAgo	a day ago
+DaysAgo_one	%d day ago
+DaysAgo_other	%d days ago
+MonthAgo	a month ago
+MonthsAgo_one	%d months ago
+MonthsAgo_other	%d months ago
+YearAgo	a year ago
+YearsAgo_one	%d years ago
+YearsAgo_other	%d years ago
+SecondsBold_one	**%1$d** second
+SecondsBold_other	**%1$d** seconds
+MinutesBold_one	**%1$d** minute
+MinutesBold_other	**%1$d** minutes
+HoursBold_one	**%1$d** hour
+HoursBold_other	**%1$d** hours
+DaysBold_one	**%1$d** day
+DaysBold_other	**%1$d** days
+Views_one	%1$s view
+Views_other	%1$s views
+Shares_one	%1$s share
+Shares_other	%1$s shares
+PublicSharesCount_one	%1$s public share
+PublicSharesCount_other	%1$s public shares
+Shared_one	%1$s shared
+Shared_other	%1$s shared
+StickerSets_one	%1$s sticker set
+StickerSets_other	%1$s sticker sets
+ForwardedMessageCount_one	Forwarded message
+ForwardedMessageCount_other	%1$d forwarded messages
+PreviewForwardMessagesCount_one	Forward message
+PreviewForwardMessagesCount_other	Forward %1$d messages
+Photos_one	%1$d photo
+Photos_other	%1$d photos
+Videos_one	%1$d video
+Videos_other	%1$d videos
+Files_one	%1$d file
+Files_other	%1$d files
+MusicFiles_one	%1$d music file
+MusicFiles_other	%1$d music files
+CommonGroups_one	%1$d group in common
+CommonGroups_other	%1$d groups in common
+Media_one	%1$d media
+Media_other	%1$d media
+Voice_one	%1$d voice message
+Voice_other	%1$d voice messages
+Links_one	%1$d link
+Links_other	%1$d links
+GIFs_one	%1$d GIF
+GIFs_other	%1$d GIFs
+BlockedUsersCount_one	%1$d blocked user
+BlockedUsersCount_other	%1$d blocked users
+ForwardedFile_one	Forwarded file
+ForwardedFile_other	%1$d forwarded files
+ForwardedPhoto_one	Forwarded photo
+ForwardedPhoto_other	%1$d forwarded photos
+PreviewForwardFile_one	Forward file
+PreviewForwardPhoto_one	Forward photo
+PreviewForwardPhoto_other	Forward %1$d photos
+PreviewForwardVideo_one	Forward video
+PreviewForwardVideo_other	Forward %1$d videos
+PreviewForwardMusic_one	Forward audio file
+PreviewForwardMusic_other	Forward %1$d audio files
+PreviewForwardAudio_one	Forward voice message
+PreviewForwardAudio_other	Forward %1$d voice messages
+PreviewForwardRound_one	Forward video message
+PreviewForwardRound_other	Forward %1$d video messages
+PreviewForwardLocation_one	Forward location
+PreviewForwardLocation_other	Forward %1$d locations
+PreviewForwardContact_one	Forward contact
+PreviewForwardContact_other	Forward %1$d contacts
+PreviewForwardSticker_one	Forward sticker
+PreviewForwardSticker_other	Forward %1$d stickers
+PreviewForwardPoll_one	Forward poll
+PreviewForwardPoll_other	Forward %1$d polls
+PreviewForwardTodo_one	Forward Checklist
+PreviewForwardTodo_other	Forward %1$d Checklists
+ForwardedVideo_one	Forwarded video
+ForwardedVideo_other	%1$d forwarded videos
+ForwardedMusic_one	Forwarded audio file
+ForwardedMusic_other	%1$d forwarded audio files
+ForwardedAudio_one	Forwarded voice message
+ForwardedAudio_other	%1$d forwarded voice messages
+ForwardedRound_one	Forwarded video message
+ForwardedRound_other	%1$d forwarded video messages
+ForwardedLocation_one	Forwarded location
+ForwardedLocation_other	%1$d forwarded locations
+ForwardedContact_one	Forwarded contact
+ForwardedContact_other	%1$d forwarded contacts
+ForwardedSticker_one	Forwarded sticker
+ForwardedSticker_other	%1$d forwarded stickers
+ForwardedPoll_one	Forwarded poll
+ForwardedPoll_other	%1$d forwarded polls
+AndOther_one	and %1$d other
+AndOther_other	and %1$d others
+PhotosSelected_one	%1$d photo selected
+PhotosSelected_other	%1$d photos selected
+VideosSelected_one	%1$d video selected
+VideosSelected_other	%1$d videos selected
+MediaSelected_one	%1$d media selected
+MediaSelected_other	%1$d media selected
+ThemeInstallCount_one	%1$d person is using this theme
+ThemeInstallCount_other	%1$d people are using this theme
+CountOfResults_one	%1$d of %2$d results
+CountOfResults_other	%1$d of %2$d results
+UsersCount_one	%1$d user
+UsersCount_other	%1$d users
+UsersCountTitle_one	%1$d user
+UsersCountTitle_other	%1$d users
+MembersCountSelected_one	%1$d of %2$d selected
+MembersCountSelected_other	%1$d of %2$d selected
+ViewReplies_one	View %1$d Reply
+ViewReplies_other	View %1$d Replies
+Replies_one	%1$d Reply
+Replies_other	%1$d Replies
+Comments_one	%1$d Comment
+Comments_other	%1$d Comments
+CommentsCount_one	%1$d comment
+CommentsCount_other	%1$d comments
+CommentsNoNumber_one	comment
+CommentsNoNumber_other	comments
+PinnedMessagesCount_one	Pinned Message
+PinnedMessagesCount_other	%1$d Pinned Messages
+PeopleCanJoinViaLinkCount_one	%s person can join via this link
+PeopleCanJoinViaLinkCount_other	%s people can join via this link
+PinnedDialogsCount_one	Dialog pinned
+PinnedDialogsCount_other	%1$d Dialogs pinned
+UnpinnedDialogsCount_one	Dialog unpinned
+UnpinnedDialogsCount_other	%1$d Dialogs unpinned
+ForwardGroupMedia	Forward media
+ForwardGroupMediaMessage	Would you like to forward...
+SaveGroupMedia	Save media
+SaveGroupMediaMessage	Would you like to save...
+ThisPhoto	This photo
+ThisMedia	This media
+AllNPhotos_one	All %1$d photo
+AllNPhotos_other	All %1$d photos
+AllNMedia_one	All %1$d media
+AllNMedia_other	All %1$d media
+MessageSeen_one	Seen
+MessageSeen_other	%1$d Seen
+MessagePlayed_one	Played
+MessagePlayed_other	%1$d Played
+AccDescrGroup	Group
+AccDescrChannel	Channel
+AccDescrTopic	Topic
+AccDescrSecretChat	Secret chat
+AccDescrSentDate	Sent %s
+AccDescrReceivedDate	Received %s
+AccDescrScheduledDate	Scheduled for %s
+AccDescrPostedDate	Posted %s
+AccDescrLivePhoto	Live Photo
+AccDescrRoundVideo	Video message
+AccDescrStoryPinned	Pinned
+AccDescrGoBack	Go back
+AccDescrOpenMenu	Open navigation menu
+AccDescrOpenMenu2	Open menu
+AccDescrCloseMenu	Close menu
+AccDescrOpenInPhotoViewer	Open in photo viewer
+AccDescrMusicInfo	%2$s by %1$s
+AccDescrMoreOptions	More options
+AccDescrSwitchToNightTheme	Switch to night theme
+AccDescrSwitchToDayTheme	Switch to day theme
+AccDescrCloseTrendingStickers	Close Trending stickers
+AccDescrCloseTrendingEmoji	Close Trending emoji
+AccDescrTagMessage	Edit Message Tag
+AccActionPlay	Play
+AccActionPause	Pause
+AccActionResume	Resume
+AccActionOnceActivate	Activate Play Once
+AccActionOnceDeactivate	Deactivate Play Once
+AccActionDownload	Download
+AccActionCancelDownload	Cancel download
+AccActionOpenFile	Open file
+AccActionMessageOptions	Message options
+AccActionOpenForwardedOrigin	Forwarded origin
+AccActionEnterSelectionMode	Enter selection mode
+AccActionChatPreview	Chat Preview
+AccActionOpenTranscription	Open Voice Transcription
+AccActionCloseTranscription	Close Transcription
+AccDescrEmojiButton	Emoji, stickers, and GIFs
+AccDescrAttachButton	Attach media
+AccDescrChanSilentOn	Send silently
+AccDescrChanSilentOff	Send notifications
+AccDescrBotCommands	Bot commands
+AccDescrBotKeyboard	Bot keyboard
+AccDescrVoiceMessage	Record voice message
+AccDescrVideoMessage	Record video message
+AccDescrRemoveRoundVideo	Remove video message
+AccDescrCodeBlock	Code Block
+AccDescrCodeBlockLanguage	Code Block, %1$s
+AccDescrExpanded	Expanded
+AccDescrCollapsed	Collapsed
+AccDescrCheckbox	Checkbox
+AccDescrChecked	Checked
+AccDescrNotChecked	Not Checked
+AccDescrWithAdminTag	with admin tag: %1$s
+AccDescrWithMemberTag	with member tag: %1$s
+AccDescrLiked	Liked
+AccDescrOpenChat	Open chat
+AccDescrProfilePicture	Profile picture
+AccDescrChangeProfilePicture	Change profile picture
+AccDescrContactSorting	Change sorting
+AccDescrShowAccounts	Show accounts
+AccDescrHideAccounts	Hide accounts
+AccDescrGoToMessage	Go to message
+AccDescrPremiumSpeed	Increase speed
+AccDescrCancelReply	Cancel reply
+AccDescrCancelForward	Cancel forward
+AccDescrCancelEdit	Cancel editing
+AccDescrReplying	Replying to
+AccDescrForwarding	Forwarding from
+AccDescrEditing	Editing
+AccDescrPasscodeLock	Lock application
+AccDescrBackspace	Backspace
+AccDescrFingerprint	Fingerprint
+AccDescrPrevious	Previous
+AccDescrRepeatOff	Repeat, off
+AccDescrRepeatList	Repeat, playlist
+AccDescrRepeatOne	Repeat, one
+AccDescrClosePlayer	Close audio player
+AccDescrPlayerSpeed	2X playback
+AccDescrStopLiveLocation	Stop sharing live location
+AccDescrInstantCamera	Instant camera
+AccDescrShutter	Shutter
+AccDescrSwitchCamera	Switch camera
+AccDescrCameraFlashOff	Flash, Off
+AccDescrCameraFlashAuto	Flash, Auto
+AccDescrCameraFlashOn	Flash, On
+AccDescrDualCameraOn	Dual Camera, On
+AccDescrDualCameraOff	Dual Camera, Off
+AccDescrCollage	Collage
+AccDescrCollageClose	Close Collage
+AccDescrCameraGallery	Gallery
+AccDescrTakePhoto	Take photo
+AccDescrStartRecording	Start recording
+AccDescrStopRecording	Stop recording
+AccDescrLockRecording	Lock recording
+AccDescrStickerSet	Sticker set
+AccDescrGIFs	GIFs
+AccDescrStickers	Stickers
+AccDescrExpandPanel	Expand panel
+AccDescrCollapsePanel	Collapse panel
+AccDescrUserOptions	User options
+AccDescrRotate	Rotate
+AccDescrMirror	Mirror
+AccDescrBrushType	Brush type
+AccDescrPaint	Paint
+AccDescrPlaceText	Place text
+AccDescrPhotoEditor	Photo editor
+AccDescrPhotoAdjust	Adjustments
+AccDescrPhotoViewer	Photo viewer
+AccDescrPageDown	Go to bottom
+AccDescrMentionDown	Go to next mention
+AccDescrReactionMentionDown	Go to next unread reactions
+AccDescrPollVotesMentionDown	Go to next unread poll vote
+AccDescrIVTitle	Title
+AccDescrIVHeading	Heading
+AccDescrIVBlockquote	Quote
+AccDescrIVPullquote	Pull quote
+AccDescrIVKicker	Kicker
+AccDescrIVFooter	Footer
+AccDescrIVCode	Code
+AccDescrIVDetails	Details
+AccDescrIVExpanded	expanded
+AccDescrIVCollapsed	collapsed
+AccDescrIVRelatedArticle	Related article
+AccDescrIVRelatedArticles	Related articles
+AccDescrIVEmbed	Embedded content
+AccDescrIVEmbedPost	Embedded post
+AccDescrIVTable	Table
+AccDescrIVButtons	Buttons
+AccDescrIVFormula	Formula
+AccDescrIVSlideshow	Slideshow
+AccDescrIVAudio	Audio
+AccDescrIVTextStyle	Text style
+AccDescrIVListStyle	List style
+AccDescrIVInsertDate	Insert date
+AccDescrMyLocation	My location
+AccDescrLocationNotify	Notify when in range
+AccDescrVideoQuality	Video quality
+AccDescrAspectRatio	Aspect ratio
+AccDescrMsgRead	Seen
+AccDescrMsgUnread	Not seen
+AccDescrMsgSending	Sending
+AccDescrMsgSendingError	Sending error
+AccDescrMsgPlayed	Played
+AccDescrMsgNotPlayed	Not played
+AccDescrSearchNext	Next search result
+AccDescrSearchPrev	Previous search result
+AccDescrSearchByUser	Filter by user
+AccActionTakePicture	Take a picture
+AccActionRecordVideo	Record video
+AccSwipeForArchive	Swipe down for archive
+AccReleaseForArchive	Release for archive
+AccSwipeForGeneral	Swipe down for #general
+AccReleaseForGeneral	Release for #general
+AccDescrVideoCompressLow	Smaller size
+AccDescrVideoCompressHigh	Higher quality
+AccDescrPlayerDuration	%1$s of %2$s
+AccDescrDownloadProgress	Downloaded %1$s of %2$s
+AccDescrUploadProgress	Uploaded %1$s of %2$s
+AccDescrNumberOfViews_one	Viewed %1$d time
+AccDescrNumberOfViews_other	Viewed %1$d times
+AccDescrNumberOfReplies_one	Has %1$d reply
+AccDescrNumberOfReplies_other	Has %1$d replies
+AccDescrPersonHasSeen	%1$s has seen
+AccDescrReactedWith	%1$s reacted with %2$s
+AccDescrYouReactedWith	You reacted with %1$s
+AccDescrNumberOfPeopleReactions_one	%1$d person reacted with %2$s
+AccDescrNumberOfPeopleReactions_other	%1$d people reacted with %2$s
+AccDescrSendPhotos_one	Send %1$d photo
+AccDescrSendPhotos_other	Send %1$d photos
+AccDescrSendFiles_one	Send %1$d file
+AccDescrSendFiles_other	Send %1$d files
+AccDescrSendAudio_one	Send %1$d audio file
+AccDescrSendAudio_other	Send %1$d audio files
+AccDescrShareInChats_one	Share in %1$d chat
+AccDescrShareInChats_other	Share in %1$d chats
+AccDescrQuizCorrectAnswer	Correct answer
+AccDescrQuizIncorrectAnswer	Incorrect answer
+AccDescrQuizExplanation	Explanation
+AccDescrPipMode	Picture-in-Picture mode
+AccDescrVoipMicOn	Microphone is on
+AccDescrVoipMicOff	Microphone is off
+AccDescrVoipCamSwitchedToFront	Switched to front camera
+AccDescrVoipCamSwitchedToBack	Switched to rear camera
+AccDescrVoipCamOn	Camera is on
+AccDescrVoipCamOff	Camera is off
+AccPinnedMessagesList	Pinned messages list
+AccSwitchToFullscreen	Switch to fullscreen
+AccExitFullscreen	Exit fullscreen
+AccDescrSendAsPeer	Send as %1$s
+AccDescrBotMenu	Bot menu
+AccDescrVerified	Verified
+AccDescrMentionCount_one	%1$d mention
+AccDescrMentionCount_other	%1$d mentions
+AccDescrUnreadCount_one	%1$d unread chat
+AccDescrUnreadCount_other	%1$d unread chats
+AccDescrMentionReaction	With new reaction
+AccDescrSpeedSlider	Choose speed
+AccDescrCaptureStory	Capture story
+AccDescrProfileMusic	Profile Music
+AccDescrProfileRatingLevel	Profile Stars Rating Level
+formatterBoostExpired	MMM dd, yyyy
+formatterGiveawayCard	dd MMM yyyy
+formatterGiveawayMonthDay	MMMM dd
+formatterGiveawayMonthDayYear	MMMM dd, yyyy
+formatterMonthYear	MMM yyyy
+formatterMonthOnly	MMMM
+formatterStats12H	MMM dd yyyy, h:mm a
+formatterStats24H	MMM dd yyyy, HH:mm
+formatterBannedUntil12H	MMM dd yyyy, h:mm a
+formatterBannedUntil24H	MMM dd yyyy, HH:mm
+formatterBannedUntilThisYear12H	MMM dd, h:mm a
+formatterBannedUntilThisYear24H	MMM dd, HH:mm
+formatterMonth	MMM dd
+formatterYear	dd.MM.yy
+formatterYearMax	dd.MM.yyyy
+chatDate	MMMM d
+chatDateShort	MMM d
+chatFullDate	MMMM d, yyyy
+formatterWeek	EEE
+formatterWeekLong	EEEE
+formatterDay24H	HH:mm
+formatterDay12H	h:mm a
+formatterDayWithSeconds24H	HH:mm:ss
+formatterDayWithSeconds12H	h:mm:ss a
+formatDateAtTime	%1$s at %2$s
+formatDateSchedule	MMM d
+formatDateScheduleYear	MMM d yyyy
+SendTodayAt	\'Send today at\' HH:mm
+SendDayAt	\'Send on\' MMM d \'at\' HH:mm
+SendDayYearAt	\'Send on\' MMM d yyyy \'at\' HH:mm
+StartTodayAt	\'Start today at\' HH:mm
+StartDayAt	\'Start on\' MMM d \'at\' HH:mm
+StartDayYearAt	\'Start on\' MMM d yyyy \'at\' HH:mm
+StartsTodayAt	\'Starts today at\' HH:mm
+StartsDayAt	\'Starts on\' MMM d \'at\' HH:mm
+StartsDayYearAt	\'Starts on\' MMM d yyyy \'at\' HH:mm
+PublishTodayAt	\'Publish today at\' HH:mm
+PublishDayAt	\'Publish on\' MMM d \'at\' HH:mm
+PublishDayYearAt	\'Publish on\' MMM d yyyy \'at\' HH:mm
+StartShortTodayAt	\'Today,\' HH:mm
+StartShortDayAt	MMM d\',\' HH:mm
+StartShortDayYearAt	MMM d yyyy\',\' HH:mm
+RemindTodayAt	\'Remind today at\' HH:mm
+RemindDayAt	\'Remind on\' MMM d \'at\' HH:mm
+RemindDayYearAt	\'Remind on\' MMM d yyyy \'at\' HH:mm
+BotsMenuTitle	Menu
+SwipeToGoNextChannel	Pull up to go to the next unread channel
+ReleaseToGoNextChannel	Release to go to the next unread channel
+SwipeToGoNextFolder	Pull up to go to the next unread folder
+ReleaseToGoNextFolder	Release to go to the next unread folder
+SwipeToGoNextArchive	Pull up to go to archived channels
+ReleaseToGoNextArchive	Release to go to archived channels
+SwipeToGoNextRecommendedChannel	Pull up to go to next channel
+ReleaseToGoNextRecommendedChannel	Release to go to next channel
+SwipeToGoNextUnreadTopic	Pull up to go to the next unread topic
+ReleaseToGoNextUnreadTopic	Release to go to the next unread topic
+SwipeToGoNextTopicEnd	No more unread topics in %1$s
+SwipeToGoNextChannelEnd	You have no unread channels
+FavoriteStickersShort	Favorites
+FeaturedStickersShort	Trending
+RecentStickersShort	Recent
+IsChoosingSticker	%1$s is ch**oo**sing a sticker
+ChoosingSticker	ch**oo**sing a sticker
+ChangeRecipient	Change recipient
+ForwardSendMessages	Send messages
+ForwardPreviewSendersNameVisible	%s will see that it was forwarded
+ForwardPreviewSendersNameVisibleGroup	Members will see that it was forwarded
+ForwardPreviewSendersNameVisibleChannel	Subscribers will see that it was forwarded
+ForwardPreviewSendersNameHidden	%s won\'t see they were forwarded
+ForwardPreviewSendersNameHiddenGroup	Members won\'t see they were forwarded
+ForwardPreviewSendersNameHiddenChannel	Subscribers won\'t see they were forwarded
+ShowForwardingOptions	Show forwarding options
+ShowCaption	Show caption
+HideCaption	Hide caption
+TapForForwardingOptions	Tap here for forwarding options
+TapForReplyOptions	Tap here for reply options
+SetWallpapers	Set Wallpaper
+SelectTheme	Select theme
+ChatApplyTheme	Apply Theme
+ChatResetTheme	Reset Theme
+ChatNoTheme	No Theme
+ChannelNoWallpaper	No Wallpaper
+ChannelWallpaperUpdated	Wallpaper updated
+GroupsEmojiPackUpdated	Group emoji pack updated
+ChatThemeChangedYou	You changed the chat theme to %1$s
+ChatThemeChangedTo	%1$s changed the chat theme to %2$s
+ChannelThemeChangedTo	%1$s changed the channel theme to %2$s
+ChatThemeDisabled	%1$s disabled the chat theme
+ChannelThemeDisabled	%1$s disabled the channel theme
+ChatThemeDisabledYou	You disabled the chat theme
+ChatThemeSaveDialogTitle	Save changes?
+ChatThemeSaveDialogText	Do you want to apply the new theme for this chat?
+ChatThemeSaveDialogApply	Apply
+ChatThemeSaveDialogDiscard	Discard
+OptimizingTelegram	Optimizing Telegram...
+OptimizingTelegramDescription1	This may take a while, depending on the size of the database. Please keep the app open until the process is finished.
+OptimizingTelegramDescription2	Sorry for the inconvenience.
+EnjoyngAnimations	**oo** watching %1$s
+IsEnjoyngAnimations	%1$s is **oo** watching %2$s
+ThemeAlsoAppliedForHint	Theme will be also applied for **%s**.
+ThemeAlsoDisabledForHint	Theme will be also disabled for **%s**.
+MessageSeenTooltipMessage	To protect privacy, views are only stored for **7 days**
+EmojiInteractionTapHint	If **%s** were viewing the chat now, they would also see this animation.
+AttachMenu	Attach...
+Calendar	Calendar
+MediaZoomIn	Zoom in
+MediaZoomOut	Zoom out
+MediaShowPhotos	Show photos
+MediaShowVideos	Show videos
+SharedMediaFastScrollHint	You can hold and move this bar for faster scrolling
+SettingsSwitchToNightMode	Switch to Night Mode
+SettingsSwitchToDayMode	Switch to Day Mode
+SettingsBrowseThemes	Browse Themes
+BrowseThemes	Browse Themes
+BuildMyOwnTheme	Build my own theme
+EditCurrentTheme	Edit Current Theme
+CreateNewTheme	Create a New Theme
+ApproveNewMembers	Approve New Members
+ApproveNewMembers2	Approve New Members
+ApproveNewMembersUnavailablePublicGroup	This option is unavailable because anyone can join and send messages through the public group link.
+ApproveNewMembersDescription	Turn this on if you want users to join only after they are approved by an admin.
+ApproveNewMembersDescription2	Require admin approval for people joining through this link.
+ApproveNewMembersDescriptionFrozen	You can\'t enable admin approval for links that require a monthly fee.
+NoMemberRequests	No join requests
+NoCommunityJoinRequests	No join requests
+RequestToJoinMembersTwo	%1$s, %2$s
+RequestToJoinMembersThree	%1$s, %2$s and %3$s
+RequestToJoinMembersAll_one	%1$s, %2$s and %3$d other member
+RequestToJoinMembersAll_other	%1$s, %2$s and %3$d other members
+RequestToJoinGroup	Request to Join Group
+RequestToJoinChannel	Request to Join Channel
+RequestToJoinGroupDescription	This group accepts new members only after they are approved by its admins.
+RequestToJoinChannelDescription	This channel accepts new subscribers only after they are approved by its admins.
+RequestToJoinSent	Request to join sent
+RequestToJoinGroupSentDescription	You will be added to the group once its admins approve your request.
+RequestToJoinChannelSentDescription	You will be added to the channel once its admins approve your request.
+MemberRequests	Member Requests
+SubscribeRequests	Subscribe Requests
+JoinRequests_one	%1$d requested to join
+JoinRequests_other	%1$d requested to join
+JoinUsersRequests_one	%1$d user requested to join
+JoinUsersRequests_other	%1$d users requested to join
+NoMemberRequestsDescription	You have no pending requests\nto join your group.
+NoCommunityJoinRequestsDescription	You have no pending requests\nto join your community.
+AddToGroup	Add to Group
+AddToChannel	Add to Channel
+AddToGroupOrChannel	Add to Group or Channel
+BotAddToGroupOrChannelInfo	This bot is able to manage a group or channel.
+Dismiss	Dismiss
+DismissRequest	Dismiss request
+RequestedToJoinAt	requested to join %1$s
+AddedBy	added by %1$s %2$s
+JoinedViaFolder	joined via a folder invite link
+HasBeenAddedToGroup	%1$s added to the group
+HasBeenAddedToChannel	%1$s added to the channel
+AddedMembersToGroup_other	**%d members** added to the group
+AddedSubscribersToChannel_other	**%d subscribers** added to the channel
+SearchMemberRequests	Search member requests
+RequestToJoinGroupApproved	Your request to join the group was approved
+RequestToJoinChannelApproved	Your request to join the channel was approved
+JoinedViaInviteLinkApproved	un1 joined via invite link un2, approved by un3
+JoinedViaRequestApproved	un1 joined, approved by un2
+NoSubscribeRequests	No join requests
+NoSubscribeRequestsDescription	There are no pending requests\nto join this channel.
+CalendarWeekNameShortMonday	M
+CalendarWeekNameShortTuesday	T
+CalendarWeekNameShortWednesday	W
+CalendarWeekNameShortThursday	T
+CalendarWeekNameShortFriday	F
+CalendarWeekNameShortSaturday	S
+CalendarWeekNameShortSunday	S
+LinkNameHint	Link Name (Optional)
+LinkNameHelp	Only you and other admins will see this name.
+CreateLinkHeader	CREATE
+CreateLinkHeaderNoCaps	Create
+SaveLinkHeader	SAVE
+SaveLinkHeaderNoCaps	Save
+UserAcceptedToGroupAction	un1 was accepted into the group
+UserAcceptedToGroupPush	%1$s was accepted into the group
+UserAcceptedToGroupPushWithGroup	%2$s|%1$s was accepted into the group
+ForwardsRestrictedInfoChannel	Сopying and forwarding is not allowed in this channel.
+ForwardsRestrictedInfoGroup	Сopying and forwarding is not allowed in this group.
+ForwardsRestrictedInfoUser	Сopying and forwarding is not allowed for this user.
+ForwardsRestrictedInfoUserBecauseYou	You disabled copying and forwarding in this chat.
+ForwardsRestrictedInfoUserBecauseUser	**%s** disabled copying and forwarding in this chat.
+ForwardsRestrictedInfoBot	Copying and forwarding is not allowed from this bot.
+TopicContainsEmojiPackSingle	This topic contains **%s**
+MessageContainsEmojiPackSingle	This message contains **%s**
+StoryContainsEmojiPackSingle	This story contains **%s**
+MessageContainsEmojiPack	This message contains emoji from %s pack.
+MessageContainsEmojiPacks_other	This message contains emoji from **%d Packs**.
+MessageContainsReactionsPack	This reactions contains emoji from %s pack.
+MessageContainsReactionsPacks_other	This reactions contains emoji from **%d Packs**.
+MessageContainsReactionPack	This reaction is an emoji from %s pack.
+SendMessageAsTitle	Send message as...
+OpenChannelPost	VIEW POST
+SavingContentTitle	Saving content
+RestrictSavingContent	Restrict saving content
+RestrictSavingContentInfoGroup	Members won\'t be able to forward messages from this group or save media files.
+RestrictSavingContentInfoChannel	Subscribers won\'t be able to forward messages from this group or save media files.
+ChannelSettingsJoinTitle	Who can send new messages?
+ChannelSettingsJoinToSend	Only members
+ChannelSettingsJoinToSendInfo	Turn this on if you expect users to join your group before being able to send messages.
+ChannelSettingsJoinRequest	Approve new members
+ChannelSettingsJoinRequestInfo	Turn this on if you want users to join the group only after they are approved by an admin.
+ChannelSettingsJoinRequestInfo2	Admin must approve anyone who wants to join the channel.
+ChannelSettingsJoinRequestInfoManagedBy	Admin must approve anyone who wants to join the channel. Managed by **%s**
+GroupPublicSettingsJoinRequestInfo2	Admin must approve anyone who wants to send a message in the group.
+GroupPrivateSettingsJoinRequestInfo2	Admin must approve anyone who wants to join the group.
+GroupPublicSettingsJoinRequestInfoManagedBy	Admin must approve anyone who wants to send a message in the group. Managed by **%s**
+GroupPrivateSettingsJoinRequestInfoManagedBy	Admin must approve anyone who wants to join the group. Managed by **%s**
+Allow	Allow
+Application	Application
+Location	Location based on the IP address
+IpAddress	IP address
+AcceptSecretChats	Accept Secret Chats
+AcceptSecretChatsDescription	Use this device for Secret Chats
+TerminateSession	Terminate Session
+AuthAnotherClientInfo4	Link *Telegram Desktop* or *Telegram Web* by scanning the QR.
+LinkDesktopDevice	Link Desktop Device
+TerminateOldSessionHeader	Automatically terminate old sessions
+IfInactiveFor	if inactive for
+AuthAnotherClientInfo5	Go to *getdesktop.telegram.org* or *web.telegram.org* to get a QR code
+SessionsListInfo	The official Telegram app is available for Android, iPhone, iPad, Windows, macOS and Linux.

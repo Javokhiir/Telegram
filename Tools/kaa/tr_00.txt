@@ -1,0 +1,474 @@
+AppName	U message
+AppNameBeta	U message
+UMessageBlockAds	Reklamanı bloklaw
+UMessageBlockAdsInfo	Kanallar hám botlardaǵı demewshilik xabarların, izlewdegi demewshilik nátiyjelerin hám videodaǵı reklamalardı jasıradı.
+UMessageSectionGeneral	Ulıwma
+UMessagePreviewPost	Jańa jańalanıw shıqtı! Tolıq maǵlıwmattı kóriń 🚀
+UMessagePreviewAd	📢 Reklama · Kúnine $500 tabıń, usı jerdi basıń!
+UMessagePreviewAdBlocked	Reklama bloklandı
+UMessagePreviewProxyOn	Tikkeley baylanıs ámelge aspadı, U Message proksisi paydalanılmaqta
+UMessagePreviewNoConnection	Baylanıs joq
+UMessagePreviewOwnerAway	Iyesi ekrannan kózin aldı
+UMessagePreviewOwnerBack	Iyesi qaytıp keldi
+UMessagePreviewStrangerFace	Ekranǵa biytanıs adam qarap tur
+UMessagePreviewDraft	Kartamnıń PIN kodı…
+UMessagePreviewScreenshotBlocked	Skrinshot bloklandı
+UMessagePreviewScreenshotSaved	Skrinshot saqlandı
+UMessageUseProxy	U Message proksisinen paydalanıw
+UMessageUseProxyInfo	U Message proksisi arqalı baylanısıw. Tarmaǵıńızda Telegram baylanıspasa, qosıń.
+UMessageTemplates	Tez juwaplar
+UMessageTemplatesInfo	Qálegen sáwbette /qısqartpa hám bos orın jazıń, ol saqlanǵan tekstke aylanadı.
+UMessageTemplateAdd	Tez juwap qosıw
+UMessageTemplateEdit	Tez juwaptı ózgertiw
+UMessageTemplateShortcut	Qısqartpa, mısalı salem
+UMessageTemplateText	Tekst
+UMessageTemplateEmpty	Qısqartpanı da, tekstti de kiritiń
+UMessageFocus	Dıqqat rejimi
+UMessageFocusEnable	Dıqqat rejimin qosıw
+UMessageFocusFrom	Baslap
+UMessageFocusTo	Shekem
+UMessageFocusInfo	Bul saatlarda ruqsat etilgen papkalardan tısqarıdaǵı sáwbetler únsiz boladı. Sizdi eslegen yamasa sizge juwap bergen xabarlar bári bir xabarlaydı.
+UMessageNearbyShare	Jaqın almasıw
+UMessageNearbyShareConfirm	Kontaktlar menen almasıwdı tastıyıqlań
+UMessageNearbyShareOff	Jaqın almasıw óshirilgen
+UMessageNearbyShareInfo	Kontaktlar menen almasıw ushın telefonıńızdı basqa U message paydalanıwshısınıń telefonına tiygiziń. Karta tek telefonlar tiyip turǵanda yamasa derlik tiyip turǵanda, hár ret jaqınlastırǵanıńızda shıǵadı.
+UMessageFocusFolders	Ruqsat etilgen papkalar
+UMessageFocusFoldersInfo	Dıqqat saatlarında tek usı papkalardaǵı sáwbetler xabarlaydı.
+UMessageFocusNoFolders	Qaysı sáwbetler xabarlay alatuǵının tańlaw ushın Sazlamalarda sáwbet papkaların jaratıń.
+UMessageVersion	Versiya
+UMessageDesign	Dizayn
+UMessageDesignMonochrome	Monoxrom
+UMessageBasedOn	Tiykarında
+UMessageReadAll	Hámmesin oqıw
+UMessageRead	Oqıw
+UMessageTagline	Sizdiń messendjerińiz
+UMessageAbout	Haqqında
+UMessageSectionPrivacy	Qupıyalıq
+UMessageSectionMessages	Xabarlar
+UMessageSectionSecurity	Qáwipsizlik
+UMessageAccountAutoSwitch	PIN arqalı akkaunttı avtomat almastırıw
+UMessageAccountAutoSwitchInfo	Qosımsha qulıp ekranında qálegen PIN kodtı kiritiń, oǵan baylanǵan akkaunt avtomat túrde ashıladı. Birinshi PIN qosımshanıń qulıp kodı da boladı.
+UMessageAccountAutoSwitchNeedTwo	Bul funkciyanı sazlawdan aldın keminde eki Telegram akkauntın qosıń.
+UMessageAccountAutoSwitchAccount	Akkaunt %1$d: %2$s
+UMessageAccountAutoSwitchPinHint	4 sanlı PIN
+UMessageAccountAutoSwitchFourDigits	Tap 4 san kiritiń
+UMessageAccountAutoSwitchDifferent	Eki PIN hár qıylı bolıwı kerek
+UMessageConfigured	Sazlanǵan
+UMessageNotConfigured	Sazlanbaǵan
+UMessageSectionFolders	Papkalar
+UMessageSectionStories	Storisler
+UMessageSectionReminder	Xabar eskertiwi
+UMessageSectionAutoReply	Avto juwap
+UMessageSectionConfirm	Tastıyıqlaw aynaları
+UMessageSectionMessageField	Xabar maydanı
+UMessageSectionVideoMessages	Video xabarlar
+UMessageSectionChannels	Kanallar
+UMessageSectionDownload	Júklep alıw
+UMessageGhostMode	Arwaq rejimi
+UMessageGhostModeInfo	Onlayn statusıńızdı, jazıp atırǵanıńızdı hám oqılǵanlıq belgilerin jasıradı.
+UMessageGhostModeOn	Arwaq rejimi qosıldı
+UMessageGhostModeOff	Arwaq rejimi óshirildi
+UMessageGhostButton	Bas ekrandaǵı arwaq túymesi
+UMessageGhostButtonInfo	Arwaq rejimin qosıw hám óshiriw ushın izlew qasında túyme kórsetedi.
+UMessageSecretChat	Jasırın sáwbetler
+UMessageSecretChatInfo	Sáwbetlerdi tańlap, joqarıdaǵı jasırıw belgisin basıń. Jasırın sáwbetler tómende tańlaǵan usılıńız benen PIN arqalı ashıladı hám xabarlamaydı.
+UMessageHideChat	Sáwbetti jasırıw
+UMessageHideSelectChats	Jasırılatuǵın sáwbetlerdi tańlań
+UMessageHiddenAccessEdit	«Ózgertiw» túymesin uzaq basıw
+UMessageHiddenAccessNewChat	«Jańa sáwbet» túymesin uzaq basıw
+UMessageHiddenAccessIcon	Jasırıw belgisi (hesh nárse tańlanbaǵanda)
+UMessageHiddenAccess	Qalay ashıladı
+UMessageHiddenPinNew	Jańa PIN
+UMessageHiddenPinPrompt	PIN kiritiń
+UMessageHiddenPasswordInfo	Bul parol jasırın sáwbetlerińizdi ashadı. Onı qayta tiklew múmkin emes, sonıń ushın este saqlań.
+UMessageHiddenPasswordSaved	PIN saqlandı
+UMessageHiddenPasswordChange	PIN ózgertiw
+UMessageHiddenPasswordSet	PIN ornatıw
+UMessageHiddenPasswordMismatch	PIN kodlar sáykes kelmeydi, qayta urınıp kóriń
+UMessageHiddenPasswordShort	Keminde 4 belgi
+UMessageHiddenPasswordWrong	Parol qáte
+UMessageHiddenPasswordRepeat	PIN qaytalań
+UMessageHiddenPasswordNew	Jańa parol
+UMessageHiddenPasswordEnter	Parol
+UMessageChatsShown	Sáwbetler dizimge qaytarıldı
+UMessageShowChat	Sáwbetler diziminde kórsetiw
+UMessageChatsHidden_one	%1$d sáwbet jasırıldı
+UMessageChatsHidden_other	%1$d sáwbet jasırıldı
+UMessageHiddenChats	Jasırın sáwbetler
+UMessageHiddenFolders	Jasırın papkalar
+UMessageHideFolder	Papkanı jasırıw
+UMessageShowFolder	Papkanı kórsetiw
+UMessageHiddenFoldersEmpty	Jasırın papkalar joq
+UMessageHiddenChatsInfo	Sáwbetti qaytadan dizimde kórsetiw ushın onı basıp turıń.
+UMessageHiddenChatsEmpty	Jasırın sáwbetler joq. Sáwbetler diziminen sáwbetti tańlap, Sáwbetti jasırıw túymesin basıń.
+UMessageUnhideChat	Sáwbetler diziminde kórsetiw
+UMessageUnhideChatInfo	Bul sáwbet dizimge qaytadı hám qaytadan xabarlay baslaydı.
+UMessageSaveEdited	Ózgertilgen xabarlardı saqlaw
+UMessageSaveEditedInfo	Ózgertilgen xabarlardıń aldınǵı versiyaların saqlaydı. Xabardı basıp turıp, Ózgertiw tariyxın tańlań.
+UMessageSaveDeleted	Óshirilgen xabarlardı saqlaw
+UMessageSaveDeletedInfo	Basqalar óshirgen xabarlardı saqlaydı hám olardı óshirilgen dep belgileydi.
+UMessageEditHistory	Ózgertiw tariyxı
+UMessageEditHistoryEmpty	Bul xabardıń aldınǵı versiyaları saqlanbaǵan.
+UMessageSendAsRound	Dóńgelek video retinde jiberiw
+UMessageMutualContact	Sizdi kontaktlarına qosqan
+UMessageDeletedMark	óshirilgen
+UMessageDeletedAccountBanner	Bul akkaunt óshirilgen
+UMessagePasscodeEnter	Paroldi kiritiń
+UMessageStrangerProtection	Biytanıslardan qorǵaw
+UMessageStrangerProtectionInfo	Kontaktlarıńızda joq hám siz hesh qashan jazbaǵan adamlardıń sáwbetlerin jasıradı hám xabarlamaların óshiredi.
+UMessageStrangerChats	Biytanıslar menen sáwbetler
+UMessageStrangerChatsInfo	Juwap bergenińizden keyin sáwbet qaytadan dizimge ótedi.
+UMessageStrangerChatsEmpty	Biytanıslar menen sáwbetler joq.
+UMessageBlockApk	APK fayllardı bloklaw
+UMessageBlockApkInfo	Kiris .apk fayllar sáwbetlerde kórsetilmeydi.
+UMessageApkGuardTitle	APK qáwipsizlik eskertiwi
+UMessageApkGuardWarning	Ádette xakerler Telegram arqalı «Toyǵa mirát», «Sudqa shaqırıw» yamasa «Súwretlerińiz» degen atlı APK jiberedi. Abaylı bolıń.\n\nU message fayldı tekseredi, biraq hesh bir avtomat tekseriw 100% kepillik bermeydi.
+UMessageCheckAndContinue	Tekseriw hám dawam etiw
+UMessageApkDangerTitle	⚠ QÁWIP: Qáwipli APK
+UMessageApkAppName	Qosımsha: %1$s
+UMessageApkPackageName	Paket: %1$s
+UMessageApkRequests	Bul APK tómendegi maǵlıwmatlar hám múmkinshiliklerdi soraydı:
+UMessageApkDangerFooter	Bul múmkinshilikler ziyanlı qosımshada akkaunt, parol yamasa jeke maǵlıwmatlardı urlaw ushın paydalanılıwı múmkin. Isenbeseńiz, ashpań.
+UMessageRiskConsent	Eskertiwdi oqıdım. Ashıwdıń aqıbetleri ushın juwapkershilikti óz moynıma alaman.
+UMessageLinkMaskedShown	Kórinisi: %1$s
+UMessageLinkMaskedReal	Haqıyqatında ashıladı: %1$s
+UMessageLinkRiskMasked	Silteme jasırılǵan: tekstte bir sayt kórsetilgen, biraq basqanda pútkilley basqa saytqa aparadı. Bul fishingtiń eń keń tarqalǵan usılı.
+UMessageOpenDespiteRisk	Qáwipti túsindim, ashıw
+UMessageApkUnreadableRisk	Fayldı oqıp hám qáwipsiz tekseriw múmkin bolmadı.
+UMessageApkBundleRisk	APK toplamı ishindegi barlıq qosımshalardı isenimli tekseriw múmkin bolmadı.
+UMessageApkParseRisk	APK manifestin tekseriw múmkin bolmadı yamasa fayl buzılǵan/jasırılǵan.
+UMessageRiskAccessibility	Ekrandı kóriw hám basqarıw (Accessibility) — basıwlardı, jazılǵan tekst hám parollerdi baqlawı múmkin.
+UMessageRiskNotifications	Bildiriwlerdi oqıw — SMS kodların hám qupıya xabarlardı kóriwi múmkin.
+UMessageRiskVpn	VPN jaratıw — internet trafigin baqlawı yamasa basqa mánziske baǵdarlawı múmkin.
+UMessageRiskDeviceAdmin	Qurılma administratorı — óshiriwdi qıyınlastırıwı yamasa qurılmanı basqarıwı múmkin.
+UMessageRiskSms	SMS hám tastıyıqlaw kodları — akkauntlardı iyelew yamasa aqılı SMS jiberiw ushın paydalanılıwı múmkin.
+UMessageRiskContacts	Kontaktlar hám akkauntlar — tanıslarıńızǵa alayaqlıq xabarlar jiberiw ushın paydalanılıwı múmkin.
+UMessageRiskPhone	Telefon jaǵdayı hám qońırawlar — nomer, qońıraw tariyxı hám telefon funkciyalarına kire aladı.
+UMessageRiskMicrophone	Mikrofon — sáwbetlerdi jasırın jazıp alıwı múmkin.
+UMessageRiskCamera	Kamera — sizdi yamasa átirapıńızdı jasırın súwretke alıwı múmkin.
+UMessageRiskLocation	Jaylasıw — qay jerde ekenińizdi baqlawı múmkin.
+UMessageRiskFiles	Súwret, video hám fayllar — jeke maǵlıwmatlardı oqıwı yamasa kóshiriwi múmkin.
+UMessageRiskOverlay	Basqa qosımshalar ústinde ayna — jalǵan kiriw aynası menen paroldi qolǵa túsiriwi múmkin.
+UMessageRiskInstallApps	Basqa qosımshalardı ornatıw — qosımsha ziyanlı programma ornatıwı múmkin.
+UMessageRiskInstalledApps	Ornatılǵan qosımshalar dizimi — bank hám messendjer qosımshaların anıqlawı múmkin.
+UMessageLinkGuardTitle	Gúmanlı silteme
+UMessageLinkGuardWarning	Alayaqlar jalǵan Telegram, sawǵa, bonus yamasa kiriw betleri arqalı parol hám SMS kodların urlawı múmkin.\n\nAshpaqshı bolǵan mánzilińiz:\n%1$s
+UMessageLinkDangerTitle	⚠ QÁWIP: Qáwipli silteme
+UMessageLinkDangerReasons	U message tómendegi qáwip belgilerin anıqladı:
+UMessageLinkDangerFooter	Domen atın júdá dıqqat penen tekseriń. Bul betke parol, karta yamasa SMS kodın kirgizbeń.
+UMessageLinkRiskMalformed	Silteme formatı qáte yamasa domen anıqlanbadı.
+UMessageLinkRiskHttp	Silteme qorǵalǵan HTTPS baylanısınan paydalanbaydı.
+UMessageLinkRiskUserInfo	Haqıyqıy domendi jasırıw ushın «@» belgisi paydalanılǵan.
+UMessageLinkRiskObfuscated	Mánzil arnawlı kod yamasa keri sızıq penen jasırılǵan.
+UMessageLinkRiskIdn	Domen uqsas kórinetuǵın xalıqaralıq/punycode belgilerinen paydalanadı.
+UMessageLinkRiskIp	Domen ornına tikkeley IP mánzil paydalanılǵan.
+UMessageLinkRiskShortener	Qısqartılǵan silteme aqırǵı mánzildi jasıradı.
+UMessageLinkRiskTelegramImpersonation	Domen Telegram atına uqsaydı, biraq rásmiy Telegram domeni emes.
+UMessageLinkRiskInstagramImpersonation	Domen Instagram tastıyıqlaw betine uqsaydı, biraq rásmiy Instagram domeni emes.
+UMessageLinkRiskPhishingWords	Domen atında kiriw, tastıyıqlaw, sawǵa yamasa bonusqa baylanıslı fishing sózleri bar.
+UMessageLinkRiskSubdomains	Haqıyqıy domendi shatastırıw ushın júdá kóp subdomen paydalanılǵan.
+UMessageLinkRiskScheme	Silteme brauzer mánzili ornına qurılma yamasa qosımshaǵa tikkeley buyrıq jiberedi.
+UMessageFolderIcons	Papka belgileri
+UMessageFolderIconsInfo	Papka bóliklerin atlar ornına belgiler retinde kórsetedi.
+UMessageHideFolderTabs	Papka bóliklerin jasırıw
+UMessageHideFolderTabsInfo	Sáwbetler dizimi ústindegi papka bólikleri qatarın jasıradı.
+UMessageAdminFolders	Admin papkaları
+UMessageAdminFoldersInfo	Siz iyesi bolǵan yamasa basqaratuǵın toparlar hám kanallardı jıynaytuǵın tórt papka.
+UMessageAdminFoldersNone	Siz basqaratuǵın toparlar yamasa kanallar joq, yamasa papkalar limitine jetilgen.
+UMessageFolderMyGroups	Meniń toparlarım
+UMessageFolderMyChannels	Meniń kanallarım
+UMessageFolderAdminGroups	Admin toparları
+UMessageFolderAdminChannels	Admin kanalları
+UMessageStoriesAnonymous	Storislerdi anonim kóriw
+UMessageStoriesAnonymousInfo	Qosılǵanda, storis iyeleri siz olardıń storislerin kórgenińizdi bilmeydi.
+UMessageStoriesHide	Storislerdi jasırıw
+UMessageStoriesHideInfo	Sáwbetler dizimi joqarısındaǵı storisler qatarın jasıradı.
+UMessageStoriesDownload	Storislerdi júklep alıw
+UMessageStoriesDownloadInfo	Qálegen storiske saqlaw túymesin qosadı.
+UMessageReminder	Oqılmaǵan xabar eskertiwi
+UMessageReminderInfo	Oqılmaǵan xabardı waqtında ashpasańız, sizge eskertiw keledi.
+UMessageReminderTitle	%1$s jibergen oqılmaǵan xabar
+UMessageReminderDelay	Eskertiw keshigiwi
+UMessageReminderSound	Eskertiw dawısı
+UMessageSoundNotification	Bildiriw dawısı
+UMessageSoundAlarm	Oyatqısh dawısı
+UMessageSoundRingtone	Qońıraw námasi
+UMessageSoundNone	Dawıssız
+UMessageAutoReply	Avto juwap
+UMessageAutoReplyInfo	Sizge jazǵan hár bir jeke sáwbetke bir ret juwap beredi.
+UMessageAutoReplyText	Juwap teksti
+UMessageAutoReplyDefault	Házir juwap bere almayman, keyinirek jazaman.
+UMessageConfirmTitle	Jiberiw kerekpe?
+UMessageConfirmSticker	Stiker jiberiw
+UMessageConfirmStickerInfo	Stiker jiberiwden aldın tastıyıqlaw soraydı.
+UMessageConfirmStickerAsk	Bul stikerdi jiberiw kerekpe?
+UMessageConfirmVoice	Dawıslı xabar jiberiw
+UMessageConfirmVoiceInfo	Dawıslı xabar jiberiwden aldın tastıyıqlaw soraydı.
+UMessageConfirmVoiceAsk	Bul dawıslı xabardı jiberiw kerekpe?
+UMessageConfirmGif	GIF jiberiw
+UMessageConfirmGifInfo	GIF jiberiwden aldın tastıyıqlaw soraydı.
+UMessageConfirmGifAsk	Bul GIF ti jiberiw kerekpe?
+UMessageVoiceInput	Dawıs penen jazıw túymesi
+UMessageVoiceInputInfo	Xabar maydanı qasında aytqanıńızdı jazatuǵın mikrofon kórsetedi.
+UMessageVoiceInputUnavailable	Bul qurılmada dawıs penen jazıw múmkin emes
+UMessageFrontCamera	Aldınǵı kamera
+UMessageFrontCameraInfo	Video xabarlardı aldınǵı kamera menen jazadı. Óshirilgende: artqı kamera.
+UMessageRoundEffects	Video xabar effektleri
+UMessageRoundEffectsInfo	Reń filtrin yamasa Gózzallıq (betti tegislew) effektin tańlań, keyin onıń kúshin 0 den 100% ke shekem sazlań.
+UMessageRoundEffectIntensity	Effekt kúshi
+UMessageMakeupOriginal	Túp nusqa
+UMessageMakeupRosy	Qızǵılt
+UMessageMakeupSoftGlam	Jumsaq glamur
+UMessageMakeupCoral	Marjan jıltırı
+UMessageMakeupClassic	Klassikalıq qızıl
+UMessageMakeupBerry	Jiyde
+UMessageSmsUnavailable	Telegram bul nomerge SMS jibermedi. Kodtı basqa qurılmańızdaǵı Telegram qosımshasınan alıń.
+UMessageRoundBeauty	Gózzallıq
+UMessageFilterClarendon	Clarendon
+UMessageFilterJuno	Juno
+UMessageFilterLark	Lark
+UMessageFilterGingham	Gingham
+UMessageFilterValencia	Valencia
+UMessageFilterMoon	Moon
+UMessageFilterNashville	Nashville
+UMessageFilterVintage	Vintage
+UMessageRoundFilter	Filtr
+UMessageCameraUnavailable	Kamera qoljetimsiz
+UMessageBeautyOff	Óshirilgen
+UMessageBeautyOn	Qosılǵan
+UMessageRoundBlush	Qızıllıq
+UMessageRoundLipstick	Erin boyawı
+UMessageLipstickShade	Reń túri
+UMessageLipSaturation	Reń toyınıwı
+UMessageLipBrightness	Jarıqlıq
+UMessageLipSoftness	Shet jumsaqlıǵı
+UMessageLipstickRose	Tábiyiy gúl
+UMessageLipstickPink	Jumsaq qızǵılt
+UMessageLipstickNude	Tábiyiy
+UMessageLipstickCherry	Shiye qızıl
+UMessageLipstickBurgundy	Bordo
+UMessageLipstickCoral	Marjan
+UMessageLipstickBerry	Jiyde
+UMessageAutoApprove	Qosılıw sorawların avtomat qabıllaw
+UMessageAutoApproveInfo	Toparlarıńız hám kanallarıńızǵa qosılıw sorawların avtomat túrde maqullaydı.
+UMessageStopAutoDownload	Avtomat júklep alıwdı toqtatıw
+UMessageStopAutoDownloadInfo	Súwret, video hám fayllardı avtomat júklep alıwdı óshiredi. Júklew ushın mediaǵa basıń.
+UMessagePreviewFriendScreen	Kontaktıńız ne kóredi
+UMessagePreviewHi	Sálem! Qalayısań?
+UMessagePreviewReply	Jaqsı, raxmet!
+UMessagePreviewMeet	Erteń saat 10 da ushırasayıq
+UMessagePreviewMeetEdited	Erteń saat 12 de ushırasayıq
+UMessagePreviewOriginal	Túp nusqası: %1$s
+UMessagePreviewSecret	Hesh kimge aytpa 🤫
+UMessagePreviewDeletedBySender	Jiberiwshi bul xabardı óshirdi
+UMessagePreviewApkText	Bul qosımshanı ornat
+UMessagePreviewApkBlocked	APK fayl bloklandı
+UMessagePreviewBusy	Sálem, bossań ba?
+UMessagePreviewStranger	Sálem, sizge usınısım bar
+UMessagePreviewMovedToStrangers	Biytanıslar sáwbetlerine kóshirildi
+UMessagePreviewStoryHidden	Iyesi siz kórgenińizdi bilmeydi
+UMessagePreviewStoryVisible	Iyesi siz kórgenińizdi kóredi
+UMessagePreviewSaved	Galereyaǵa saqlandı
+UMessagePreviewDictation	Bes minutta barıp qalaman
+UMessagePreviewRearCamera	Artqı kamera
+UMessagePreviewJoinRequest	%1$s qosılıwdı soradı
+UMessagePreviewJoinApproved	%1$s avtomat túrde maqullandı
+UMessagePreviewTapToDownload	Tek basqanıńızda júklenedi
+UMessagePreviewAutoDownloading	Avtomat júklenbekte…
+UMessageIntro1Title	U message
+UMessageIntro1Message	**Sizdiń** messendjerińiz.\n**Ápiwayı**, **tez** hám **siz** ushın jaratılǵan.
+UMessageIntro2Title	Hár bir sáwbet — bir sheńber
+UMessageIntro2Message	**Siz** hám siz ushın áhmiyetli adamlar\nbir **jabıq sheńberde**.
+UMessageIntro3Title	Tiykarınan qupıya
+UMessageIntro3Message	Xabarlarıńız **qorǵalǵan**\nhám **sizdiki** bolıp qaladı.
+UMessageIntro4Title	Barlıq waqıt siz benen
+UMessageIntro4Message	Barlıq qurılmalarıńızda\n**bir zamatta** **sinxronlanadı**.
+PrivacyGuard	Privacy Guard
+PrivacyGuardSettingInfo	Ekranıńızǵa basqa birew qarap turǵanda sáwbetlerdi jasırıw
+PrivacyGuardAbout	Sáwbet ashıq turǵanda aldınǵı kamera ekranıńızǵa sizden basqa birew qarap turǵanın tekseredi hám ol kózin almaǵansha sáwbetti jasıradı. Bet maǵlıwmatlarıńız shifrlanǵan, tek usı qurılmada saqlanadı hám hesh qashan júklenbeydi.
+PrivacyGuardUnsupported	Privacy Guard ushın Android 7.0 yamasa jańarıǵı kerek.
+PrivacyGuardRegisteredFace	Dizimge alınǵan bet
+PrivacyGuardRegisterFace	Betimdi dizimge alıw
+PrivacyGuardReregisterFace	Betti qayta dizimge alıw
+PrivacyGuardDeleteFace	Bet maǵlıwmatların óshiriw
+PrivacyGuardDeleteFaceConfirm	Dizimge alınǵan betińizdi usı qurılmadan óshiriw kerekpe? Privacy Guard óshiriledi.
+PrivacyGuardFaceConfigured	Sazlanǵan
+PrivacyGuardFaceNotConfigured	Ornatılmaǵan
+PrivacyGuardFaceInfo	Bul qurılmada súwret emes, tek shifrlanǵan bet úlgisi saqlanadı. Ol rezerv nusqalarǵa kirmeydi hám hesh qashan serverge jiberilmeydi.
+PrivacyGuardMode	Qorǵaw rejimi
+PrivacyGuardModeLooking	Belgisiz adam ekranǵa qarap tur
+PrivacyGuardModeAnyFace	Qálegen belgisiz bet anıqlandı
+PrivacyGuardAction	Háreket
+PrivacyGuardActionBlur	Sáwbetti búldirlew
+PrivacyGuardActionLock	Sáwbetti qulıplaw
+PrivacyGuardSensitivity	Sezgirlik
+PrivacyGuardSensitivityLow	Tómen
+PrivacyGuardSensitivityBalanced	Teń salmaqlı
+PrivacyGuardSensitivityHigh	Joqarı
+PrivacyGuardSensitivityInfo	Joqarı sezgirlik tezirek hám alıstaǵı adamlarǵa da reakciya bildiredi, biraq sáwbetti qáte jasırıwı jiyirek bolıwı múmkin.
+PrivacyGuardAdditional	Qosımsha sazlamalar
+PrivacyGuardHideOwnerAway	Men kózimdi alǵanda jasırıw
+PrivacyGuardHideOwnerAwayInfo	Kamera kóriw maydanınan shıqqanıńızda yamasa kózińizdi alǵanıńızda da sáwbetti jasırıw
+PrivacyGuardProtectMedia	Media kóriwshini qorǵaw
+PrivacyGuardProtectMediaInfo	Sáwbetten ashılǵan súwret hám videolardı da jasırıw
+PrivacyGuardProtectComposer	Xabar jazıw maydanın qorǵaw
+PrivacyGuardProtectComposerInfo	Jazıp atırǵan xabarıńızdı hám onıń juwap kórinisin de jasırıw
+PrivacyGuardProtectScreenshots	Skrinshot hám kórinislerdi qorǵaw
+PrivacyGuardProtectScreenshotsInfo	Privacy Guard qosılǵanda skrinshotlardı bloklaw hám sońǵı qosımshalarda sáwbetti jasırıw
+PrivacyGuardCameraPermission	Privacy Guard ushın aldınǵı kameraǵa ruqsat kerek. Kamera kadrları tek usı qurılmada analizlenedi hám hesh qashan jazılmaydı yamasa saqlanbaydı.
+PrivacyGuardNeedsFace	Privacy Guard sizdi basqa adamlardan ajırata alıwı ushın aldın betińizdi dizimge alıń.
+PrivacyGuardActivated	Privacy Guard iske qosıldı
+PrivacyGuardMayBeViewing	Ekranıńızǵa birew qarap turıwı múmkin
+PrivacyGuardLookedAway	Kózińizdi alǵanıńızda jasırıldı
+PrivacyGuardTapToShow	Kórsetiw ushın basıń
+PrivacyGuardTapToUnlock	Ashıw ushın basıń
+PrivacyGuardScreenHidden	Ekran jasırıldı
+PrivacyGuardChatLocked	Sáwbet qulıplandı
+PrivacyGuardUnlockTitle	Sáwbetti ashıw
+UMessagePremium	U message Premium
+UMessagePremiumInfo	Premium belgińizdi basqa U message paydalanıwshılarına kórsetiń hám premium múmkinshiliklerdi ashıń. Jasırıw ushın óshiriń.
+PrivacyGuardEnterPasscode	Guard parolin kiritiń
+PrivacyGuardCreatePasscode	Parol jaratıń
+PrivacyGuardConfirmPasscode	Paroldi tastıyıqlań
+PrivacyGuardPasscodeHint	Keminde 4 san
+PrivacyGuardPasscodesDontMatch	Paroller sáykes kelmeydi. Qayta urınıp kóriń
+PrivacyGuardSetPasscode	Guard parolı
+PrivacyGuardSetPasscodeInfo	Kamera sizdi tanımaǵanda qosımshanı qayta ashıw ushın betińizge qosımsha parol qosıń.
+PrivacyGuardPasscodeSet	Parol ornatıldı
+PrivacyGuardRemovePasscode	Paroldi alıp taslaw
+PrivacyGuardEnrollTitle	Betińizdi dizimge alıń
+PrivacyGuardEnrollStraight	Ekranǵa tuwrı qarań
+PrivacyGuardEnrollSide	Basıńızdı áste bir tárepke burıń
+PrivacyGuardEnrollOtherSide	Endi ekinshi tárepke burıń
+PrivacyGuardEnrollUp	Basıńızdı sál joqarı kóteriń
+PrivacyGuardEnrollDown	Basıńızdı sál tómen iyiń
+PrivacyGuardEnrollHintNoFace	Betińizdi sheńber ishine jaylastırıń
+PrivacyGuardEnrollHintMultiple	Kóriniste tek siz ekenińizge isenim payda etiń
+PrivacyGuardEnrollHintCloser	Sál jaqınlań
+PrivacyGuardEnrollHintDark	Jaqsıraq jarıqlıq tabıń
+PrivacyGuardEnrollHintEyes	Kózińizdi ashıq tutıń
+PrivacyGuardEnrollHintMore	Jáne sál
+PrivacyGuardEnrollHintLess	Artıq emes
+PrivacyGuardEnrollDone	Bet dizimge alındı
+PrivacyGuardEnrollDoneInfo	Endi Privacy Guard sizdi tanıydı hám ekranıńızǵa basqa birew qarap turǵanda sáwbetlerdi jasıradı.
+PrivacyGuardEnrollFailed	Dizimge alıw ámelge aspadı
+PrivacyGuardEnrollFailedInconsistent	Dizimge alıw waqtında birden artıq adam bar sıyaqlı kórindi. Kóriniste tek betińizdi qaldırıp, qayta urınıp kóriń.
+PrivacyGuardEnrollFailedCamera	Aldınǵı kamera qoljetimsiz. Kameradan paydalanıp atırǵan basqa qosımshalardı jabıp, qayta urınıp kóriń.
+PrivacyGuardEnrollFailedGeneric	Bir nárse qáte ketti. Qayta urınıp kóriń.
+PrivacyGuardEnrollPrivacy	Súwretler alınbaydı. Bul qurılmada tek shifrlanǵan bet úlgisi saqlanadı.
+PrivacyGuardTryAgain	Qayta urınıw
+LanguageName	Qaraqalpaqsha
+English	English
+LanguageNameInEnglish	Karakalpak
+LanguageCode	kaa
+ContinueOnThisLanguage	Qaraqalpaq tilinde dawam etiw
+YourPhone	Telefonıńız
+StartText	Mámleket kodın tastıyıqlań hám telefon nomerińizdi kiritiń.
+StartTextPasskey	Telefon nomerińizdi kiritiń\nyamasa **passkey arqalı kiriń >**
+Country	Mámleket
+YourNumber	Telefon nomerińiz
+PhoneNumber	Telefon nomeri
+ChooseCountry	Mámleketti tańlań
+WrongCountry	Mámleket kodı qáte
+AccountAlreadyLoggedIn	Bul akkaunt usı qosımshadan kirgen.
+AccountSwitch	Almastırıw
+SyncContacts	Kontaktlardı sinxronlaw
+SyncContactsOn	Usı qurılmadaǵı kontaktlar bul akkauntqa qosıladı.
+SyncContactsOff	Usı qurılmadaǵı kontaktlar bul akkauntqa qosılmaydı.
+SyncContactsInfoOn	Usı qurılmadaǵı kontaktlar akkauntıńızǵa qosıladı.
+SyncContactsInfoOff	Usı qurılmadaǵı kontaktlardı akkauntıńız benen úzliksiz sinxronlaw ushın qosıń.
+SyncContactsAdded	Usı qurılmadaǵı kontaktlar akkauntıńızǵa qosıldı.
+ConfirmCorrectNumber	Nomer durıs pa?
+WrongNumberFormat	Format qáte
+ShortNumberInfo	Siz kiritken nomer **%1$s** ushın júdá qısqa:\n\n**%2$s**\n\nMámleket kodın qosıp, durıs nomerdi kiritiń.
+EditNumber	Nomerdi ózgertiw
+DidNotGetTheCodeInfo	Kodtı SMS yamasa qońıraw arqalı almaǵan bolsańız, **mobil internet sazlamaların** hám telefon nomerińizdi tekseriń:\n\n**%1$s**\n\nBasqa nomerdi sınap kóriwińiz yamasa Telegram qollap-quwatlaw xızmetine múrájat etiwińiz múmkin. Mashqalanı anıqlawımız ushın texnikalıq maǵlıwmatlardı jiberiw ushın **Járdem** túymesin basıń.
+DidNotGetTheCodeHelpButton	Járdem
+DidNotGetTheCodeEditNumberButton	Nomerdi ózgertiw
+YourCode	Telefondı tastıyıqlaw
+SentSmsCode	**%1$s** telefonıńızǵa aktivlestiriw kodı bar SMS jiberdik.
+SentAppCode	Kodtı basqa qurılmańızdaǵı **Telegram** qosımshasına jiberdik.
+SentAppCodeWithPhone	Kodtı basqa qurılmańızdaǵı %1$s ushın **Telegram** qosımshasına jiberdik.
+SentAppCodeTitle	Telegram xabarlarıńızdı tekseriń
+SentFragmentCode	%1$s ushın kodtı Fragment saytındaǵı Anonim nomerler bóliminen alıń.
+SentSmsCodeTitle	Kodtı kiritiń
+OpenFragment	Fragment ti ashıw
+SentCallCode	**%1$s** telefonıńızǵa qońıraw etip atırmız.\n\nQońırawdı qabıllamań, Telegram hámmesin avtomat túrde ámelge asıradı.
+SentCallOnly	Kodtı aytıp beriw ushın **%1$s** telefonıńızǵa qońıraw etilmekte.
+CallText	Telegram sizge %1$d:%2$02d den keyin qońıraw etedi
+SmsText	%1$d:%2$02d den keyin SMS jiberiledi
+Calling	Sizge qońıraw etilmekte...
+SendingSms	SMS jiberilmekte...
+Code	Kod
+WrongNumber	Nomer qáte me?
+WrongCode	Qáte kod kiritildi. Qayta urınıp kóriń.
+DidNotGetTheCode	Kodtı almadıńız ba?
+DidNotGetTheCodeSms	Kodtı SMS arqalı jiberiw
+DidNotGetTheCodeFragment	Kodtı Fragment arqalı alıw
+CancelAccountReset	Akkaunttı tiklewdi biykarlaw
+CancelAccountResetInfo2	**%1$s** nomerine kiriw múmkinshiligi bar birew Telegram akkauntıńızdı óshiriwdi hám eki basqıshlı tastıyıqlaw parolin tiklewdi soradı.\n\nEger bul siz bolmasańız, biz házir SMS arqalı jibergen kodtı kiritiń. Bunı *telefon nomerińizdi ózgertiw* arqalı da biykarlay alasız.
+ResetAccount	Akkaunttı tiklew
+ResetAccountInfo	**%1$s** akkauntı aktiv hám parol menen qorǵalǵanı ushın, qáwipsizlik maqsetinde onı 1 háptede óshiremiz.\n\nBul processti qálegen waqıtta biykarlay alasız.
+ResetAccountStatus	Akkauntıńızdı tiklew múmkin boladı:
+ResetAccountCancelledAlert	Bul akkaunttı tiklewge sońǵı urınıwlarıńızdı onıń aktiv paydalanıwshısı biykarladı. 7 kúnnen keyin qayta urınıp kóriń.
+CancelLinkExpired	Silteme jaramsız yamasa múddeti ótken.
+CancelLinkSuccessTitle	Tabıslı
+CancelLinkSuccess	%1$s akkauntıńız ushın óshiriw processi biykarlandı. Endi bul aynanı jabıwıńız múmkin.
+OtherLoginCode	Kiriw kodıńız: **%1$s**. Onı kirip atırǵan Telegram qosımshasına kiritiń.\n\nBul kodtı hesh kimge bermeń.
+SmsAvailableIn	SMS ti %1$d:%2$02d den keyin sorawıńız múmkin
+ResendSmsAvailableIn	Jańa SMS ti %1$d:%2$02d den keyin sorawıńız múmkin
+RequestSmsButton	Kodtı SMS arqalı alıw
+CallAvailableIn	Dawıslı qońırawdı %1$d:%2$02d den keyin sorawıńız múmkin
+RequestCallButton	Kodtı aytıp beriw ushın maǵan qońıraw etiń
+RequestMissedCall	Kodtı telefon qońırawı arqalı alıw
+LoginAccessibilityCountryCode	Mámleket kodı
+SignInWithGoogle	Google arqalı kiriw
+YourName	Atıńız
+RegisterText2	Atıńızdı kiritiń hám profil súwretin qosıń.
+FirstName	Atı (mindetli)
+FirstNameSmall	Atı
+LastName	Familiyası (mindetli emes)
+LastNameSmall	Familiyası
+CancelRegistration	Dizimnen ótiwdi biykarlaw
+RegistrationProfileInfo	Profil maǵlıwmatı
+PaymentSuccessfullyPaid	Siz %3$s ushın %2$s ge %1$s tabıslı awdardıńız
+PaymentSuccessfullyPaidSubscription	Siz %3$s ushın %4$s shekem %2$s ge %1$s tabıslı awdardıńız
+PaymentSuccessfullyPaidNoItem	Siz %2$s ge %1$s tabıslı awdardıńız
+PaymentSuccessfullyPaidSubscriptionNoItem	Siz %3$s shekem %2$s ge %1$s tabıslı awdardıńız
+PaymentSuccessfullyPaidRecurrent	Siz %3$s ushın %2$s ge %1$s tabıslı awdardıńız hám keleshektegi turaqlı tólemlerge ruqsat berdińiz
+PaymentSuccessfullyPaidNoItemRecurrent	Siz %2$s ge %1$s tabıslı awdardıńız hám keleshektegi turaqlı tólemlerge ruqsat berdińiz
+PaymentSuccessfullyPaidMeSubscription	%1$s %3$s jazılıwı ushın %4$s shekem %2$s awdardı
+PaymentSuccessfullyPaidMeNoItemSubscription	%1$s %3$s shekem jazılıw ushın %2$s awdardı
+PaymentCheckout	Tólew
+PaymentShippingMethod	Jetkerip beriw usılları
+PaymentNoShippingMethod	Keshiriń, mánzilińizge jetkerip beriw múmkin emes.
+PaymentShippingInfo	Jetkerip beriw maǵlıwmatı
+PaymentShippingAddress	Jetkerip beriw mánzili
+PaymentShippingAddress1Placeholder	Mánzil 1 (Kóshe)
+PaymentShippingAddress2Placeholder	Mánzil 2 (Kóshe)
+PaymentShippingCityPlaceholder	Qala
+PaymentShippingStatePlaceholder	Wálayat
+PaymentShippingCountry	Mámleket
+PaymentShippingZipPlaceholder	Pochta indeksi
+PaymentShippingReceiver	Alıwshı
+PaymentShippingName	Tolıq atı
+PaymentTip	Shay-puw
+PaymentTipOptional	Shay-puw (mindetli emes)
+PaymentShippingPhoneNumber	Telefon nomeri
+PaymentShippingEmailPlaceholder	Email
+PaymentShippingSave	Jetkerip beriw maǵlıwmatın saqlaw
+PaymentShippingSaveInfo	Jetkerip beriw maǵlıwmatıńızdı keleshekte paydalanıw ushın saqlay alasız.
+PaymentCardInfo	Tólem maǵlıwmatı
+PaymentCardTitle	Tólem kartası
+PaymentCardNumber	Karta nomeri
+PaymentCardCvv	Qáwipsizlik kodı (CVV)
+PaymentCardExpireDate	AA/JJ
+PaymentBillingAddress	Esap mánzili
+PaymentCardName	Atı hám familiyası
+PaymentCardSavePaymentInformation	Tólem maǵlıwmatın saqlaw
+PaymentCardSavePaymentInformationInfoLine1	Tólem maǵlıwmatıńızdı keleshekte paydalanıw ushın saqlay alasız.
+PaymentCardSavePaymentInformationInfoLine2	Bunı qosıw ushın *eki basqıshlı tastıyıqlawdı qosıń*.
+PaymentTransactionReview	Tranzakciyanı kórip shıǵıw
+PaymentTransactionMessage2	**%3$s** ushın %2$s botına **%1$s** awdarıw kerekpe?
+PaymentTransactionTotal	Jámi
+PaymentInvoiceLinkInvalid	Jaramsız esap-faktura

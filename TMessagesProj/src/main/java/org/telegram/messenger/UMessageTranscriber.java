@@ -31,11 +31,33 @@ public class UMessageTranscriber {
     private static final long TIMEOUT_MS = 3 * 60 * 1000;
 
     public static boolean isAvailable() {
-        return Build.VERSION.SDK_INT >= 33 && SpeechRecognizer.isRecognitionAvailable(ApplicationLoader.applicationContext);
+        return (UMessageUzbekSpeech.isSupported() && UMessageUzbekSpeech.isEnabled()) || (Build.VERSION.SDK_INT >= 33 && SpeechRecognizer.isRecognitionAvailable(ApplicationLoader.applicationContext));
     }
 
     /** {@code done} runs on the UI thread with the text, or null when recognition failed. */
     public static void transcribe(File file, Utilities.Callback<String> done) {
+        if (UMessageUzbekSpeech.isSupported() && UMessageUzbekSpeech.isEnabled() && UMessageUzbekSpeech.isReady() && file != null && file.exists()) {
+            // the 7OS keyboard's offline Uzbek model (sherpa-onnx)
+            Utilities.globalQueue.postRunnable(() -> {
+                String text = null;
+                try {
+                    final byte[] pcm = decodeToPcm16k(file);
+                    if (pcm != null && pcm.length > 0) {
+                        text = UMessageUzbekSpeech.transcribe(UMessageUzbekSpeech.toFloats(pcm));
+                    }
+                } catch (Throwable t) {
+                    FileLog.e(t);
+                }
+                final String result = text;
+                AndroidUtilities.runOnUIThread(() -> done.run(result));
+            });
+            return;
+        }
+        transcribeWithSystemRecognizer(file, done);
+    }
+
+    /** Fallback for devices without the offline model (x86, or the model was not downloaded). */
+    private static void transcribeWithSystemRecognizer(File file, Utilities.Callback<String> done) {
         if (Build.VERSION.SDK_INT < 33 || file == null || !file.exists()) {
             AndroidUtilities.runOnUIThread(() -> done.run(null));
             return;

@@ -1,0 +1,569 @@
+SMSFee1TextCountry	Elińizdegi (%s) baylanıs operatorları Telegramnan SMS ushın júdá joqarı baha aladı.
+SMSFee2Title	Tastıyıqlaw talap etiledi
+SMSFee2Text	Telefon nomerińizdi tastıyıqlaw ushın Telegram sizge tastıyıqlaw kodı bar SMS jiberiwi kerek.
+SMSFee3Title	**Telegram Premium >** arqalı qollap-quwatlaw
+SMSFee3Text	SMS qárejetlerin qaplawǵa járdem beriw ushın 1 háptelik Telegram Premium jazılıwın rásmiylestiriń.
+SMSFee3TextDays_one	SMS qárejetlerin qaplawǵa járdem beriw ushın %d kúnlik Telegram Premium jazılıwın rásmiylestiriń.
+SMSFee3TextDays_other	SMS qárejetlerin qaplawǵa járdem beriw ushın %d kúnlik Telegram Premium jazılıwın rásmiylestiriń.
+SMSFeePurchaseTitle	%s ǵa jazılıw
+SMSFeePurchaseText	1 háptege Telegram Premium alıw
+SMSFeePurchaseTextDays_one	%d kúnge Telegram Premium alıw
+SMSFeePurchaseTextDays_other	%d kúnge Telegram Premium alıw
+SMSFeeContact	Mashqala bar ma? **Bizge jazıń**
+PostSuggestionsPriceUpdated_one	un1 endi jeke xabarlardı %1$d Juldızǵa qabıl etedi
+PostSuggestionsPriceUpdated_other	un1 endi jeke xabarlardı %1$d Juldızǵa qabıl etedi
+PostSuggestionsEnabledUpdated	un1 endi jeke xabarlardı qabıl etedi
+PostSuggestionsDisabledUpdated	un1 jeke xabarlardı óshirdi
+PaidMessagesPriceUpdated_one	un1 bahanı bir xabar ushın %1$d Juldızǵa ózgertti
+PaidMessagesPriceUpdated_other	un1 bahanı bir xabar ushın %1$d Juldızǵa ózgertti
+PaidMessagesPriceUpdatedOut_one	Siz bahanı bir xabar ushın %1$d Juldızǵa ózgerttińiz
+PaidMessagesPriceUpdatedOut_other	Siz bahanı bir xabar ushın %1$d Juldızǵa ózgerttińiz
+PaidMessagesRefunded_one	un1 sizge %1$d Juldız qaytardı
+PaidMessagesRefunded_other	un1 sizge %1$d Juldız qaytardı
+PaidMessagesRefundedOut_one	Siz un1 ǵa %1$d Juldız qaytardıńız
+PaidMessagesRefundedOut_other	Siz un1 ǵa %1$d Juldız qaytardıńız
+ReplyDialogMessageAuthor	Xabar avtorı
+ForwardDialogYourChannel	Siziń kanalıńız
+ReplyDialogYourChats	Siziń sáwbetlerińiz
+SearchAdsAboutTitle	Bul reklamalar haqqında
+SearchAdsAboutSubtitle	Telegram reklamaları basqa platformalardaǵı reklamalardan júdá ózgeshe. Mınaday reklamalar:
+SearchAdsAbout1Title	Qupıyalıǵıńızdı húrmet etedi
+SearchAdsAbout1Subtitle	Bunday reklamalar jeke maǵlıwmatlarıńızdı paydalanbaydı hám siz kirgizgen izlew sorawına tiykarlanadı.
+SearchAdsAbout2Title	Alıp taslawǵa boladı
+SearchAdsAbout2Subtitle	Telegram Premium ǵa jazılıp, reklamalardı óshire alasız. **Jazılıw >**
+SearchAdsAbout2SubtitlePremium	Telegram Premium ǵa jazılıp hám Reklamalardı óshirip, reklamalardan qutıla alasız. **Reklamalardı alıp taslaw >**
+SearchAdsAboutLaunchTitle	Óz reklamamdı iske túsire alaman ba?
+SearchAdsAboutLaunchSubtitle	Hár kim qálegen soraw boyınsha izlew nátiyjelerinde kórsetiletuǵın reklama jarata aladı. Tolıq maǵlıwmat ushın **Telegram Ad Platform** ǵa qarań. %1$s
+SearchAdsAboutLaunchLearnMore	**Kóbirek biliw >**
+SearchAdsAboutUnderstood	Túsinikli
+UserDisallowedGifts	**%s** ózine sawǵa jiberiwge ruqsat bermegen.
+Gift2UnpinAlertTitle	Bekitilgen sawǵalar júdá kóp
+Gift2UnpinAlertSubtitle	Tómende bekitiwden alınatuǵın sawǵanı tańlań
+Gift2UnpinAlertButton	Bekitiwden alıw
+Gift2ReplacedPinTitle	%s bekitildi
+Gift2ReplacedPinSubtitle	%s ornına
+SearchAd	Reklama
+JoinCall	Qońırawǵa qosılıw
+ViewCollection	KOLLEKCIYANI KÓRIW
+GroupCallLinkTitle	Toparlıq qońıraw
+GroupCallLinkText	Siz Telegram qońırawına qosılıwǵa mirát etildińiz.
+GroupCallLinkText2One	**%1$s** bul qońırawǵa qosılıp bolǵan.
+GroupCallLinkText2Two	**%1$s** hám **%2$s** bul qońırawǵa qosılıp bolǵan.
+GroupCallLinkText2Many_one	**%2$s**, **%3$s** hám jáne **%1$d** adam bul qońırawǵa qosılıp bolǵan.
+GroupCallLinkText2Many_other	**%2$s**, **%3$s** hám jáne **%1$d** adam bul qońırawǵa qosılıp bolǵan.
+GroupCallLinkMicrophone	Mikrofondı qosıw
+GroupCallLinkJoin	Toparlıq qońırawǵa qosılıw
+GroupCallCreateTitle	Toparlıq qońırawdı baslaw
+GroupCallCreateText	Bul qońıraw endi aktiv emes. Jańasın baslay alasız.
+GroupCallCreateAddMembers	Aǵzalar qosıw
+GroupCallCreateVoice	Dawıs
+GroupCallCreateVideo	Video
+GroupCallCreate2	Jańa qońıraw jaratıw
+GroupCallShowInMainTabs	Qońırawlar bólimin kórsetiw
+GroupCallTabWasShownTitle	**Qońırawlar** bólimi endi kórinedi
+GroupCallTabWasHiddenTitle	**Qońırawlar** bólimi endi jasırılǵan
+GroupCalMessageDecryptionError	Qollap-quwatlanbaytuǵın xabar
+GroupCallCreateInfo_one	Qońırawǵa %d ge shekem qatnasıwshı qosa alasız.
+GroupCallCreateInfo_other	Qońırawǵa %d ge shekem qatnasıwshı qosa alasız.
+GroupCallCreateLink	Qońıraw siltemesin jaratıw
+GroupCallCreatedLinkTitle	Qońıraw siltemesi
+GroupCallCreatedLinkText	Telegramdaǵı hár kim tómendegi silteme arqalı qońırawıńızǵa qosıla aladı.
+GroupCallCreatedLinkCopy	Kóshirip alıw
+GroupCallCreatedLinkShare	Bólisiw
+GroupCallCreatedLinkJoinOr	yamasa
+GroupCallCreatedLinkJoinText	Qońırawǵa birinshi bolıp qosılıń hám adamlardı sol jerden qosıń. **Qońırawdı ashıw >**
+GroupCallCreatedLinkRevoke	Siltemeni biykarlaw
+VoipGroupInCallBranding	Kiriwshi toparlıq qońıraw
+ConferenceCallOutgoing	Shıǵıwshı toparlıq qońıraw
+ConferenceCallIncoming	Kiriwshi toparlıq qońıraw
+ConferenceCallMissed	Ótkizip jiberilgen toparlıq qońıraw
+ConferenceCallOther_one	%d adam
+ConferenceCallOther_other	%d adam
+GroupCallCreatedLinkRevokedTitle	Silteme biykarlandı
+GroupCallCreatedLinkRevokedText	Jańa silteme jaratıldı.
+GroupCallStopCallingInvite	Qońıraw etiwdi toqtatıw
+GroupCallDiscardInvite	Mirátti biykarlaw
+BotRestoreStorageTitle	Maǵlıwmatlardı import etiw
+BotRestoreStorageText	**%s** usı qurılmada qollanılǵan aldınǵı Telegram akkauntınan maǵlıwmatlardı import etiwge ruqsat sorap atır.
+BotRestoreStorageHeader	Maǵlıwmatlar import etiletuǵın akkaunt
+BotRestoreStorageButton	Import etiw
+BotRestoreStorageCreatedAt	%s kúni jaratılǵan
+ConferenceEncrypted	Tolıq shifrlanǵan
+ConferenceEncryptedSyncing	Tolıq shifrlanǵan
+ConferenceEncryptedInfo	Bul tórt emoji qońırawdıń shifrlaw gilti bolıp tabıladı. Olar barlıq qatnasıwshılarda birdey bolıwı kerek hám birew qosılǵanda yamasa shıqqanda ózgeredi.
+ConferenceEncryptedClose	Jabıw
+ConferenceChat	Toparlıq qońıraw
+ConferenceClosed	Toparlıq sáwbet juwmaqlandı.
+ConferenceCallWithVideo	Video qosılǵan qońıraw
+NewCall	Jańa qońıraw
+NewCallSearch	Kontaktlardı yamasa paydalanıwshı atların izlew...
+VoipAudioSwitchedToBluetooth	Audio Bluetooth qa ótkerildi.
+VoipAudioSwitchedToBluetoothDevice	Audio %s ǵa ótkerildi.
+VoipAudioSwitchedToHeadset	Audio qulaqlıqqa ótkerildi.
+VoipAudioSwitchedToPhone	Audio telefonǵa ótkerildi.
+VoipAudioSwitchedToSpeaker	Audio dinamikke ótkerildi.
+ResellGiftTitle	Juldızdaǵı baha
+ResellGiftTitleTON	TON daǵı baha
+ResellGiftPriceTitle	Bahanı Juldızda kirgiziń
+ResellGiftPriceTitleTON	Bahanı TON da kirgiziń
+ResellGiftButton	Satıwǵa qoyıw
+ResellGiftInfoTON	Siz **%s** TON alasız.
+ResellGiftInfo_one	Siz **%d** Juldız alasız.
+ResellGiftInfo_other	Siz **%d** Juldız alasız.
+ResellGiftInfoMinTON	Eń tómen baha — %s TON
+ResellGiftInfoMin_one	Eń tómen baha — %d Juldız.
+ResellGiftInfoMin_other	Eń tómen baha — **%d** Juldız.
+ResellGiftPriceTooMuch	Eń kóbi %s soray alasız
+ResellGiftPriceTooSmall	Keminde %s sorawıńız kerek
+ResellGiftPriceOnlyTON	Tek TON qabıl etiw
+ResellGiftPriceHintOnlyTON	Eger satıp alıwshı sizge TON menen tólese, Juldız tólemlerinen ózgeshe, qarjını qaytarıw qáwpi bolmaydı.
+ResellGiftFilterSortDateShort	Sáne
+ResellGiftFilterSortPriceShort	Baha
+ResellGiftFilterSortNumberShort	Nomer
+ResellGiftFilterSortPrice	Baha boyınsha sortlaw
+ResellGiftFilterSortDate	Sáne boyınsha sortlaw
+ResellGiftFilterSortNumber	Nomer boyınsha sortlaw
+ResellGiftBuy_one	⭐️%d ǵa satıp alıw
+ResellGiftBuy_other	⭐️%d ǵa satıp alıw
+ResellGiftBuyEq_one	⭐️%d ǵa teń
+ResellGiftBuyEq_other	⭐️%d ǵa teń
+ResellGiftBuyTON	⭐️%s TON ǵa satıp alıw
+BoughtResoldGiftTitle	Sawǵa alındı
+BoughtResoldGiftText	%s endi sizdiki.
+BoughtResoldGiftToTitle	Sawǵa jiberildi
+BoughtResoldGiftToText	%s sawǵańız haqqında xabarlandırıldı.
+Gift2OnSale	satıwda
+Gift2Resale	qayta satıw
+Gift2ListingsCount_one	%d usınıs
+Gift2ListingsCount_other	%d usınıs
+Gift2ResaleNoCount	nátiyje joq
+Gift2ResaleEnable	%s endi satıwda!
+Gift2ResaleDisable	%s satıwdan alıp taslandı!
+Gift2BuyPriceText_one	**%2$s** tı **%1$d Juldızǵa** satıp alıp, **%3$s** ǵa sawǵa etiwdi qáleysiz be?
+Gift2BuyPriceText_other	**%2$s** tı **%1$d Juldızǵa** satıp alıp, **%3$s** ǵa sawǵa etiwdi qáleysiz be?
+Gift2BuyPriceSelfText_one	**%2$s** tı **%1$d Juldızǵa** satıp alıwdı qáleysiz be?
+Gift2BuyPriceSelfText_other	**%2$s** tı **%1$d Juldızǵa** satıp alıwdı qáleysiz be?
+Gift2BuyPriceTextTON	**%2$s** tı **%1$s TON** ǵa satıp alıp, **%3$s** ǵa sawǵa etiwdi qáleysiz be?
+Gift2BuyPriceSelfTextTON	**%2$s** tı **%1$s TON** ǵa satıp alıwdı qáleysiz be?
+Gift2BuyPriceOnlyTON	Satıwshı tólem retinde tek TON qabıl etedi
+Gift2BuyPricePayHintTON	Sawǵanı qayta ótkeriwden aldınǵı 21 kúnlik kútiwdi ótkizip jiberiw ushın TON menen tóleń.
+Gift2BuyDoPrice2_one	⭐️%d ǵa satıp alıw
+Gift2BuyDoPrice2_other	⭐️%d ǵa satıp alıw
+Gift2BuyDoPrice2TON	⭐️%s ǵa satıp alıw
+Gift2BuyInStars	Juldız benen tólew
+Gift2BuyInTON	TON menen tólew
+Gift2ResaleFiltersSearch	Izlew…
+Gift2ResaleFilterModel	Model
+Gift2ResaleFilterModels_one	%d model
+Gift2ResaleFilterModels_other	%d model
+Gift2ResaleFilterSymbol	Belgi
+Gift2ResaleFilterSymbols_one	%d belgi
+Gift2ResaleFilterSymbols_other	%d belgi
+Gift2ResaleFilterBackdrop	Fon
+Gift2ResaleFilterBackdrops_one	%d fon
+Gift2ResaleFilterBackdrops_other	%d fon
+Gift2ResaleFiltersModelEmpty	Modeller tabılmadı.
+Gift2ResaleFiltersBackdropEmpty	Fonlar tabılmadı.
+Gift2ResaleFiltersSymbolEmpty	Belgiler tabılmadı.
+Gift2ResaleFiltersEmptyTitle	Sawǵalar tabılmadı
+Gift2ResaleFiltersEmptySubtitle	Házirshe bul filtrge sáykes sawǵalar joq.
+Gift2ResaleFiltersEmptyClear	Filtrlerdi tazalaw
+Gift2ResaleFiltersClear	Filtrlerdi tazalaw
+StoriesCreate_one	%d storis jaratıw
+StoriesCreate_other	%d storis jaratıw
+StoriesCollage	Kollajǵa biriktiriw
+HintViewStoriesMultiple_one	%d storisińizdi kóriw ushın usı jerdi basıń
+HintViewStoriesMultiple_other	%d storisińizdi kóriw ushın usı jerdi basıń
+CreateMultipleStories	Bir neshe storis jaratıw
+WebsiteSays	%s xabarlaydı
+SuggestedMessageDecline	Biykarlaw
+SuggestedMessageDeclineInfo	**%1$s** jibergen bul posttı járiyalawdan bas tartıwdı qáleysiz be?
+SuggestedMessageAcceptInfo	**%1$s** jibergen bul posttı járiyalawdı qáleysiz be?
+SuggestedMessageAcceptInfoAdmin2	Bul posttı **%2$s** járiyalaǵanıńız ushın **%1$s** (%3$s) alasız.
+SuggestedMessageAcceptInfoUser2	Bul posttı **%2$s** járiyalaw ushın **%1$s** tóleysiz.
+SuggestedMessageAcceptInfoAnytimeAdmin2	Bul posttı járiyalaǵanıńız ushın **%1$s** (%2$s) alasız.
+SuggestedMessageAcceptInfoAnytimeUser2	Bul posttı járiyalaw ushın **%1$s** tóleysiz.
+SuggestedMessageAcceptInfo3	Ol járiyalanǵannan keyin keminde **%d** saat kórinip turıwı kerek.
+SuggestedMessageAcceptStarsDisclaimer	Juldızdaǵı tranzakciyalar tólem provayderi tárepinen 21 kún ishinde biykarlanıwı múmkin. Juldızlardı tek isengen adamlarıńızdan qabıl etiń.
+SuggestedMessageDeclineReasonHint	Sebebin qosıń (minnetli emes)
+SuggestPostForStars	⭐️%s ǵa xabar
+SuggestPostForFree	Xabar
+SuggestionLockedStars	**%1$s** administratorına jiberiletuǵın hár bir xabar ushın **⭐️ %2$s** aladı.
+SuggestionUnlockedStars	**%1$s** administratorına jeke xabar jiberiń.
+ChatMessageSuggestions	Jeke xabarlar
+PostSuggestions	Jeke xabarlar
+PostSuggestionsOff	Óshirilgen
+PostSuggestionsStars	⭐️ %d
+AllowPostSuggestions	Jeke xabarlarǵa ruqsat beriw
+AllowPostSuggestionsHint2	Paydalanıwshılarǵa kanalıńızǵa xabar jiberiwge ruqsat beriń, qálewińizshe hár bir xabar ushın tólem belgileń.
+PriceForEachSuggestion	Hár bir xabardıń bahası
+Suggest2ChannelSendHint	Kanal administratorına xabar jiberiw
+ChannelLinkDirectMessages	Jeke xabarlarǵa silteme
+PostSuggestionsOfferTitle	Xabar usınıw
+PostSuggestionsOfferChangeTitle	Ózgerisler usınıw
+PostSuggestionsOfferChangeUpdateTerms	Shártlerdi jańalaw
+PostSuggestionsOfferSubtitleStars	Bul xabardı járiyalaw ushın neshe Juldız tóleytuǵınıńızdı tańlań.
+PostSuggestionsOfferSubtitleTON	Bul xabardı járiyalaw ushın neshe TON tóleytuǵınıńızdı tańlań.
+PostSuggestionsOfferStars	⭐️%s usınıw
+PostSuggestionsOfferTON	%s TON usınıw
+PostSuggestionsOffer	Usınıw
+PostSuggestionsSendWithOffer	Usınıs penen jiberiw
+PostSuggestionsOfferForFree	Biypul usınıw
+PostSuggestionsOfferTitlePriceStars	Bahanı Juldızda kirgiziń
+PostSuggestionsOfferTitlePriceTON	Bahanı TON da kirgiziń
+PostSuggestionsOfferTitleTime	Járiyalaw waqtı
+PostSuggestionsInlineAccept	Qabıl etiw
+PostSuggestionsInlineDecline	Biykarlaw
+PostSuggestionsInlineEdit	Ózgerisler usınıw
+PostSuggestionsAnytime	Qálegen waqıtta
+PostSuggestionsAddTime	Waqıttı ózgertiw
+PostSuggestionsAddTimeHint	Xabar járiyalanıwın qálegen sáne hám waqıttı tańlań.
+PostSuggestionsAddTimeHint2	Post usı sáneden baslap keminde %d saat qoljetimli boladı.
+PostSuggestionsPriceInfo2	Hár bir kiriwshi xabar ushın tańlanǵan tólemniń %1$s bólegin (~%2$s$) alasız.
+SuggestAPostBelow	Tómende post usınıń
+SuggestAPostBelowHint	%s ushın post usınıwǵa usı jerdi basıń
+SuggestAPostBelowSubtitle	Járiyalaw ushın baha usınıwǵa basıń
+SuggestAPostBelowSubtitleStars	Qálegen waqıtta járiyalaw ushın ⭐️ %s
+SuggestAPostBelowSubtitleStarsAndTime	⭐️ %s %s
+SuggestAPostTooMuch	Eń kóbi %s usına alasız
+SuggestAPostTooSmall	Keminde %s usınıwıńız kerek
+SuggestionAgreementReached	🤝 **Kelisimge erisildi!**
+SuggestionAgreementReachedUser1	📆 Postıńız **%s** **%s** avtomat túrde járiyalanadı
+SuggestionAgreementReachedUser1PresentPerfect	📆 Postıńız **%s** kúni járiyalandı
+SuggestionAgreementReachedUser1PastSimple	📆 Postıńız **%s** **%s** avtomat túrde járiyalandı
+SuggestionAgreementReachedAdmin1	📆 Bul post **%s** **%s** avtomat túrde járiyalanadı
+SuggestionAgreementReachedAdmin1PresentPerfect	📆 Bul post **%s** kúni járiyalandı
+SuggestionAgreementReachedAdmin1PastSimple	📆 Bul post **%s** **%s** avtomat túrde járiyalandı
+SuggestionAgreementReachedUser2	💰 Sizden ⭐️ **%s** alındı.
+SuggestionAgreementReachedAdmin2	💰 **%s** esabınan ⭐️ **%s** alındı.
+SuggestionAgreementReachedUser3Stars	⏳ **%s** siziń **Juldızlarıńızdı** post **%d** saat járiyalanıp turǵannan keyin aladı.
+SuggestionAgreementReachedAdmin3Stars	⏳ **%s** **Juldızlardı** post **%d** saat járiyalanıp turǵannan keyin aladı.
+SuggestionAgreementReachedUser4Stars	🔁 Eger **%s** posttı **%d** saat ótpesten burın alıp taslasa, **Juldızlarıńız** qaytarıladı.
+SuggestionAgreementReachedAdmin4Stars	🔁 Eger **%s** posttı **%d** saat ótpesten burın alıp taslasa, **Juldızlar** paydalanıwshıǵa qaytarıladı.
+SuggestionAgreementReachedUser3TON	⏳ **%s** siziń **TON** ıńızdı post **%d** saat járiyalanıp turǵannan keyin aladı.
+SuggestionAgreementReachedAdmin3TON	⏳ **%s** **TON** dı post **%d** saat járiyalanıp turǵannan keyin aladı.
+SuggestionAgreementReachedUser4TON	🔁 Eger **%s** posttı **%d** saat ótpesten burın alıp taslasa, **TON** ıńız qaytarıladı.
+SuggestionAgreementReachedAdmin4TON	🔁 Eger **%s** posttı **%d** saat ótpesten burın alıp taslasa, **TON** paydalanıwshıǵa qaytarıladı.
+SuggestionAgreementDeclinedYou	❌ **%s** xabarıńızdı biykarladı.
+SuggestionAgreementDeclinedThis	❌ **%s** bul xabardı biykarladı.
+SuggestionAgreementDeclinedYouComment	❌ **%s** xabarıńızdı túsindirme menen biykarladı.
+SuggestionAgreementDeclinedThisComment	❌ **%s** bul xabardı túsindirme menen biykarladı.
+SuggestionAgreementNotEnoughStars	⚠️ **Tranzakciya ámelge aspadı**, sebebi **%s** da jetkilikli Juldız bolmadı.
+SuggestionOfferInfoTitleYou	**Siz** bul xabardı járiyalawdı usınasız.
+SuggestionOfferInfoTitle	**%s** bul xabardı járiyalawdı usınadı.
+SuggestionOfferInfoTitleEditedFromYou	**Siz** bul xabar ushın jańa %1$s usınasız.
+SuggestionOfferInfoTitleEditedFromX	**%1$s** bul xabar ushın jańa %2$s usınadı.
+SuggestionOfferInfoTitleEditedPrice	baha
+SuggestionOfferInfoTitleEditedTime	waqıt
+SuggestionOfferInfoTitleEditedText	tekst
+SuggestionOfferInfoTitleEditedMedia	media
+SuggestionOfferInfoTitleEditedAnd	hám
+SuggestionOfferInfoPrice	Baha
+SuggestionOfferInfoTime	Waqıt
+SuggestionStarsWillBeLost	Juldızlar joǵaladı
+SuggestionTONWillBeLost	TON joǵaladı
+SuggestionStarsWillBeLostInfo	Eger házir óshirseńiz, bul post ushın Juldız almaysız. Post járiyalanǵannan keyin keminde** %d saat** kórinip turıwı kerek.
+SuggestionTONWillBeLostInfo	Eger házir óshirseńiz, bul post ushın TON almaysız. Post járiyalanǵannan keyin keminde** %d saat** kórinip turıwı kerek.
+SuggestionStarsWillBeLostDelete	Báribir óshiriw
+SuggestedOfferPaidUntil	%1$s ǵa shekem tólengen
+SuggestedOfferStars	Juldız usınıw
+SuggestedOfferTON	TON usınıw
+SuggestedOfferRefundByAdminAmountF	⭐️ %3$s %1$s ǵa qaytarıldı, sebebi %2$s xabardı óshirdi
+SuggestedOfferRefundByUserAmountF	%2$s ⭐️ %3$s almaydı, sebebi %1$s qarjını qaytarıwdı soradı
+SuggestedOfferRefundByAdminAmountUnknown	Qarjı %1$s ǵa qaytarıldı, sebebi %2$s xabardı óshirdi
+SuggestedOfferRefundByUserAmountUnknown	%2$s qarjı almaydı, sebebi %1$s qarjını qaytarıwdı soradı
+SuggestedOfferCompleteAmountF	%1$s posttı járiyalaǵanı ushın ⭐️ %2$s aldı
+SuggestedOfferCompleteAmountUnknown	%1$s posttı járiyalaǵanı ushın qarjı aldı
+TopicsTitle	Temalar
+TopicsEnable	Temalardı qosıw
+TopicsInfo	Toparlıq sáwbet administratorlar hám paydalanıwshılar jaratqan temalarǵa bólinedi.
+TopicsLayout	Temalar kórinisi
+TopicsLayoutInfo	Temalar barlıq aǵzalarǵa qalay kórinetuǵının tańlań.
+TopicsLayoutList	Dizim
+TopicsLayoutTabs	Bólimler
+SendInStandardQuality	Standart sapada jiberiw
+SendInHighQuality	Joqarı sapada jiberiw
+ShortHighQuality	HD
+PhotoWillBeSentInSD	Súwret standart sapada jiberiledi.
+PhotoWillBeSentInHD	Súwret joqarı sapada jiberiledi.
+DebugMenuUseSystemBoldFont	Sistemanıń qalıń shriftin paydalanıw
+DebugMenuDontUseSystemBoldFont	Sistemanıń qalıń shriftin paydalanbaw
+AllChatsShort	Bárshesi
+AllTopicsShort	Bárshesi
+AllTopicsSide	Bárshesi
+VoicePauseHint	Qırqıw yamasa qayta tıńlaw ushın pauza qılıń
+RecordingTrimTitle	Tańlanǵan aralıqqa shekem qırqılsın ba?
+RecordingTrimText	Bul aralıqtan tıs audio alıp taslanadı hám jazıw dárhal baslanadı.
+MessageAuthorSentBy	**%s** jiberdi
+ChannelOpenDirect	Jeke xabarlar
+Todo	Wazıypalar dizimi
+TodoTitle	Jańa wazıypalar dizimi
+TodoEditTitle	Wazıypalar dizimin ózgertiw
+TodoAddTasksTitle	Jańa wazıypalar
+TodoTitlePlaceholder	Ataması
+TodoItemsTitle	Wazıypalar dizimi
+TodoTaskPlaceholder	Wazıypa
+TodoNewTask	Wazıypa qosıw
+TodoNewTaskInfo_one	Jáne %d wazıypa qosa alasız.
+TodoNewTaskInfo_other	Jáne %d wazıypa qosa alasız.
+TodoAllowAddingTasks	Basqalarǵa wazıypa qosıwǵa ruqsat beriw
+TodoAllowMarkingDone	Basqalarǵa orınlandı dep belgilewge ruqsat beriw
+TodoCompleted_one	%1$d den %2$d orınlandı
+TodoCompleted_other	%1$d den %2$d orınlandı
+TodoCompletedBy_one	%1$d den %2$d orınlandı — %3$s
+TodoCompletedBy_other	%1$d den %2$d orınlandı — %3$s
+TodoTaskCompletedUnknown	un1 wazıypanı orınlandı dep belgiledi
+TodoTaskCompletedOutUnknown	Siz wazıypanı orınlandı dep belgiledińiz
+TodoTaskCompleted	un1 “%s” wazıypasın orınlandı dep belgiledi
+TodoTaskCompletedOut	Siz “%s” wazıypasın orınlandı dep belgiledińiz
+TodoTaskNotCompletedUnknown	un1 wazıypanı orınlanbadı dep belgiledi
+TodoTaskNotCompletedOutUnknown	Siz wazıypanı orınlanbadı dep belgiledińiz
+TodoTaskNotCompleted	un1 “%s” wazıypasın orınlanbadı dep belgiledi
+TodoTaskNotCompletedOut	Siz “%s” wazıypasın orınlanbadı dep belgiledińiz
+TodoAddedOneTaskOut	Siz dizimge “%1$s” qostıńız.
+TodoAddedTwoTaskOut	Siz dizimge “%1$s” hám “%2$s” qostıńız.
+TodoAddedThreeTaskOut	Siz dizimge “%1$s”, “%2$s” hám “%3$s” qostıńız.
+TodoAddedMoreTasksOut_one	Siz dizimge “%2$s”, “%3$s”, “%4$s” hám jáne %1$d wazıypa qostıńız.
+TodoAddedMoreTasksOut_other	Siz dizimge “%2$s”, “%3$s”, “%4$s” hám jáne %1$d wazıypa qostıńız.
+TodoAddedOneTask	un1 dizimge “%1$s” qostı.
+TodoAddedTwoTask	un1 dizimge “%1$s” hám “%2$s” qostı.
+TodoAddedThreeTask	un1 dizimge “%1$s”, “%2$s” hám “%3$s” qostı.
+TodoAddedMoreTasks_one	un1 dizimge “%2$s”, “%3$s”, “%4$s” hám jáne %1$d wazıypa qostı.
+TodoAddedMoreTasks_other	un1 dizimge “%2$s”, “%3$s”, “%4$s” hám jáne %1$d wazıypa qostı.
+TodoCompleteForbidden	**%s** basqalarǵa bul wazıypalar dizimin ózgertiwdi sheklegen.
+TodoCompleteForbiddenForward	Qayta jiberilgen wazıypalar dizimin ózgerte almaysız.
+TodoPremiumRequired	Wazıypalardı orınlandı dep tek **Telegram Premium** jazılıwshıları belgiley aladı.
+DirectRemoveFee	Tólemdi alıp taslaw
+DirectChargeFee	Tólem alıw
+DirectFee	%2$s hár bir xabar ushın **⭐️%1$d** tóleydi.
+DirectFeeNone	%1$s xabarlardı biypul jibere aladı.
+TodoEditTasksButton	SAQLAW
+TodoAddTasksButton	QOSIW
+CallForbiddenInviteLinkTitle	Silteme arqalı mirát etiw
+CallForbiddenInviteLinkText	**%s** ózine qońıraw etiwdi sheklegen. Onıń ornına qońıraw ushın mirát siltemesin jibere alasız.
+CallForbiddenInviteLinkButton	Mirát siltemesin jiberiw
+ActionGiftTonTitle	Birew
+TopUpViaFragment	Fragment arqalı toltırıw
+TopUpViaFragmentLink	https://fragment.com/ads/topup
+TopUpViaFragmentInfo	TON balansıńızdı Fragment arqalı toltıra alasız.
+EditToDo	Ózgertiw
+AddTasks	Wazıypalar qosıw
+MyTON	Meniń TON ım
+TONBalanceTitle	TON balansı
+TONBalanceText	Telegramdaǵı kanallarǵa post usınısların jiberiw ushın TON usınıń
+TodoMenuHint	Siz bir wazıypa ushın háreketlerdi kórip atırsız.\nDizim ushın háreketlerge óte alasız.
+PollMenuHint	Siz bir variant ushın háreketlerdi kórip atırsız.\nSorawnama ushın háreketlerge óte alasız.
+TodoMenuTabTask	Wazıypa
+TodoMenuTabList	Dizim
+PollMenuTabOption	Variant
+PollMenuTabPoll	Sorawnama
+TodoEditItem	Elementti ózgertiw
+TodoDeleteItem	Elementti óshiriw
+MessageTodo	Wazıypalar dizimi
+MessageTodoName	%s
+MessageGroupTodoList	Toparlıq wazıypalar dizimi
+MessageTodoList	Wazıypalar dizimi
+TodoCheck	Belgilew
+TodoUncheck	Belgini alıw
+Gift2ReleasedBy	**%s** shıǵarǵan
+Gift2ReleasedBy2	**%s** tárepinen
+Gift2ActionReleasedBy	**%s** shıǵarǵan
+StoriesRemoveFromRecent	Sońǵılardan alıp taslaw
+TodoItemQuote	Elementke juwap beriw
+PollItemQuote	Variantqa juwap beriw
+Gift2CollectionAll	Barlıq sawǵalar
+ProfileGiftsAdd	Sawǵalar qosıw
+AgeVerificationTitle	Jastı tastıyıqlaw
+AgeVerificationTextGB	Bunday kontentke kiriw ushın Ullı Britaniya nızamı talabına muwapıq keminde **18** jasta ekenińizdi tastıyıqlawıńız kerek.\n\nBul telefonıńızdıń kamerası arqalı bir márte orınlanatuǵın process. Selfińiz Telegramda saqlanbaydı.
+AgeVerificationButton	Jasımdı tastıyıqlaw
+AgeVerificationFailedTitle	Jastı tekseriw sátsiz boldı
+AgeVerificationFailedText	Keshirersiz, siz 18+ kontentti kóre almaysız.
+AgeVerificationPassedTitle	Jastı tekseriw tabıslı ótti
+AgeVerificationNeedCameraPermission	Jasıńızdı tastıyıqlawıńız ushın Telegramǵa kamerańızǵa ruqsat kerek.
+StoriesForwardTitle	Siziń storislerińiz
+StoriesForwardText	Storislerge qayta jiberiw
+Gift2CollectionEmptyTitle	Sawǵalarıńızdı tártipke keltiriń
+Gift2CollectionEmptyText	Bul kollekciyaǵa sawǵalarıńızdıń ayırımların qosıń.
+Gift2CollectionEmptyButton	Kollekciyaǵa qosıw
+Gift2AddToCollection	Kollekciyaǵa qosıw
+Gift2NewCollection	Kollekciya qosıw
+Gift2EditCollectionNameTitle	Atamasın ózgertiw
+Gift2NewCollectionTitle	Jańa kollekciya jaratıw
+Gift2NewCollectionText	Kollekciyańız ushın atama tańlań hám oǵan sawǵalarıńızdı qosıwdı baslań.
+Gift2NewCollectionHint	Ataması
+Gift2CollectionAddGiftsTitle	Sawǵalar qosıw
+Gift2CollectionAddGiftsButton	Sawǵalar qosıw
+Gift2RemoveFromCollection	Kollekciyadan alıp taslaw
+Gift2CollectionsAdd	Sawǵalar qosıw
+Gift2CollectionsReorder	Tártibin ózgertiw
+Gift2CollectionsRename	Atamasın ózgertiw
+Gift2CollectionsDelete	Kollekciyanı óshiriw
+Gift2CollectionsShare	Kollekciya menen bólisiw
+Gift2PremiumTitle	Premium sawǵa
+Gift2PremiumSubtitle	Bul sawǵalardı jiberiw hám kóplegen qosımsha imkaniyatlardı ashıw ushın **Telegram Premium** ǵa jazılıń.
+Gift2PremiumSubtitleMany_one	Bul sawǵalardan **%d** ge shekem jiberiw hám kóplegen qosımsha imkaniyatlardı ashıw ushın **Telegram Premium** ǵa jazılıń.
+Gift2PremiumSubtitleMany_other	Bul sawǵalardan **%d** ge shekem jiberiw hám kóplegen qosımsha imkaniyatlardı ashıw ushın **Telegram Premium** ǵa jazılıń.
+Gift2SentRemainsLimit_one	Jáne **%d** jibere alasız.
+Gift2SentRemainsLimit_other	Jáne **%d** jibere alasız.
+Gift2PerUserLimit_one	Siz bul sawǵalardan **%d** jiberip boldıńız, bul — shek.
+Gift2PerUserLimit_other	Siz bul sawǵalardan **%d** jiberip boldıńız, bul — shek.
+Gift2AddedToCollection	**%1$s** **%2$s** ǵa qosıldı.
+Gift2AddedToCollectionMany_one	**%1$d sawǵa** **%2$s** ǵa qosıldı.
+Gift2AddedToCollectionMany_other	**%1$d sawǵa** **%2$s** ǵa qosıldı.
+Gift2RemovedFromCollection	**%1$s** **%2$s** tan alıp taslandı.
+Gift2RemovedFromCollectionMany_one	**%1$d sawǵa** **%2$s** tan alıp taslandı.
+Gift2RemovedFromCollectionMany_other	**%1$d sawǵa** **%2$s** tan alıp taslandı.
+GiftCollectionSharedTo	Sawǵalar kollekciyası **%s** ǵa qayta jiberildi.
+GiftCollectionSharedToSavedMessages	Sawǵalar kollekciyası **Saqlanǵan xabarlar** ǵa qayta jiberildi
+GiftCollectionSharedToManyChats_one	Sawǵalar kollekciyası **bir sáwbetke** qayta jiberildi.
+GiftCollectionSharedToManyChats_other	Sawǵalar kollekciyası **%1$d sáwbetke** qayta jiberildi.
+StarRatingTitle	Reyting
+StarRatingAdded	QOSILDI
+StarRatingDeduces	ALINDI
+StarRatingFuture_one	Reyting satıp alıwlardan keyin %d kúnde jańalanadı.
+StarRatingFuture_other	Reyting satıp alıwlardan keyin %d kúnde jańalanadı.
+StarRatingFuturePreview1_one	%d kúnnen keyin reytingińiz usınday boladı,
+StarRatingFuturePreview1_other	%d kúnnen keyin reytingińiz usınday boladı,
+StarRatingFuturePreview2_one	%d ball qosılǵannan soń.
+StarRatingFuturePreview2_other	%d ball qosılǵannan soń.
+StarRatingFuturePendingPoints_one	%d ball kútilip atır.
+StarRatingFuturePendingPoints_other	%d ball kútilip atır.
+StarRatingFuturePendingPointsAndLevel1_one	%d ball hám
+StarRatingFuturePendingPointsAndLevel1_other	%d ball hám
+StarRatingFuturePendingPointsAndLevel2_one	%d-dáreje kútilip atır.
+StarRatingFuturePendingPointsAndLevel2_other	%d-dáreje kútilip atır.
+StarRatingFuturePendingPointsPreview	**Aldınnan kóriw >**
+StarRatingFuturePendingPointsPreviewBack	**Artqa >**
+StarRatingDescription	Bul reyting **%s** tıń Telegramdaǵı\nbelsendiligin kórsetedi. Oǵan ne tásir etedi:
+StarRatingSelfDescription	Bul reyting siziń Telegramdaǵı\nbelsendiligińizdi kórsetedi. Oǵan ne tásir etedi:
+StarRatingTitle1	Telegramnan sawǵalar
+StarRatingDescription1	%s Telegramnan satıp alınǵan sawǵalarǵa jumsalǵan Juldızlardıń 100% bólegi.
+StarRatingTitle2	Paydalanıwshılardan sawǵalar hám postlar
+StarRatingDescription2	%s Qayta satılǵan sawǵalarǵa, tólemli xabarlarǵa hám kanal postlarına jumsalǵan Juldızlardıń 20% bólegi.
+StarRatingTitle3	Qaytarıwlar hám konvertaciyalar
+StarRatingDescription3	%s Qaytarılǵan Juldızlardıń 10x muǵdarı hám Juldızǵa aylandırılǵan satıp alınǵan sawǵalardıń 85% bólegi.
+StarRatingButtonUnderstood	Túsinikli
+StoriesAlbum	Albom
+StoriesAlbumCreateNew	Jańa albom jaratıw
+StoriesAlbumRename	Albom atamasın ózgertiw
+StoriesAlbumMenuAddStories	Storisler qosıw
+StoriesAlbumMenuShareLink	Silteme menen bólisiw
+StoriesAlbumBottomButtonAddStories	Storisler qosıw
+StoriesAlbumBottomButtonRemoveStoriesFromAlbum	Albomnan alıp taslaw
+StoriesAlbumMenuEditName	Atamasın ózgertiw
+StoriesAlbumMenuArchive	Arxivlew
+StoriesAlbumMenuPin	Bekitiw
+StoriesAlbumMenuUnpin	Bekitiwden alıw
+StoriesAlbumMenuEdit	Ózgertiw
+StoriesAlbumMenuReorder	Tártibin ózgertiw
+StoriesAlbumMenuSelect	Tańlaw
+StoriesAlbumMenuRemoveFromAlbum	Albomnan alıp taslaw
+StoriesAlbumMenuDeleteAlbum	Albomdı óshiriw
+StoriesAlbumMenuDeleteAlbumAsk	**%s** albomın óshiriwdi anıq qáleysiz be?
+StoriesAlbumTitleInputHint	Ataması
+StoriesAlbumAddAlbum	Albom qosıw
+StoriesAlbumNewAlbum	Jańa albom
+StoriesAlbumAddToAlbum	Albomǵa qosıw
+StoriesAlbumNameAllStories	Barlıq storisler
+StoriesAlbumCount_one	%d albom
+StoriesAlbumCount_other	%d albom
+StoriesAlbumAddHint	Albomıńız ushın atama tańlań hám oǵan storislerińizdi qosıwdı baslań.
+StoriesAlbumRenameHint	Albomıńız ushın jańa atama tańlań.
+StoriesAlbumOrganizeTitle	Storislerińizdi tártipke keltiriń
+StoriesAlbumOrganizeDescription	Bul albomǵa storislerińizdiń ayırımların qosıń.
+SearchCountriesTitle	Global izlew
+SearchCountriesSelect	Tańlaw
+SearchPostsTitle	Global izlew
+SearchPostsText	Barlıq ashıq postlar arasınan izlew ushın gilt sóz jazıń.
+SearchPostsButton	Izlew
+SearchPostsFreeSearches_one	Búgin %d biypul izlew qaldı.
+SearchPostsFreeSearches_other	Búgin %d biypul izlew qaldı.
+SearchPostsButtonPay_one	⭐️%d ǵa izlew
+SearchPostsButtonPay_other	⭐️%d ǵa izlew
+SearchPostsFreeSearchUnlocksIn	biypul izlew %s tan keyin ashıladı
+SearchPostsLimitReached	Shekke jetti
+SearchPostsLimitReachedText_one	Kúnine %d ge shekem izlew sorawın jibere alasız.
+SearchPostsLimitReachedText_other	Kúnine %d ge shekem izlew sorawın jibere alasız.
+SearchPostsNotFound	Tabılmadı
+SearchPostsNotFoundText	\"%s\" sorawı boyınsha postlar tabılmadı.
+SearchPostsButtonPremium	Premium ǵa jazılıw
+SearchPostsPremium	Global izlew — Premium imkaniyatı.
+SearchPostsHeaderNews	Telegram jańalıqları
+SearchPostsHeaderFound	Ashıq postlar
+SearchPosts	Postlar
+SearchPaidStars_one	Qosımsha izlewge **%d Juldız** jumsaldı.
+SearchPaidStars_other	Qosımsha izlewge **%d Juldız** jumsaldı.
+Gift2UpgradeNext	Keyingi sawǵanı jaqsılaw
+Gift2GiftAnUpgrade	Jaqsılawdı sawǵa etiw
+ProfileActionsMessage	Xabar
+ProfileActionsDiscuss	Talqılaw
+ProfileActionsGift	Sawǵa
+ProfileActionsShare	Bólisiw
+ProfileActionsCall	Qońıraw
+ProfileActionsVideo	Video
+ProfileActionsJoin	Qosılıw
+ProfileActionsReport	Shaǵım
+ProfileActionsLeave	Shıǵıw
+ProfileActionsVoiceChat	Dawıslı sáwbet
+ProfileActionsLiveStream	Tikkeley efir
+ProfileActionsAddStory	Storis qosıw
+ProfileActionsStop	Toqtatıw
+ProfileActionsEditPhoto	Profildi ornatıw
+ProfileActionsEditPhoto2	Súwret ornatıw
+ProfileActionsEditUsername	Paydalanıwshı atı
+ProfileActionsEditInfo	Maǵlıwmattı ózgertiw
+PersonalChannel	jeke kanal
+ProfilePlaylistTitleMine	Siziń pleylistińiz
+ProfilePlaylistTitle	%s pleylisti
+ProfileTabSetAsMain	Tiykarǵı bólim etip ornatıw
+ProfilePlaylistRemoveFromProfile	Profilden alıp taslaw
+AudioSaveTo	Saqlaw ornı...
+AudioAddToProfile	Profilge qosıw
+AudioRemoveFromProfile	Profilden alıp taslaw
+StoryAudioAddToSavedMessages	Saqlanǵan xabarlarǵa qosıw
+StoryAudioAddToSavedMessagesToast	**Saqlanǵan xabarlar** ǵa saqlandı.
+StoryAudioAddToProfile	Profilge qosıw
+StoryAudioAddToProfileToast	Profilge qosıldı.
+AudioSaveToMyProfile	Profilge
+AudioSaveToMyProfileSaved	Audio profilińizge qosıldı.
+AudioSaveToMyProfileUnsaved	Audio profilińizden alıp taslandı.
+AudioSaveToMusicFolder	Muzıka papkasına
+AudioSaveToSavedMessages	Saqlanǵan xabarlarǵa
+AudioSaveToSavedMessagesSaved	Audio Saqlanǵan xabarlarǵa jiberildi.
+AudioSaveToInfo	Bul audio qay jerge saqlanıwın tańlań.
+ProfileButtonMute	Únsiz etiw
+ProfileButtonUnmute	Dawıslı etiw
+GiftValue2	Qunı
+GiftValue2LearnMore	kóbirek biliw
+GiftValueAverage	Bul — **%s** tıń sońǵı aydaǵı Telegram hám Fragment tegi ortasha satıw bahası.
+GiftValueLastFragment	Bul — **%s** Fragment te sońǵı márte satılǵan baha.
+GiftValueLastTelegram	Bul — **%s** Telegramda sońǵı márte satılǵan baha.
+GiftValueInitialSale	Dáslepki satıw
+GiftValueInitialPrice	Dáslepki baha
+GiftValueLastSale	Sońǵı satıw
+GiftValueLastPrice	Sońǵı baha
+GiftValueMinPrice	Eń tómen baha
+GiftValueMinPriceInfo	**%1$s** — Telegram hám Fragment te satıwǵa qoyılǵan **%2$s** sawǵalarınıń eń tómen bahası.
+GiftValueAveragePrice	Ortasha baha
+GiftValueAveragePriceInfo	**%1$s** — **%2$s** sawǵalarınıń sońǵı aydaǵı ortasha satıw bahası.
+GiftValueOnSaleTelegram	Telegramda satıwda >
+GiftValueOnSaleFragment	Fragment te satıwda >
+GiftSkipAnimation	Ótkizip jiberiw
+GiftThemesSetIn	Tema etip ornatıw...
+GiftThemesSetInReuseInfo	Bul sawǵa **%s** penen sáwbette temańız etip ornatılǵan. Onı ol jerden alıp taslap, usı jerde paydalanasız ba?
+GiftThemesSetInReuseConfirm	Awa
+GiftThemesSetByYou	**Siz** **%s** tı bul sáwbettiń jańa teması etip ornattıńız.
+GiftThemesSetByOther	**%1$s** **%2$s** tı bul sáwbettiń jańa teması etip ornattı.
+GiftThemesSetActionView	Kóriw
+GiftLocked	Sawǵa qulıplanǵan
+Gift2UpgradeCostsInfo	Bul baha qalay tómenleytuǵının kóriń >
+Gift2UpgradeCostsTitle	Jaqsılaw bahası
+Gift2UpgradeCostsText	Sawǵasın birinshi bolıp jaqsılaǵan paydalanıwshılar qısqaraq nomerli kollekciyalıq sawǵalar aladı.
+Gift2UpgradeCostsFooter	Jaqsılaw bahası hár minutta tómenleydi.
+Understood	👌 Túsinikli
+GiftAuctionInfoHeader	Aukcion
+GiftAuctionInfoText	Eksklyuziv sawǵalar ushın gúreske qosılıń.
+GiftAuctionInfo1Header_one	Eń joqarı %d stavka qoyıwshı
+GiftAuctionInfo1Header_other	Eń joqarı %d stavka qoyıwshı
+GiftAuctionInfo1Text_one	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d qatnasıwshıǵa beriledi.
+GiftAuctionInfo1Text_other	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d qatnasıwshıǵa beriledi.

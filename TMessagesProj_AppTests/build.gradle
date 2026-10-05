@@ -4,8 +4,17 @@ apply plugin: 'test-generator'
 apply plugin: 'org.telegram.build-app-plugin'
 
 repositories {
+    maven {
+        url 'https://api.mapbox.com/downloads/v2/releases/maven'
+        authentication { basic(BasicAuthentication) }
+        credentials {
+            username = 'mapbox'
+            password = project.findProperty('MAPBOX_DOWNLOADS_TOKEN') ?: ''
+        }
+    }
     mavenCentral()
     google()
+    maven { url 'https://nexus.banuba.net/repository/maven-releases' } // U message: Banuba Face AR makeup
 }
 
 configurations {

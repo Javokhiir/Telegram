@@ -1,0 +1,571 @@
+GiftAuctionInfo2Header	Bid Carryover
+GiftAuctionInfo2Text_one	If your bid leaves the top %d, it will automatically join the next round.
+GiftAuctionInfo2Text_other	If your bid leaves the top %d, it will automatically join the next round.
+GiftAuctionInfo3Header	Missed Bidders
+GiftAuctionInfo3Text	If your bid doesn’t win after the final round, your Stars will be fully refunded.
+GiftTopAction	**%1$s** sent you this gift on **%2$s**
+GiftTopActionFromTo	**%1$s** sent this gift to **%2$s** on **%3$s**
+GiftSelfTopAction	You bought this gift on **%1$s**
+GiftSelfTopActionCrafted	You crafted this gift on **%1$s**
+BotForumNewTopic	New Chat
+BotForumContinueChat	Continue last thread
+BotForumAskForStartNewChatTitle	New Thread
+BotForumAskForStartNewChat	Type any message to create a new thread.
+BotForumAskForStartNewChatForward	Forward here to create a new thread.
+BotForumAskForStartOffNewChatTitle	Off-thread
+BotForumAskForStartOffNewChatForward	Forward here to send off-thread message.
+TypeMessageAskBot	Ask %1$s
+AddNotes	Add Notes...
+AddNotesInfo	Notes are only visible to you.
+ProfileNotesRemoveTitle	Delete Note
+ProfileNotesRemoveText	Are you sure you want to remove the note?
+ProfileNotes	Notes
+ProfileNotesInfo	only visible to you
+EphemeralMessageVisibleToYou	Only visible to you
+EphemeralMessageVisibleToOther	Only visible to @%s
+EphemeralMessageMenuHint	Only you see this message. It will disappear after you log in again.
+EphemeralWelcomeMessageMenuHint	This version of the message is only visible to you.
+AddContactShareNumber	Share My Phone Number
+AddContactShareNumberInfo	Turn this off to prevent %s from seeing your phone number.
+UserSuggestBirthday	Suggest Date of Birth
+UserSuggestBirthdayTitle	%s\'s Date Of Birth
+UserSuggestBirthdayButton	Suggest Date of Birth
+ActionSuggestBirthday	**un1** suggests you to add your date of birth
+ActionYouSuggestBirthday	You suggest to add date of birth
+DateDay	Day
+DateMonth	Month
+DateYear	Year
+GiftRemovedDescription	Removed **%s**\'s Description!
+NotificationMessageSuggestBirthday	%s suggested you your birthday
+StarsTransactionRemovedDescription	Removed Gift Description
+Gift2TransactionRemovedDescription	Removed Gift Description
+Gift2TransactionPrepaidUpgrade	Gift Upgrade
+Gift2PeerColorProfileEmptyTitle	You don\'t have any gifts you can use as profile covers.
+Gift2PeerColorReplyEmptyTitle	You don\'t have any gifts you can use as reply color.
+Gift2PeerColorEmptyButton	**Browse gifts available for purchase >**
+MessageScheduledRepeatYearly	yearly
+MessageScheduledRepeatMonthly	monthly
+MessageScheduledRepeatMonthlyMany_one	%d-monthly
+MessageScheduledRepeatMonthlyMany_other	%d-monthly
+MessageScheduledRepeatWeekly	weekly
+MessageScheduledRepeatBiweekly	biweekly
+MessageScheduledRepeatDaily	daily
+MessageScheduledRepeatSeconds	every %1$ds
+MessageScheduledRepeatOption	Repeat:
+MessageScheduledRepeatOptionNever	Never
+MessageScheduledRepeatOptionDaily	Daily
+MessageScheduledRepeatOptionWeekly	Weekly
+MessageScheduledRepeatOptionBiweekly	Biweekly
+MessageScheduledRepeatOptionMonthly	Monthly
+MessageScheduledRepeatOption3Monthly	Every 3 months
+MessageScheduledRepeatOption6Monthly	Every 6 months
+MessageScheduledRepeatOptionYearly	Yearly
+MessageScheduledRepeatPremium	Subscribe to **Telegram Premium** to schedule repeating messages.
+DateOfBirth	Date Of Birth
+DateOfBirthHideYear	Hide Year
+DateOfBirthAddToProfile	Add to My Profile
+SuggestedDateOfBirthView	View
+LiveStoryStart	Start Live Stream
+LiveStoryCommentPlaceholder	Comment
+LiveStoryHighlightTitle	Highlight and Pin
+LiveStoryHighlightText	Highlight and pin your message by adding Stars for **%s**
+LiveStoryHighlightFeaturePin	pin in chat
+LiveStoryHighlightFeatureLength	characters
+LiveStoryHighlightFeatureEmoji	emoji
+LiveStoryMessageSent	Sent %s
+LiveStoryAdminRole	admin
+LiveStoryAlreadyStreamingTitle	Already Live
+LiveStoryAlreadyStreaming	You have already live stream running.
+LiveStoryPricePerComment	Price per comment
+LiveStoryPricePerCommentFree	Free
+LiveStoryPricePerCommentInfo	The price a viewer must pay to send a comment.
+LiveStoryRTMPEnable	Connect Stream
+LiveStoryRTMPRevoke	Revoke Stream Key
+LiveStoryRTMPRevokeTitle	Revoke Stream Key
+LiveStoryRTMPRevokeText	Are you sure you want to regenerate your stream key?
+LiveStoryRTMPEnableInfo	Stream with a different app.
+LiveStoryRTMPDisable	Stream from your phone
+LiveStoryRTMPSettings	RTMP Settings
+LiveStoryReactTitle	React with Stars
+LiveStoryReactText	Highlight and pin your message by sending Stars to **%s**
+LiveStoryReactAdminTitle	Receive Stars from Viewers
+LiveStoryReactAdminText	Viewers can send you Star Reactions.
+LiveStoryReactAdminEmptyText	Viewers can send you Star Reactions and Top Senders will appear here.
+LiveStoryReactAdminCant	You can\'t send star reactions to own live story.
+LiveStorySettings	Live Settings
+LiveStorySettingsHeader	Live Settings
+LiveStoryPeerChange	change >
+LiveStoryEnd	End Live Stream
+LiveStoryEndAlertTitle	End Live Stream
+LiveStoryEndAlertText	Are you sure you want to stop the live stream?
+LiveStoryEndAlertButton	Stop
+LiveStoryWatching_one	%d watching
+LiveStoryWatching_other	%d watching
+LiveStoryTopPanelWatching_one	%d watching
+LiveStoryTopPanelWatching_other	%d watching
+LiveStoryDisconnected	No Stream
+LiveStoryDisconnectedContinue	Continue Streaming
+LiveStoryHighlightHint	Tap here to highlight message
+LiveStoryBadge	LIVE
+MessageScheduledRepeatDeleteTitle	Delete Repeating Message
+MessageScheduledRepeatDeleteText	Are you sure you want to delete this scheduled message? This is a repeating message.
+MessageScheduledRepeatDeleteAll	Delete All Future Messages
+MessageScheduledRepeatDeletePostponeSeconds	Postpone By %ds
+MessageScheduledRepeatDeletePostponeDays_one	Postpone By %d Day
+MessageScheduledRepeatDeletePostponeDays_other	Postpone By %d Days
+MessageScheduledRepeatDeletePostponeWeeks_one	Postpone By %d Week
+MessageScheduledRepeatDeletePostponeWeeks_other	Postpone By %d Weeks
+MessageScheduledRepeatDeletePostponeMonths_one	Postpone By %d Month
+MessageScheduledRepeatDeletePostponeMonths_other	Postpone By %d Months
+MessageScheduledRepeatDeletePostponeYear	Postpone By 1 Year
+LiveStoryMessageEditStars	Edit Stars
+LiveStoryMessageRemoveStars	Remove Stars
+LiveStoryCommentsDisabled	Comments Disabled
+AddContactSync	Sync Contact to Phone
+AddContactQr	Add via QR Code
+Gift2ActiveAuctionsActiveAuctionTitle	Active Auction
+Gift2ActiveAuctionsActiveAuctionsTitle	%d Active Auctions
+Gift2ActiveAuctionsUpcomingAuctionTitle	Upcoming Auction
+Gift2LinkUpcomingAuction	Upcoming Auction
+Gift2LinkGiftAuction	Gift Auction
+Gift2ActiveAuctionsUpcomingAuctionsTitle	%d Upcoming Auctions
+Gift2ActiveAuctionsActiveStatusWinningOne	You are winning (%s).
+Gift2ActiveAuctionsActiveStatusWinning1Place	1st place
+Gift2ActiveAuctionsActiveStatusWinning2Place	2nd place
+Gift2ActiveAuctionsActiveStatusWinning3Place	3rd place
+Gift2ActiveAuctionsActiveStatusWinningOtherPlace	%d place
+Gift2ActiveAuctionsActiveStatusWinningOtherSt	%dst place
+Gift2ActiveAuctionsActiveStatusWinningOtherNd	%dnd place
+Gift2ActiveAuctionsActiveStatusWinningOtherRd	%drd place
+Gift2ActiveAuctionsActiveStatusWinningOtherTh	%dth place
+Gift2ActiveAuctionsActiveStatusWinningAll	You are winning all of them.
+Gift2ActiveAuctionsActiveStatusOutbid	You\'ve been outbid.
+Gift2ActiveAuctionsActiveStatusEarly	You\'ve placed an early bid.
+Gift2ActiveAuctionsActiveRound	Round %s of %s
+Gift2ActiveAuctionsActiveRaiseBid	Raise Bid
+Gift2ActiveAuctionsActiveBidActive	Your bid **%s** is ranked **#%d**
+Gift2ActiveAuctionsActiveBidOutbid	Your bid **%s** is outbid
+Gift2AuctionsItemsBought2_one	%1$d %2$s item bought >
+Gift2AuctionsItemsBought2_other	%1$d %2$s items bought >
+Gift2AuctionsAcquiredGifts_one	%1$d Bought Gift
+Gift2AuctionsAcquiredGifts_other	%1$d Bought Gifts
+Gift2AuctionsAcquiredRound	Round #%1$d
+Gift2AuctionsAcquiredRound2	%1$s #%2$d in round %3$d
+Gift2AuctionsAcquiredRecipient	Recipient
+Gift2AuctionsAcquiredDate	Date
+Gift2AuctionsAcquiredAcceptedBid	Accepted Bid
+Gift2AuctionsAcquiredTop	TOP %d
+Gift2AuctionsBidHasBeenPlaced	Your bid has been placed
+Gift2AuctionsBidHasBeenIncreased	Your bid has been increased
+Gift2AuctionsChangeRecipient	Change Recipient
+Gift2AuctionsChangeRecipient2	You’ve already placed a bid on this gift for **%s.** Do you want to raise your bid and change the recipient to **%s?**
+Passkey	Passkeys
+PasskeyDeleteTitle	Delete Passkey
+PasskeyDeleteText	Once deleted, this passkey can\'t be used to log in.\n\nDon\'t forget to remove it from your password manager too.
+PasskeyTopInfo	Manage your passkey, stored safely in the cloud service you choose.
+PasskeyCreatedOn	Created %s
+PasskeyLastUsedOn	Last used %s
+PasskeyAdd	Add Passkey
+PasskeyInfo	Your passkey is stored securely in your password manager. **Learn more >**
+PasskeyFeatureTitle	Protect your account
+PasskeyFeatureSubtitle	Log in safely and keep your account secure.
+PasskeyFeature1Title	Create a Passkey
+PasskeyFeature1Subtitle	Make a passkey to sign in easily and safely.
+PasskeyFeature2Title	Log in with face recognition
+PasskeyFeature2Subtitle	Use your face, fingerprint, or screen lock to sign in.
+PasskeyFeature3Title	Store Passkey securely
+PasskeyFeature3Subtitle	Your passkey is stored safely in the cloud service you choose.
+PasskeyFeatureButton	Create Passkey
+PasskeyAddedTitle	Passkey Added!
+PasskeyAddedText	You can now login into your account with %s.
+PasskeyUnknown	Passkey
+PasskeyPopupTitle	🔑  Protect your account
+PasskeyPopupText	Log in with your face, fingerprint or screen lock
+PasskeyNoOptionsTitle	No Passkey App
+PasskeyNoOptionsText	Install app that supports saving passkeys on your phone or physical ledgers.
+StoryMusicTitle2	Add Audio
+StoryMusicSelectFromFiles	Select from Files
+StoryMusicProfileMusic	Saved Music
+StoryMusicSearchMusic	Shared Audio
+StoryMusicLocalMusic	Local Music
+StoryMusicGlobalMusic	Global search
+AudioSearchLocal	Local Music
+AudioSearchChats	Shared Music
+AudioSearchProfile	Profile Music
+AudioSearchGlobal	Global Search
+GiftOfferToBuyMenu	Offer to buy
+GiftOfferToBuyTitle	Offer to Buy
+GiftOfferStarsToOffer	Stars to offer
+GiftOfferStarsToOfferInfo	Enter the number of Stars you’d like to offer for **%s**.
+GiftOfferStarsToOfferInfoIsLow	The offer is too low. The minimum offer for **%2$s** is **%1$s Stars**.
+GiftOfferStarsToOfferInfoIsHigh	The offer is too high. The maximum offer for **%2$s** is **%1$s Star**.
+GiftOfferTONToOffer	TON to offer
+GiftOfferTONToOfferInfo	Enter the number of TON you’d like to offer for **%s**.
+GiftOfferTONToOfferInfoIsLow	The offer is too low. The minimum offer for **%2$s** is **%1$s TON**.
+GiftOfferTONToOfferInfoIsHigh	The offer is too high. The maximum offer for **%2$s** is **%1$s TON**.
+GiftOfferDuration	Offer Duration
+GiftOfferDurationInfoStars	Choose how long **%s** can accept your offer. When the time expires, your **Stars** will be refunded.
+GiftOfferDurationInfoTON	Choose how long **%s** can accept your offer. When the time expires, your **TON** will be refunded.
+GiftOfferButtonStars	Offer ⭐️%s
+GiftOfferHours_one	%d hour
+GiftOfferHours_other	%d hours
+GiftOfferConfirmSend	Confirm Offer
+GiftOfferRowOffer	Offer
+GiftOfferRowFee	Fee
+GiftOfferRowValue	Value
+GiftOfferRowDuration	Duration
+GiftOfferPay	Pay ⭐️%s
+GiftOfferPayMulti	Pay %s and %s
+GiftOfferPayMultiPart	⭐️%s
+GiftOfferSellFor	Sell for ⭐️%s
+GiftOfferAmount	⭐️ %s
+GiftOfferAmountHigher	%s higher
+GiftOfferAmountLower	%s lower
+GiftOfferAmountHigherHint	The value of this gift is **%s higher** than the offer
+GiftOfferAmountLowerHint	The value of this gift is **%s lower** than the offer
+GiftOfferAmountHigherHint2	The price you are offered is **%1$s** higher\nthan the average price for %2$s
+GiftOfferAmountLowerHint2	The price you are offered is **%1$s** lower\nthan the average price for %2$s
+GiftOfferStatusRejected	This offer was rejected.
+GiftOfferStatusAccepted	This offer was accepted.
+GiftOfferStatusExpired	This offer has expired.
+GiftOfferStatusPending	This offer expires in **%s**.
+GiftOfferRejectConfirmTitle	Reject Offer
+GiftOfferRejectConfirmText	Are you sure you want to reject the offer from **%s**?
+GiftOfferRejectConfirmConfirm	Reject
+GiftOfferAccept	Accept
+GiftOfferDecline	Reject
+GiftOfferTransferInfoTextStars	Do you want to offer **%1$s Stars** to **%2$s** for **%3$s**?
+GiftOfferTransferInfoTextTON	Do you want to offer **%1$s TON** to **%2$s** for **%3$s**?
+GiftOfferTransferInfoTextSellStars	Do you want to sell **%3$s** to **%2$s** for **%1$s Stars**?\n\nYou will receive **%4$s Stars** after fees.
+GiftOfferTransferInfoTextSellTON	Do you want to sell **%3$s** to **%2$s** for **%1$s TON**?\n\nYou will receive **%4$s TON** after fees.
+GiftOfferOfferedTextStarsOut	You offered **%1$s** **%2$s Stars** for **%3$s**.
+GiftOfferOfferedTextTONOut	You offered **%1$s** **%2$s TON** for **%3$s**.
+GiftOfferOfferedTextStars2	This user offered you **%2$s Stars** for **%3$s**.
+GiftOfferOfferedTextTON2	This user offered you **%2$s TON** for **%3$s**.
+GiftOfferSentTitle	Gift offer sent
+GiftOfferSentText	You have successfully sent offer **%1$s** for **%2$s**.
+GiftOfferOfferedTextStarsRejectedOut	You rejected **%1$s\'s** offer to buy your **%3$s** for **%2$s Stars**.
+GiftOfferOfferedTextTONRejectedOut	You rejected **%1$s\'s** offer to buy your **%3$s** for **%2$s TON**.
+GiftOfferOfferedTextStarsRejected	**%1$s** rejected your offer. **%2$s Stars** for **%3$s**.
+GiftOfferOfferedTextTONRejected	**%1$s** rejected your offer. **%2$s TON** for **%3$s**.
+GiftOfferOfferedTextStarsExpiredOut	**%1$s\'s** offer has expired. **%2$s Stars** for **%3$s**.
+GiftOfferOfferedTextTONExpiredOut	**%1$s\'s** offer has expired. **%2$s TON** for **%3$s**.
+GiftOfferOfferedTextStarsExpired	Your offer to **%1$s** has expired. **%2$s Stars** for **%3$s**.
+GiftOfferOfferedTextTONExpired	Your offer to **%1$s** has expired. **%2$s TON** for **%3$s**.
+FeaturePreviewGifts	Unique Collectibles
+FeaturePreviewGiftsDescription	Telegram Gifts are collectible items you can trade or showcase on your profile.
+GiftsFeature1Title	Unique
+GiftsFeature1Text	Upgrade your gifts to get a unique number, model, backdrop and symbol.
+GiftsFeature2Title	Tradeable
+GiftsFeature2Text	Sell your gift on Telegram or on third-part NFT marketplace
+GiftsFeature3Title	Wearable
+GiftsFeature3Text	Display gifts on your page and set them as profile covers or statuses.
+GiftPreviewModels	Models
+GiftPreviewBackdrops	Backdrops
+GiftPreviewSymbols	Symbols
+GiftPreviewModel	model
+GiftPreviewBackdrop	backdrop
+GiftPreviewSymbol	symbol
+GiftPreviewCountModels_one	This collectible features **%d** unique models
+GiftPreviewCountModels_other	This collectible features **%d** unique models
+GiftPreviewCountModelsCrafting_one	This collectible features **%d** crafted models.
+GiftPreviewCountModelsCrafting_other	This collectible features **%d** crafted models.
+GiftPreviewCountModelsCrafting2_one	This collectible features **%d** regular models you can craft from.
+GiftPreviewCountModelsCrafting2_other	This collectible features **%d** regular models you can craft from.
+GiftPreviewCountBackdrops_one	This collectible features **%d** unique backdrop
+GiftPreviewCountBackdrops_other	This collectible features **%d** unique backdrops
+GiftPreviewCountSymbols_one	This collectible features **%d** unique symbol
+GiftPreviewCountSymbols_other	This collectible features **%d** unique symbols
+GiftAuctionWearInfoOnline	online
+GiftAuctionWearInfoHeader	Wear %s
+GiftAuctionWearInfoText	and get these benefits:
+GiftAuctionWearInfo1Header	Radiant Badge
+GiftAuctionWearInfo1Text	The glittering icon of this item will be displayed next to your name.
+GiftAuctionWearInfo2Header	Unique Profile Design
+GiftAuctionWearInfo2Text	Your profile page will get the color and the symbol of this item.
+GiftAuctionWearInfo3Header	Proof of Ownership
+GiftAuctionWearInfo3Text	Tapping the icon of this item next to your name will show its info and owner.
+MainTabsContacts	Contacts
+MainTabsCalls	Calls
+MainTabsChats	Chats
+MainTabsProfile	Profile
+MainTabsSettings	Settings
+SwitchThemeToDay	Day Mode
+SwitchThemeToNight	Night Mode
+SettingsAccount	Account
+SettingsAccounts	Accounts
+SettingsAccountInfo	Number, Username, Bio
+SettingsChat	Chat Settings
+SettingsChatInfo	Wallpaper, Night Mode, Animations
+SettingsPrivacySecurity	Privacy &amp; Security
+SettingsPrivacySecurityInfo	Last Seen, Devices, Passkeys
+SettingsNotifications	Notifications
+SettingsNotificationsInfo	Sounds, Calls, Badges
+SettingsData	Data and Storage
+SettingsDataInfo	Media download settings
+SettingsFolders	Chat Folders
+SettingsFoldersInfo	Sort chats into folders
+SettingsDevices	Devices
+SettingsDevicesInfo	Manage connected devices
+SettingsPowerSaving	Power Saving
+SettingsPowerSavingInfo	Reduce power usage on low charge
+SettingsLanguage	Language
+AddAccountInfo1_one	You can add %d additional account.
+AddAccountInfo1_other	You can add %d additional accounts.
+AddAccountInfo2_one	Subscribe to **Telegram Premium** to use up to %d account.
+AddAccountInfo2_other	Subscribe to **Telegram Premium** to use up to %d accounts.
+CocoonPoweredBy	Translations are powered by\n**🥚 Cocoon**.
+CocoonPoweredByLink	**How does it work?**
+CocoonSubtitle	Cocoon (**Co**nfidential **Co**mpute **O**pen **N**etwork)\nhandles AI tasks safely and efficiently.
+CocoonFeature1Title	Private
+CocoonFeature1Text	No third party can access any data, such as translations, inside **@cocoon**
+CocoonFeature1TextLink	https://t.me/cocoon
+CocoonFeature2Title	Efficient
+CocoonFeature2Text	Cocoon has allowed Telegram to reduce translation cost by 6x.
+CocoonFeature3Title	For Everyone
+CocoonFeature3Text	Any developer can use Cocoon for AI features. Learn more at **cocoon.org**
+CocoonFeature3TextLink	https://cocoon.org/
+CocoonFooter	Want to integrate Cocoon into your projects?\nReach out at **t.me/cocoon?direct**
+CocoonFooterLink	https://t.me/cocoon?direct
+SummaryTitle	AI Summary
+SummarySubtitle	Tap to see original text
+SummaryLimit	Summarize large messages with AI — unlimited in Telegram Premium.
+SummaryLimitUpgrade	Upgrade
+StakeDiceTitle	Emoji Stake
+StakeDiceTitleBeta	Beta
+StakeDiceText	A limited play-test of the upcoming emoji mini-game platform for a small group of users.
+StakeDiceReturns	Results and Returns
+StakeDiceReturnsInfo	A streak resets after 3 🎲 or a stake change.
+StakeDicePlaceholder	Your Stake
+StakeDiceButton	Save and Roll
+StakeDiceToast	Your Stake: 💎 
+StakeDiceToastChange	change
+StakeDiceToastButton	Send
+StakeDiceActionYouWon	You won 💎 %s
+StakeDiceActionYouLost	You lost 💎 %s
+StakeDiceActionWon	un1 won 💎 %s
+StakeDiceActionLost	un1 lost 💎 %s
+BotAuthTitle	Log in to **%s**
+BotAuthSiteSubtitle	This site will receive your **name**,\n**username** and **profile photo**.
+BotAuthBotSubtitle	This bot will receive your **name**,\n**username** and **profile photo**.
+BotAuthAppSubtitle	This app will receive your **name**,\n**username** and **profile photo**.
+BotAuthBasedOnIP	Based on the IP (%s)
+BotAuthInfo	This login attempt came from the device above.
+BotAuthAllowMessages	Allow Messages
+BotAuthAllowMessagesInfo	This will allow %s to message you.
+BotAuthPhoneNumber	Phone Number
+BotAuthPhoneNumberText	**%1$s** wants to access your phone number **%2$s**.\n\nAllow access?
+BotAuthPhoneNumberDeny	Deny
+BotAuthPhoneNumberAccept	Allow
+BotAuthLogin	Log In
+BotAuthLoggedInSuccessTitle	Login successful
+BotAuthLoggedInSuccess	You\'re now logged in to **%s**.
+BotAuthLoggedInSuccessWithoutPhoneNumber	You\'re now logged in to **%s**, but you didn\'t grant access to your phone number.
+BotAuthNotificationTitle	Login Request
+BotAuthNotification	Login request for %1$s from %2$s
+BotAuthSelectEmoji	Tap the emoji shown\non your login screen
+BotAuthSelectCode	Tap the code shown\non your login screen
+BotAuthLoginRequestFrom	Login request from **%s**
+BotAuthLoggedInFailTitle	Login Failed
+BotAuthLoggedInFail	Please try logging in to **%s** again.
+BotAuthLoggedInFailNoDomain	Link has expired.
+GalleryAccessAllowAccess	Allow Access to Photos
+GalleryAccessAllowAccessTextNonPremium	Share an unlimited number of photos\nand videos of up to 2 GB each.
+GalleryAccessAllowAccessTextPremium	Share an unlimited number of photos\nand videos of up to 4 GB each.
+GalleryAccessAllowAccessButton	Allow Access
+GalleryAccessAllowAccessOpenCamera	Open Camera
+GalleryAccessAllowAccessCamera	Allow Access to Camera
+GiftRarityUncommon	uncommon
+GiftRarityRare	rare
+GiftRarityEpic	epic
+GiftRarityLegendary	legendary
+GiftCraftTitle	Craft Gift
+GiftCraftViewAllVariants	View all craftable models  >
+GiftCraftButton	Craft Gift
+GiftCraftButtonFailed	Craft New Gift
+GiftCraftButtonNext	Craft New Gift
+GiftCraftButtonEmpty	Tap + to add your first gift
+GiftCraftSuccessChance	**%s** Success Chance
+GiftCraftProgressTitle	Crafting
+GiftCraftProgressText	If crafting fails, all selected gifts\nwill be consumed.
+GiftCraftProgressSuccessChance	%s success chance
+GiftCraftFailedTitle	Crafting Failed
+GiftCraftFailedText_one	The crafting attempt was unsuccessful.\n**%d** gift was lost.
+GiftCraftFailedText_other	The crafting attempt was unsuccessful.\n**%d** gifts were lost.
+GiftCraftTextEmpty1	Add up to **4** gifts to craft new
+GiftCraftTextEmpty2	**%s** gift.\n\nIf crafting fails, all selected gifts\nwill be **lost**.
+GiftCraftText1	Add up to **4** gifts to craft new
+GiftCraftText2	**%1$s #%2$s**.\n\nIf crafting fails, all selected gifts\nwill be **lost**.
+GiftCraftSelectTitle	Select Gift
+GiftCraftSelectYour	Your Gifts
+GiftCraftSelectYourEmpty	You don\'t have other gifts\nfrom this collection.
+GiftCraftSelectResale	Suitable for crafting from resale
+GiftCraftSelect_one	You need to add up to **%d gift** from\nthe same collection for crafting.
+GiftCraftSelect_other	You need to add up to **%d gifts** from\nthe same collection for crafting.
+GiftCraftInfoTitle	Gift Crafting
+GiftCraftInfoText	Turn your gifts into rare, epic\nand legendary versions.
+GiftCraftInfoFeature1Title	Get Rare Models
+GiftCraftInfoFeature1Text	Select up to 4 gifts to craft a new exclusive model.
+GiftCraftInfoFeature2Title	Maximize Chances
+GiftCraftInfoFeature2Text	Combine more gifts to increase your odds of success.
+GiftCraftInfoFeature3Title	Affect the Result
+GiftCraftInfoFeature3Text	Use gifts with the same attribute to boost its chance.
+GiftCraftInfoButton	Start Crafting
+GiftCraftLaterTitle	Try Later
+GiftCraftLaterText	You will be able to craft this gift %s.
+GiftCrafted	crafted
+GiftCraft	Craft
+GiftCraftUnavailableTitle	Crafting Unavailable
+GiftCraftUnavailableText	These gifts currently can\'t be crafted.
+GiftCraftUnavailableTextTime	This gift will become available for crafting on **%s**.
+GiftCraftSymbolChance_one	**%1$d%%** chance the crafted gift will have **%2$s** symbol.
+GiftCraftSymbolChance_other	**%1$d%%** chance the crafted gift will have **%2$s** symbol.
+GiftCraftBackdropChance_one	**%1$d%%** chance the crafted gift will have **%2$s** background.
+GiftCraftBackdropChance_other	**%1$d%%** chance the crafted gift will have **%2$s** background.
+GiftOnSale	On sale for %s
+GiftCraftCantChooseFirstTitle	Can’t Choose First
+GiftCraftCantChooseFirst	This gift can’t be used as the first one in crafting, because it has been recorded on the blockchain.
+LeaveGroupTitle	Leave Group?
+LeaveChannelTitle	Leave Channel?
+LeaveGroupNewOwnerText	If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.
+LeaveChannelNewOwnerText	If you leave, **%1$s** will become the new owner of **%2$s** in **1 week**.
+AppointNewOwner	Appoint Another Owner
+LeaveGroupAndAppoint	Appoint %s and Leave Group
+LeaveChannelAndAppoint	Appoint %s and Leave Channel
+GroupAdmins	Group admins
+GroupMembers2	Group members
+ChannelAdmins	Channel admins
+ChannelSubscribers2	Channel subscribers
+MembersSearch	Search people
+MemberTagTitle	Member Tag
+MemberTagSelfInfo	Share your role, title or how you’re known in this group. Your tag is visible to all members.
+MemberTagTheirInfo	Add a short tag next to %s’s name.
+MemberTagHintAdd	Add Member Tag
+MemberTagHintEdit	Edit Member Tag
+MemberTagButtonAdd	Add Tag
+MemberTagButtonEdit	Edit Tag
+MemberTagButtonRemove	Remove Tag
+AddMemberTag	Add Member Tag
+EditMemberTag	Edit Member Tag
+EditAdminTag	Edit Admin Tag
+TagInfoMemberTitle	Member Tag
+TagInfoAdminTitle	Admin Tag
+TagInfoOwnerTitle	Owner Tag
+TagInfoMemberText	This grey tag un1 is **%1$s’s** member tag.\n**%1$s** is a member of **%2$s**.
+TagInfoAdminText	This green tag un1 is **%1$s’s** admin tag.\n**%1$s** is an administrator of **%2$s**.
+TagInfoOwnerText	This purple tag un1 is **%1$s’s** owner tag.\n**%1$s** is the owner of **%2$s**.
+AddTag	Add Tag
+CantEditTagAdmins	Only admins can set member tags in this group.
+TagInfoButtonAddMyTag	Add My Tag
+TagInfoButtonEditMyTag	Edit My Tag
+TagInfoButtonAddTag	Add Tag
+TagInfoButtonEditTag	Edit Tag
+JoinedGroup	You joined the group.
+JoinedGroupAddTag	Add Tag
+TagAdded	Tag Added
+TagEdited	Tag Edited
+DisableSharingInfoHeader	Disable Sharing
+DisableSharingInfoButton	Disable Sharing
+DisableSharingInfoHeader1	No Screenshots
+DisableSharingInfoText1	Disable screenshots and screen\nrecordings in this chat.
+DisableSharingInfoHeader2	No Forwarding
+DisableSharingInfoText2	Disable message forwarding to other\nchats.
+DisableSharingInfoHeader3	No Saving
+DisableSharingInfoText3	Disable copying texts and saving photos\nand videos to gallery.
+DisableSharingToastDisabled	Sharing disabled for this chat
+DisableSharingToastEnabled	Sharing enabled for this chat
+DisableSharingToastDisabledPending	Sharing will disabled if **%s** approves it
+DisableSharingToastEnabledPending	Sharing will enabled if **%s** approves it
+DisableSharing	Disable Sharing
+EnableSharing	Enable Sharing
+DisableSharingActionYou	You disabled sharing in this chat
+EnableSharingActionYou	You enabled sharing in this chat
+DisableSharingActionOther	%s disabled sharing in this chat
+EnableSharingActionOther	%s enabled sharing in this chat
+DisableSharingActionStillDisabled	Sharing in this chat is still disabled
+DisableSharingActionStillEnabled	Sharing in this chat is still enabled
+PollAddingActionYou	You added \"%s\" to the poll
+PollAddingActionOther	%1$s added \"%2$s\" to the poll
+PollRemovedActionYou	You removed \"%s\" from the poll
+PollRemovedActionOther	%1$s removed \"%2$s\" from the poll
+DisableSharingOfferAccept	Accept
+DisableSharingOfferDecline	Reject
+SharingOfferEnableHeaderOther	**%s** would like to enable sharing in this chat, which includes:
+SharingOfferEnableHeaderYou	You suggest to enable sharing in this chat, which includes:
+SharingOfferEnable1	\> forwarding messages
+SharingOfferEnable2	\> saving photos and videos
+SharingOfferEnable3	\> copying messages
+SharingOfferEnable4	\> taking screenshots
+SharingOfferDisableHeaderShortOther	**%s** would like to disable sharing in this chat
+SharingOfferDisableHeaderShortYou	You suggest to disable sharing in this chat
+SharingOfferEnableHeaderShortOther	**%s** would like to enable sharing in this chat
+SharingOfferEnableHeaderShortYou	You suggest to enable sharing in this chat
+SharingOfferDisableHeaderOther	**%s** would like to disable sharing in this chat, which includes:
+SharingOfferDisableHeaderYou	You suggest to disable sharing in this chat, which includes:
+SharingOfferDisable1	\> no forwarding messages
+SharingOfferDisable2	\> no saving photos and videos
+SharingOfferDisable3	\> no copying messages
+SharingOfferDisable4	\> no screenshots
+SharingOfferDisableCancelTitle	Disable Sharing
+SharingOfferDisableCancelText	Are you sure you want to keep sharing disabled?
+SharingOfferDisableConfirmText	Are you sure you want to disable sharing?
+SharingOfferEnableCancelTitle	Enable Sharing
+SharingOfferEnableCancelText	Are you sure you want to keep sharing enabled?
+SharingOfferEnableConfirmText	Are you sure you want to enable sharing?
+SharingOfferCancelYes	Yes
+RelativeDateFormatterWeek2	%1$s, %2$s
+RelativeDateAddDate	Add Date
+RelativeDateMenuCopy	Copy Date
+RelativeDateMenuAddToACalendar	Add to Calendar
+RelativeDateMenuSetAReminder	Set a Reminder
+RelativeDateCopied	Date copied to clipboard
+GiftResaleStarsOnly	Show listings for stars only
+PollV2ShowWhoVoted	Show Who Voted
+PollV2ShowWhoVotedInfo	Display voter name on each option
+PollV2AllowMultipleAnswers	Allow Multiple Answers
+PollV2AllowMultipleAnswersInfo	Voters can select more than one option
+PollV2AllowAddingOptions	Allow Adding Options
+PollV2AllowAddingOptionsInfo	Participants can suggest new options
+PollV2AllowRevoting	Allow Revoting
+PollV2AllowRevotingInfo	Voters can change their vote
+PollV2ShuffleOptions	Shuffle Options
+PollV2ShuffleOptionsInfo	Answers appear in random order for each voter
+PollV2SetCorrectAnswer	Set Correct Answer
+PollV2SetCorrectAnswerInfo	Mark one option as the right answer
+PollV2LimitDuration	Limit Duration
+PollV2LimitDurationInfo	Automatically close the poll at a set time
+PollV2RestrictToSubscribers	Restrict to Subscribers
+PollV2RestrictToSubscribersInfo	Only subscribers who joined\n24+ hours ago can vote
+PollV2LimitByCountry	Limit by Country
+PollV2LimitByCountryInfo	Only users from selected\ncountries can vote
+PollV2AllowedCountries	Allowed Countries
+PollV2MenuViewStats	View Stats
+PollV2StatsVoteTimeline	Vote Timeline
+PollV2StatsPollStats	Poll Stats
+PollV2AddLinkTitle	Add Link
+PollV2AddLinkMessage	Attach a link to this option.
+PollV2AddLinkUrlHint	URL
+EmojiSearchBackToSearch	Back to search
+PollV2PollEnds	Poll ends
+PollV2PollDuration	Poll duration
+PollV2PollDurationOptionCustom	Custom
+PollV2HideResults	Hide results
+PollV2HideResultsInfo	If you switch this on, results will appear only after the poll closes.
+PollCustomDeadlineClosesIn	Closes in %s
+PollCustomDeadlineClosesInFmt	%1$s %2$s %3$s
+PollEndsIn	ends in %s
+PollResultsIn	results in %s
+PollAddAnOption	Add an Option
+PollAddAnOptionHint	Option...
+PollAddedByAtTime	Added by **%1$s** %2$s
+DiscardPollOptionWithMediaAlertTitle	Delete Poll Option?
+DiscardPollOptionWithMediaMessage	This poll option has a media attachment. Do you want to delete it?
+DiscardQuizOptionWithMediaAlertTitle	Delete Quiz Answer?
+DiscardQuizOptionWithMediaMessage	This quiz answer has a media attachment. Do you want to delete it?
+PollAddTextOrRemoveMedia	Add text or remove media first
+PollV2ToastOnlySubscribersCanVote	Only subscribers of **%1$s** can vote.
+PollV2ToastOnlySubscribersJoined24hCanVote	Only subscribers who joined more than **24 hours** ago can vote.
+PollV2ToastOnlySubscribersFromCountriesCanVoteOne	Only subscribers from **%1$s** can vote.
+PollV2ToastOnlySubscribersFromCountriesCanVoteOther	Only subscribers from **%1$s** and **%2$s** can vote.
+PollV2ToastOnlyUsersFromCountriesCanVoteOne	Only users from **%1$s** can vote.
+PollV2ToastOnlyUsersFromCountriesCanVoteOther	Only users from **%1$s** and **%2$s** can vote.

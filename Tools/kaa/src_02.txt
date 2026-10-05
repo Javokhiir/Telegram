@@ -1,0 +1,583 @@
+ChannelUserCantAdd	Sorry, you can\'t add this user to channels.
+ChannelUserCantAdmin	Sorry, too many admins in this channel.
+ChannelUserCantBot	Sorry, too many bots in this channel.
+ChannelUserAddLimit	Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.
+ChannelTooMuchTitle	Too many communities
+ChannelTooMuch	Sorry, you are a member of too many groups and channels. Please leave some before creating a new one.
+ChannelTooMuchJoin	Sorry, you are a member of too many groups and channels. Please leave some before joining a new one.
+ChannelAddedBy	un1 added you to this channel
+ChannelJoined	You joined this channel
+YouJoinedChannel	You joined channel %s
+ChannelMegaJoined	You joined this group
+ChannelRemoveUser	Remove from channel
+ChannelCantSendMessage	Sorry, you can\'t send messages to this channel.
+ChannelAddedByNotification	%1$s added you to the channel %2$s
+ChannelPhotoEditNotification	Channel %1$s updated its photo
+ChannelVideoEditNotification	Channel %1$s updated its video
+ChannelMessageNoText	%1$s posted a message
+ChannelMessagePhoto	%1$s posted a photo
+ChannelMessageVideo	%1$s posted a video
+ChannelMessageContact2	%1$s posted a contact %2$s
+ChannelMessagePoll2	%1$s posted a poll %2$s
+ChannelMessageTodo2	%1$s posted a checklist %2$s
+ChannelMessageTodoDone2	%1$s toggled %2$s tasks
+ChannelMessageTodoAppend2	%1$s added %2$s tasks
+ChannelMessageQuiz2	%1$s posted a quiz %2$s
+ChannelMessageMap	%1$s posted a location
+ChannelMessageLiveLocation	%1$s posted a live location
+ChannelMessageDocument	%1$s posted a file
+ChannelMessageGIF	%1$s posted a GIF
+ChannelMessageFew	%1$s posted %2$s
+ChannelMessageAlbum	%1$s posted an album
+ChannelMessageAudio	%1$s posted a voice message
+ChannelMessageRound	%1$s posted a video message
+ChannelMessageMusic	%1$s posted an audio file
+ChannelMessageSticker	%1$s posted a sticker
+ChannelMessageStickerEmoji	%1$s posted a %2$s sticker
+ChannelNotifyMembersInfoOn	Members will be notified when you post
+ChannelNotifyMembersInfoOff	Members will receive a silent notification
+ChannelSignMessages	Sign Messages
+ChannelSignMessagesWithProfile	Show Authors\' Profiles
+ChannelSignMessagesInfo	Add names of the admins to the messages they post.
+EditAdmin	Admin Rights
+EditAdminRank	Custom title
+EditAdminRankInfo	A custom title that will be shown to all members instead of \'%1$s\'.
+EditMemberRankInfo	Add short tag next to %1$s’s name.
+EditAdminWhatCanDo	What can this admin do?
+EditAdminChangeChannelInfo	Change Channel Info
+EditAdminChangeGroupInfo	Change Group Info
+EditAdminPostMessages	Post Messages
+EditAdminManageDirect	Manage Direct Messages
+EditAdminUserManageWelcomeMessages	Manage Welcome Messages
+EditAdminBotChannelSendWelcomeMessages	Send Welcome Messages
+EditAdminBotGroupSendWelcomeMessages	Send Welcome Messages
+EditAdminEditMessages	Edit Messages of Others
+EditAdminDeleteMessages	Delete Messages of Others
+EditAdminPostStories	Post Stories
+EditAdminEditStories	Edit Stories of Others
+EditAdminDeleteStories	Delete Stories of Others
+EditAdminGroupDeleteMessages	Delete Messages
+EditAdminAddAdmins	Add New Admins
+EditAdminSendAnonymously	Send Anonymously
+EditAdminProcessJoinRequests	Process Join Requests
+EditAdminProcessJoinRequestsInfo	Allow this bot to approve new members using its own interfaces, such as captchas.
+EditAdminRemoveAdmin	Dismiss Admin
+EditAdminGroupTransfer	Transfer Group Ownership
+EditAdminChannelTransfer	Transfer Channel Ownership
+EditAdminTransferAlertTitle	Security Check
+EditAdminTransferAlertText	You can transfer this group to **%1$s** only if you:
+EditChannelAdminTransferAlertText	You can transfer this channel to **%1$s** only if you have:
+WithdrawChannelAlertText	You can withdraw only if you have:
+EditAdminTransferAlertText1	Enabled **2-Step Verification** more than **7 days** ago.
+EditAdminTransferAlertText2	Logged in on this device more than **24 hours** ago.
+EditAdminTransferAlertText3	Please come back later.
+EditAdminTransferSetPassword	Set Password
+Gift2TransferToTONAlertTitle	Security Check
+Gift2TransferToTONAlertText	You can transfer your gift to TON if you have:
+Gift2TransferToTONAlertText1	Enabled **2-Step Verification** more than **7 days** ago.
+Gift2TransferToTONAlertText2	Logged in on this device more than **24 hours** ago.
+Gift2TransferToTONAlertText3	Please come back later.
+Gift2TransferToTONSetPassword	Set Password
+EditAdminTransferReadyAlertText	This will transfer the **full owner** rights for **%1$s** to **%2$s**.
+EditAdminTransferReadyAlertText2	This will transfer the full **owner rights** for **%1$s** to **%2$s**.
+EditAdminTransferChangeOwner	Change Owner
+EditAdminTransferGroupToast	**%1$s** is now the owner of the group.
+EditAdminTransferChannelToast	**%1$s** is now the owner of the channel.
+EditAdminBanUsers	Ban Users
+EditAdminAddUsers	Add Users
+EditAdminAddUsersViaLink	Invite Users via Link
+EditAdminPinMessages	Pin Messages
+EditAdminEditTags	Edit Member Tags
+EditAdminPromotedBy	Promoted by %1$s
+EditAdminCantEdit	You cannot edit the rights of this admin.
+EditCantEditPermissions	You cannot edit this permission.
+EditCantEditPermissionsPublic	This permission is not available in public groups.
+EditCantEditPermissionsDiscussion	This permission is not available in discussion groups.
+UserRemovedBy	Removed by %1$s
+UserRestrictions	User Permissions
+UserRestrictionsCanDo	What can this user do?
+UserRestrictionsCanDoUsers_one	What can %1$s selected user do?
+UserRestrictionsCanDoUsers_other	What can %1$s selected users do?
+UserRestrictionsSend	Send Messages
+UserRestrictionsSendPollsShort	Send Polls
+UserRestrictionsSendText	Send Text Messages
+UserRestrictionsSendMedia	Send Media
+UserRestrictionsSendPolls	Send Polls
+UserRestrictionsSendStickers	Send Stickers &amp; GIFs
+UserRestrictionsEmbedLinks	Embed Links
+UserRestrictionsChangeInfo	Change Chat Info
+UserRestrictionsPinMessages	Pin Messages
+UserRestrictionsEditTags	Edit Own Tags
+UserRestrictionsSendReactions	Send Reactions
+UserRestrictionsInviteUsers	Add Users
+UserRestrictionsNoRead	can\'t read
+UserRestrictionsNoSend	can\'t send messages
+UserRestrictionsNoSendText	can\'t send text messages
+UserRestrictionsNoSendPolls	no polls
+UserRestrictionsNoSendMedia	no media
+UserRestrictionsNoSendPhotos	no photos
+UserRestrictionsNoSendVideos	no videos
+UserRestrictionsNoSendMusic	no music
+UserRestrictionsNoSendDocs	no files
+UserRestrictionsNoSendVoice	no voice
+UserRestrictionsNoSendRound	no round
+UserRestrictionsNoSendStickers	no stickers &amp; GIFs
+UserRestrictionsNoEmbedLinks	no embed links
+UserRestrictionsNoChangeInfo	can\'t change Info
+UserRestrictionsNoPinMessages	no pins
+UserRestrictionsNoEditTags	no tags
+UserRestrictionsNoSendReactions	no reactions
+UserRestrictionsNoInviteUsers	can\'t add users
+UserRestrictionsDuration	Duration
+UserRestrictionsUntilForever	Forever
+UserRestrictionsBlock	Ban and remove from group
+UserRestrictionsApplyChanges	Apply Changes?
+UserRestrictionsApplyChangesText	You have changed this user\'s rights in **%1$s**. Apply changes?
+UserRestrictionsCantModify	Can\'t Modify This Option
+UserRestrictionsCustom	Custom
+BotRestrictionsCanDo	What can this bot do?
+ManageGroup	Manage Group
+ChatHistory	Chat history for new members
+ChatSetNewPhoto	Set New Photo
+ChatSetPhotoOrVideo	Set Photo or Video
+ChatHistoryVisible	Visible
+ChatHistoryVisibleInfo	New members will see messages that were sent before they joined.
+ChatHistoryHidden	Hidden
+ChatHistoryHiddenInfo	New members won\'t see earlier messages.
+ChatHistoryHiddenInfo2	New members won\'t see more than 100 previous messages.
+ProfileJoinChannel	Join Channel
+ProfileJoinGroup	Join Group
+GroupType	Group Type
+ChannelType	Channel Type
+GroupTypeHeader	Group type
+ChannelTypeHeader	Channel type
+GroupSettingsTitle	Group Settings
+ChannelSettingsTitle	Channel Settings
+TypePrivate	Private
+TypePublic	Public
+TypePrivateGroup	Private
+TypePublicGroup	Public
+TypeLocationGroup	Link
+TypeLocationGroupEdit	Tap to add a permanent link
+ChoosePhoto	Choose photo
+ChoosePhotoForSticker	Create a sticker from a photo
+AddImage	Add Image
+ChoosePhotoOrVideo	Choose photo or video
+AddPhoto	Set new photo
+ChooseTakePhoto	Take photo
+ChooseRecordVideo	Record video
+ChooseFromGallery	Upload from gallery
+SelectFromGallery	Select from gallery
+ChooseFromSearch	Search web
+Statistics	Statistics
+StatisticsAndBoosts	Statistics and Boosts
+AddBot	Add Bot
+AddBotAdmin	Add bot as admin
+AddBotAdminAlert	Add bot as admin?
+AddAsAdmin	Add as admin
+AddBotButton	Add bot
+AddBotButtonAsMember	as Member
+AddBotButtonAsAdmin	as Admin
+AddBotMessageAdminChannel	Are you sure you want to add this bot as an admin to the channel **%1$s**?
+AddBotMessageAdminGroup	Are you sure you want to add this bot as an admin to the group **%1$s**?
+AddBotAsAdmin	Bots can only be added as administrators.
+CantAddBotAsAdmin	Sorry, bots can only be added to channels as administrators.
+AdminWillBeRemoved	%1$s will be removed from admins if you restrict them.
+Discussion	Discussion
+ViewDiscussion	View discussion
+DiscussionInfo	Add a group chat for comments
+LinkedChannel	Linked Channel
+DiscussionChannelHelp3	Select a group chat that will host comments from your channel.
+DiscussionChannelHelp2	Everything you post in the channel will be forwarded to this group.
+DiscussionChannelGroupSetHelp2	**%1$s** is selected as the group that hosts comments for your channel.
+DiscussionGroupHelp	**%1$s** is linking the group as its discussion board.
+DiscussionGroupHelp2	All new messages posted in this channel are forwarded to the group.
+DiscussionCreateGroup	Create a New Group
+DiscussionUnlinkGroup	Unlink Group
+DiscussionUnlinkChannel	Unlink Channel
+DiscussionUnlink	Unlink
+DiscussionLinkGroup	Link Group
+DiscussionLinkGroupPublicAlert	Do you want to make **%1$s** the discussion board for **%2$s**?
+DiscussionLinkGroupPrivateAlert	Do you want to make **%1$s** the discussion board for **%2$s**?\n\nAny member of this group will be able to see messages in the channel.
+DiscussionLinkGroupPublicPrivateAlert	Do you want to make **%1$s** the discussion board for **%2$s**?\n\nAnyone from the channel will be able to see messages in this group.
+DiscussionLinkGroupAlertHistory	\"Chat history for new members\" will be switched to Visible.
+DiscussionUnlinkGroupAlert	Are you sure you want to unlink **%1$s** from this group?
+DiscussionUnlinkChannelAlert	Are you sure you want to unlink **%1$s** from this channel?
+DiscussChannel	channel
+Slowmode	Slow Mode
+SlowmodeOff	Off
+SlowmodeSeconds	%1$ds
+SlowmodeMinutes	%1$dm
+SlowmodeHours	%1$dh
+SlowmodeInfoOff	Choose how long each member must wait before sending their next message.
+SlowmodeInfoSelected	Members will be able to send only one message every %1$s.
+SlowmodeSendError	Slow Mode is enabled. You can\'t send more than one message at once.
+SlowmodeSelectSendError	Slow Mode is enabled. You can\'t select more items.
+SlowmodeSendErrorTooLong	Sorry, this text is too long to send as one message.\n\nSlow Mode is enabled. You can\'t send more than one message at once.
+UserSetAsAdminHint	**%1$s** promoted to admin
+UserAddedAsAdminHint	**%1$s** added as admin
+UserRemovedFromChatHint	**%1$s** removed from **%2$s**
+NewPoll	New Poll
+NewQuiz	New Quiz
+Poll	Poll
+PollQuestion2	Question
+QuestionHint	Ask a question
+QuestionDescriptionHint	Add Description (optional)
+AnswerOptions2	Options
+QuizAnswers	Quiz answers
+PollResults	Poll Results
+PollAnonymous	Anonymous Voting
+PollQuiz	Quiz Mode
+PollSelectOption	Select an option first
+PollCollapse	Collapse
+PollExpand	Expand
+TodoCantForward	Sorry, checklists can’t be forwarded to channels.
+TodoCantForwardSecretChat	Sorry, checklists can’t be forwarded to secret chats.
+PublicPollCantForward	Sorry, public polls can’t be forwarded to channels.
+InvoiceCantForwardSecretChat	Sorry, invoices can’t be forwarded to secret chats.
+PollCantForwardSecretChat	Sorry, polls can’t be forwarded to secret chats.
+GameCantSendSecretChat	Sorry, games can’t be sent to secret chats.
+InvoiceCantSendSecretChat	Sorry, invoices can’t be sent to secret chats.
+PollMultiple	Multiple Answers
+PollTapToSelect	Tap to choose the correct answer
+AddAnOption	Add an Option...
+AddAnOptionInfo	You can add %1$s.
+AddAnOptionInfoMax	You have added the maximum number of options.
+TodoAddTaskInfoMax	You have added the maximum number of tasks.
+AnonymousPoll	Anonymous Poll
+QuizWrongAnswer	Wrong answer!
+QuizWrongAnswerInfo	You missed the correct option.
+QuizWellDone	Well done!
+QuizWellDoneInfo	You chose the right answer.
+PublicPoll	Poll
+QuizPoll	Quiz
+PollSubmitVotesNoCaps	Vote
+PollViewResultsNoCaps	View results
+PollViewVotesX	View Votes (%d)
+PollViewVotesAsAdmin_one	%d Vote >
+PollViewVotesAsAdmin_other	%d Votes >
+PollViewBack	&lt; Vote
+PollButtonSave	Save
+PollViewVotes	View Votes
+AnonymousQuizPoll	Anonymous Quiz
+StopPoll	Stop Poll
+StopPollDeadlineHeader	Deadline
+StopPollDeadlineButton	Set Deadline
+StopPollAlertTitle	Stop poll?
+StopPollAlertText	If you stop this poll now, nobody will be able to vote in it anymore. This action cannot be undone.
+StopQuiz	Stop Quiz
+StopQuizAlertTitle	Stop quiz?
+StopQuizAlertText	If you stop this quiz now, nobody will be able to vote in it anymore. This action cannot be undone.
+CancelPollAlertTitle	Discard poll?
+CancelPollAlertText	Are you sure you want to discard this poll?
+CancelTodoAlertTitle	Discard Checklist
+CancelTodoAlertText	Are you sure you want to discard this Checklist?
+SendReactionsIsRestrictedInThisChat	You cannot send reactions in this chat.
+Unvote	Retract Vote
+FinalResults	Final Results
+NoVotes	No votes
+PollResultsWillLater	Results will appear after the poll ends
+PollStatsWillLater	Poll stats are not available now
+NoVotesQuiz	Nobody answered
+Vote_one	%1$d vote
+Vote_other	%1$d votes
+Answer_one	%1$d answer
+Answer_other	%1$d answers
+ShowVotes_one	Show More (%1$d)
+ShowVotes_other	Show More (%1$d)
+Option_one	%1$d more option
+Option_other	%1$d more options
+OptionHint	Option
+EventLog	Recent Actions
+EventLogAllEvents	All actions
+EventLogSelectedEvents	Selected actions
+EventLogAllAdmins	All admins
+EventLogEmpty2	**No actions here yet**\n\nThe group\'s members and admins have not taken any service actions in the last **48** hours.
+EventLogEmptyChannel2	**No actions here yet**\n\nThe channel\'s admins have not taken any service actions in the last **48** hours.
+EventLogInfoTitle	What is the Recent Actions?
+EventLogInfoDetail	This is a list of all service actions taken by the group\'s members and admins in the last 48 hours.
+EventLogInfoDetailChannel	This is a list of all service actions taken by the channel\'s admins in the last 48 hours.
+EventLogEditedGroupTitle	un1 renamed the group to \"%1$s\"
+EventLogEditedChannelTitle	un1 renamed the channel to \"%1$s\"
+EventLogLeftGroup	un1 left the group
+EventLogLeftChannel	un1 left the channel
+EventLogAdded	un1 added un2
+EventLogGroupJoined	un1 joined the group
+EventLogChannelRestricted	banned %1$s
+EventLogChannelUnrestricted	unbanned %1$s
+EventLogChannelJoined	un1 joined the channel
+EventLogEditedGroupPhoto	un1 set a new group photo
+EventLogEditedChannelPhoto	un1 set a new channel photo
+EventLogEditedGroupVideo	un1 set a new group video
+EventLogEditedChannelVideo	un1 set a new channel video
+EventLogRemovedWGroupPhoto	un1 removed the group photo
+EventLogRemovedChannelPhoto	un1 removed the channel photo
+EventLogEditedMessages	un1 edited this message:
+EventLogEditedCaption	un1 edited caption:
+EventLogEditedMedia	un1 edited media:
+EventLogAddedMedia	un1 edited media:
+EventLogEditedMediaCaption	un1 edited media and caption:
+EventLogOriginalMessages	Original message
+EventLogOriginalCaption	Original caption
+EventLogOriginalCaptionEmpty	Empty
+EventLogPinnedMessages	un1 pinned this message:
+EventLogUnpinnedMessages	un1 unpinned message
+EventLogStopPoll	un1 stopped the poll:
+EventLogStopQuiz	un1 stopped the quiz:
+EventLogDeletedMessages	un1 deleted this message:
+EventLogDeletedMultipleMessagesToExpand_one	un1 deleted message from %2$s
+EventLogDeletedMultipleMessagesToExpand_other	un1 deleted %1$d messages from %2$s
+EventLogDeletedMultipleMessages_one	un1 deleted message from %2$s:
+EventLogDeletedMultipleMessages_other	un1 deleted %1$d messages from %2$s:
+EventLogDeletedMultipleMessagesHide	Hide all
+EventLogDeletedMultipleMessagesShow	Show all
+EventLogChangedLocation	un1 changed group location to \"%1$s\"
+EventLogRemovedLocation	un1 removed group location
+EventLogChangedOwnership	transferred ownership to %1$s
+EventLogChangedStickersSet	un1 changed the group sticker set
+EventLogRemovedStickersSet	un1 removed the group sticker set
+EventLogChangedEmojiPack	un1 changed the group emoji pack
+EventLogRemovedEmojiPack	un1 removed the group emoji pack
+EventLogChangedLinkedGroup	un1 made un2 the discussion group for this channel
+EventLogRemovedLinkedGroup	un1 removed the discussion group un2
+EventLogChangedLinkedChannel	un1 linked this group to un2
+EventLogRemovedLinkedChannel	un1 unlinked this group from un2
+EventLogChangedGroupLink	un1 changed the group link:
+EventLogChangedChannelLink	un1 changed the channel link:
+EventLogRemovedGroupLink	un1 removed the group link
+EventLogRemovedChannelLink	un1 removed the channel link
+EventLogPreviousLink	Previous link
+EventLogEditedGroupDescription	un1 edited the group description:
+EventLogEditedChannelDescription	un1 edited the channel description:
+EventLogEditedGroupTheme	un1 changed the group theme:
+EventLogEditedChannelTheme	un1 changed the channel theme:
+EventLogPreviousGroupDescription	Previous description
+EventLogPreviousGroupTheme	Previous theme
+EventLogToggledInvitesHistoryOn	un1 made group history visible for new members
+EventLogToggledInvitesHistoryOff	un1 made group history hidden for new members
+EventLogToggledInvitesOn	un1 enabled group invites
+EventLogToggledInvitesOff	un1 disabled group invites
+EventLogToggledSignaturesOn	un1 enabled signatures
+EventLogToggledSignaturesOff	un1 disabled signatures
+EventLogSubExtend	un1 renewed subscription
+EventLogToggledSignaturesProfilesOn	un1 enabled authors\' profiles
+EventLogToggledSignaturesProfilesOff	un1 disabled authors\' profiles
+EventLogRestrictedUntil	changed permissions for %1$s\n\nDuration: %2$s
+EventLogDefaultPermissions	changed default permissions
+EventLogRestrictedSendStickers	Send stickers &amp; GIFs
+EventLogRestrictedSendMedia	Send media
+EventLogRestrictedChangeInfo	Change info
+EventLogRestrictedInviteUsers	Add users
+EventLogRestrictedPinMessages	Pin messages
+EventLogRestrictedEditRank	Edit Tags
+EventLogRestrictedSendReactions	Send Reactions
+EventLogRestrictedSendPolls	Send polls
+EventLogRestrictedSendMessages	Send messages
+EventLogRestrictedSendEmbed	Embed links
+EventLogRestrictedReadMessages	Read messages
+EventLogPromoted	changed privileges of %1$s
+EventLogPromotedNoRights	promoted %1$s
+EventLogPromotedChangeChannelInfo	Change channel Info
+EventLogPromotedChangeGroupInfo	Change group Info
+EventLogPromotedPostMessages	Post messages
+EventLogPromotedEditMessages	Edit messages
+EventLogPromotedDeleteMessages	Delete messages
+EventLogPromotedPostStories	Post stories
+EventLogPromotedEditStories	Edit stories
+EventLogPromotedDeleteStories	Delete stories
+EventLogPromotedAddAdmins	Add admins
+EventLogPromotedSendAnonymously	Send anonymously
+EventLogPromotedBanUsers	Ban users
+EventLogPromotedManageCall	Manage Live Streams
+EventLogPromotedAddUsers	Add users
+EventLogPromotedTitle	Title: %1$s
+EventLogPromotedRemovedTitle	Title
+EventLogPromotedPinMessages	Pin messages
+EventLogPromotedEditRanks	Edit tags
+EventLogPromotedManageTopics	Manage topics
+EventLogPromotedManageDirect	Manage direct
+EventLogPromotedManageWelcomeMessages	Manage welcome messages
+EventLogFilterAll	All actions
+EventLogFilterNewRestrictions	New exceptions
+EventLogFilterNewAdmins	Admin rights
+EventLogFilterNewMembers	New members
+EventLogFilterNewSubscribers	New subscribers
+EventLogFilterGroupInfo	Group info
+EventLogFilterChannelInfo	Channel info
+EventLogFilterDeletedMessages	Deleted messages
+EventLogFilterEditedMessages	Edited messages
+EventLogFilterPinnedMessages	Pinned messages
+EventLogFilterLeavingMembers	Leaving members
+EventLogFilterLeavingMembers2	Members left the Group
+EventLogFilterMembersRank	Members Tag Updates
+EventLogFilterLeavingSubscribers2	Members left the Channel
+EventLogFilterSectionMembers	Members And Admins
+EventLogFilterSectionSubscribers	Subscribers And Admins
+EventLogFilterApply	Apply Filter
+EventLogFilterSectionAdmin	New Admin Rights
+EventLogFilterSectionMessages	Messages
+EventLogFilterSectionGroupSettings	Group Settings
+EventLogFilterSectionChannelSettings	Channel Settings
+EventLogFilterByActions	Filter actions by type
+EventLogFilterByAdmins	Filter actions by admins
+EventLogFilterByAdminsAll	Show Actions by All Admins
+EventLogFilterCalls	Voice chats
+EventLogFilterInvites	Invite links
+EventLogToggledSlowmodeOn	un1 set the slow mode timer to %1$s
+EventLogToggledSlowmodeOff	un1 disabled the slow mode
+EventLogToggledAutotranslationOn	un1 enabled auto-translation
+EventLogToggledAutotranslationOff	un1 disabled auto-translation
+EventLogStartedVoiceChat	un1 started a voice chat
+EventLogEndedVoiceChat	un1 ended the voice chat
+EventLogStartedLiveStream	un1 started a live stream
+EventLogEndedLiveStream	un1 ended the live stream
+EventLogVoiceChatMuted	un1 muted un2
+EventLogVoiceChatUnmuted	un1 unmuted un2
+EventLogVoiceChatAllowedToSpeak	un1 allowed new participants to speak
+EventLogVoiceChatNotAllowedToSpeak	un1 muted new participants
+EventLogChangeUsernames	un1 changed group usernames from %1$s to %2$s
+EventLogDeactivatedUsername	un1 deactivated %1$s username
+EventLogActivatedUsername	un1 activated %1$s username
+EventLogSwitchToForum	un1 changed group to forum
+EventLogSwitchToGroup	un1 changed forum to group
+EventLogCreateTopic	un1 created topic un2
+EventLogEditTopic	un1 changed topic name from un2 to un3
+EventLogClosedTopic	%s closed topic un2
+EventLogReopenedTopic	%s reopened topic un2
+EventLogDeleteTopic	un1 delete topic un2
+EventLogPinTopic	un1 pin topic un2
+EventLogUnpinTopic	un1 unpin topic un2
+EventLogEnabledAntiSpam	un1 enabled anti-spam
+EventLogDisabledAntiSpam	un1 disabled anti-spam
+EventLogChangedColor	un1 changed channel color from %1$s to %2$s
+EventLogChangedEmoji	un1 changed channel emoji from %1$s to %2$s
+EventLogChangedPeerColorIcon	un1 changed channel color and icon from %1$s to %2$s
+EventLogChangedProfileColorIcon	un1 changed channel profile color and icon from %1$s to %2$s
+EventLogChangedEmojiStatusFrom	un1 changed channel emoji status from %1$s to %2$s
+EventLogChangedEmojiStatus	un1 changed channel emoji status to %2$s
+EventLogChangedEmojiStatusFromFor	un1 changed channel emoji status from %1$s to %2$s (for %3$s)
+EventLogChangedEmojiStatusFor	un1 changed channel emoji status to %2$s (for %3$s)
+EventLogChangedWallpaper	un1 changed channel wallpaper
+EventLogRemovedWallpaper	un1 removed channel wallpaper
+EventLogChangedColorGroup	un1 changed group color from %1$s to %2$s
+EventLogChangedEmojiGroup	un1 changed group emoji from %1$s to %2$s
+EventLogChangedPeerColorIconGroup	un1 changed group color and icon from %1$s to %2$s
+EventLogChangedProfileColorIconGroup	un1 changed group profile color and icon from %1$s to %2$s
+EventLogChangedEmojiStatusFromGroup	un1 changed group emoji status from %1$s to %2$s
+EventLogChangedEmojiStatusGroup	un1 changed group emoji status to %2$s
+EventLogChangedEmojiStatusFromForGroup	un1 changed group emoji status from %1$s to %2$s (for %3$s)
+EventLogChangedEmojiStatusForGroup	un1 changed group emoji status to %2$s (for %3$s)
+EventLogChangedWallpaperGroup	un1 changed group wallpaper
+EventLogRemovedWallpaperGroup	un1 removed group wallpaper
+EventLogEmojiNone	none
+EventLogRankSelfAdd	un1 set their tag to «%1$s»
+EventLogRankSelfEdit	un1 changed their tag from «%1$s» to «%2$s»
+EventLogRankSelfRemove	un1 removed their «%1$s» tag
+EventLogRankAdd	un1 set un2’s tag to «%1$s»
+EventLogRankEdit	un1 changed un2’s tag from «%1$s» to «%2$s»
+EventLogRankRemove	un1 removed un2’s «%1$s» tag
+NewBroadcastList	New Broadcast List
+EnterListName	Enter list name
+YouCreatedBroadcastList	You created a broadcast list
+KickFromBroadcast	Remove from broadcast list
+NoAudioFiles	No audio files
+NoAudioFilesInfo	Your music library is empty.
+NoAudioFound	No results found
+NoAudioFoundInfo	There are no matches with **%1$s** in your music library.
+NoAudioFoundInfo2	There are no matches with **%1$s**.
+NoAudioFoundPlayerInfo	There are no matches for **%1$s**.
+AttachMusic	Music
+AudioUnknownArtist	Unknown artist
+AudioUnknownTitle	Unknown title
+RepeatSong	Repeat song
+RepeatList	Repeat list
+ShuffleList	Shuffle list
+ReverseOrder	Reverse order
+SelectFile	Select File
+FreeOfTotal	Free %1$s of %2$s
+UnknownError	Unknown error
+UnknownErrorCode	Unknown error: %s
+AccessError	Access error
+InternalStorage	Internal Storage
+ExternalStorage	External Storage
+SdCard	SD Card
+Folder	Folder
+RecentFiles	Recent files
+RecentFilesAZ	Files A-Z
+GalleryInfo	To send images without compression
+MusicInfo	To send music files
+AppFolderInfo	Browse the app\'s folder
+InternalFolderInfo	Browse your file system
+ExternalFolderInfo	Browse your external storage
+SearchMusic	Search music
+GroupStickers	Group Stickers
+GroupStickersInfo	You can choose a sticker set that will be available to all group members when they are chatting in this group.
+ChooseStickerSet	CHOOSE STICKER SET
+ChooseStickerSetHeader	Choose sticker set
+ChooseEmojiPackHeader	Choose emoji pack
+ChooseStickerSetMy	You can create your own custom sticker sets using the @stickers bot.
+ChooseEmojiPackMy	You can create your own custom emoji packs using the @stickers bot.
+SetAsGroupStickerSet	Set as Group Sticker Set
+RemoveGroupStickerSet	Remove Group Sticker Set
+SetAsGroupEmojiPackSet	Set as Group Emoji Pack
+RemoveGroupEmojiPackSet	Remove Group Emoji Pack
+ChooseStickerNoResultsFound	No results found for \"%1$s\"
+ChooseStickerMyStickerSets	My sticker sets
+ChooseStickerMyEmojiPacks	My emoji packs
+AddEmojiPackHeader	Add emoji pack by link
+AddGroupEmojiPackHint	All members will be able to use these emoji in the group, even if they don\'t have Telegram Premium.
+AddEmojiPackLinkHint	emojiset
+Invisible	invisible
+SupportStatus	support
+Typing	typing...
+IsTyping	is typing...
+AreTyping	are typing...
+IsTypingGroup	%1$s is typing...
+AreTypingGroup	%1$s are typing...
+IsRecordingAudio	%1$s is recording a voice message...
+IsRecordingRound	%1$s is recording a video message...
+IsSendingAudio	%1$s is sending audio...
+IsSendingPhoto	%1$s is sending photo...
+InstantView	INSTANT VIEW
+OpenGroup	VIEW GROUP
+OpenBackground	VIEW BACKGROUND
+OpenTheme	VIEW THEME
+OpenChannel	VIEW CHANNEL
+OpenChannelDirect	CONTACT CHANNEL
+OpenMessage	VIEW MESSAGE
+OpenBot	OPEN BOT
+OpenAIStyle	VIEW STYLE
+OpenInstantView	Instant View
+OpenLocalInstantView	Instant View
+SponsoredMessage	sponsored
+SponsoredMessage2	Sponsored
+SponsoredMessage2Recommended	Recommended
+SponsoredMessageAd	Ad
+SponsoredMessageAdWhatIsThis	what\'s this?
+SponsoredMessageSponsor	Advertiser Info
+SponsoredMessageSponsorReportable	Sponsor Info
+SponsoredMessageInfo	What are sponsored\nmessages?
+SponsoredMessageInfo2Description1	Unlike other apps, Telegram never uses your private data to target ads. [Learn more in the Privacy Policy](https://telegram.org/privacy#5-6-no-ads-based-on-user-data)
+SponsoredMessageInfo2Description2	Unlike other apps, Telegram doesn\'t track whether you tapped on a sponsored message and doesn\'t profile you based on your activity. We also prevent external links in sponsored messages to ensure that third parties can’t spy on our users. We believe that everyone has the right to privacy, and technological platforms should respect that.
+SponsoredMessageInfo2Description3	Telegram offers free and unlimited service to hundreds of millions of users, which involves significant server and traffic costs. In order to remain independent and stay true to its values, Telegram developed a paid tool to promote messages with user privacy in mind. We welcome responsible advertisers at:
+SponsoredMessageInfo2Description4	Ads should no longer be synonymous with abuse of user privacy. Let us redefine how a tech company should operate – together.
+SponsoredMessageAlertLearnMore	LEARN MORE
+SponsoredMessageAlertLearnMoreUrl	https://telegram.org
+RevenueSharingAdsAlertSubtitle	Telegram Ads are very different from ads on other platforms. Ads such as this one:
+RevenueSharingAdsInfo1Title	Respect Your Privacy
+RevenueSharingAdsInfo1Subtitle	Ads on Telegram do not use your personal information and are based on the channel in which you see them.
+RevenueSharingAdsInfo2Title	Help the Channel Creator
+RevenueSharingAdsInfo2Subtitle	50% of the revenue from Telegram Ads goes to the owner of the channel where they are displayed.
+RevenueSharingAdsInfo3Title	Can Be Removed
+RevenueSharingAdsInfo3Subtitle	You can turn off ads by subscribing to **Telegram Premium**, and Level %1$s channels can remove them for their subscribers.
+RevenueSharingAdsInfo3SubtitleBot	You can turn off ads by subscribing to **Telegram Premium**.
+RevenueSharingAdsInfo4Title	Can I Launch an Ad?
+RevenueSharingAdsInfo4TitleBot	Can I Launch an Ad?
+RevenueSharingAdsInfo4Subtitle2	Anyone can create an ad to display in this channel — with minimal budgets. Check out the **Telegram Ad Platform** for details. %1$s
+RevenueSharingAdsInfo4SubtitleLearnMore	**Learn More >**
+RevenueSharingAdsAlertButton	Understood
+RevenueSharingAdsInfo1TitleBot	Respect Your Privacy
+RevenueSharingAdsInfo1SubtitleBot	Ads on Telegram do not use your personal information and are based on the bot in which you see them.
+RevenueSharingAdsInfo2TitleBot	Help the Bot Creator
+RevenueSharingAdsInfo2SubtitleBot	50% of the revenue from Telegram Ads goes to the owner of the bot where they are displayed.
+RevenueSharingAdsInfo4Subtitle2Bot	Anyone can create an ad to display in this bot — with minimal budgets. Check out the **Telegram Ad Platform** for details. %1$s

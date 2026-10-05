@@ -1,0 +1,600 @@
+NotificationActionPinnedVideo	%1$s pinned a video in the group %2$s
+NotificationActionPinnedFile	%1$s pinned a file in the group %2$s
+NotificationActionPinnedSticker	%1$s pinned a sticker in the group %2$s
+NotificationActionPinnedStickerEmoji	%1$s pinned a %3$s sticker in the group %2$s
+NotificationActionPinnedVoice	%1$s pinned a voice message in the group %2$s
+NotificationActionPinnedRound	%1$s pinned a video message in the group %2$s
+NotificationActionPinnedContact2	%1$s pinned a contact %3$s in the group %2$s
+NotificationActionPinnedGeo	%1$s pinned a map in the group %2$s
+NotificationActionPinnedGeoLive	%1$s pinned a live location in the group %2$s
+NotificationActionPinnedGif	%1$s pinned a GIF in the group %2$s
+NotificationActionPinnedMusic	%1$s pinned an audio file in the group %2$s
+NotificationActionPinnedInvoice	%1$s pinned an invoice in the group %2$s
+NotificationActionPinnedTextChannel	%1$s pinned \"%2$s\"
+NotificationActionPinnedNoTextChannel	%1$s pinned a message
+NotificationActionPinnedPollChannel2	%1$s pinned a poll %2$s
+NotificationActionPinnedTodoChannel2	%1$s pinned a checklist %2$s
+NotificationActionPinnedQuizChannel2	%1$s pinned a quiz %2$s
+NotificationActionPinnedPhotoChannel	%1$s pinned a photo
+NotificationActionPinnedGameChannel	%1$s pinned a game
+NotificationActionPinnedGameScoreChannel	%1$s pinned a game score
+NotificationActionPinnedVideoChannel	%1$s pinned a video
+NotificationActionPinnedFileChannel	%1$s pinned a file
+NotificationActionPinnedInvoiceChannel	%1$s pinned an invoice
+NotificationActionPinnedStickerChannel	%1$s pinned a sticker
+NotificationActionPinnedStickerEmojiChannel	%1$s pinned a %2$s sticker
+NotificationActionPinnedVoiceChannel	%1$s pinned a voice message
+NotificationActionPinnedRoundChannel	%1$s pinned a video message
+NotificationActionPinnedContactChannel2	%1$s pinned a contact %2$s
+NotificationActionPinnedGeoChannel	%1$s pinned a map
+NotificationActionPinnedGeoLiveChannel	%1$s pinned a live location
+NotificationActionPinnedGifChannel	%1$s pinned a GIF
+NotificationActionPinnedMusicChannel	%1$s pinned an audio file
+NotificationActionPinnedTextUser	%1$s pinned \"%2$s\"
+NotificationActionPinnedNoTextUser	%1$s pinned a message
+NotificationActionPinnedPollUser	%1$s pinned a poll %2$s
+NotificationActionPinnedTodoUser	%1$s pinned a checklist %2$s
+NotificationActionPinnedQuizUser	%1$s pinned a quiz %2$s
+NotificationActionPinnedPhotoUser	%1$s pinned a photo
+NotificationActionPinnedGameUser	%1$s pinned a game
+NotificationActionPinnedGameScoreUser	%1$s pinned a game score
+NotificationActionPinnedVideoUser	%1$s pinned a video
+NotificationActionPinnedFileUser	%1$s pinned a file
+NotificationActionPinnedInvoiceUser	%1$s pinned an invoice
+NotificationActionPinnedStickerUser	%1$s pinned a sticker
+NotificationActionPinnedStickerEmojiUser	%1$s pinned a %2$s sticker
+NotificationActionPinnedVoiceUser	%1$s pinned a voice message
+NotificationActionPinnedRoundUser	%1$s pinned a video message
+NotificationActionPinnedContactUser	%1$s pinned a contact %2$s
+NotificationActionPinnedGeoUser	%1$s pinned a map
+NotificationActionPinnedGeoLiveUser	%1$s pinned a live location
+NotificationActionPinnedGifUser	%1$s pinned a GIF
+NotificationActionPinnedMusicUser	%1$s pinned an audio file
+NotificationActionMissedCallConference	You missed a call from %1$s
+NotificationActionMissedCallConferenceOther_one	You missed a call from %2$s and %1$d other
+NotificationActionMissedCallConferenceOther_other	You missed a call from %2$s and %1$d others
+SecretChatName	Telegram
+SelectContact	Select Contact
+ShareContactTitle	Share Contact
+AddContactPhonebookTitle	Add Contact
+NoContacts	No contacts yet
+InviteText2	Hey, I\'m using Telegram to chat. Join me! Download it here: %1$s
+TodayAt	at
+YesterdayAt	yesterday at
+TodayAtFormatted	at %1$s
+TodayAtFormattedWithToday	today at %1$s
+YesterdayAtFormatted	yesterday at %1$s
+Online	online
+LastSeen	last seen
+LastSeenDate	last seen
+LastSeenFormatted	last seen %1$s
+LastSeenDateFormatted	last seen %1$s
+InviteFriends	Invite Friends
+SearchFriends	Search contacts
+GlobalSearch	Global search
+ShowMore	Show more
+ShowLess	Show less
+Lately	last seen recently
+WithinAWeek	last seen within a week
+WithinAMonth	last seen within a month
+ALongTimeAgo	last seen a long time ago
+NewMessageTitle	New Message
+InviteFriendsHelp	Select contacts to invite them to Telegram
+InviteToTelegram	INVITE TO TELEGRAM
+ShareTelegram2	Share Telegram
+UpdateContactsTitle	Update contacts?
+UpdateContactsMessage	Telegram has detected many unsynced contacts, would you like to sync them now? Choose \'OK\' if you\'re using your own device, SIM card and Google account.
+SortedByName	Sorted by name
+SortedByLastSeen	Sorted by last seen time
+AddContactByPhone	Add %1$s
+PhoneNumberSearch	Phone number
+NoContactsYet2Invite	Invite Friends >
+NoContactsYet3	Add Contacts
+NoContactsYet3Sub	You have no contacts on Telegram yet. How about adding them?
+NewContactAlertTitle	New contact
+NewContactAlertMessage	Phone number **%1$s** is not in your contacts list. Do you want to add it?
+NewContactAlertButton	Add contact
+Gift2AvailabilitySold_other	%d sold
+Gift2AvailabilityLeft_other	%d left
+SendMessageTo	Add people...
+SoftUserLimitAlert	You will be able to add more users after you finish creating the group and convert it to a supergroup.
+GigagroupAlertText	Your group has reached the limit of **200,000** members.\n\nYou can increase this limit by converting the group to a **broadcast group** where only admins can post.\nInterested?
+GigagroupAlertTitle	Limit reached
+GigagroupAlertLearnMore	LEARN MORE
+BroadcastGroup	Broadcast Group
+BroadcastGroupConvert	Convert to Broadcast Group
+BroadcastGroupConvertInfo	Broadcast groups can have over 200,000 members, but only admins can send messages in them.
+BroadcastGroupInfo	Only admins can send messages in this group.
+BroadcastGroupConvertSuccess	Your group can now have more than 200,000 members.
+EnterGroupNamePlaceholder	Enter group name
+GroupName	Group name
+MembersCountZero	up to %1$s
+JoinToGroupErrorFull	Sorry, this group is already full.
+JoinToGroupErrorNotExist	Sorry, this chat does not seem to exist.
+JoinByPeekChannelText	This channel is private. Please join it to continue viewing its content.
+JoinByPeekGroupText	This group is private. Please join it to continue viewing its content.
+JoinByPeekChannelTitle	Join Channel
+JoinByPeekGroupTitle	Join Group
+JoinByPeekJoin	JOIN
+LinkCopied	Link copied to clipboard
+LinkCopiedPrivate	Link copied to clipboard.\nThis link will only work for members of this chat.
+LinkCopiedPrivateInfo	This link will only work for members of this chat.
+LinkNotFound	Unfortunately, you can\'t access this message. You are not a member of the chat where it was posted.
+PhoneCopied	Phone copied to clipboard
+EmailCopied	Email copied to clipboard
+InviteToGroupByLink	Invite to Group via Link
+InviteLink	Invite Link
+InviteLinkPrivate	Invite Link only works for group members
+InviteLinks	Invite Links
+RevokeAlert	Are you sure you want to revoke this link? Once the link is revoked, no one will be able to join using it.
+RevokeAlertNewLink	The previous invite link is now inactive. A new link has been generated.
+RevokeButton	Revoke
+RevokeLink	Revoke Link
+RevokeLinkAlert	Are you sure you want to revoke the link **%1$s**?\n\nThe group \"**%2$s**\" will become private.
+RevokeLinkAlertChannel	Are you sure you want to revoke the link **%1$s**?\n\nThe channel \"**%2$s**\" will become private.
+LeaveAffiliateLinkButton	Leave
+LeaveAffiliateLink	Revoke Link
+LeaveAffiliateLinkAlert	Are you sure you want to revoke the link of **%1$s**?
+CopyLink	Copy Link
+CopyMail	Copy E-Mail
+CopyHashtag	Copy Hashtag
+CopyNumber	Copy Number
+ShareLink	Share Link
+ShareLinks	Share Links
+LinkInfo	Anyone who has Telegram installed will be able to join your group by following this link.
+SearchForPeople	Search for people...
+SearchForPeopleAndGroups	Search for users and groups...
+GigagroupConvertTitle	Broadcast Groups
+GigagroupConvertInfo1	No limit on the number of members.
+GigagroupConvertInfo2	Only admins can send messages.
+GigagroupConvertInfo3	Can\'t be turned back into a regular group.
+GigagroupConvertProcessButton	Convert to Broadcast Group
+GigagroupConvertCancelButton	Leave as regular group
+GigagroupConvertAlertTitle	Are you sure?
+GigagroupConvertAlertText	Regular members of the group (non-admins) will **irrevocably** lose their right to post messages in the group.\n\nThis action **can\'t** be undone.
+GigagroupConvertAlertConver	CONVERT
+GigagroupConvertCancelHint	If you change your mind, go to the settings of your group.
+GroupMembers	Members
+SharedMedia	Shared Media
+SETTINGS	Settings
+AddSubscriber	Add subscriber
+AddMember	Add Member
+BanFromTheGroupNoCaps	Ban from the group
+DeleteAndExit	Delete and leave group
+DeleteAndExitButton	Delete and Leave Group
+Notifications	Notifications
+ChangePermissions	Change permissions
+KickFromGroup	Remove from group
+ShareContact	Share contact
+AddContact	Add to contacts
+AddContactTitle	Add Contact
+ContactNotRegisteredTitle	Invite to Telegram
+ContactNotRegistered	%1$s is not on Telegram yet, would you like to invite them to join?
+Invite	Invite
+Block	BLOCK
+BlockAndDeleteReplies	BLOCK AND DELETE REPLIES
+BlockContact	Block user
+BlockUser	Block user
+BlockUsers	Block users
+BlockUserMessage	Do you want to block **%1$s** from messaging and calling you on Telegram?
+BlockUsersMessage	Do you want to block **%1$s** from messaging and calling you on Telegram?
+UserBlocked	User blocked
+UserUnblocked	User unblocked
+EditContact	Edit Contact
+DeleteContact	Delete Contact
+StoryDeleteContact	Delete Contact
+PhoneHome	Home
+PhoneMobile	Mobile
+PhoneWork	Work
+PhoneOther	Other
+PhoneMain	Main
+ContactJob	Job
+ContactBirthday	Birthday
+ContactJobTitle	Title
+ContactUrl	URL
+ContactNote	Note
+CreateNewContact	Create New Contact
+NewContact	New Contact
+AddToExistingContact	Add to Existing Contact
+UserBio	Bio
+UserBioDetail	Add a few words about yourself
+UserBioInfo	You can add a few lines about yourself. Anyone who opens your profile will see this text.
+StartEncryptedChat	Start Secret Chat
+NoGroupsInCommon	No common groups
+CreateEncryptedChatError	An error occurred.
+EncryptionKey	Encryption Key
+MessageLifetime	Self-Destruct Timer
+ShortMessageLifetimeForever	Off
+EncryptionKeyDescription	This image and text were derived from the encryption key for this secret chat with **%1$s**.\n\nIf they look the same on **%2$s\'s** device, end-to-end encryption is guaranteed.\n\nLearn more at telegram.org
+EncryptionKeyLink	https://telegram.org/faq#secret-chats
+NumberUnknown	Unknown
+PhoneHidden	Unknown
+MobileHidden	Mobile hidden
+MobileHiddenExceptionInfo	Phone number will be visible once %1$s adds you as a contact.
+MobileVisibleInfo	When you tap **DONE**, your phone number will become visible to %1$s.
+SharePhoneNumberWith	Share my phone number with %1$s
+NowInContacts	%1$s is now in your contact list.
+Info	Info
+Phone	Phone
+SharedContent	Shared content
+SharedLinks	Links
+SendMessageLocation	Send Message
+ReportUserLocation	Report
+InviteLinkCount_one	%1$d invite link
+InviteLinkCount_other	%1$d invite links
+EmojiCopied	Emoji copied to clipboard.
+UsernameCopied	Username copied to clipboard.
+HashtagCopied	Hashtag copied to clipboard.
+BioCopied	Bio copied to clipboard.
+BirthdayCopied	Birthday copied to clipboard.
+DeletedFromYourContacts	%s deleted from your contacts
+Username	Username
+UsernameAlso	also %1$s
+UsernameLinkPlaceholder	username
+UsernameInUse	Sorry, this username is already taken.
+UsernameInUsePurchase	This link is already taken.\nHowever, it is currently available for purchase. **Learn more…**
+UsernameInvalid	Sorry, this username is invalid.
+UsernameInvalidShort	A username must have at least 5 characters.
+UsernameInvalidShortPurchase	A username must have at least 5 characters.\nHowever, it is currently available for purchase. **Learn more…**
+UsernameInvalidLong	The username must not exceed 32 characters.
+UsernameInvalidStartNumber	Sorry, a username can\'t start with a number.
+UsernameHelp	You can choose a username on **Telegram**. If you do, other people will be able to find you by this username and contact you without knowing your phone number.\n\nYou can use **a–z**, **0–9** and underscores. Minimum length is **5** characters.
+UsernameHelpLink	This link opens a chat with you:\n%1$s
+UsernameChecking	Checking username...
+UsernameAvailable	%1$s is available.
+UsernameEmpty	None
+ErrorOccurred	An error occurred.
+None	None
+StickersName	Stickers
+StickersSettings	Settings
+LoopAnimatedStickers	Loop Animated Stickers
+LoopAnimatedStickersInfo	Animated stickers will play in chat continuously.
+AddStickers	Add Stickers
+AddStickersCount	Add %1$s
+AddManyStickersCount_one	Add sticker
+AddManyStickersCount_other	Add %1$d stickers
+RemoveManyStickersCount_one	Remove sticker
+RemoveManyStickersCount_other	Remove %1$d stickers
+AddManyEmojiCount_one	Add emoji
+AddManyEmojiCount_other	Add %1$d emoji
+AddManyEmojiPacksCount_one	Add emoji pack
+AddManyEmojiPacksCount_other	Add %1$d emoji packs
+RemoveManyEmojiCount_one	Remove emoji
+RemoveManyEmojiCount_other	Remove %1$d emoji
+RemoveManyEmojiPacksCount_one	Remove emoji pack
+RemoveManyEmojiPacksCount_other	Remove %1$d emoji packs
+AddManyMasksCount_one	Add mask
+AddManyMasksCount_other	Add %1$d masks
+RemoveManyMasksCount_one	Remove mask
+RemoveManyMasksCount_other	Remove %1$d masks
+EditSticker	Edit Sticker
+EditStickers	Edit Stickers
+DeleteSticker	Delete Sticker
+NewStickerPack	New Sticker Pack
+EditStickerPack	Edit Sticker Pack
+AddMasks	Add Masks
+AddToStickers	Add to Stickers
+AddToStickerPack	Add to Sticker Pack
+AddToFavorites	Add to Favorites
+AddedToFavorites	Sticker was added to Favorites
+RemovedFromFavorites	Sticker was removed from Favorites
+RemovedFromRecent	Sticker was removed from Recent
+RecentStickers	Recently Used
+FavoriteStickers	Favorites
+CurrentGroupStickers	Group Stickers
+OtherStickers	More Stickers
+DeleteFromFavorites	Delete from Favorites
+DeleteFromRecent	Delete from Recent
+RemoveFromRecent	Remove from Recent
+ClearRecentStickersAlertTitle	Clear recent stickers
+AddToMasks	Add to Masks
+AddStickersNotFound	Stickers not found
+AddEmojiNotFound	Emoji pack not found.
+StickersCreateNewSticker	Create a New Sticker
+StickersReplaceSticker	Replace Sticker
+StickersAddAnExistingSticker	Add an Existing Sticker
+StickersDeleteStickerSetTitle	Delete Sticker Set
+StickersDeleteStickerSetDescription	This will delete the sticker set for all users.
+StickersSetEmojiForSticker	Set emoji that corresponds to your sticker
+StickersChooseNameForStickerPack	Choose a name for your pack.
+StickersStickerAddedToSetToast	Sticker added to %1$s sticker set.
+StickersStickerEditedInSetToast	Sticker edited in %1$s sticker set.
+StickersRemoved	Stickers removed.
+StickersRemovedInfo	%1$s is no longer in your stickers.
+MasksRemoved	Masks removed.
+MasksRemovedInfo	%1$s is no longer in your masks.
+EmojiRemoved	Emoji removed.
+EmojiRemovedInfo	%1$s is no longer in your emoji packs.
+EmojiRemovedMultipleInfo_one	%1$d emoji pack is no longer in your emoji.
+EmojiRemovedMultipleInfo_other	%1$d emoji packs are no longer in your emoji.
+StickersArchived	Stickers archived.
+StickersArchivedInfo	%1$s has been moved to your archive.
+EmojiArchived	Emoji archived.
+EmojiArchivedInfo	%1$s has been moved to your archive.
+MasksArchived	Masks archived.
+MasksArchivedInfo	%1$s has been moved to your archive.
+AddStickersInstalled	Stickers added.
+AddStickersInstalledInfo	%1$s has been added to your stickers.
+AddMasksInstalled	Masks added.
+AddMasksInstalledInfo	%1$s has been added to your masks.
+AddEmojiInstalled	Emoji added.
+AddEmojiInstalledInfo	%1$s has been added to your emoji packs.
+AddEmojiMultipleInstalledInfo_one	%1$d emoji pack has been added to your emoji.
+AddEmojiMultipleInstalledInfo_other	%1$d emoji packs have been added to your emoji.
+StickersDeleteForEveryone	Delete for everyone
+StickersCheckStickersBotForMoreOptions	Check **@stickers** bot for more options
+StickersRemoveForMe	Remove for me
+StickersHide	Archive
+StickersShare	Share
+StickersCopy	Copy link
+StickersReorder	Reorder
+StickersRemove	Remove
+StickersReorderHint	Move stickers to reorder.
+NoStickers	No stickers yet
+NoStickersFound	No stickers found
+NoGIFsFound	No GIFs found
+NoEmojiFound	No emoji found
+NoReactionsFound	No reactions found
+NoEffectsFound	No effects found
+EmojiSuggestions	Emoji suggestions
+EmojiSuggestionsInfo	**Telegram** lets you find emoji by thousands of keywords, but there is always something missing. If you want to suggest a new emoji replacement, you can help us by visiting:
+EmojiSuggestionsUrl	https://translations.telegram.org/%1$s/emoji
+Masks	Masks
+MasksInfo	You can add masks to photos you send. To do this, open the photo editor before sending a photo.
+FeaturedStickers	Trending Stickers
+FeaturedEmojiPacks	Trending Emoji Packs
+FeaturedGifs	Trending GIFs
+ShowMoreStickers	Show More Stickers
+ShowMoreEmojiPacks	Show More Emoji
+SuggestStickers	Suggest stickers by emoji
+SuggestStickersAll	All Sets
+SuggestStickersInstalled	My Sets
+SuggestStickersNone	None
+SuggestAnimatedEmoji	Suggest Animated Emoji
+SuggestAnimatedEmojiInfo	Each time you enter an emoji you can replace it with an alternative animated emoji.
+StickersBotInfo	Artists are welcome to add their own sticker sets using our @stickers bot.
+EmojiBotInfo	Artists are welcome to add their own emoji packs using our @stickers bot.
+ArchivedStickers	Archived Stickers
+ArchivedMasks	Archived Masks
+ArchivedEmojiPacks	Archived Emoji Packs
+ArchivedStickersEmpty	No archived stickers
+ArchivedMasksEmpty	No archived masks
+ArchivedStickersInfo	You can add up to 200 sticker sets.\nUnused sets are archived when you add more.
+ArchivedEmojiInfo	You can add up to 200 emoji packs.\nUnused packs are archived when you add more.
+ArchivedMasksInfo	You can have up to 200 sets of masks.\nUnused sets are archived when you add more.
+SendSticker	SEND STICKER
+ArchivedStickersAlertTitle	Archived stickers
+ArchivedStickersAlertInfo	Some of your older sticker sets have been archived. You can reactivate them in the Stickers Settings.
+ArchivedMasksAlertTitle	Archived masks
+ArchivedMasksAlertInfo	Some of your older masks sets have been archived. You can reactivate them in the Masks Settings.
+DeleteStickerSetsAlertTitle	Delete %1$s
+DeleteStickersAlertMessage	Are you sure you want to delete the selected sticker sets?
+ArchiveStickerSetsAlertTitle	Archive %1$s
+ArchiveStickersAlertMessage	Are you sure you want to archive the selected sticker sets?
+ImportStickers	IMPORT %1$s
+ImportStickersProcessing	Processing stickers...
+ImportStickersRemove	REMOVE FROM IMPORT
+ImportStickersRemoveMenu	Remove from import
+ImportStickersEnterName	Enter name
+ImportStickersEnterNameInfo	Please choose a name for your set.
+ImportStickersEnterUrlInfo	You can use a-z, 0-9 and underscores.
+ImportStickersLinkInvalid	Sorry, this link is invalid.
+ImportStickersLinkInvalidShort	Link must have at least 5 characters.
+ImportStickersLinkInvalidLong	Link must not exceed 32 characters.
+ImportStickersLinkChecking	Checking link...
+ImportStickersLinkAvailable	This link is available.
+ImportStickersLinkTaken	Sorry, this link is already taken.
+ImportStickersImportingTitle	Importing stickers
+ImportStickersDoneTitle	Stickers imported successfully!
+ImportStickersDoneInfo	Import more stickers to Telegram and share them with your friends.
+Theme	Theme
+AutoNightTheme	Auto-Night Mode
+AutoNightThemeOff	Off
+AutoNightDisabled	Disabled
+AutoNightScheduled	Scheduled
+AutoNightAdaptive	Adaptive
+AutoNightSchedule	Schedule
+AutoNightSystemDefault	System Default
+AutoNightLocation	Use Local Sunset &amp; Sunrise
+AutoNightUpdateLocation	Update Location
+AutoNightUpdateLocationInfo	Calculating sunset &amp; sunrise times requires a one-time check of your approximate location. Note that this location is only stored locally on your device.\n\nSunset: %1$s\nSunrise: %2$s
+AutoNightFrom	From
+AutoNightTo	To
+AutoNightPreferred	Preferred night theme
+AutoNightBrightness	Brightness threshold
+AutoNightBrightnessInfo	Switch to your preferred night theme when ambient lighting falls below %1$d%%.
+ThemeDark	Dark
+ThemeDay	Day
+ThemeNight	Night
+ThemeArcticBlue	Arctic
+ThemeClassic	Classic
+DeleteThemeTitle	Delete theme
+DeleteThemeAlert	Are you sure you want to delete this theme?
+IncorrectTheme	Incorrect theme file
+EnterThemeNameEdit	Tap **Create** if you want to share your theme with others or customize each color manually.\n\nPlease enter theme name:
+EnterThemeName	Enter theme name
+CloseEditor	CLOSE EDITOR
+SaveTheme	SAVE THEME
+NewTheme	New color theme
+ColorTheme	Color theme
+ColorThemeChanged	Color theme changed.
+ColorThemeChangedInfo	You can change it back in *Chat Settings*.
+ThemeSetUrl	Set link
+BubbleRadius	Message corners
+ChatList	Chat list view
+ChatListDefault	Two lines
+ChatListExpanded	Three lines
+CreateTheme	Create Theme
+ApplyTheme	Apply
+ThemePreview	Theme Preview
+SelectColor	Select color
+SelectSticker	Select sticker
+SelectEmoji	Select emoji
+ThemeNotFound	Theme not found
+ThemeNotSupported	Sorry, this color theme doesn’t support your device yet.
+CreateNewThemeMenu	Create new theme
+NewThemeTitle	New Theme
+EditThemeTitle	Edit Theme
+CreateNewThemeHelp	Tap on the palette icon to view the list of elements on each screen - and edit them.
+CreateNewThemeAlert	You can create your own theme by changing colors within the app.\n\nYou can always switch back to the default Telegram theme here.
+ThemeSetUrlHelp	You can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.
+ThemeHelpLink	Your theme will be updated for all users each time you change it. Anyone can install it using this link:\n%1$s
+ThemeCreateHelp	Anyone can install your theme using this link. When you change the theme, it will be updated for all users who installed it.\n\nThe theme will be based on your currently selected theme and wallpaper.
+ThemeCreateHelp2	You can change the link of your theme.\n\nTheme links must be longer than 5 characters and can use a-z, 0-9 and underscores.
+ThemeNameInvalid	Sorry, theme name is invalid.
+SetUrlInvalid	Sorry, this link is invalid.
+SetUrlInvalidShort	A link must have at least 5 characters.
+SetUrlInvalidLong	The link must not exceed 64 characters.
+SetUrlInvalidStartNumber	Sorry, the link can\'t start with a number.
+SetUrlChecking	Checking link...
+SetUrlInUse	Sorry, this link is already taken.
+SetUrlAvailable	%1$s is available.
+SetUrlPlaceholder	Link
+ThemeNamePlaceholder	Name
+ThemePreviewDialog1	Eva Summer
+ThemePreviewDialogMessage1	Reminds me of a Chinese prove...
+ThemePreviewDialog2	Your inner Competition
+ThemePreviewDialogMessage2	hey, I\'ve updated the source code.
+ThemePreviewDialog3	Mike Apple
+ThemePreviewDialogMessage3	&#129335;&#8205;&#9794;&#65039; Sticker
+ThemePreviewDialog4	Paul Newman
+ThemePreviewDialogMessage4	Any ideas?
+ThemePreviewDialog5	Old Pirates
+ThemePreviewDialogMessage5	Yo-ho-ho!
+ThemePreviewDialog6	Kate Bright
+ThemePreviewDialogMessage6	Hola!
+ThemePreviewDialog7	Nick K
+ThemePreviewDialogMessage7	These are not the droids you are looking for.
+ThemePreviewDialog8	Adler Toberg
+ThemePreviewDialogMessage8	Did someone say peanut butter?
+ThemePreviewLine1	Reinhardt, we need to find you some new tunes &#127926;.
+ThemePreviewLine2	I can\'t even take you seriously right now.
+ThemePreviewLine3	Ah, you kids today with techno music! You should enjoy the classics, like Hasselhoff!
+ThemePreviewLine3Reply	Lucio
+ThemePreviewLine4	Bring it on! I LIVE for this!
+ThemePreviewSongTitle	True Survivor
+ThemePreviewSongPerformer	David Hasselhoff
+NewThemePreviewName	Bob Harris
+NewThemePreviewReply	Good morning! &#128075;
+NewThemePreviewReply2	Good morning
+NewThemePreviewLine1	Do you know what time it is?
+NewThemePreviewLine3	It\'s morning in *Tokyo* &#128526;
+UseDifferentTheme	Use a different theme
+UseDifferentThemeInfo	You can also use an existing custom theme as a foundation for your theme.
+ChooseTheme	Choose theme
+ExportTheme	Export
+Create	Create
+ColorPickerMainColor	Accent Color
+ColorPickerBackground	Background
+ColorPickerMyMessages	My Messages
+ChangeWallpaperToColor	Are you sure you want to change your chat wallpaper to a color?
+ChangeColorToColor	Do you want to use your currently selected background or reset it to the default for this theme?
+ShareTheme	Share theme
+EditThemeColors	Edit colors
+ThemeResetToDefaults	Reset to default
+ThemeResetToDefaultsTitle	Reset settings
+ThemeResetToDefaultsText	Are you sure you want to reset text size and color settings?
+DeleteTheme	Delete theme
+OpenInEditor	Open in editor
+SaveChangesAlertTitle	Save changes?
+SaveChangesAlertText	Do you want to apply the new colors you chose?
+ResetNotificationsText	All notification settings reset to default
+ResetNotificationsAlertTitle	Reset all notifications
+ResetNotificationsAlert	Are you sure you want to reset all notification settings to default?
+ResetCustomNotifications	Reset to default settings
+ResetCustomNotificationsAlertTitle	Reset notifications
+ResetCustomNotificationsAlert	Are you sure you want to reset notification settings to default?
+TextSizeHeader	Message text size
+AskAQuestion	Ask a Question
+QuizExplanationTitle	Explanation
+AddAnExplanationHeader	Explanation
+AddAnExplanation	Add an explanation
+AddAnExplanationInfo	Users will see this text after choosing the wrong answer, good for educational purposes.
+EnableAnimations	Enable Animations
+ChatSettings	Chat Settings
+Devices	Devices
+SettingsHelp	Help
+SettingsDebug	Debug
+Account	Account
+Unblock	Unblock
+NoBlocked	No blocked users yet
+Alert	Show notifications
+MessagePreview	Message Preview
+NotificationShowSenderNames	Show Senders Name
+StoryAutoExceptions	Automatic Exceptions
+StoryAutoExceptionsInfo	Automatically enable story notifications from 5 users you contact most frequently.
+Sound	Sound
+InAppNotifications	In-app notifications
+InAppSounds	In-App Sounds
+InAppVibrate	In-App Vibrate
+Vibrate	Vibrate
+InAppPreview	In-App Preview
+InAppPopup	In-App Pop on Screen
+InAppPopupInfo	Show pop-up notifications while in app.
+Reset	Reset
+ResetAllNotifications	Reset All Notifications
+UndoAllCustom	Undo all custom notification settings for all your contacts, groups and channels.
+NotificationsAndSounds	Notifications and Sounds
+CustomNotifications	Custom Notifications
+ProfilePopupNotification	Popup notifications
+ProfilePopupNotificationInfo	New messages from this contact will appear on your screen when you are not using Telegram.
+NotificationsLed	LED
+NotificationsLedColor	Color
+ColorBlue	Blue
+ColorRed	Red
+ColorYellow	Yellow
+ColorGreen	Green
+ColorCyan	Cyan
+ColorWhite	White
+ColorPink	Pink
+FontSize	Font Size
+FontType	Font Type
+ColorViolet	Violet
+ColorOrange	Orange
+NotificationsLedInfo	LED is a small blinking light on some devices that is used to indicate new messages.
+PriorityInfo	Higher priority notifications will work even if your phone is in Do Not Disturb mode.
+General	General
+NotificationsMuted	Muted
+NotificationsUnmuted	Unmuted
+NotificationsOn	On
+NotificationsOff	Off
+NotificationsOffUntil	Off until %1$s
+NotificationsTurnOn	Turn On
+NotificationsTurnOff	Turn Off
+BlockedUsers	Blocked Users
+BlockedUsersInfo	Blocked users will not be able to contact you and will not see your Last Seen time.
+BlockUserMultiTitle	Block User
+BlockUserChatsTitle	CHATS
+BlockUserContactsTitle	CONTACTS
+LogOut	Log out
+NoSound	No sound
+Default	Default
+Support	Support
+OnlyIfSilent	Only if silent
+BackgroundBlurred	Blurred
+BackgroundMotion	Motion
+ChangeChatBackground	Change Chat Background
+ChangeUserNameColor	Change Your Color
+ChangeChannelNameColor2	Appearance
+ChangeGroupAppearance	Appearance &amp; Emoji
+ChannelAutotranslation	Auto-Translate Messages
+ChatBackground	Chat Background
+ResetChatBackgrounds	Reset Chat Backgrounds
+ResetChatBackgroundsInfo	Remove all uploaded chat backgrounds and restore the pre-installed ones.
+ResetChatBackgroundsAlertTitle	Reset chat backgrounds
+ResetChatBackgroundsAlert	Are you sure you want to reset all chat backgrounds?
+DeleteChatBackgroundsAlert	Are you sure you want to delete the selected backgrounds?
+BackgroundPreview	Wallpaper
+BackgroundPreviewLine1	Hint: some background images look better when blurred.
+BackgroundPreviewLine2	Woo-hoo! Thanks
+FontSizePreviewName	Bob Harris
+FontSizePreviewReply	Good morning! &#128075;
+FontSizePreviewLine1	Do you know what time it is?
+FontSizePreviewLine2	It\'s morning in Tokyo &#128526;
+BackgroundColorSinglePreviewLine1	Press \'Set\' to apply the background.
+BackgroundColorSinglePreviewLine2	Enjoy the view.
+SearchByColor	Search by color
+SearchBackgrounds	Search Backgrounds
+BackgroundSearchColor	Color:
+BackgroundColors	Colors
+BackgroundAnimateInfo	Colors will move when you send messages

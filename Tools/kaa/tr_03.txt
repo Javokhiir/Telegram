@@ -1,0 +1,572 @@
+PromoteUrl	https://ads.telegram.org
+InstantViewReference	Silteme
+InstantViewReferences	Siltemeler
+IsSendingGame	%1$s oyın oynap atır...
+IsSelectingLocation	%1$s jiberiw ushın jaylasıw tańlap atır...
+IsSelectingContact	%1$s jiberiw ushın kontakt tańlap atır...
+IsSendingVideo	%1$s video jiberip atır...
+IsRecordingVideo	%1$s video jazıp atır...
+IsSendingFile	%1$s fayl jiberip atır...
+RecordingAudio	dawıslı xabar jazıp atır...
+RecordingRound	video xabar jazıp atır...
+SendingAudio	audio jiberip atır...
+SendingPhoto	súwret jiberip atır...
+SendingGame	oyın oynap atır...
+SelectingLocation	jiberiw ushın jaylasıw tańlap atır...
+SelectingContact	jiberiw ushın kontakt tańlap atır...
+SendingVideoStatus	video jiberip atır...
+RecordingVideoStatus	video jazıp atır...
+SendingFile	fayl jiberip atır...
+GotAQuestion	Telegram haqqında\nsorawıńız bar ma?
+ChatGallery	Galereya
+ChatLocation	Jaylasıw
+ChatSticker	Stiker
+ChatLink	Silteme
+ChatEmoji	Emoji
+ChatDocument	Fayl
+NoMessages	Bul jerde ele xabarlar joq...
+NoScheduledMessages	Ele rejelestirilgen xabarlar joq...
+From	Kimnen
+FromFormatted	%1$s den
+SearchFrom	kimnen:
+NoRecent	Sońǵılar joq
+Message	Xabar
+TypeMessage	Xabar
+TypeMessageIn	%1$s degi xabar
+TypeMessageForStars	⭐️%s ushın xabar
+ShareMyPhone	TELEFON NOMERIMDI BÓLISIW
+ShareMyPhoneNoCaps	Telefon nomerimdi bólisiw
+ShareMyContactInfo	Kontaktımdı bólisiw
+AddToContacts	Kontaktlarǵa qosıw
+EncryptedPlaceholderTitleIncoming	%s sizdi jasırın sáwbetke mirát etti.
+EncryptedPlaceholderTitleOutgoing	Siz %s di jasırın sáwbetke mirát ettińiz.
+EncryptedDescriptionTitle	Jasırın sáwbetler:
+EncryptedDescription1	Basınan aqırına shekem shifrlawdı qollanadı
+EncryptedDescription2	Serverlerimizde iz qaldırmaydı
+EncryptedDescription3	Óz-ózin joq etiw taymeri bar
+EncryptedDescription4	Basqaǵa jiberiwge ruqsat bermeydi
+YouWereKicked	siz alıp taslandıńız
+YouLeft	Siz bul topardan shıqtıńız
+DeleteThisGroup	Bul topardı óshiriw
+DeleteThisChat	Bul sáwbetti óshiriw
+DeleteThisChatBothSides	Bul sáwbetti óshiriw
+DeleteTheseChatsBothSides	Sáwbetlerdi óshiriw
+SlideToCancel2	Biykarlaw ushın súyrleń
+CancelRound	Biykarlaw
+SaveToDownloads	Júklemelerge saqlaw
+SaveToGIFs	GIF lerge saqlaw
+SaveToMusic	Muzıkaǵa saqlaw
+ShareFile	Bólisiw
+ApplyLocalizationFile	Til faylın qollanıw
+ApplyThemeFile	Tema faylın qollanıw
+UnsupportedAttachment	Qollap-quwatlanbaytuǵın fayl
+SetTimer	Óz-ózin joq etiw taymerin ornatıw
+ServiceNotifications	Xızmet bildiriwleri
+VerifyCodesNotifications	Tastıyıqlaw kodları
+GettingLinkInfo	Silteme maǵlıwmatı alınbaqta...
+OpenInBrowser	ASHIW...
+OpenInExternalApp	Ashıw...
+PipMinimize	Kishireytiw
+QualitySaveIn	%dp de saqlaw
+QualityCached	・keshte
+VideoPlayerSpeed	Tezlik
+VideoPlayerLoop	Qaytalaw
+VideoPlayerChromecast	Chromecast
+SendAsFile	Fayl retinde jiberiw
+SendAsFiles	Fayllar retinde jiberiw
+OpenUrlTitle	Siltemeni ashıw
+OpenUrlAlert2	%1$s ashılsın ba?
+OpenUrlOption1	%1$s ge **%2$s** retinde kiriw
+OpenUrlOption2	**%1$s** ge maǵan xabar jiberiwge ruqsat beriw
+CancelSending	Jiberiwdi biykarlaw
+BotPermissionGameAlert	%1$s ge bul bot penen ashılatuǵın betlerge Telegram atıńız hám id ńızdı (telefon nomerińizdi emes) beriwge ruqsat beresiz be?
+ReportUnrelatedGroup	Jaylasıwǵa baylanıssız topar haqqında xabarlaw
+ReportUnrelatedGroupText	Eger bul topar mına jaylasıwǵa baylanıslı bolmasa, bizge xabarlań:\n\n**%1$s**
+ReportUnrelatedGroupTextNoAddress	Eger bul topar bul jaylasıwǵa baylanıslı bolmasa, bizge xabarlań.
+ReportSpamTitle	Spam haqqında xabarlaw
+BlockUserTitle	%1$s di bloklaw
+ViewContact	KONTAKTTI KÓRIW
+SharedContactAdd	QOSIW
+SharedContactMessage	XABAR
+ReportSpamLocationNoCaps	Topar jaylasıwǵa baylanıssız ba?
+AddContactFullChatNoCaps	%1$s di kontaktlarǵa qosıw
+AddContactChatNoCaps	Kontakt qosıw
+ReportSpamUserNoCaps	Paydalanıwshını bloklaw
+ReportSpamNoCaps	Spam haqqında xabarlaw
+ReportSpamAndLeaveNoCaps	Spam haqqında xabarlaw hám shıǵıw
+BlockUserAlert	**%1$s** ge Telegram da sizge xabar jazıw hám qońıraw etiwdi bloklaysız ba?
+BlockUserReplyAlert	**%1$s** den kelgen xabarlardı bloklaysız ba?
+ReportSpamAlert	Bul paydalanıwshı haqqında spam xabarlawǵa isenimińiz kámil me?
+ReportSpamAlertGroup	Bul topar haqqında spam xabarlawǵa isenimińiz kámil me?
+ReportSpamAlertChannel	Bul kanal haqqında spam xabarlawǵa isenimińiz kámil me?
+ReportReaction2	Reakciya haqqında xabarlaw
+DeleteReactionMenu	Reakciyanı óshiriw
+ReportAlertReaction	Bul paydalanıwshınıń reakciyası haqqında xabarlawǵa isenimińiz kámil me?
+DeleteAlertReaction	Bul paydalanıwshınıń reakciyasın óshiriwge isenimińiz kámil me?
+DeleteAlertReactionAll	Paydalanıwshınıń barlıq reakciyaların óshiriw
+NobodyLikesSpam1	Keshiriń, házirshe tek óz-ara kontaktlarǵa xabar jibere alasız.
+NobodyLikesSpam2	Keshiriń, házirshe toparlarǵa tek óz-ara kontaktlardı qosa alasız.
+NobodyLikesSpam3	Keshiriń, házirshe ashıq toparlarǵa jazıw sizge sheklengen.
+MoreInfo	Tolıǵıraq
+ShareSendTo	Kimge jiberiw...
+ShareSendToNewTopic	Jańa temaǵa jiberiw
+ShareSendToOffTopic	Temadan tısqarı jiberiw
+ShareSendPhoto	Súwret jiberiw
+ShareSendVideo	Video jiberiw
+ShareSendPhotos_one	%1$d súwret jiberiw
+ShareSendPhotos_other	%1$d súwret jiberiw
+ShareSendVideos_one	%1$d video jiberiw
+ShareSendVideos_other	%1$d video jiberiw
+ShareSendItems_one	%1$d media jiberiw
+ShareSendItems_other	%1$d media jiberiw
+ShareSendToChats	%s ge
+ShareSendToMany_one	%1$d sáwbetke
+ShareSendToMany_other	%1$d sáwbetke
+ShareTapToEditMedia	Medianı ózgertiw ushın usı jerdi basıń
+ShareComment	Kommentariy jazıń...
+TapHereGifs	Saqlanǵan GIF lerge kiriw ushın usı jerdi basıń
+TapHereEmoji	Kóbirek emoji ushın %1$s di basıń.
+PinMessage	Bekitiw
+PinNotify	Barlıq aǵzalarǵa xabarlaw
+PinAlsoFor	%1$s ushın da bekitiw
+UnpinMessage	Bekitiwden alıw
+PinMessageAlertTitle	Xabardı bekitiw
+UnpinMessageAlertTitle	Xabardı bekitiwden alıw
+PinOldMessageAlert	Jańaraq xabardı bekitilgen qaldırıp, eskirek xabardı bekitesiz be?
+PinMessageAlert	Bul xabardı topardıń barlıq aǵzaları ushın bekitesiz be?
+PinMessageAlertChannel	Bul xabardı usı kanalda bekitesiz be?
+PinMessageAlertChat	Bul xabardı sáwbettiń joqarısına bekitesiz be?
+UnpinMessageAlert	Bul xabardı bekitiwden alasız ba?
+DeleteBan	%1$s di bloklaw
+DeleteBanUsers	Paydalanıwshılardı bloklaw
+DeleteRestrict	%1$s di sheklew
+DeleteRestrictUsers	Paydalanıwshılardı sheklew
+DeleteReportSpam	Spam haqqında xabarlaw
+TranslateMessage	Awdarıw
+HideTranslation	Awdarmanı jasırıw
+AutomaticTranslation	Avtomat awdarma
+CloseTranslation	Awdarmanı jabıw
+TranslationFailedAlert1	Awdarıw ámelge aspadı. Keyinirek qayta urınıp kóriń.
+TranslationFailedAlert2	Awdarıw ámelge aspadı.
+DeleteAllFrom	%1$s diń hámmesin óshiriw
+DeleteAllFromUsers	Paydalanıwshılardıń hámmesin óshiriw
+DeleteAllMessagesFrom	%1$s diń barlıq xabarların óshiriw
+DeleteAllMessagesFromUsers	Paydalanıwshılardıń barlıq xabarların óshiriw
+DeleteAllReactionsFrom	%1$s diń barlıq reakciyaların óshiriw
+DeleteAllReactionsFromUsers	Paydalanıwshılardıń barlıq reakciyaların óshiriw
+DeleteOptionsTitle_one	%1$d xabardı óshiresiz be?
+DeleteOptionsTitle_other	%1$d xabardı óshiresiz be?
+DeleteReactionOptionsTitle_one	%d reakciyanı óshiresiz be?
+DeleteReactionOptionsTitle_other	%d reakciyanı óshiresiz be?
+DeleteReactionOptionsTitleAll	Barlıq reakciyalardı óshiresiz be?
+DeleteMessagesOptionsTitleAll	Barlıq xabarlardı óshiresiz be?
+DeleteAdditionalActions	Qosımsha háreketler
+DeleteToggleBanUsers	Paydalanıwshılardı tolıq bloklaw
+DeleteToggleBanUser	Bul paydalanıwshını tolıq bloklaw
+DeleteToggleRestrictUsers	Paydalanıwshılardı bólekan sheklew
+DeleteToggleRestrictUser	Bul paydalanıwshını bólekan sheklew
+DeleteProceedBtn	Dawam etiw
+MessagesDeleted	Xabarlar óshirildi
+ReactionsDeleted	Reakciyalar óshirildi
+UsersReported_one	%1$d paydalanıwshı haqqında spam xabarlandı.
+UsersReported_other	%1$d paydalanıwshı haqqında spam xabarlandı.
+UsersBanned_one	%1$d paydalanıwshı bloklandı.
+UsersBanned_other	%1$d paydalanıwshı bloklandı.
+UsersRestricted_one	%1$d paydalanıwshı sheklendi.
+UsersRestricted_other	%1$d paydalanıwshı sheklendi.
+ClearRecentEmojiTitle	Sońǵı emojilerdi tazalaw
+ClearRecentEmojiText	Barlıq sońǵı emojilerińizdi tazalaysız ba?
+ClearRecentEmojiStatusesTitle	Sońǵı statuslardı tazalaw
+ClearRecentEmojiStatusesText	Sońǵı emoji statuslarıńızdı tazalap, usınıslardı qayta ornatasız ba?
+Emoji1	Smaylikler hám adamlar
+Emoji2	Haywanlar hám tábiyat
+Emoji3	Awqat hám ishimlik
+Emoji4	Iskerlik
+Emoji5	Sayaxat hám orınlar
+Emoji6	Zatlar
+Emoji7	Belgiler
+Emoji8	Bayraqlar
+ReportSelectMessages	Xabarlardı tańlań
+ReportMessages	XABARLAR HAQQINDA XABARLAW
+ReportMessagesNoCaps	Xabarlar haqqında xabarlaw
+ReportMessagesCount	%1$s HAQQINDA XABARLAW
+ReportMessagesCountNoCaps	%1$s haqqında xabarlaw
+ReportChat	Shaǵım
+ReportBot	Shaǵım
+ReportProfilePhoto	Shaǵım
+ReportChatSent	Shaǵım jiberildi
+ReactionDeleteSent	Reakciya óshirildi
+ReportTitleSpam	Spam haqqında shaǵım
+ReportTitleFake	Jalǵan akkaunt haqqında shaǵım
+ReportTitlePornography	Pornografiya haqqında shaǵım
+ReportTitleChild	Balalarǵa zorlıq haqqında shaǵım
+ReportTitleViolence	Zorlıq haqqında shaǵım
+ReportInfo	Shaǵımıńızǵa baylanıslı qosımsha maǵlıwmatlardı kiritiń.
+ReportHint	Qosımsha maǵlıwmatlar...
+ReportSend	Shaǵım jiberiw
+ReportSentInfo	Telegram moderatorları shaǵımıńızdı úyrenedi.\nBirge islesiwińiz ushın raxmet!
+ReportChatSpam	Spam
+ReportChatFakeAccount	Jalǵan akkaunt
+ReportChatViolence	Zorlıq
+ReportChatPornography	Pornografiya
+ReportChatChild	Balalarǵa zorlıq
+ReportChatOther	Basqa
+ReportChatDescription	Táriyp
+DescriptionMore	kóbirek
+PinnedMessage	Bekitilgen xabar
+PinnedCall	Bekitilgen qońıraw
+PreviousPinnedMessage	Aldınǵı xabar
+EditedMessage	ózgertilgen
+EditMessage	Xabardı ózgertiw
+EditCaption	Jazıwdı ózgertiw
+EditMessageMedia	Medianı ózgertiw ushın basıń
+AddMessageMedia	Media qosıw ushın basıń
+EditMessageEditPhoto	Bul súwretti ózgertiw
+EditMessageEditVideo	Bul videonı ózgertiw
+EditMessageReplacePhoto	Súwretti almastırıw
+EditMessageReplaceVideo	Videonı almastırıw
+EditMessageReplaceGif	Medianı almastırıw
+EditMessageReplaceFile	Fayldı almastırıw
+EditMessageReplaceAudio	Audio fayldı almastırıw
+TimeToEdit	%1$s
+TimeToEditExpired	Keshiriń, ózgertiw waqtı tamam boldı.
+AddShortcut	Bas ekranǵa qosıw
+SearchMembers	Aǵzalardı izlew
+ChatYourSelf	saqlaw ushın usı jerge jiberiń
+SavedMessagesViewAsChatsHint	sáwbetler retinde kóriw ushın basıń >
+SavedMessages	Saqlanǵan xabarlar
+SavedMessagesInfo	Saqlaw ushın usı jerge jiberiń.
+SavedMessagesInfoQuote	Saqlaw ushın usı jerge citata keltiriń.
+ChatYourSelfName	Siz
+GroupEmptyTitle1	Siz **topar** jarattıńız.
+GroupEmptyTitle2	Toparlarda bolıwı múmkin:
+GroupDescription1	200 000 ǵa shekem aǵza
+GroupDescription2	Turaqlı sáwbet tariyxı
+GroupDescription3	t.me/title sıyaqlı ashıq siltemeler
+GroupDescription4	Hár qıylı huqıqlı adminler
+ChatYourSelfDescription1	Saqlaw ushın xabarlardı usı jerge jiberiń
+ChatYourSelfDescription2	Saqlaw ushın media hám fayllardı jiberiń
+ChatYourSelfDescription3	Bul sáwbetke qálegen qurılmadan kiriń
+ChatYourSelfDescription4	Tez tabıw ushın izlewden paydalanıń
+ChatYourSelfTitle	Bult saqlaǵıshıńız
+JumpToDate	Sánege ótiw
+DeleteForUser	%1$s ushın da óshiriw
+DeleteForAll	Barlıq aǵzalar ushın óshiriw
+TextCopied	Tekst almasıw buferine kóshirildi
+ExactTextCopied	"%s" almasıw buferine kóshirildi
+CodeCopied	Kod almasıw buferine kóshirildi
+HoldToAudioOnly	Audio jazıw ushın basıp turıń.
+HoldToAudio	Audio jazıw ushın basıp turıń. Videoǵa ótiw ushın basıń.
+HoldToVideo	Video jazıw ushın basıp turıń. Audioǵa ótiw ushın basıń.
+DiscardVoiceMessageTitle	Dawıslı xabardan bas tartıw
+DiscardVoiceMessageDescription	Jazıwdı toqtatıp, dawıslı xabarıńızdan bas tartıwǵa isenimińiz kámil me?
+DiscardVideoMessageTitle	Video xabardan bas tartıw
+DiscardVideoMessageDescription	Jazıwdı toqtatıp, video xabarıńızdan bas tartıwǵa isenimińiz kámil me?
+DiscardVoiceMessageAction	Bas tartıw
+AttachContactsSlowMode	Áste rejim qosılǵan. 1 den artıq kontakt jibere almaysız.
+AttachMediaRestricted	Bul topar adminleri sizge bul jerde %1$s shekem media jiberiwdi sheklegen
+AttachAudioRestricted	Bul topar adminleri sizge bul jerde %1$s shekem audio jiberiwdi sheklegen
+AttachPhotoRestricted	Bul topar adminleri sizge bul jerde %1$s shekem súwret jiberiwdi sheklegen
+AttachRoundRestricted	Bul topar adminleri sizge bul jerde %1$s shekem video xabar jiberiwdi sheklegen
+AttachVoiceRestricted	Bul topar adminleri sizge bul jerde %1$s shekem dawıslı xabar jiberiwdi sheklegen
+AttachVideoRestricted	Bul topar adminleri sizge bul jerde %1$s shekem video jiberiwdi sheklegen
+AttachDocumentsRestricted	Bul topar adminleri sizge bul jerde %1$s shekem hújjet jiberiwdi sheklegen
+AttachInlineRestricted	Bul topar adminleri sizge bul jerde %1$s shekem inline mazmun jiberiwdi sheklegen
+AttachStickersRestricted	Bul topar adminleri sizge bul jerde %1$s shekem stiker jiberiwdi sheklegen
+AttachGifRestricted	Bul topar adminleri sizge bul jerde %1$s shekem GIF jiberiwdi sheklegen
+AttachPlainRestricted	Bul topar adminleri sizge bul jerde %1$s shekem tekst xabar jiberiwdi sheklegen
+SendMessageRestricted	Bul topar adminleri sizge bul jerde %1$s shekem jazıwdı sheklegen
+AttachMediaRestrictedForever	Bul topar adminleri sizge bul jerde media jiberiwdi sheklegen.
+AttachAudioRestrictedForever	Bul topar adminleri sizge bul jerde audio jiberiwdi sheklegen.
+AttachDocumentsRestrictedForever	Bul topar adminleri sizge bul jerde hújjet jiberiwdi sheklegen.
+AttachPhotoRestrictedForever	Bul topar adminleri sizge bul jerde súwret jiberiwdi sheklegen.
+AttachRoundRestrictedForever	Bul topar adminleri sizge bul jerde video xabar jiberiwdi sheklegen.
+AttachVoiceRestrictedForever	Bul topar adminleri sizge bul jerde dawıslı xabar jiberiwdi sheklegen.
+AttachVideoRestrictedForever	Bul topar adminleri sizge bul jerde video jiberiwdi sheklegen.
+AttachInlineRestrictedForever	Bul topar adminleri sizge bul jerde inline mazmun jiberiwdi sheklegen
+AttachStickersRestrictedForever	Bul topar adminleri sizge stiker jiberiwdi sheklegen.
+AttachGifRestrictedForever	Bul topar adminleri sizge GIF jiberiwdi sheklegen.
+AttachPlainRestrictedForever	Bul topar adminleri sizge tekst xabar jiberiwdi sheklegen.
+SendMessageRestrictedForever	Bul topar adminleri sizge bul jerde jazıwdı sheklegen.
+VoiceMessagesRestrictedByPrivacy	**%1$s** dawıslı xabarlardı qabıllamaydı.
+VideoMessagesRestrictedByPrivacy	**%1$s** video xabarlardı qabıllamaydı.
+GlobalAttachPlainRestricted	Bul toparda ápiwayı tekst jiberiwge ruqsat joq.
+GlobalAttachDocumentsRestricted	Bul toparda hújjet jiberiwge ruqsat joq.
+GlobalAttachMediaRestricted	Bul toparda media jiberiwge ruqsat joq.
+GlobalAttachAudioRestricted	Bul toparda muzıka jiberiwge ruqsat joq.
+GlobalAttachPhotoRestricted	Bul toparda súwret jiberiwge ruqsat joq.
+GlobalAttachVideoRestricted	Bul toparda video jiberiwge ruqsat joq.
+GlobalAttachVoiceRestricted	Bul toparda dawıslı xabar jiberiwge ruqsat joq.
+GlobalAttachRoundRestricted	Bul toparda dóńgelek video jiberiwge ruqsat joq.
+GlobalAttachInlineRestricted	Bul toparda inline botlarǵa ruqsat joq.
+GlobalAttachStickersRestricted	Bul toparda stikerlerge ruqsat joq.
+GlobalAttachGifRestricted	Bul toparda GIF lerge ruqsat joq.
+GlobalAttachEmojiRestricted	Bul toparda tekst xabarlarǵa ruqsat joq.
+GlobalSendMessageRestricted	Bul toparda xabar jazıwǵa ruqsat joq.
+AttachMediaPreview	Xabar kórinisi
+AttachMediaPreviewButton	Kórinisti kórsetiw
+AttachMediaPhotoDeselected	Súwret tańlawdan alındı.
+AttachMediaVideoDeselected	Video tańlawdan alındı.
+AttachMediaDragHint	Tártibin ózgertiw ushın medianı súyrleń
+ChatAdmin	admin
+ChatTagAdmin	Admin
+ChatTagOwner	Iyesi
+ApkRestricted	Bul qosımsha ushın APK ornatıw sheklengen. Bunı sistema sazlamalarında qosa alasız.
+UnreadMessages	Oqılmaǵan xabarlar
+SearchStickersHint	Stiker toplamların izlew
+SearchTrendingStickersHint	Tanımal stikerlerdi izlew
+SearchEmojiHint	Emoji izlew
+URL	URL
+MapPreviewProvider	Karta kórinisi provayderi
+MapPreviewProviderTitle	Karta kórinisi provayderi
+MapPreviewProviderTelegram	Telegram
+MapPreviewProviderGoogle	Google
+MapPreviewProviderYandex	Yandex
+MapPreviewProviderNobody	Kórinissiz
+InstallGoogleMaps	Google Maps ornatılsın ba?
+InstallHuaweiMaps	Petal Maps ornatılsın ba?
+ScamMessage	ALAYAQ
+FakeMessage	JALǴAN
+ViaBot	arqalı
+MessageNotFound	Xabar joq
+UniqueGiftNotFound	Sawǵa tabılmadı
+UniqueGiftNotFoundBurned	Sawǵa álleqashan joq etilgen.
+GiftAuctionNotFound	Sawǵa auktsionı tabılmadı
+SlowModeHint	Áste rejim qosılǵan. Keyingi xabarıńızdı\n%1$s den keyin jibere alasız
+TapForVideo	Súwret ushın basıń, video ushın basıp turıń
+SendWithoutSound	Dawıssız jiberiw
+SendAsNewPhoto	Jańa súwret retinde jiberiw
+ReplacePhoto	Súwretti almastırıw
+MessageScheduleSend	Házir jiberiw
+MessageSuggestionPublishNow	Házir jariyalaw
+MessageScheduleEditTime	Waqtın ózgertiw
+MessageScheduleToday	Búgin
+Schedule	Rejelestiriw
+ScheduleMessage	Xabardı rejelestiriw
+ScheduleNotifyOnChannel	Jazılıwshılarǵa bildiriw baradı
+ScheduleNotifyOffChannel	Jazılıwshılar dawıssız bildiriw aladı
+ScheduleNotifyOnGroup	Aǵzalarǵa bildiriw baradı
+ScheduleNotifyOffGroup	Aǵzalar dawıssız bildiriw aladı
+ScheduleNotifyOnChat	%s ge bildiriw baradı
+ScheduleNotifyOffChat	%s dawıssız bildiriw aladı
+ScheduleNotifyOnSelf	Sizge bildiriw baradı
+ScheduleNotifyOffSelf	Siz dawıssız bildiriw alasız
+ScheduledMessages	Rejelestirilgen xabarlar
+ScheduleWhenOnline	%1$s onlayn bolǵanda jiberiw
+Reminders	Eskertpeler
+SetReminder	Eskertpe ornatıw
+MessageScheduledOn	%1$s ge rejelestirildi
+MessageScheduledUntilOnline	Onlayn bolǵansha rejelestirildi
+MessageScheduledLimitReached	Keshiriń, 100 den artıq xabardı rejelestire almaysız.
+MessageScheduledBotAction	Bul háreket xabar jariyalanǵannan keyin qoljetimli boladı.
+MessageScheduledVote	Dawıs beriw xabar jariyalanǵannan keyin qoljetimli boladı.
+MessageScheduledTodo	Tapsırmalar dizimi xabar jariyalanǵannan keyin qoljetimli boladı.
+MessageScheduledVoteResults	Sorawnama nátiyjeleri xabar jariyalanǵannan keyin qoljetimli boladı.
+MessageScheduledReminderNotification	&#128197; Eskertpe
+OneResult	1 nátiyje
+VideoQualityIsTooLow	Video sapası qısıw sazlamaların ózgertiw ushın júdá tómen.
+TextSelectionHint	**Sózdi** basıp turıń, keyin citata keltiriw yamasa kóshiriw ushın kursordı jıljıtıp, kóbirek tekst tańlań.
+CardNumberCopied	Karta nomeri almasıw buferine kóshirildi
+CopyCardNumber	Kóshiriw
+DiceInfo2	Kubik taslaw ushın qálegen sáwbetke **:dice:** emojisin jiberiń.
+DartInfo	Báxtińizdi sınaw ushın **:darts:** emojisin jiberiń.
+DiceEmojiInfo	Báxtińizdi sınaw ushın %1$s emojisin jiberiń.
+SendDice	JIBERIW
+PsaTypeDefault	PSA
+PsaInfoDefault	PSA info test
+PsaMessageDefault	Áhmiyetli bildiriw
+PsaMessageInfoDefault	Bul áhmiyetli bildiriw.
+PsaHideChatAlertTitle	Sáwbetti jasırıw
+PsaHideChatAlertText	Tańlanǵan sáwbetti jasırıwǵa isenimińiz kámil me?
+PsaHide	Jasırıw
+NoMessagesGreetingsDescription	Xabar jiberiń yamasa tómendegi sálemlesiwdi basıń.
+ChatDistanceToPeer	%1$s %2$s qashıqlıqta
+ChatWasMovedToMainList	Sáwbet tiykarǵı dizimińizge kóshirildi.
+SecretChatTimerDays	k
+SecretChatTimerMonths	ay
+SecretChatTimerSeconds	s
+SecretChatTimerMinutes	m
+SecretChatTimerHours	saat
+SecretChatTimerWeeks	h
+BotOwnershipTransfer	Bot iyeligin beriw
+BotOwnershipTransferReadyAlertText	Bul bottıń **tolıq iyelik** huqıqların tańlanǵan paydalanıwshıǵa beredi.
+BotOwnershipTransferChangeOwner	Iyesin ózgertiw
+BotOwnershipTransferAlertText	Bottı tek tómendegi jaǵdayda bere alasız:
+LeaveAComment	Kommentariy qaldırıw
+CommentsTitle	Kommentariyler
+Comment	Kommentariy
+CommentFor	⭐️%s ushın kommentariy
+RepliesTitle	Juwaplar
+MonoforumTitle	%1$s xabarları
+MonoforumSpan	JEKE
+NoComments	Bul jerde ele kommentariyler joq...
+NoReplies	Bul jerde ele juwaplar joq...
+ViewInChat	Sáwbette kóriw
+SendAnonymously	Anonim jiberiw
+SendBotNoThread	Tarmaqtan tısqarı xabar
+DiscussionStarted	Talqılaw basladı
+ViewThread	Tarmaqtı kóriw
+ChooseDate	Sáne tańlaw
+RepliesChatInfo	Bul sáwbet kanallardaǵı kommentariylerińizge berilgen juwaplardı baqlawǵa járdem beredi.
+VerifyChatInfo	Bul sáwbet úshinshi tárep xızmetlerinen tastıyıqlaw kodların alıw ushın paydalanıladı.
+ChannelPostDeleted	Keshiriń, bul jazba talqılaw toparınan alıp taslanǵan.
+UnpinAllMessages	BARLIQ XABARLARDI BEKITIWDEN ALIW
+UnpinAllMessagesNoCaps	Barlıq xabarlardı bekitiwden alıw
+HidePinnedMessages	BEKITILGEN XABARLARDI JASIRIW
+HidePinnedMessagesNoCaps	Bekitilgen xabarlardı jasırıw
+PinnedMessagesHidden	Bekitilgen xabarlar jasırıldı
+PinnedMessagesHiddenInfo	Bekitilgen xabarlar paneli tek jańa xabar bekitilgende kórinedi.
+ImportedMessage	Import etilgen
+ImportFileTooLarge	Import etiletuǵın fayl júdá úlken.
+ImportFailedToUpload	Fayldı júklew ámelge aspadı.
+AudioSpeedNormal	Audio ádettegi tezlikte oynatıladı.
+AudioSpeedCustom	Audio %1$sx tezlikte oynatıladı.
+AudioSpeedFast	Audio eki ese tez oynatıladı.
+MessageCopied	Xabar almasıw buferine kóshirildi.
+HintSent	Jetkerildi
+HintRead	Oqıldı
+InvLinkToSavedMessages	Mirát siltemesi **Saqlanǵan xabarlar** ǵa jiberildi.
+InvLinkToGroup	Mirát siltemesi **%1$s** ge jiberildi.
+InvLinkToUser	Mirát siltemesi **%1$s** ge jiberildi.
+InvLinkToChats	Mirát siltemesi **%1$s** ge jiberildi.
+FwdMessageToSavedMessages	Xabar **Saqlanǵan xabarlar** ǵa jiberildi.
+FwdMessagesToSavedMessages	Xabarlar **Saqlanǵan xabarlar** ǵa jiberildi.
+FwdMessageToGroup	Xabar **%1$s** ge jiberildi.
+FwdMessagesToGroup	Xabarlar **%1$s** ge jiberildi.
+FwdMessageToUser	Xabar **%1$s** ge jiberildi.
+FwdMessagesToUser	Xabarlar **%1$s** ge jiberildi.
+FwdMessageToUserShort	**%1$s** ge jiberildi.
+FwdMessagesToUserShort	**%1$s** ge jiberildi.
+FwdMessageToManyChats_one	Xabar **bir sáwbetke** jiberildi.
+FwdMessageToManyChats_other	Xabar **%1$d sáwbetke** jiberildi.
+FwdMessagesToManyChats_one	Xabarlar **bir sáwbetke** jiberildi.
+FwdMessagesToManyChats_other	Xabarlar **%1$d sáwbetke** jiberildi.
+BackgroundToSavedMessages	Fon **Saqlanǵan xabarlar** ǵa jiberildi.
+BackgroundToGroup	Fon **%1$s** ge jiberildi.
+BackgroundToUser	Fon **%1$s** ge jiberildi.
+BackgroundToChats	Fon **%1$s** ge jiberildi.
+HiddenSendersNameDescription	Jiberiwshi atları alıp taslandı
+ForwardingFromNames	%s den
+NoWordsRecognized	Sózler tanılmadı.
+RateTranscription	Transkripciyanı bahalaw
+NotificationMessageGiftCode	%1$s sizge %2$s múddetke Telegram Premium sawǵa kodın jiberdi
+NotificationMessageGiveaway	%1$s sizge %2$sx %3$s aylıq Premium jazılıwlarınıń utıslı oyının jiberdi
+NotificationMessageStarsGiveaway2	%1$s sizge %3$s juldızlıq utıslı oyındı jiberdi %2$s
+NotificationMessageChannelGiveaway	%1$s %2$sx %3$s aylıq Premium jazılıwlarınıń utıslı oyının jariyaladı
+NotificationMessageChannelStarsGiveaway2	%1$s %3$s juldızlıq utıslı oyındı jariyaladı %2$s
+NotificationMessageChatGiveaway	%1$s %2$s toparına %3$sx %4$s aylıq Premium jazılıwlarınıń utıslı oyının jiberdi
+NotificationMessageChatStarsGiveaway2	%1$s %2$s toparına %4$s juldızlıq utıslı oyındı jiberdi %3$s
+AmongWinners_one	%d jeńimpaz arasında
+AmongWinners_other	%d jeńimpaz arasında
+NotificationPinnedGiveaway	%1$s utıslı oyındı bekitti
+NotificationReactGiveaway	%1$s utıslı oyınıńızǵa %2$s reakciyasın bildirdi
+NotificationChatReactGiveaway	%1$s %2$s toparında utıslı oyınıńızǵa %3$s reakciyasın bildirdi
+MessageLifetimeChanged	%1$s óz-ózin joq etiw taymerin %2$s etip ornattı
+MessageLifetimeChangedOutgoing	Siz óz-ózin joq etiw taymerin %1$s etip ornattıńız
+MessageLifetimeRemoved	%1$s óz-ózin joq etiw taymerin óshirdi
+MessageLifetimeYouRemoved	Siz óz-ózin joq etiw taymerin óshirdińiz
+YouHaveNewMessage	Sizde jańa xabar bar
+NotificationMessageScheduled	&#128197; Siz: %1$s
+NotificationMessageScheduledName	&#128197; Siz
+NotificationMessageText	%1$s: %2$s
+NotificationMessageStarGift_one	%2$s sizge %1$d Juldızlıq Sawǵa jiberdi
+NotificationMessageStarGift_other	%2$s sizge %1$d Juldızlıq Sawǵa jiberdi
+NotificationMessageUniqueStarGift	%1$s sizge Sawǵa berdi!
+NotificationMessageUniqueStarGiftUpgrade	%1$s Sawǵańızdı jaqsıladı
+NotificationMessageUniqueStarGiftPrepaidUpgrade_one	%2$s sawǵańız ushın %1$d Juldızlıq jaqsılaw jiberdi
+NotificationMessageUniqueStarGiftPrepaidUpgrade_other	%2$s sawǵańız ushın %1$d Juldızlıq jaqsılaw jiberdi
+NotificationMessageUniqueStarGiftUnpackUpgrade	%1$s siz jaqsılawǵa járdem bergen Sawǵanı ashtı
+NotificationMessageFew	%1$s sizge %2$s jiberdi
+NotificationMessageAlbum	%1$s sizge albom jiberdi
+NotificationMessageForwardFew	%1$s sizge %2$s jiberdi
+NotificationMessageNoText	%1$s sizge xabar jiberdi
+NotificationMessagePhoto	%1$s sizge súwret jiberdi
+NotificationMessageVideo	%1$s sizge video jiberdi
+NotificationMessageInvoice	%1$s sizge %2$s ushın esap-faktura jiberdi
+NotificationMessageSDPhoto	%1$s sizge óz-ózin joq etetuǵın súwret jiberdi
+NotificationMessageSDVideo	%1$s sizge óz-ózin joq etetuǵın video jiberdi
+NotificationMessageContact2	%1$s siz benen %2$s kontaktın bólisti
+NotificationMessagePoll2	%1$s sizge %2$s sorawnamasın jiberdi
+NotificationMessageTodo2	%1$s sizge %2$s tapsırmalar dizimin jiberdi
+NotificationMessageQuiz2	%1$s sizge %2$s viktorinasın jiberdi
+NotificationMessageMap	%1$s sizge jaylasıw jiberdi
+NotificationMessageLiveLocation	%1$s sizge jonlı jaylasıw jiberdi
+NotificationMessageGame	%1$s sizdi %2$s oynawǵa mirát etti
+NotificationMessageGameScored	%1$s %2$s oyınında %3$s upay aldı
+NotificationMessageDocument	%1$s sizge fayl jiberdi
+NotificationMessageGif	%1$s sizge GIF jiberdi
+NotificationMessageAudio	%1$s sizge dawıslı xabar jiberdi
+NotificationMessageRound	%1$s sizge video xabar jiberdi
+NotificationMessageMusic	%1$s sizge audio fayl jiberdi
+NotificationMessageSticker	%1$s sizge stiker jiberdi
+NotificationMessageStickerEmoji	%1$s sizge %2$s stikerin jiberdi
+NotificationMessageGroupText	%1$s @ %2$s: %3$s
+NotificationMessageGroupNoText	%1$s %2$s toparına xabar jiberdi
+NotificationMessageGroupPhoto	%1$s %2$s toparına súwret jiberdi
+NotificationMessageGroupVideo	%1$s %2$s toparına video jiberdi
+NotificationMessageGroupPoll2	%1$s %2$s toparına %3$s sorawnamasın jiberdi
+NotificationMessageGroupTodo2	%1$s %2$s toparına %3$s tapsırmalar dizimin jiberdi
+NotificationMessageGroupTodoDone2	%1$s %2$s toparında %3$s tapsırmanı belgiledi
+NotificationMessageGroupTodoAppend2	%1$s %2$s toparında %3$s tapsırma qostı
+NotificationMessageGroupQuiz2	%1$s %2$s toparına %3$s viktorinasın jiberdi
+NotificationMessageGroupContact2	%1$s %2$s toparında %3$s kontaktın bólisti
+NotificationMessageGroupMap	%1$s %2$s toparına jaylasıw jiberdi
+NotificationMessageGroupLiveLocation	%1$s %2$s toparı menen jonlı jaylasıwdı bólisti
+NotificationMessageGroupGame	%1$s %2$s toparın %3$s oynawǵa mirát etti
+NotificationMessageGroupGameScored	%1$s %2$s toparında %3$s oyınında %4$s upay aldı
+NotificationMessageGroupDocument	%1$s %2$s toparına fayl jiberdi
+NotificationMessageGroupGif	%1$s %2$s toparına GIF jiberdi
+NotificationMessageGroupInvoice	%1$s %2$s toparına %3$s ushın esap-faktura jiberdi
+NotificationMessageGroupAudio	%1$s %2$s toparına dawıslı xabar jiberdi
+NotificationMessageGroupRound	%1$s %2$s toparına video xabar jiberdi
+NotificationMessageGroupMusic	%1$s %2$s toparına audio fayl jiberdi
+NotificationMessageGroupSticker	%1$s %2$s toparına stiker jiberdi
+NotificationMessageGroupStickerEmoji	%1$s %2$s toparına %3$s stikerin jiberdi
+NotificationMessageRecurringPay	%1$s den %2$s alındı
+NotificationPaidMedia_one	%1$d ⭐️ media
+NotificationPaidMedia_other	%1$d ⭐️ media
+NotificationMessagePaidMedia_one	%2$s sizge %1$d juldızlıq aqılı jazba jiberdi
+NotificationMessagePaidMedia_other	%2$s sizge %1$d juldızlıq aqılı jazba jiberdi
+NotificationChannelMessagePaidMedia_one	%2$s %1$d juldızlıq aqılı jazba jariyaladı
+NotificationChannelMessagePaidMedia_other	%2$s %1$d juldızlıq aqılı jazba jariyaladı
+NotificationPinnedPaidMedia_one	%2$s %1$d juldızlıq aqılı jazbanı bekitti
+NotificationPinnedPaidMedia_other	%2$s %1$d juldızlıq aqılı jazbanı bekitti
+NotificationChatMessagePaidMedia_one	%2$s %3$s toparında %1$d juldızlıq aqılı jazba jariyaladı
+NotificationChatMessagePaidMedia_other	%2$s %3$s toparında %1$d juldızlıq aqılı jazba jariyaladı
+NotificationInvitedToGroup	%1$s sizdi %2$s toparına mirát etti
+NotificationEditedGroupName	%1$s %2$s toparınıń atın ózgertti
+NotificationEditedGroupPhoto	%1$s %2$s toparınıń súwretin ózgertti
+NotificationEditedGroupVideo	%1$s %2$s toparınıń videosın ózgertti
+NotificationGroupAddMember	%1$s %3$s di %2$s toparına mirát etti
+NotificationGroupInvitedToCall	%1$s %3$s di %2$s toparındaǵı dawıslı sáwbetke mirát etti
+NotificationGroupInvitedYouToCall	%1$s sizdi %2$s toparındaǵı dawıslı sáwbetke mirát etti
+NotificationGroupCreatedCall	%1$s %2$s toparında dawıslı sáwbet basladı
+NotificationGroupEndedCall	%1$s %2$s toparındaǵı dawıslı sáwbetti tamamladı
+NotificationGroupAddSelf	%1$s %2$s toparına qaytıp keldi
+NotificationGroupAddSelfMega	%1$s %2$s toparına qosıldı
+NotificationGroupKickMember	%1$s %3$s di %2$s toparınan alıp tasladı
+NotificationGroupKickYou	%1$s sizdi %2$s toparınan alıp tasladı
+NotificationGroupLeftMember	%1$s %2$s toparınan shıqtı
+NotificationContactJoined	%1$s Telegram ǵa qosıldı!
+NotificationUnrecognizedDevice	%1$s,\nAkkauntıńızǵa %2$s jańa qurılmadan kiriw anıqlandı\n\nQurılma: %3$s\nJaylasıw: %4$s\n\nEger bul siz bolmasańız, Sazlamalar - Qupıyalıq hám qáwipsizlik - Seanslar bólimine ótip, sol seanstı tamamlay alasız.\n\nEger birew erkińizge qarsı akkauntıńızǵa kirgen dep oylasańız, Qupıyalıq hám qáwipsizlik sazlamalarında eki basqıshlı tastıyıqlawdı qosa alasız.\n\nHúrmet penen,\nTelegram komandası
+NotificationContactNewPhoto	%1$s profil súwretin jańaladı
+NotificationInvitedToGroupByLink	%1$s mirát siltemesi arqalı %2$s toparına qosıldı
+NotificationGroupFew	%1$s %2$s toparına %3$s jiberdi
+NotificationGroupAlbum	%1$s %2$s toparına albom jiberdi
+NotificationGroupForwardedFew	%1$s %2$s toparına %3$s jiberdi
+NotificationHiddenName	Telegram
+NotificationHiddenChatName	Telegram
+NotificationHiddenChatUserName	Paydalanıwshı
+NotificationHiddenMessage	Jańa xabar
+Reply	Juwap beriw
+ReplyToGroup	%1$s ge juwap
+ReplyToUser	%1$s ge juwap
+NotificationMessagesPeopleDisplayOrder	%1$s %2$s
+NotificationActionPinnedText	%1$s %3$s toparında \"%2$s\" xabarın bekitti
+NotificationActionPinnedNoText	%1$s %2$s toparında xabardı bekitti
+NotificationActionPinnedPoll2	%1$s %2$s toparında %3$s sorawnamasın bekitti
+NotificationActionPinnedTodo2	%1$s %2$s toparında %3$s tapsırmalar dizimin bekitti
+NotificationActionPinnedQuiz2	%1$s %2$s toparında %3$s viktorinasın bekitti
+NotificationActionPinnedPhoto	%1$s %2$s toparında súwretti bekitti
+NotificationActionPinnedGame	%1$s %2$s toparında oyındı bekitti
+NotificationActionPinnedGameScore	%1$s %2$s toparında oyın nátiyjesin bekitti

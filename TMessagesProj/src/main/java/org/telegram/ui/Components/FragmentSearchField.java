@@ -182,6 +182,17 @@ public class FragmentSearchField extends FrameLayout implements FactorAnimator.T
         additionalIconsLayout.addView(icon);
     }
 
+    public void setAdditionalIconsEndMargin(int marginDp) {
+        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) additionalIconsLayout.getLayoutParams();
+        final int margin = dp(marginDp);
+        if (LocaleController.isRTL) {
+            params.leftMargin = margin;
+        } else {
+            params.rightMargin = margin;
+        }
+        additionalIconsLayout.setLayoutParams(params);
+    }
+
     /** Re-appends the icon so it becomes the last (right-most in LTR) additional icon. */
     public void moveAdditionalIconToEnd(View icon) {
         if (icon != null && icon.getParent() == additionalIconsLayout) {

@@ -1,0 +1,600 @@
+NotificationActionPinnedVideo	%1$s %2$s toparında video bekitti
+NotificationActionPinnedFile	%1$s %2$s toparında fayl bekitti
+NotificationActionPinnedSticker	%1$s %2$s toparında stiker bekitti
+NotificationActionPinnedStickerEmoji	%1$s %2$s toparında %3$s stikerin bekitti
+NotificationActionPinnedVoice	%1$s %2$s toparında dawıslı xabar bekitti
+NotificationActionPinnedRound	%1$s %2$s toparında video xabar bekitti
+NotificationActionPinnedContact2	%1$s %2$s toparında %3$s kontaktın bekitti
+NotificationActionPinnedGeo	%1$s %2$s toparında karta bekitti
+NotificationActionPinnedGeoLive	%1$s %2$s toparında janlı jaylasıw bekitti
+NotificationActionPinnedGif	%1$s %2$s toparında GIF bekitti
+NotificationActionPinnedMusic	%1$s %2$s toparında audio fayl bekitti
+NotificationActionPinnedInvoice	%1$s %2$s toparında tólem esabın bekitti
+NotificationActionPinnedTextChannel	%1$s \"%2$s\" xabarın bekitti
+NotificationActionPinnedNoTextChannel	%1$s xabar bekitti
+NotificationActionPinnedPollChannel2	%1$s %2$s sorawnamasın bekitti
+NotificationActionPinnedTodoChannel2	%1$s %2$s dizimin bekitti
+NotificationActionPinnedQuizChannel2	%1$s %2$s viktorinasın bekitti
+NotificationActionPinnedPhotoChannel	%1$s súwret bekitti
+NotificationActionPinnedGameChannel	%1$s oyın bekitti
+NotificationActionPinnedGameScoreChannel	%1$s oyın esabın bekitti
+NotificationActionPinnedVideoChannel	%1$s video bekitti
+NotificationActionPinnedFileChannel	%1$s fayl bekitti
+NotificationActionPinnedInvoiceChannel	%1$s tólem esabın bekitti
+NotificationActionPinnedStickerChannel	%1$s stiker bekitti
+NotificationActionPinnedStickerEmojiChannel	%1$s %2$s stikerin bekitti
+NotificationActionPinnedVoiceChannel	%1$s dawıslı xabar bekitti
+NotificationActionPinnedRoundChannel	%1$s video xabar bekitti
+NotificationActionPinnedContactChannel2	%1$s %2$s kontaktın bekitti
+NotificationActionPinnedGeoChannel	%1$s karta bekitti
+NotificationActionPinnedGeoLiveChannel	%1$s janlı jaylasıw bekitti
+NotificationActionPinnedGifChannel	%1$s GIF bekitti
+NotificationActionPinnedMusicChannel	%1$s audio fayl bekitti
+NotificationActionPinnedTextUser	%1$s \"%2$s\" xabarın bekitti
+NotificationActionPinnedNoTextUser	%1$s xabar bekitti
+NotificationActionPinnedPollUser	%1$s %2$s sorawnamasın bekitti
+NotificationActionPinnedTodoUser	%1$s %2$s dizimin bekitti
+NotificationActionPinnedQuizUser	%1$s %2$s viktorinasın bekitti
+NotificationActionPinnedPhotoUser	%1$s súwret bekitti
+NotificationActionPinnedGameUser	%1$s oyın bekitti
+NotificationActionPinnedGameScoreUser	%1$s oyın esabın bekitti
+NotificationActionPinnedVideoUser	%1$s video bekitti
+NotificationActionPinnedFileUser	%1$s fayl bekitti
+NotificationActionPinnedInvoiceUser	%1$s tólem esabın bekitti
+NotificationActionPinnedStickerUser	%1$s stiker bekitti
+NotificationActionPinnedStickerEmojiUser	%1$s %2$s stikerin bekitti
+NotificationActionPinnedVoiceUser	%1$s dawıslı xabar bekitti
+NotificationActionPinnedRoundUser	%1$s video xabar bekitti
+NotificationActionPinnedContactUser	%1$s %2$s kontaktın bekitti
+NotificationActionPinnedGeoUser	%1$s karta bekitti
+NotificationActionPinnedGeoLiveUser	%1$s janlı jaylasıw bekitti
+NotificationActionPinnedGifUser	%1$s GIF bekitti
+NotificationActionPinnedMusicUser	%1$s audio fayl bekitti
+NotificationActionMissedCallConference	%1$s qońırawın ótkerip jiberdińiz
+NotificationActionMissedCallConferenceOther_one	%2$s hám jáne %1$d adamnıń qońırawın ótkerip jiberdińiz
+NotificationActionMissedCallConferenceOther_other	%2$s hám jáne %1$d adamnıń qońırawın ótkerip jiberdińiz
+SecretChatName	Telegram
+SelectContact	Kontakt tańlaw
+ShareContactTitle	Kontakt penen bólisiw
+AddContactPhonebookTitle	Kontakt qosıw
+NoContacts	Ele kontaktlar joq
+InviteText2	Sálem, men Telegram arqalı sáwbetlesip atırman. Qosıl! Bul jerden júklep al: %1$s
+TodayAt	saat
+YesterdayAt	keshe saat
+TodayAtFormatted	saat %1$s
+TodayAtFormattedWithToday	búgin saat %1$s
+YesterdayAtFormatted	keshe saat %1$s
+Online	onlayn
+LastSeen	sońǵı ret kóringen
+LastSeenDate	sońǵı ret kóringen
+LastSeenFormatted	sońǵı ret %1$s kóringen
+LastSeenDateFormatted	sońǵı ret %1$s kóringen
+InviteFriends	Doslardı mirát etiw
+SearchFriends	Kontaktlardı izlew
+GlobalSearch	Ulıwma izlew
+ShowMore	Kóbirek kórsetiw
+ShowLess	Azıraq kórsetiw
+Lately	jaqında kóringen
+WithinAWeek	bir hápte ishinde kóringen
+WithinAMonth	bir ay ishinde kóringen
+ALongTimeAgo	kóp waqıt aldın kóringen
+NewMessageTitle	Jańa xabar
+InviteFriendsHelp	Telegramǵa mirát etiw ushın kontaktlardı tańlań
+InviteToTelegram	TELEGRAMǴA MIRÁT ETIW
+ShareTelegram2	Telegram menen bólisiw
+UpdateContactsTitle	Kontaktlar jańalansın ba?
+UpdateContactsMessage	Telegram sinxronlanbaǵan kóp kontaktlardı taptı, házir sinxronlawdı qáleysiz be? Eger óz qurılmańız, SIM kartańız hám Google akkauntıńızdan paydalanıp atırǵan bolsańız, \'OK\' túymesin basıń.
+SortedByName	Atı boyınsha sortlanǵan
+SortedByLastSeen	Sońǵı kóringen waqtı boyınsha sortlanǵan
+AddContactByPhone	%1$s qosıw
+PhoneNumberSearch	Telefon nomeri
+NoContactsYet2Invite	Doslardı mirát etiw >
+NoContactsYet3	Kontaktlar qosıw
+NoContactsYet3Sub	Telegramda ele kontaktlarıńız joq. Olardı qosıp kórsek qalay?
+NewContactAlertTitle	Jańa kontakt
+NewContactAlertMessage	**%1$s** telefon nomeri kontaktlar dizimińizde joq. Onı qosıwdı qáleysiz be?
+NewContactAlertButton	Kontakt qosıw
+Gift2AvailabilitySold_other	%d satıldı
+Gift2AvailabilityLeft_other	%d qaldı
+SendMessageTo	Adamlardı qosıw...
+SoftUserLimitAlert	Topardı jaratıp bolıp, onı supertoparǵa aylandırǵannan keyin kóbirek paydalanıwshı qosa alasız.
+GigagroupAlertText	Toparıńız **200,000** aǵza shegine jetti.\n\nTopardı tek administratorlar jaza alatuǵın **esittiriw toparına** aylandırıp, bul shekti asıra alasız.\nQızıqtıra ma?
+GigagroupAlertTitle	Shekke jetti
+GigagroupAlertLearnMore	KÓBIREK BILIW
+BroadcastGroup	Esittiriw toparı
+BroadcastGroupConvert	Esittiriw toparına aylandırıw
+BroadcastGroupConvertInfo	Esittiriw toparlarında 200,000 nan aslam aǵza bolıwı múmkin, biraq olarda tek administratorlar xabar jibere aladı.
+BroadcastGroupInfo	Bul toparda tek administratorlar xabar jibere aladı.
+BroadcastGroupConvertSuccess	Endi toparıńızda 200,000 nan aslam aǵza bolıwı múmkin.
+EnterGroupNamePlaceholder	Topar atın kirgiziń
+GroupName	Topar atı
+MembersCountZero	%1$s ǵa shekem
+JoinToGroupErrorFull	Keshirersiz, bul topar tolǵan.
+JoinToGroupErrorNotExist	Keshirersiz, bul sáwbet joq sıyaqlı.
+JoinByPeekChannelText	Bul kanal jabıq. Mazmunın kóriwdi dawam etiw ushın oǵan qosılıń.
+JoinByPeekGroupText	Bul topar jabıq. Mazmunın kóriwdi dawam etiw ushın oǵan qosılıń.
+JoinByPeekChannelTitle	Kanalǵa qosılıw
+JoinByPeekGroupTitle	Toparǵa qosılıw
+JoinByPeekJoin	QOSILIW
+LinkCopied	Silteme almasıw buferine kóshirildi
+LinkCopiedPrivate	Silteme almasıw buferine kóshirildi.\nBul silteme tek usı sáwbet aǵzaları ushın isleydi.
+LinkCopiedPrivateInfo	Bul silteme tek usı sáwbet aǵzaları ushın isleydi.
+LinkNotFound	Tilekke qarsı, bul xabardı kóre almaysız. Siz ol jaylastırılǵan sáwbettiń aǵzası emessiz.
+PhoneCopied	Telefon almasıw buferine kóshirildi
+EmailCopied	Email almasıw buferine kóshirildi
+InviteToGroupByLink	Toparǵa silteme arqalı mirát etiw
+InviteLink	Mirát siltemesi
+InviteLinkPrivate	Mirát siltemesi tek topar aǵzaları ushın isleydi
+InviteLinks	Mirát siltemeleri
+RevokeAlert	Bul siltemeni biykarlawdı anıq qáleysiz be? Silteme biykarlanǵannan keyin hesh kim onıń járdeminde qosıla almaydı.
+RevokeAlertNewLink	Aldınǵı mirát siltemesi endi islemeydi. Jańa silteme jaratıldı.
+RevokeButton	Biykarlaw
+RevokeLink	Siltemeni biykarlaw
+RevokeLinkAlert	**%1$s** siltemesin biykarlawdı anıq qáleysiz be?\n\n\"**%2$s**\" toparı jabıq boladı.
+RevokeLinkAlertChannel	**%1$s** siltemesin biykarlawdı anıq qáleysiz be?\n\n\"**%2$s**\" kanalı jabıq boladı.
+LeaveAffiliateLinkButton	Shıǵıw
+LeaveAffiliateLink	Siltemeni biykarlaw
+LeaveAffiliateLinkAlert	**%1$s** siltemesin biykarlawdı anıq qáleysiz be?
+CopyLink	Siltemeni kóshiriw
+CopyMail	E-Maildi kóshiriw
+CopyHashtag	Xeshtegti kóshiriw
+CopyNumber	Nomerdi kóshiriw
+ShareLink	Silteme menen bólisiw
+ShareLinks	Siltemeler menen bólisiw
+LinkInfo	Telegram ornatılǵan hár bir adam usı silteme arqalı toparıńızǵa qosıla aladı.
+SearchForPeople	Adamlardı izlew...
+SearchForPeopleAndGroups	Paydalanıwshılar hám toparlardı izlew...
+GigagroupConvertTitle	Esittiriw toparları
+GigagroupConvertInfo1	Aǵzalar sanına shek joq.
+GigagroupConvertInfo2	Tek administratorlar xabar jibere aladı.
+GigagroupConvertInfo3	Ádettegi toparǵa qayta aylandırıp bolmaydı.
+GigagroupConvertProcessButton	Esittiriw toparına aylandırıw
+GigagroupConvertCancelButton	Ádettegi topar bolıp qalsın
+GigagroupConvertAlertTitle	Isenimińiz kámil me?
+GigagroupConvertAlertText	Topardıń ádettegi aǵzaları (administrator emesler) toparda xabar jazıw huqıqınan **qaytarıp bolmaytuǵın túrde** ayırıladı.\n\nBul háreketti biykarlap **bolmaydı**.
+GigagroupConvertAlertConver	AYLANDIRIW
+GigagroupConvertCancelHint	Pikirińiz ózgerse, toparıńız sazlamalarına ótiń.
+GroupMembers	Aǵzalar
+SharedMedia	Ulıwma media
+SETTINGS	Sazlamalar
+AddSubscriber	Jazılıwshı qosıw
+AddMember	Aǵza qosıw
+BanFromTheGroupNoCaps	Topardan shıǵarıp bloklaw
+DeleteAndExit	Óshiriw hám topardan shıǵıw
+DeleteAndExitButton	Óshiriw hám topardan shıǵıw
+Notifications	Xabarlandırıwlar
+ChangePermissions	Ruqsatlardı ózgertiw
+KickFromGroup	Topardan shıǵarıw
+ShareContact	Kontakt penen bólisiw
+AddContact	Kontaktlarǵa qosıw
+AddContactTitle	Kontakt qosıw
+ContactNotRegisteredTitle	Telegramǵa mirát etiw
+ContactNotRegistered	%1$s ele Telegramda joq, onı qosılıwǵa mirát etiwdi qáleysiz be?
+Invite	Mirát etiw
+Block	BLOKLAW
+BlockAndDeleteReplies	BLOKLAW HÁM JUWAPLARDI ÓSHIRIW
+BlockContact	Paydalanıwshını bloklaw
+BlockUser	Paydalanıwshını bloklaw
+BlockUsers	Paydalanıwshılardı bloklaw
+BlockUserMessage	**%1$s** Telegramda sizge xabar jazıwı hám qońıraw etiwin bloklawdı qáleysiz be?
+BlockUsersMessage	**%1$s** Telegramda sizge xabar jazıwı hám qońıraw etiwin bloklawdı qáleysiz be?
+UserBlocked	Paydalanıwshı bloklandı
+UserUnblocked	Paydalanıwshı bloktan shıǵarıldı
+EditContact	Kontakttı ózgertiw
+DeleteContact	Kontakttı óshiriw
+StoryDeleteContact	Kontakttı óshiriw
+PhoneHome	Úy
+PhoneMobile	Mobil
+PhoneWork	Jumıs
+PhoneOther	Basqa
+PhoneMain	Tiykarǵı
+ContactJob	Jumıs
+ContactBirthday	Tuwılǵan kún
+ContactJobTitle	Lawazım
+ContactUrl	URL
+ContactNote	Eskertpe
+CreateNewContact	Jańa kontakt jaratıw
+NewContact	Jańa kontakt
+AddToExistingContact	Bar kontaktqa qosıw
+UserBio	Ózi haqqında
+UserBioDetail	Ózińiz haqqıńızda bir neshe sóz qosıń
+UserBioInfo	Ózińiz haqqıńızda bir neshe qatar qosa alasız. Profilińizdi ashqan hár bir adam bul tekstti kóredi.
+StartEncryptedChat	Jasırın sáwbetti baslaw
+NoGroupsInCommon	Ulıwma toparlar joq
+CreateEncryptedChatError	Qátelik júz berdi.
+EncryptionKey	Shifrlaw gilti
+MessageLifetime	Ózin-ózi joq etiw taymeri
+ShortMessageLifetimeForever	Óshirilgen
+EncryptionKeyDescription	Bul súwret hám tekst **%1$s** penen usı jasırın sáwbettiń shifrlaw giltinen alınǵan.\n\nEger olar **%2$s** qurılmasında da birdey kórinse, tolıq shifrlaw kepillenedi.\n\nKóbirek maǵlıwmat: telegram.org
+EncryptionKeyLink	https://telegram.org/faq#secret-chats
+NumberUnknown	Belgisiz
+PhoneHidden	Belgisiz
+MobileHidden	Mobil nomer jasırılǵan
+MobileHiddenExceptionInfo	%1$s sizdi kontaktlarına qosqannan keyin telefon nomeri kórinetuǵın boladı.
+MobileVisibleInfo	**TAYAR** túymesin basqanıńızda, telefon nomerińiz %1$s ushın kórinetuǵın boladı.
+SharePhoneNumberWith	Telefon nomerimdi %1$s menen bólisiw
+NowInContacts	%1$s endi kontaktlar dizimińizde.
+Info	Maǵlıwmat
+Phone	Telefon
+SharedContent	Ulıwma mazmun
+SharedLinks	Siltemeler
+SendMessageLocation	Xabar jiberiw
+ReportUserLocation	Shaǵım etiw
+InviteLinkCount_one	%1$d mirát siltemesi
+InviteLinkCount_other	%1$d mirát siltemesi
+EmojiCopied	Emoji almasıw buferine kóshirildi.
+UsernameCopied	Paydalanıwshı atı almasıw buferine kóshirildi.
+HashtagCopied	Xeshteg almasıw buferine kóshirildi.
+BioCopied	Ózi haqqında maǵlıwmat almasıw buferine kóshirildi.
+BirthdayCopied	Tuwılǵan kún almasıw buferine kóshirildi.
+DeletedFromYourContacts	%s kontaktlarıńızdan óshirildi
+Username	Paydalanıwshı atı
+UsernameAlso	sonday-aq %1$s
+UsernameLinkPlaceholder	paydalanıwshı atı
+UsernameInUse	Keshirersiz, bul paydalanıwshı atı bánt.
+UsernameInUsePurchase	Bul silteme bánt.\nBiraq onı házir satıp alıwǵa boladı. **Kóbirek biliw…**
+UsernameInvalid	Keshirersiz, bul paydalanıwshı atı jaramsız.
+UsernameInvalidShort	Paydalanıwshı atı keminde 5 belgiden ibarat bolıwı kerek.
+UsernameInvalidShortPurchase	Paydalanıwshı atı keminde 5 belgiden ibarat bolıwı kerek.\nBiraq onı házir satıp alıwǵa boladı. **Kóbirek biliw…**
+UsernameInvalidLong	Paydalanıwshı atı 32 belgiden aspawı kerek.
+UsernameInvalidStartNumber	Keshirersiz, paydalanıwshı atı san menen baslanbaydı.
+UsernameHelp	**Telegram**da paydalanıwshı atın tańlay alasız. Solay etseńiz, basqa adamlar sizdi usı at boyınsha tabıp, telefon nomerińizdi bilmey-aq baylanısa aladı.\n\n**a–z**, **0–9** hám astın sızıw belgisinen paydalanıwǵa boladı. Eń kem uzınlıq — **5** belgi.
+UsernameHelpLink	Bul silteme siz benen sáwbetti ashadı:\n%1$s
+UsernameChecking	Paydalanıwshı atı tekserilmekte...
+UsernameAvailable	%1$s bos.
+UsernameEmpty	Joq
+ErrorOccurred	Qátelik júz berdi.
+None	Joq
+StickersName	Stikerler
+StickersSettings	Sazlamalar
+LoopAnimatedStickers	Animaciyalı stikerlerdi tákirarlaw
+LoopAnimatedStickersInfo	Animaciyalı stikerler sáwbette úzliksiz oynaydı.
+AddStickers	Stikerlerdi qosıw
+AddStickersCount	%1$s qosıw
+AddManyStickersCount_one	Stiker qosıw
+AddManyStickersCount_other	%1$d stiker qosıw
+RemoveManyStickersCount_one	Stikerdi alıp taslaw
+RemoveManyStickersCount_other	%1$d stikerdi alıp taslaw
+AddManyEmojiCount_one	Emoji qosıw
+AddManyEmojiCount_other	%1$d emoji qosıw
+AddManyEmojiPacksCount_one	Emoji toplamın qosıw
+AddManyEmojiPacksCount_other	%1$d emoji toplamın qosıw
+RemoveManyEmojiCount_one	Emojini alıp taslaw
+RemoveManyEmojiCount_other	%1$d emojini alıp taslaw
+RemoveManyEmojiPacksCount_one	Emoji toplamın alıp taslaw
+RemoveManyEmojiPacksCount_other	%1$d emoji toplamın alıp taslaw
+AddManyMasksCount_one	Maska qosıw
+AddManyMasksCount_other	%1$d maska qosıw
+RemoveManyMasksCount_one	Maskanı alıp taslaw
+RemoveManyMasksCount_other	%1$d maskanı alıp taslaw
+EditSticker	Stikerdi ózgertiw
+EditStickers	Stikerlerdi ózgertiw
+DeleteSticker	Stikerdi óshiriw
+NewStickerPack	Jańa stikerler toplamı
+EditStickerPack	Stikerler toplamın ózgertiw
+AddMasks	Maskalar qosıw
+AddToStickers	Stikerlerge qosıw
+AddToStickerPack	Stikerler toplamına qosıw
+AddToFavorites	Saylandılarǵa qosıw
+AddedToFavorites	Stiker saylandılarǵa qosıldı
+RemovedFromFavorites	Stiker saylandılardan alıp taslandı
+RemovedFromRecent	Stiker sońǵılardan alıp taslandı
+RecentStickers	Jaqında qollanılǵan
+FavoriteStickers	Saylandılar
+CurrentGroupStickers	Topar stikerleri
+OtherStickers	Jáne stikerler
+DeleteFromFavorites	Saylandılardan óshiriw
+DeleteFromRecent	Sońǵılardan óshiriw
+RemoveFromRecent	Sońǵılardan alıp taslaw
+ClearRecentStickersAlertTitle	Sońǵı stikerlerdi tazalaw
+AddToMasks	Maskalarǵa qosıw
+AddStickersNotFound	Stikerler tabılmadı
+AddEmojiNotFound	Emoji toplamı tabılmadı.
+StickersCreateNewSticker	Jańa stiker jaratıw
+StickersReplaceSticker	Stikerdi almastırıw
+StickersAddAnExistingSticker	Bar stikerdi qosıw
+StickersDeleteStickerSetTitle	Stikerler toplamın óshiriw
+StickersDeleteStickerSetDescription	Bul stikerler toplamın barlıq paydalanıwshılar ushın óshiredi.
+StickersSetEmojiForSticker	Stikerińizge sáykes keletuǵın emojini belgileń
+StickersChooseNameForStickerPack	Toplamıńız ushın at tańlań.
+StickersStickerAddedToSetToast	Stiker %1$s toplamına qosıldı.
+StickersStickerEditedInSetToast	Stiker %1$s toplamında ózgertildi.
+StickersRemoved	Stikerler alıp taslandı.
+StickersRemovedInfo	%1$s endi stikerlerińizde joq.
+MasksRemoved	Maskalar alıp taslandı.
+MasksRemovedInfo	%1$s endi maskalarıńızda joq.
+EmojiRemoved	Emoji alıp taslandı.
+EmojiRemovedInfo	%1$s endi emoji toplamlarıńızda joq.
+EmojiRemovedMultipleInfo_one	%1$d emoji toplamı endi emojilerińizde joq.
+EmojiRemovedMultipleInfo_other	%1$d emoji toplamı endi emojilerińizde joq.
+StickersArchived	Stikerler arxivlendi.
+StickersArchivedInfo	%1$s arxivińizge kóshirildi.
+EmojiArchived	Emoji arxivlendi.
+EmojiArchivedInfo	%1$s arxivińizge kóshirildi.
+MasksArchived	Maskalar arxivlendi.
+MasksArchivedInfo	%1$s arxivińizge kóshirildi.
+AddStickersInstalled	Stikerler qosıldı.
+AddStickersInstalledInfo	%1$s stikerlerińizge qosıldı.
+AddMasksInstalled	Maskalar qosıldı.
+AddMasksInstalledInfo	%1$s maskalarıńızǵa qosıldı.
+AddEmojiInstalled	Emoji qosıldı.
+AddEmojiInstalledInfo	%1$s emoji toplamlarıńızǵa qosıldı.
+AddEmojiMultipleInstalledInfo_one	%1$d emoji toplamı emojilerińizge qosıldı.
+AddEmojiMultipleInstalledInfo_other	%1$d emoji toplamı emojilerińizge qosıldı.
+StickersDeleteForEveryone	Hámme ushın óshiriw
+StickersCheckStickersBotForMoreOptions	Kóbirek imkaniyatlar ushın **@stickers** botına qarań
+StickersRemoveForMe	Men ushın alıp taslaw
+StickersHide	Arxivlew
+StickersShare	Bólisiw
+StickersCopy	Siltemeni kóshiriw
+StickersReorder	Tártibin ózgertiw
+StickersRemove	Alıp taslaw
+StickersReorderHint	Tártibin ózgertiw ushın stikerlerdi jılıstırıń.
+NoStickers	Ele stikerler joq
+NoStickersFound	Stikerler tabılmadı
+NoGIFsFound	GIFler tabılmadı
+NoEmojiFound	Emoji tabılmadı
+NoReactionsFound	Reakciyalar tabılmadı
+NoEffectsFound	Effektler tabılmadı
+EmojiSuggestions	Emoji usınısları
+EmojiSuggestionsInfo	**Telegram** emojilerdi mıńlaǵan gilt sózler boyınsha tabıwǵa imkaniyat beredi, biraq bárqulla bir nárse jetispeydi. Jańa emoji almastırıwın usınbaqshı bolsańız, tómendegi mánzilge kirip bizge járdem bere alasız:
+EmojiSuggestionsUrl	https://translations.telegram.org/%1$s/emoji
+Masks	Maskalar
+MasksInfo	Jiberetuǵın súwretlerińizge maska qosa alasız. Bunıń ushın súwretti jiberiwden aldın súwret redaktorın ashıń.
+FeaturedStickers	Trendtegi stikerler
+FeaturedEmojiPacks	Trendtegi emoji toplamları
+FeaturedGifs	Trendtegi GIFler
+ShowMoreStickers	Kóbirek stiker kórsetiw
+ShowMoreEmojiPacks	Kóbirek emoji kórsetiw
+SuggestStickers	Emoji boyınsha stiker usınıw
+SuggestStickersAll	Barlıq toplamlar
+SuggestStickersInstalled	Meniń toplamlarım
+SuggestStickersNone	Joq
+SuggestAnimatedEmoji	Animaciyalı emoji usınıw
+SuggestAnimatedEmojiInfo	Hár saparı emoji kirgizgenińizde onı basqa animaciyalı emoji menen almastıra alasız.
+StickersBotInfo	Xudojnikler @stickers botımız arqalı óz stiker toplamların qosa aladı.
+EmojiBotInfo	Xudojnikler @stickers botımız arqalı óz emoji toplamların qosa aladı.
+ArchivedStickers	Arxivlengen stikerler
+ArchivedMasks	Arxivlengen maskalar
+ArchivedEmojiPacks	Arxivlengen emoji toplamları
+ArchivedStickersEmpty	Arxivlengen stikerler joq
+ArchivedMasksEmpty	Arxivlengen maskalar joq
+ArchivedStickersInfo	200 ge shekem stiker toplamın qosa alasız.\nKóbirek qosqanıńızda, qollanılmaǵan toplamlar arxivlenedi.
+ArchivedEmojiInfo	200 ge shekem emoji toplamın qosa alasız.\nKóbirek qosqanıńızda, qollanılmaǵan toplamlar arxivlenedi.
+ArchivedMasksInfo	200 ge shekem maska toplamıńız bolıwı múmkin.\nKóbirek qosqanıńızda, qollanılmaǵan toplamlar arxivlenedi.
+SendSticker	STIKER JIBERIW
+ArchivedStickersAlertTitle	Arxivlengen stikerler
+ArchivedStickersAlertInfo	Ayırım eski stiker toplamlarıńız arxivlendi. Olardı Stikerler sazlamalarında qayta qosa alasız.
+ArchivedMasksAlertTitle	Arxivlengen maskalar
+ArchivedMasksAlertInfo	Ayırım eski maska toplamlarıńız arxivlendi. Olardı Maskalar sazlamalarında qayta qosa alasız.
+DeleteStickerSetsAlertTitle	%1$s óshiriw
+DeleteStickersAlertMessage	Tańlanǵan stiker toplamların óshiriwdi anıq qáleysiz be?
+ArchiveStickerSetsAlertTitle	%1$s arxivlew
+ArchiveStickersAlertMessage	Tańlanǵan stiker toplamların arxivlewdi anıq qáleysiz be?
+ImportStickers	%1$s IMPORTLAW
+ImportStickersProcessing	Stikerler qayta islenbekte...
+ImportStickersRemove	IMPORTTAN ALIP TASLAW
+ImportStickersRemoveMenu	Importtan alıp taslaw
+ImportStickersEnterName	At kirgiziń
+ImportStickersEnterNameInfo	Toplamıńız ushın at tańlań.
+ImportStickersEnterUrlInfo	a-z, 0-9 hám astın sızıw belgisinen paydalanıwǵa boladı.
+ImportStickersLinkInvalid	Keshirersiz, bul silteme jaramsız.
+ImportStickersLinkInvalidShort	Silteme keminde 5 belgiden ibarat bolıwı kerek.
+ImportStickersLinkInvalidLong	Silteme 32 belgiden aspawı kerek.
+ImportStickersLinkChecking	Silteme tekserilmekte...
+ImportStickersLinkAvailable	Bul silteme bos.
+ImportStickersLinkTaken	Keshirersiz, bul silteme bánt.
+ImportStickersImportingTitle	Stikerler importlanbaqta
+ImportStickersDoneTitle	Stikerler tabıslı importlandı!
+ImportStickersDoneInfo	Telegramǵa kóbirek stiker importlań hám olar menen doslarıńız benen bólisiń.
+Theme	Tema
+AutoNightTheme	Avto túngi rejim
+AutoNightThemeOff	Óshirilgen
+AutoNightDisabled	Óshirilgen
+AutoNightScheduled	Keste boyınsha
+AutoNightAdaptive	Beyimlesiwshi
+AutoNightSchedule	Keste
+AutoNightSystemDefault	Sistema boyınsha
+AutoNightLocation	Jergilikli kún batıw hám shıǵıw waqtın qollanıw
+AutoNightUpdateLocation	Jaylasıwdı jańalaw
+AutoNightUpdateLocationInfo	Kún batıw hám shıǵıw waqıtların esaplaw ushın shama menen jaylasıwıńızdı bir ret tekseriw kerek. Bul jaylasıw tek qurılmańızda saqlanadı.\n\nKún batıwı: %1$s\nKún shıǵıwı: %2$s
+AutoNightFrom	Baslanıwı
+AutoNightTo	Tamamlanıwı
+AutoNightPreferred	Qálewli túngi tema
+AutoNightBrightness	Jarıqlıq shegi
+AutoNightBrightnessInfo	Átirap jarıqlıǵı %1$d%% dan tómen túskende qálewli túngi temaǵa ótiw.
+ThemeDark	Qarańǵı
+ThemeDay	Kúndizgi
+ThemeNight	Túngi
+ThemeArcticBlue	Arktika
+ThemeClassic	Klassikalıq
+DeleteThemeTitle	Temanı óshiriw
+DeleteThemeAlert	Bul temanı óshiriwdi anıq qáleysiz be?
+IncorrectTheme	Qáte tema faylı
+EnterThemeNameEdit	Temańız benen basqalar menen bólispekshi yamasa hár bir reńdi qolda sazlamaqshı bolsańız, **Jaratıw** túymesin basıń.\n\nTema atın kirgiziń:
+EnterThemeName	Tema atın kirgiziń
+CloseEditor	REDAKTORDI JABIW
+SaveTheme	TEMANI SAQLAW
+NewTheme	Jańa reń teması
+ColorTheme	Reń teması
+ColorThemeChanged	Reń teması ózgertildi.
+ColorThemeChangedInfo	Onı *Sáwbet sazlamaları*nda qayta ózgerte alasız.
+ThemeSetUrl	Silteme ornatıw
+BubbleRadius	Xabar múyeshleri
+ChatList	Sáwbetler diziminiń kórinisi
+ChatListDefault	Eki qatar
+ChatListExpanded	Úsh qatar
+CreateTheme	Tema jaratıw
+ApplyTheme	Qollanıw
+ThemePreview	Temanı aldınnan kóriw
+SelectColor	Reńdi tańlaw
+SelectSticker	Stikerdi tańlaw
+SelectEmoji	Emojini tańlaw
+ThemeNotFound	Tema tabılmadı
+ThemeNotSupported	Keshirersiz, bul reń teması ele qurılmańızdı qollap-quwatlamaydı.
+CreateNewThemeMenu	Jańa tema jaratıw
+NewThemeTitle	Jańa tema
+EditThemeTitle	Temanı ózgertiw
+CreateNewThemeHelp	Hár bir ekrandaǵı elementler dizimin kóriw hám olardı ózgertiw ushın palitra belgisin basıń.
+CreateNewThemeAlert	Qosımsha ishinde reńlerdi ózgertip, óz temańızdı jarata alasız.\n\nBul jerde bárqulla ádepki Telegram temasına qayta ala alasız.
+ThemeSetUrlHelp	a-z, 0-9 hám astın sızıw belgisinen paydalanıwǵa boladı.\nEń kem uzınlıq — 5 belgi.
+ThemeHelpLink	Temańız hár saparı ózgertkenińizde barlıq paydalanıwshılar ushın jańalanadı. Hár kim onı usı silteme arqalı ornata aladı:\n%1$s
+ThemeCreateHelp	Hár kim temańızdı usı silteme arqalı ornata aladı. Temanı ózgertkenińizde, ol onı ornatqan barlıq paydalanıwshılar ushın jańalanadı.\n\nTema házirgi tańlanǵan temańız hám tusqaǵazıńızǵa tiykarlanadı.
+ThemeCreateHelp2	Temańızdıń siltemesin ózgerte alasız.\n\nTema siltemeleri 5 belgiden uzın bolıwı kerek hám a-z, 0-9 hám astın sızıw belgisinen ibarat bola aladı.
+ThemeNameInvalid	Keshirersiz, tema atı jaramsız.
+SetUrlInvalid	Keshirersiz, bul silteme jaramsız.
+SetUrlInvalidShort	Silteme keminde 5 belgiden ibarat bolıwı kerek.
+SetUrlInvalidLong	Silteme 64 belgiden aspawı kerek.
+SetUrlInvalidStartNumber	Keshirersiz, silteme san menen baslanbaydı.
+SetUrlChecking	Silteme tekserilmekte...
+SetUrlInUse	Keshirersiz, bul silteme bánt.
+SetUrlAvailable	%1$s bos.
+SetUrlPlaceholder	Silteme
+ThemeNamePlaceholder	Atı
+ThemePreviewDialog1	Eva Summer
+ThemePreviewDialogMessage1	Bir qıtay naqılın eske túsiredi...
+ThemePreviewDialog2	Ishki báseke
+ThemePreviewDialogMessage2	sálem, derek kodın jańaladım.
+ThemePreviewDialog3	Mike Apple
+ThemePreviewDialogMessage3	&#129335;&#8205;&#9794;&#65039; Stiker
+ThemePreviewDialog4	Paul Newman
+ThemePreviewDialogMessage4	Qanday da bir pikir bar ma?
+ThemePreviewDialog5	Eski qaraqshılar
+ThemePreviewDialogMessage5	Yo-ho-ho!
+ThemePreviewDialog6	Kate Bright
+ThemePreviewDialogMessage6	Hola!
+ThemePreviewDialog7	Nick K
+ThemePreviewDialogMessage7	Bular siz izlep atırǵan droidler emes.
+ThemePreviewDialog8	Adler Toberg
+ThemePreviewDialogMessage8	Birew jerǵańaq mayı dedi me?
+ThemePreviewLine1	Reinhardt, saǵan jańa namalar tabıwımız kerek &#127926;.
+ThemePreviewLine2	Házir seni hátte shın qabıl ete almayman.
+ThemePreviewLine3	Aa, búgingi jaslar tek texno muzıka deydi! Hasselhoff sıyaqlı klassikadan lázzet alıw kerek!
+ThemePreviewLine3Reply	Lucio
+ThemePreviewLine4	Qáne, basla! Men usınıń ushın JASAYMAN!
+ThemePreviewSongTitle	True Survivor
+ThemePreviewSongPerformer	David Hasselhoff
+NewThemePreviewName	Bob Harris
+NewThemePreviewReply	Qayırlı tań! &#128075;
+NewThemePreviewReply2	Qayırlı tań
+NewThemePreviewLine1	Saat neshe bolǵanın bileseń be?
+NewThemePreviewLine3	*Tokio*da házir tań &#128526;
+UseDifferentTheme	Basqa temadan paydalanıw
+UseDifferentThemeInfo	Sonday-aq, bar jeke temanı temańız ushın tiykar retinde qollana alasız.
+ChooseTheme	Temanı tańlaw
+ExportTheme	Eksport
+Create	Jaratıw
+ColorPickerMainColor	Tiykarǵı reń
+ColorPickerBackground	Fon
+ColorPickerMyMessages	Meniń xabarlarım
+ChangeWallpaperToColor	Sáwbet tusqaǵazın reńge ózgertiwdi anıq qáleysiz be?
+ChangeColorToColor	Házirgi tańlanǵan fondı qollanıwdı ma yamasa usı tema ushın ádepki fonǵa qaytarıwdı qáleysiz be?
+ShareTheme	Tema menen bólisiw
+EditThemeColors	Reńlerdi ózgertiw
+ThemeResetToDefaults	Ádepkige qaytarıw
+ThemeResetToDefaultsTitle	Sazlamalardı tiklew
+ThemeResetToDefaultsText	Tekst ólshemi hám reń sazlamaların tiklewdi anıq qáleysiz be?
+DeleteTheme	Temanı óshiriw
+OpenInEditor	Redaktorda ashıw
+SaveChangesAlertTitle	Ózgerisler saqlansın ba?
+SaveChangesAlertText	Tańlaǵan jańa reńlerińizdi qollanıwdı qáleysiz be?
+ResetNotificationsText	Barlıq xabarlandırıw sazlamaları ádepkige qaytarıldı
+ResetNotificationsAlertTitle	Barlıq xabarlandırıwlardı tiklew
+ResetNotificationsAlert	Barlıq xabarlandırıw sazlamaların ádepkige qaytarıwdı anıq qáleysiz be?
+ResetCustomNotifications	Ádepki sazlamalarǵa qaytarıw
+ResetCustomNotificationsAlertTitle	Xabarlandırıwlardı tiklew
+ResetCustomNotificationsAlert	Xabarlandırıw sazlamaların ádepkige qaytarıwdı anıq qáleysiz be?
+TextSizeHeader	Xabar tekstiniń ólshemi
+AskAQuestion	Soraw beriw
+QuizExplanationTitle	Túsindirme
+AddAnExplanationHeader	Túsindirme
+AddAnExplanation	Túsindirme qosıw
+AddAnExplanationInfo	Paydalanıwshılar qáte juwaptı tańlaǵannan keyin usı tekstti kóredi, bul oqıw maqsetleri ushın qolaylı.
+EnableAnimations	Animaciyalardı qosıw
+ChatSettings	Sáwbet sazlamaları
+Devices	Qurılmalar
+SettingsHelp	Járdem
+SettingsDebug	Otladka
+Account	Akkaunt
+Unblock	Bloktan shıǵarıw
+NoBlocked	Ele bloklanǵan paydalanıwshılar joq
+Alert	Xabarlandırıwlardı kórsetiw
+MessagePreview	Xabardı aldınnan kóriw
+NotificationShowSenderNames	Jiberiwshi atın kórsetiw
+StoryAutoExceptions	Avtomat esaptan tısqarılar
+StoryAutoExceptionsInfo	Eń kóp baylanısatuǵın 5 paydalanıwshıńızdıń storis xabarlandırıwların avtomat túrde qosıw.
+Sound	Dawıs
+InAppNotifications	Qosımsha ishindegi xabarlandırıwlar
+InAppSounds	Qosımsha ishindegi dawıslar
+InAppVibrate	Qosımsha ishindegi vibraciya
+Vibrate	Vibraciya
+InAppPreview	Qosımsha ishinde aldınnan kóriw
+InAppPopup	Qosımsha ishinde ekranda kórsetiw
+InAppPopupInfo	Qosımshada bolǵanıńızda qalqıp shıǵatuǵın xabarlandırıwlardı kórsetiw.
+Reset	Tiklew
+ResetAllNotifications	Barlıq xabarlandırıwlardı tiklew
+UndoAllCustom	Barlıq kontaktlar, toparlar hám kanallarıńız ushın jeke xabarlandırıw sazlamaların biykarlaw.
+NotificationsAndSounds	Xabarlandırıwlar hám dawıslar
+CustomNotifications	Jeke xabarlandırıwlar
+ProfilePopupNotification	Qalqıp shıǵatuǵın xabarlandırıwlar
+ProfilePopupNotificationInfo	Telegramnan paydalanbay atırǵanıńızda, usı kontakttan kelgen jańa xabarlar ekranıńızda kórinedi.
+NotificationsLed	LED
+NotificationsLedColor	Reń
+ColorBlue	Kók
+ColorRed	Qızıl
+ColorYellow	Sarı
+ColorGreen	Jasıl
+ColorCyan	Kógildir
+ColorWhite	Aq
+ColorPink	Qızǵılt
+FontSize	Shrift ólshemi
+FontType	Shrift túri
+ColorViolet	Binafsha
+ColorOrange	Qızǵılt sarı
+NotificationsLedInfo	LED — ayırım qurılmalardaǵı jańa xabarlardı bildiretuǵın kishkene jıltıldaytuǵın shıraq.
+PriorityInfo	Joqarı áhmiyetli xabarlandırıwlar telefonıńız «Mazalamań» rejiminde bolsa da isleydi.
+General	Ulıwma
+NotificationsMuted	Únsiz
+NotificationsUnmuted	Dawıslı
+NotificationsOn	Qosılǵan
+NotificationsOff	Óshirilgen
+NotificationsOffUntil	%1$s ǵa shekem óshirilgen
+NotificationsTurnOn	Qosıw
+NotificationsTurnOff	Óshiriw
+BlockedUsers	Bloklanǵan paydalanıwshılar
+BlockedUsersInfo	Bloklanǵan paydalanıwshılar siz benen baylanısa almaydı hám sońǵı kóringen waqtıńızdı kórmeydi.
+BlockUserMultiTitle	Paydalanıwshını bloklaw
+BlockUserChatsTitle	SÁWBETLER
+BlockUserContactsTitle	KONTAKTLAR
+LogOut	Shıǵıw
+NoSound	Dawıssız
+Default	Ádepki
+Support	Qollap-quwatlaw
+OnlyIfSilent	Tek únsiz rejimde
+BackgroundBlurred	Buldır
+BackgroundMotion	Háreket
+ChangeChatBackground	Sáwbet fonın ózgertiw
+ChangeUserNameColor	Reńińizdi ózgertiw
+ChangeChannelNameColor2	Kórinis
+ChangeGroupAppearance	Kórinis hám emoji
+ChannelAutotranslation	Xabarlardı avtomat awdarıw
+ChatBackground	Sáwbet fonı
+ResetChatBackgrounds	Sáwbet fonların tiklew
+ResetChatBackgroundsInfo	Barlıq júklengen sáwbet fonların óshirip, aldınnan ornatılǵanların tiklew.
+ResetChatBackgroundsAlertTitle	Sáwbet fonların tiklew
+ResetChatBackgroundsAlert	Barlıq sáwbet fonların tiklewdi anıq qáleysiz be?
+DeleteChatBackgroundsAlert	Tańlanǵan fonlardı óshiriwdi anıq qáleysiz be?
+BackgroundPreview	Tusqaǵaz
+BackgroundPreviewLine1	Másláhát: ayırım fon súwretleri buldır bolǵanda jaqsıraq kórinedi.
+BackgroundPreviewLine2	Alaqay! Raxmet
+FontSizePreviewName	Bob Harris
+FontSizePreviewReply	Qayırlı tań! &#128075;
+FontSizePreviewLine1	Saat neshe bolǵanın bileseń be?
+FontSizePreviewLine2	Tokioda házir tań &#128526;
+BackgroundColorSinglePreviewLine1	Fondı qollanıw ushın \'Ornatıw\' túymesin basıń.
+BackgroundColorSinglePreviewLine2	Kórinisten lázzet alıń.
+SearchByColor	Reń boyınsha izlew
+SearchBackgrounds	Fonlardı izlew
+BackgroundSearchColor	Reń:
+BackgroundColors	Reńler
+BackgroundAnimateInfo	Xabar jibergenińizde reńler háreketlenedi

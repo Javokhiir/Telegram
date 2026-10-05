@@ -1,0 +1,593 @@
+BackgroundAnimate	Animaciya
+BackgroundPattern	Naǵıs
+BackgroundChoosePattern	Naǵıstı tańlaw
+BackgroundIntensity	Qanıqlıq
+Blue	Kók
+Red	Qızıl
+Orange	Qızǵılt sarı
+Yellow	Sarı
+Green	Jasıl
+Teal	Kók-jasıl
+Purple	Kúlgin
+Pink	Qızǵılt
+Brown	Qońır
+Black	Qara
+Gray	Kúl reń
+White	Aq
+SelectColorTitle	Reńdi tańlań
+LoadingFullImage	tolıq súwret júklenbekte...
+SetColor	Reńdi ornatıw
+MessagesSettings	Xabarlar
+SendByEnter	Enter menen jiberiw
+Events	Waqıyalar
+ContactJoined	Kontakt Telegramǵa qosıldı
+PinnedMessages	Bekitilgen xabarlar
+TranslateMessages	Xabarlardı awdarıw
+ShowTranslateButton	Awdarıw túymesin kórsetiw
+ShowTranslateChatButton	Pútkil sáwbetti awdarıw
+DoNotTranslate	Awdarmaw
+Languages_one	%1$d til
+Languages_other	%1$d til
+ChooseLanguages	Tillerdi tańlaw
+TranslateMessagesInfo1	Tekstli xabardı bir ret basqanıńızda ‘Awdarıw’ túymesi payda boladı.
+Language	Til
+LanguageCustom	Jeke
+LanguageTitle	Til ózgertilsin be?
+LanguageAlert	Siz %2$d%% tayar bolǵan til paketin (**%1$s**) qollanbaqshısız.\n\nBul pútkil interfeysti awdaradı. Dúzetiwlerdi [translation platform] arqalı usına alasız.\n\nTildi Sazlamalarda qálegen waqıtta qayta ózgerte alasız.
+LanguageCustomAlert	Siz %2$d%% tayar bolǵan jeke til paketin (**%1$s**) qollanbaqshısız.\n\nBul pútkil interfeysti awdaradı. Dúzetiwlerdi [translation platform] arqalı usına alasız.\n\nTildi Sazlamalarda qálegen waqıtta qayta ózgerte alasız.
+LanguageUnknownTitle	Maǵlıwmat jetkiliksiz
+LanguageUnsupportedError	Bunday til joq.
+LanguageSame	Siz bul til paketin (**%1$s**) qollanıp atırsız. Tildi Sazlamalarda qálegen waqıtta ózgerte alasız.
+LanguageUnknownCustomAlert	Tilekke qarsı, bul jeke til paketinde (**%1$s**) Telegram Android ushın maǵlıwmat joq.
+AskAQuestionInfo	Telegram qollap-quwatlaw xızmetin erikliler alıp baratuǵının esapqa alıń. Biz múmkin bolǵansha tez juwap beriwge háreket etemiz, biraq bul biraz waqıt alıwı múmkin.\n\n<![CDATA[<a href=\"https://telegram.org/faq#general-questions\">Telegram FAQ</a>]]> betine qarań: onda kópshilik sorawlarǵa juwaplar hám <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">mashqalalardı sheshiw</a>]]> boyınsha áhmiyetli másláhátler bar.
+AskButton	Eriklige soraw beriw
+TelegramFAQ	Telegram FAQ
+TelegramFaq	Telegram FAQ
+TelegramFeatures	Telegram imkaniyatları
+TelegramFeaturesUrl	https://t.me/TelegramTips
+AddAccount	Akkaunt qosıw
+SwitchAccountHint	"Akkauntlardı almastırıw ushın uzaq basıń"
+SelectAccount	Akkaunttı tańlaw
+TelegramFaqUrl	https://telegram.org/faq
+PrivacyPolicy	Qupıyalıq siyasatı
+TermsOfService	Paydalanıw shártleri
+TermsOfServiceLogin	Dizimnen ótiw arqalı\n*Paydalanıw shártleri*ne kelisesiz.
+PrivacyPolicyUrl	https://telegram.org/privacy
+TermsOfServiceUrl	https://telegram.org/tos
+WebAppDisclaimerUrl	https://telegram.org/tos/mini-apps
+DeleteLocalizationTitle	Til paketin óshiriw
+DeleteLocalizationText	**%1$s** til paketin óshiriwdi anıq qáleysiz be?
+IncorrectLocalization	Qáte lokalizaciya faylı
+NotificationsService	Úzliksiz islew xızmeti
+NotificationsServiceInfo	Jabılǵanda qosımshanı qayta iske túsiriw. Isenimli xabarlandırıwlar ushın qosıń.
+NotificationsServiceConnection	Fon baylanısı
+NotificationsServiceConnectionInfo	Isenimli xabarlandırıwlar ushın Telegram menen jeńil fon baylanısın saqlaw.
+SortBy	Sortlaw
+ImportContacts	Kontaktlardı importlaw
+SortFirstName	Atı
+SortLastName	Familiyası
+LedColor	LED reńi
+PopupNotification	Qalqıp shıǵatuǵın xabarlandırıwlar
+NoPopup	Qalqıp shıqpasın
+OnlyWhenScreenOn	Tek ekran \"qosıwlı\" bolǵanda
+OnlyWhenScreenOff	Tek ekran \"óshirilgen\" bolǵanda
+AlwaysShowPopup	Bárqulla kórsetiw
+BadgeNumber	Belgi esaplaǵıshı
+BadgeNumberShow	Qosılǵan
+BadgeNumberMutedChats	Únsiz sáwbetlerdi qosıw
+BadgeNumberUnread	Oqılmaǵan xabarlardı sanaw
+Short	Qısqa
+Long	Uzın
+AutomaticMediaDownload	Medianı avtomat júklew
+AutoDownloadMedia	Medianı avto-júklew
+AutoDownloadOnAllChats	Barlıq sáwbetlerde qosılǵan
+AutoDownloadUpToOnAllChats	Barlıq sáwbetlerde %1$s ǵa shekem
+AutoDownloadOff	Óshirilgen
+AutoDownloadOnUpToFor	%2$s ushın %1$s ǵa shekem
+AutoDownloadOnFor	%1$s ushın qosılǵan
+AutoDownloadContacts	Kontaktlar
+AutoDownloadChannels	Kanallar
+AutoDownloadLow	Tómen
+AutoDownloadMedium	Orta
+AutoDownloadHigh	Joqarı
+AutoDownloadCustom	Jeke
+AutoDownloadPm	Jeke xabarlar
+AutoDownloadGroups	Toparlar
+AutoDownloadPhotos	Súwretler
+AutoDownloadVideos	Videolar
+AutoDownloadFiles	Fayllar
+AutoDownloadPhotosOn	Súwretler
+AutoDownloadVideosOn	Videolar
+AutoDownloadFilesOn	Fayllar
+AutoDownloadFilesTitle	Fayllar hám muzıkanı avto-júklew
+AutoDownloadPhotosTitle	Súwretlerdi avto-júklew
+AutoDownloadVideosTitle	Videolar hám GIFlerdi avto-júklew
+AutoDownloadMaxVideoSize	Videonıń eń úlken ólshemi
+AutoDownloadMaxFileSize	Fayldıń eń úlken ólshemi
+AutoDownloadPreloadMusic	Keyingi trekti aldınnan júklew
+AutoDownloadPreloadMusicInfo	Audio fayldı tıńlap atırǵanıńızda keyingi trekti júklewdi baslaw.
+AutoDownloadPreloadVideo	Úlken videolardı aldınnan júklew
+AutoDownloadPreloadVideoInfo	Dárhal oynatıw ushın %1$s tan úlken videolardıń dáslepki bir neshe sekundın (1-2 MB) aldınnan júklew.
+AutoDownloadOnMobileDataInfo	Media mobil internette avtomat júkleniwin qáleseńiz, bunı QOSIŃ.
+AutoDownloadOnRoamingDataInfo	Media roumingte avtomat júkleniwin qáleseńiz, bunı QOSIŃ.
+AutoDownloadOnWiFiDataInfo	Media Wi-Fi da avtomat júkleniwin qáleseńiz, bunı QOSIŃ.
+AutoDownloadOnMobileData	Mobil internette
+AutoDownloadOnRoamingData	Roumingte
+AutoDownloadOnWiFiData	Wi-Fi da
+AutoDownloadDataUsage	Trafik sarpı
+AutoDownloadTypes	Media túrleri
+AutoDownloadAudioInfo	Dawıslı xabarlar júdá kishi, sonlıqtan olar bárqulla avtomat júklenedi.
+NoMediaAutoDownload	Media joq
+NoGIFs	GIFler joq
+AutomaticDownloadSettings	Avto-júklew sazlamaları
+AutomaticDownloadSettingsInfoMobile	Mobil tarmaq arqalı jalǵanǵanda trafik sarpın azaytıw ushın medianı avto-júklew sazlamaların ózgerte alasız.
+AutomaticDownloadSettingsInfoWiFi	Wi-Fi ǵa jalǵanǵanda trafik sarpın azaytıw ushın medianı avto-júklew sazlamaların ózgerte alasız.
+AutomaticDownloadSettingsInfoRoaming	Roumingte trafik sarpın azaytıw ushın medianı avto-júklew sazlamaların ózgerte alasız.
+ResetAutomaticMediaDownload	Avto-júklew sazlamaların tiklew
+ResetAutomaticMediaDownloadAlertTitle	Sazlamalardı tiklew
+ResetAutomaticMediaDownloadAlert	Avto-júklew sazlamaların tiklewdi anıq qáleysiz be?
+WhenUsingMobileData	Mobil internetten paydalanǵanda
+WhenConnectedOnWiFi	Wi-Fi ǵa jalǵanǵanda
+WhenRoaming	Roumingte
+AutoplayGIF	GIFler
+AutoplayVideo	Videolar
+AutoplayVideoInfo	Dawıstı qosıw ushın dawıs túymelerin basıń.
+HidAccount	Akkaunt paydalanıwshı tárepinen jasırılǵan
+StoryHidAccount	Akkaunt paydalanıwshı tárepinen jasırılǵan
+AutoplayMedia	Medianı avto-oynatıw
+RaiseToSpeak	Sóylew ushın kóteriw
+RaiseToSpeakInfo	Telefondı qulaǵıńızǵa kóterip, dawıslı xabar jazıw
+RaiseToListen	Tıńlaw ushın kóteriw
+RaiseToListenInfo	Telefondı qulaǵıńızǵa kóterip, dawıstı sóylesiw dinamigine ótkeriw
+SaveToGallerySettings	Galereyaǵa saqlaw
+SoundMuted	Dawıs óshirilgen
+EditName	Attı ózgertiw
+ProfileColorEdit	Profil reńin ózgertiw
+NotificationsCustomize	Sazlaw
+NotificationsCustom	Jeke
+NotificationsImportance	Áhmiyetliligi
+NotificationsPrioritySettings	Sazlamalardaǵıday
+NotificationsPriorityLow	Tómen
+NotificationsPriorityMedium	Orta
+NotificationsPriorityHigh	Joqarı
+NotificationsPriorityUrgent	Shuǵıl
+RepeatNotificationsNever	Hesh qashan
+RepeatNotifications	Xabarlandırıwlardı tákirarlaw
+PhoneNumberHelp	Bul jerde Telegram nomerińizdi ózgerte alasız. Akkauntıńız hám barlıq bultlı maǵlıwmatlarıńız — xabarlar, media, kontaktlar hám basqalar jańa nomerge kóshiriledi.
+PhoneNumberAlert	Paydalanıwshılar jańa nomerińizdi, eger ol olardıń mánzil kitabında bolsa yamasa qupıyalıq sazlamalarıńız ruqsat berse, kóredi. Bunı Sazlamalar &gt; Qupıyalıq hám qáwipsizlik &gt; Telefon nomeri bóliminde ózgerte alasız.
+PhoneNumberChange2	Nomerdi ózgertiw
+PhoneNumberChangeTitle	Nomerdi ózgertiw
+PhoneNumberKeepButton	%1$s qalsın
+ChangePhoneNewNumber	Jańa nomer
+ChangePhoneHelp	Jańa nomerińizge tastıyıqlaw kodı bar SMS jiberemiz.
+ChangePhoneNumberOccupied	%1$s nomeri Telegram akkauntına baylanǵan. Jańa nomerge ótiwden aldın sol akkaunttı óshiriń.
+NotificationsOther	Basqa
+VibrationDisabled	Óshirilgen
+PopupEnabled	Qosılǵan
+PopupDisabled	Óshirilgen
+LedDisabled	Óshirilgen
+RepeatDisabled	Óshirilgen
+InChatSound	Sáwbet ishindegi dawıslar
+SoundDefault	Ádepki
+VibrationDefault	Ádepki
+NotificationsDefault	Ádepki
+NotificationsInAppDefault	Qosımsha ishinde ádepki
+NotificationsChatInApp	%1$s qosımsha ishinde
+NotificationsSilent	Únsiz
+SmartNotifications	Aqıllı xabarlandırıwlar
+NotificationsExceptions	Esaptan tısqarılar
+NotificationsAddAnException	Esaptan tısqarı qosıw
+NotificationsDeleteAllException	Barlıq esaptan tısqarılardı óshiriw
+NotificationsDeleteAllExceptionTitle	Barlıq esaptan tısqarılardı óshiriw
+NotificationsDeleteAllExceptionAlert	Barlıq esaptan tısqarılardı óshiriwdi anıq qáleysiz be?
+NotificationsNewException	Jańa esaptan tısqarı
+NoExceptions	Bul bólimde xabarlandırıw sazlamaları ádepkiden ózgeshe bolǵan barlıq sáwbetler kórsetiledi.\n\nSáwbettiń profilin ashıp, \'Xabarlandırıwlar\'dı tańlaw arqalı onıń xabarlandırıwların sazlay alasız.
+SmartNotificationsInfo	%1$d / %2$s
+SmartNotificationsDisabled	Óshirilgen
+SecretWebPage	Silteme aldınnan kóriwi
+SecretWebPageInfo	Silteme aldınnan kóriwleri Telegram serverlerinde jaratıladı. Biz siz jibergen siltemeler haqqında maǵlıwmat saqlamaymız.
+SecretChat	Jasırın sáwbetler
+DirectShare	Tikkeley bólisiw
+DirectShareInfo	Android bólisiw menyuında sońǵı sáwbetlerdi kórsetiw
+Emoji	Emoji
+LargeEmoji	Úlken emoji
+TelegramVersion	Android ushın Telegram %1$s
+DebugMenu	Otladka menyuı
+DebugMenuLongPress	Otladka menyuı ushın jáne uzaq basıń
+DebugSendLogs	Loglardı jiberiw
+DebugSendLastLogs	Sońǵı loglardı jiberiw
+DebugClearLogs	Loglardı tazalaw
+DebugMenuEnableLogs	Loglardı qosıw
+DebugMenuDisableLogs	Loglardı óshiriw
+DebugMenuLoginToast_one	Otladka menyuın ashıw ushın jáne %d ret basıń.
+DebugMenuLoginToast_other	Otladka menyuın ashıw ushın jáne %d ret basıń.
+DebugMenuImportContacts	Kontaktlardı importlaw
+DebugMenuReloadContacts	Kontaktlardı qayta júklew
+DebugMenuResetDialogs	Dialoglardı tiklew
+DebugMenuReadAllDialogs	Barlıq sáwbetlerdi oqıw
+DebugMenuCheckAppUpdate	Qosımsha jańalanıwın tekseriw
+DebugMenuEnableCamera	Qosımsha ishindegi kameranı qosıw
+DebugMenuDisableCamera	Qosımsha ishindegi kameranı óshiriw
+DebugMenuResetContacts	Importlanǵan kontaktlardı tiklew
+DebugMenuClearMediaCache	Jiberilgen media keshin tazalaw
+DebugMenuCallSettings	Qońıraw sazlamaları
+DebugMenuClearWebViewCache	WebView keshin tazalaw
+DebugMenuClearWebViewCookies	WebView cookie fayllerin tazalaw
+DebugMenuEnableWebViewDebug	WebView otladkasın qosıw
+DebugMenuDisableWebViewDebug	WebView otladkasın óshiriw
+DebugMenuWebViewDebugEnabled	Otladka qosıldı!
+DebugMenuWebViewDebugDisabled	Otladka óshirildi!
+ChangeLanguageLater	Tildi keyin Sazlamalarda ózgerte alasız.
+ChooseYourLanguage	Tilińizdi tańlań
+ChooseYourLanguageOther	Basqa
+Paste	Qoyıw
+Flip	Aylandırıw
+SegmentationTabToCrop	Qırqıw ushın obyektti basıń
+SegmentationCutOut	Qırqıp alıw
+SegmentationCutObject	Obyektti qırqıw
+SegmentationUndoCutOut	Qırqıwdı biykarlaw
+SegmentationUndo	Biykarlaw
+SegmentationOutline	Kontur qosıw
+SegmentationErase	Óshiriw
+SegmentationRestore	Tiklew
+EditPack	ózgertiw
+PasteFromClipboard	Almasıw buferinen qoyıw
+ProxySettings	Proksi sazlamaları
+ProxyDetails	Proksi maǵlıwmatları
+Proxy	Proksi
+ProxyConnections	Baylanıslar
+ProxyAddedSuccess	Proksi qosıldı.
+AddProxy	Proksi qosıw
+DeleteProxy	Proksi óshirilsin be?
+DeleteProxyTitle	Proksidi óshiriw
+DeleteProxyConfirm	Bul proksidi óshiriwdi anıq qáleysiz be?
+DeleteProxyMultiConfirm	Bul proksilerdi óshiriwdi anıq qáleysiz be?
+UseProxyTitle	Proksi server
+UseProxySettings	Proksiden paydalanıw
+UseProxyAddress	Server
+UseProxyPassword	Parol
+UseProxyPort	Port
+UseProxySecret	Jasırın gilt
+UseProxyUsername	Paydalanıwshı atı
+UseProxySocks5	SOCKS5 proksi
+UseProxyTelegram	MTProto proksi
+UseProxyWeb	WEB proksi
+UseProxyTelegramError	Siz qollanıp atırǵan proksi durıs sazlanbaǵan hám óshiriledi. Basqasın tabıń.
+UseProxySponsor	Proksi demewshisi
+UseProxySponsorInfo	Bul kanaldı proksi serverińiz kórsetpekte. Onı sáwbetler dizimińizden alıp taslaw ushın Telegram sazlamalarında proksidi óshiriń.
+UseProxyInfo	SOCKS5 proksi sazlamaları.
+UseProxyTelegramInfo	MTProto proksi sazlamaları.
+UseProxyTelegramInfo2	Bul proksi sáwbetler dizimińizde demewshi kanaldı kórsetiwi múmkin. Bul Telegram trafigińizdi hesh kimge ashpaydı.
+UseProxyWebInfo	WEB proksi jeke WebView ishindegi HTTPS betten paydalanadı. Sxemasız hám jolsız host atın hám 16 baytlıq MTProxy jasırın giltin kirgiziń. Bul sınaq nusqası házirgi Android System WebView talap etedi hám aldıńǵı planda sınaw ushın arnalǵan.
+ConnectingToProxyEnable	Qosıw
+LowDiskSpaceTitle	Dıqqat
+LowDiskSpaceMessage	Qurılmańızda bos orın derlik qalmadı. Orın bosatıw ushın Telegramdı tek sońǵı medianı keshlewge sazlay alasız.
+LowDiskSpaceMessage2	Qurılmańızda bos orın derlik qalmadı. Kerek emes medianı óshiriw ushın kesh sazlamalarınan paydalana alasız — kerek bolsa fayllardı qayta júklep alasız.
+LowDiskSpaceButton	Keshti basqarıw
+AutodownloadContacts	Kontaktlar
+AutodownloadPrivateChats	Jeke sáwbetler
+AutodownloadGroupChats	Topar sáwbetleri
+AutodownloadChannels	Kanallar
+AutodownloadSizeLimit	Ólshem boyınsha shek
+AutodownloadSizeLimitUpTo	%1$s ǵa shekem
+Streaming	Aǵımlı oynatıw
+EnableStreaming	Video hám audio fayllardı aǵımlı oynatıw
+EnableAllStreamingInfo	Ayırım videolardı aǵımlı oynatıp bolmaydı – mısalı, Android tan Telegram 4.7 hám onnan eski versiyalar arqalı jiberilgen barlıq videolar.\n
+TapToChangePhone	Telefon nomerin ózgertiw ushın basıń
+ShowNotificationsFor	Xabarlandırıwlardı kórsetiw
+AllAccounts	Barlıq akkauntlar
+ShowNotificationsForInfo	Tek aktiv akkauntıńızdan xabarlandırıw alıwdı qáleseńiz, bunı óshiriń.
+NotificationsForChats	Sáwbetler ushın xabarlandırıwlar
+NotificationsPrivateChats	Jeke sáwbetler
+NotificationsGroups	Toparlar
+NotificationsChannels	Kanallar
+NotificationsStories	Storisler
+NotificationsReactions	Reakciyalar
+NotificationsExceptionsAlert	Esapqa alıń: **%1$s** esaptan tısqarılar diziminde hám bul ózgeris olarǵa tásir etpeydi.
+NotificationsExceptionsSingleAlert	Esapqa alıń: **%1$s** esaptan tısqarı retinde kórsetilgen hám bul ózgeris oǵan tásir etpeydi.
+ViewExceptions	Esaptan tısqarılardı kóriw
+TapToChange	Ózgertiw ushın basıń
+AlternativeOptions	Basqa variantlar
+AddAnotherAccount	Basqa akkaunt qosıw
+AddAnotherAccountInfo	Basqa Telegram akkauntların jalǵań hám olar arasında ańsat almasıń.
+SetPasscode	Kod-parol ornatıw
+SetPasscodeInfo	Basqalar asha almawı ushın qosımshanı kod-parol menen qulıplań.
+ClearCache	Keshti tazalaw
+ClearSelectedCache	Tańlanǵandı tazalaw
+ClearCacheInfo	Qurılmańızda orın bosatıń; mediańız bultta qaladı.
+ClearingCache	Kesh tazalanbaqta…
+ClearingCacheDescription	Telegram keshińizdi tazalap atırǵanda bul aynanı ashıq qaldırıń.
+ChangePhoneNumber	Telefon nomerin ózgertiw
+ChangePhoneNumberInfo	Akkauntıńızdı, sáwbetlerińizdi hám mediańızdı jańa nomerge kóshiriń.
+ChangePhoneNumberSuccessWithPhone	Telefon nomerińiz %1$s ǵa tabıslı ózgertildi.
+ContactSupport	Qollap-quwatlaw xızmetine jazıw
+ContactSupportInfo	Qálegen mashqala haqqında bizge aytıń; akkaunttan shıǵıw ádette járdem bermeydi.
+LogOutTitle	Shıǵıw
+LogOutInfo	Akkaunttan shıǵıw barlıq jasırın sáwbetlerdi óshiredi.
+SearchInSettings	Sazlamalar hám FAQ tan izlew
+SettingsRecent	Sońǵı izlewler
+SettingsFaqSearchTitle	Kóp beriletuǵın sorawlar
+SettingsNoResults	Nátiyje tabılmadı
+SettingsNoRecent	Sońǵı izlewler joq
+SettingsSearchFaq	FAQ
+DistanceUnits	Aralıq birlikleri
+DistanceUnitsTitle	Aralıq birlikleri
+DistanceUnitsAutomatic	Avtomat
+DistanceUnitsKilometers	Kilometr
+DistanceUnitsMiles	Mil
+AuthAnotherClient	QR kodtı skanerlew
+AuthAnotherClientScan	QR kodtı skanerlew
+AuthAnotherClientNotFound	Avtorizaciya tokeni tabılmadı
+AuthAnotherClientOk	Avtorizaciya tabıslı ótti
+AuthAnotherClientDownloadClientUrl	https://getdesktop.telegram.org/
+AuthAnotherWebClientUrl	https://web.telegram.org/
+AuthAnotherClientInfo1	Kompyuterińizge Telegramdı *getdesktop.telegram.org* saytınan júklep alıń.
+AuthAnotherClientInfo2	QR kodtı alıw ushın Telegram Desktop tı iske túsiriń.
+AuthAnotherClientInfo3	Akkauntıńızdı jalǵaw ushın QR kodtı skanerleń.
+AuthAnotherClientUrl	Bul kod birewge Telegram akkauntıńızǵa kiriwge ruqsat beriw ushın qollanılıwı múmkin.\n\nTelegramǵa kiriwdi tastıyıqlaw ushın Sazlamalar &gt; Qurılmalar &gt; QR skanerlew bólimine ótip, kodtı skanerleń.
+QRCodePermissionNoCameraWithHint	QR kodlardı skanerlewińiz ushın **Telegram**ǵa kameraǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Kamera**nı qosıń.
+SetProfilePhoto	Profil súwretin ornatıw
+AppUpdate	Telegramdı jańalaw
+AppUpdateBeta	Telegram Beta nı jańalaw
+AppUpdateVersionAndSize	Versiya %1$s • %2$s
+AppBetaUpdateVersion	Versiya %1$s (%2$s)
+AppUpdateDownloading	Júklenbekte %1$d%%...
+AppUpdateNow	Házir jańalaw
+AppUpdateDownloadNow	Házir júklew
+AppUpdateRemindMeLater	Keyin eske salıw
+AppUpdateChangelogEmpty	**Ne jańalıq?**\n\n• Qátelikler dúzetildi hám jaqsılandı.
+Permanent	Turaqlı
+LinkHashExpired	Silteme endi islemeydi
+CancelForwardPrivate	**%2$s** penen sáwbetińizdegi %1$s menen ne islewdi qáleysiz?
+CancelForwardChat	**%2$s** daǵı %1$s menen ne islewdi qáleysiz?
+ShowSenderNames	Jiberiwshiler atların kórsetiw
+HideSenderNames	Jiberiwshiler atların jasırıw
+ShowSendersName	Jiberiwshi atın kórsetiw
+HideSendersName	Jiberiwshi atın jasırıw
+ChatListSwipeGesture	Sáwbetler dizimindegi sıpırıw háreketi
+ChatListSwipeGestureInfo	Sáwbetler diziminde hár saparı shepke sıpırǵanıńızda qaysı háreket orınlanıwın sazlań.
+SwipeSettingsPin	Bekitiw
+SwipeSettingsRead	Oqıw
+SwipeSettingsArchive	Arxivlew
+SwipeSettingsMute	Únsiz etiw
+SwipeSettingsDelete	Óshiriw
+SwipeSettingsFolders	Papkanı ózgertiw
+SwipeUnmute	Dawıstı qosıw
+SwipeUngroupCommunity	Toparlawdı biykarlaw
+SwipeMute	Únsiz etiw
+SwipeDeleteChat	Óshiriw
+SwipeMarkAsRead	Oqılǵan
+SwipeMarkAsUnread	Oqılmaǵan
+SwipeUnpin	Bekitiwdi alıw
+SwipePin	Bekitiw
+CancelForwarding	Jiberiwdi biykarlaw
+YourBioChanged	Maǵlıwmat jańalandı.
+YourNameChanged	At jańalandı.
+ChannelTitleChanged	Kanal atı jańalandı.
+ChannelDescriptionChanged	Kanal táriypi jańalandı.
+CheckPhoneNumber	%1$s ele sizdiń nomerińiz be?
+CheckPhoneNumberInfo	Telegramǵa bárqulla kire alıwıńız ushın nomerińizdi aktual halda saqlań. **Kóbirek biliw**
+CheckPhoneNumberLearnMoreUrl	https://telegram.org/faq#q-i-have-a-new-phone-number-what-do-i-do
+CheckPhoneNumberYes	Awa
+CheckPhoneNumberYes2	👍 Awa
+CheckPhoneNumberNo	Yaq
+LocalDatabase	Jergilikli maǵlıwmatlar bazası
+LocalDatabaseClearTextTitle	Jergilikli bazanı tazalaw
+LocalDatabaseClearText	Keshlengen tekstli xabarlardı tazalawdı anıq qáleysiz be?
+LocalDatabaseClearText2	Bul ámel bir neshe minut alıwı múmkin.\n\nJergilikli baza ólshemi: **%s**
+LocalDatabaseInfo	Jergilikli bazanı tazalaw keshlengen xabarlar tekstlerin óshiredi hám ishki yadtı únemlew ushın bazanı qısadı. Telegramǵa islew ushın biraz maǵlıwmat kerek, sonlıqtan baza ólshemi nolge jetpeydi.\n\nBul ámel bir neshe minut alıwı múmkin.
+ClearMediaCache	Keshti tazalaw
+CacheClear	Tazalaw
+CalculatingSize	Esaplanbaqta...
+LocalDocumentCache	Hújjetler
+LocalStickersCache	Stikerler hám emoji
+LocalProfilePhotosCache	Profil súwretleri
+LocalMiscellaneousCache	Hár qıylı
+LocalLogsCache	Loglar
+LocalPhotoCache	Súwretler
+LocalAudioCache	Dawıslı xabarlar
+LocalVideoCache	Videolar
+LocalMusicCache	Muzıka
+LocalOther	Basqa
+KeepMedia	Medianı saqlaw
+AutoDeleteCachedMedia	Keshlengen medianı avto-óshiriw
+KeepMediaInfoPart	Usı múddet ishinde siz **ashpaǵan** bultlı sáwbetlerdegi súwretler, videolar hám basqa fayllar orın únemlew ushın bul qurılmadan óshiriledi.
+KeepMediaForever	Máńgi
+TelegramPassport	Telegram Passport
+PassportRequestedInformation	Soralǵan maǵlıwmat
+PassportProvidedInformation	Berilgen maǵlıwmat
+PassportInfoTitle	Telegram Passport degen ne?
+PassportInfo2	Telegram Passport járdeminde jeke basıńızdı tastıyıqlawdı talap etetuǵın saytlar hám xızmetlerde ańsat dizimnen óte alasız.\n\nMaǵlıwmatlarıńız, jeke maǵlıwmatlar hám hújjetlerińiz tolıq shifrlaw menen qorǵalǵan. Olarǵa sizdiń ruqsatıńızsız hesh kim, sonıń ishinde Telegram da kire almaydı.\n\nKóbirek biliw ushın *FAQ* betimizge kire alasız.
+PassportInfoUrl	https://telegram.org/faq#passport
+TelegramPassportCreatePasswordInfo	Jeke maǵlıwmatlarıńızdı tolıq shifrlaw menen qorǵaw ushın parol jaratıń.\n\nBul parol jańa qurılmada Telegramǵa kirgenińizde de talap etiledi.
+TelegramPassportCreatePassword	PAROL JARATIW
+TelegramPassportDelete	Telegram Passport tı óshiriw
+TelegramPassportDeleteTitle	Telegram Passport tı óshiriw
+TelegramPassportDeleteAlert	Telegram Passport ıńızdı óshiriwdi anıq qáleysiz be?
+PassportUseLatinOnly	Tek latın háriplerinen paydalanıń.
+PassportAddPassportInfo	Pasportıńızdıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddInternalPassportInfo	Ishki pasportıńızdıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddDriverLicenceInfo	Aydawshılıq gúwalıǵıńızdıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddIdentityCardInfo	Jeke gúwalıǵıńızdıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddBillInfo	Kommunallıq tólem kvitanciyasınıń skanerin júkleń.
+PassportAddBankInfo	Bank kóshirmesiniń skanerin júkleń.
+PassportAddAgreementInfo	Ijara shártnamasınıń skanerin júkleń.
+PassportAddPassportRegistrationInfo	Pasporttıń dizimge alıw betiniń skanerin júkleń.
+PassportAddTemporaryRegistrationInfo	Waqıtsha dizimge alıw hújjetiniń skanerin júkleń.
+PassportAddAddressUploadInfo	Mánzilińizdi tastıyıqlaw ushın tańlanǵan hújjettiń (barlıq betleriniń) skanerin yamasa súwretin júkleń.
+PassportAddTranslationBillInfo	Kommunallıq tólem kvitanciyasınıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddTranslationBankInfo	Bank kóshirmesiniń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddTranslationAgreementInfo	Ijara shártnamasınıń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddTranslationPassportRegistrationInfo	Pasporttıń dizimge alıw betiniń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddTranslationTemporaryRegistrationInfo	Waqıtsha dizimge alıw hújjetiniń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddTranslationUploadInfo	Tańlanǵan hújjettiń tastıyıqlanǵan inglisshe awdarmasınıń skanerlerin júkleń.
+PassportAddBill	Kommunallıq kvitanciya qosıw
+PassportAddBank	Bank kóshirmesin qosıw
+PassportAddAgreement	Ijara shártnamasın qosıw
+PassportAddress	Mánzil
+PassportResidentialAddress	Jasaw mánzili
+PassportAddressNoUploadInfo	Mánzilińizdi kórsetiń
+PassportAddressInfo	Mánzilińizdiń dálilin júkleń
+PassportAddressHeader	Mánzil
+PassportStreet1	Kóshe
+PassportStreet2	Kóshe
+PassportPostcode	Pochta indeksi
+PassportCity	Qala
+PassportState	Wálayat/Region
+PassportCountry	Mámleket
+PassportPhone	Telefon nomeri
+PassportDeletePhoneAlert	Telefon nomeri óshirilsin be?
+PassportPhoneInfo	Telefon nomerińizdi kirgiziń
+PassportPhoneUseSame	%1$s qollanıw
+PassportPhoneUseSameInfo	Telegramdaǵı telefon nomerin qollanıw.
+PassportPhoneUseSameEmailInfo	Telegramdaǵı email di qollanıw.
+PassportPhoneUseOther	Yamasa jańa telefon nomerin kirgiziń
+PassportPhoneUploadInfo	Eskertiw: Siz kórsetken telefon nomerine tastıyıqlaw kodı keledi.
+PassportEmail	Email
+PassportDeleteEmailAlert	Email óshirilsin be?
+PassportEmailInfo	Email mánzilińizdi kirgiziń
+PassportEmailUploadInfo	Eskertiw: Siz kórsetken email mánziline tastıyıqlaw kodı keledi.
+PassportEmailCode	Kod
+PassportEmailVerifyInfo	%1$s mánziline házir jiberilgen tastıyıqlaw kodın kirgiziń.
+PassportSelfRequest	Jeke maǵlıwmatlarıńızǵa kiriw ushın parolıńızdı kirgiziń.
+PassportRequest	**%1$s** sizdi óz xızmetlerinde dizimnen ótkeriw ushın jeke maǵlıwmatlarıńızǵa ruqsat soramaqta.
+PassportRequestPasswordInfo	Maǵlıwmatlarıńızdı shifrdan shıǵarıw ushın Telegram parolıńızdı kirgiziń.
+PassportPolicy	Siz *%1$s Qupıyalıq siyasatı*n qabıl etesiz hám olardıń @%2$s botına sizge xabar jiberiwge ruqsat beresiz.
+PassportNoPolicy	Siz hújjetlerińizdi tikkeley %1$s ge jiberip atırsız hám olardıń @%2$s botına sizge xabar jiberiwge ruqsat beresiz.
+PassportAuthorize	RUQSAT BERIW
+PassportAddPassport	Pasport qosıw
+PassportAddInternalPassport	Ishki pasport qosıw
+PassportAddPassportRegistration	Pasport dizimi
+PassportAddTemporaryRegistration	Waqıtsha dizim
+PassportAddCard	Jeke gúwalıq qosıw
+PassportAddLicence	Aydawshılıq gúwalıǵın qosıw
+PassportPersonalDetails	Jeke maǵlıwmatlar
+PassportPersonalDetailsInfo	Jeke maǵlıwmatlarıńızdı toltırıń
+PassportIdentityDocument	Jeke bastı tastıyıqlawshı hújjet
+PassportIdentityDocumentInfo	Pasportıńız yamasa basqa hújjetińizdiń skanerin júkleń
+PassportIdentityPassport	Pasportıńızdıń skanerin júkleń
+PassportIdentityInternalPassport	Ishki pasportıńızdıń skanerin júkleń
+PassportIdentityID	Jeke gúwalıǵıńızdıń skanerin júkleń
+PassportIdentityDriverLicence	Aydawshılıq gúwalıǵıńızdıń skanerin júkleń
+PassportPersonal	Jeke maǵlıwmatlar
+PassportDocument	Hújjet maǵlıwmatları
+PassportName	Atı
+PassportMidname	Ákesiniń atı
+PassportSurname	Familiyası
+PassportNameLatin	Atı (latınsha)
+PassportMidnameLatin	Ákesiniń atı (latınsha)
+PassportSurnameLatin	Familiyası (latınsha)
+PassportNameCountry	Atı (%1$s)
+PassportMidnameCountry	Ákesiniń atı (%1$s)
+PassportSurnameCountry	Familiyası (%1$s)
+PassportSelectGender	Jınıstı tańlań
+PassportMale	Er
+PassportFemale	Hayal
+PassportBirthdate	Tuwılǵan sáne
+PassportGender	Jınısı
+PassportDocumentNumber	Hújjet nomeri
+PassportExpired	Ámel etiw múddeti
+PassportCitizenship	Puqaralıǵı
+PassportResidence	Jasaw ornı
+PassportSelfie	Selfi
+PassportRequiredDocuments	Kerekli hújjetler
+PassportSelfieInfo	Hújjetti uslap turǵan selfińizdi júkleń
+PassportTranslation	Awdarma
+PassportFrontSide	Aldıńǵı tárepi
+PassportFrontSideInfo	Hújjettiń aldıńǵı tárepiniń súwretin júkleń
+PassportReverseSide	Artqı tárepi
+PassportReverseSideInfo	Hújjettiń artqı tárepiniń súwretin júkleń
+PassportMainPage	Tiykarǵı bet
+PassportMainPageInfo	Hújjettiń tiykarǵı betiniń súwretin júkleń
+PassportSelectExpiredDate	Ámel etiw múddetin tańlań
+PassportSelectNotExpire	Múddetsiz
+PassportNoExpireDate	Joq
+PassportSelectBithdayDate	Tuwılǵan sáneni tańlań
+PassportDeleteSelfie	Selfi óshirilsin be?
+PassportPersonalUploadInfo	Hújjette súwretińiz, atıńız hám familiyańız, tuwılǵan sáneńiz, hújjet nomeri, berilgen mámleket hám ámel etiw múddeti bolıwı kerek.
+PassportDiscardChanges	Kirgizilgen barlıq maǵlıwmatlardı biykarlawdı anıq qáleysiz be?
+PassportDiscard	Biykarlaw
+PassportDocuments	Skanerler
+PassportDeleteDocument	Hújjetti óshiriw
+PassportDeleteInfo	Óshiriw
+PassportDeleteScanAlert	Bul skanerdi óshiriwdi qáleysiz be?
+PassportDeleteSelfieAlert	Bul selfini óshiriwdi qáleysiz be?
+PassportDeleteDocumentAlert	Bul hújjetti óshiriwdi qáleysiz be?
+PassportDeletePersonalAlert	Jeke maǵlıwmatlardı óshiriwdi anıq qáleysiz be?
+PassportDeleteAddressAlert	Mánzil maǵlıwmatların óshiriwdi qáleysiz be?
+PassportDeleteDocumentPersonal	Jeke maǵlıwmatlardı óshiriw
+PassportDeleteDocumentAddress	Mánzil maǵlıwmatların óshiriw
+PassportDeleteScan	Skaner óshirilsin be?
+PassportUploadDocument	Skanerlerdi júklew
+PassportUploadAdditinalDocument	Qosımsha skanerlerdi júklew
+PassportUploadMaxReached	%1$s tan artıq júkley almaysız.
+PassportUploadNotImage	Tek súwret fayllerin júkley alasız.
+PassportScanPassport	Pasportıńızdı skanerleń
+PassportScanPassportInfo	Maǵlıwmatlarıńızdı avtomat toltırıw ushın pasportıńız yamasa jeke gúwalıǵıńızdıń mashina oqıytuǵın zonasın skanerleń.
+PassportNoDocumentsAdd	Hújjet qosıw
+PassportNoDocuments	Ele hújjetlerińiz joq
+PassportNoDocumentsInfo	Telefon nomerińizdi, email mánzilińizdi, jeke bastı tastıyıqlawshı hújjetti yamasa jasaw mánzilińizdi qosa alasız.
+PassportTwoDocuments	%1$s yamasa %2$s
+PassportNativeHeader	Atıńız
+PassportNativeHeaderLang	%1$s tilindegi atıńız
+PassportNativeInfo	Jasaytuǵın mámleketińiz tilindegi atıńız (%1$s).
+PassportNameCheckAlert	Bul attıń durıslıǵın tekseriń:\n\n%1$s %2$s %3$s
+PassportLanguage_AR	Arab
+PassportLanguage_AZ	Ázerbayjan
+PassportLanguage_BG	Bolgar
+PassportLanguage_BN	Bengal
+PassportLanguage_CS	Chex
+PassportLanguage_DA	Daniya
+PassportLanguage_DE	Nemis
+PassportLanguage_DV	Divehi
+PassportLanguage_DZ	Dzongka
+PassportLanguage_EL	Grek
+PassportLanguage_ES	Ispan
+PassportLanguage_ET	Eston
+PassportLanguage_FA	Parsı
+PassportLanguage_FR	Francuz
+PassportLanguage_HE	Ivrit
+PassportLanguage_HR	Xorvat
+PassportLanguage_HU	Venger
+PassportLanguage_HY	Armyan
+PassportLanguage_ID	Indonez
+PassportLanguage_IS	Island
+PassportLanguage_IT	Italyan
+PassportLanguage_JA	Yapon
+PassportLanguage_KA	Gruzin
+PassportLanguage_KM	Kxmer
+PassportLanguage_KO	Koreys
+PassportLanguage_LO	Laos
+PassportLanguage_LT	Litva
+PassportLanguage_LV	Latısh
+PassportLanguage_MK	Makedon
+PassportLanguage_MN	Mongol
+PassportLanguage_MS	Malay
+PassportLanguage_MY	Birma
+PassportLanguage_NE	Nepal
+PassportLanguage_NL	Golland
+PassportLanguage_PL	Polyak
+PassportLanguage_PT	Portugal
+PassportLanguage_RO	Rumın
+PassportLanguage_RU	Rus
+PassportLanguage_SK	Slovak
+PassportLanguage_SL	Sloven
+PassportLanguage_TH	Tay
+PassportLanguage_TK	Túrkmen
+PassportLanguage_TR	Túrk
+PassportLanguage_UK	Ukrain
+PassportLanguage_UZ	Ózbek
+PassportLanguage_VI	Vyetnam
+SessionsTitle	Aktiv seanslar
+CurrentSession	Házirgi seans
+OtherSessions	Aktiv seanslar
+TerminateSessionText	Bul seanstı tamamlawdı anıq qáleysiz be?
+ClearOtherSessionsHelp	Usı qurılmadan basqa barlıq qurılmalardan shıǵadı.
+AreYouSureSessionsTitle	Seanslardı tamamlaw
+AlsoTerminateChatbot	%s ti de tamamlaw
+AreYouSureSessionTitle	Seanstı tamamlaw
+Terminate	Tamamlaw
+AreYouSureSessions	Basqa barlıq seanslardı tamamlawdı anıq qáleysiz be?
+TerminateAllSessions	Basqa barlıq seanslardı tamamlaw
+OtherWebSessions	Baylanısqan saytlar
+WebSessionsTitle	Telegram arqalı kirilgen

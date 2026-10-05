@@ -368,6 +368,7 @@ public class ApplicationLoader extends Application {
 
         LauncherIconController.tryFixLauncherIconIfNeeded();
         ProxyRotationController.init();
+        UMessageAds.refresh();
         UMessageProxyManager.init();
 
         //if (BuildConfig.DEBUG_PRIVATE_VERSION) {

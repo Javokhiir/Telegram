@@ -17,6 +17,8 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import androidx.core.graphics.ColorUtils;
+
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
@@ -29,7 +31,8 @@ import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RoundEffectsCarousel;
 import org.telegram.ui.Components.RoundEffectsPreviewView;
 import org.telegram.ui.Components.RoundVideoEffects;
-import org.telegram.ui.Components.SeekBarView;
+import org.telegram.ui.Components.SnapCameraKit;
+import org.telegram.ui.Components.LiquidGlassSlider;
 
 
 /**
@@ -71,7 +74,7 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
         scrollView.addView(content, LayoutHelper.createScroll(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.TOP));
 
         // round live preview
-        final int size = Math.min(AndroidUtilities.displaySize.x - dp(96), dp(280));
+        final int size = Math.min(Math.min(AndroidUtilities.displaySize.x - dp(96), dp(280)), (int) (AndroidUtilities.displaySize.y * 0.3f));
         previewContainer = new FrameLayout(context);
         previewContainer.setBackgroundColor(0xff000000);
         previewContainer.setOutlineProvider(new ViewOutlineProvider() {
@@ -109,7 +112,16 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
         });
         carousel.setSelected(preset);
         stage.addView(carousel, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 76));
-        content.addView(stage, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
+        // the stage stays pinned on top; the settings scroll in from under it
+        FrameLayout root = new FrameLayout(context);
+        root.addView(scrollView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+        root.addView(stage, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.TOP));
+        stage.setClickable(true);
+        stage.addOnLayoutChangeListener((v, l, t, r, b, ol, ot, or, ob) -> {
+            if (content.getPaddingTop() != b - t) {
+                content.setPadding(0, b - t, 0, 0);
+            }
+        });
 
         // pickers
         LinearLayout section = new LinearLayout(context);
@@ -131,7 +143,7 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
         content.addView(info, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
 
         updateSelection();
-        fragmentView = scrollView;
+        fragmentView = root;
         return fragmentView;
     }
 
@@ -171,21 +183,16 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
         headerLayout.addView(valueView, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, (LocaleController.isRTL ? Gravity.LEFT : Gravity.RIGHT) | Gravity.TOP, 21, 15, 21, 0));
         parent.addView(headerLayout);
 
-        SeekBarView seekBar = new SeekBarView(context);
-        seekBar.setReportChanges(true);
-        seekBar.setDelegate(new SeekBarView.SeekBarViewDelegate() {
-            @Override
-            public void onSeekBarDrag(boolean stop, float progress) {
-                listener.onChanged(Math.round(progress * 100), stop);
-            }
-
-            @Override
-            public CharSequence getContentDescription() {
-                return valueView.getText();
-            }
+        // U message: iOS style liquid glass slider
+        LiquidGlassSlider seekBar = new LiquidGlassSlider(context);
+        seekBar.setColors(getThemedColor(Theme.key_featuredStickers_addButton),
+                ColorUtils.setAlphaComponent(getThemedColor(Theme.key_windowBackgroundWhiteGrayText), 0x40));
+        seekBar.setDelegate((progress, stop) -> {
+            listener.onChanged(Math.round(progress * 100), stop);
+            seekBar.setContentDescription(valueView.getText());
         });
         seekBar.setProgress(value / 100f);
-        parent.addView(seekBar, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 38, 5, 0, 5, 4));
+        parent.addView(seekBar, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, 12, 0, 12, 4));
         return valueView;
     }
 
@@ -200,6 +207,7 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
             final RoundVideoEffects.Look look = RoundVideoEffects.createLook(preset, intensity);
             previewView.setEffects(look.filter, look.filterIntensity, look.beauty, look.foundation,
                     look.blush, look.eyes, look.eyeTone, look.lipstick);
+            previewView.setLens(look.lens);
         }
     }
 
@@ -218,10 +226,12 @@ public class UMessageRoundEffectsActivity extends BaseFragment {
             return;
         }
         errorView.setVisibility(View.GONE);
+        SnapCameraKit.prepare();
         previewView = new RoundEffectsPreviewView(activity);
         final RoundVideoEffects.Look look = RoundVideoEffects.createLook(preset, intensity);
         previewView.setEffects(look.filter, look.filterIntensity, look.beauty, look.foundation,
                 look.blush, look.eyes, look.eyeTone, look.lipstick);
+        previewView.setLens(look.lens);
         previewView.setOnErrorListener(() -> {
             detachPreview();
             errorView.setVisibility(View.VISIBLE);

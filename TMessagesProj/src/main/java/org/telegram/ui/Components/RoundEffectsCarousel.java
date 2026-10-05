@@ -39,27 +39,24 @@ public class RoundEffectsCarousel extends RecyclerView {
     }
 
     public static String getName(int preset) {
-        return LocaleController.getString(RoundVideoEffects.getPreset(preset).nameRes);
+        return RoundVideoEffects.getPresetName(preset);
     }
 
     private final Delegate delegate;
     private final LinearLayoutManager layoutManager;
-    private final ColorMatrixColorFilter[] colorFilters;
+    private final android.util.SparseArray<ColorMatrixColorFilter> colorFilters = new android.util.SparseArray<>();
     private final Paint ringPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final int itemWidth = dp(68);
     private Bitmap source;
     private int selected = -1;
     private boolean userScrolling;
+    // U message: the Snap lens list arrives from the network; a selected lens gets its id once it is known
+    private final Runnable lensesChanged = this::onLensesChanged;
 
     public RoundEffectsCarousel(Context context, Delegate delegate) {
         super(context);
         this.delegate = delegate;
 
-        colorFilters = new ColorMatrixColorFilter[getPresetCount()];
-        for (int i = 0; i < colorFilters.length; i++) {
-            final float[] m = getThumbMatrix(i);
-            colorFilters[i] = m != null ? new ColorMatrixColorFilter(m) : null;
-        }
         ringPaint.setStyle(Paint.Style.STROKE);
         ringPaint.setStrokeWidth(dp(3));
         ringPaint.setColor(0xffffffff);
@@ -83,8 +80,9 @@ public class RoundEffectsCarousel extends RecyclerView {
 
             @Override
             public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-                ((ThumbView) holder.itemView).preset = position;
-                holder.itemView.setContentDescription(getName(position));
+                final int preset = RoundVideoEffects.presetAt(position);
+                ((ThumbView) holder.itemView).preset = preset;
+                holder.itemView.setContentDescription(getName(preset));
                 holder.itemView.invalidate();
             }
 
@@ -115,8 +113,48 @@ public class RoundEffectsCarousel extends RecyclerView {
         selected = preset;
         userScrolling = false;
         stopScroll();
-        layoutManager.scrollToPositionWithOffset(preset, 0);
+        layoutManager.scrollToPositionWithOffset(RoundVideoEffects.positionOf(preset), 0);
         post(this::updateChildren);
+    }
+
+    private void onLensesChanged() {
+        final Adapter<?> adapter = getAdapter();
+        if (adapter != null) {
+            adapter.notifyDataSetChanged();
+        }
+        if (selected >= 0) {
+            layoutManager.scrollToPositionWithOffset(RoundVideoEffects.positionOf(selected), 0);
+            post(this::updateChildren);
+            if (RoundVideoEffects.isSnapPreset(selected) && delegate != null) {
+                delegate.onPresetSelected(selected);
+            }
+        }
+    }
+
+    @Override
+    protected void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        SnapCameraKit.addListener(lensesChanged);
+    }
+
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        SnapCameraKit.removeListener(lensesChanged);
+    }
+
+    private ColorMatrixColorFilter getColorFilter(int preset) {
+        if (RoundVideoEffects.isSnapPreset(preset)) {
+            return null;
+        }
+        final int index = colorFilters.indexOfKey(preset);
+        if (index >= 0) {
+            return colorFilters.valueAt(index);
+        }
+        final float[] m = getThumbMatrix(preset);
+        final ColorMatrixColorFilter filter = m != null ? new ColorMatrixColorFilter(m) : null;
+        colorFilters.put(preset, filter);
+        return filter;
     }
 
     /** Frame of the camera without effects, used for all thumbnails. */
@@ -137,7 +175,7 @@ public class RoundEffectsCarousel extends RecyclerView {
         setPadding(side, 0, side, 0);
         if (selected >= 0) {
             post(() -> {
-                layoutManager.scrollToPositionWithOffset(selected, 0);
+                layoutManager.scrollToPositionWithOffset(RoundVideoEffects.positionOf(selected), 0);
                 post(this::updateChildren);
             });
         }
@@ -202,7 +240,8 @@ public class RoundEffectsCarousel extends RecyclerView {
         if (child == null) {
             return;
         }
-        final int preset = getChildAdapterPosition(child);
+        final int position = getChildAdapterPosition(child);
+        final int preset = position != NO_POSITION ? RoundVideoEffects.presetAt(position) : NO_POSITION;
         if (preset != NO_POSITION && preset != selected) {
             selected = preset;
             try {
@@ -336,7 +375,10 @@ public class RoundEffectsCarousel extends RecyclerView {
 
         @Override
         protected void onDraw(Canvas canvas) {
-            final Bitmap bitmap = source;
+            // a Snap lens shows its own icon once downloaded, the camera frame until then
+            final Bitmap icon = RoundVideoEffects.isSnapPreset(preset)
+                    ? SnapCameraKit.getLensIcon(RoundVideoEffects.getSnapLensIndex(preset)) : null;
+            final Bitmap bitmap = icon != null ? icon : source;
             if (bitmap == null || bitmap.isRecycled()) {
                 return;
             }
@@ -350,7 +392,7 @@ public class RoundEffectsCarousel extends RecyclerView {
             matrix.setScale(scale, scale);
             matrix.postTranslate(cx - bitmap.getWidth() * scale / 2f, cy - bitmap.getHeight() * scale / 2f);
             paint.getShader().setLocalMatrix(matrix);
-            paint.setColorFilter(colorFilters[preset]);
+            paint.setColorFilter(getColorFilter(preset));
             canvas.drawCircle(cx, cy, radius, paint);
         }
     }

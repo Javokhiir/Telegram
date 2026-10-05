@@ -1,0 +1,555 @@
+ProfileBotAffiliateProgram	Sheriklik baǵdarlaması
+ProfileBotAffiliateProgramInfo	%1$s siltemesin doslarıńız benen bólisiń hám olardıń ol jerdegi qárejetleriniń %2$s bólegin alıń.
+ProfileBotAffiliateProgramInfoOwner	%1$s siltemesin basqa paydalanıwshılar menen bólisiń hám olardıń ol jerdegi qárejetleriniń %2$s bólegin alıń.
+ProfileBotPreviewTab	Aldınnan kóriw
+ProfileBotPreviewEmptyTitle	Aldınnan kóriw joq
+ProfileBotPreviewEmptyText_one	Mini-qosımshańız ushın %d ge shekem skrinshot hám video demo júkleń.
+ProfileBotPreviewEmptyText_other	Mini-qosımshańız ushın %d ge shekem skrinshot hám video demo júkleń.
+ProfileBotPreviewEmptyButton	Aldınnan kóriw qosıw
+BotPreviewEmpty	házirshe súwretler joq
+Images_one	%d súwret
+Images_other	%d súwret
+ProfileBotPreviewFooterGeneral	Bul aldınnan kóriw siz awdarılǵan versiyasın bergen paydalanıwshılardan basqa barlıq paydalanıwshılarǵa kórsetiledi.
+ProfileBotPreviewFooterLanguage	Bul aldınnan kóriw tili %s etip ornatılǵan barlıq paydalanıwshılarǵa kórsetiledi.
+ProfileBotPreviewFooterCreateTranslation	Awdarma jaratıw
+ProfileBotPreviewFooterDeleteTranslation	Bul awdarmanı óshiriw
+ProfileBotPreviewLanguageChoose	Awdarma qosıw
+ProfileBotAddPreview	Aldınnan kóriw qosıw
+ProfileBotLanguageGeneral	Ulıwma
+ProfileBotLanguageAdd	Awdarma qosıw
+ProfileBotOr	yamasa
+ProfileBotReorder	Tártibin ózgertiw
+ProfileBotRemoveLang	%s ti óshiriw
+ProfileBotSelect	Tańlaw
+ProfileBotUnSelect	Tańlawdı alıw
+DeleteBotPreviewTitle	Aldınnan kóriwdi óshiriw
+DeleteBotPreviewSubtitle	Bul aldınnan kóriwdi óshiriwdi anıq qáleysiz be?
+DeleteBotPreviewsTitle	Aldınnan kóriwlerdi óshiriw
+DeleteBotPreviewsSubtitle_one	%d aldınnan kóriwdi óshiriwdi anıq qáleysiz be?
+DeleteBotPreviewsSubtitle_other	%d aldınnan kóriwdi óshiriwdi anıq qáleysiz be?
+BotPreviewsDeleted_one	%d aldınnan kóriw óshirildi
+BotPreviewsDeleted_other	%d aldınnan kóriw óshirildi
+UploadBotPreview	Qosıw
+SearchApps	Botlar
+SearchAppsMine	Siz paydalanatuǵın qosımshalar
+SearchAppsPopular	Belgili qosımshalar
+SearchAppsExamples	Mısallar
+BotUsers_one	%d paydalanıwshı
+BotUsers_other	%d paydalanıwshı
+BotUsersShort_one	%d paydalanıwshı
+BotUsersShort_other	%d paydalanıwshı
+AppsClearSearch	Qosımshalar tariyxı
+AppsClearSearchAlert	%s ti qosımshalardan paydalanıw tariyxıńızdan alıp taslawdı qáleysiz be?
+WebBookmark	Betbelgi
+WebBookmarkAdd	Betbelgi qosıw
+WebBookmarkedToast	Silteme **Saqlanǵan xabarlar** daǵı Betbelgilerge qosıldı.
+SearchEngine1Name	Google
+SearchEngine1SearchURL	https://www.google.com/search?q=
+SearchEngine1AutocompleteURL	https://suggestqueries.google.com/complete/search?client=chrome&amp;q=
+SearchEngine1PrivacyPolicyURL	https://policies.google.com/privacy
+SearchEngine2Name	DuckDuckGo
+SearchEngine2SearchURL	https://duckduckgo.com/?q=
+SearchEngine2AutocompleteURL	https://duckduckgo.com/ac/?q=
+SearchEngine2PrivacyPolicyURL	https://duckduckgo.com/privacy
+SearchEngine3Name	Bing
+SearchEngine3SearchURL	https://www.bing.com/search?q=
+SearchEngine3AutocompleteURL	https://api.bing.com/osjson.aspx?query=
+SearchEngine3PrivacyPolicyURL	https://privacy.microsoft.com/en-us/privacystatement
+SearchEngine4Name	Yahoo
+SearchEngine4SearchURL	https://search.yahoo.com/search?p=
+SearchEngine4AutocompleteURL	https://sugg.search.yahoo.net/sg/?output=json&amp;nresults=10&amp;command=
+SearchEngine4PrivacyPolicyURL	https://legal.yahoo.com/us/en/yahoo/privacy/index.html
+SearchEngine5Name	Brave Search
+SearchEngine5SearchURL	https://search.brave.com/search?q=
+SearchEngine5AutocompleteURL	https://search.brave.com/api/suggest?q=
+SearchEngine5PrivacyPolicyURL	https://search.brave.com/help/privacy-policy
+SearchEngine6Name	reserved
+SearchEngine6SearchURL	reserved
+SearchEngine6AutocompleteURL	reserved
+SearchEngine6PrivacyPolicyURL	reserved
+SearchEngine7Name	reserved
+SearchEngine7SearchURL	reserved
+SearchEngine7AutocompleteURL	reserved
+SearchEngine7PrivacyPolicyURL	reserved
+BrowserSettingsTitle	Veb-brauzer
+BrowserSettingsEnable	Qosımsha ishindegi brauzerdi qosıw
+BrowserSettingsCustomTabsTitle	Sırtqı siltemelerdi ashıw ornı
+BrowserSettingsCustomTabs	Telegram ishindegi jańa betler
+BrowserSettingsNoCustomTabs	Sırtqı brauzerdegi jańa betbelgiler
+BrowserSettingsNoCustomTabsInfo	Sırtqı siltemeni Telegramnan shıqpay ashıwdı tańlay alasız.
+BrowserSettingsEnableInfo	Siltemelerdi sırtqı brauzerdi iske túsirmey, Telegram ishinde ashıw.
+BrowserSettingsCacheClear	Keshti tazalaw
+BrowserSettingsCookiesClear	Cookie fayllardı tazalaw
+BrowserSettingsCacheClearText	Brauzer keshin%s tazalawdı anıq qáleysiz be?
+BrowserSettingsCookiesClearText	Brauzer cookie faylların%s tazalawdı anıq qáleysiz be?\n\nBul sizdi veb-saytlardaǵı akkaunt seanslarınan shıǵarıp jiberiwi múmkin.
+BrowserSettingsCookiesInfo	Telegram ishindegi brauzer hám mini-qosımshalardıń barlıq cookie fayları menen keshin óshiriw.
+BrowserSettingsHistoryShow	Tariyxtı kóriw
+BrowserSettingsHistoryClear	Tariyxtı tazalaw
+BrowserSettingsHistoryPages_one	%d bet
+BrowserSettingsHistoryPages_other	%d bet
+BrowserSettingsHistoryClearText	%s tan bergi brauzer tariyxın tazalawdı anıq qáleysiz be?
+BrowserSettingsNeverOpenInTitle2	Qosımsha ishinde ashpaw
+BrowserSettingsAlwaysOpenInTitle2	Qosımsha ishinde ashıw
+BrowserSettingsNeverOpenInAdd	Veb-sayt qosıw
+BrowserSettingsNeverOpenInClearList2	Barlıq esaptan tısqarılardı óshiriw
+BrowserSettingsNeverOpenInInfo2	Bul saytlar bárqulla sırtqı brauzerde ashıladı.
+BrowserSettingsAlwaysOpenInInfo2	Bul saytlar báribir qosımsha ishinde ashıladı.
+WebBrowserDeleteAllExceptionsTitle	Barlıq esaptan tısqarılardı óshiriw
+WebBrowserDeleteAllExceptionsMessage	Barlıq veb-sayt esaptan tısqarıların óshiriwdi anıq qáleysiz be?
+WebBrowserShowCloseButton	Jabıw túymesin kórsetiw
+WebBrowserShowCloseButtonInfo	Veb-saytlardı kórgende Jabıw túymesin qosıw.
+BrowserSettingsAddTitle	Veb-sayt qosıw
+BrowserSettingsAddTitleExternal	Veb-sayt qosıw
+BrowserSettingsAddText	Qosımsha ishindegi brauzerde ashılıwın qálemeytuǵın domendi kirgiziń.
+BrowserSettingsAddTextExternal	Qosımsha ishindegi brauzerde ashılıwın qáleytuǵın domendi kirgiziń.
+BrowserSettingsAddHint	URL kirgiziń
+InappBrowser	Qosımsha ishindegi brauzer
+InappBrowserInfo	Sırtqı siltemelerdi qosımsha ishinde ashıw
+BrowserSettingsSearchEngine	Izlew sisteması
+BrowserSettingsSearchEngineInfo	Izlew sisteması mánzil qatarında izlewdi ashıw hám avtomat toltırıw ushın qollanıladı.
+BrowserExternalTitle	Brauzerde ashıw
+BrowserExternalText	Bul siltemeni ádepki brauzerińizde ashıwdı qáleysiz be?
+BrowserExternalCheck	**%s** siltemelerin bárqulla brauzerde ashıw
+BrowserAlwaysOpenExternal	Bul sayttı bárqulla brauzerde ashıw
+BrowserAlwaysOpenInApp	Bul sayttı bárqulla qosımsha ishinde ashıw
+BrowserExternalRestricted	Telegram endi bul veb-sayttıń siltemelerin sırtqı brauzerde ashadı. Bunı **Sazlamalar** da ózgerte alasız.
+StoryEditCover	Muqabanı ózgertiw
+StoryEditCoverInfo	Profilińizde kórsetiw ushın storisten kadr tańlań.
+StoryEditCoverMenu	Muqabanı ózgertiw
+StoryCoverSave	Muqabanı saqlaw
+ProfileUnofficialSecurityRisk	%s rásmiy emes Telegram klientinen paydalanadı — bul paydalanıwshıǵa jiberilgen xabarlar qáwipsizligi tómenirek bolıwı múmkin.
+WebBookmarks	Betbelgiler
+WebHistory	Tariyx
+WebNoHistory	Házirshe tariyx joq
+WebNoSearchedHistory	Izlew nátiyjeleri joq
+WebNoBookmarks	Betbelgiler tabılmadı
+WebForward	Alǵa ótiw
+BotPrivacyPolicy	Qupıyalıq siyasatı
+RequireMonthlyFee	Aylıq tólem talap etiw
+RequireMonthlyFeePriceHint	Bir ayǵa Juldızlar muǵdarı
+RequireMonthlyFeePriceHintTest5Minutes	5 minutqa Juldızlar muǵdarı
+RequireMonthlyFeePrice	~%s/ay
+RequireMonthlyFeePriceTest5Minutes	~%s/5min
+RequireMonthlyFeeInfo	Usı silteme arqalı kanalıńızǵa qosılatuǵın adamlardan jazılıw tólemin alıw.
+RequireMonthlyFeeInfoLink	https://telegram.org/tos/stars
+RequireMonthlyFeeInfoFrozen	Jazılıw tólemin ózgertiw kerek bolsa, basqa bahadaǵı jańa mirát siltemesin jaratıń.
+LinkRevenue	Jazılıw tólemi
+LinkRevenuePrice	⭐️%1$d/ay
+LinkRevenuePriceInfo	siz ayına shama menen %1$s alasız
+StarsSubscribeTitle	Kanalǵa jazılıw
+StarsSubscribeText_one	**%2$s** ǵa ayına **%1$d Juldız** ǵa jazılıwdı qáleysiz be?
+StarsSubscribeText_other	**%2$s** ǵa ayına **%1$d Juldız** ǵa jazılıwdı qáleysiz be?
+StarsSubscribeTextTest_one	**%2$s** ǵa hár %3$s ushın **%1$d Juldız** ǵa jazılıwdı qáleysiz be?
+StarsSubscribeTextTest_other	**%2$s** ǵa hár %3$s ushın **%1$d Juldız** ǵa jazılıwdı qáleysiz be?
+StarsSubscribeButton	Jazılıw
+StarsSubscribeInfo	Jazılıw arqalı siz **Xızmet kórsetiw shártlerine** kelisesiz.
+StarsSubscribeInfoLink	https://telegram.org/tos/stars
+StarsSubscriptionCompleted	Jazılıw tabıslı ámelge astı!
+StarsSubscriptionCompletedText_one	%1$d Juldız **%2$s** ǵa ótkerildi.
+StarsSubscriptionCompletedText_other	%1$d Juldız **%2$s** ǵa ótkerildi.
+StarsTransactionSubscriptionMonthly	Aylıq jazılıw tólemi
+StarsReactionTerms	Juldızlar jiberiw arqalı siz **Xızmet kórsetiw shártlerine** kelisesiz.
+StarsReactionTermsLink	https://telegram.org/tos/stars
+StarsSubscriptionRenews	%s kúni jańalanadı
+StarsSubscriptionExpires	%s kúni múddeti pitedi
+StarsSubscriptionExpired	%s kúni múddeti pitken
+StarsSubscriptionStatusCancelled	biykarlanǵan
+StarsSubscriptionStatusBotCancelled	biykarlanǵan
+StarsSubscriptionStatusBizCancelled	biykarlanǵan
+StarsSubscriptionStatusExpired	múddeti pitken
+StarsSubscriptionTitle	Jazılıw
+StarsSubscriptionPrice	⭐️%1$d/ay
+StarsSubscriptionChannel	Jazılıw
+StarsSubscriptionBot	Bot
+StarsSubscriptionBotProduct	Jazılıw
+StarsSubscriptionBusiness	Biznes
+StarsSubscriptionBusinessProduct	Jazılıw
+StarsSubscriptionSince	Jazılǵan
+StarsSubscriptionUntilRenews	Jańalanadı
+StarsSubscriptionUntilExpires	Múddeti pitedi
+StarsSubscriptionUntilExpired	Múddeti pitken
+StarsSubscriptionCancelledText	Siz jazılıwıńızdı biykarladıńız.
+StarsSubscriptionBotCancelledText	Bot jazılıwıńızdı biykarladı.
+StarsSubscriptionBusinessCancelledText	Biznes jazılıwıńızdı biykarladı.
+StarsSubscriptionRenew	Jazılıwdı jańalaw
+StarsSubscriptionAgain	Qaytadan jazılıw
+StarsSubscriptionCancel	Jazılıwdı biykarlaw
+StarsSubscriptionCancelInfo	Házir biykarlasańız da, %s ǵa shekem jazılıwıńızdan paydalana alasız.
+StarsSubscriptionExpiredInfo	Jazılıwıńızdıń múddeti %s kúni pitti.
+StarsSubscriptionRefulfill	Kanalǵa qosılıw
+StarsSubscriptionRefulfillInfo	Siz kanaldan shıqtıńız, biraq %s ǵa shekem qaytıp kele alasız.
+StarsSubscriptionBotRefulfill	Jazılıwdı qayta tiklew
+StarsSubscriptionBotRefulfillInfo	%s ǵa shekem jazılıwdı qayta tiklep alasız.
+StarsSubscriptionExpiredHintTitle2_one	%2$s ushın ⭐️%1$d Juldız kerek
+StarsSubscriptionExpiredHintTitle2_other	%2$s ushın ⭐️%1$d Juldız kerek
+StarsSubscriptionExpiredHintText	Jazılıwıńızdı tólewge qarjı jetkiliksiz.
+StarsParticipantSubscription	Jazılıwshı
+StarsParticipantSubscriptionApproxMonth	ayına shama menen %1$s
+StarsParticipantSubscriptionStart	Jazılǵan
+StarsParticipantSubscriptionExpired	Múddeti pitken
+StarsParticipantSubscriptionRenews	Jańalanadı
+StarsParticipantSubscriptionPerMonth	ayına
+StarsSentTitle	Juldızlar jiberildi!
+StarsSentTitleChannel	Juldızlar %s atınan jiberildi!
+StarsSentAnonymouslyTitle	Juldızlar anonim jiberildi!
+StarsSentText_one	Siz **%d** juldız benen reakciya bildirdińiz.
+StarsSentText_other	Siz **%d** juldız benen reakciya bildirdińiz.
+StarsSentUndo	Biykarlaw
+StarsReactionTitle	Juldız reakciyası
+StarsReactionTitle2	Juldız reakciyası
+StarsReactionText	Bul posttı qollap-quwatlaw ushın **%s** ǵa qansha juldız jibergińiz keletuǵının tańlań.
+StarsReactionTextSent_one	Bul posttı qollap-quwatlaw ushın **%1$d** Juldız jiberdińiz.
+StarsReactionTextSent_other	Bul posttı qollap-quwatlaw ushın **%1$d** Juldız jiberdińiz.
+StarsReactionTopSenders	Eń kóp jibergenler
+StarsReactionShowMeInTopSenders	Meni eń kóp jibergenler arasında kórsetiw
+StarsReactionAnonymous	Anonim
+StarsReactionSend	⭐️%s jiberiw
+StarsAddHighlightedMessage	⭐️%s qosıw
+StarsReactionTop	TOP
+StarsReactionTopX_one	TOP %d
+StarsReactionTopX_other	TOP %d
+StarsReactionsSent	Juldız reakciyası
+ChannelEnablePaidReactions	Tólemli reakciyalardı qosıw
+ChannelEnablePaidReactionsInfo	Jazılıwshılarıńızǵa Telegram Juldızları menen tólemli reakciyalar qoyıwǵa ruqsat beriw ushın bunı qosıń, olardı keyin TON túrinde shıǵarıp ala alasız.
+ChannelEnablePaidReactionsInfoLink	https://telegram.org/tos/stars/
+ChannelSignInfo	Administratorlardıń atların olar jaylastırǵan xabarlarǵa qosıw.
+ChannelSignProfilesInfo	Administratorlardıń atların hám súwretlerin olar jaylastırǵan xabarlarǵa profillerine silteme menen qosıw.
+ChannelLinksInfoPaid	Waqıtı, paydalanıwshılar sanı sheklengen yamasa tólemli jazılıwdı talap etetuǵın qosımsha mirát siltemelerin jarata alasız.
+ChannelLinksInfo	Waqıtı hám paydalanıwshılar sanı sheklengen qosımsha mirát siltemelerin jarata alasız.
+StarSubscriptionTo	Kimge
+StarGiveawayPrizeFrom	Kimnen
+StarGiveawayPrizeTo	Kimge
+StarGiveawayGift	Sawǵa
+StarGiveawayReason	Sebep
+StarGiveawayReasonLink	Utıs oyını
+StarTransactionCommission	%s komissiyası
+StarAffiliate	Sherik
+StarAffiliateCommission	Komissiya
+StarAffiliateMiniApp	Mini-qosımsha
+StarAffiliateReferredUser	Shaqırılǵan paydalanıwshı
+StarAffiliateReason	Sebep
+StarAffiliateReasonProgram	Sheriklik baǵdarlaması
+StarGiftReason	Sebep
+StarGiftReasonUpgrade	Sawǵa jaqsılandı
+StarGiftReasonUpgradeView	kóriw
+StarGiftReasonTransfer	Sawǵa ótkerildi
+StarGiftReasonRemovedDescription	Táriyp alıp taslandı
+StarGiftReasonSale	Sawǵa satılıwı
+StarGiftReasonPurchase	Sawǵa satıp alıw
+StarGiftReasonOffer	Sawǵa usınısı
+StarGiftReasonOfferRefund	Sawǵa usınısın qaytarıw
+StarGiftUpgradeGiftFrom	Sawǵa kimnen
+StarGiftTransactionGiftTransfer	Sawǵanı ótkeriw
+StarGiftTransactionGiftTransferRefund	Sawǵanı ótkeriw qaytarıldı
+StarGiftTransactionGiftSale	Sawǵa satılıwı
+StarGiftTransactionGiftSaleRefund	Sawǵa satılıwı qaytarıldı
+StarGiftTransactionGiftPurchase	Sawǵa satıp alıw
+StarGiftTransactionGiftPurchaseRefund	Sawǵa satıp alıw qaytarıldı
+StarGiftTransactionGiftOffer	Sawǵa usınısı
+StarGiftTransactionGiftOfferRefund	Sawǵa usınısı qaytarıldı
+StarSubscriptionPurchase	Aylıq jazılıw tólemi
+StarMySubscriptions	Meniń jazılıwlarım
+StarMySubscriptionsExpand	Kóbirek kórsetiw
+StarsTopupLinkEnough	Házirshe juldızlarıńız jetkilikli.
+StarsTopupLinkTopupAnyway	Báribir toltırıw
+BotDefaultPrivacyPolicy	https://telegram.org/privacy-tpa
+PeopleSubscriptionExpired_one	%d múddeti pitken jazılıw
+PeopleSubscriptionExpired_other	%d múddeti pitken jazılıw
+StarsSubscriptionCancelledToast	Jazılıw biykarlandı
+StarsSubscriptionCancelledToastText	**%s** ǵa shekem kanaldan paydalana alasız.
+StarsSubscriptionCancelledBotToastText	**%1$s** ǵa shekem **%2$s** tan paydalana alasız.
+StarsSubscriptionCancelledBizToastText	**%1$s** ǵa shekem **%2$s** tan paydalana alasız.
+StarsSubscriptionRenewedToast	Jazılıw jańalandı
+StarsSubscriptionRenewedToastText	**%s** ǵa jazılıwıńızdı jańaladıńız.
+StarsReactionsDisabled	**%s** da Juldız reakciyaları óshirildi.
+BoostStars_one	%d Juldız
+BoostStars_other	%d Juldız
+BoostFrom	Kimnen
+BoostGift	Sawǵa
+BoostReason	Sebep
+BoostReasonGiveaway	Utıs oyını
+BoostDate	Sáne
+BoostUntil	Shekem
+Gift2User	%s ǵa sawǵa
+Gift2Premium	Premium sawǵa etiw
+Gift2PremiumInfo	**%s** ǵa Telegram Premium menen eksklyuziv imkaniyatlarǵa ruqsat beriń.
+Gift2PremiumInfoLink	Imkaniyatlardı kóriw >
+Gift2Stars	Sawǵa jiberiw
+Gift2StarsInfo	**%s** ǵa profilde saqlawǵa yamasa Juldızlarǵa aylandırıwǵa bolatuǵın sawǵalar beriń.
+Gift2StarsCollectibleInfo	Kollekciyalıq sawǵalar — almastırıwǵa yamasa satıwǵa bolatuǵın unikal cifrlıq zatlar.
+Gift2StarsSelf	Sawǵa satıp alıw
+Gift2StarsSelfInfo1	Betińizde kórsetiw yamasa keyinge saqlap qoyıw ushın ózińizge sawǵa satıp alıń.
+Gift2StarsSelfInfo2	Kollekciyalıqqa jaqsılanǵan sheklengen sawǵalardı keyin basqalarǵa sawǵa etiwge boladı.
+Gift2StarsChannel	Sawǵa jiberiw
+Gift2StarsChannelInfo	**%s** ǵa minnetdarshılıq bildiriw ushın sawǵa tańlań.
+Gift2InfoInFreeUpgrade	Bul sawǵanı unikal kollekciyalıq zatqa aylandırıw ushın biypul jaqsılań.
+Gift2InfoFreeUpgrade	%s bul sawǵanı unikal kollekciyalıq zatqa aylandıra aladı.
+Gift2StarsInfoLink	Juldızlar degen ne >
+Gift2StarsInfoProfileLink	%s sawǵaları
+Gift2Title	Sawǵa jiberiw
+Gift2TitleSelf1	Sawǵa satıp alıw
+Gift2TitleSelf2	Ózime sawǵa
+Gift2Message	Xabar kirgiziń
+Gift2MessageOptional	Xabar kirgiziń (májbúriy emes)
+Gift2MessagePremiumInfo	Xabarıńızdı tek %s kóredi.
+Gift2MessageStars	⭐️%d tólew
+Gift2MessageStarsInfo	Balansıńız: ⭐️%s
+Gift2MessageStarsInfoTON	Balansıńız: ⭐️**%s**
+Gift2MessageStarsInfoLink	**Kóbirek Juldız alıw >**
+TitleSetupProxy	proksi sazlaw >
+Gift2Hide	Atımdı jasırıw
+Gift2HideInfo	Atıńız hám xabarıńızdı %1$s profiliniń miymanlarınan jasıra alasız. %1$s atıńız hám xabarıńızdı báribir kóredi.
+Gift2HideChannelInfo	Atıńız hám xabarıńızdı administratorlardan basqa usı kanaldıń barlıq miymanlarınan jasıra alasız.
+Gift2HideSelf	Atımdı jasırıw
+Gift2HideSelfInfo	Atım hám xabarımdı profilimniń miymanlarınan jasırıw
+Gift2AuctionInfo_one	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d stavka qoyıwshıǵa beriledi.
+Gift2AuctionInfo_other	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d stavka qoyıwshıǵa beriledi.
+Gift2AuctionInfoLearnMore2_one	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d stavka qoyıwshıǵa beriledi. **Kóbirek biliw >**
+Gift2AuctionInfoLearnMore2_other	%d sawǵa hár qıylı aralıqlarda stavka muǵdarı boyınsha eń joqarı %d stavka qoyıwshıǵa beriledi. **Kóbirek biliw >**
+Gift2AuctionInfo2_one	Bul raundta eń joqarı **%d** stavka qoyıwshı\n**%s** aladı.
+Gift2AuctionInfo2_other	Bul raundta eń joqarı **%d** stavka qoyıwshı\n**%s** aladı.
+Gift2AuctionInfo3	**%1$s** sawǵa **%2$d** raundta\neń joqarı **%3$d** stavka qoyıwshıǵa beriledi. %4$s
+Gift2AuctionTableStarted	Baslandı
+Gift2AuctionTableEnded	Tamamlandı
+Gift2AuctionEnded	Aukcion tamamlandı.
+Gift2AuctionEndedNoDot	Aukcion tamamlandı
+Gift2AuctionTableCurrentRound	Házirgi raund
+Gift2AuctionTableCurrentRounds	Raundlar
+Gift2AuctionTableCurrentRoundsOne	%d-raund
+Gift2AuctionTableCurrentRoundsOneDuration	%1$s + eń joqarı %3$d degi keshikken stavkalar ushın %2$s
+Gift2AuctionTableCurrentRoundsTwo	%1$d-%2$d raundlar
+Gift2AuctionTableCurrentRoundsTwoDuration_one	hárbiri %1$d minut
+Gift2AuctionTableCurrentRoundsTwoDuration_other	hárbiri %1$d minut
+Gift2AuctionUpgradedShort	jaqsılanǵan
+Gift2AuctionTableCurrentAvailability	Qoljetimlilik
+Gift2AuctionTableCurrentQuantity	Sanı
+Gift2AuctionInfoLearnMore	**Kóbirek biliw >**
+Gift2AuctionJoin	Aukcionǵa qosılıw
+Gift2AuctionTimeLeft	%s qaldı
+Gift2AuctionStartsIn	%s tan keyin baslanadı
+Gift2AuctionPlaceABid	Stavka qoyıw
+Gift2AuctionPlaceAEarlyBid	Erte stavka qoyıw
+Gift2AuctionPlaceABidTitle	Stavka qoyıw
+Gift2AuctionPlaceACustomBid	Jeke stavka qoyıw
+Gift2AuctionPlaceACustomBidHint	Eger eń joqarı %d den tómen tússeńiz, stavkańız keyingi raundqa ótedi.
+Gift2AuctionPlaceACustomBidHint2	Jeke stavka...
+Gift2AuctionYourBid	stavkańız
+Gift2AuctionTapToBidMore	kóbirek stavka qoyıw ushın basıń
+Gift2AuctionMinimumBidIncreased_one	Keminde **%d juldız** stavka qoyıwıńız kerek.
+Gift2AuctionMinimumBidIncreased_other	Keminde **%d juldız** stavka qoyıwıńız kerek.
+Gift2AuctionBidStatusFuture	Stavkańız boladı
+Gift2AuctionBidStatusFuture2	Stavkańız %s boladı
+Gift2AuctionBidStatusOutbid	Stavkańızdan asıp ketti
+Gift2AuctionBidStatusWinning	Siz jeńip atırsız
+Gift2AuctionBidStatusWinning2	Siz jeńip atırsız %s
+Gift2AuctionLearnMore2	Telegram sawǵaları haqqında kóbirek biliw >
+Gift2AuctionLearnMore3	Sawǵalardı taǵıw haqqında kóbirek biliw >
+Gift2WearingHint	Sawǵańızdı biypul jaqsılay alasız, bazarda\nsata alasız yamasa profil muqabası etip ornata alasız.
+Gift2AuctionVariants	%1$s %2$s variantın kóriw >
+Gift2AuctionBidInfoMinimumBid	eń kishi stavka
+Gift2AuctionBidInfoUntilNextRound	keyingi raundqa shekem
+Gift2AuctionBidInfoUntilStart	baslanıwǵa shekem
+Gift2AuctionBidInfoUntilEndRound	sońǵı raund
+Gift2AuctionBidInfoLeft	qaldı
+Gift2AuctionAlreadyParticipateTitle	Aukcion
+Gift2AuctionAlreadyParticipate	Siz **%s** ushın aukcionǵa qatnasıp atırsız. Tek bir aukcionǵa qatnasa alasız. Házirgi raundta jeńiń yamasa qatnasıwshılar diziminen alıp taslanǵanıńızsha kútiń.
+Gift2AuctionAlreadyParticipateSelf	Siz aukcionǵa qatnasıp atırsız. Tek bir aukcionǵa qatnasa alasız. Házirgi raundta jeńiń yamasa qatnasıwshılar diziminen alıp taslanǵanıńızsha kútiń.
+Gift2Upgrade	⭐️%d ǵa unikal etiw
+Gift2UpgradeInfo	%s sawǵańızdı unikal kollekciyalıq zatqa aylandıra alıwı ushın bunı qosıń. **Kóbirek biliw >**
+Gift2UpgradeChannelInfo	%s administratorları sawǵańızdı unikal kollekciyalıq zatqa aylandıra alıwı ushın bunı qosıń. **Kóbirek biliw >**
+Gift2UpgradeForcedInfo	%s tek unikal sawǵalardı qabıl etedi.
+Gift2UpgradeChannelForcedInfo	%s tek unikal sawǵalardı qabıl etedi.
+Gift2NoUpgradeForcedInfo	%s tek sheklengen sawǵalardı qabıl etedi.
+Gift2NoUpgradeChannelForcedInfo	%s tek sheklengen sawǵalardı qabıl etedi.
+Gift2UpgradeSelf	⭐️%d ǵa unikal etiw
+Gift2UpgradeSelfInfo	Sawǵańızdı unikal kollekciyalıq zatqa aylandırıw ushın bunı qosıń. **Kóbirek biliw >**
+Gift2Send_one	⭐️%d ǵa sawǵa jiberiw
+Gift2Send_other	⭐️%d ǵa sawǵa jiberiw
+Gift2SendPremium	%s ǵa sawǵa jiberiw
+Gift2SendPremiumStars	⭐️%s ǵa sawǵa jiberiw
+Gift2SendSelf_one	⭐️%d ǵa sawǵa satıp alıw
+Gift2SendSelf_other	⭐️%d ǵa sawǵa satıp alıw
+Gift2SendYourBalance_one	Balansıńız: %d Juldız
+Gift2SendYourBalance_other	Balansıńız: %d Juldız
+Gift2ActionTitle	Sawǵa jiberiwshi: 
+Gift2ActionTitleTo	Sawǵa alıwshı: 
+Gift2AveragePriceHint	**%d Juldız** — **%s** sawǵalarınıń ortasha satılıw bahası.
+Gift2ActionWonActionText	Siz bul sawǵanı aukcionda %s Juldızǵa satıp aldıńız.
+Gift2ActionUpgradeTitle	Jaqsılaw jiberiwshi: 
+Gift2ActionUpgradeUnknownTitle	Belgisiz adamnan jaqsılaw
+Gift2ActionSelfTitle	Saqlanǵan sawǵa
+Gift2ActionCraftedTitle	Jasalǵan sawǵa
+Gift2ActionPurchasedTitle	Satıp alınǵan sawǵa
+Gift2ActionUpgradedTitle	Jaqsılanǵan sawǵa
+Gift2ActionTitleInAnonymous	%s sawǵa aldı!
+Gift2ActionTitleAnonymous	Siz sawǵa aldıńız!
+Gift2ActionConvertRefundedText	Bul sawǵanı Juldızlarǵa aylandırıw múmkin emes, sebebi oǵan baylanıslı tólem qaytarılǵan.
+Gift2ActionUpgradeRefundedText	Bul sawǵanıń dárejesi tómenletildi, sebebi oǵan baylanıslı tólemdi qaytarıw sorawı jiberilgen hám aqsha qaytarılǵan.
+Gift2ActionInfo_one	Bul sawǵanı betińizde kórsetiń yamasa %d Juldızǵa aylandırıń.
+Gift2ActionInfo_other	Bul sawǵanı betińizde kórsetiń yamasa %d Juldızǵa aylandırıń.
+Gift2ActionInfoChannel_one	Bul sawǵanı kanal Sawǵalarında kórsetiń yamasa **%d** Juldızǵa aylandırıń.
+Gift2ActionInfoChannel_other	Bul sawǵanı kanal Sawǵalarında kórsetiń yamasa **%d** Juldızǵa aylandırıń.
+Gift2ActionInfoChannelNoConvert	Bul sawǵanı kanal Sawǵalarında kórsetiń.
+Gift2ActionBotInfo	Bul sawǵanı betińizde kórsete alasız.
+Gift2ActionSavedInfo	Siz bul sawǵanı betińizde saqladıńız.
+Gift2ActionBotSavedInfo	Bul sawǵa endi betińizde kórinedi.
+Gift2ActionConvertedInfo_one	Siz bul sawǵanı %d Juldızǵa aylandırdıńız.
+Gift2ActionConvertedInfo_other	Siz bul sawǵanı %d Juldızǵa aylandırdıńız.
+Gift2ActionSelfInfo_one	Bul sawǵanı betińizde kórsetiń yamasa %1$d Juldızǵa aylandırıń.
+Gift2ActionSelfInfo_other	Bul sawǵanı betińizde kórsetiń yamasa %1$d Juldızǵa aylandırıń.
+Gift2ActionSelfInfoNoConvert	Bul sawǵanı betińizde kórsetiń.
+Gift2ActionSelfInfoUpgrade	Bul sawǵanı betińizde kórsete alasız yamasa unikal kollekciyalıq zatqa aylandırıp, basqalarǵa jibere alasız.
+Gift2ActionOutInfo_one	**%2$s** bul sawǵanı óz betinde kórsete aladı yamasa %1$d Juldızǵa aylandıra aladı.
+Gift2ActionOutInfo_other	**%2$s** bul sawǵanı óz betinde kórsete aladı yamasa %1$d Juldızǵa aylandıra aladı.
+Gift2ActionOutInfoNoConvert	**%s** bul sawǵanı óz betinde kórsete aladı.
+Gift2ActionOutInfoUpgrade	**%s** bul sawǵanı óz betinde kórsete aladı yamasa unikal kollekciyalıq zatqa aylandıra aladı.
+Gift2StarsCount_one	%d Juldız
+Gift2StarsCount_other	%d Juldız
+ProfileGifts	Sawǵalar
+ProfileGiftsNotFoundTitle	Sáykes sawǵalar joq
+ProfileGiftsNotFoundButton	Barlıq sawǵalardı kóriw
+ProfileGiftsInfo	Bul sawǵalardı sizge basqa paydalanıwshılar jibergen.\nSawǵanı Juldızlarǵa aylandırıw yamasa qupıyalıq sazlamaların ózgertiw ushın onı basıń.
+ProfileGiftsCount_one	%d sawǵa
+ProfileGiftsCount_other	%d sawǵa
+ProfilePollsCount_one	%d sorawnama
+ProfilePollsCount_other	%d sorawnama
+ProfileGiftsSend	Doslarǵa sawǵa jiberiw
+ProfileGiftsSendChannel	Kanalǵa sawǵa jiberiw
+ProfileGiftsSendUser	%s ǵa sawǵa jiberiw
+Gift2TabAll	Barlıq sawǵalar
+Gift2TabInStock	Bar
+Gift2TabLimited	Sheklengen
+Gift2TabMine	Meniń sawǵalarım
+Gift2TabCollectibles	Kollekciyalıq
+Gift2TabResale	Qayta satıw
+Gift2TransferMine	Ótkeriw
+Gift2LimitedRibbon	sheklengen
+Gift2LimitedPremium	premium
+Gift2LimitedAuction	aukcion
+Gift2LimitedAuctionSoon	jaqında
+Gift2AuctionPriceJoin	Qosılıw
+Gift2AuctionPriceView	Kóriw
+Gift2AuctionTop3Winners	Eń joqarı 3 jeńimpaz
+Gift2AuctionPlaceBid	⭐️%s stavka qoyıw
+Gift2AuctionPlaceBidAdd	Stavkańızǵa ⭐️%s qosıw
+Gift2PreviewRandomTraits	Tosınnan qásiyetler
+Gift2PreviewSelectedTraits	Tańlanǵan qásiyetler
+Gift2LimitedSlider	Sheklengen
+Gift2Limited1OfRibbon	%s ten 1
+StarsGiftCompleted	Sawǵa jiberildi!
+StarsGiftCompletedText_one	Balansıńızdan **%1$d** Juldız jumsadıńız.
+StarsGiftCompletedText_other	Balansıńızdan **%1$d** Juldız jumsadıńız.
+StarsGiftUpgradeCompleted	Sawǵa jaqsılawı jiberildi!
+StarsGiftUpgradeCompletedText	%s endi bul sawǵanı biypul jaqsılay aladı.
+StarsGiftUpgradeCompletedMoreButton	Jáne sawǵa etiw
+StarsGiftCompletedChannelText_one	**%2$s** ǵa **%1$d** Juldızǵa sawǵa jiberdińiz.
+StarsGiftCompletedChannelText_other	**%2$s** ǵa **%1$d** Juldızǵa sawǵa jiberdińiz.
+Gift2ChannelSend	Sawǵa jiberiw
+Gift2ChannelSendHint	Sawǵa jiberiw ushın usı jerdi basıń
+Gift2TitleSent	Jiberilgen sawǵa
+Gift2TitleProfile	Sawǵa
+Gift2TitleReceived	Alınǵan sawǵa
+Gift2TitleSaved	Saqlanǵan sawǵa
+Gift2TitleChannel	Sawǵa
+TelegramPremiumShort	Premium
+Gift2Info2Out_one	%2$s bul sawǵanı óz profilinde saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2Info2Out_other	%2$s bul sawǵanı óz profilinde saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2Info2OutUpgrade	%1$s bul sawǵanı óz profilinde saqlay aladı yamasa unikal kollekciyalıq zatqa jaqsılay aladı.
+Gift2Info2OutExpired	%1$s bul sawǵanı óz profilinde saqlay aladı.
+Gift2Info3_one	Bul sawǵanı profilińizde saqlay alasız yamasa **%1$d** Juldızǵa aylandıra alasız.
+Gift2Info3_other	Bul sawǵanı profilińizde saqlay alasız yamasa **%1$d** Juldızǵa aylandıra alasız.
+Gift2Info3Channel_one	Kanalıńız bul sawǵanı kanal Sawǵalarında saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2Info3Channel_other	Kanalıńız bul sawǵanı kanal Sawǵalarında saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2Info2Expired_one	Bul %d Juldızlıq sawǵanı profilińizde saqlay alasız.
+Gift2Info2Expired_other	Bul %d Juldızlıq sawǵanı profilińizde saqlay alasız.
+Gift2Info2ChannelExpired_one	Kanalıńız bul %d Juldızlıq sawǵanı kanal Sawǵalarında saqlay aladı.
+Gift2Info2ChannelExpired_other	Kanalıńız bul %d Juldızlıq sawǵanı kanal Sawǵalarında saqlay aladı.
+Gift2Info2BotRemove	Bul sawǵanı profilińizden alıp taslay alasız.
+Gift2Info2BotKeep	Bul sawǵanı profilińizde saqlay alasız.
+Gift2Info2ChannelRemove	Kanalıńız bul sawǵanı kanal Sawǵalarınan jasıra aladı.
+Gift2Info2ChannelKeep	Kanalıńız bul sawǵanı kanal Sawǵalarında saqlay aladı.
+Gift2Info2RemoveUpgrade	Bul sawǵanı profilińizden alıp taslay alasız yamasa unikal kollekciyalıq zatqa jaqsılay alasız.
+Gift2Info2KeepUpgrade	Bul sawǵanı profilińizde saqlay alasız yamasa unikal kollekciyalıq zatqa jaqsılay alasız.
+Gift2InfoOut_one	%2$s bul sawǵanı profilde saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2InfoOut_other	%2$s bul sawǵanı profilde saqlay aladı yamasa **%1$d** Juldızǵa aylandıra aladı.
+Gift2InfoConverted_one	Siz bul sawǵanı **%d** Juldızǵa aylandırdıńız.
+Gift2InfoConverted_other	Siz bul sawǵanı **%d** Juldızǵa aylandırdıńız.
+Gift2InfoChannelConverted_one	Kanalıńız bul sawǵanı **%d** Juldızǵa aylandırdı.
+Gift2InfoChannelConverted_other	Kanalıńız bul sawǵanı **%d** Juldızǵa aylandırdı.
+Gift2InfoOutConverted_one	%2$s bul sawǵanı **%d** Juldızǵa aylandırdı.
+Gift2InfoOutConverted_other	%2$s bul sawǵanı **%d** Juldızǵa aylandırdı.
+Gift2InfoOutPinned	%1$s bul sawǵanı profilińizde saqladı.
+Gift2InSenderHidden2	Jiberiwshiniń atın tek siz kóre alasız.
+Gift2InSenderMessageHidden2	Jiberiwshiniń atın hám xabarın tek siz kóre alasız.
+Gift2OutSenderHidden2	Jiberiwshiniń atın tek %s kóre aladı.
+Gift2OutSenderMessageHidden2	Jiberiwshiniń atın hám xabarın tek %s kóre aladı.
+Gift2ProfileVisible4	Bul sawǵa kórinip tur. **Profilden jasırıw >**
+Gift2ProfileInvisible4	Bul sawǵa jasırılǵan. **Profilde kórsetiw >**
+Gift2ChannelProfileVisible3	Bul sawǵa kanalıńızdıń Sawǵalarında kórinip tur. **Jasırıw >**
+Gift2ChannelProfileInvisible3	Bul sawǵa kanalıńızdıń miymanlarınan jasırılǵan. **Kórsetiw >**
+Gift2More	**Juldızlar haqqında kóbirek >**
+Gift2From	Kimnen
+Gift2To	Kimge
+Gift2Gift	Sawǵa
+Gift2Visibility	Kóriniwi
+Gift2Visible	Betińizde kórinedi
+Gift2VisibleHide	jasırıw
+Gift2Invisible	Betińizde kórinbeydi
+Gift2InvisibleShow	kórsetiw
+Gift2Availability	Qoljetimlilik
+Gift2Quantity	Sanı
+Gift2QuantityIssued1_other	%d/
+Gift2QuantityIssued2_other	%d shıǵarıldı
+Gift2QuantityIssuedNone_one	%d ten hesh biri qalmadı
+Gift2QuantityIssuedNone_other	%d ten hesh biri qalmadı
+Gift2Availability4Value_one	%2$s ten %1$d qaldı
+Gift2Availability4Value_other	%2$s ten %1$d qaldı
+Gift2Availability2ValueNone_one	%1$d ten hesh biri qalmadı
+Gift2Availability2ValueNone_other	%1$d ten hesh biri qalmadı
+Gift2ProfileMakeVisible	Betimde kórsetiw
+Gift2ProfileMakeInvisible	Betimnen jasırıw
+Gift2ToBalance_one	%d Juldızǵa aylandırıw
+Gift2ToBalance_other	%d Juldızǵa aylandırıw
+Gift2ConvertTitle	Sawǵanı Juldızlarǵa aylandırıw
+Gift2ConvertText2_one	**%2$s** jibergen bul sawǵanı **%3$s** ǵa aylandırıwdı qáleysiz be?\n\nAylandırıw keyingi **%1$d kún** dawamında qoljetimli.\n\nBul háreketti biykarlaw múmkin emes. Sawǵa birotala joq etiledi.
+Gift2ConvertText2_other	**%2$s** jibergen bul sawǵanı **%3$s** ǵa aylandırıwdı qáleysiz be?\n\nAylandırıw keyingi **%1$d kún** dawamında qoljetimli.\n\nBul háreketti biykarlaw múmkin emes. Sawǵa birotala joq etiledi.
+Gift2ConvertStars_one	%d Juldız
+Gift2ConvertStars_other	%d Juldız
+Gift2ConvertButton	Aylandırıw
+Gift2SoldOut	satılıp pitti
+Gift2AuctionCountdownFinished	Tamamlandı
+Gift2AuctionCountdownStartsIn	%s tan keyin baslanadı
+ExplainStarsTitle	Juldızlar degen ne?
+ExplainStarsTitle2	Telegram Juldızları paydalanıwshılarǵa tómendegilerge imkaniyat beredi:
+ExplainStarsFeature1Title	Doslarǵa sawǵa jiberiw
+ExplainStarsFeature1Text	Doslarıńızǵa profillerinde saqlawǵa yamasa Juldızlarǵa aylandırıwǵa bolatuǵın sawǵalar beriń.
+ExplainStarsFeature2Title	Juldızlardı mini-qosımshalarda qollanıw
+ExplainStarsFeature2Text	Telegram mini-qosımshalarında qosımsha kontent hám xızmetlerdi satıp alıń. **Mısallardı kóriw >**
+ExplainStarsFeature3Title	Kanallardaǵı kontentti ashıw
+ExplainStarsFeature3Text	Telegram kanallarındaǵı tólemli kontent hám xızmetlerge ruqsat alıń.
+ExplainStarsFeature4Title	Juldız reakciyaların jiberiw
+ExplainStarsFeature4Text	Súyikli kanallarıńızdıń postlarına Juldız reakciyaların jiberip, olardı qollap-quwatlań.
+ExplainStarsButton	Túsinikli
+Gift2MadePublicTitle	Sawǵa kórsetildi
+Gift2MadePublic	Sawǵa endi **profilińizde** kórinedi.
+Gift2MadePrivateTitle	Sawǵa jasırıldı
+Gift2MadePrivate	Sawǵa endi **profilińizde** jasırılǵan.
+Gift2ChannelMadePublicTitle	Sawǵa kórsetildi
+Gift2ChannelMadePublic	Sawǵa endi kanalıńızdıń Sawǵalarında kórinedi.
+Gift2ChannelMadePrivateTitle	Sawǵa jasırıldı
+Gift2ChannelMadePrivate	Sawǵa endi kanalıńızdıń miymanlarınan jasırılǵan.
+Gift2ConvertedTitle	Aylandırılǵan sawǵa
+Gift2Converted_one	%d Juldız balansıńızǵa jiberildi
+Gift2Converted_other	%d Juldız balansıńızǵa jiberildi
+Gift2ConvertedChannel_one	%d Juldız kanal balansına jiberildi
+Gift2ConvertedChannel_other	%d Juldız kanal balansına jiberildi
+Gift2SoldAuctionPreviewGifts_one	%d sawǵa
+Gift2SoldAuctionPreviewGifts_other	%d sawǵa
+Gift2SoldOutTitle	Satılıp pitti!
+Gift2SoldOutCount_one	Barlıq %d sawǵa satılıp pitti.
+Gift2SoldOutCount_other	Barlıq %d sawǵa satılıp pitti.
+ReportStory	Storis ústinen shaǵım etiw
+Report2	Shaǵım etiw
+Report2Comment	Pikir qosıw
+Report2CommentOptional	Pikir qosıw (májbúriy emes)
+Report2CommentInfo	Tańlaǵan xabarıńızda ne nadurıs ekenin aytıp, bizge járdem beriń.

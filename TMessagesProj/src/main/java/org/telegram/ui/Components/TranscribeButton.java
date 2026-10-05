@@ -840,14 +840,30 @@ public class TranscribeButton {
         return mc.transcribeAudioTrialCooldownUntil == 0 || cc.getCurrentTime() > mc.transcribeAudioTrialCooldownUntil || mc.transcribeAudioTrialCurrentNumber > 0;
     }
 
-    /** U message: without Premium voice messages are transcribed on the device (UMessageTranscriber). */
+    /**
+     * U message: every voice message is transcribed on the device with the 7OS keyboard's offline
+     * Uzbek model — for Premium users too, instead of Telegram's server transcription.
+     */
     public static boolean useLocalTranscription(MessageObject messageObject) {
-        return messageObject != null && !UserConfig.getInstance(messageObject.currentAccount).isPremium() &&
-            !isFreeTranscribeInChat(messageObject) && UMessageTranscriber.isAvailable();
+        if (messageObject == null || !UMessageTranscriber.isAvailable()) return false;
+        if (org.telegram.messenger.UMessageUzbekSpeech.isSupported() && org.telegram.messenger.UMessageUzbekSpeech.isEnabled()) return true;
+        // offline model switched off: Premium goes back to Telegram's own transcription
+        return !UserConfig.getInstance(messageObject.currentAccount).isPremium() && !isFreeTranscribeInChat(messageObject);
     }
 
     private static void transcribeLocally(MessageObject messageObject, long dialogId, int messageId, int attempt) {
         final int account = messageObject.currentAccount;
+        if (attempt == 0 && org.telegram.messenger.UMessageUzbekSpeech.isSupported() && org.telegram.messenger.UMessageUzbekSpeech.isEnabled() && !org.telegram.messenger.UMessageUzbekSpeech.isReady()) {
+            // the offline model is not on the phone yet: ask once, download, then carry on
+            askToDownloadSpeechModel(ready -> {
+                if (ready) {
+                    transcribeLocally(messageObject, dialogId, messageId, 1);
+                } else {
+                    finishLocalTranscription(messageObject, dialogId, messageId, "");
+                }
+            });
+            return;
+        }
         File file = FileLoader.getInstance(account).getPathToMessage(messageObject.messageOwner);
         if ((file == null || !file.exists()) && messageObject.getDocument() != null) {
             file = FileLoader.getInstance(account).getPathToAttach(messageObject.getDocument(), true);
@@ -865,6 +881,73 @@ public class TranscribeButton {
             return;
         }
         UMessageTranscriber.transcribe(file, text -> finishLocalTranscription(messageObject, dialogId, messageId, text == null ? "" : text));
+    }
+
+    /** Download prompt + progress for the ~458 MB Uzbek speech model; {@code done} gets true when ready. */
+    public static void askToDownloadSpeechModel(Utilities.Callback<Boolean> done) {
+        org.telegram.ui.ActionBar.BaseFragment fragment = org.telegram.ui.LaunchActivity.getLastFragment();
+        android.app.Activity activity = fragment != null ? fragment.getParentActivity() : null;
+        if (activity == null) {
+            done.run(false);
+            return;
+        }
+        long mb = org.telegram.messenger.UMessageUzbekSpeech.TOTAL_BYTES / (1024 * 1024);
+        org.telegram.ui.ActionBar.AlertDialog.Builder builder = new org.telegram.ui.ActionBar.AlertDialog.Builder(activity);
+        builder.setTitle(org.telegram.messenger.LocaleController.getString(R.string.UMessageSpeechModelTitle));
+        builder.setMessage(org.telegram.messenger.LocaleController.formatString(R.string.UMessageSpeechModelInfo, mb));
+        final boolean[] started = new boolean[1];
+        builder.setPositiveButton(org.telegram.messenger.LocaleController.getString(R.string.UMessageSpeechModelDownload), (d, w) -> {
+            started[0] = true;
+            showSpeechModelProgress(activity, done);
+        });
+        builder.setNegativeButton(org.telegram.messenger.LocaleController.getString(R.string.Cancel), null);
+        org.telegram.ui.ActionBar.AlertDialog dialog = builder.create();
+        dialog.setOnDismissListener(d -> {
+            if (!started[0]) done.run(false);
+        });
+        dialog.show();
+    }
+
+    private static void showSpeechModelProgress(android.app.Activity activity, Utilities.Callback<Boolean> done) {
+        android.widget.LinearLayout box = new android.widget.LinearLayout(activity);
+        box.setOrientation(android.widget.LinearLayout.VERTICAL);
+        box.setPadding(dp(24), dp(8), dp(24), dp(8));
+        android.widget.TextView label = new android.widget.TextView(activity);
+        label.setTextColor(Theme.getColor(Theme.key_dialogTextBlack));
+        label.setTextSize(android.util.TypedValue.COMPLEX_UNIT_DIP, 15);
+        label.setText(org.telegram.messenger.LocaleController.formatString(R.string.UMessageSpeechModelProgress, 0));
+        box.addView(label);
+        android.widget.ProgressBar bar = new android.widget.ProgressBar(activity, null, android.R.attr.progressBarStyleHorizontal);
+        bar.setMax(1000);
+        box.addView(bar, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 24, 0, 12, 0, 4));
+        org.telegram.ui.ActionBar.AlertDialog.Builder builder = new org.telegram.ui.ActionBar.AlertDialog.Builder(activity);
+        builder.setTitle(org.telegram.messenger.LocaleController.getString(R.string.UMessageSpeechModelTitle));
+        builder.setView(box);
+        builder.setNegativeButton(org.telegram.messenger.LocaleController.getString(R.string.Cancel), (d, w) -> org.telegram.messenger.UMessageUzbekSpeech.cancelDownload());
+        org.telegram.ui.ActionBar.AlertDialog dialog = builder.create();
+        dialog.setCanceledOnTouchOutside(false);
+        dialog.show();
+        org.telegram.messenger.UMessageUzbekSpeech.download(new org.telegram.messenger.UMessageUzbekSpeech.DownloadListener() {
+            @Override
+            public void onProgress(long doneBytes, long total) {
+                int permille = (int) (doneBytes * 1000 / Math.max(1, total));
+                bar.setProgress(permille);
+                label.setText(org.telegram.messenger.LocaleController.formatString(R.string.UMessageSpeechModelProgress, permille / 10));
+            }
+
+            @Override
+            public void onDone(boolean ok, String error) {
+                try {
+                    dialog.dismiss();
+                } catch (Exception ignore) {
+                }
+                if (!ok && error != null && !"cancelled".equals(error)) {
+                    org.telegram.ui.ActionBar.BaseFragment f = org.telegram.ui.LaunchActivity.getLastFragment();
+                    if (f != null) BulletinFactory.of(f).createSimpleBulletin(R.raw.error, org.telegram.messenger.LocaleController.getString(R.string.UMessageSpeechModelFailed)).show();
+                }
+                done.run(ok);
+            }
+        });
     }
 
     private static void finishLocalTranscription(MessageObject messageObject, long dialogId, int messageId, String text) {

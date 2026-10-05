@@ -1,0 +1,502 @@
+UserProfileColorResetApplied	Profilińizdiń reńi dáslepki halına qaytarıldı!
+ChannelProfileColorResetApplied	Kanalıńız profiliniń reńi dáslepki halına qaytarıldı!
+UserProfileColorEmojiApplied	Profil emojińiz ornatıldı!
+ChannelProfileColorEmojiApplied	Kanalıńızdıń profil emojisi ornatıldı!
+CopyCode	Kodtı kóshirip alıw
+SimilarChannels	Uqsas kanallar
+SimilarBots	Uqsas botlar
+ApplyWallpaperForMe	Men ushın qollanıw
+ApplyWallpaperForMeAndPeer	Men hám %s ushın qollanıw
+ApplyWallpaperForChannel	%s ushın qollanıw
+ApplyWallpaper	Fondı ornatıw
+RemoveWallpaperTitle	Tusqaǵazdı alıp taslaw
+RemoveWallpaperMessage	Tusqaǵazdı dáslepki halına qaytarıwdı anıq qáleysiz be?
+FwdMyStory	Storisti\nrepost etiw
+RepostToStory	Storiske\nrepost etiw
+StoryRemoveRoundTitle	Videonı alıp taslaw
+StoryRemoveRoundMessage	Video xabarıńızdı alıp taslawdı anıq qáleysiz be?
+TranscriptionTrialLeft_one	Sizde **%1$d** biypul dawıs transkripciyası qaldı.
+TranscriptionTrialLeft_other	Sizde **%1$d** biypul dawıs transkripciyası qaldı.
+TranscriptionTrialLeftUntil_one	Sizde %2$s ge shekem **%1$d** biypul dawıs transkripciyası qaldı.
+TranscriptionTrialLeftUntil_other	Sizde %2$s ge shekem **%1$d** biypul dawıs transkripciyası qaldı.
+TranscriptionTrialEnd_one	Bul háptede **%1$d** biypul transkripciyańızdı paydalandıńız.
+TranscriptionTrialEnd_other	Bul háptede barlıq **%1$d** biypul transkripciyańızdı paydalandıńız.
+TranscriptionTrialEndWaitOrBuy	%1$s ge shekem kútiń yamasa házir **Telegram Premium** ǵa jazılıń.
+TranscriptionTrialEndBuy	Sheksiz transkripciyalardı ashıw ushın **Telegram Premium** ǵa jazılıń.
+UserProfileColorReset	Profil reńin qayta ornatıw
+ChannelProfileColorReset	Profil reńin qayta ornatıw
+UnlockSimilarChannelsPremium_other	%d ge shekem uqsas kanaldı ashıw ushın **Telegram Premium** ǵa jazılıń.
+ChatMultipleReactionsPromo	Telegram Premium menen bir neshe reakciya qoya alasız.
+MoreSimilar	Kóbirek kanallar
+UnlockSimilar	Kóbirek kanallardı ashıw
+MoreSimilarButton	Kóbirek kanallardı kórsetiw
+MoreSimilarText	%s ge shekem uqsas kanaldı ashıw ushın\n**Telegram Premium** ǵa jazılıń.
+MoreSimilarBotsButton	Kóbirek qosımshalardı kórsetiw
+MoreSimilarBotsText	%s ge shekem uqsas qosımshanı ashıw ushın\n**Telegram Premium** ǵa jazılıń.
+StoryRepostCommented	pikir bildirdi
+BoostLevel_other	%d-dáreje
+BoostLevelPlus_other	%d+ dáreje
+BoostFeatureStoriesPerDay_one	Kúnine %d storis
+BoostFeatureStoriesPerDay_other	Kúnine %d storis
+BoostFeatureCustomReaction_one	%d jeke reakciya
+BoostFeatureCustomReaction_other	%d jeke reakciya
+BoostFeatureNameColor_other	Kanal atı ushın %d reń
+BoostFeatureNameColorGroup_other	Topar atı ushın %d reń
+BoostFeatureReplyColor_one	Siltemeler hám citatalar ushın %d stil
+BoostFeatureReplyColor_other	Siltemeler hám citatalar ushın %d stil
+BoostFeatureReplyIcon	Siltemeler hám citatalar ushın jeke logotip
+BoostFeatureProfileColor_other	Kanal muqabası ushın %d reń
+BoostFeatureProfileColorGroup_other	Topar muqabası ushın %d reń
+BoostFeatureProfileIcon	Kanal muqabası ushın jeke logotip
+BoostFeatureProfileIconGroup	Topar muqabası ushın jeke logotip
+BoostFeatureEmojiStatuses	%s emoji status
+BoostFeatureBackground_one	%d kanal fonı
+BoostFeatureBackground_other	%d kanal fonı
+BoostFeatureBackgroundGroup_one	%d topar fonı
+BoostFeatureBackgroundGroup_other	%d topar fonı
+BoostFeatureCustomBackground	Jeke kanal fonı
+BoostFeatureCustomBackgroundGroup	Jeke topar fonı
+BoostFeatureCustomEmojiPack	Jeke emoji toplamı
+BoostFeatureVoiceToTextConversion	Dawıstı tekstke aylandırıw
+BoostFeatureSwitchOffAds	Reklamanı óshiriw
+BoostFeatureAutotranslation	Xabarlardı avtomat awdarıw
+BoostLevelUnlocks_other	%d-dáreje ashadı:
+BoostLevelRequired_other	%1$d-dáreje kerek
+ChannelReplyLogo	Juwap logotipi
+ChannelReplyInfo	Kanalıńızdıń atı, ol jiberetuǵın siltemeler hám onıń xabarlarına juwaplar ushın reń tańlań.
+ChannelProfileLogo	Profil logotipi
+ChannelProfileInfo	Kanal profili ushın reń hám logotip tańlań.
+GroupProfileInfo	Topar profili ushın reń hám logotip tańlań.
+GroupEmojiPack	Topar emoji toplamı
+GroupEmoji	Topar emojisi
+GroupEmojiPackInfo	Topardaǵı barlıq aǵzalarǵa qoljetimli bolatuǵın emoji toplamın tańlań.
+GroupStickerPack	Topar stiker toplamı
+GroupStickerPackInfo	Topardıń barlıq aǵzalarına kórsetiletuǵın stiker toplamın tańlay alasız.
+ChannelEmojiStatus	Kanal emoji statusı
+GroupEmojiStatus	Topar emoji statusı
+ChannelEmojiStatusInfo	Kanal atınıń janında kórsetiletuǵın statustı tańlań.
+GroupEmojiStatusInfo	Topar atınıń janında kórsetiletuǵın statustı tańlań.
+ChannelWallpaper	Kanal tusqaǵazı
+GroupWallpaper	Topar tusqaǵazı
+ChooseFromGallery2	Galereyadan tańlaw
+ChannelWallpaperRemove	Tusqaǵazdı alıp taslaw
+ChannelWallpaperInfo	Kanal ushın óz fon súwretińizdi júkleń.
+GroupWallpaperInfo	Topar ushın óz fon súwretińizdi júkleń.
+ChannelWallpaper2Info	Kanalıńızdı oqıytuǵın hárbir adamǵa kórinetuǵın tusqaǵaz ornatıń.
+GroupWallpaper2Info	Toparıńızdı oqıytuǵın hárbir adamǵa kórinetuǵın tusqaǵaz ornatıń.
+ReadMore	Tolıǵıraq oqıw
+RepostedToProfile	Xabar profilińizge repost etildi.
+RepostedToChannelProfile	Xabar **%s** ǵa repost etildi.
+GiftRepostedToProfile	Sawǵa profilińizge repost etildi.
+GiftRepostedToChannelProfile	Sawǵa **%s** ǵa repost etildi.
+StorySetWallpaper	Tusqaǵaz tańlaw
+SavedMessagesTab2	Saqlanǵanlar
+SavedDialogsTab	Sáwbetler
+SavedDialogsTabCount_one	%d sáwbet
+SavedDialogsTabCount_other	%d sáwbet
+SavedMessagesCount_one	%d saqlanǵan xabar
+SavedMessagesCount_other	%d saqlanǵan xabar
+AnonymousForward	Avtor jasırılǵan
+ClearHistoryMyNotesTitle	Barlıq jazbalarıńızdı óshiriw
+ClearHistoryMyNotesMessage	Barlıq jazbalarıńızdı óshiriwdi anıq qáleysiz be?
+ClearHistoryTitleSingle2	Xabarlardı saqlanǵanlardan alıp taslaw
+ClearHistoryTitleMultiple_other	%d sáwbettegi xabarlardı saqlanǵanlardan alıp taslaw
+ClearHistoryMessageSingle	%s xabarların saqlanǵanlardan alıp taslawdı anıq qáleysiz be?
+ClearHistoryMessageMultiple_other	%d sáwbettegi xabarlardı saqlanǵanlardan alıp taslawdı anıq qáleysiz be?
+SavedOpenChat	SÁWBETTI ASHIW
+SavedOpenChatNoCaps	Sáwbetti ashıw
+SavedOpenGroup	TOPARDI ASHIW
+SavedOpenGroupNoCaps	Topardı ashıw
+SavedOpenChannel	KANALDI ASHIW
+SavedOpenChannelNoCaps	Kanaldı ashıw
+VoiceOnceHint	Bul dawıslı xabardı tek bir márte tıńlaw múmkin.
+VoiceOnceOutHint	Bul xabar **%s** onı bir márte tıńlaǵannan keyin joǵaladı.
+VideoOnceHint	Bul video xabardı tek bir márte kóriw múmkin.
+VideoOnceOutHint	Bul xabar **%s** onı bir márte kórgennen keyin joǵaladı.
+VoiceOnceDeleteClose	Óshiriw hám jabıw
+VoiceOnceClose	Jabıw
+VoiceOnceTurnOnSound	Ótinish, aldın dawıstı qosıń.
+VoiceSetOnceHint	Bul xabardı **Bir márte tıńlaw** rejimine ótkeriw ushın basıń.
+VoiceSetOnceHintEnabled	Alıwshı onı tek bir márte tıńlay aladı.
+VideoSetOnceHint	Bul xabardı **Bir márte kóriw** rejimine ótkeriw ushın basıń.
+VideoSetOnceHintEnabled	Alıwshı onı tek bir márte kóre aladı.
+VoiceOnceCloseTitle	Dawıslı xabardı jabıw
+VoiceOnceCloseMessage	Tıńlawdı toqtatıp, dawıslı xabardı óshiriwdi anıq qáleysiz be?
+VideoOnceCloseTitle	Video xabardı jabıw
+VideoOnceCloseMessage	Kóriwdi toqtatıp, video xabardı óshiriwdi anıq qáleysiz be?
+MyNotes	Jazbalarım
+GroupEmojiPackHint	Topardıń barlıq aǵzaları %s toplamınan paydalana aladı.
+SavedMessagesHint	**Saqlanǵan xabarlar** dı túri yamasa deregi boyınsha tártiplengen halda kóriw ushın basıń.
+AuthorHiddenDescription	Bul xabarlardıń jiberiwshileri qayta jibergende atına silteme beriwdi sheklegen.
+HideReadTime	Oqıw waqtın jasırıw
+HideReadTimeInfo	Sizdiń sońǵı kiriw waqtıńızdı kóre almaytuǵın adamlardan xabarlardı oqıǵan waqtıńızdı jasırıń. Bunı qossańız, olardıń oqıw waqtı da sizden jasırıladı.\nBul sazlama topar sáwbetlerine tásir etpeydi.
+PmRead	oqıldı
+PmReadShowWhen	qashan ekenin kórsetiw
+PmReadTodayAt	%s da oqıldı
+PmReadYesterdayAt	keshe %s da
+PmReadDateTimeAt	%1$s, %2$s da oqıldı
+TodoCompletedTodayAt	%s da orınlandı
+TodoCompletedYesterdayAt	Keshe %s da orınlandı
+TodoCompletedDateTimeAt	%1$s, %2$s da orınlandı
+PmReadUnknown	oqıw waqtı belgisiz
+PmEditedTodayAt	%s da ózgertildi
+PmEditedYesterdayAt	keshe %s da ózgertildi
+PmEditedDateTimeAt	%1$s, %2$s da ózgertildi
+PmSentTodayAt	%s da jiberildi
+PmSentYesterdayAt	keshe %s da jiberildi
+PmSentDateTimeAt	%1$s, %2$s da jiberildi
+PmFwdOriginalTodayAt	túp nusqası %s da
+PmFwdOriginalYesterdayAt	túp nusqası keshe %s da
+PmFwdOriginalDateTimeAt	túp nusqası %1$s, %2$s da
+PrivacyLastSeenPremium	Telegram Premium ǵa jazılıw
+PrivacyLastSeenPremiumInfo	Premium ǵa jazılsańız, ózińizdikin jasırǵan bolsańız da, basqa paydalanıwshılardıń sońǵı kiriw hám oqıw waqtın kóresiz (olar arnawlı túrde sheklemegen bolsa).
+PrivacyLastSeenPremiumForPremium	Telegram Premium ǵa jazılǵansız
+PrivacyLastSeenPremiumInfoForPremium	Telegram Premium jazılıwshısı bolǵanıńız sebepli, ózińizdikin jasırsańız da, onı siz benen bólisip atırǵan barlıq paydalanıwshılardıń sońǵı kiriw hám oqıw waqtın kóresiz.
+PremiumReadHeader1	Oqıw sánesin kórsetiń
+PremiumReadText1	**%s** xabardı qashan oqıǵanın kóriw ushın ózińizdiń oqıw waqtıńızdı kórsetiwdi baslań...
+PremiumReadText1Locked	**%s** xabardı qashan oqıǵanın kóriw ushın ózińizdiń oqıw waqtıńızdı kórsetiwdi baslań.
+PremiumReadButton1	Oqıw waqtımdı kórsetiw
+PremiumReadHeader2	Premium ǵa ótiw
+PremiumReadText2	Jazılıw ózińizdikin kórsetpesten **%s** tiń oqıw waqtın kóriwge imkaniyat beredi.
+PremiumReadButton2	Telegram Premium ǵa jazılıw
+PremiumLastSeenHeader1	Sońǵı kiriw waqtıńızdı kórsetiń
+PremiumLastSeenText1	**%s** tiń sońǵı kiriw waqtın kóriw ushın ózińizdiń sońǵı kiriw waqtıńızdı kórsetiwdi baslań...
+PremiumLastSeenText1Locked	**%s** tiń sońǵı kiriw waqtın kóriw ushın ózińizdiń sońǵı kiriw waqtıńızdı kórsetiwdi baslań.
+PremiumLastSeenButton1	Sońǵı kiriw waqtımdı kórsetiw
+PremiumOr	yamasa
+PremiumLastSeenHeader2	Premium ǵa ótiw
+PremiumLastSeenText2	Jazılıw ózińizdikin kórsetpesten **%s** tiń sońǵı kiriw statusın kóriwge imkaniyat beredi.
+PremiumLastSeenButton2	Telegram Premium ǵa jazılıw
+StatusHiddenShow	qashan?
+PremiumLastSeenSet	Sońǵı kiriw waqtıńız endi kórinedi.
+PremiumReadSet	Oqıw waqıtlarıńız endi kórinedi.
+OptionPremiumRequiredTitle	Premium kerek
+OptionPremiumRequiredMessage	Bul opciyanı tańlaw ushın **Telegram Premium** ǵa jazılıń.
+OptionPremiumRequiredButton	Jazılıw
+MessageLockedPremium	**%s** ǵa xabar jazıw ushın **Premium** ǵa jazılıń.
+MessageLockedPremiumLocked	**%s** xabar jazıwdı tek Premium paydalanıwshıları ushın shekledi.
+MessagePremiumUnlock	Premium alıw
+OnlyPremiumCanMessage	%s ǵa tek Premium paydalanıwshıları xabar jaza aladı.\n**Kóbirek biliw...**
+MessageLockedStars	**%1$s** hárbir xabar ushın **⭐️ %2$s** aladı.
+MessageStarsUnlock	Juldız satıp alıw
+MessageLockedStarsConfirmTitle	Tólemdi tastıyıqlaw
+MessageLockedStarsConfirmMessageMulti1_one	Siz xabarlar ushın Juldız alatuǵın **%1$d** sáwbetti tańladıńız.
+MessageLockedStarsConfirmMessageMulti1_other	Siz xabarlar ushın Juldız alatuǵın **%1$d** sáwbetti tańladıńız.
+MessageLockedStarsConfirmMessageMulti2_one	%2$s jiberiw ushın **%1$d** Juldız tólewdi qáleysiz be?
+MessageLockedStarsConfirmMessageMulti2_other	%2$s jiberiw ushın **%1$d** Juldız tólewdi qáleysiz be?
+MessageLockedStarsConfirmMessageMulti2Messages_one	**%d** xabar
+MessageLockedStarsConfirmMessageMulti2Messages_other	**%d** xabar
+MessageLockedStarsConfirmMessage1_one	**%2$s** hárbir xabar ushın **%1$d** Juldız aladı.
+MessageLockedStarsConfirmMessage1_other	**%2$s** hárbir xabar ushın **%1$d** Juldız aladı.
+MessageLockedStarsConfirmMessage2One_one	Bir xabar jiberiw ushın **%1$d** Juldız tólewdi qáleysiz be?
+MessageLockedStarsConfirmMessage2One_other	Bir xabar jiberiw ushın **%1$d** Juldız tólewdi qáleysiz be?
+MessageLockedStarsConfirmMessage2Many1_one	**%1$d** Juldız tólep,
+MessageLockedStarsConfirmMessage2Many1_other	**%d** Juldız tólep,
+MessageLockedStarsConfirmMessage2Many2_one	%d xabar jiberiwdi qáleysiz be?
+MessageLockedStarsConfirmMessage2Many2_other	%d xabar jiberiwdi qáleysiz be?
+MessageLockedStarsConfirmMessageDontAsk	Qayta soralmasın
+MessageLockedStarsConfirmMessagePay_one	%d xabar ushın tólew
+MessageLockedStarsConfirmMessagePay_other	%d xabar ushın tólew
+MessageLockedStarsRemoveFeeShort	%1$s sizge hárbir xabar ushın ⭐️ %2$s tóleydi.\n**Tólemdi alıp taslaw**
+RemoveMessageFeeTitle	Tólemdi alıp taslaw
+RemoveMessageFeeMessage	**%s** ǵa sizge biypul xabar jazıwǵa ruqsat beriwdi anıq qáleysiz be?
+RemoveMessageFeeMessageChannel	**%s** ǵa kanalǵa biypul xabar jazıwǵa ruqsat beriwdi anıq qáleysiz be?
+RemoveMessageFeeRefund_one	Tólengen %d Juldızdı qaytarıw
+RemoveMessageFeeRefund_other	Tólengen %d Juldızdı qaytarıw
+PremiumMessageHeader	Xabar jazıwdı ashıw
+PremiumMessageText	**%1$s** qupıyalıq sazlamalarında ózine kim xabar jaza alatuǵının shekledi. **%2$s** ǵa xabar jazıw ushın **Telegram Premium** ǵa jazılıń.
+PremiumMessageButton	Telegram Premium ǵa jazılıw
+PremiumMessageHeaderLocked	Xabar jazıw sheklengen
+PremiumMessageTextLocked	**%1$s** ózine xabar jazıwdı tek Premium paydalanıwshıları ushın shekledi.
+SavedTagShowOtherMessages	Basqa xabarlardı kórsetiw
+SavedTagHideOtherMessages	Basqa xabarlardı jasırıw
+UserBlockedNonPremium	**%s** tek kontaktlardan hám Premium paydalanıwshılarınan xabar qabıl etedi.
+SavedTagRemoveTag	Tegti alıp taslaw
+SavedTagLabelTag	At qosıw
+SavedTagRenameTag	Attı ózgertiw
+SavedTagLabelPlaceholder	At
+AddTagsToYourSavedMessages1	Tegler qosıń
+AddTagsToYourSavedMessages2	Saqlanǵan xabarlarıńızǵa
+SavedTagLabelTagText	Emoji tegińizge tekst atın bere alasız.
+SavedTagFilterByTag	Teg boyınsha filtrlew
+SavedTagSearchHint	Xabarlardı yamasa teglerdi izlew
+SavedTagSearchTooltipHint	Tegler boyınsha izlew ushın usı belgini basıń
+SavedTagLongpressHint	Tegińizge at qosıw ushın basıp turıń
+SavedTagReactionsHint	Xabarǵa teg qosa alasız
+SavedTagReactionsHint2	Tez izlew ushın xabardı emoji menen belgileń
+SavedTagReactionsPremiumHint	Tezirek kiriw ushın Saqlanǵan xabarlarıńızdı\ntegler menen tártipleń. **Kóbirek biliw…**
+SavedTagMessageTagged	Xabarǵa qoyılǵan teg:
+SavedTagMessagesTagged_other	Xabarlarǵa qoyılǵan teg:
+UserBlockedNonPremiumButton	Kóriw
+StoryRepliesLocked	Juwaplar sheklengen
+StoryGroupRepliesLocked	Pikirler sheklengen
+StoryRepliesLockedButton	Ashıw
+UserBlockedRepliesNonPremium	**%s** tiń storislerine juwap beriw ushın sizge **Premium** jazılıwı kerek.
+MessagePremiumErrorTitle	Jiberiw múmkin emes
+MessagePremiumErrorMessage	%s ǵa tek Premium paydalanıwshıları xabar jaza aladı
+NoFilteredMessages	Bul teg yamasa izlew boyınsha xabarlar tabılmadı
+SavedTagReactionsSelectedAddHint	Tańlanǵan xabarlarǵa teg qosıw
+SavedTagReactionsSelectedEditHint	Tańlanǵan xabarlardıń teglerin ózgertiw
+StoryQualityIncrease	Sapanı arttırıw
+StoryQualityIncreasedTitle	Sapa arttırıldı
+StoryQualityIncreasedMessage	Tezirek júklep alıw ushın sapanı keyinirek tómenlete alasız.
+StoryQualityDecrease	Sapanı tómenletiw
+StoryQualityDecreasedTitle	Sapa tómenletildi
+StoryQualityDecreasedMessage	Storisler endi tezirek júklenedi.
+StoryQualityPremium	Joqarı sapalı storisler
+StoryQualityPremiumText	Storislerdi joqarıraq anıqlıqta kóriw ushın Premium ǵa jazılıń.
+SavedMessagesProfileHint	Saqlanǵan xabarlarǵa jibergen xabarlarıńız
+PremiumPreviewLastSeen	Sońǵı kiriw waqıtları
+PremiumPreviewLastSeenDescription	Ózińizdikin jasırsańız da, basqalardıń sońǵı kiriw hám oqıw waqıtların kóriń.
+PremiumPreviewMessagePrivacy	Xabarlar qupıyalıǵı
+PremiumPreviewMessagePrivacyDescription	Tanımaytuǵın adamlardıń sizge xabar jiberiwin shekleń.
+TelegramBusiness	Telegram Business
+TelegramBusinessSubtitle	Usı qosımsha biznes imkaniyatların ashıw ushın **Telegram Premium** ǵa jazılıń.
+TelegramBusinessSubtitleTemp	Usı qosımsha imkaniyatlar menen akkauntıńızdı **biznes betine** aylandırıń.\nTelegram Business artıqmashlıqları Telegram Premium ǵa **waqıtsha kirgizilgen**.
+TelegramBusinessSubscribedSubtitle	Siz endi usı qosımsha biznes imkaniyatların ashtıńız.
+TelegramBusinessSubscribedSubtitleTemp	Siz endi Telegram Business imkaniyatların ashtıńız. Bul imkaniyatlar Premium jazılıwıńızǵa **waqıtsha kirgizilgen**.
+TelegramBusinessSubtitle2	Usı qosımsha imkaniyatlar menen akkauntıńızdı biznes betine aylandırıń.
+PremiumPreviewBusinessDescription	Akkauntıńızdı jaylasıw, jumıs saatları hám tez juwaplar sıyaqlı biznes imkaniyatları menen jaqsılań.
+PremiumBusinessLocation	Jaylasıw
+PremiumBusinessLocationDescription	Biznesińizdiń jaylasıwın akkauntıńızda kórsetiń.
+PremiumBusinessOpeningHours	Jumıs saatları
+PremiumBusinessOpeningHoursDescription	Klientlerińizge qashan ashıq ekenińizdi kórsetiń.
+PremiumBusinessQuickReplies	Tez juwaplar
+PremiumBusinessQuickRepliesDescription	Xabarlarǵa tezirek juwap beriw ushın formatlanǵan tekst hám mediası bar qısqartpalardı sazlań.
+PremiumBusinessGreetingMessages	Qutlıqlaw xabarları
+PremiumBusinessGreetingMessagesDescription	Jańa klientlerge avtomat jiberiletuǵın qutlıqlawlar jaratıń.
+PremiumBusinessAwayMessages	Orında joqlıq xabarları
+PremiumBusinessAwayMessagesDescription	Orında joq waqtıńızda avtomat jiberiletuǵın xabarlardı belgileń.
+PremiumBusinessChatbots	Chat-botlar
+PremiumBusinessChatbots2	Chat-botlar
+PremiumBusinessChatbotsDescription	Klientler menen qarım-qatnastı qayta isleytuǵın qálegen sırtqı chat-botlardı qosıń.
+PremiumBusinessChatLinks	Sáwbetke siltemeler
+PremiumBusinessChatLinksDescription	Birinshi xabardı usınıp, siz benen sáwbet baslaytuǵın siltemeler jaratıń.
+PremiumBusinessIntro	Jeke tanıstırıw
+PremiumBusinessIntroDescription	Adamlar siz benen sáwbet baslawdan aldın kóretuǵın xabardı sazlań.
+FolderShowTags	Papka teglerin kórsetiw
+FolderShowTagsInfo	Sáwbetler diziminde hárbir sáwbet ushın papka atların kórsetiw.
+FolderShowTagsInfoPremium	Sáwbetler diziminde hárbir sáwbet ushın papka atların kórsetiw ushın **Telegram Premium** ǵa jazılıń.
+FolderTagColor	Sáwbetler dizimindegi papka reńi
+FolderTagColorInfo	Bul papkanıń tegi ushın reń tańlań.
+FolderTagNoColor	Tegsiz
+FolderTagNoColorPremium	Premium múddeti tamamlandı
+BusinessHours	Jumıs saatları
+BusinessHoursInfo	Jumıs saatları kesteńizdi klientlerińizge kórsetiw ushın bunı qosıń.
+BusinessHoursShow	Jumıs saatların kórsetiw
+BusinessHoursTimezone	Waqıt zonası
+BusinessHoursTimezonePicker	Waqıt zonasın tańlań
+BusinessHoursDayClosed	Jabıq
+BusinessHoursDayFullOpened	24 saat ashıq
+BusinessHoursDayOpen	Usı kúni ashıq
+BusinessHoursDayAdd	Jumıs waqtın qosıw
+BusinessHoursDayInfo	Kún dawamındaǵı jumıs saatlarıńızdı kórsetiń.
+BusinessHoursDayOpenHour	Ashılıw waqtı
+BusinessHoursDayOpenHourPicker	Ashılıw waqtın tańlań
+BusinessHoursDayCloseHour	Jabılıw waqtı
+BusinessHoursDayCloseHourPicker	Jabılıw waqtın tańlań
+BusinessHoursNextDayPicker	Keyingi kún, %s
+BusinessHoursNextDay	%s (Keyingi kún)
+BusinessHoursProfile	Jumıs saatları
+BusinessHoursProfileOpen	24 saat ashıq
+BusinessHoursProfileFullOpen	24/7 ashıq
+BusinessHoursProfileClose	jabıq
+BusinessHoursProfileNowOpen	Ashıq
+BusinessHoursProfileNowClosed	Jabıq
+BusinessHoursProfileOpensInMinutes_one	%d minuttan keyin ashıladı
+BusinessHoursProfileOpensInMinutes_other	%d minuttan keyin ashıladı
+BusinessHoursProfileOpensInHours_one	%d saattan keyin ashıladı
+BusinessHoursProfileOpensInHours_other	%d saattan keyin ashıladı
+BusinessHoursProfileOpensInDays_one	erteń ashıladı
+BusinessHoursProfileOpensInDays_other	%d kúnnen keyin ashıladı
+BusinessHoursProfileSwitchLocal	jergilikli waqıt
+BusinessHoursProfileSwitchMy	meniń waqtım
+BusinessBots2	Sáwbetlerdi avtomatlastırıw
+BusinessBots2Info	Sizdiń atıńızdan xabarlarǵa juwap beretuǵın bot qosıń.
+BusinessBotLink	Bot paydalanıwshı atı yamasa URL
+BusinessBotNotFound	Chat-bot tabılmadı
+BusinessBotLinkInfo2	Sáwbetlerińizdi avtomat basqaratuǵın bottı tańlań.
+BusinessBotChats2	Bot kire alatuǵın sáwbetler
+BusinessBotUnsavedChanges	Siz biznes bot sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+BusinessBotNoAddedTitle	Bot qosılmaǵan
+BusinessBotNoAddedText	Akkauntıńızdı basqaratuǵın bot qospadıńız. Báribir shıǵasız ba?
+BusinessBotNoAddedButton	Shıǵıw
+BusinessBotDone	%s endi akkauntıńızdı basqaradı.
+BusinessBotUpdated	%s sazlamaları jańalandı.
+BusinessBotUpdate	Jańalaw
+BusinessChatsAllPrivateExcept2	Barlıq jeke sáwbetler, mınalardan basqa…
+BusinessChatsOnlySelected2	Tek tańlanǵan sáwbetler
+BusinessChatsExcluded	Shıǵarıp taslanǵan sáwbetler
+BusinessChatsExcludedAdd2	Qosıw
+BusinessBotChatsInfo2	Bot kire almaytuǵın sáwbetlerdi tańlań.
+BusinessChatsIncluded	Kirgizilgen sáwbetler
+BusinessChatsIncludedAdd2	Qosıw
+BusinessBotPermissions	Bot ruqsatları
+BusinessBotPermissionsMessagesSection	Xabarlardı basqarıw
+BusinessBotPermissionsMessagesRead	Xabarlardı oqıw
+BusinessBotPermissionsMessagesReply	Xabarlarǵa juwap beriw
+BusinessBotPermissionsMessagesMarkAsRead	Xabarlardı oqılǵan dep belgilew
+BusinessBotPermissionsMessagesDeleteSent	Jiberilgen xabarlardı óshiriw
+BusinessBotPermissionsMessagesDeleteReceived	Alınǵan xabarlardı óshiriw
+BusinessBotPermissionsProfileSection	Profildi basqarıw
+BusinessBotPermissionsProfileName	Attı ózgertiw
+BusinessBotPermissionsProfileBio	Bionı ózgertiw
+BusinessBotPermissionsProfilePicture	Profil súwretin ózgertiw
+BusinessBotPermissionsProfileUsername	Paydalanıwshı atın ózgertiw
+BusinessBotPermissionsGiftsSection	Sawǵalar hám Juldızlardı basqarıw
+BusinessBotPermissionsGiftsView	Sawǵalardı kóriw
+BusinessBotPermissionsGiftsSell	Sawǵalardı satıw
+BusinessBotPermissionsGiftsSettings	Sawǵa sazlamaların ózgertiw
+BusinessBotPermissionsGiftsTransfer	Sawǵalardı ótkeriw hám jaqsılaw
+BusinessBotPermissionsGiftsTransferStars	Juldızlardı ótkeriw
+BusinessBotPermissionsStories	Storislerdi basqarıw
+BusinessBotPermissionsWarning	Eskertiw
+BusinessBotPermissionsGiftsWarningText	**@%s** botı sawǵalarıńız hám juldızlarıńızdı basqara aladı, sonıń ishinde olardı basqa paydalanıwshılarǵa bere aladı.
+BusinessBotPermissionsUsernamesWarningText	**@%s** botı paydalanıwshı atlarıńızdı basqara aladı, sonıń ishinde olardı basqa paydalanıwshılarǵa ótkere aladı.
+BusinessBotNotSupportedTitle	Oy
+BusinessBotNotSupportedMessage	Bul bot házirshe **Telegram Business** ti qollap-quwatlamaydı.
+BusinessGreet	Qutlıqlaw xabarı
+BusinessGreetInfo	Klientler sizge birinshi márte yamasa belgili waqıt aktivlik bolmaǵannan keyin jazǵanda olardı qutlıqlań.
+BusinessGreetSend	Qutlıqlaw xabarın jiberiw
+BusinessGreetCreate	Qutlıqlaw xabarın jaratıw
+BusinessGreetUnsavedChanges	Siz biznes qutlıqlaw xabarı sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+MessageSuggestionsUnsavedChanges	Siz jeke xabarlar sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+BusinessRecipients	Alıwshılar
+BusinessRecipientsRemoveExcludeTitle	Alıwshını alıp taslaw
+BusinessRecipientsRemoveExcludeMessage	\"%s\" ti shıǵarıp taslanǵanlar diziminen alıp taslawdı anıq qáleysiz be?
+BusinessRecipientsRemoveIncludeTitle	Alıwshını alıp taslaw
+BusinessRecipientsRemoveIncludeMessage	\"%s\" ti kirgizilgenler diziminen alıp taslawdı anıq qáleysiz be?
+BusinessGreetRecipientsInfo	Qutlıqlaw xabarın jiberiw ushın sáwbetlerdi yamasa pútin sáwbet kategoriyaların tańlań.
+BusinessGreetPeriod	Aktivlik bolmaǵan dáwir
+BusinessGreetPeriodInfo	Alıwshı menen sońǵı qarım-qatnasıńızdan keyin, onıń xabarına juwap retinde qutlıqlaw jiberiw ushın neshe kún ótiwi kerekligin tańlań.
+BusinessAway	Orında joqlıq xabarı
+BusinessAwayInfo	Orında joq waqtıńızda xabar menen avtomat juwap beriw.
+BusinessAwaySend	Orında joqlıq xabarın jiberiw
+BusinessAwayCreate	Orında joqlıq xabarın jaratıw
+BusinessAwayUnsavedChanges	Siz biznes orında joqlıq xabarı sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+BusinessAwaySchedule	Keste
+BusinessAwayScheduleAlways	Bárqulla jiberiw
+BusinessAwayScheduleOutsideHours	Jumıs saatlarınan tıs
+BusinessAwayScheduleCustom	Jeke keste
+BusinessAwayScheduleCustomStart	Baslanıw waqtı
+BusinessAwayScheduleCustomEnd	Tamamlanıw waqtı
+BusinessAwayScheduleCustomStartTitle	Baslanıw waqtın tańlań
+BusinessAwayScheduleCustomEndTitle	Tamamlanıw waqtın tańlań
+BusinessAwayScheduleCustomSetButton	Tańlaw
+BusinessAwayOnlyOffline	Tek oflayn bolsa
+BusinessAwayOnlyOfflineInfo	Jaqında onlayn bolǵan bolsańız, orında joqlıq xabarın jibermew.
+BusinessLocation	Jaylasıw
+BusinessProfileLocation	Jaylasıw
+BusinessLocationInfo	Biznesińizdiń jaylasıwın akkauntıńızda kórsetiń.
+BusinessLocationAddress	Mánzildi kirgiziń
+BusinessLocationMap	Kartada jaylasıwdı belgilew
+BusinessLocationClear	Jaylasıwdı alıp taslaw
+BusinessLocationUnsavedChanges	Siz biznes jaylasıwın ózgerttińiz. Ózgerisler qollanılsın ba?
+BusinessLocationClearTitle	Jaylasıwdı alıp taslaw
+BusinessLocationClearMessage	Biznes jaylasıwın alıp taslawdı anıq qáleysiz be?
+BusinessHoursClearTitle	Saatlardı alıp taslaw
+BusinessHoursClearMessage	Biznes jumıs saatların alıp taslawdı anıq qáleysiz be?
+BirthdayClearTitle	Tuwılǵan kúndi alıp taslaw
+BirthdayClearMessage	Tuwılǵan kúnińizdi profilińizden alıp taslawdı anıq qáleysiz be?
+ProfileChannelClearTitle	Kanaldı alıp taslaw
+ProfileChannelClearMessage	Kanaldı profilińizden alıp taslawdı anıq qáleysiz be?
+BusinessGreetingIntroTitle	Jańa qutlıqlaw xabarı
+BusinessGreetingIntro	Jańa klientlerge avtomat jiberiletuǵın qutlıqlawlar jaratıń.
+BusinessGreetingEnter	Qutlıqlaw qosıw
+BusinessAwayIntroTitle	Jańa orında joqlıq xabarı
+BusinessAwayIntro	Orında joq waqtıńızda avtomat jiberiletuǵın xabarlardı qosıń.
+BusinessAwayEnter	Orında joqlıq xabarın qosıw
+BusinessRepliesIntroTitle	Jańa tez juwap
+BusinessRepliesIntro1	\"/**%s**\" dep jazǵanıńızda sáwbetke jiberiletuǵın xabardı tómende kirgiziń.
+BusinessRepliesIntro2	Tez juwaplarǵa qálegen sáwbette "/" jazıw yamasa Biriktiriw menyusi arqalı kire alasız.
+BusinessRepliesEnter	Tez juwap qosıw
+BusinessRepliesLimit_other	**%d** xabar shegine jetti.
+BusinessRepliesToastLimit_other	**%d** xabar shegine jetti.
+BusinessRepliesDeleteTitle_one	Tez juwaptı alıp taslaw
+BusinessRepliesDeleteTitle_other	Tez juwaplardı alıp taslaw
+BusinessRepliesDeleteMessage_one	Bul tez juwaptı alıp taslawdı anıq qáleysiz be?
+BusinessRepliesDeleteMessage_other	%d tez juwaptı alıp taslawdı anıq qáleysiz be?
+BusinessRepliesHint	Bul tez juwaptı sáwbette qollanıw ushın / jazıń hám dizimnen qısqartpanı tańlań.
+BusinessRepliesRemoveTitle	Qısqartpanı alıp taslaw
+BusinessRepliesRemoveMessage	Siz tez juwap xabarın jaratpadıńız. Bul betten shıǵıp, qısqartpanı alıp taslawdı qáleysiz be?
+BusinessReplies	Tez juwaplar
+BusinessRepliesInfo	Xabarlarǵa tezirek juwap beriw ushın formatlanǵan tekst hám mediası bar qısqartpalardı sazlań.
+BusinessRepliesAdd	Tez juwap qosıw
+BusinessRepliesMore_other	jáne +%d
+BusinessRepliesAddInfo	Tańlaw yamasa tártibin ózgertiw ushın juwaptı basıp turıń.
+BusinessRepliesNewTitle	Jańa tez juwap
+BusinessRepliesNewMessage	Juwabıńız ushın qısqartpa qosıń.
+BusinessRepliesEditTitle	Qısqartpanı ózgertiw
+BusinessRepliesEditMessage	Qısqartpa atın ózgertiń.
+BusinessRepliesNamePlaceholder	Qısqartpa
+BusinessRepliesNameBusy	Bul qısqartpa álleqashan bar.
+BusinessRepliesSearch	Juwaplardı izlew
+BusinessHoursCopyHeader	%s tiń jumıs saatları:
+BusinessHoursCopyFooter	%s waqıt zonasında
+BusinessHoursCopied	Jumıs saatları kóshirip alındı
+BusinessLocationCopied	Biznes mánzili kóshirip alındı
+BusinessInReplies	%1$s ishinde
+BusinessIntro	Tanıstırıw
+BusinessIntroHeader	Tanıstırıwıńızdı sazlań
+BusinessIntroTitleHint	Atamanı kirgiziń
+BusinessIntroMessageHint	Xabardı kirgiziń
+BusinessIntroSticker	Stiker tańlaw
+BusinessIntroStickerRandom	Tosınnan
+BusinessIntroInfo	Adamlar siz benen sáwbet baslawdan aldın kóretuǵın xabardı sazlay alasız.
+BusinessIntroReset	Dáslepki halına qaytarıw
+BusinessIntroUnsavedChanges	Siz tanıstırıw xabarıńızdı ózgerttińiz. Ózgerisler qollanılsın ba?
+BusinessLink	Sáwbetke silteme
+BusinessLinks	Sáwbetke siltemeler
+BusinessLinksInfo	Klientlerińizge siz benen sáwbet baslaytuǵın qısqa siltemeler beriń — hám olardıń sizge jazatuǵın birinshi xabarın usınıń.
+BusinessLinksAdd	Sáwbetke silteme jaratıw
+BusinessLinksFooterOneLink	Sonday-aq siz benen sáwbet ushın ápiwayı siltemeden paydalana alasız — %1$s.
+BusinessLinksFooterTwoLinks	Sonday-aq siz benen sáwbet ushın ápiwayı siltemeden paydalana alasız — %1$s yamasa %2$s.
+BusinessLinksEnter	Tayın xabar qosıw
+BusinessLinksIntro	Silteme arqalı siz benen sáwbet baslaǵan hárbir adamnıń xabar maydanına kirgiziletuǵın xabardı qosıń:
+BusinessLinksRenameTitle	Silteme atı
+BusinessLinksRenameMessage	Bul silteme ushın tek siz kóretuǵın at qosıń.
+BusinessLinksNamePlaceholder	Silteme atı
+BusinessLinkSaved	Tayın xabar saqlandı.
+BusinessLinkInvalid	Sáwbetke silteme jaramsız
+BusinessLinksDeleteTitle	Sáwbet siltemesin óshiriw
+BusinessLinksDeleteMessage	Bul sáwbet siltemesin óshiriwdi anıq qáleysiz be?
+BusinessLinkDeleted	Sáwbet siltemesi óshirildi.
+BusinessLinkDiscardChangesTitle	Ózgerislerdi biykarlaw
+BusinessLinkDiscardChangesMessage	Tayın xabarda saqlanbaǵan ózgerisler bar, olardı biykarlawdı qáleysiz be?
+NoClicks	basıwlar joq
+Clicks_one	%d basıw
+Clicks_other	%d basıw
+TimezoneTitle	Waqıt zonası
+TimezoneDetectAutomatically	Avtomat anıqlaw
+TimezoneDetectAutomaticallyInfo	Biznesińiz ushın waqıt zonası %s etip ornatılǵan.
+TimezoneNotFound	Waqıt zonası tabılmadı
+TimezoneHeader	Waqıt zonańızdı tańlań
+FilterExistingChats	Bar sáwbetler
+FilterNewChats	Jańa sáwbetler
+MessageBizBot	Bul xabardı **bot** jibergenin tek siz kóre alasız.
+FragmentUsernameTitle	**%s** — kollekciyalıq paydalanıwshı atı, onıń iyesi:
+FragmentUsernameMessage	Bul paydalanıwshı atı **Fragment** te %1$s kúni **%2$s** %3$s ǵa satıp alınǵan
+FragmentUsernameOpen	Kóbirek biliw
+FragmentUsernameCopy	Siltemeni kóshirip alıw
+FragmentPhoneTitle	**%s** — kollekciyalıq telefon nomeri, onıń iyesi:
+FragmentPhoneMessage	Bul telefon nomeri **Fragment** te %1$s kúni **%2$s** %3$s ǵa satıp alınǵan
+FragmentPhoneCopy	Telefon nomerin kóshirip alıw
+FragmentChannelUsername	**%1$s** paydalanıwshı atı **Fragment** te %2$s kúni **%3$s** %4$s ǵa satıp alınǵan.
+FragmentAddFunds	Balansıńızdı sırtqı Fragment platforması arqalı toltıra alasız.
+LearnMoreArrow	Kóbirek biliw >
+Monetization	Monetizaciya
+MonetizationInfoTitle	Kanalıńızdan dáramat tabıń
+MonetizationInfoFeature1Name	Telegram Ads
+MonetizationInfoFeature1Text	Telegram kanalıńızda reklama kórsete aladı.
+MonetizationInfoFeature2Name	Dáramat 50:50 bólinedi
+MonetizationInfoFeature2Text	Reklama dáramatınıń 50% in TON túrinde ala alasız.
+MonetizationInfoFeature3Name	Iykemli shıǵarıw
+MonetizationInfoFeature3Text	TON dı qálegen waqıtta shıǵarıp ala alasız.
+MonetizationInfoTONTitle	💎 TON degen ne?
+MonetizationInfoTONText	**TON** — Telegram joqarı tezligi hám tranzakciyalar boyınsha tómen komissiyaları sebepli paydalanatuǵın blokcheyn platforması hám kriptovalyuta.
+MonetizationInfoTONLink	https://telegram.org/privacy
+MonetizationInfo	Telegram kanalıńızda kórsetilgen reklamadan túsken dáramattıń %1$d%% in bólisedi. **Kóbirek biliw >**
+MonetizationBalance	Qoljetimli balans
+MonetizationBalanceInfo	Sıylıǵıńızdı Fragment arqalı ala alasız — bul reklama beriwshiler reklama ushın tólew maqsetinde paydalanatuǵın sırtqı platforma. **Kóbirek biliw >**
+MonetizationBalanceInfoLink	https://telegram.org/tos/content-creator-rewards
+MonetizationBalanceInfoNotAvailable	Jaqın háptelerde sıylıǵıńızdı Fragment arqalı ala alasız — bul reklama beriwshiler reklama ushın tólew maqsetinde paydalanatuǵın sırtqı platforma. **Kóbirek biliw >**

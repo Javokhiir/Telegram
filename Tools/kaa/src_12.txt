@@ -1,0 +1,515 @@
+LiteOptionsBlur2	Blur
+LiteOptionsLiquidGlass	Liquid Glass
+LiteOptionsScale	Zoom animations
+LiteOptionsThanos	Dust-effect deletion
+LiteOptionsCalls	Animations in Calls
+LiteOptionsAutoplayVideo	Autoplay Videos
+LiteOptionsAutoplayGifs	Autoplay GIFs
+LiteOptionsParticles	Particles
+LiteSmoothTransitions	Enable Smooth Transitions
+LiteSmoothTransitionsInfo	You can disable animated transitions between different sections of the apps.
+DynamicPackOrder	Dynamic Pack Order
+DynamicPackOrderInfo	Automatically place recently used sticker packs at the front of the panel.
+DynamicPackOrderOff	Dynamic Order Off
+DynamicPackOrderOffInfo	Sticker packs will no longer be placed first every time you use a sticker.
+InviteRestrictedUsersOne	**%s** restrict adding them to groups. You can send them an invite link as message instead.
+InviteRestrictedUsers_one	**%d user** restrict adding them to groups. You can send them an invite link as message instead.
+InviteRestrictedUsers_other	**%d users** restrict adding them to groups. You can send them an invite link as message instead.
+InviteCallRestrictedUsersOne	**%s** restricts calling them. You can send them an invite link to this call instead.
+InviteCallRestrictedUsers_one	**%d user** restricts calling them. You can send them an invite link to this call instead.
+InviteCallRestrictedUsers_other	**%d users** restrict calling them. You can send them an invite link to this call instead.
+InviteChannelRestrictedUsersOne	**%s** restrict adding them to channels. You can send them an invite link as message instead.
+InviteChannelRestrictedUsers_one	**%d user** restrict adding them to channels. You can send them an invite link as message instead.
+InviteChannelRestrictedUsers_other	**%d users** restrict adding them to channels. You can send them an invite link as message instead.
+InviteRestrictedUsers2One	**%s** can only be invited via link. However admin of this group restricts you from sharing invite links.
+InviteRestrictedUsers2_one	**%d user** can only be invited via link. However admin of this group restricts you from sharing invite links.
+InviteRestrictedUsers2_other	**%d users** can only be invited via link. However admin of this group restricts you from sharing invite links.
+InviteChannelRestrictedUsers2One	**%s** can only be invited via link. However admin of this channel restricts you from sharing invite links.
+InviteChannelRestrictedUsers2_one	**%d user** can only be invited via link. However admin of this channel restricts you from sharing invite links.
+InviteChannelRestrictedUsers2_other	**%d users** can only be invited via link. However admin of this channel restricts you from sharing invite links.
+InviteLinkSentSingle	Invitation link sent to **%s**
+InviteLinkSent_one	Invitation link sent to %d user
+InviteLinkSent_other	Invitation link sent to %d users
+SendInviteLink	Send Invite Link
+ActionSkip	Skip
+ChannelInviteViaLinkRestricted	You can\'t create a link
+ChannelInviteViaLinkRestricted2	This user can\'t be invited
+ChannelInviteViaLinkRestricted3	This users can\'t be invited
+StoragePathFreeInternal	%1$s free, high speed
+StoragePathFreeExternal	%1$s free, slow speed
+StoragePathFreeValueExternal	%1$s free, slow speed %2$s
+AccDescrLiteBatteryWhenBelow	enabled when below %s%%
+AccDescrRateTranscriptionUp	Rate up
+AccDescrRateTranscriptionDown	Rate down
+PauseMusicOnMedia	Pause music while playing media
+ProxyBottomSheetCheckStatus	**Check Status**
+ProxyBottomSheetChecking	Checking
+ProxyBottomSheetCheckWarning	Warning
+ProxyBottomSheetCheckWarningText	This will expose your IP address to the admin of the proxy server.
+LoginCantAccessThisEmail	Can\'t access this email?
+LoginEmailResetInTime	Email will be reset in %1$s.\n*Reset now via SMS*
+LoginEmailResetInSinglePattern	%1$s
+LoginEmailResetInDoublePattern	%1$s and %2$s
+LoginEmailResetTitle	Reset Email
+LoginEmailResetMessage	You can change your login email if you are logged into Telegram from another device. Otherwise, if you don\'t have access to email %1$s, you can reset this email with an **SMS** code in **%2$s**.
+LoginEmailResetButton	Reset Login Email
+LoginEmailResetPremiumRequiredTitle	Telegram Premium Required
+LoginEmailResetPremiumRequiredMessage	Due to the high cost of SMS in your country, you need a **Telegram Premium** account to immediately reset this email via an SMS code.\n\nYou can ask a friend to gift a Premium subscription for your account **%1$s**
+LoginEmailResetPleaseWait	Resetting email, please wait...
+DeleteAndBlock	Delete and Block
+BlockBot	Block bot
+AreYouSureDeleteThisChatWithBotWithCheckmark	Are you sure you want to delete the chat with **%1$s**?
+DecreaseSpeed	Decrease speed
+SdCardAlert	Storing on SD card will make Telegram slow. Proceed anyway?
+Proceed	Proceed
+SdCardError	SD Card Error
+SdCardErrorDescription	Telegram is unable to save data on your SD card.
+DoNotUseSDCard	Do not use SD card
+NextMediaTap	Show next media on Tap
+NextMediaTapInfo	Tap near the edge of the screen while viewing media to navigate between photos
+MediaAndSoundSettings	Media and Sound
+OtherSettings	Other Settings
+StickersNameInfo2	Manage stickers, emoji and reactions
+FilterShare	Share Folder
+FilterInviteLinks	Invite Links
+FilterShareFolder	Share folder
+FilterShareFolderButton	Create an Invite Link
+FilterInviteLinksHintNew	Share access to some of this folder’s groups and channels with others.
+FilterInviteLinksHint	Create more links to set up different access levels for different people.
+FilterInviteEditName	Name this link
+FilterInviteChats_one	Includes %d chat
+FilterInviteChats_other	Includes %d chats
+FilterInviteHeader_one	Anyone with this link can add **%2$s** folder and the **%1$d** chat selected below.
+FilterInviteHeader_other	Anyone with this link can add **%2$s** folder and the **%1$d** chats selected below.
+FilterInviteHeaderNo	There are no chats in this folder that you can share with others.
+FilterInviteHeaderChats_one	%d chat selected
+FilterInviteHeaderChats_other	%d chats selected
+FilterInviteHeaderChatsNo	These chats cannot be shared
+FilterInviteHeaderChatsEmpty	No chats selected
+FilterInviteHint	Select group and channels that you want everyone who adds the folder via invite link to join.
+FilterInviteHintNo	You can only share groups and channels in which you are allowed to create invite links.
+FilterInviteGroup	you can’t invite others here
+FilterInviteGroupToast	You don’t have the admin rights to share invite links to this group.
+FilterInvitePrivateGroupToast	You don’t have the admin rights to share invite links to this private group.
+FilterInviteChannel	you can’t invite others here
+FilterInviteChannelToast	You don’t have the admin rights to share invite links to this channel.
+FilterInvitePrivateChannelToast	You don’t have the admin rights to share invite links to this private channel.
+FilterInviteUser	you can’t share chats with users
+FilterInviteUserToast	You can’t put users into shared folders.
+FilterInviteBot	you can’t share chats with bots
+FilterInviteBotToast	You can’t put bots into shared folders.
+FilterFinishCreating	Please, finish creating this folder to share it.
+FilterInviteErrorEmpty	You can’t share empty folders.
+FilterInviteErrorEmptyName	You can’t share folders without a name.
+FilterInviteErrorExcluded	You can’t share folders with excluded chats.
+FilterInviteErrorTypes	You can’t share folders with include chat types.
+FilterInviteErrorTypesExcluded	You can only share folders without chat types and excluded chats.
+UnsavedChanges	Unsaved Changes
+UnsavedChangesMessage	You have changed the settings of this invite link. Apply changes?
+LimitReachedFolderLinks	You can only create %1$d invite links.\nUpgrade to **Telegram Premium** to increase this limit to **%2$d**.
+LimitReachedFolderLinksPremium	You can only create %1$d invite links. Try deleting some folder invite links.
+LimitReachedFolderLinksLocked	You can only create %1$d invite links. We are working to let you increase this limit in the future.
+LimitReachedSharedFolders	You can only have %1$d shareable folders.\nUpgrade to **Telegram Premium** to increase this limit to **%2$d**.
+LimitReachedSharedFoldersPremium	You can only have %1$d shareable folders. Try deleting some shareable folder.
+LimitReachedSharedFoldersLocked	You can only have %1$d shareable folders. We are working to let you increase this limit in the future.
+ActionSettingWallpaper	Setting new wallpaper…
+ActionSetWallpaperForThisChatSelf	You set a new wallpaper for this chat
+ActionSetWallpaperForThisChannel	Channel set a new wallpaper
+ActionSetWallpaperForThisGroup	Group set a new wallpaper
+ActionSetWallpaperForThisGroupByUser	%s set a new wallpaper
+ActionSetSameWallpaperForThisChatSelf	You set the same wallpaper for the chat
+ActionSetWallpaperForThisChat	%s set a new wallpaper for this chat
+ActionSetWallpaperForThisChatBoth	%s set a new wallpaper for this chat
+ActionSetSameWallpaperForThisChat	%s set a same wallpaper for this chat
+ActionSetWallpaperForThisChatSelfBoth	You set a new wallpaper for %s and you
+FolderLinkTitleRemove	Remove Folder
+FolderLinkTitleAlready	Folder already added
+FolderLinkTitleAdd	Add folder
+FolderLinkTitleAddChats	Add Chats to Folder
+FolderLinkPreviewLeft	All chats
+FolderLinkPreviewRight	Personal
+FolderLinkSubtitleRemove	Do you also want to quit the chats included in this folder?
+FolderLinkSubtitleAlready	You have already added the folder **%s** and all its chats.
+FolderLinkSubtitleChats_one	Do you want to join **%1$d chat** and add them to the folder **%2$s**?
+FolderLinkSubtitleChats_other	Do you want to join **%1$d chats** and add them to the folder **%2$s**?
+FolderLinkSubtitle	Do you want to add a new chat folder **%s** and join its group and channels?
+FolderLinkButtonRemove	Remove Folder
+FolderLinkButtonRemoveChats	Remove Folder and Chats
+FolderLinkButtonAdd	Add %s
+FolderLinkButtonJoinPlural_one	Join chat
+FolderLinkButtonJoinPlural_other	Join chats
+FolderLinkButtonNone	Do not join any chats
+FolderLinkHeaderChatsQuit_one	%d chat to quit
+FolderLinkHeaderChatsQuit_other	%d chats to quit
+FolderLinkHeaderChatsJoin_one	%d chat to join
+FolderLinkHeaderChatsJoin_other	%d chats to join
+FolderLinkHeaderAlready	Chats you already joined
+FolderLinkHint	You can deselect the chats you don’t want to join.
+FolderLinkHintRemove	You can select the chats you want to leave.
+FolderLinkAlreadySubscribed	You already subscribed to this channel.
+FolderLinkAlreadyJoined	You are already a member of this group.
+SelectAll	Select All
+DeselectAll	Deselect All
+FolderLinkAddedTitle	Folder **%s** Added
+FolderLinkAddedSubtitle_one	You also joined %d chat.
+FolderLinkAddedSubtitle_other	You also joined %d chats.
+FolderLinkUpdatedTitle	Folder **%s** Updated
+FolderLinkUpdatedJoinedSubtitle_one	You have joined %d new chat.
+FolderLinkUpdatedJoinedSubtitle_other	You have joined %d new chats.
+FolderLinkUpdatedSubtitle_one	You have added %d new chat.
+FolderLinkUpdatedSubtitle_other	You have added %d new chats.
+FolderLinkDeleted	Folder **%s** deleted.
+FolderLinkDeletedTitle	Folder %s Deleted
+FolderLinkDeletedSubtitle_one	You also left %d chat.
+FolderLinkDeletedSubtitle_other	You also left %d chats.
+FilterInviteNameEdited	Link Name saved.
+ViewChatList	View Chat List
+FolderUpdatesTitle_one	You can join **%d new chat**
+FolderUpdatesTitle_other	You can join **%d new chats**
+FolderUpdatesSubtitle_one	Tap here to view it
+FolderUpdatesSubtitle_other	Tap here to view them
+FolderLinkShareTitle2	Share Folder %1$s
+FolderLinkShareSubtitleEmpty	Share access to some of this folder’s groups and channels with others.
+FolderLinkShareSubtitle	You can create more links to set up different access levels for different people.
+FolderLinkShareButton	Create Invite Link
+CreateNewInviteLink	Create a New Invite Link
+FolderLinkAddedChats_one	Chat added to folder
+FolderLinkAddedChats_other	%d chats added to folder
+FolderLinkRemovedChats_one	Chat removed from folder
+FolderLinkRemovedChats_other	%d chats removed from folder
+FolderLinkChatlistUpdate	It will not affect chatlist of the links of this folder.
+FolderLinkNoChatsError	You don’t have access to share any of these chats.
+FolderLinkOtherAdminLimitError	One of the groups in this folder can’t be added because one of its admins has too many groups and channels.
+BotSettingsChangedAlert	You have changed some settings for this bot. Apply changes?
+DeleteBot	Delete Bot
+BotPublicLink	Public Link
+BotPublicLinks	Public Links
+BotPublicLinksCount	%1$s/%2$s
+BotEditIntro	Edit Intro
+BotEditCommands	Edit Commands
+BotBalance	Balance
+BotBalanceTON	Toncoin
+BotBalanceStars	Stars
+BotChangeSettings	Change Bot Settings
+BotManageInfo	Use @BotFather to manage this bot.
+BotSetPublicLinkHeader	Set public link
+BotUsernamesHelp	Drag and drop links to change the order in which they will be displayed on the bot info page.
+SendWhenOnline	Send When Online
+ChooseBackgroundFromGallery	Choose Wallpaper from Gallery
+ChooseANewWallpaper	Choose a New Wallpaper
+ChatThemeApplyHint	Theme will also be applied for %s
+BackgroundColorSinglePreviewLine3	Apply the wallpaper in this chat
+ChannelBackgroundMessageReplyName	Du Rove\'s Channel
+ChannelBackgroundMessageReplyText	Breaking News
+ChannelBackgroundMessagePreview	Details to follow shortly.\nStay tuned!
+ChatBackgroundHint	%s will be able to apply this wallpaper
+ChannelBackgroundHint	All subscribers will see this wallpaper
+RestToDefaultBackground	Remove Wallpaper
+SetColorAsBackground	Set a Color as Wallpaper
+BotName	Bot Name
+BotUsernameHelp	This link cannot be edited. You can acquire additional usernames on *Fragment*.
+PreviewWallpaperNight	Preview this background in night mode.
+PreviewWallpaperDay	Preview this background in day mode.
+ViewWallpaperAction	View Wallpaper
+RemoveWallpaperAction	Remove
+WallpaperPreview	Wallpaper
+WallpaperNotification	Set a new chat Wallpaper
+WallpaperSameNotification	Set a same chat Wallpaper
+BotWebViewStartPermission2	By launching this mini app, you agree to the **Terms of Service for Mini Apps**.
+BotWebViewStartPermissionLink	https://telegram.org/tos/mini-apps
+MoreAboutThisBot	More about this bot
+ChatThemeDaySwitchTooltip	Tap to view this theme in the day mode.
+ChatThemeNightSwitchTooltip	Tap to view this theme in the night mode.
+BotWebAppInstantViewOpen	Open App
+RestorePremiumHintTitle	Get Premium back with up to **%1$d%%** off
+RestorePremiumHintMessage	Your Telegram Premium has recently expired. Tap here to extend it.
+ReplyPrivately	Reply privately...
+ReplyToGroupStory	Comment story...
+SelfStoryTitle	My Story
+Stories_one	%d Story
+Stories_other	%d Stories
+NewStories_one	%d new story
+NewStories_other	%d new stories
+DeleteStoryTitle	Delete Story
+DeleteStorySubtitle	Are you sure you want to delete this story?
+DeleteStoriesTitle	Delete Stories
+DeleteStoriesSubtitle_one	Are you sure you want to delete %d story?
+DeleteStoriesSubtitle_other	Are you sure you want to delete %d stories?
+StoryEditing	Uploading edit…
+NobodyViews	No views yet
+NobodyViewsArchived	No views available
+StoryUploadError	Uploading story error
+MyStory	My Story
+UploadingStory	Uploading…
+FailedStory	Failed
+FailedToUploadStory	failed to upload
+StoryError	Couldn’t upload
+TryAgain	Try Again
+Story	Story
+StoryStatistics	Story Statistics
+PostStatistics	Post Statistics
+MessageSent	Message sent.
+RightNow	Just now
+ExpiredStory	Expired story
+ProfileStories	Posts
+ProfileArchivedStories	Archived Posts
+ReactionSent	Reaction sent.
+MyProfile	My Profile
+ProfileMyStoriesTab	Saved
+ProfileMyStoriesCount_one	%d saved story
+ProfileMyStoriesCount_other	%d saved stories
+ProfileMyStories	My Stories
+ProfileStoriesArchive	Stories Archive
+ProfileStoriesArchiveTab	Archive
+ProfileStoriesArchiveHint	Only you can see archived stories unless you choose to save them to your profile.
+ProfileStoriesArchiveChannelHint	Only admins can see archived stories unless you choose to post them to channel profile.
+ProfileStoriesArchiveGroupHint	Only admins of the group can see archived stories unless they are posted to the group page.
+ProfileStoriesArchiveCount_one	%d archived story
+ProfileStoriesArchiveCount_other	%d archived stories
+ProfileStoriesCount_one	%d public story
+ProfileStoriesCount_other	%d public stories
+ProfileStoriesCountZero	no stories
+StoriesSelected_one	%d Selected
+StoriesSelected_other	%d Selected
+MessagesSelected_one	%d Selected
+MessagesSelected_other	%d Selected
+StoryLive	Live
+StoryPhoto	Photo
+StoryVideo	Video
+StoryPrivacyNone	None
+StoryPrivacyRecipients_one	%d recipient
+StoryPrivacyRecipients_other	%d recipients
+StoryPrivacyEveryone	Everyone
+StoryPrivacyEveryoneExclude_one	Everyone (-%d)
+StoryPrivacyEveryoneExclude_other	Everyone (-%d)
+StoryPrivacyCloseFriends	Close Friends
+StoryPrivacyAllContacts	Contacts
+StoryPrivacyContacts_one	%d contact
+StoryPrivacyContacts_other	%d contacts
+StoryPrivacyContactsExclude_one	Contacts (-%d)
+StoryPrivacyContactsExclude_other	Contacts (-%d)
+StoryPrivacyAlertTitle	Share story
+StoryLivePrivacyAlertTitle	Start Live Stream
+StoryPrivacyAlertEditTitle	Edit Privacy Settings
+StoryPrivacyAlertSubtitle_one	Choose who can view your story
+StoryPrivacyAlertSubtitle_other	Choose who can view your story
+StoryPrivacyAlertSubtitleProfile	Choose who can view your story
+StoryLivePrivacyAlertSubtitleProfile	Choose who can view your live stream
+StoryPrivacyAlertCloseFriendsTitle	Close Friends
+StoryPrivacyAlertCloseFriendsSubtitle	Choose close friends
+StoryPrivacyAlertExcludedContactsTitle	Excluded Contacts
+StoryPrivacyAlertExcludedContactsSubtitle	Exclude contacts
+StoryPrivacyAlertSelectContactsTitle	Select Contacts
+StoryPrivacyAlertSelectContactsSubtitle	Choose contacts
+StoryPrivacyAlertAsMessageTitle	Send as message
+StoryPrivacyAlertAsMessageSubtitle	Choose recipients
+StoryPrivacyAlertBlocklistTitle	Hide my stories from
+StoryPrivacyAlertBlocklistSubtitle	Select people
+StoryPrivacyAlertExcludeFromEveryoneTitle	Everyone except…
+StoryPrivacyAlertExcludeFromEveryoneSubtitle	Exclude contacts
+StoryHideFrom	Hide My Stories From %s
+StoryShowBackTo	Do Not Hide My Stories From %s
+StoryPrivacyButtonSave	Save Settings
+StoryPrivacyButtonPost	Post Story
+StoryLivePrivacyButtonPost	Start Live Stream
+StoryPrivacyButtonPostMultiple_one	Post %d Story
+StoryPrivacyButtonPostMultiple_other	Post %d Stories
+StoryPrivacyButtonSaveCloseFriends	Save List
+StoryPrivacyButtonExcludeContacts	Exclude Contacts
+StoryPrivacyOptionEveryone	Everyone
+StoryPrivacyOptionContacts	Contacts
+StoryPrivacyOptionContactsDetail	exclude people
+StoryPrivacyOptionCloseFriends	Close Friends
+StoryPrivacyOptionCloseFriendsDetail	edit list
+StoryPrivacyOptionSelectedContacts	Selected Contacts
+StoryPrivacyOptionSelectedContactsDetail	edit list
+StoryPrivacyOptionPeople_one	%d person
+StoryPrivacyOptionPeople_other	%d people
+StoryPrivacyOptionExcludePerson	except %s
+StoryPrivacyOptionExcludePeople_one	except %d person
+StoryPrivacyOptionExcludePeople_other	except %d people
+StoryPrivacyHint	Set who can view your story
+StoryHintPinchToZoom	Pinch to zoom
+StoryHintSwipeToZoom	Swipe to zoom
+SaveImage	Save Image
+SaveVideo	Save Video
+SaveToProfile	Save to Profile
+ArchiveStory	Archive Story
+ArchiveStories_one	Archive Story
+ArchiveStories_other	Archive Stories
+HideStoriesFromAlbum_one	Remove Story from Album
+HideStoriesFromAlbum_other	Remove Stories from Album
+EditStory	Edit Story
+EditBotPreview	Edit Preview
+WhoCanSee	Who can see
+VideoConvertFail	Failed to process video file.
+PreparingVideo	Preparing video…
+PreparingSticker	Preparing sticker…
+NoStoriesTitle	No saved stories
+NoHashtagStoriesTitle	No stories found
+NoPublicStoriesTitle2	No posts yet…
+NoStoriesSubtitle2	Publish photos and videos to display on your profile page
+StoriesAddPost	Add a post
+NoArchivedStoriesTitle	No stories yet…
+NoArchivedStoriesSubtitle	Upload a new story to view it here.
+StorySave	Save to profile
+StorySavedTitle_one	%d story saved to your profile
+StorySavedTitle_other	%d stories saved to your profile
+StoryAddedToAlbumTitle_one	%d story saved to **%s**
+StoryAddedToAlbumTitle_other	%d stories saved to **%s**
+StoryRemovedFromAlbumTitle_one	%d story removed from **%s**
+StoryRemovedFromAlbumTitle_other	%d stories removed from**%s**
+StorySavedSubtitle	Saved stories can be viewed by others on your profile until you remove them.
+StoryArchived_one	%d story is hidden from your profile
+StoryArchived_other	%d stories are hidden from your profile
+FoundStories_one	%d story
+FoundStories_other	%d stories
+OpenLink	Open Link
+StorySharedToEveryone	This story is shown to everyone.
+StorySharedToCloseFriends	This story is shown to your close friends.
+StorySharedToAllContacts	This story is shown to all your contacts.
+StorySharedToAllContactsExcluded_one	This story is shown to your contacts (excluding %d).
+StorySharedToAllContactsExcluded_other	This story is shown to your contacts (excluding %d).
+StorySharedToContacts_one	This story is shown to %d contact.
+StorySharedToContacts_other	This story is shown to %d contacts.
+StoryPinnedToProfile	This story is pinned to your profile.
+StoryPinnedToPosts	Story saved to the channel’s profile
+StoryArchivedFromProfile	This story is hidden from your profile.
+StoryUnpinnedFromPosts	Story removed from the channel’s profile
+StoryAddedToAlbumX	This story has been added to **%s** album.
+StoryRemovedFromAlbumX	This story has been removed from **%s** album.
+StoryDraft	Draft
+StoryDraftsAlbum	Drafts
+StoryKeepDraft	Keep Draft
+StorySaveDraft	Save Draft
+StoryDeleteDraft	Delete Draft
+ShowInChats	Show in Chats
+ForwardedStory	Forwarded Story
+ForwardedStoryFrom	From **%s**
+UniqueGiftFrom	From **%s**
+StoryPeriodHint	Choose how long the story will be visible.
+StoryPeriodKeep	Keep Always
+TimerPeriodHint	Choose how long the media will be kept after opening.
+TimerPeriodDoNotDelete	Do Not Delete
+TimerPeriodOnce	View Once
+StoriesMovedToContacts	Stories of **%s** were moved to **Archive**.
+StoriesMovedToDialogs	Stories of **%s** were moved to **Chats**.
+StoryShared	Story shared
+AddStory	Add Story
+StoryDrafts_one	%d Draft
+StoryDrafts_other	%d Drafts
+StorySoundMuted	Sound is now muted.
+StorySoundNotMuted	Sound is now not muted.
+StoryOriginalSoundMuted	Original audio will be removed.
+StoryOriginalSoundNotMuted	Original audio will be preserved.
+StoryDraftSaved	Draft saved
+StoryUploading	Uploading story…
+NotificationStory	%s shared a story with you
+NotificationChatStory	%s shared a story to the group
+NotificationChannelStory	%s shared a story
+StoriesSoundEnabled	Stories
+ViewStory	View Story
+StoryPeriodPremium_one	Subscribe to **Telegram Premium** to make your stories disappear after %d hour.
+StoryPeriodPremium_other	Subscribe to **Telegram Premium** to make your stories disappear after %d hours.
+StoryUnsupported	This story is not supported by your version of Telegram.
+StoryReplyDisabled	You can’t reply to this story
+StorySharedTo	Story forwarded to **%s**.
+StorySharedToSavedMessages	Story forwarded to **Saved Messages**
+StorySharedToManyChats_one	Story forwarded to **a chat**.
+StorySharedToManyChats_other	Story forwarded to **%1$d chats**.
+LinkSharedToSavedMessages	Link forwarded to **Saved Messages**
+LinkSharedTo	Link forwarded to **%s**.
+LinkSharedToManyChats_one	Link forwarded to **a chat**.
+LinkSharedToManyChats_other	Link forwarded to **%1$d chats**.
+StoryNotFound	This story is no longer available
+StoryAlbumNotFound	This album is no longer available
+StoryNotificationHidden_one	%d story was posted
+StoryNotificationHidden_other	%d stories were posted
+StoryNotificationSingle	posted a story
+StoryNotification1_one	posted a story
+StoryNotification1_other	posted %d stories
+StoryNotification2	posted by %1$s and %2$s
+StoryNotification3	posted by %1$s, %2$s and %3$s
+StoryNotification4_other	posted by %2$s, %3$s and %1$d more
+StoryLiveNotificationSingle	started live stream!
+StoryNotificationMention	mentioned you in a story
+StoryUnavailable	Story unavailable
+StoryExpiredSubtitle	This story has expired
+AutoDownloadStories	Stories
+AutoDownloadOn	On
+HiddenStories	Hidden Stories
+StoryMentionInDialog	Mentioned you in a story
+StoryYouMentionInDialog	You mentioned %s
+NotificationStories	Stories
+NotificationEnabled	Enabled
+NotificationEnabledAutomatically	Automatically enabled
+NotificationDisabled	Disabled
+NoViewsStub	No one has viewed this story so far.
+NoReactionsStub	No one has reacted to this story so far.
+StoryCloseFriendsHint	You are seeing this story because **%s** added you to their list of Close Friends
+StorySelectedContactsHint	Only some contacts **%s** selected can view this story.
+StoryContactsHint	Only **%s’s** contacts can view this story.
+ExpiredViewsStub	List of viewers isn\'t available after **24 hours** of story expiration.
+ArchivedStories	Archived Stories
+SavedStories	Saved Stories
+RecorderNewStory	New Story
+RecorderEditCover	Story Cover
+RecorderEditStory	Edit
+RecorderRepost	Repost
+StoryLiveAllowComments	Allow Comments
+StoryAllowScreenshots	Allow Screenshots
+StoryBlockListEmpty	**Select people** who won’t see your stories.
+StoryBlockList_one	**%d person** won’t see your stories.
+StoryBlockList_other	**%d people** won’t see your stories.
+StoryLiveBlockListEmpty	**Select people** who won’t see your live.
+StoryLiveBlockList_one	**%d person** won’t see your stories.
+StoryLiveBlockList_other	**%d people** won’t see your stories.
+StoryKeep	Keep on My Page
+StoryKeepInfo_one	Keep this story on your page even after it expires in %d hour. Privacy settings will apply.
+StoryKeepInfo_other	Keep this story on your page even after it expires in %d hours. Privacy settings will apply.
+StoryLiveKeepInfo	Keep this live in your profile.
+StoryLiveKeepGroupInfo	Keep this live in group\'s profile.
+StoryLiveKeepChannelInfo	Keep this live in channel\'s profile.
+StoryKeepChannel	Post to Channel Page
+StoryKeepGroup	Post to Group Page
+StoryKeepGroupInfo_one	Keep this story on the group page even after it expires in %d hour.
+StoryKeepGroupInfo_other	Keep this story on the group page even after it expires in %d hours.
+StoryKeepChannelInfo_one	Keep this story on the channel page even after it expires in %d hour.
+StoryKeepChannelInfo_other	Keep this story on the channel page even after it expires in %d hours.
+StoryEnabledScreenshots	Downloading and taking screenshots will be enabled for this story.
+StoryEnabledScreenshotsShare	Downloading, sharing and taking screenshots will be enabled for this story.
+StoryDisabledScreenshots	Downloading and taking screenshots will be disabled for this story.
+StoryDisabledScreenshotsShare	Downloading, sharing and taking screenshots will be disabled for this story.
+StoryEnableKeep	Users allowed to view your story will see it on your page after it expires.
+StoryChannelEnableKeep	Users allowed to view your story will see it on the channel after it expires.
+StoryDisableKeep	The story will disappear after it expires.
+StoryChannelDisableKeep	The story will disappear after it expires.
+StoryRestrictions	Privacy Restrictions
+StoryRestrictionsInfo	The privacy settings of your story will prevent some users you tagged (%s) from viewing it.
+StoryCameraHint	Tap on %s to post a story for your contacts.
+StoryCameraHint2	Take photos or videos to share with all your contacts or close friends at once.
+StoryCameraDualHint	Turn on both cameras at once
+StoryCollageRemoveGrid	Tap to remove grid
+StoryCollageMenuHint	Hold and drag tiles to reorder them.
+StoryCollageReorderHint	You can drag a tile to reorder
+StoryMentionedTitle	**%s** mentioned you in a story.
+StoryMentionedAction	View Story
+ExpiredStoryMention	The story you were mentioned in is no longer available
+ExpiredStoryMentioned	The story where you mentioned %s is no longer available
+StoryYouMentionedTitle	You mentioned %s in a story.
+FilterStories	Stories
+CachedStory	cached story
+LocalStoriesCache	Stories
+StoryNoSound	This video has no sound
+StoryTapToSound	Tap here to enable sound
+TrashHintDrag	Drag to delete
+TrashHintRelease	Release to delete
+TextPlaceholder	Add text
+StoryContainsStickers_one	This story contains stickers from **%d pack**.
+StoryContainsStickers_other	This story contains stickers from **%d packs**.
+StoryContainsStickersFrom	This story contains stickers from %s.
+StoryContainsEmoji_other	This story contains emoji from **%d packs**.
+StoryContainsEmojiFrom	This story contains emoji from %s.
+StoryContainsStickersEmoji_one	This story contains emoji and stickers from **%d pack**.
+StoryContainsStickersEmoji_other	This story contains emoji and stickers from **%d packs**.
+StoryContainsStickersEmojiFrom	This story contains emoji and stickers from %s.

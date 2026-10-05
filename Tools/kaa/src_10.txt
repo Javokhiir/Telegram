@@ -1,0 +1,376 @@
+MigrateOldFolder	Migrate old folder to Scoped Storage
+SelectThisDay	Select this day
+NoMessagesForThisDay	No messages for this day
+SelectDays	Select Days
+ClearHistoryForTheseDays	Clear History for these days
+ActionForwardsEnabledGroup	un1 enabled forwarding from this group
+ActionForwardsEnabledChannel	un1 enabled forwarding from this channel
+ActionForwardsRestrictedGroup	un1 restricted forwarding from this group
+ActionForwardsRestrictedChannel	un1 restricted forwarding from this channel
+TypePrivateRestrictedForwards	Private restricted
+TypePrivateGroupRestrictedForwards	Private restricted
+ClearHistoryForThisDay	Clear History for this day
+SelectDaysTooltip	Please select one ore more days first.
+MissedCallDescriptionTitle	Enter the missing digits
+MissedCallDescriptionSubtitle	Within next few seconds you should receive a short call from:
+MissedCallDescriptionSubtitle2	Please enter the last digits of the number that called
+DeleteHistoryByDaysMessage	Are you sure you want to delete all messages for the selected days?
+AcceptCallsChatsDescription	Use this device for Calls
+AcceptCalls	Accept Calls
+ForceSetPasswordCancel	Yes, i\'m sure
+Warning	Warning
+ChatWithGroupAdmin	**%1$s** is an admin of **%2$s**, a group you requested to join.
+ChatWithChannelAdmin	**%1$s** is an admin of **%2$s**, a channel you requested to join.
+ChatWithAdminChannelTitle	Chat with channel\'s admin
+ChatWithAdminGroupTitle	Chat with group\'s admin
+IUnderstand	I understand
+SessionsSelfDestruct	Sessions self-destruct
+ChatWithAdminMessage	You received this message because you requested to join **%1$s** on %2$s
+EventLogSendMessages	un1 sent this message:
+DidNotGetTheCodePhone	Get code on this phone
+MigrateOldFolderButton	Move Files Now
+MigrateOldFolderTitle	Migrate Files to Scoped Storage
+MigrateOldFolderDescription	Due to a change made by **Google**, we need to move the files you downloaded using **Telegram** to a new folder.\n\nThis may take a few moments. You can continue using the app while the files are moved.
+MigratingFiles	Migrating files
+ReactionsCount_one	%1$d reaction
+ReactionsCount_other	%1$d reactions
+Reacted_one	%1$s Reacted
+Reacted_other	%1$s Reacted
+Reactions	Reactions
+ReactionsOff	Off
+ReactionsCount	%1$s/%2$s
+EnableReactions	Enable Reactions
+EnableReactionsChannelInfo	Allow subscribers to react to channel posts.
+EnableReactionsGroupInfo	Allow participants to react to group messages.
+AvailableReactions	Available reactions
+DoubleTapPreviewMessage	I hope you\'re enjoying your day as much as I am.
+DoubleTapPreviewSenderName	Dino
+GroupThemePreviewSenderName	Monika
+DoubleTapSetting	Quick Reactions
+DoubleTapPreviewRational	Double tap this message for a quck reaction.
+ActionReactionsChanged	un1 changed chat reactions \nfrom: %1$s \nto: %2$s
+ActionReactionsChangedList	un1 changed chat reactions:\n %1$s
+NobodyViewed	Nobody viewed
+QrCode	QR Code
+PushReactHidden	New reaction to your message
+PushReactText	%2$s to your "%3$s"
+PushReactNoText	%2$s to your message
+PushReactPhoto	%2$s to your photo
+PushReactVideo	%2$s to your video
+PushReactRound	%2$s to your video message
+PushReactDoc	%2$s to your file
+PushReactSticker	%2$s to your %3$s sticker
+PushReactAudio	%2$s to your voice message
+PushReactContect	%2$s to your contact %3$s
+PushReactGeo	%2$s to your map
+PushReactGeoLocation	%2$s to your live location
+PushReactPoll	%2$s to your poll %3$s
+PushReactTodo	%2$s to your checklist %3$s
+PushReactQuiz	%2$s to your quiz %3$s
+PushReactGame	%2$s to your game
+PushReactInvoice	%2$s to your invoice
+PushReactGif	%2$s to your GIF
+PushChatReactText	%3$s in %2$s to your "%4$s"
+PushChatReactNotext	%3$s to your message in %2$s
+PushChatReactPhoto	%3$s to your photo in %2$s
+PushChatReactVideo	%3$s to your video in %2$s
+PushChatReactRound	%3$s to your video message in %2$s
+PushChatReactDoc	%3$s to your file in %2$s
+PushChatReactSticker	%3$s to your %4$s sticker in %2$s
+PushChatReactAudio	%3$s to your voice message in %2$s
+PushChatReactContact	%3$s to your contact %4$s in %2$s
+PushChatReactGeo	%3$s to your map in %2$s
+PushChatReactGeoLive	%3$s to your live location in %2$s
+PushChatReactPoll	%3$s to your poll %4$s in %2$s
+PushChatReactTodo	%3$s to your checklist %4$s in %2$s
+PushChatReactQuiz	%3$s to your quiz %4$s in %2$s
+PushChatReactGame	%3$s to your game in %2$s
+PushChatReactInvoice	%3$s to your invoice in %2$s
+PushChatReactGif	%3$s to your GIF in %2$s
+PushReactStory	%2$s to your story
+PushReactStoryHidden	New reaction to your story
+PushReactStoryHiddenSender	Story Reaction
+BlurInChat	Blur in chat
+AllowBackgroundActivity	Allow background activity
+AllowBackgroundActivityInfo	This will improve reliability for incoming notifications and Telegram calls.
+AllowBackgroundActivityInfoOneUIBelowS	This will improve reliability for incoming notifications and Telegram calls. Tap Settings -> Battery and turn **Allow background activity** on.
+AllowBackgroundActivityInfoOneUIAboveS	This will improve reliability for incoming notifications and Telegram calls. Please select **Optimised** or **Unrestricted** in Settings > Battery.
+SetNewPassword	Set a new password
+ReadAllReactions	Read all reactions
+ReadAllMentions	Read all mentions
+ReadAllPollVotes	Read all polls
+SuggestClearDatabaseTitle	Clear Database
+SuggestClearDatabaseMessage	Your local database size %s. It\'s may affect to speed of application work.
+DownloadsTabs	Downloads
+Downloading	Downloading
+RecentlyDownloaded	Recently downloaded
+Clear	Clear
+PauseAll	Pause all
+ResumeAll	Resume all
+DownloadedFiles	Downloaded files
+ManageDeviceStorage	Manage Device Storage
+RemoveDocumentsAlertMessage	They will be deleted from your disk, but will remain accessible in the cloud.
+DownloadedFilesMessage	Telegram lets you store all documents you send and receive in the cloud and save storage space on your device.
+ClearDownloadsList	Clear Download List
+SearchEmptyViewDownloads	No recent downloads
+ForceSetPasswordAlertMessageShort_one	If you do not set a password, you will only be able to log into your account via SMS once every %1$s day. Do you want to proceed without a password?
+ForceSetPasswordAlertMessageShort_other	If you do not set a password, you will only be able to log into your account via SMS once every %1$s days. Do you want to proceed without a password?
+YourPasswordReset	Your password was successfully deactivated
+CreatePassword	Create a Password
+CreatePasscode	Create a passcode
+CreatePasscodeInfoPIN	Please enter any 4 digits that you will use to unlock Telegram.
+CreatePasscodeInfoPassword	Please enter the password you will use to unlock Telegram.
+PasscodeReinstallNotice	If you forget your passcode, you\'ll need to **reinstall** the app. All secret chats will be lost.
+EditNumberInfo	Do you want to edit your number?\n\n**%1$s**\n\nIf the number above is correct, please wait for the verification code.
+ReportChatIllegalDrugs	Illegal Drugs
+ReportChatPersonalDetails	Personal Details
+PrivacyPhoneInfo4	This public link opens a chat with you:
+AutoDeleteCustom	Custom
+AutoDeletePopupDescription	Automatically delete messages sent in this chat after a certain period of time.
+AutoDeletePopupTitle	Auto-Delete
+AutoDeleteDisable	Disable
+AutoDeleteAfter	Auto-delete after %s
+AutoDeleteAfterShort	After %s
+ChooseTimeForMute	Choose time
+SoundOn	Enable sound
+SoundOff	Disable sound
+MuteForPopup	Mute for...
+MuteForAlert	Mute notifications for...
+MuteForButton	Mute for %s
+DeleteMessagesOptionAlsoChat	Also clear for all members
+Mute	Mute
+SoundOnHint	You will receive notifications with sound.
+SoundOffHint	"You will receive silent notifications. "
+NotificationsSound	Notification Sound
+TelegramTones	Telegram tones
+SystemTones	System tones
+UploadSound	Upload sound
+NotificationsSoundPrivate	Private Chats Sound
+NotificationsSoundGroup	Groups Sound
+NotificationsSoundChannels	Channels Sound
+NotificationsSoundStories	Stories Sound
+NotificationsSoundReactions	Reactions Sound
+TooLongError	Too long
+TooLargeError	Too large
+InvalidFormatError	Invalid format
+SaveForNotifications	Save for notifications
+SoundAdded	Sound added
+Unmute	Unmute
+AutoDeleteAfteTitle	Auto-delete after...
+DeleteTones_one	Delete %d tone
+DeleteTones_other	Delete %d tones
+NotfificationsFrequencyTitle	Notifications frequency
+NotificationsFrequencyDivider	in
+SoundNameEmpty	Message dated %s
+ActionBotWebViewData	Data from «%1$s» button was sent to the bot.
+UserRestrictionsCantModifyDisabled	This action is disabled for all members. Please change it in Group Permissions.
+UserRestrictionsCantModifyEnabled	This action is enabled for all members. Please change it in Group Permissions.
+BotRequestAttachPermission	**%1$s** requests to be added as an option to your attachments menu so you can access it from any chat.
+BotCantAddToAttachMenu	This bot can\'t be added to the attachment menu.
+BotAlreadyAddedToAttachMenu	This bot is already in your attachment menu.
+BotRemoveFromMenu	This will remove **%1$s** shortcuts from all menus.
+BotRemoveInlineFromMenu	Remove **%1$s** from suggestions?
+BotWebViewRequestGeolocationPermission	Allow **%1$s** to access to your location?\n\nThe developer of **%1$s** will be able to access your location when this web app is open.
+BotWebViewRequestGeolocationPermissionWithHint	Allow **%1$s** to access to your location?\n\nThe developer of **%1$s** will be able to access your location when this web app is open.\n\nGo to Settings > Permissions and turn **Location** on to share location data.
+WebViewRequestGeolocationPermission	Allow **%1$s** to access to your location?\n\n**%1$s** will be able to access your location when this website is open.
+WebViewRequestGeolocationPermissionWithHint	Allow **%1$s** to access to your location?\n\n**%1$s** will be able to access your location when this website is open.\n\nGo to Settings > Permissions and turn **Location** on to share location data.
+BotWebViewRequestMicrophonePermission	Allow **%1$s** to access to your microphone?\n\nThe developer of **%1$s** will be able to access your microphone when this web app is open.
+BotWebViewRequestMicrophonePermissionWithHint	Allow **%1$s** to access to your microphone?\n\nThe developer of **%1$s** will be able to access your microphone when this web app is open.\n\nEnable microphone access in Settings > Permissions > Microphone.
+WebViewRequestMicrophonePermission	Allow **%1$s** to access to your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.
+WebViewRequestMicrophonePermissionWithHint	Allow **%1$s** to access to your microphone?\n\n**%1$s** will be able to access your microphone when this website is open.\n\nEnable microphone access in Settings > Permissions > Microphone.
+BotWebViewRequestCameraPermission	Allow **%1$s** to access to your camera?\n\nThe developer of **%1$s** will be able to access your camera when this web app is open.
+BotWebViewRequestCameraPermissionWithHint	Allow **%1$s** to access to your camera?\n\nThe developer of **%1$s** will be able to access your camera when this web app is open.\n\nEnable camera access in Settings > Permissions > Camera.
+WebViewRequestCameraPermission	Allow **%1$s** to access to your camera?\n\n**%1$s** will be able to access your camera when this website is open.
+WebViewRequestCameraPermissionWithHint	Allow **%1$s** to access to your camera?\n\n**%1$s** will be able to access your camera when this website is open.\n\nEnable camera access in Settings > Permissions > Camera.
+BotWebViewRequestCameraMicPermission	Allow **%1$s** to access to your camera and microphone?\n\nThe developer of **%1$s** will be able to access your camera and microphone when this web app is open.
+BotWebViewRequestCameraMicPermissionWithHint	Allow **%1$s** to access to your camera and microphone?\n\nThe developer of **%1$s** will be able to access your camera and microphone when this web app is open.\n\nEnable camera access in Settings > Permissions > Camera.
+WebViewRequestCameraMicPermission	Allow **%1$s** to access to your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.
+WebViewRequestCameraMicPermissionWithHint	Allow **%1$s** to access to your camera and microphone?\n\n**%1$s** will be able to access your camera and microphone when this website is open.\n\nEnable camera access in Settings > Permissions > Camera.
+ErrorRingtoneDurationTooLong	Length must be under %s seconds.
+ErrorRingtoneSizeTooBig	Size must be under %s Kb.
+ErrorRingtoneInvalidFormat	File must be mp3 or ogg format.
+SoundAddedSubtitle	You can use this sound as a notification tone in your **custom notification settings**.
+DeleteTonesMessage_one	Do you want to delete notification sound?
+DeleteTonesMessage_other	Do you want to delete **%d notification sounds**?
+CustomSound	Custom Sound
+ClearForAll	Clear for all
+ClearForMe	Clear for me
+BotWebViewNotAvailablePlaceholder	WebView not available. Please update it to use WebView bots.
+SaveToGalleryPrivate	Private Chats
+SaveToGalleryGroups	Groups
+SaveToGalleryChannels	Channels
+UnlockPremiumEmoji	Unlock Premium Emoji
+UnlockPremiumStickers	Unlock Premium Stickers
+UnlockPremiumReactions	Unlock Premium Reactions
+UnlockPremiumReactionsDescription	Unlock additional reactions by subscribing to Telegram Premium.
+SecretChatTimerYears	y
+IncreaseLimit	Increase Limit
+LimitReachedPublicLinks	You have reserved too many public links. Try revoking the link from an older group or channel, or upgrade to **Telegram Premium** to double the limit to **%2$d** public links.
+LimitReachedPublicLinksPremium	You have reserved too many public links. Try revoking the link from an older group or channel.
+LimitReachedPublicLinksLocked	You have reserved too many public links. Try revoking the link from an older group or channel. We are working to let you increase this limit in the future.
+YourPublicCommunities	Your public communities
+LimitReachedFolders	You have reached the limit of **%1$d** folders. You can double the limit to **%2$d** folders by subscribing to **Telegram Premium**.
+LimitReachedFoldersPremium	You have reached the limit of **%1$d** folders for this account.
+LimitReachedFoldersLocked	You have reached the limit of **%1$d** folders for this account. We are working to let you increase this limit in the future.
+LimitReachedChatInFolders	Sorry, you can\'t add more than **%1$d** chats to a folder. You can increase this limit to **%2$d** by upgrading to **Telegram Premium**.
+LimitReachedChatInFoldersPremium	Sorry, you can\'t add more than **%1$d** chats to a folder. Please create a new one.
+LimitReachedChatInFoldersLocked	Sorry, you can\'t add more than **%1$d** chats to a folder. Please create a new one. We are working to let you increase this limit in the future.
+LimitReachedCommunities	You are a member of **%1$d**  groups and channels. Please leave some before joining a new one — or upgrade to **Telegram Premium** to double the limit to **%2$d** groups and channels.
+LimitReachedCommunitiesPremium	You are a member of **%1$d**  groups and channels. Please leave some before joining a new one.
+LimitReachedReorderFolder	"Subscribe to **Telegram Premium** to move the \"%1$s\" folder."
+LimitReachedCommunitiesLocked	You are a member of **%1$d**  groups and channels. Please leave some before joining a new one. We are working to let you increase this limit in the future.
+AccDescrPremium	Premium account
+LimitFree	Free
+LimitPremium	Premium
+PremiumPreviewLimits	Doubled limits
+PremiumPreviewLimitsDescription	Up to %1$d channels, %2$d folders, %3$d pins, %4$d public links, %5$d accounts and more.
+PremiumPreviewUploads	4Gb Upload Size
+PremiumPreviewUploadsDescription	Increased upload size from 2Gb to 4Gb per document, unlimited storage overall.
+PremiumPreviewDownloadSpeed	Faster Download Speed
+PremiumPreviewDownloadSpeedDescription	No more limits on the speed with which media and documents are downloaded.
+PremiumPreviewDownloadSpeedDescription2	Subscribe to Telegram Premium to download media and files at the fastest possible speed.
+PremiumPreviewNoAds	No Ads
+PremiumPreviewNoAdsDescription	No more ads in public channels where Telegram sometimes shows ads.
+PremiumPreviewTags	Tags for Messages
+PremiumPreviewTagsDescription	Organize your Saved Messages with tags\nfor quicker access.
+PremiumPreviewTags2	Tags in Saved Messages
+PremiumPreviewTagsDescription2	Organize your Saved Messages with tags for quicker access.
+PremiumPreviewReactions	Unique Reactions
+PremiumPreviewStickers	Premium Stickers
+PremiumPreviewStickersDescription	Exclusive enlarged stickers featuring additional effects, updated monthly.
+PremiumPreviewEmoji	Animated Emoji
+PremiumPreviewEmojiDescription	Include animated emoji from different emoji sets in any message you send.
+PremiumPreviewProfileBadge	Profile Badge
+PremiumPreviewProfileBadgeDescription	A badge next to your name showing that you are helping support Telegram.
+PremiumPreviewPaidMessages	Paid Messages
+PremiumPreviewPaidMessagesDescription	Charge a fee for messages from non-contacts or new senders.
+PremiumPreviewAnimatedProfiles	Animated Profile Pictures
+PremiumPreviewAnimatedProfilesDescription	Video avatars animated in chat lists and chats to allow for additional self-expression.
+SubscribeToPremium	Subscribe for %s per month
+SubscribeToPremiumPerYear	Subscribe for %s per year
+SubscribeToPremiumPerCustom	Subscribe for %1$s / %2$s
+UpgradePremiumPerMonth	Upgrade for %s per year
+UpgradePremiumPerYear	Upgrade for %s per year
+SubscribeToPremiumNoPrice	Subscribe
+SubscribeToPremiumNotAvailable	Subscription not available
+SubscribeToPremiumOfficialAppNeeded	**Official app needed**
+SubscribeToPremiumOfficialAppNeededDescription	You need an official Telegram app to subscribe to **Telegram Premium**.\n\nOnce subscribed, you will be able to use the benefits of Telegram Premium in any apps that support it, including unofficial ones.
+InstallOfficialApp	Install official app
+GiftSubscriptionFor	Gift Subscription for %1$s
+GiftSubscriptionCountFor_one	Gift %1$d Subscription for %2$s
+GiftSubscriptionCountFor_other	Gift %1$d Subscriptions for %2$s
+GiftPremiumOptionDiscount	-%1$d%%
+PricePerMonth	%1$s / month
+PricePerMonthMe	%1$s/month
+PricePerYear	%1$s/year
+GiftPremiumListFeaturesAndTerms	You can review the list of features and terms of use for Telegram Premium *here*.
+GiftPremium	Gift Premium
+GiftPremiumGifting	Premium Gifting
+SendAGift	Send a Gift
+ProfileSendAGift	Send a Gift
+ProfileSendAGiftToChannel	Send a Gift
+GiftPremiumActivateForFree	Activate For Free
+GiftPremiumActivateErrorTitle	You already have Telegram Premium
+GiftPremiumActivateErrorText	You can activate this gift code after %1$s or **send the link** to a friend.
+GiftPremiumUseGiftBtn	Use Gift
+GiftPremiumGiftsSent_one	Gift Sent!
+GiftPremiumGiftsSent_other	Gifts Sent!
+GiftPremiumUsersOne	**%1$s**
+GiftPremiumUsersTwo	**%1$s**, **%2$s**
+GiftPremiumUsersThree	**%1$s**, **%2$s**, **%3$s**
+GiftPremiumUsersPurchasedManyZero	%1$s have been notified about the gifts you purchased.
+GiftPremiumUsersPurchasedMany_one	%2$s and **%1$d** other have been notified about the gifts you purchased.
+GiftPremiumUsersPurchasedMany_other	%2$s and **%1$d** others have been notified about the gifts you purchased.
+GiftPremiumUsersGiveAccessManyZero	Give %1$s access to exclusive features.
+GiftPremiumUsersGiveAccessMany_one	Give %2$s and **%1$d** more friend access to exclusive features.
+GiftPremiumUsersGiveAccessMany_other	Give %2$s and **%1$d** more friends access to exclusive features.
+GiftPremiumGiftsSentStatus	They now have access to additional features.
+GiftPremiumGiftsSentStatusForUser	**%1$s** now has access to additional features.
+GiftPremiumFrequentContacts	Frequent Contacts
+GiftPremiumUsersSearchHint	Search people to gift Premium to...
+GiftPremiumWillReceiveBoostsPlural_one	You will receive ⚡ **%1$d** boost.
+GiftPremiumWillReceiveBoostsPlural_other	You will receive ⚡ **%1$d** boosts.
+GiftPremiumPrivacyPolicyAndTerms	By gifting Telegram Premium you agree to the **Telegram Terms of Service** and %1$s
+GiftPremiumPrivacyPolicy	**Privacy Policy**.
+GiftPremiumChooseRecipientsBtn	Choose Recipients
+GiftPremiumProceedBtn	Proceed
+GiftPremiumAboutThisLink	This link allows you or **anyone you choose** to activate a %1$s.
+GiftPremiumAboutThisLinkEnd	**Telegram Premium** subscription
+GiftPremiumWhatsIncluded	What\'s included
+GiftPremiumEventAdsTitle	Send gifts **to your friends!** 🎄
+GiftTelegramPremiumTitle	Gift Telegram Premium
+GiftTelegramPremiumOrStarsTitle	Gift Premium or Stars
+GiftTelegramPremiumDescription	Let **%1$s** enjoy exclusive features of Telegram with **Telegram Premium**.
+TelegramPremium	Telegram Premium
+TelegramPremiumSubtitle	Go **beyond the limits**, get exclusive features and support us by subscribing to **Telegram Premium**.
+TelegramPremiumSubscribedTitle	You are all set!
+TelegramPremiumSubscribedSubtitle	Thank you for subscribing to **Telegram Premium**.\nHere’s what is now unlocked.
+LimitReachedFavoriteStickers	Limit of %d Stickers Reached
+LimitReachedFavoriteStickersSubtitle	An older sticker was replaced with this one. You can **increase the limit** to %d stickers
+LimitReachedFavoriteGifs	Limit of %d GIFs Reached
+LimitReachedFavoriteGifsSubtitle	An older GIF was replaced with this one. You can **increase the limit** to %d GIFs
+LimitReachedFileSize	The document cant’t be sent, because it is larger than **%1$s**. You can double this limit to **%2$s** per document by subscribing to **Telegram Premium**.
+LimitReachedFileSizePremium	The document cant’t be sent, because it is larger than **%1$s**.
+LimitReachedFileSizeLocked	The document cant’t be sent, because it is larger than **%1$s**. We are working to let you increase this limit in the future.
+AboutPremiumTitle	About Telegram Premium
+AboutPremiumDescription	While the free version of Telegram already gives its users more than any other messaging application, **Telegram Premium** pushes its capabilities even further.
+AboutPremiumDescription2	**Telegram Premium** is a paid option, because most Premium Features require additional expenses from Telegram to third parties such as data center providers and server manufacturers. Contributions from **Telegram Premium** users allow us to cover such costs and also help Telegram stay free for everyone.
+PremiumTierAnnualYears_one	%d-Year
+PremiumTierAnnualYears_other	%d-Year
+PremiumTierAnnual	Annual
+PremiumTierSemiannual	Semiannual
+PremiumTierMonthly	Monthly
+GroupsAndChannelsLimitTitle	Groups and Channels
+GroupsAndChannelsLimitSubtitle	Join up to %d channels and large groups
+PinChatsLimitTitle	Pinned Chats
+PinChatsLimitSubtitle	Pin up to %d chats in your main chat list
+PublicLinksLimitTitle	Public Links
+PublicLinksLimitSubtitle	Reserve up to %d t.me/name links
+SavedGifsLimitTitle	Saved GIFs
+SavedGifsLimitSubtitle	Save up to %d GIFs in your Favorite GIFs
+FavoriteStickersLimitTitle	Favorite Stickers
+FavoriteStickersLimitSubtitle	Save up to %d stickers in your Favorite stickers
+FoldersLimitTitle	Folders
+FoldersLimitSubtitle	Organize your chats into %d folders
+ChatPerFolderLimitTitle	Chats per Folder
+ChatPerFolderLimitSubtitle	Add up to %d chats into each of your folders
+ConnectedAccountsLimitTitle	Connected Accounts
+ConnectedAccountsLimitSubtitle	Connect %d accounts with different mobile numbers
+SimilarChannelsLimitTitle	Similar Channels
+SimilarChannelsLimitSubtitle	View up to %d similar channels
+DoubledLimits	Doubled Limits
+LimitReachedAccounts	Sorry, you can\'t add more than **%1$d** accounts. You can increase this limit to **%2$d** by upgrading to **Telegram Premium**.
+LimitReachedAccountsPremium	Sorry, you can\'t add more than **%1$d** accounts.
+PremiumPreviewVoiceToText	Voice-to-Text Conversion
+PremiumPreviewVoiceToTextDescription	Ability to read the transcript of any incoming voice message.
+PremiumPreviewVoiceToTextDescription2	Subscribe to Telegram Premium to be able to convert voice and video messages to text.
+PremiumPreviewAdvancedChatManagement	Advanced Chat Management
+PremiumStickersShort	Premium
+PremiumStickers	Premuim Stickers
+CaptionsLimitTitle	Captions
+CaptionsLimitSubtitle	Use longer descriptions for your photos and videos
+LimitReachedFavoriteStickersSubtitlePremium	An older sticker was replaced with this one.
+LimitReachedFavoriteGifsSubtitlePremium	An older GIF was replaced with this one.
+PremiumStickerTooltip	This pack contains premium stickers like this one.
+ViewAction	View
+HideAd	Hide
+RemoveAds	Remove Ads
+AboutRevenueSharingAds	About These Ads
+ReportAd	Report Ad
+ReportAdLearnMore	Learn more about our [Ad Policies and Guidelines.](https://ads.telegram.org/guidelines)
+AdReported	We will review this ad to ensure it matches our **Ad Policies and Guidelines.**
+AdHidden	You will no longer see ads from Telegram.
+BioLimitTitle	Bio
+BioLimitSubtitle	Add more symbols and use links in your bio.
+AppIcon	App Icon
+AppIconDefault	Default
+AppIconVintage	Vintage
+AppIconAqua	Aqua
+AppIconPremium	Premium
+AppIconTurbo	Turbo
+AppIconNox	Nox
+AppIconChangedTo	App icon has been changed to %1$s
+FileTooLarge	File Too Large
+PremiumPreviewAppIcon	Premium App Icon
+PremiumPreviewAppIconDescription	Choose from a selection of Telegram app icons for your homescreen.
+UnlockPremiumIcons	Unlock Premium Icons

@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>U message — Admin panel</title>
+<style>
+  :root {
+    --bg: #0e0f13; --panel: #17181e; --line: #262832; --text: #f2f3f7; --muted: #8b8fa3;
+    --accent: #3b82f6; --ok: #22c55e; --warn: #f59e0b; --bad: #ef4444; --r: 14px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+  h1 { font-size: 20px; margin: 0; } h2 { font-size: 15px; margin: 0 0 14px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; margin-bottom: 16px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  input, textarea, select { width: 100%; background: #0f1016; color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; font: inherit; }
+  textarea { resize: vertical; min-height: 64px; }
+  input[type=color] { padding: 2px; height: 38px; }
+  input[type=checkbox] { width: auto; }
+  .check { display: flex; align-items: center; gap: 8px; color: var(--text); font-size: 14px; margin: 0; }
+  button { background: var(--accent); color: #fff; border: 0; border-radius: 10px; padding: 9px 14px; font: inherit; font-weight: 600; cursor: pointer; }
+  button.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+  button.danger { background: transparent; border: 1px solid #4a2326; color: #ff8a8a; }
+  button:disabled { opacity: .5; cursor: default; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .muted { color: var(--muted); } .hidden { display: none !important; }
+  .ads { display: grid; gap: 12px; }
+  .ad { display: grid; grid-template-columns: 300px 1fr; gap: 16px; align-items: center; }
+  @media (max-width: 720px) { .ad { grid-template-columns: 1fr; } }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .b-live { background: #0f2a1a; color: var(--ok); } .b-off { background: #2a2410; color: var(--warn); } .b-end { background: #2a1214; color: var(--bad); }
+  .stats { display: flex; gap: 16px; margin: 8px 0 10px; } .stats b { font-size: 16px; display: block; }
+  /* banner preview, scaled from the app layout (96dp high) */
+  .banner { position: relative; height: 96px; border-radius: 20px; overflow: hidden; color: #fff; }
+  .banner .logo { position: absolute; left: 16px; top: 14px; height: 16px; display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; }
+  .banner .logo img { height: 16px; max-width: 70px; object-fit: contain; object-position: left; }
+  .banner .logo small { font-weight: 400; font-size: 10px; opacity: .6; }
+  .banner .head { position: absolute; left: 16px; bottom: 14px; right: 130px; font-weight: 700; font-size: 16px; line-height: 1.1; white-space: pre-line; overflow: hidden; max-height: 2.3em; }
+  .banner .art { position: absolute; right: 36px; top: 6px; width: 120px; height: 84px; object-fit: contain; object-position: right; }
+  .banner .cta { position: absolute; right: 12px; bottom: 12px; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-size: 20px; }
+  .story { width: 150px; height: 300px; border-radius: 16px; position: relative; overflow: hidden; color: #fff; flex: none; }
+  .story .bar { position: absolute; left: 6px; right: 6px; top: 6px; height: 2px; background: rgba(255,255,255,.35); border-radius: 2px; }
+  .story .logo { position: absolute; left: 10px; top: 16px; font-size: 10px; font-weight: 700; display: flex; gap: 6px; align-items: center; }
+  .story .logo img { height: 11px; max-width: 50px; object-fit: contain; }
+  .story .art { position: absolute; left: 20px; right: 20px; top: 70px; height: 82px; object-fit: contain; }
+  .story .head { position: absolute; left: 10px; right: 10px; top: 160px; text-align: center; font-weight: 700; font-size: 14px; white-space: pre-line; }
+  .story .btn { position: absolute; left: 12px; right: 12px; bottom: 14px; height: 26px; border-radius: 13px; background: #fff; color: #000; display: grid; place-items: center; font-size: 11px; font-weight: 700; }
+  .previews { display: flex; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+  .previews .banner { flex: 1 1 320px; max-width: 380px; }
+  /* tabs */
+  .tabs { display: inline-flex; background: #0f1016; border: 1px solid var(--line); border-radius: 12px; padding: 3px; gap: 2px; }
+  .tabs button { background: transparent; color: var(--muted); padding: 7px 14px; border-radius: 9px; font-weight: 600; }
+  .tabs button.on { background: var(--panel); color: var(--text); box-shadow: 0 1px 0 #ffffff10 inset; }
+  /* dashboard */
+  .kpis { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); margin-bottom: 16px; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+  .kpi .k { color: var(--muted); font-size: 12.5px; display: flex; align-items: center; gap: 8px; }
+  .kpi .k i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+  .kpi .v { font-size: 30px; font-weight: 700; letter-spacing: -.02em; margin-top: 6px; font-variant-numeric: tabular-nums; }
+  .kpi .s { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .kpi.hero { grid-column: span 2; background: linear-gradient(135deg, #1d2330, #11141c); }
+  .kpi.hero .v { font-size: 44px; }
+  @media (max-width: 560px) { .kpi.hero { grid-column: auto; } }
+  .meter { height: 6px; background: #ffffff10; border-radius: 3px; margin-top: 10px; overflow: hidden; }
+  .meter span { display: block; height: 100%; border-radius: 3px; background: var(--accent); }
+  .charts { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+  .chart-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+  .chart-head b { font-size: 22px; font-variant-numeric: tabular-nums; }
+  .chart { position: relative; }
+  .chart svg { width: 100%; height: 190px; display: block; }
+  .chart .tip { position: absolute; pointer-events: none; background: #22242e; border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; font-size: 12px; white-space: nowrap; transform: translate(-50%, -100%); }
+  .chart .tip b { font-size: 14px; }
+  details { margin-top: 8px; color: var(--muted); font-size: 12.5px; }
+  details table { width: 100%; border-collapse: collapse; margin-top: 6px; color: var(--text); }
+  details td { padding: 3px 0; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+  details td:last-child { text-align: right; }
+  .rows { display: grid; gap: 10px; margin-top: 12px; }
+  .rowbar { display: grid; grid-template-columns: 140px 1fr 70px; gap: 10px; align-items: center; font-variant-numeric: tabular-nums; }
+  .rowbar .track { height: 8px; background: #ffffff10; border-radius: 4px; overflow: hidden; }
+  .rowbar .track span { display: block; height: 100%; background: #3b82f6; border-radius: 4px; }
+  .rowbar .n { text-align: right; }
+  .big { font-size: 34px; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  h3 { font-size: 13px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; margin: 24px 0 10px; }
+  /* status */
+  .status-cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-bottom: 16px; }
+  .st { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; }
+  .st .head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .st .title { font-weight: 600; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+  .pill.ok { background: #0f2a1a; color: var(--ok); } .pill.warn { background: #2a2410; color: var(--warn); } .pill.bad { background: #2a1214; color: var(--bad); } .pill.idle { background: #1f2129; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .chip { background: #0f1016; border: 1px solid var(--line); border-radius: 9px; padding: 6px 9px; font-size: 12px; font-variant-numeric: tabular-nums; }
+  .chip b { display: block; font-size: 13px; }
+  .chip.bad b { color: var(--bad); }
+  .feed { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow: auto; }
+  .feed li { display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .feed time { color: var(--muted); font-variant-numeric: tabular-nums; flex: none; width: 46px; }
+  .live { display: inline-flex; align-items: center; gap: 6px; color: var(--ok); font-size: 12px; font-weight: 600; }
+  .live::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--ok); animation: blink 1.6s infinite; }
+  @keyframes blink { 50% { opacity: .25; } }
+  .cnmap { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+  @media (max-width: 860px) { .cnmap { grid-template-columns: 1fr; } }
+  .cnmap svg { width: 100%; height: auto; display: block; }
+  .cnmap path { stroke: #0e0f13; stroke-width: .6; transition: opacity .15s; }
+  .cnmap path:hover { opacity: .8; }
+  .legend { display: grid; gap: 4px; font-size: 12px; margin-top: 6px; }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .legend i { width: 14px; height: 10px; border-radius: 3px; display: inline-block; }
+  table.t { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+  table.t th { text-align: left; color: var(--muted); font-weight: 600; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  table.t td { padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  table.t td.r, table.t th.r { text-align: right; }
+  .progress { height: 6px; background: #ffffff10; border-radius: 3px; overflow: hidden; margin-top: 8px; }
+  .progress span { display: block; height: 100%; background: var(--accent); transition: width .3s; }
+  /* usage */
+  .gauges { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-bottom: 16px; }
+  .gauge { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; display: grid; grid-template-columns: 76px 1fr; gap: 14px; align-items: center; }
+  .gauge svg { width: 76px; height: 76px; }
+  .gauge .name { color: var(--muted); font-size: 12.5px; }
+  .gauge .val { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 2px; }
+  .gauge .of { color: var(--muted); font-size: 12.5px; }
+  .gauge .proj { font-size: 12px; margin-top: 6px; }
+  .flag { font-size: 18px; width: 26px; display: inline-block; }
+  .filterbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .series-legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--muted); }
+  .series-legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .series-legend i { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .series-legend b { color: var(--text); font-variant-numeric: tabular-nums; }
+  .chart svg.line { height: 240px; }
+  .donut-wrap { display: grid; grid-template-columns: 170px 1fr; gap: 18px; align-items: center; }
+  .donut-wrap svg { width: 170px; height: 170px; }
+  @media (max-width: 560px) { .donut-wrap { grid-template-columns: 1fr; } }
+  .rowbar .sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; margin-right: 8px; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #22242e; border: 1px solid var(--line); padding: 10px 16px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>U message — Admin panel</h1>
+    <div class="row">
+      <div class="tabs hidden" id="tabs"><button class="on" data-tab="dash">Dashboard</button><button data-tab="status">Holat</button><button data-tab="usage">Sarf</button><button data-tab="ads">Reklamalar</button></div>
+      <button class="ghost hidden" id="refreshBtn">Yangilash</button>
+      <button class="ghost hidden" id="newBtn">+ Yangi reklama</button>
+      <button class="ghost hidden" id="logoutBtn">Chiqish</button>
+    </div>
+  </header>
+
+  <section class="panel" id="login">
+    <h2>Kirish</h2>
+    <div class="row">
+      <input id="secret" type="password" placeholder="Admin kalit (ADMIN_SECRET)" style="max-width:360px">
+      <button id="loginBtn">Kirish</button>
+    </div>
+  </section>
+
+  <div id="dash" class="hidden">
+    <div class="filterbar">
+      <h2 style="margin:0">Statistika</h2>
+      <div class="tabs seg" id="rangeSeg"><button data-range="7d">7 kun</button><button data-range="30d" class="on">30 kun</button><button data-range="12m">12 oy</button></div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <section class="panel">
+      <div class="chart-head" style="flex-wrap:wrap"><h2 style="margin:0">Faol foydalanuvchilar</h2><div class="series-legend" id="activeLegend"></div></div>
+      <div class="chart" id="chart-active"></div>
+    </section>
+    <div class="charts" style="margin-top:16px">
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">Yangi ro‘yxatdan o‘tganlar</h2><span class="muted" id="signupsSum"></span></div>
+        <div class="chart" id="chart-signups"></div></section>
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">Davlatlar bo‘yicha</h2><span class="muted" id="cnTotal"></span></div>
+        <div class="donut-wrap"><div id="countryDonut"></div><div class="rows" id="countryRows" style="margin-top:0"></div></div></section>
+    </div>
+    <h3>Infratuzilma</h3>
+    <div class="charts">
+      <section class="panel">
+        <div class="chart-head"><h2 style="margin:0">Mapbox</h2><span class="muted" id="mbMonth"></span></div>
+        <div class="row" style="align-items:baseline;gap:8px"><span class="big" id="mbMau">—</span><span class="muted" id="mbOf"></span></div>
+        <div class="meter"><span id="mbMeter" style="width:0"></span></div>
+        <div class="muted" style="margin:8px 0 14px;font-size:12.5px" id="mbSub"></div>
+        <div class="chart-head"><span class="muted" id="mbOpensTitle">Xarita ochilishlari</span></div>
+        <div class="chart" id="chart-map"></div>
+      </section>
+      <section class="panel">
+        <div class="chart-head"><h2 style="margin:0">Ma’lumotlar bazasi</h2><span class="muted">Vercel KV</span></div>
+        <div class="row" style="align-items:baseline;gap:8px"><span class="big" id="dbKeys">—</span><span class="muted">kalit</span></div>
+        <div class="muted" style="font-size:12.5px;margin-top:2px" id="dbMem"></div>
+        <div class="rows" id="dbRows"></div>
+      </section>
+    </div>
+    <p class="muted" id="dashNote" style="margin-top:12px"></p>
+  </div>
+
+  <div id="status" class="hidden">
+    <div class="status-cards">
+      <div class="st"><div class="head"><span class="title">Telegram serverlari</span><span class="pill idle" id="tgPill">…</span></div>
+        <div class="chips" id="tgChips"></div><div class="muted" style="font-size:12px;margin-top:10px" id="tgNote"></div></div>
+      <div class="st"><div class="head"><span class="title">Ma’lumotlar bazasi</span><span class="pill idle" id="dbPill">…</span></div>
+        <div class="chips" id="dbChips"></div></div>
+      <div class="st"><div class="head"><span class="title">Server so‘rovlari</span><span class="live">Jonli</span></div>
+        <div class="chips" id="rpmChips"></div></div>
+    </div>
+    <div class="charts">
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">Daqiqasiga so‘rovlar</h2><span class="muted">so‘nggi 60 daqiqa</span></div>
+        <div class="chart" id="chart-rpm"></div></section>
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">Bazada nima bo‘lyapti</h2><span class="live">Jonli</span></div>
+        <ul class="feed" id="feed"></ul></section>
+    </div>
+    <section class="panel" style="margin-top:16px">
+      <div class="chart-head" style="flex-wrap:wrap">
+        <h2 style="margin:0">Proksi · Xitoydan tekshiruv</h2>
+        <div class="row"><select id="proxySel" style="width:auto"></select><button id="probeBtn">Xitoydan tekshirish</button></div>
+      </div>
+      <div class="muted" style="font-size:12.5px;margin-bottom:10px" id="probeInfo">Xitoy ichidagi Globalping nuqtalaridan proksi portiga TCP ulanish tekshiriladi.</div>
+      <div class="progress hidden" id="probeProgress"><span style="width:0"></span></div>
+      <div class="cnmap" style="margin-top:12px">
+        <div><div id="cnSvg"></div>
+          <div class="legend" id="cnLegend"></div></div>
+        <div><table class="t" id="probeTable"><thead><tr><th>Tarmoq</th><th>Eng tez</th><th>Eng sekin</th><th class="r">O‘rtacha</th><th class="r">Ulandi</th></tr></thead><tbody><tr><td colspan="5" class="muted">Hali tekshirilmagan</td></tr></tbody></table></div>
+      </div>
+      <details style="margin-top:14px"><summary>Proksilar ro‘yxati</summary>
+        <div class="muted" style="margin:8px 0">Har qatorda: <code>nom host:port</code></div>
+        <textarea id="proxyList" rows="4"></textarea><div class="row" style="margin-top:8px"><button id="saveProxies">Saqlash</button></div></details>
+    </section>
+  </div>
+
+  <div id="usage" class="hidden">
+    <div class="chart-head"><h2 style="margin:0" id="usageTitle">Shu oy sarfi</h2><span class="muted" id="usageSub"></span></div>
+    <div class="gauges" id="gauges"></div>
+    <div class="charts">
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">Kunlik funksiya chaqiruvlari</h2><span class="muted">shu oy</span></div>
+        <div class="chart" id="chart-inv"></div></section>
+      <section class="panel"><div class="chart-head"><h2 style="margin:0">API bo‘yicha</h2><span class="muted">shu oy chaqiruvlar</span></div>
+        <div class="rows" id="fnRows"></div></section>
+    </div>
+    <details class="panel" style="margin-top:16px"><summary style="color:var(--text);font-weight:600">Limitlarni sozlash</summary>
+      <div class="grid" style="margin-top:12px" id="limitForm"></div>
+      <div class="row" style="margin-top:12px"><button id="saveLimits">Saqlash</button><span class="muted">Standart qiymatlar — Vercel Hobby, Upstash free va Mapbox bepul tariflari.</span></div>
+    </details>
+    <p class="muted" id="usageNote"></p>
+  </div>
+
+  <div id="app" class="hidden">
+    <section class="panel">
+      <h2>Vaqt sozlamalari</h2>
+      <div class="grid">
+        <div><label>Storis reklamasi har necha o‘tishda chiqsin</label><input id="storyEvery" type="number" min="1" max="50"></div>
+        <div><label>Storis reklamasi davomiyligi (soniya)</label><input id="storyDurationSec" type="number" min="3" max="30"></div>
+        <div><label>&nbsp;</label><label class="check"><input id="bannerEnabled" type="checkbox"> Pastki bannerlar yoqilgan</label></div>
+        <div><label>&nbsp;</label><label class="check"><input id="storyEnabled" type="checkbox"> Storis reklamalari yoqilgan</label></div>
+      </div>
+      <div class="row" style="margin-top:14px"><button id="saveConfig">Saqlash</button><span class="muted">Ilova sozlamalarni bir necha soat ichida oladi.</span></div>
+    </section>
+
+    <section class="panel hidden" id="editor">
+      <h2 id="editorTitle">Yangi reklama</h2>
+      <div class="grid">
+        <div><label>Brend nomi</label><input id="f-brand" maxlength="40" placeholder="7TECH"></div>
+        <div><label>Havola</label><input id="f-url" placeholder="https://t.me/kanal"></div>
+        <div style="grid-column:1/-1"><label>Sarlavha (yangi qator — Enter, max 2 qator banner uchun)</label><textarea id="f-headline" maxlength="90"></textarea></div>
+        <div><label>Gradient boshi</label><input id="f-colorStart" type="color" value="#0b1020"></div>
+        <div><label>Gradient oxiri</label><input id="f-colorEnd" type="color" value="#1d2f8f"></div>
+        <div><label>Tugma rangi</label><input id="f-ctaColor" type="color" value="#2f6bff"></div>
+        <div><label>Joylar</label>
+          <label class="check"><input id="f-banner" type="checkbox" checked> Pastki banner</label>
+          <label class="check"><input id="f-story" type="checkbox" checked> Storis</label>
+        </div>
+        <div><label>Boshlanish (bo‘sh — darhol)</label><input id="f-start" type="datetime-local"></div>
+        <div><label>Tugash (bo‘sh — cheksiz)</label><input id="f-end" type="datetime-local"></div>
+        <div><label>Logo — oq, shaffof PNG (max 700 KB)</label><input id="f-logo" type="file" accept="image/png,image/webp,image/jpeg"><label class="check" style="margin-top:6px"><input id="f-logoRemove" type="checkbox"> Logoni olib tashlash</label></div>
+        <div><label>Rasm — shaffof PNG, 780×588 px</label><input id="f-art" type="file" accept="image/png,image/webp,image/jpeg"><label class="check" style="margin-top:6px"><input id="f-artRemove" type="checkbox"> Rasmni olib tashlash</label></div>
+        <div><label>&nbsp;</label><label class="check"><input id="f-active" type="checkbox" checked> Faol</label></div>
+      </div>
+      <h2 style="margin-top:18px">Ko‘rinishi</h2>
+      <div class="previews"><div class="banner" id="pv-banner"></div><div class="story" id="pv-story"></div></div>
+      <div class="row" style="margin-top:16px"><button id="saveAd">Saqlash</button><button class="ghost" id="cancelEdit">Bekor qilish</button></div>
+    </section>
+
+    <section>
+      <h2>Reklamalar</h2>
+      <div class="ads" id="ads"></div>
+    </section>
+  </div>
+</div>
+<div class="toast hidden" id="toast"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let secret = '';
+try { secret = localStorage.getItem('umAdminSecret') || ''; } catch {}
+let state = { ads: [], config: {} };
+let editing = null;          // ad being edited or null for new
+let images = { logo: null, art: null };      // pending uploads {mime,data,url}
+
+function toast(text) { const t = $('toast'); t.textContent = text; t.classList.remove('hidden'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.add('hidden'), 2600); }
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+
+async function api(method, body, query = '') {
+  const r = await fetch('/api/admin' + query, { method, headers: { 'x-admin-secret': secret, 'content-type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
+  const data = await r.json().catch(() => ({}));
+  if (r.status === 401) { logout(); throw new Error('Kalit noto‘g‘ri'); }
+  if (!r.ok) throw new Error(data.error || 'Xatolik');
+  return data;
+}
+
+let tab = 'dash';
+try { tab = localStorage.getItem('umAdminTab') || 'dash'; } catch {}
+function showTab(name) {
+  tab = name; try { localStorage.setItem('umAdminTab', name); } catch {}
+  document.querySelectorAll('#tabs button').forEach((b) => b.classList.toggle('on', b.dataset.tab === name));
+  ['dash', 'status', 'usage'].forEach((id) => $(id).classList.toggle('hidden', name !== id));
+  $('app').classList.toggle('hidden', name !== 'ads');
+  $('newBtn').classList.toggle('hidden', name !== 'ads');
+  clearInterval(statusTimer); statusTimer = null;
+  if (!secret || $('login').offsetParent) return;
+  if (name === 'status') { loadStatus(); drawChina(); statusTimer = setInterval(loadStatus, 10000); }
+  if (name === 'usage') loadUsage();
+}
+
+const nf = new Intl.NumberFormat('uz-UZ');
+const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+function kpi(label, value, sub, opts = {}) {
+  return `<div class="kpi${opts.hero ? ' hero' : ''}"><div class="k">${opts.swatch ? `<i style="background:${opts.swatch}"></i>` : ''}${label}</div>
+    <div class="v">${nf.format(value)}</div>${sub ? `<div class="s">${sub}</div>` : ''}
+    ${opts.meter != null ? `<div class="meter"><span style="width:${Math.min(100, opts.meter)}%"></span></div>` : ''}</div>`;
+}
+
+const SERIES = [
+  { key: 'dau', label: 'Kunlik faol', color: '#3987e5' },
+  { key: 'wau', label: 'Haftalik faol', color: '#199e70' },
+  { key: 'mau', label: 'Oylik faol', color: '#d95926' },
+];
+const CATS = ['#3987e5', '#d95926', '#199e70', '#c98500', '#d55181', '#8b8fa3'];
+const MONTHS = ['Yan', 'Fev', 'Mar', 'Apr', 'May', 'Iyun', 'Iyul', 'Avg', 'Sen', 'Okt', 'Noy', 'Dek'];
+const keyLabel = (k) => k.length === 7 ? `${MONTHS[+k.slice(5, 7) - 1]} ${k.slice(2, 4)}` : dayLabel(k);
+const rangeName = () => ({ '7d': '7 kunda', '30d': '30 kunda', '12m': '12 oyda' })[range];
+let range = '30d';
+try { range = localStorage.getItem('umAdminRange') || '30d'; } catch {}
+
+function renderDash() {
+  const u = state.users;
+  document.querySelectorAll('#rangeSeg button').forEach((b) => b.classList.toggle('on', b.dataset.range === range));
+  if (!u) { $('kpis').innerHTML = '<div class="panel muted">Statistikani olib bo‘lmadi.</div>'; return; }
+  const views = state.ads.reduce((s, a) => s + (a.stats?.views || 0), 0), clicks = state.ads.reduce((s, a) => s + (a.stats?.clicks || 0), 0);
+  $('kpis').innerHTML =
+    kpi('Ro‘yxatdan o‘tganlar', u.total, `Bugun +${nf.format(u.newToday)}`, { hero: true }) +
+    kpi(`Yangi · ${rangeName()}`, u.newInRange, `jami foydalanuvchilarning ${pct(u.newInRange, u.total)}%`) +
+    kpi('Do‘stlar xaritasi', u.mapSharing, 'faol shifrlangan joylashuvlar') +
+    kpi('Reklama ko‘rishlari', views, `${nf.format(clicks)} bosish · CTR ${views ? (clicks / views * 100).toFixed(1) : '0.0'}%`);
+  const now = { dau: u.active24h, wau: u.active7d, mau: u.active30d };
+  const series = range === '12m' ? [{ ...SERIES[0], label: 'O‘rtacha kunlik' }, SERIES[2]] : SERIES;
+  const lastPoint = u.points[u.points.length - 1] || {};
+  const legendValue = (k) => range === '12m' ? (lastPoint[k] ?? 0) : now[k]; // monthly view: this month's figures
+  $('activeLegend').innerHTML = series.map((s) => `<span><i style="background:${s.color}"></i>${s.label} <b>${nf.format(legendValue(s.key))}</b> · ${pct(legendValue(s.key), u.total)}%</span>`).join('');
+  lineChart($('chart-active'), u.points, series, { every: everyFor(u.points.length) });
+  barChart($('chart-signups'), u.points.map((p) => ({ day: p.key, count: p.signups })), '#16a34a', 'yangi', { label: (d) => keyLabel(d.day), every: everyFor(u.points.length) });
+  $('signupsSum').textContent = `${rangeName()}: ${nf.format(u.newInRange)}`;
+  renderInfra();
+  $('dashNote').textContent = `Yangilangan: ${new Date(u.generatedAt).toLocaleString('uz-UZ')} · Faollik ilova ochilganda (eng ko‘pi 6 soatda bir) hisoblanadi; kunlar Toshkent vaqti bo‘yicha. Haftalik/oylik chiziqlar kunlik suratlardan, shu yangilanishdan boshlab yig‘iladi.`;
+}
+const everyFor = (n) => n <= 8 ? 1 : n <= 14 ? 2 : n <= 31 ? 5 : 1;
+
+/** Multi-series line chart: 2px lines, shared y-axis, crosshair tooltip, legend above, table below. */
+function lineChart(el, points, series, opts = {}) {
+  const vals = points.flatMap((p) => series.map((s) => p[s.key]).filter((v) => v != null));
+  const max = Math.max(1, ...vals), step = Math.pow(10, Math.floor(Math.log10(max))), nice = Math.ceil(max / step) * step;
+  const W = 900, H = 240, L = 12 + 7 * nf.format(nice).length, R = 12, T = 12, B = 26, every = opts.every || 1;
+  const x = (i) => L + (points.length === 1 ? (W - L - R) / 2 : i * (W - L - R) / (points.length - 1));
+  const y = (v) => T + (H - T - B) * (1 - v / nice);
+  let g = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach((f) => {
+    const v = Math.round(nice * f), yy = y(v);
+    g += `<line x1="${L}" x2="${W - R}" y1="${yy}" y2="${yy}" stroke="#ffffff${f === 0 ? '2a' : '10'}"/><text x="${L - 6}" y="${yy + 4}" text-anchor="end" fill="#8b8fa3" font-size="11">${nf.format(v)}</text>`;
+  });
+  points.forEach((p, i) => {
+    if (i % every !== (points.length - 1) % every) return;
+    const anchor = points.length > 1 && i === points.length - 1 ? 'end' : i === 0 ? 'start' : 'middle';
+    g += `<text x="${x(i)}" y="${H - 7}" text-anchor="${anchor}" fill="#8b8fa3" font-size="11">${keyLabel(p.key)}</text>`;
+  });
+  series.forEach((s) => {
+    let d = '', pen = false;
+    points.forEach((p, i) => { const v = p[s.key]; if (v == null) { pen = false; return; } d += `${pen ? 'L' : 'M'}${x(i).toFixed(1)},${y(v).toFixed(1)}`; pen = true; });
+    g += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+    points.forEach((p, i) => { const v = p[s.key]; const prev = points[i - 1]?.[s.key], next = points[i + 1]?.[s.key];
+      if (v != null && prev == null && next == null) g += `<circle cx="${x(i)}" cy="${y(v)}" r="4" fill="${s.color}" stroke="#17181e" stroke-width="2"/>`; });
+  });
+  g += `<line class="cross" x1="0" x2="0" y1="${T}" y2="${H - B}" stroke="#ffffff40" stroke-dasharray="3 3" visibility="hidden"/><g class="dots"></g>`;
+  el.innerHTML = `<svg class="line" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Faol foydalanuvchilar">${g}<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent" class="hit"/></svg><div class="tip hidden"></div>
+    <details><summary>Jadval ko‘rinishi</summary><table><tr><td></td>${series.map((s) => `<td>${s.label}</td>`).join('')}</tr>${points.map((p) => `<tr><td>${keyLabel(p.key)}</td>${series.map((s) => `<td>${p[s.key] == null ? '—' : nf.format(p[s.key])}</td>`).join('')}</tr>`).join('')}</table></details>`;
+  const svg = el.querySelector('svg'), tip = el.querySelector('.tip'), cross = svg.querySelector('.cross'), dots = svg.querySelector('.dots');
+  svg.onmousemove = (e) => {
+    const rect = svg.getBoundingClientRect(), mx = (e.clientX - rect.left) / rect.width * W;
+    const i = Math.max(0, Math.min(points.length - 1, Math.round((mx - L) / ((W - L - R) / Math.max(1, points.length - 1)))));
+    const p = points[i];
+    cross.setAttribute('x1', x(i)); cross.setAttribute('x2', x(i)); cross.setAttribute('visibility', 'visible');
+    dots.innerHTML = series.filter((s) => p[s.key] != null).map((s) => `<circle cx="${x(i)}" cy="${y(p[s.key])}" r="4.5" fill="${s.color}" stroke="#17181e" stroke-width="2"/>`).join('');
+    tip.style.left = Math.min(rect.width - 90, Math.max(90, x(i) / W * rect.width)) + 'px'; tip.style.top = '12px';
+    tip.style.transform = 'translate(-50%, 0)';
+    tip.innerHTML = `<div style="color:var(--muted);margin-bottom:4px">${keyLabel(p.key)}</div>` + series.map((s) => `<div><i style="display:inline-block;width:10px;height:3px;background:${s.color};border-radius:2px;margin-right:6px;vertical-align:middle"></i>${s.label}: <b>${p[s.key] == null ? '—' : nf.format(p[s.key])}</b></div>`).join('');
+    tip.classList.remove('hidden');
+  };
+  svg.onmouseleave = () => { tip.classList.add('hidden'); cross.setAttribute('visibility', 'hidden'); dots.innerHTML = ''; };
+}
+
+/** Donut with a 2px surface gap between slices; the list beside it carries the values (never color alone). */
+function donut(el, items) {
+  const total = items.reduce((s, x) => s + x.value, 0) || 1, R = 70, r = 46, C = 85;
+  let a0 = -Math.PI / 2, g = '';
+  items.forEach((it, i) => {
+    const a1 = a0 + it.value / total * Math.PI * 2, large = a1 - a0 > Math.PI ? 1 : 0;
+    const p = (a, rad) => `${(C + rad * Math.cos(a)).toFixed(2)},${(C + rad * Math.sin(a)).toFixed(2)}`;
+    g += items.length === 1 ? `<circle cx="${C}" cy="${C}" r="${(R + r) / 2}" fill="none" stroke="${it.color}" stroke-width="${R - r}"/>`
+      : `<path d="M${p(a0, R)} A${R},${R} 0 ${large} 1 ${p(a1, R)} L${p(a1, r)} A${r},${r} 0 ${large} 0 ${p(a0, r)} Z" fill="${it.color}" stroke="#17181e" stroke-width="2"><title>${esc(it.label)}: ${nf.format(it.value)}</title></path>`;
+    a0 = a1;
+  });
+  el.innerHTML = `<svg viewBox="0 0 170 170">${g}<text x="${C}" y="${C - 2}" text-anchor="middle" fill="#f2f3f7" font-size="20" font-weight="700">${nf.format(total)}</text><text x="${C}" y="${C + 16}" text-anchor="middle" fill="#8b8fa3" font-size="11">foydalanuvchi</text></svg>`;
+}
+
+const bytes = (b) => b >= 1048576 ? (b / 1048576).toFixed(1) + ' MB' : b >= 1024 ? (b / 1024).toFixed(1) + ' KB' : b + ' B';
+function renderInfra() {
+  const inf = state.infra;
+  if (!inf) { $('dbRows').innerHTML = '<span class="muted">Ma’lumot olib bo‘lmadi.</span>'; return; }
+  const mb = inf.mapbox;
+  $('mbMonth').textContent = mb.month;
+  $('mbMau').textContent = nf.format(mb.mau);
+  $('mbOf').textContent = `/ ${nf.format(mb.freeMau)} oylik faol (bepul limit)`;
+  $('mbMeter').style.width = Math.min(100, mb.mau / mb.freeMau * 100) + '%';
+  $('mbMeter').style.background = mb.mau / mb.freeMau > 0.8 ? 'var(--warn)' : 'var(--accent)';
+  $('mbSub').textContent = `O‘tgan oy: ${nf.format(mb.mauPrev)} · Taxminiy: xaritani ochgan foydalanuvchilar ilova hisobidan. Aniq hisob — account.mapbox.com`;
+  barChart($('chart-map'), mb.opens.map((o) => ({ day: o.key, count: o.count })), '#3b82f6', 'ochilish', { label: (d) => keyLabel(d.day), every: everyFor(mb.opens.length) });
+  $('mbOpensTitle').textContent = `Xarita ochilishlari · ${rangeName()}`;
+  const db = inf.db;
+  $('dbKeys').textContent = nf.format(db.keys);
+  $('dbMem').textContent = db.memoryBytes != null ? `Xotira: ${bytes(db.memoryBytes)}` : 'Xotira hajmini baza bermadi — Vercel → Storage bo‘limida ko‘ring';
+  const max = Math.max(1, ...db.groups.map((g) => g.keys));
+  $('dbRows').innerHTML = db.groups.map((g) => `<div class="rowbar"><span>${esc(g.name)}</span><div class="track"><span style="width:${g.keys / max * 100}%"></span></div><span class="n">${nf.format(g.keys)}</span></div>`).join('');
+}
+
+const dayLabel = (d) => d.slice(8, 10) + '.' + d.slice(5, 7);
+/** Single-series bar chart: 4px rounded tops on the baseline, recessive grid, hover tooltip, table view. */
+function barChart(el, data, color, unit, opts = {}) {
+  const lab = opts.label || ((d) => dayLabel(d.day)), every = opts.every || 2;
+  const max = Math.max(1, ...data.map((d) => d.count));
+  const step = Math.pow(10, Math.floor(Math.log10(max)));
+  const nice = Math.ceil(max / step) * step;
+  const W = 640, H = 190, L = 12 + 7 * nf.format(nice).length, R = 6, T = 10, B = 24;
+  const y = (v) => T + (H - T - B) * (1 - v / nice);
+  const slot = (W - L - R) / data.length, bw = Math.max(4, slot - 6);
+  let g = '';
+  [0, 0.5, 1].forEach((f) => {
+    const v = Math.round(nice * f), yy = y(v);
+    g += `<line x1="${L}" x2="${W - R}" y1="${yy}" y2="${yy}" stroke="#ffffff${f === 0 ? '2a' : '12'}" stroke-width="1"/>`;
+    g += `<text x="${L - 6}" y="${yy + 4}" text-anchor="end" fill="#8b8fa3" font-size="11">${nf.format(v)}</text>`;
+  });
+  data.forEach((d, i) => {
+    const x = L + i * slot + (slot - bw) / 2, top = y(d.count), base = y(0), h = base - top, r = Math.min(4, h, bw / 2);
+    const path = h <= 0 ? '' : `M${x},${base} V${top + r} Q${x},${top} ${x + r},${top} H${x + bw - r} Q${x + bw},${top} ${x + bw},${top + r} V${base} Z`;
+    g += `<rect class="hit" data-i="${i}" x="${L + i * slot}" y="${T}" width="${slot}" height="${H - T - B}" fill="transparent"/>`;
+    if (path) g += `<path class="bar" data-i="${i}" d="${path}" fill="${color}"/>`;
+    if (i % every === (data.length - 1) % every) g += `<text x="${x + bw / 2}" y="${H - 6}" text-anchor="middle" fill="#8b8fa3" font-size="11">${lab(d)}</text>`;
+  });
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="${unit}">${g}</svg><div class="tip hidden"></div>
+    <details><summary>Jadval ko‘rinishi</summary><table>${data.map((d) => `<tr><td>${lab(d)}</td><td>${nf.format(d.count)}</td></tr>`).join('')}</table></details>`;
+  const svg = el.querySelector('svg'), tip = el.querySelector('.tip');
+  svg.onmousemove = (e) => {
+    const t = e.target.closest('[data-i]'); if (!t) return;
+    const i = +t.dataset.i, d = data[i];
+    svg.querySelectorAll('.bar').forEach((b) => b.setAttribute('opacity', +b.dataset.i === i ? 1 : 0.45));
+    const rect = svg.getBoundingClientRect(), sx = rect.width / W;
+    tip.style.left = (L + i * slot + slot / 2) * sx + 'px';
+    tip.style.top = Math.max(0, y(d.count) * (rect.height / H) - 8) + 'px';
+    tip.innerHTML = `<b>${nf.format(d.count)}</b> ${unit} · ${lab(d)}`;
+    tip.classList.remove('hidden');
+  };
+  svg.onmouseleave = () => { tip.classList.add('hidden'); svg.querySelectorAll('.bar').forEach((b) => b.setAttribute('opacity', 1)); };
+}
+
+// ---------------------------------------------------------------- countries
+const regionName = (() => { try { const dn = new Intl.DisplayNames(['uz', 'en'], { type: 'region' }); return (c) => dn.of(c) || c; } catch { return (c) => c; } })();
+const flag = (c) => /^[A-Z]{2}$/.test(c) ? String.fromCodePoint(...[...c].map((ch) => 127397 + ch.charCodeAt(0))) : '🏳️';
+function renderCountries() {
+  const list = state.countries || [];
+  const total = list.reduce((s, c) => s + c.count, 0);
+  $('cnTotal').textContent = total ? `${nf.format(total)} ta aniqlangan` : '';
+  if (!list.length) { $('countryDonut').innerHTML = ''; $('countryRows').innerHTML = '<span class="muted">Hali ma’lumot yo‘q — foydalanuvchilar ilovani ochganda yig‘iladi.</span>'; return; }
+  const top = list.slice(0, 5), rest = list.slice(5).reduce((s, c) => s + c.count, 0);
+  const items = top.map((c, i) => ({ label: `${flag(c.code)} ${regionName(c.code)}`, value: c.count, color: CATS[i] }));
+  if (rest) items.push({ label: 'Boshqa davlatlar', value: rest, color: CATS[5] });
+  donut($('countryDonut'), items);
+  $('countryRows').innerHTML = items.map((it) => `<div class="rowbar" style="grid-template-columns:1fr 70px"><span><i class="sw" style="background:${it.color}"></i>${esc(it.label)}</span><span class="n">${nf.format(it.value)} · ${pct(it.value, total)}%</span></div>`).join('');
+}
+
+// ---------------------------------------------------------------- status (live)
+let statusTimer = null;
+async function loadStatus() {
+  try {
+    const r = await fetch('/api/admin?part=status', { headers: { 'x-admin-secret': secret } });
+    if (r.status === 401) return logout();
+    renderStatus(await r.json());
+  } catch {}
+}
+function renderStatus({ activity, telegram }) {
+  const dcs = telegram.dcs, up = dcs.filter((d) => d.ms != null).length;
+  const tg = up === dcs.length ? ['ok', 'Ishlayapti'] : up ? ['warn', `${up}/${dcs.length} ishlayapti`] : ['bad', 'Javob yo‘q'];
+  $('tgPill').className = `pill ${tg[0]}`; $('tgPill').textContent = tg[1];
+  $('tgChips').innerHTML = dcs.map((d) => `<div class="chip${d.ms == null ? ' bad' : ''}"><b>${d.ms == null ? 'xato' : d.ms + ' ms'}</b>DC${d.dc} · ${d.place}</div>`).join('');
+  $('tgNote').textContent = `Tekshirildi: ${new Date(telegram.checkedAt).toLocaleTimeString('uz-UZ')}${telegram.region ? ' · server: ' + telegram.region : ''}`;
+  const lat = activity.dbLatencyMs, db = lat < 150 ? ['ok', 'Ishlayapti'] : lat < 600 ? ['warn', 'Sekin'] : ['bad', 'Juda sekin'];
+  $('dbPill').className = `pill ${db[0]}`; $('dbPill').textContent = db[1];
+  $('dbChips').innerHTML = `<div class="chip"><b>${lat} ms</b>javob vaqti</div>` + (state.infra ? `<div class="chip"><b>${nf.format(state.infra.db.keys)}</b>kalit</div>` : '');
+  const mins = activity.minutes, last = mins[mins.length - 1].count, hour = mins.reduce((s, m) => s + m.count, 0), peak = Math.max(...mins.map((m) => m.count));
+  $('rpmChips').innerHTML = `<div class="chip"><b>${nf.format(last)}</b>shu daqiqada</div><div class="chip"><b>${nf.format(hour)}</b>so‘nggi soatda</div><div class="chip"><b>${nf.format(peak)}</b>eng yuqori/daq</div>`;
+  const hm = (t) => new Date(t).toLocaleTimeString('uz-UZ', { hour: '2-digit', minute: '2-digit' });
+  barChart($('chart-rpm'), mins, '#3b82f6', 'so‘rov', { label: (d) => hm(d.t), every: 10 });
+  const icons = { user: '👤', map: '🗺️', ad: '📣' };
+  $('feed').innerHTML = activity.events.length ? activity.events.map((e) => `<li><time>${hm(e.t)}</time><span>${icons[e.type] || '•'} ${esc(e.text)}</span></li>`).join('')
+    : '<li class="muted">Hozircha voqea yo‘q</li>';
+}
+
+// ---------------------------------------------------------------- China proxy check (Globalping, from the browser)
+const BINS = [
+  { max: 50, color: '#20a32a', label: '≤ 50 ms' }, { max: 100, color: '#4cd64a', label: '51–100 ms' },
+  { max: 200, color: '#b9ec5f', label: '101–200 ms' }, { max: 250, color: '#f5e050', label: '201–250 ms' },
+  { max: Infinity, color: '#f39c3d', label: '> 250 ms' },
+];
+const TIMEOUT = { color: '#e5302f', label: 'Ulanmadi' }, NODATA = '#2a2c36';
+const binOf = (ms) => ms == null ? TIMEOUT : BINS.find((b) => ms <= b.max);
+let china = null, provinceStats = {};
+async function drawChina() {
+  if (!china) china = await (await fetch('/china.json')).json();
+  const k = 10, c = Math.cos(35 * Math.PI / 180), X = (lon) => (lon - 73) * c * k, Y = (lat) => (54 - lat) * k;
+  const estimates = estimateProvinces();
+  const paths = china.map((p, i) => {
+    const d = p.r.map((ring) => 'M' + ring.map(([lon, lat]) => `${X(lon).toFixed(1)},${Y(lat).toFixed(1)}`).join('L') + 'Z').join('');
+    const st = provinceStats[p.n], est = estimates[p.n];
+    const name = `${esc(p.zh || p.n)} · ${esc(p.n)}`;
+    if (st) return `<path d="${d}" fill="${binOf(st.avg).color}"><title>${name}\n${st.ok}/${st.n} nuqta · ${st.avg == null ? 'ulanmadi' : 'mediana ' + Math.round(st.avg) + ' ms'}</title></path>`;
+    if (est != null) {
+      const color = binOf(est).color;
+      return `<path d="${d}" fill="${color}"/><path d="${d}" fill="url(#hatch)"><title>${name}\nTaxminan ${Math.round(est)} ms (yaqin provinsiyalar asosida, bu yerda nuqta yo‘q)</title></path>`;
+    }
+    return `<path d="${d}" fill="${NODATA}"><title>${name}\nnuqta yo‘q</title></path>`;
+  }).join('');
+  const defs = `<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="transparent"/><line x1="0" y1="0" x2="0" y2="6" stroke="#0e0f13" stroke-width="2.2" stroke-opacity=".45"/></pattern></defs>`;
+  $('cnSvg').innerHTML = `<svg viewBox="0 0 ${((136 - 73) * c * k).toFixed(0)} ${(36 * k).toFixed(0)}" role="img" aria-label="Xitoy provinsiyalari bo‘yicha proksi kechikishi">${defs}${paths}</svg>`;
+  $('cnLegend').innerHTML = [TIMEOUT, ...BINS.slice().reverse()].map((b) => `<span><i style="background:${b.color}"></i>${b.label}</span>`).join('')
+    + `<span><i style="background:repeating-linear-gradient(45deg,#4cd64a 0 3px,#2a7a2a 3px 5px)"></i>Chiziqli — taxminiy (bu provinsiyada nuqta yo‘q)</span>`
+    + (Object.keys(provinceStats).length ? '' : `<span><i style="background:${NODATA}"></i>Hali tekshirilmagan</span>`);
+}
+
+/** Provinces without probes get an inverse-distance estimate from measured ones (shown hatched). */
+function estimateProvinces() {
+  const measured = china.filter((p) => provinceStats[p.n]);
+  if (!measured.length) return {};
+  const centroid = (p) => { let x = 0, y = 0, n = 0; p.r.forEach((ring) => ring.forEach(([a, b]) => { x += a; y += b; n++; })); return [x / n, y / n]; };
+  const dist = ([a1, b1], [a2, b2]) => { const dx = (a2 - a1) * Math.cos((b1 + b2) / 2 * Math.PI / 180); return Math.hypot(dx, b2 - b1); };
+  const src = measured.map((p) => ({ c: centroid(p), v: provinceStats[p.n].avg == null ? 3000 : provinceStats[p.n].avg }));
+  const out = {};
+  china.forEach((p) => {
+    if (provinceStats[p.n]) return;
+    const c = centroid(p);
+    let w = 0, sum = 0;
+    src.forEach((s) => { const d = Math.max(0.5, dist(c, s.c)), k = 1 / (d * d); w += k; sum += k * s.v; });
+    out[p.n] = sum / w;
+  });
+  return out;
+}
+function provinceOf(lon, lat) {
+  const inside = (ring) => { let x = false; for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) { const [xi, yi] = ring[i], [xj, yj] = ring[j]; if ((yi > lat) !== (yj > lat) && lon < (xj - xi) * (lat - yi) / (yj - yi) + xi) x = !x; } return x; };
+  const hit = china.find((p) => p.r.some(inside));
+  if (hit) return hit.n;
+  let best = null, bd = Infinity; // coastal probes can fall just outside the simplified outline
+  china.forEach((p) => p.r.forEach((ring) => ring.forEach(([x, y]) => { const d = (x - lon) ** 2 + (y - lat) ** 2; if (d < bd) { bd = d; best = p.n; } })));
+  return bd < 1 ? best : null;
+}
+const ispOf = (net) => /telecom|chinanet/i.test(net) ? 'China Telecom' : /unicom|china169/i.test(net) ? 'China Unicom' : /mobile/i.test(net) ? 'China Mobile' : /tencent|alibaba|aliyun|huawei|baidu|jd\.com/i.test(net) ? 'Bulut (DC)' : 'Boshqa';
+function renderProxies() {
+  const list = state.proxies || [];
+  $('proxySel').innerHTML = list.map((p, i) => `<option value="${i}">${esc(p.name)} — ${esc(p.host)}:${p.port}</option>`).join('');
+  $('proxyList').value = list.map((p) => `${p.name} ${p.host}:${p.port}`).join('\n');
+}
+async function probe() {
+  const p = (state.proxies || [])[+$('proxySel').value]; if (!p) return;
+  $('probeBtn').disabled = true; const bar = $('probeProgress'); bar.classList.remove('hidden'); bar.firstElementChild.style.width = '5%';
+  $('probeInfo').textContent = `${p.host}:${p.port} — Xitoydagi nuqtalarga so‘rov yuborilmoqda…`;
+  try {
+    const r = await fetch('https://api.globalping.io/v1/measurements', { method: 'POST', headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ type: 'ping', target: p.host, locations: [{ country: 'CN', limit: 50 }], measurementOptions: { packets: 3, protocol: 'TCP', port: p.port } }) });
+    const created = await r.json();
+    if (!r.ok) throw new Error(created.error?.message || 'Globalping xatosi');
+    const left = r.headers.get('x-ratelimit-remaining');
+    let m;
+    for (let i = 0; i < 40; i++) {
+      await new Promise((res) => setTimeout(res, 1000));
+      const g = await fetch(`https://api.globalping.io/v1/measurements/${created.id}`);
+      if (!g.ok) continue; // rate limited or not ready yet: try again next second
+      m = await g.json();
+      if (!m.results) continue;
+      const done = m.results.filter((x) => x.result.status !== 'in-progress').length;
+      bar.firstElementChild.style.width = Math.max(5, done / Math.max(1, created.probesCount) * 100) + '%';
+      if (m.status !== 'in-progress') break;
+    }
+    if (!m || !m.results) throw new Error('Natija olinmadi, birozdan keyin qayta urining');
+    const rows = m.results.map((x) => ({ city: x.probe.city, net: x.probe.network, isp: ispOf(x.probe.network), lon: x.probe.longitude, lat: x.probe.latitude,
+      ms: x.result.status === 'finished' && x.result.stats && x.result.stats.loss < 100 ? x.result.stats.avg : null }));
+    provinceStats = {};
+    // a province's value is the median of its probes, so one slow datacenter does not repaint the region
+    rows.forEach((x) => { const pv = provinceOf(x.lon, x.lat); if (!pv) return; const st = provinceStats[pv] ||= { n: 0, ok: 0, samples: [], avg: null }; st.n++; if (x.ms != null) { st.ok++; st.samples.push(x.ms); } });
+    Object.values(provinceStats).forEach((st) => { const v = st.samples.sort((a, b) => a - b), m = v.length >> 1; st.avg = v.length ? (v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2) : null; });
+    await drawChina();
+    const groups = ['Hammasi', 'China Telecom', 'China Unicom', 'China Mobile', 'Bulut (DC)', 'Boshqa'].map((g) => {
+      const list = rows.filter((x) => g === 'Hammasi' || x.isp === g); if (!list.length) return '';
+      const ok = list.filter((x) => x.ms != null).sort((a, b) => a.ms - b.ms);
+      const avg = ok.length ? Math.round(ok.reduce((s, x) => s + x.ms, 0) / ok.length) : null;
+      const cell = (x) => x ? `${esc(x.city)} ${Math.round(x.ms)} ms` : '—';
+      return `<tr><td>${g === 'Hammasi' ? '<b>Hammasi</b>' : g}</td><td>${cell(ok[0])}</td><td>${cell(ok[ok.length - 1])}</td><td class="r">${avg == null ? '<span style="color:var(--bad)">ulanmadi</span>' : avg + ' ms'}</td><td class="r">${ok.length}/${list.length}</td></tr>`;
+    }).join('');
+    $('probeTable').tBodies[0].innerHTML = groups;
+    const okAll = rows.filter((x) => x.ms != null).length;
+    $('probeInfo').innerHTML = `${esc(p.host)}:${p.port} · ${new Date().toLocaleTimeString('uz-UZ')} · <b style="color:${okAll ? 'var(--ok)' : 'var(--bad)'}">${okAll}/${rows.length} nuqtadan ulandi</b>${left ? ` · Globalping limiti: yana ${left} ta` : ''}`;
+  } catch (e) { $('probeInfo').textContent = 'Xatolik: ' + e.message; }
+  finally { $('probeBtn').disabled = false; setTimeout(() => bar.classList.add('hidden'), 600); }
+}
+
+// ---------------------------------------------------------------- usage
+let usage = null;
+const LIMIT_FIELDS = [
+  ['vercelInvocations', 'Vercel: chaqiruvlar / oy'], ['vercelGbHours', 'Vercel: GB-soat / oy'], ['vercelMemoryGb', 'Vercel: funksiya xotirasi (GB)'],
+  ['vercelTransferGb', 'Vercel: chiquvchi trafik GB / oy'], ['redisCommands', 'Redis: buyruqlar / oy'], ['redisStorageMb', 'Redis: hajm (MB)'], ['mapboxMau', 'Mapbox: MAU'],
+];
+function ring(pctUsed, color) {
+  const r = 30, c = 2 * Math.PI * r, v = Math.min(100, pctUsed);
+  return `<svg viewBox="0 0 76 76"><circle cx="38" cy="38" r="${r}" fill="none" stroke="#ffffff12" stroke-width="7"/>
+    <circle cx="38" cy="38" r="${r}" fill="none" stroke="${color}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${c * v / 100} ${c}" transform="rotate(-90 38 38)"/>
+    <text x="38" y="43" text-anchor="middle" fill="#f2f3f7" font-size="15" font-weight="700">${pctUsed < 1 && pctUsed > 0 ? '<1' : Math.round(pctUsed)}%</text></svg>`;
+}
+function gauge(name, used, limit, fmtv, unit, u) {
+  const p = limit ? used / limit * 100 : 0;
+  const projected = u.dayOfMonth ? used / u.dayOfMonth * u.daysInMonth : used;
+  const pp = limit ? projected / limit * 100 : 0;
+  const color = p >= 90 || pp >= 100 ? 'var(--bad)' : p >= 70 || pp >= 85 ? 'var(--warn)' : 'var(--ok)';
+  return `<div class="gauge">${ring(p, color)}<div><div class="name">${name}</div><div class="val">${fmtv(used)}</div>
+    <div class="of">/ ${fmtv(limit)} ${unit}</div><div class="proj" style="color:${pp >= 100 ? 'var(--bad)' : 'var(--muted)'}">Oy oxiriga: ~${fmtv(projected)} (${Math.round(pp)}%)</div></div></div>`;
+}
+async function loadUsage() {
+  try {
+    const r = await fetch('/api/admin?part=usage', { headers: { 'x-admin-secret': secret } });
+    if (r.status === 401) return logout();
+    usage = await r.json(); renderUsage();
+  } catch (e) { toast('Sarf ma’lumotini olib bo‘lmadi'); }
+}
+function renderUsage() {
+  const u = usage, L = u.limits, num = (v) => nf.format(Math.round(v)), dec = (v) => v < 10 ? v.toFixed(2) : nf.format(Math.round(v));
+  const gb = (b) => b / 1073741824, mb = (b) => b / 1048576;
+  $('usageTitle').textContent = `Sarf · ${u.month}`;
+  $('usageSub').textContent = `${u.dayOfMonth}/${u.daysInMonth} kun o‘tdi`;
+  $('gauges').innerHTML =
+    gauge('Vercel · funksiya chaqiruvlari', u.vercel.invocations, L.vercelInvocations, num, '', u) +
+    gauge('Vercel · xotira vaqti', u.vercel.gbHours, L.vercelGbHours, dec, 'GB-soat', u) +
+    gauge('Vercel · chiquvchi trafik', gb(u.vercel.transferBytes), L.vercelTransferGb, dec, 'GB', u) +
+    gauge('Redis · buyruqlar', u.redis.commands, L.redisCommands, num, '', u) +
+    (u.redis.memoryBytes != null ? gauge('Redis · hajm', mb(u.redis.memoryBytes), L.redisStorageMb, dec, 'MB', u) : '') +
+    gauge('Mapbox · oylik faol', u.mapbox.mau, L.mapboxMau, num, 'foydalanuvchi', u);
+  barChart($('chart-inv'), u.daily.map((d) => ({ day: d.day, count: d.invocations })), '#3b82f6', 'chaqiruv', { every: Math.max(1, Math.ceil(u.daily.length / 8)) });
+  const fns = u.vercel.functions, max = Math.max(1, ...fns.map((f) => f.count));
+  $('fnRows').innerHTML = fns.length ? fns.map((f) => `<div class="rowbar"><span>/api/${esc(f.name)}</span><div class="track"><span style="width:${f.count / max * 100}%"></span></div><span class="n">${nf.format(f.count)}</span></div>`).join('') : '<span class="muted">Hali ma’lumot yo‘q</span>';
+  $('limitForm').innerHTML = LIMIT_FIELDS.map(([k, label]) => `<div><label>${label}</label><input type="number" min="0" step="any" data-limit="${k}" value="${L[k]}"></div>`).join('');
+  $('usageNote').textContent = `Vercel Hobby tarifida rasmiy sarf API’si yo‘q, shuning uchun raqamlarni serverning o‘zi o‘lchaydi${u.since ? ' (' + new Date(u.since).toLocaleDateString('uz-UZ') + ' dan beri)' : ''}: funksiya chaqiruvlari, ishlash vaqti, javob hajmi va Redis buyruqlari. Aniq hisob — Vercel, Upstash va Mapbox dashboard’larida.`;
+}
+
+async function load() {
+  state = await api('GET', null, `?range=${range}`);
+  $('login').classList.add('hidden');
+  $('tabs').classList.remove('hidden'); $('refreshBtn').classList.remove('hidden'); $('logoutBtn').classList.remove('hidden');
+  renderDash();
+  renderCountries();
+  renderProxies();
+  showTab(tab);
+  const c = state.config;
+  $('storyEvery').value = c.storyEvery; $('storyDurationSec').value = c.storyDurationSec;
+  $('bannerEnabled').checked = c.bannerEnabled; $('storyEnabled').checked = c.storyEnabled;
+  renderAds();
+}
+
+function logout() { secret = ''; try { localStorage.removeItem('umAdminSecret'); } catch {} location.reload(); }
+
+function status(ad) {
+  const now = Date.now();
+  if (ad.active === false) return ['b-off', 'To‘xtatilgan'];
+  if (ad.end && ad.end <= now) return ['b-end', 'Muddati tugagan'];
+  if (ad.start && ad.start > now) return ['b-off', 'Rejalashtirilgan'];
+  return ['b-live', 'Faol'];
+}
+const fmt = (t) => t ? new Date(t).toLocaleString('uz-UZ', { dateStyle: 'medium', timeStyle: 'short' }) : '∞';
+const imgUrl = (ad, kind) => (kind === 'logo' ? ad.hasLogo : ad.hasArt) ? `/api/ad-image?id=${ad.id}&kind=${kind}&v=${ad.updatedAt}` : null;
+
+function bannerHtml(a) {
+  return `<div class="banner" style="background:linear-gradient(90deg,${a.colorStart},${a.colorEnd})">
+    ${a.artUrl ? `<img class="art" src="${a.artUrl}">` : ''}
+    <div class="logo">${a.logoUrl ? `<img src="${a.logoUrl}">` : esc(a.brand)}<small>Reklama</small></div>
+    <div class="head">${esc(a.headline)}</div>
+    <div class="cta" style="background:${a.ctaColor}">→</div></div>`;
+}
+function storyHtml(a) {
+  return `<div class="story" style="background:linear-gradient(135deg,${a.colorStart},${a.colorEnd})"><div class="bar"></div>
+    <div class="logo">${a.logoUrl ? `<img src="${a.logoUrl}">` : esc(a.brand)}<span style="opacity:.7;font-weight:400">Reklama</span></div>
+    ${a.artUrl ? `<img class="art" src="${a.artUrl}">` : ''}<div class="head">${esc(a.headline)}</div><div class="btn">Ochish</div></div>`;
+}
+
+function renderAds() {
+  const list = $('ads');
+  if (!state.ads.length) { list.innerHTML = '<div class="panel muted">Hozircha reklama yo‘q. «+ Yangi reklama» tugmasini bosing.</div>'; return; }
+  list.innerHTML = state.ads.map((ad) => {
+    const [cls, label] = status(ad);
+    const v = ad.stats.views, c = ad.stats.clicks, ctr = v ? (c / v * 100).toFixed(1) : '0.0';
+    const view = { ...ad, logoUrl: imgUrl(ad, 'logo'), artUrl: imgUrl(ad, 'art') };
+    return `<div class="panel ad">${bannerHtml(view)}
+      <div>
+        <div class="row"><b style="font-size:16px">${esc(ad.brand)}</b><span class="badge ${cls}">${label}</span><span class="muted">${(ad.placements || []).map((p) => p === 'story' ? 'Storis' : 'Banner').join(' · ')}</span></div>
+        <div class="muted" style="margin-top:4px">${fmt(ad.start || ad.createdAt)} — ${fmt(ad.end)}</div>
+        <div class="stats"><div><b>${v}</b><span class="muted">ko‘rildi</span></div><div><b>${c}</b><span class="muted">bosildi</span></div><div><b>${ctr}%</b><span class="muted">CTR</span></div></div>
+        <div class="row">
+          <button class="ghost" data-edit="${ad.id}">Tahrirlash</button>
+          <button class="ghost" data-toggle="${ad.id}">${ad.active === false ? 'Yoqish' : 'To‘xtatish'}</button>
+          <button class="danger" data-del="${ad.id}">O‘chirish</button>
+        </div>
+      </div></div>`;
+  }).join('');
+}
+
+const toLocal = (t) => { if (!t) return ''; const d = new Date(t); d.setMinutes(d.getMinutes() - d.getTimezoneOffset()); return d.toISOString().slice(0, 16); };
+const fromLocal = (s) => s ? new Date(s).getTime() : null;
+
+function openEditor(ad) {
+  editing = ad; images = { logo: null, art: null };
+  $('editorTitle').textContent = ad ? `Tahrirlash: ${ad.brand}` : 'Yangi reklama';
+  $('f-brand').value = ad?.brand || ''; $('f-url').value = ad?.url || ''; $('f-headline').value = ad?.headline || '';
+  $('f-colorStart').value = ad?.colorStart || '#0b1020'; $('f-colorEnd').value = ad?.colorEnd || '#1d2f8f'; $('f-ctaColor').value = ad?.ctaColor || '#2f6bff';
+  $('f-banner').checked = !ad || ad.placements.includes('banner'); $('f-story').checked = !ad || ad.placements.includes('story');
+  $('f-start').value = toLocal(ad?.start); $('f-end').value = toLocal(ad?.end);
+  $('f-active').checked = !ad || ad.active !== false;
+  $('f-logo').value = ''; $('f-art').value = ''; $('f-logoRemove').checked = false; $('f-artRemove').checked = false;
+  $('editor').classList.remove('hidden'); $('editor').scrollIntoView({ behavior: 'smooth' });
+  preview();
+}
+
+function formAd() {
+  const imgFor = (kind) => {
+    if ($(`f-${kind}Remove`).checked) return null;
+    if (images[kind]) return images[kind].url;
+    return editing ? imgUrl(editing, kind) : null;
+  };
+  return {
+    brand: $('f-brand').value, headline: $('f-headline').value, url: $('f-url').value,
+    colorStart: $('f-colorStart').value, colorEnd: $('f-colorEnd').value, ctaColor: $('f-ctaColor').value,
+    logoUrl: imgFor('logo'), artUrl: imgFor('art'),
+  };
+}
+function preview() { const a = formAd(); $('pv-banner').outerHTML = bannerHtml(a).replace('class="banner"', 'class="banner" id="pv-banner"'); $('pv-story').outerHTML = storyHtml(a).replace('class="story"', 'class="story" id="pv-story"'); }
+
+function readFile(input, kind) {
+  const file = input.files[0];
+  if (!file) { images[kind] = null; preview(); return; }
+  if (file.size > 700 * 1024) { toast('Fayl 700 KB dan katta'); input.value = ''; return; }
+  const reader = new FileReader();
+  reader.onload = () => { const url = reader.result; images[kind] = { mime: file.type, data: url.split(',')[1], url }; preview(); };
+  reader.readAsDataURL(file);
+}
+
+async function saveAd() {
+  const placements = [$('f-banner').checked && 'banner', $('f-story').checked && 'story'].filter(Boolean);
+  const body = {
+    action: 'save',
+    ad: { id: editing?.id, brand: $('f-brand').value, headline: $('f-headline').value, url: $('f-url').value,
+      colorStart: $('f-colorStart').value, colorEnd: $('f-colorEnd').value, ctaColor: $('f-ctaColor').value,
+      placements, start: fromLocal($('f-start').value), end: fromLocal($('f-end').value), active: $('f-active').checked },
+    logo: $('f-logoRemove').checked ? 'remove' : images.logo && { mime: images.logo.mime, data: images.logo.data },
+    art: $('f-artRemove').checked ? 'remove' : images.art && { mime: images.art.mime, data: images.art.data },
+  };
+  $('saveAd').disabled = true;
+  try { await api('POST', body); toast('Saqlandi'); $('editor').classList.add('hidden'); await load(); }
+  catch (e) { toast(e.message); }
+  finally { $('saveAd').disabled = false; }
+}
+
+$('loginBtn').onclick = async () => { secret = $('secret').value.trim(); try { await load(); try { localStorage.setItem('umAdminSecret', secret); } catch {} } catch (e) { toast(e.message); } };
+$('secret').onkeydown = (e) => { if (e.key === 'Enter') $('loginBtn').click(); };
+$('logoutBtn').onclick = logout;
+$('tabs').onclick = (e) => { const b = e.target.closest('button'); if (b) showTab(b.dataset.tab); };
+$('refreshBtn').onclick = async () => { try { await load(); toast('Yangilandi'); } catch (e) { toast(e.message); } };
+$('probeBtn').onclick = probe;
+$('rangeSeg').onclick = async (e) => {
+  const b = e.target.closest('button'); if (!b || b.dataset.range === range) return;
+  range = b.dataset.range; try { localStorage.setItem('umAdminRange', range); } catch {}
+  document.querySelectorAll('#rangeSeg button').forEach((x) => x.classList.toggle('on', x === b));
+  try { await load(); } catch (err) { toast(err.message); }
+};
+$('saveProxies').onclick = async () => {
+  const proxies = $('proxyList').value.split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
+    const m = l.match(/^(.*?)\s*([A-Za-z0-9.-]+):(\d+)$/); return m ? { name: m[1], host: m[2], port: +m[3] } : null; }).filter(Boolean);
+  try { state.proxies = (await api('POST', { action: 'proxies', proxies })).proxies; renderProxies(); toast('Proksilar saqlandi'); } catch (e) { toast(e.message); }
+};
+$('saveLimits').onclick = async () => {
+  const limits = {}; document.querySelectorAll('[data-limit]').forEach((i) => { limits[i.dataset.limit] = +i.value; });
+  try { usage.limits = (await api('POST', { action: 'limits', limits })).limits; renderUsage(); toast('Limitlar saqlandi'); } catch (e) { toast(e.message); }
+};
+$('newBtn').onclick = () => openEditor(null);
+$('cancelEdit').onclick = () => $('editor').classList.add('hidden');
+$('saveAd').onclick = saveAd;
+$('f-logo').onchange = (e) => readFile(e.target, 'logo');
+$('f-art').onchange = (e) => readFile(e.target, 'art');
+['f-brand', 'f-headline', 'f-colorStart', 'f-colorEnd', 'f-ctaColor', 'f-logoRemove', 'f-artRemove'].forEach((id) => $(id).addEventListener('input', preview));
+$('saveConfig').onclick = async () => {
+  try {
+    const r = await api('POST', { action: 'config', config: { storyEvery: +$('storyEvery').value, storyDurationSec: +$('storyDurationSec').value, bannerEnabled: $('bannerEnabled').checked, storyEnabled: $('storyEnabled').checked } });
+    state.config = r.config; toast('Sozlamalar saqlandi');
+  } catch (e) { toast(e.message); }
+};
+$('ads').onclick = async (e) => {
+  const b = e.target.closest('button'); if (!b) return;
+  const id = b.dataset.edit || b.dataset.toggle || b.dataset.del;
+  const ad = state.ads.find((a) => a.id === id); if (!ad) return;
+  try {
+    if (b.dataset.edit) openEditor(ad);
+    else if (b.dataset.toggle) { await api('POST', { action: 'save', ad: { ...ad, active: ad.active === false } }); await load(); }
+    else if (b.dataset.del && confirm(`«${ad.brand}» reklamasini o‘chirasizmi?`)) { await api('POST', { action: 'delete', id }); await load(); toast('O‘chirildi'); }
+  } catch (err) { toast(err.message); }
+};
+if (secret) load().catch(() => {});
+</script>
+</body>
+</html>

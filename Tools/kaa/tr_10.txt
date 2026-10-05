@@ -1,0 +1,376 @@
+MigrateOldFolder	Eski papkanı Scoped Storage ǵa kóshiriw
+SelectThisDay	Usı kúndi tańlaw
+NoMessagesForThisDay	Bul kún ushın xabarlar joq
+SelectDays	Kúnlerdi tańlaw
+ClearHistoryForTheseDays	Usı kúnler ushın tariyxtı tazalaw
+ActionForwardsEnabledGroup	un1 bul topardan jiberiwdi qostı
+ActionForwardsEnabledChannel	un1 bul kanaldan jiberiwdi qostı
+ActionForwardsRestrictedGroup	un1 bul topardan jiberiwdi shekledi
+ActionForwardsRestrictedChannel	un1 bul kanaldan jiberiwdi shekledi
+TypePrivateRestrictedForwards	Jabıq, sheklengen
+TypePrivateGroupRestrictedForwards	Jabıq, sheklengen
+ClearHistoryForThisDay	Usı kún ushın tariyxtı tazalaw
+SelectDaysTooltip	Aldın bir yamasa bir neshe kúndi tańlań.
+MissedCallDescriptionTitle	Jetispeytuǵın sanlardı kirgiziń
+MissedCallDescriptionSubtitle	Keyingi bir neshe sekund ishinde sizge tómendegi nomerden qısqa qońıraw keliwi kerek:
+MissedCallDescriptionSubtitle2	Qońıraw etken nomerdiń sońǵı sanların kirgiziń
+DeleteHistoryByDaysMessage	Tańlanǵan kúnler ushın barlıq xabarlardı óshiriwdi anıq qáleysiz be?
+AcceptCallsChatsDescription	Bul qurılmanı qońırawlar ushın qollanıw
+AcceptCalls	Qońırawlardı qabıl etiw
+ForceSetPasswordCancel	Awa, isenimim kámil
+Warning	Eskertiw
+ChatWithGroupAdmin	**%1$s** — siz qosılıwdı soraǵan **%2$s** toparınıń administratorı.
+ChatWithChannelAdmin	**%1$s** — siz qosılıwdı soraǵan **%2$s** kanalınıń administratorı.
+ChatWithAdminChannelTitle	Kanal administratorı menen sáwbet
+ChatWithAdminGroupTitle	Topar administratorı menen sáwbet
+IUnderstand	Túsindim
+SessionsSelfDestruct	Seanslardıń ózin-ózi joq etiwi
+ChatWithAdminMessage	Siz bul xabardı %2$s kúni **%1$s** ge qosılıwdı soraǵanıńız ushın aldıńız
+EventLogSendMessages	un1 usı xabardı jiberdi:
+DidNotGetTheCodePhone	Kodtı usı telefonǵa alıw
+MigrateOldFolderButton	Fayllardı házir kóshiriw
+MigrateOldFolderTitle	Fayllardı Scoped Storage ǵa kóshiriw
+MigrateOldFolderDescription	**Google** kirgizgen ózgeris sebepli, **Telegram** arqalı júklegen fayllerińizdi jańa papkaǵa kóshiriwimiz kerek.\n\nBul biraz waqıt alıwı múmkin. Fayllar kóshirilip atırǵanda qosımshadan paydalanıwdı dawam ete alasız.
+MigratingFiles	Fayllar kóshirilmekte
+ReactionsCount_one	%1$d reakciya
+ReactionsCount_other	%1$d reakciya
+Reacted_one	%1$s reakciya qaldırdı
+Reacted_other	%1$s reakciya qaldırdı
+Reactions	Reakciyalar
+ReactionsOff	Óshirilgen
+ReactionsCount	%1$s/%2$s
+EnableReactions	Reakciyalardı qosıw
+EnableReactionsChannelInfo	Jazılıwshılarǵa kanal postlarına reakciya qaldırıwǵa ruqsat beriw.
+EnableReactionsGroupInfo	Qatnasıwshılarǵa topar xabarlarına reakciya qaldırıwǵa ruqsat beriw.
+AvailableReactions	Qoljetimli reakciyalar
+DoubleTapPreviewMessage	Kúnińiz meniki sıyaqlı jaqsı ótip atır dep úmit etemen.
+DoubleTapPreviewSenderName	Dino
+GroupThemePreviewSenderName	Monika
+DoubleTapSetting	Tez reakciyalar
+DoubleTapPreviewRational	Tez reakciya ushın bul xabardı eki ret basıń.
+ActionReactionsChanged	un1 sáwbet reakciyaların ózgertti \naldınǵı: %1$s \njańa: %2$s
+ActionReactionsChangedList	un1 sáwbet reakciyaların ózgertti:\n %1$s
+NobodyViewed	Hesh kim kórmedi
+QrCode	QR kod
+PushReactHidden	Xabarıńızǵa jańa reakciya
+PushReactText	"%3$s" xabarıńızǵa %2$s
+PushReactNoText	Xabarıńızǵa %2$s
+PushReactPhoto	Súwretińizge %2$s
+PushReactVideo	Videoıńızǵa %2$s
+PushReactRound	Video xabarıńızǵa %2$s
+PushReactDoc	Faylıńızǵa %2$s
+PushReactSticker	%3$s stikerińizge %2$s
+PushReactAudio	Dawıslı xabarıńızǵa %2$s
+PushReactContect	%3$s kontaktıńızǵa %2$s
+PushReactGeo	Kartańızǵa %2$s
+PushReactGeoLocation	Janlı jaylasıwıńızǵa %2$s
+PushReactPoll	%3$s sorawnamańızǵa %2$s
+PushReactTodo	%3$s dizimińizge %2$s
+PushReactQuiz	%3$s viktorinańızǵa %2$s
+PushReactGame	Oyınıńızǵa %2$s
+PushReactInvoice	Tólem esabıńızǵa %2$s
+PushReactGif	GIF ińizge %2$s
+PushChatReactText	%2$s da "%4$s" xabarıńızǵa %3$s
+PushChatReactNotext	%2$s daǵı xabarıńızǵa %3$s
+PushChatReactPhoto	%2$s daǵı súwretińizge %3$s
+PushChatReactVideo	%2$s daǵı videoıńızǵa %3$s
+PushChatReactRound	%2$s daǵı video xabarıńızǵa %3$s
+PushChatReactDoc	%2$s daǵı faylıńızǵa %3$s
+PushChatReactSticker	%2$s daǵı %4$s stikerińizge %3$s
+PushChatReactAudio	%2$s daǵı dawıslı xabarıńızǵa %3$s
+PushChatReactContact	%2$s daǵı %4$s kontaktıńızǵa %3$s
+PushChatReactGeo	%2$s daǵı kartańızǵa %3$s
+PushChatReactGeoLive	%2$s daǵı janlı jaylasıwıńızǵa %3$s
+PushChatReactPoll	%2$s daǵı %4$s sorawnamańızǵa %3$s
+PushChatReactTodo	%2$s daǵı %4$s dizimińizge %3$s
+PushChatReactQuiz	%2$s daǵı %4$s viktorinańızǵa %3$s
+PushChatReactGame	%2$s daǵı oyınıńızǵa %3$s
+PushChatReactInvoice	%2$s daǵı tólem esabıńızǵa %3$s
+PushChatReactGif	%2$s daǵı GIF ińizge %3$s
+PushReactStory	Storisińizge %2$s
+PushReactStoryHidden	Storisińizge jańa reakciya
+PushReactStoryHiddenSender	Storis reakciyası
+BlurInChat	Sáwbette buldırlaw
+AllowBackgroundActivity	Fon iskerligine ruqsat beriw
+AllowBackgroundActivityInfo	Bul kiris xabarlandırıwlar hám Telegram qońırawlarınıń isenimliligin asıradı.
+AllowBackgroundActivityInfoOneUIBelowS	Bul kiris xabarlandırıwlar hám Telegram qońırawlarınıń isenimliligin asıradı. Sazlamalar -> Batareya bólimin basıp, **Fon iskerligine ruqsat beriw**di qosıń.
+AllowBackgroundActivityInfoOneUIAboveS	Bul kiris xabarlandırıwlar hám Telegram qońırawlarınıń isenimliligin asıradı. Sazlamalar > Batareya bóliminde **Optimallastırılǵan** yamasa **Sheklenbegen**di tańlań.
+SetNewPassword	Jańa parol ornatıw
+ReadAllReactions	Barlıq reakciyalardı oqıw
+ReadAllMentions	Barlıq atap ótiwlerdi oqıw
+ReadAllPollVotes	Barlıq sorawnamalardı oqıw
+SuggestClearDatabaseTitle	Maǵlıwmatlar bazasın tazalaw
+SuggestClearDatabaseMessage	Jergilikli maǵlıwmatlar bazańızdıń ólshemi %s. Bul qosımshanıń islew tezligine tásir etiwi múmkin.
+DownloadsTabs	Júklengenler
+Downloading	Júklenbekte
+RecentlyDownloaded	Jaqında júklengen
+Clear	Tazalaw
+PauseAll	Bárshesin toqtatıp turıw
+ResumeAll	Bárshesin dawam etiw
+DownloadedFiles	Júklengen fayllar
+ManageDeviceStorage	Qurılma yadın basqarıw
+RemoveDocumentsAlertMessage	Olar diskińizden óshiriledi, biraq bultta qoljetimli bolıp qaladı.
+DownloadedFilesMessage	Telegram siz jibergen hám alǵan barlıq hújjetlerdi bultta saqlawǵa hám qurılmańızda orın únemlewge imkaniyat beredi.
+ClearDownloadsList	Júklewler dizimin tazalaw
+SearchEmptyViewDownloads	Sońǵı júklewler joq
+ForceSetPasswordAlertMessageShort_one	Parol ornatpasańız, akkauntıńızǵa SMS arqalı tek %1$s kúnde bir ret kire alasız. Parolsız dawam etiwdi qáleysiz be?
+ForceSetPasswordAlertMessageShort_other	Parol ornatpasańız, akkauntıńızǵa SMS arqalı tek %1$s kúnde bir ret kire alasız. Parolsız dawam etiwdi qáleysiz be?
+YourPasswordReset	Parolıńız tabıslı óshirildi
+CreatePassword	Parol jaratıw
+CreatePasscode	Kod-parol jaratıw
+CreatePasscodeInfoPIN	Telegramdı ashıw ushın qollanatuǵın qálegen 4 sanıńızdı kirgiziń.
+CreatePasscodeInfoPassword	Telegramdı ashıw ushın qollanatuǵın parolıńızdı kirgiziń.
+PasscodeReinstallNotice	Kod-paroldı umıtsańız, qosımshanı **qayta ornatıwıńız** kerek boladı. Barlıq jasırın sáwbetler joǵaladı.
+EditNumberInfo	Nomerińizdi ózgertiwdi qáleysiz be?\n\n**%1$s**\n\nEger joqarıdaǵı nomer durıs bolsa, tastıyıqlaw kodın kútiń.
+ReportChatIllegalDrugs	Nızamsız narkotikler
+ReportChatPersonalDetails	Jeke maǵlıwmatlar
+PrivacyPhoneInfo4	Bul ashıq silteme siz benen sáwbetti ashadı:
+AutoDeleteCustom	Jeke
+AutoDeletePopupDescription	Bul sáwbette jiberilgen xabarlardı belgili waqıttan keyin avtomat óshiriw.
+AutoDeletePopupTitle	Avto-óshiriw
+AutoDeleteDisable	Óshiriw
+AutoDeleteAfter	%s tan keyin avto-óshiriw
+AutoDeleteAfterShort	%s tan keyin
+ChooseTimeForMute	Waqıttı tańlań
+SoundOn	Dawıstı qosıw
+SoundOff	Dawıstı óshiriw
+MuteForPopup	Únsiz etiw múddeti...
+MuteForAlert	Xabarlandırıwlardı únsiz etiw múddeti...
+MuteForButton	%s ǵa únsiz etiw
+DeleteMessagesOptionAlsoChat	Barlıq aǵzalar ushın da tazalaw
+Mute	Únsiz etiw
+SoundOnHint	Xabarlandırıwlardı dawıs penen alasız.
+SoundOffHint	"Xabarlandırıwlardı dawıssız alasız. "
+NotificationsSound	Xabarlandırıw dawısı
+TelegramTones	Telegram dawısları
+SystemTones	Sistema dawısları
+UploadSound	Dawıs júklew
+NotificationsSoundPrivate	Jeke sáwbetler dawısı
+NotificationsSoundGroup	Toparlar dawısı
+NotificationsSoundChannels	Kanallar dawısı
+NotificationsSoundStories	Storisler dawısı
+NotificationsSoundReactions	Reakciyalar dawısı
+TooLongError	Júdá uzın
+TooLargeError	Júdá úlken
+InvalidFormatError	Jaramsız format
+SaveForNotifications	Xabarlandırıwlar ushın saqlaw
+SoundAdded	Dawıs qosıldı
+Unmute	Dawıstı qosıw
+AutoDeleteAfteTitle	Avto-óshiriw múddeti...
+DeleteTones_one	%d dawıstı óshiriw
+DeleteTones_other	%d dawıstı óshiriw
+NotfificationsFrequencyTitle	Xabarlandırıwlar jiyiligi
+NotificationsFrequencyDivider	hár
+SoundNameEmpty	%s sánesindegi xabar
+ActionBotWebViewData	«%1$s» túymesindegi maǵlıwmat botqa jiberildi.
+UserRestrictionsCantModifyDisabled	Bul háreket barlıq aǵzalar ushın óshirilgen. Onı Topar ruqsatlarında ózgertiń.
+UserRestrictionsCantModifyEnabled	Bul háreket barlıq aǵzalar ushın qosılǵan. Onı Topar ruqsatlarında ózgertiń.
+BotRequestAttachPermission	**%1$s** oǵan qálegen sáwbetten kire alıwıńız ushın biriktiriw menyuıńızǵa qosılıwdı soraydı.
+BotCantAddToAttachMenu	Bul bottı biriktiriw menyuına qosıp bolmaydı.
+BotAlreadyAddedToAttachMenu	Bul bot álleqashan biriktiriw menyuıńızda bar.
+BotRemoveFromMenu	Bul **%1$s** jarlıqların barlıq menyulardan alıp taslaydı.
+BotRemoveInlineFromMenu	**%1$s** usınıslardan alıp taslansın ba?
+BotWebViewRequestGeolocationPermission	**%1$s** ǵa jaylasıwıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı jaylasıwıńızǵa kire aladı.
+BotWebViewRequestGeolocationPermissionWithHint	**%1$s** ǵa jaylasıwıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı jaylasıwıńızǵa kire aladı.\n\nJaylasıw maǵlıwmatları menen bólisiw ushın Sazlamalar > Ruqsatlar bólimine ótip, **Jaylasıw**dı qosıń.
+WebViewRequestGeolocationPermission	**%1$s** ǵa jaylasıwıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** jaylasıwıńızǵa kire aladı.
+WebViewRequestGeolocationPermissionWithHint	**%1$s** ǵa jaylasıwıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** jaylasıwıńızǵa kire aladı.\n\nJaylasıw maǵlıwmatları menen bólisiw ushın Sazlamalar > Ruqsatlar bólimine ótip, **Jaylasıw**dı qosıń.
+BotWebViewRequestMicrophonePermission	**%1$s** ǵa mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı mikrofonıńızǵa kire aladı.
+BotWebViewRequestMicrophonePermissionWithHint	**%1$s** ǵa mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı mikrofonıńızǵa kire aladı.\n\nMikrofonǵa ruqsattı Sazlamalar > Ruqsatlar > Mikrofon bóliminde qosıń.
+WebViewRequestMicrophonePermission	**%1$s** ǵa mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** mikrofonıńızǵa kire aladı.
+WebViewRequestMicrophonePermissionWithHint	**%1$s** ǵa mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** mikrofonıńızǵa kire aladı.\n\nMikrofonǵa ruqsattı Sazlamalar > Ruqsatlar > Mikrofon bóliminde qosıń.
+BotWebViewRequestCameraPermission	**%1$s** ǵa kamerańızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı kamerańızǵa kire aladı.
+BotWebViewRequestCameraPermissionWithHint	**%1$s** ǵa kamerańızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı kamerańızǵa kire aladı.\n\nKameraǵa ruqsattı Sazlamalar > Ruqsatlar > Kamera bóliminde qosıń.
+WebViewRequestCameraPermission	**%1$s** ǵa kamerańızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** kamerańızǵa kire aladı.
+WebViewRequestCameraPermissionWithHint	**%1$s** ǵa kamerańızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** kamerańızǵa kire aladı.\n\nKameraǵa ruqsattı Sazlamalar > Ruqsatlar > Kamera bóliminde qosıń.
+BotWebViewRequestCameraMicPermission	**%1$s** ǵa kamera hám mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı kamera hám mikrofonıńızǵa kire aladı.
+BotWebViewRequestCameraMicPermissionWithHint	**%1$s** ǵa kamera hám mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul veb-qosımsha ashıq bolǵanda **%1$s** baǵdarlamashısı kamera hám mikrofonıńızǵa kire aladı.\n\nKameraǵa ruqsattı Sazlamalar > Ruqsatlar > Kamera bóliminde qosıń.
+WebViewRequestCameraMicPermission	**%1$s** ǵa kamera hám mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** kamera hám mikrofonıńızǵa kire aladı.
+WebViewRequestCameraMicPermissionWithHint	**%1$s** ǵa kamera hám mikrofonıńızǵa kiriwge ruqsat berilsin be?\n\nBul sayt ashıq bolǵanda **%1$s** kamera hám mikrofonıńızǵa kire aladı.\n\nKameraǵa ruqsattı Sazlamalar > Ruqsatlar > Kamera bóliminde qosıń.
+ErrorRingtoneDurationTooLong	Uzınlıǵı %s sekundtan kem bolıwı kerek.
+ErrorRingtoneSizeTooBig	Ólshemi %s Kb tan kem bolıwı kerek.
+ErrorRingtoneInvalidFormat	Fayl mp3 yamasa ogg formatında bolıwı kerek.
+SoundAddedSubtitle	Bul dawıstı **jeke xabarlandırıw sazlamalarıńızda** xabarlandırıw dawısı retinde qollana alasız.
+DeleteTonesMessage_one	Xabarlandırıw dawısın óshiriwdi qáleysiz be?
+DeleteTonesMessage_other	**%d xabarlandırıw dawısın** óshiriwdi qáleysiz be?
+CustomSound	Jeke dawıs
+ClearForAll	Hámme ushın tazalaw
+ClearForMe	Men ushın tazalaw
+BotWebViewNotAvailablePlaceholder	WebView qoljetimsiz. WebView botlarınan paydalanıw ushın onı jańalań.
+SaveToGalleryPrivate	Jeke sáwbetler
+SaveToGalleryGroups	Toparlar
+SaveToGalleryChannels	Kanallar
+UnlockPremiumEmoji	Premium emojilerdi ashıw
+UnlockPremiumStickers	Premium stikerlerdi ashıw
+UnlockPremiumReactions	Premium reakciyalardı ashıw
+UnlockPremiumReactionsDescription	Telegram Premium ǵa jazılıp, qosımsha reakciyalardı ashıń.
+SecretChatTimerYears	j
+IncreaseLimit	Shekti asırıw
+LimitReachedPublicLinks	Siz júdá kóp ashıq silteme bánt ettińiz. Eski topar yamasa kanaldıń siltemesin biykarlap kóriń yamasa shekti **%2$d** ashıq siltemege eki ese asırıw ushın **Telegram Premium** ǵa ótiń.
+LimitReachedPublicLinksPremium	Siz júdá kóp ashıq silteme bánt ettińiz. Eski topar yamasa kanaldıń siltemesin biykarlap kóriń.
+LimitReachedPublicLinksLocked	Siz júdá kóp ashıq silteme bánt ettińiz. Eski topar yamasa kanaldıń siltemesin biykarlap kóriń. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+YourPublicCommunities	Ashıq jámiyetlerińiz
+LimitReachedFolders	Siz **%1$d** papka shegine jettińiz. **Telegram Premium** ǵa jazılıp, shekti **%2$d** papkaǵa eki ese asıra alasız.
+LimitReachedFoldersPremium	Siz bul akkaunt ushın **%1$d** papka shegine jettińiz.
+LimitReachedFoldersLocked	Siz bul akkaunt ushın **%1$d** papka shegine jettińiz. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+LimitReachedChatInFolders	Keshirersiz, papkaǵa **%1$d** den artıq sáwbet qosa almaysız. **Telegram Premium** ǵa ótip, bul shekti **%2$d** ge asıra alasız.
+LimitReachedChatInFoldersPremium	Keshirersiz, papkaǵa **%1$d** den artıq sáwbet qosa almaysız. Jańasın jaratıń.
+LimitReachedChatInFoldersLocked	Keshirersiz, papkaǵa **%1$d** den artıq sáwbet qosa almaysız. Jańasın jaratıń. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+LimitReachedCommunities	Siz **%1$d**  topar hám kanaldıń aǵzasısız. Jańasına qosılıwdan aldın ayırımlarınan shıǵıń — yamasa shekti **%2$d** topar hám kanalǵa eki ese asırıw ushın **Telegram Premium** ǵa ótiń.
+LimitReachedCommunitiesPremium	Siz **%1$d**  topar hám kanaldıń aǵzasısız. Jańasına qosılıwdan aldın ayırımlarınan shıǵıń.
+LimitReachedReorderFolder	"\"%1$s\" papkasın jılıstırıw ushın **Telegram Premium** ǵa jazılıń."
+LimitReachedCommunitiesLocked	Siz **%1$d**  topar hám kanaldıń aǵzasısız. Jańasına qosılıwdan aldın ayırımlarınan shıǵıń. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+AccDescrPremium	Premium akkaunt
+LimitFree	Biypul
+LimitPremium	Premium
+PremiumPreviewLimits	Eki ese asırılǵan shekler
+PremiumPreviewLimitsDescription	%1$d ge shekem kanal, %2$d papka, %3$d bekitiw, %4$d ashıq silteme, %5$d akkaunt hám basqalar.
+PremiumPreviewUploads	4Gb júklew ólshemi
+PremiumPreviewUploadsDescription	Hár bir hújjet ushın júklew ólshemi 2Gb tan 4Gb qa asırılǵan, ulıwma saqlaw ornı sheksiz.
+PremiumPreviewDownloadSpeed	Tezirek júklew
+PremiumPreviewDownloadSpeedDescription	Media hám hújjetlerdi júklew tezligine endi shek joq.
+PremiumPreviewDownloadSpeedDescription2	Media hám fayllardı eń joqarı tezlikte júklew ushın Telegram Premium ǵa jazılıń.
+PremiumPreviewNoAds	Reklamasız
+PremiumPreviewNoAdsDescription	Telegram geyde reklama kórsetetuǵın ashıq kanallarda endi reklama bolmaydı.
+PremiumPreviewTags	Xabarlar ushın tegler
+PremiumPreviewTagsDescription	Tezirek kiriw ushın Saqlanǵan xabarlarıńızdı\ntegler menen tártipke salıń.
+PremiumPreviewTags2	Saqlanǵan xabarlardaǵı tegler
+PremiumPreviewTagsDescription2	Tezirek kiriw ushın Saqlanǵan xabarlarıńızdı tegler menen tártipke salıń.
+PremiumPreviewReactions	Biregey reakciyalar
+PremiumPreviewStickers	Premium stikerler
+PremiumPreviewStickersDescription	Qosımsha effektleri bar, hár ay jańalanatuǵın eksklyuziv úlkeytilgen stikerler.
+PremiumPreviewEmoji	Animaciyalı emoji
+PremiumPreviewEmojiDescription	Jiberetuǵın hár bir xabarıńızǵa hár qıylı toplamlardaǵı animaciyalı emojilerdi qosıń.
+PremiumPreviewProfileBadge	Profil belgisi
+PremiumPreviewProfileBadgeDescription	Atıńız janındaǵı, Telegramdı qollap-quwatlap atırǵanıńızdı kórsetetuǵın belgi.
+PremiumPreviewPaidMessages	Aqılı xabarlar
+PremiumPreviewPaidMessagesDescription	Kontakt emesler yamasa jańa jiberiwshilerden kelgen xabarlar ushın tólem alıw.
+PremiumPreviewAnimatedProfiles	Animaciyalı profil súwretleri
+PremiumPreviewAnimatedProfilesDescription	Ózińizdi qosımsha kórsetiw ushın sáwbetler dizimi hám sáwbetlerde animaciyalanatuǵın video avatarlar.
+SubscribeToPremium	Ayına %s ǵa jazılıw
+SubscribeToPremiumPerYear	Jılına %s ǵa jazılıw
+SubscribeToPremiumPerCustom	%1$s / %2$s ǵa jazılıw
+UpgradePremiumPerMonth	Jılına %s ǵa jańalaw
+UpgradePremiumPerYear	Jılına %s ǵa jańalaw
+SubscribeToPremiumNoPrice	Jazılıw
+SubscribeToPremiumNotAvailable	Jazılıw qoljetimsiz
+SubscribeToPremiumOfficialAppNeeded	**Rásmiy qosımsha kerek**
+SubscribeToPremiumOfficialAppNeededDescription	**Telegram Premium** ǵa jazılıw ushın sizge rásmiy Telegram qosımshası kerek.\n\nJazılǵannan keyin Telegram Premium artıqmashlıqlarınan onı qollap-quwatlaytuǵın hár qanday qosımshada, sonıń ishinde rásmiy emeslerinde de paydalana alasız.
+InstallOfficialApp	Rásmiy qosımshanı ornatıw
+GiftSubscriptionFor	%1$s ǵa jazılıw sawǵa etiw
+GiftSubscriptionCountFor_one	%2$s ǵa %1$d jazılıw sawǵa etiw
+GiftSubscriptionCountFor_other	%2$s ǵa %1$d jazılıw sawǵa etiw
+GiftPremiumOptionDiscount	-%1$d%%
+PricePerMonth	%1$s / ay
+PricePerMonthMe	%1$s/ay
+PricePerYear	%1$s/jıl
+GiftPremiumListFeaturesAndTerms	Telegram Premium imkaniyatları dizimi hám paydalanıw shártlerin *usı jerde* kóre alasız.
+GiftPremium	Premium sawǵa etiw
+GiftPremiumGifting	Premium sawǵa etiw
+SendAGift	Sawǵa jiberiw
+ProfileSendAGift	Sawǵa jiberiw
+ProfileSendAGiftToChannel	Sawǵa jiberiw
+GiftPremiumActivateForFree	Biypul aktivlestiriw
+GiftPremiumActivateErrorTitle	Sizde álleqashan Telegram Premium bar
+GiftPremiumActivateErrorText	Bul sawǵa kodın %1$s tan keyin aktivlestire alasız yamasa dosıńızǵa **siltemeni jibere** alasız.
+GiftPremiumUseGiftBtn	Sawǵadan paydalanıw
+GiftPremiumGiftsSent_one	Sawǵa jiberildi!
+GiftPremiumGiftsSent_other	Sawǵalar jiberildi!
+GiftPremiumUsersOne	**%1$s**
+GiftPremiumUsersTwo	**%1$s**, **%2$s**
+GiftPremiumUsersThree	**%1$s**, **%2$s**, **%3$s**
+GiftPremiumUsersPurchasedManyZero	%1$s siz satıp alǵan sawǵalar haqqında xabardar etildi.
+GiftPremiumUsersPurchasedMany_one	%2$s hám jáne **%1$d** adam siz satıp alǵan sawǵalar haqqında xabardar etildi.
+GiftPremiumUsersPurchasedMany_other	%2$s hám jáne **%1$d** adam siz satıp alǵan sawǵalar haqqında xabardar etildi.
+GiftPremiumUsersGiveAccessManyZero	%1$s ǵa eksklyuziv imkaniyatlarǵa ruqsat beriń.
+GiftPremiumUsersGiveAccessMany_one	%2$s hám jáne **%1$d** dosıńızǵa eksklyuziv imkaniyatlarǵa ruqsat beriń.
+GiftPremiumUsersGiveAccessMany_other	%2$s hám jáne **%1$d** dosıńızǵa eksklyuziv imkaniyatlarǵa ruqsat beriń.
+GiftPremiumGiftsSentStatus	Endi olarda qosımsha imkaniyatlar bar.
+GiftPremiumGiftsSentStatusForUser	Endi **%1$s** da qosımsha imkaniyatlar bar.
+GiftPremiumFrequentContacts	Jiyi baylanısatuǵın kontaktlar
+GiftPremiumUsersSearchHint	Premium sawǵa etiw ushın adamlardı izlew...
+GiftPremiumWillReceiveBoostsPlural_one	Siz ⚡ **%1$d** bust alasız.
+GiftPremiumWillReceiveBoostsPlural_other	Siz ⚡ **%1$d** bust alasız.
+GiftPremiumPrivacyPolicyAndTerms	Telegram Premium sawǵa etiw arqalı siz **Telegram Paydalanıw shártleri**ne hám %1$s kelisesiz
+GiftPremiumPrivacyPolicy	**Qupıyalıq siyasatı**na.
+GiftPremiumChooseRecipientsBtn	Alıwshılardı tańlaw
+GiftPremiumProceedBtn	Dawam etiw
+GiftPremiumAboutThisLink	Bul silteme sizge yamasa **siz tańlaǵan hár bir adamǵa** %1$s aktivlestiriwge imkaniyat beredi.
+GiftPremiumAboutThisLinkEnd	**Telegram Premium** jazılıwın
+GiftPremiumWhatsIncluded	Nelerdi óz ishine aladı
+GiftPremiumEventAdsTitle	**Doslarıńızǵa** sawǵalar jiberiń! 🎄
+GiftTelegramPremiumTitle	Telegram Premium sawǵa etiw
+GiftTelegramPremiumOrStarsTitle	Premium yamasa Juldızlar sawǵa etiw
+GiftTelegramPremiumDescription	**%1$s** **Telegram Premium** menen Telegramnıń eksklyuziv imkaniyatlarınan lázzet alsın.
+TelegramPremium	Telegram Premium
+TelegramPremiumSubtitle	**Sheklerden asıp ótiń**, eksklyuziv imkaniyatlarǵa iye bolıń hám **Telegram Premium** ǵa jazılıp, bizdi qollap-quwatlań.
+TelegramPremiumSubscribedTitle	Hámmesi tayar!
+TelegramPremiumSubscribedSubtitle	**Telegram Premium** ǵa jazılǵanıńız ushın raxmet.\nMine, endi neler ashıldı.
+LimitReachedFavoriteStickers	%d stiker shegine jetti
+LimitReachedFavoriteStickersSubtitle	Eski stiker usı stiker menen almastırıldı. %d stikerge shekem **shekti asıra** alasız
+LimitReachedFavoriteGifs	%d GIF shegine jetti
+LimitReachedFavoriteGifsSubtitle	Eski GIF usı GIF penen almastırıldı. %d GIF ke shekem **shekti asıra** alasız
+LimitReachedFileSize	Hújjetti jiberip bolmaydı, sebebi ol **%1$s** tan úlken. **Telegram Premium** ǵa jazılıp, bul shekti hár bir hújjet ushın **%2$s** qa eki ese asıra alasız.
+LimitReachedFileSizePremium	Hújjetti jiberip bolmaydı, sebebi ol **%1$s** tan úlken.
+LimitReachedFileSizeLocked	Hújjetti jiberip bolmaydı, sebebi ol **%1$s** tan úlken. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+AboutPremiumTitle	Telegram Premium haqqında
+AboutPremiumDescription	Telegramnıń biypul versiyası paydalanıwshılarına basqa hár qanday messendjerden kóbirek imkaniyat beretuǵın bolsa da, **Telegram Premium** onıń imkaniyatların jáne de keńeytedi.
+AboutPremiumDescription2	**Telegram Premium** — aqılı imkaniyat, sebebi kópshilik Premium imkaniyatları Telegramnan data-oray provayderleri hám server óndiriwshileri sıyaqlı úshinshi táreplerge qosımsha qárejetlerdi talap etedi. **Telegram Premium** paydalanıwshılarınıń úlesi bunday qárejetlerdi qaplawǵa hám Telegramnıń hámme ushın biypul bolıp qalıwına járdem beredi.
+PremiumTierAnnualYears_one	%d jıllıq
+PremiumTierAnnualYears_other	%d jıllıq
+PremiumTierAnnual	Jıllıq
+PremiumTierSemiannual	Yarım jıllıq
+PremiumTierMonthly	Aylıq
+GroupsAndChannelsLimitTitle	Toparlar hám kanallar
+GroupsAndChannelsLimitSubtitle	%d ge shekem kanal hám úlken toparlarǵa qosılıń
+PinChatsLimitTitle	Bekitilgen sáwbetler
+PinChatsLimitSubtitle	Tiykarǵı sáwbetler dizimińizde %d ge shekem sáwbet bekitiń
+PublicLinksLimitTitle	Ashıq siltemeler
+PublicLinksLimitSubtitle	%d ge shekem t.me/name siltemesin bánt etiń
+SavedGifsLimitTitle	Saqlanǵan GIFler
+SavedGifsLimitSubtitle	Saylandı GIFlerińizge %d ge shekem GIF saqlań
+FavoriteStickersLimitTitle	Saylandı stikerler
+FavoriteStickersLimitSubtitle	Saylandı stikerlerińizge %d ge shekem stiker saqlań
+FoldersLimitTitle	Papkalar
+FoldersLimitSubtitle	Sáwbetlerińizdi %d papkaǵa bóliń
+ChatPerFolderLimitTitle	Papkadaǵı sáwbetler
+ChatPerFolderLimitSubtitle	Hár bir papkańızǵa %d ge shekem sáwbet qosıń
+ConnectedAccountsLimitTitle	Jalǵanǵan akkauntlar
+ConnectedAccountsLimitSubtitle	Hár qıylı mobil nomerli %d akkaunttı jalǵań
+SimilarChannelsLimitTitle	Uqsas kanallar
+SimilarChannelsLimitSubtitle	%d ge shekem uqsas kanaldı kóriń
+DoubledLimits	Eki ese asırılǵan shekler
+LimitReachedAccounts	Keshirersiz, **%1$d** den artıq akkaunt qosa almaysız. **Telegram Premium** ǵa ótip, bul shekti **%2$d** ge asıra alasız.
+LimitReachedAccountsPremium	Keshirersiz, **%1$d** den artıq akkaunt qosa almaysız.
+PremiumPreviewVoiceToText	Dawıstı tekstke aylandırıw
+PremiumPreviewVoiceToTextDescription	Hár qanday kiris dawıslı xabardıń tekstin oqıw imkaniyatı.
+PremiumPreviewVoiceToTextDescription2	Dawıslı hám video xabarlardı tekstke aylandırıw ushın Telegram Premium ǵa jazılıń.
+PremiumPreviewAdvancedChatManagement	Keńeytilgen sáwbet basqarıwı
+PremiumStickersShort	Premium
+PremiumStickers	Premium stikerler
+CaptionsLimitTitle	Jazıwlar
+CaptionsLimitSubtitle	Súwret hám videolarıńız ushın uzınıraq táriyplerden paydalanıń
+LimitReachedFavoriteStickersSubtitlePremium	Eski stiker usı stiker menen almastırıldı.
+LimitReachedFavoriteGifsSubtitlePremium	Eski GIF usı GIF penen almastırıldı.
+PremiumStickerTooltip	Bul toplamda usınday premium stikerler bar.
+ViewAction	Kóriw
+HideAd	Jasırıw
+RemoveAds	Reklamanı alıp taslaw
+AboutRevenueSharingAds	Bul reklamalar haqqında
+ReportAd	Reklamaǵa shaǵım etiw
+ReportAdLearnMore	[Reklama siyasatı hám qaǵıydalarımız](https://ads.telegram.org/guidelines) haqqında kóbirek biliń.
+AdReported	Biz bul reklamanıń **Reklama siyasatı hám qaǵıydalarımızǵa** sáykes ekenin tekseremiz.
+AdHidden	Endi Telegramnan reklamalardı kórmeysiz.
+BioLimitTitle	Ózi haqqında
+BioLimitSubtitle	Ózińiz haqqıńızdaǵı maǵlıwmatqa kóbirek belgi qosıń hám siltemelerden paydalanıń.
+AppIcon	Qosımsha belgisi
+AppIconDefault	Ádepki
+AppIconVintage	Vintaj
+AppIconAqua	Akva
+AppIconPremium	Premium
+AppIconTurbo	Turbo
+AppIconNox	Noks
+AppIconChangedTo	Qosımsha belgisi %1$s ge ózgertildi
+FileTooLarge	Fayl júdá úlken
+PremiumPreviewAppIcon	Premium qosımsha belgisi
+PremiumPreviewAppIconDescription	Bas ekranıńız ushın Telegram qosımsha belgileriniń birin tańlań.
+UnlockPremiumIcons	Premium belgilerdi ashıw

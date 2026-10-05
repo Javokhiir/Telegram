@@ -74,6 +74,9 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
     private final int[] cameraTextureId = new int[1];
     private SurfaceTexture cameraTexture;
     private Camera2Session session;
+    private volatile String makeup; // Snap lens id, null is off
+    private SnapCameraKit.Renderer makeupRenderer;
+    private boolean gles3; // Camera Kit needs an OpenGL ES 3 context
     private final float[] stMatrix = new float[16];
     private FloatBuffer vertexBuffer, textureBuffer;
 
@@ -94,6 +97,11 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
         this.eyes = eyes;
         this.eyeTone = eyeTone;
         this.lipstick = lipstick;
+    }
+
+    /** Snap lens drawn under the other effects, null is off. */
+    public void setLens(String lensId) {
+        makeup = lensId;
     }
 
     /** Called on the UI thread when the camera or GL could not be started. */
@@ -160,15 +168,23 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
                 EGL14.EGL_RED_SIZE, 8,
                 EGL14.EGL_GREEN_SIZE, 8,
                 EGL14.EGL_BLUE_SIZE, 8,
-                EGL14.EGL_RENDERABLE_TYPE, EGL14.EGL_OPENGL_ES2_BIT,
+                EGL14.EGL_RENDERABLE_TYPE, 0x40, // EGL_OPENGL_ES3_BIT_KHR, ES 2 below when missing
                 EGL14.EGL_NONE
         };
         EGLConfig[] configs = new EGLConfig[1];
         int[] numConfigs = new int[1];
-        if (!EGL14.eglChooseConfig(eglDisplay, configAttribs, 0, configs, 0, 1, numConfigs, 0) || numConfigs[0] == 0) {
+        gles3 = EGL14.eglChooseConfig(eglDisplay, configAttribs, 0, configs, 0, 1, numConfigs, 0) && numConfigs[0] > 0;
+        if (!gles3) {
+            configAttribs[7] = EGL14.EGL_OPENGL_ES2_BIT;
+        }
+        if (!gles3 && (!EGL14.eglChooseConfig(eglDisplay, configAttribs, 0, configs, 0, 1, numConfigs, 0) || numConfigs[0] == 0)) {
             return false;
         }
-        eglContext = EGL14.eglCreateContext(eglDisplay, configs[0], EGL14.EGL_NO_CONTEXT, new int[]{EGL14.EGL_CONTEXT_CLIENT_VERSION, 2, EGL14.EGL_NONE}, 0);
+        eglContext = EGL14.eglCreateContext(eglDisplay, configs[0], EGL14.EGL_NO_CONTEXT, new int[]{EGL14.EGL_CONTEXT_CLIENT_VERSION, gles3 ? 3 : 2, EGL14.EGL_NONE}, 0);
+        if (gles3 && (eglContext == null || eglContext == EGL14.EGL_NO_CONTEXT)) {
+            gles3 = false;
+            eglContext = EGL14.eglCreateContext(eglDisplay, configs[0], EGL14.EGL_NO_CONTEXT, new int[]{EGL14.EGL_CONTEXT_CLIENT_VERSION, 2, EGL14.EGL_NONE}, 0);
+        }
         if (eglContext == null || eglContext == EGL14.EGL_NO_CONTEXT) {
             return false;
         }
@@ -229,6 +245,14 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
         cameraTexture.getTransformMatrix(stMatrix);
 
         GLES20.glViewport(0, 0, surfaceWidth, surfaceHeight);
+        final String makeup = this.makeup;
+        int makeupTexture = 0;
+        if (makeup != null && gles3) {
+            if (makeupRenderer == null) {
+                makeupRenderer = new SnapCameraKit.Renderer();
+            }
+            makeupTexture = makeupRenderer.render(makeup, cameraTextureId[0], stMatrix, null, textureBuffer, true);
+        }
         final RoundVideoEffects.Lipstick lipstick = this.lipstick;
         final int blush = this.blush;
         final boolean makeupMask = blush > 0 || foundation > 0 || eyes > 0;
@@ -259,6 +283,7 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
         effectsUniforms.apply(filter, filterIntensity, beauty, foundation, blush, eyes, eyeTone,
                 blushTracker != null ? blushTracker.getTexture() : 0, surfaceWidth, surfaceHeight);
         effectsUniforms.applyLipstick(lipstick, lipstickMask);
+        effectsUniforms.applyMakeup(makeupTexture);
         GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
         GLES20.glDisableVertexAttribArray(positionHandle);
         GLES20.glDisableVertexAttribArray(textureHandle);
@@ -283,6 +308,10 @@ public class RoundEffectsPreviewView extends TextureView implements TextureView.
                 if (blushTracker != null) {
                     blushTracker.release();
                     blushTracker = null;
+                }
+                if (makeupRenderer != null) {
+                    makeupRenderer.release();
+                    makeupRenderer = null;
                 }
                 if (lipstickMask != null) {
                     lipstickMask.release();

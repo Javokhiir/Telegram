@@ -7652,7 +7652,21 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
         tuneItem.setImageResource(R.drawable.media_settings);
         tuneItem.setBackground(Theme.createInsetRoundRectDrawable(0x10FFFFFF, dp(22), dp(4), dp(6)));
         itemsLayout.addView(tuneItem, LayoutHelper.createLinear(48, 48));
+        tuneItem.setOnLongClickListener(v -> {
+            openAiEraser();
+            return true;
+        });
         tuneItem.setOnClickListener(v -> {
+            if (v.getAlpha() < .9f) return;
+            if (Build.VERSION.SDK_INT >= 24 && !isCurrentVideo && sendPhotoType != SELECT_TYPE_STICKER && currentEditMode == EDIT_MODE_NONE && !isCaptionOpen()) {
+                new AlertDialog.Builder(parentActivity, resourcesProvider)
+                    .setTitle(getString(R.string.AccDescrPhotoAdjust))
+                    .setItems(new CharSequence[]{getString(R.string.AccDescrPhotoAdjust), getString(R.string.AiEraserTitle)}, (dialog, which) -> {
+                        if (which == 1) openAiEraser();
+                        else switchToEditMode(EDIT_MODE_FILTER);
+                    }).show();
+                return;
+            }
             if (v.getAlpha() < .9f) return;
             cancelStickerClippingMode();
             if (isCaptionOpen()) {
@@ -11362,7 +11376,52 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
         }
     }
 
+    private void openAiEraser() {
+        if (Build.VERSION.SDK_INT < 24 || isCurrentVideo || sendPhotoType == SELECT_TYPE_STICKER || currentEditMode != EDIT_MODE_NONE ||
+                changeModeAnimation != null || currentIndex < 0 || currentIndex >= imagesArrLocals.size()) return;
+        Object object = imagesArrLocals.get(currentIndex);
+        if (!(object instanceof MediaController.MediaEditState)) return;
+        MediaController.MediaEditState entry = (MediaController.MediaEditState) object;
+        Bitmap bitmap;
+        // Like adjustments, edit the uncropped base; existing crop and drawing are reapplied on save.
+        if (entry.filterPath != null) {
+            bitmap = ImageLoader.loadBitmap(entry.filterPath, null, AndroidUtilities.getPhotoSize(true), AndroidUtilities.getPhotoSize(true), true);
+        } else {
+            String path = entry.getPath();
+            if (path == null) return;
+            bitmap = ImageLoader.loadBitmap(path, null, AndroidUtilities.getPhotoSize(true), AndroidUtilities.getPhotoSize(true), true);
+        }
+        if (bitmap == null) return;
+        final int index = currentIndex;
+        final android.app.Dialog dialog = new android.app.Dialog(parentActivity, R.style.TransparentDialogNoAnimation);
+        org.telegram.ui.Components.UMessageAiEraserView editor = new org.telegram.ui.Components.UMessageAiEraserView(parentActivity, bitmap, result -> {
+            if (currentIndex != index || !isVisible || imagesArrLocals.get(index) != object) return;
+            applyCurrentEditModeInternal(result);
+            dialog.dismiss();
+        });
+        editor.setOnClose(dialog::dismiss);
+        dialog.setContentView(editor);
+        dialog.setOnDismissListener(d -> editor.cancel());
+        dialog.setCanceledOnTouchOutside(false);
+        android.view.Window window = dialog.getWindow();
+        if (window != null) {
+            window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+            window.setBackgroundDrawable(new ColorDrawable(Color.BLACK));
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(Color.BLACK);
+            window.setNavigationBarColor(Color.BLACK);
+            window.getAttributes().windowAnimations = 0;
+        }
+        editor.setAlpha(0f);
+        editor.animate().alpha(1f).setDuration(220).start();
+        dialog.show();
+    }
+
     private void applyCurrentEditMode() {
+        applyCurrentEditModeInternal(null);
+    }
+
+    private void applyCurrentEditModeInternal(Bitmap cleanupBitmap) {
         if (currentIndex < 0 || currentIndex >= imagesArrLocals.size()) {
             return;
         }
@@ -11370,7 +11429,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
         if (!(object instanceof MediaController.MediaEditState)) {
             return;
         }
-        Bitmap bitmap = null;
+        Bitmap bitmap = cleanupBitmap;
         Bitmap[] paintThumbBitmap = new Bitmap[1];
         List<TLRPC.InputDocument> stickers = null;
         MediaController.SavedFilterState savedFilterState = null;
@@ -11378,7 +11437,9 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
         int[] orientation = null;
         boolean hasChanged = false;
         MediaController.MediaEditState entry = (MediaController.MediaEditState) imagesArrLocals.get(currentIndex);
-        if (currentEditMode == EDIT_MODE_CROP || currentEditMode == EDIT_MODE_NONE && sendPhotoType == SELECT_TYPE_AVATAR) {
+        if (cleanupBitmap != null) {
+            hasChanged = true;
+        } else if (currentEditMode == EDIT_MODE_CROP || currentEditMode == EDIT_MODE_NONE && sendPhotoType == SELECT_TYPE_AVATAR) {
             photoCropView.makeCrop(entry);
             if (entry.cropState == null && currentEditMode != EDIT_MODE_CROP) {
                 return;
@@ -11455,7 +11516,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
             entry.imagePath = null;
         }
 
-        if (currentEditMode == EDIT_MODE_CROP || currentEditMode == EDIT_MODE_NONE && sendPhotoType == SELECT_TYPE_AVATAR) {
+        if (cleanupBitmap == null && (currentEditMode == EDIT_MODE_CROP || currentEditMode == EDIT_MODE_NONE && sendPhotoType == SELECT_TYPE_AVATAR)) {
             editState.cropState = entry.cropState;
             editState.croppedPaintPath = entry.croppedPaintPath;
             editState.croppedMediaEntities = entry.croppedMediaEntities;
@@ -11494,12 +11555,18 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
                     bitmap = croppedBitmap;
                 }
             }
-        } else if (currentEditMode == EDIT_MODE_FILTER) {
-            if (entry.filterPath != null) {
+        } else if (cleanupBitmap != null || currentEditMode == EDIT_MODE_FILTER) {
+            if (entry.filterPath != null && !entry.filterPath.equals(entry.cleanupPath)) {
                 new File(entry.filterPath).delete();
             }
             TLRPC.PhotoSize size = ImageLoader.scaleAndSaveImage(bitmap, getCompressFormat(), AndroidUtilities.getPhotoSize(true), AndroidUtilities.getPhotoSize(true), 87, false, 101, 101);
+            if (cleanupBitmap != null) {
+                entry.savedFilterState = editState.savedFilterState = null;
+            }
             entry.filterPath = FileLoader.getInstance(currentAccount).getPathToAttach(size, true).toString();
+            if (cleanupBitmap != null) {
+                entry.cleanupPath = entry.filterPath;
+            }
             Bitmap b = entry.cropState != null ? createCroppedBitmap(bitmap, entry.cropState, null, true) : bitmap;
             if (entry.paintPath == null) {
                 if (!isCurrentVideo || entry.isLivePhoto()) {
@@ -11682,7 +11749,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
             } else {
                 cropItem.setColorFilter(null);
             }
-        } else if (currentEditMode == EDIT_MODE_FILTER) {
+        } else if (cleanupBitmap != null || currentEditMode == EDIT_MODE_FILTER) {
             entry.isFiltered = true;
             tuneItem.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_chat_editMediaButton), PorterDuff.Mode.MULTIPLY));
         } else if (currentEditMode == EDIT_MODE_PAINT) {
@@ -11717,7 +11784,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
         if (isCurrentVideo) {
             setImage = currentEditMode == EDIT_MODE_CROP || currentEditMode == EDIT_MODE_NONE && sendPhotoType == SELECT_TYPE_AVATAR;
         } else {
-            setImage = currentEditMode == EDIT_MODE_FILTER;
+            setImage = (cleanupBitmap != null || currentEditMode == EDIT_MODE_FILTER);
         }
         if (setImage) {
             centerImage.setImageBitmap(bitmap);
@@ -12445,6 +12512,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
                 MediaController.SavedFilterState state = null;
                 Bitmap bitmap;
                 String originalPath = null;
+                boolean hasCleanup = false;
                 int orientation = 0;
                 if (!imagesArrLocals.isEmpty()) {
                     Object object = imagesArrLocals.get(currentIndex);
@@ -12454,12 +12522,14 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
                     }
                     MediaController.MediaEditState editState = (MediaController.MediaEditState) object;
                     state = editState.savedFilterState;
-                    originalPath = editState.getPath();
+                    originalPath = editState.cleanupPath != null ? editState.cleanupPath : editState.getPath();
+                    hasCleanup = editState.cleanupPath != null;
+                    if (editState.cleanupPath != null) orientation = 0;
                 }
                 if (videoTextureView != null) {
                     bitmap = null;
                 } else {
-                    if (state == null) {
+                    if (state == null && !hasCleanup) {
                         bitmap = stickerMakerView.isSegmentedState() ? stickerMakerView.getSourceBitmap() : centerImage.getBitmap();
                         orientation = centerImage.getOrientation();
                     } else {

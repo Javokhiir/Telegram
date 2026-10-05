@@ -1,0 +1,389 @@
+StoryCameraSavedDualBackHint	Ekinshi kameranı óshiriw ushın usı jerdi basıń
+StoryCameraSavedDualFrontHint	Selfi kamerasın óshiriw ushın usı jerdi basıń
+CacheStories	Storisler
+UnlockPremium	Bunı hám basqa kóplegen imkaniyatlardı ashıw ushın **Telegram Premium** ǵa jazılıń.
+ArchiveSettingUnmutedFolders	Dawıslı sáwbetler
+ArchiveSettingUnmutedFoldersCheck	Bárqulla arxivte saqlaw
+ArchiveSettingUnmutedFoldersInfo	Arxivlengen sáwbetler dawıslı bolsa hám jańa xabar alsa da, olardı Arxivte saqlaw.
+ArchiveSettingUnmutedChats	Papkalardaǵı sáwbetler
+ArchiveSettingUnmutedChatsCheck	Bárqulla arxivte saqlaw
+ArchiveSettingUnmutedChatsInfo	Papkalardaǵı arxivlengen sáwbetler dawıslı bolsa hám jańa xabar alsa da, olardı Arxivte saqlaw.
+NewChatsFromNonContactsCheck	Avtomat arxivlew
+ArchiveHintSubtitle	Arxivlengen sáwbetler jańa xabar alǵanıńızda Arxivte qaladı. **Ózgertiw ushın basıń >**
+ArchiveHintSubtitleUnmutedMove	Jańa xabar alǵanıńızda, únsiz sáwbetler Arxivte qaladı, al dawıslı sáwbetler Sáwbetlerge kóshiriledi. **Ózgertiw ushın basıń >**
+ArchiveSettings	Arxiv sazlamaları
+HowDoesItWork	Bul qalay isleydi?
+ArchiveHintSection1	Arxivlengen sáwbetler
+ArchiveHintSection1Info	Qálegen sáwbetti sıpırıp, Arxivke kóshiriń hám keri qaytarıń.
+ArchiveHintSection2	Arxivti jasırıw
+ArchiveHintSection2Info	Arxivti sıpırıp, bas ekranıńızdan jasırıń.
+ArchiveHintSection3	Storisler
+ArchiveHintSection3Info	Kontaktlarıńızdıń storislerin olar menen sáwbetlerden bólek arxivleń.
+GotIt	Túsinikli
+DebugMenuDualOff	Qos kameranı jasırıw
+DebugMenuDualOffToast	Qos kamera túymesi jasırıldı
+DebugMenuDualOn	Qos kameranı kórsetiw
+DebugMenuDualOnToast	Qos kamera óz juwapkershiligińizde qosıldı
+DualErrorTitle	:(
+DualErrorMessage	Tilekke qarsı, qos kamera rejimi qurılmańızda qollap-quwatlanbaydı.
+StoriesTooMuch_one	**24 saat** ishinde **%d storisten** artıq jaylastıra almaysız.
+StoriesTooMuch_other	**24 saat** ishinde **%d storisten** artıq jaylastıra almaysız.
+StoriesPremiumHint2	Storis jaylastırıw házirshe tek **Telegram Premium** jazılıwshıları ushın qoljetimli.
+ArchivePeerStories	Storislerdi jasırıw
+UnarchiveStories	Storislerdi kórsetiw
+StoryPremiumFormatting	Storislerińizge siltemeler hám tekst formatlawın qosıw ushın **Telegram Premium** ǵa jazılıń.
+StoryPremiumWidgets2_other	Storiske %d ge shekem reakciya hám teg qosıw ushın **Telegram Premium** ǵa jazılıń.
+CaptionPremiumTitle	Eń úlken uzınlıqqa jetti
+CaptionPremiumSubtitle_other	__Telegram Premium.__ ǵa jazılıp, bul shekti **%1$d** ese — **%2$s** belgige shekem asırıń
+ExpiredViewsStubPremiumDescription	Múddeti ótken hám saqlanǵan storislerdiń kóriwshiler dizimlerin ashıw ushın **Telegram Premium** ǵa jazılıń.
+LearnMore	Kóbirek biliw
+SaveStoryToGalleryPremiumHint	Basqa adamlardıń qorǵalmaǵan storislerin galereyańızǵa saqlaw ushın **Premium ǵa jazılıń**.
+PremiumPreviewStories	Jaqsılanǵan storisler
+PremiumPreviewStoriesDescription	Áhmiyetli tártip, jasırın rejim, turaqlı kóriwler tariyxı hám basqalar.
+PremiumPreviewBusinessStories	Post qosıw
+PremiumPreviewBusinessStoriesDescription	Betińizde tovarlarıńız yamasa xızmetlerińizdiń súwret hám videoların járiyalań.
+PremiumStoriesPriority	Áhmiyetli tártip
+PremiumStoriesPriorityDescription	Storislerińiz bárqulla birinshi kórsetiletuǵını sebepli kóbirek kóriw alıń.
+PremiumStoriesStealth	Jasırın rejim
+PremiumStoriesStealthDescription	Basqa adamlardıń storislerin kórgenińizdi jasırıń.
+PremiumStoriesQuality	Joqarıraq sapa
+PremiumStoriesQualityDescription	Video storislerdi eki ese joqarı anıqlıqta kóriń.
+PremiumStoriesViews	Turaqlı kóriwler tariyxı
+PremiumStoriesViewsDescription	Storislerińizdi kim ashqanın tekseriń — hátte múddeti ótkennen keyin de.
+PremiumStoriesExpiration	Ámel etiw múddetleri
+PremiumStoriesExpirationDescription	Storislerińiz ushın 6 yamasa 48 saat sıyaqlı jeke múddetlerdi ornatıń.
+PremiumStoriesSaveToGallery	Storislerdi galereyaǵa saqlaw
+PremiumStoriesSaveToGalleryDescription	Basqa adamlardıń qorǵalmaǵan storislerin galereyańızǵa saqlań.
+PremiumStoriesCaption	Uzınıraq jazıwlar
+PremiumStoriesCaptionDescription	Storislerińizge on ese uzınıraq jazıwlar qosıń — 2048 belgige shekem.
+PremiumStoriesFormatting	Siltemeler hám formatlaw
+PremiumStoriesFormattingDescription	Storislerińizdiń jazıwlarına siltemeler hám formatlaw qosıń.
+UpgradedStories	Jaqsılanǵan storisler
+StealthModeButton	Kóriwimdi jasırıw
+StealthModeTitle	Jasırın rejim
+StealthModePremiumHint	Adamlardıń storislerin kórgenińizdi olardan jasırıw ushın Telegram Premium ǵa jazılıń.
+ViewAnonymously	Anonim\nkóriw
+HideRecentViews	Sońǵı kóriwlerdi jasırıw
+HideRecentViewsDescription	Sońǵı 5 minuttaǵı kóriwlerimdi jasırıw.
+HideNextViews	Keyingi kóriwlerdi jasırıw
+HideNextViewsDescription	Keyingi 25 minuttaǵı kóriwlerimdi jasırıw.
+UnlockStealthMode	Jasırın rejimdi ashıw
+StealthModeHint	Adamlardıń storislerin kórgenińizdi olardan jasırıw ushın jasırın rejimdi qosıń.
+EnableStealthMode	Jasırın rejimdi qosıw
+EnableStealthModeAndOpenStory	Qosıw hám storisti ashıw
+AvailableIn	%s tan keyin qoljetimli
+StealthModeOn	Jasırın rejim qosılǵan
+StealthModeOnHint	Sońǵı 5 minutta kórgen yamasa keyingi 25 minutta kóretuǵın storislerińizdiń avtorları sizdi kóriwshiler diziminde kórmeydi.
+StealthModeActiveHint	Jasırın rejim aktiv – %s
+StealthModeActiveHintShort	Jasırın rejim %s
+GroupTooLarge	Topar júdá úlken
+GroupTooLargeMessage	200 ge shekem aǵzası bar toparlardı tańlay alasız.
+StealthModeIsActive	Jasırın rejim aktiv
+StealthModeCooldownHint	**Jasırın rejim** qaytadan qollanıwǵa tayar bolǵansha kútiń.
+StoryViewLocation	Jaylasıwdı kóriw >
+StoryViewMessage	Xabardı kóriw >
+LocationsShowAll	Bárshesin kórsetiw
+StoryViewGift	Sawǵanı kórsetiw >
+AccDescrLike	Unaydı
+ReactionLongTapHint	Kóbirek reakciyalar ushın uzaq basıń
+ReactionAddReactionsHint	Reakciyalar qosıw...
+ReactionCreateOwnPack	Sonday-aq **óz emoji toplamlarıńızdı jaratıp**, olardan paydalana alasız.
+ReactionAddEmojiFromAnyPack	Qálegen emoji toplamınan emojini reakciya retinde qosa alasız.
+ReactionUpdateReactionsBtn	Reakciyalardı jańalaw
+ReactionLevelRequiredBtn_one	%1$d-dáreje kerek
+ReactionLevelRequiredBtn_other	%1$d-dáreje kerek
+MaximumReactionsHeader	Reakciyalardıń eń kóp sanı
+MaximumReactionsValue_one	bir postqa %d reakciya
+MaximumReactionsValue_other	bir postqa %d reakciya
+MaximumReactionsInfo	Postqa qosıwǵa bolatuǵın hár qıylı reakciyalar sanın, sonıń ishinde járiyalanǵan postlar ushın da shekleń.
+ReactionReachLvlForReactionShort_one	**%1$d** jeke emojini reakciya retinde qosıw ushın kanalıńız **%2$d**-dárejege jetiwi kerek.
+ReactionReachLvlForReactionShort_other	**%1$d** jeke emojini reakciya retinde qosıw ushın kanalıńız **%2$d**-dárejege jetiwi kerek.
+ReactionReachLvlForReaction_one	**%1$d** jeke emojini reakciya retinde qosıw ushın kanalıńız **%2$d**-dárejege jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ReactionReachLvlForReaction_other	**%1$d** jeke emojini reakciya retinde qosıw ushın kanalıńız **%2$d**-dárejege jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ReactionCustomReactions	Jeke reakciyalar
+ReactionApplyChangesDialog	Siz reakciyalar dizimin ózgerttińiz. Ózgerisler qollanılsın ba?
+ReactionMaxCountError_one	Eń kóbi %1$d reakciya tańlay alasız.
+ReactionMaxCountError_other	Eń kóbi %1$d reakciya tańlay alasız.
+AllViewers	Barlıq kóriwshiler
+SortByReactions	Aldın reakciyalar
+SortByReposts	Aldın repostlar
+SortByTime	Aldın jańaları
+StoryViewsSortDescription	Kóriwshiler diziminiń tártibin tańlań.
+StoryReactionsSortDescription	Reakciyalar diziminiń tártibin tańlań.
+NoContactsViewed	Kontaktlarıńızdıń hesh biri bul storisti kórmedi.
+Viewers	Kóriwshiler
+StealthModeConfirmTitle	Siz házir jasırın rejimdesiz
+StealthModeConfirmMessage	Juwap yamasa reakciya jiberseńiz, storis avtorı sizdi de kóriwshiler diziminde kóredi.
+ServerErrorViewersTitle	Oy
+ServerErrorViewers	Kóriwshiler haqqında maǵlıwmat jazılmaǵan.
+ServerErrorViewersFull	Basqa kóriwshiler haqqında maǵlıwmat jazılmaǵan.
+StoryHidFromToast	%s storislerińizdi kóre almaydı.
+StoryShownBackToToast	%s storislerińizdi qaytadan kóre aladı.
+SearchImagesType	Izlew ushın jazıń.
+NoViews	Kóriwler joq
+StoryViewsPremiumHint	Múddeti ótken hám saqlanǵan storislerdiń kóriwshiler dizimlerin ashıw ushın **Telegram Premium** ǵa jazılıń.
+Likes_one	%d unaydı
+Likes_other	%d unaydı
+Reposts_one	%d repost
+Reposts_other	%d repost
+Reactions_one	%d reakciya
+Reactions_other	%d reakciya
+LimitReachedStoriesCount2First_one	**24** saatta **%d** storis jaylastıra alasız.
+LimitReachedStoriesCount2First_other	**24** saatta **%d** storis jaylastıra alasız.
+LimitReachedStoriesCount2Second_one	Bul shekti **%d** ge asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedStoriesCount2Second_other	Bul shekti **%d** ge asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedStoriesCount2Premium_one	Keshirersiz, **24** saatta **%d** storisten artıq jaylastıra almaysız.
+LimitReachedStoriesCount2Premium_other	Keshirersiz, **24** saatta **%d** storisten artıq jaylastıra almaysız.
+LimitReachedStoriesWeekly	Bir háptede **%1$d** storis jaylastıra alasız.\nBul shekti **%2$d** ge asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedStoriesWeeklyPremium	Keshirersiz, bir háptede **%1$d** storisten artıq jaylastıra almaysız.
+LimitReachedStoriesMonthly	Bir ayda **%1$d** storis jaylastıra alasız.\nBul shekti **%2$d** ge asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedStoriesMonthlyPremium	Keshirersiz, bir ayda **%1$d** storisten artıq jaylastıra almaysız.
+UsersDeselectAll	Bárshesiniń tańlawın alıw
+StoryWidgetLocation	Jaylasıw
+StoryWidgetAudio	Audio
+StoryWidgetPhoto	Súwret
+StoryWidgetLink	Silteme
+StoryReactionsHint	Reakciyanı jeke xabar retinde jiberiw
+StoryGroupReactionsHint	Reakciyanı xabar retinde jiberiw
+StoryAudioRemove	Audionı alıp taslaw
+StoryRoundRemove	Videonı alıp taslaw
+StoryPrivacyPublishAs	Storisti kim retinde járiyalaw
+StoryPrivacyPublishLiveAs	Kim retinde efir beriw
+StoryLivePrivacyPublishAs	Efirdi kim retinde baslaw
+StoryPrivacyWhoCanView	Storisińizdi kim kóre aladı
+StoryLivePrivacyWhoCanView	Bul efirdi kim kóre aladı
+OpenChannelArchiveStories	Arxivlengen storisler
+SaveToPosts	Postlarǵa saqlaw
+RemoveFromPosts	Postlardan alıp taslaw
+TimerPeriodPhotoKeep	Súwret saqlanadı.
+TimerPeriodVideoKeep	Video saqlanadı.
+TimerPeriodPhotoSetOnce	Súwret bir ret kóriwge ornatıldı
+TimerPeriodVideoSetOnce	Video bir ret kóriwge ornatıldı
+VideoShownOnce	Bul videonı tek bir ret kóriwge boladı.
+PhotoShownOnce	Bul súwretti tek bir ret kóriwge boladı.
+TimerPeriodPhotoSetSeconds_one	Súwret ashılǵannan keyin **%d** sekundtan soń óshiriledi.
+TimerPeriodPhotoSetSeconds_other	Súwret ashılǵannan keyin **%d** sekundtan soń óshiriledi.
+TimerPeriodVideoSetSeconds_one	Video ashılǵannan keyin **%d** sekundtan soń óshiriledi.
+TimerPeriodVideoSetSeconds_other	Video ashılǵannan keyin **%d** sekundtan soń óshiriledi.
+Boosters	Bust etiwshiler
+LinkForBoosting	Bust etiw siltemesi
+Boosts	Bustlar
+BoostsLevel	%d-dáreje
+StarRatingLevel	%d-dáreje
+StarRatingLevelNegative	Teris reyting
+StarRatingLevelNegativeYou_one	Teris reyting tólemlerińizdiń isenimsiz ekenin kórsetedi. Bul mashqalanı dúzetiw ushın **%1$d Juldız** sarplań.
+StarRatingLevelNegativeYou_other	Teris reyting tólemlerińizdiń isenimsiz ekenin kórsetedi. Bul mashqalanı dúzetiw ushın **%1$d Juldız** sarplań.
+StarRatingLevelNegativeOther	Teris reyting **%1$s** tólemleriniń isenimsiz ekenin kórsetedi.
+BoostsLevel2	Dáreje
+BoostingBoostToSendMessages	Xabar jiberiw ushın bul topardı bust etiń
+BoostingEnableStories	Storislerdi qosıw
+BoostingGroupBoostCount_one	Toparda **%d** bust bar.
+BoostingGroupBoostCount_other	Toparda **%d** bust bar.
+BoostingGroupBoostWhatAreBoosts	Bustlar degen ne?
+BoostingGroupBoostWhatAreBoostsDescription_one	Hár bir **Telegram Premium** jazılıwshısı usı silteme arqalı toparıńızdı **%d** ret bust etip, kóbirek imkaniyatlardı ashıwǵa járdem bere aladı:
+BoostingGroupBoostWhatAreBoostsDescription_other	Hár bir **Telegram Premium** jazılıwshısı usı silteme arqalı toparıńızdı **%d** ret bust etip, kóbirek imkaniyatlardı ashıwǵa járdem bere aladı:
+BoostingStoriesByGiftingChannel2	Jazılıwshılarıńızǵa sıylıqlar utıs etip, kanalıńızdı bust etiń.
+BoostingStoriesByGiftingGroup2	Aǵzalarıńızǵa sıylıqlar utıs etip, toparıńızdı bust etiń.
+BoostingStoriesByGiftingLink	Bustlar alıw >
+BoostingStoriesFeaturesAndTerms	Telegram Premium imkaniyatları dizimi hám paydalanıw shártlerin **usı jerde** kóre alasız.
+BoostingGiveawayShortStatusParticipating	Siz bul utıs oyınına qatnasıp atırsız.
+BoostingGiveawayShortStatusNotParticipating	Siz bul utıs oyınına qatnasa almaysız.
+BoostingGiveawayShortStatusEnded	Utıs oyını tamamlandı.
+BoostingCongratulations	Qutlıqlaymız!
+BoostingReceivedGiftFrom	Siz **%s** tan\nsawǵa aldıńız.
+BoostingReceivedGiftNoName	Siz sawǵa aldıńız.
+BoostingReceivedStars_one	Siz %2$s tan %1$d Juldız sıylıǵın aldıńız!
+BoostingReceivedStars_other	Siz %2$s tan %1$d Juldız sıylıǵın aldıńız!
+BoostingReceivedGiftDuration	Sawǵańız — %s ǵa **Telegram Premium**\njazılıwı.
+BoostingUnclaimedPrize	Alınbaǵan sıylıq
+BoostingYouHaveUnclaimedPrize	Sizde **%s** ótkergen utıs oyınınan alınbaǵan sıylıq bar.
+BoostingUnclaimedPrizeDuration	Bul sıylıq — %s ǵa **Telegram Premium** jazılıwı.
+BoostingReceivedPrizeFrom	Siz **%s** shólkemlestirgen utıs oyınında sıylıq uttıńız.
+BoostingReceivedPrizeDuration	Sıylıǵıńız — %s ǵa **Telegram Premium** jazılıwı.
+BoostingReceivedGiftOpenBtn	Sawǵa siltemesin ashıw
+BoostingSaveRecipients	Alıwshılardı saqlaw
+BoostingGiveawayJustStarted	%s jazılıwshıları arasında Telegram Premium jazılıwları utıs oyının basladı.
+BoostingGiveawayJustStartedGroup	%s aǵzaları arasında Telegram Premium jazılıwları utıs oyının basladı.
+BoostingStarsGiveawayJustStarted_one	%2$s jazılıwshıları arasında %1$d Juldız utıs oyının basladı.
+BoostingStarsGiveawayJustStarted_other	%2$s jazılıwshıları arasında %1$d Juldız utıs oyının basladı.
+BoostingStarsGiveawayJustStartedGroup_one	%2$s aǵzaları arasında %1$d Juldız utıs oyının basladı.
+BoostingStarsGiveawayJustStartedGroup_other	%2$s aǵzaları arasında %1$d Juldız utıs oyının basladı.
+BoostingGiveawayDeleteMsgTitle	Daǵazanı óshiriw
+BoostingGiveawayDeleteMsgText	Bul xabardı óshiriw utıs oyının biykarlamaydı - jeńimpazlar báribir **%s** kúni tańlanadı.\n\nÓshirilgennen keyin utıs oyını daǵazasın tiklep bolmaydı.
+BoostingGiveawayServiceWinnersSelected_one	Utıs oyınınıń %d jeńimpazı Telegram tárepinen tosınnan tańlandı hám sawǵa kodı bar jeke xabar aldı.
+BoostingGiveawayServiceWinnersSelected_other	Utıs oyınınıń %d jeńimpazı Telegram tárepinen tosınnan tańlandı hám sawǵa kodları bar jeke xabarlar aldı.
+BoostingStarsGiveawayServiceWinnersSelected_one	Utıs oyınınıń %1$d jeńimpazı Telegram tárepinen tosınnan tańlandı.
+BoostingStarsGiveawayServiceWinnersSelected_other	Utıs oyınınıń %1$d jeńimpazı Telegram tárepinen tosınnan tańlandı.
+BoostingGiveawayServiceUndistributed_one	%d tarqatılmaǵan silteme kodı kanal administratorlarına jiberildi.
+BoostingGiveawayServiceUndistributed_other	%d tarqatılmaǵan silteme kodı kanal administratorlarına jiberildi.
+BoostingGiveawayServiceUndistributedGroup_one	%d tarqatılmaǵan silteme kodı topar administratorlarına jiberildi.
+BoostingGiveawayServiceUndistributedGroup_other	%d tarqatılmaǵan silteme kodı topar administratorlarına jiberildi.
+BoostingStarsGiveawayServiceUndistributed_one	%d tarqatılmaǵan juldız kanal administratorlarına jiberildi.
+BoostingStarsGiveawayServiceUndistributed_other	%d tarqatılmaǵan juldız kanal administratorlarına jiberildi.
+BoostingStarsGiveawayServiceUndistributedGroup_one	%d tarqatılmaǵan juldız topar administratorlarına jiberildi.
+BoostingStarsGiveawayServiceUndistributedGroup_other	%d tarqatılmaǵan juldız topar administratorlarına jiberildi.
+BoostingBoostsGroupByUserServiceMsg	%s topardı bust etti
+BoostingBoostsGroupByUserServiceMsgCount_other	%2$s topardı %1$d ret bust etti
+BoostingBoostsChannelByUserServiceMsg	%s kanaldı bust etti
+BoostingBoostsChannelByUserServiceMsgCount_other	%2$s kanaldı %1$d ret bust etti
+BoostingBoostsGroupByYouServiceMsg	Siz topardı bust ettińiz
+BoostingBoostsGroupByYouServiceMsgCount_other	Siz topardı %1$d ret bust ettińiz
+BoostingBoostsChannelByYouServiceMsg	Siz kanaldı bust ettińiz
+BoostingBoostsChannelByYouServiceMsgCount_other	Siz kanaldı %1$d ret bust ettińiz
+BoostingBoostsCountTitle_one	%d bust
+BoostingBoostsCountTitle_other	%d bust
+BoostingSubscriptionsCountPlural_one	%2$s jazılıw
+BoostingSubscriptionsCountPlural_other	%2$s jazılıw
+BoostingStarsCountPlural_one	%1$d Juldız
+BoostingStarsCountPlural_other	%1$d Juldız
+BoostingTelegramPremiumCountPlural_one	%1$d Telegram Premium
+BoostingTelegramPremiumCountPlural_other	%1$d Telegram Premium
+BoostingGetBoostsViaGifts	Sawǵalar arqalı bustlar alıw
+BoostingUseLink	Siltemeden paydalanıw
+BoostingShareThisLink	Kóbirek bust alıw ushın bul silteme menen jazılıwshılarıńız benen bólisiń.
+BoostingShareThisLinkGroup	Kóbirek bust alıw ushın bul silteme menen aǵzalarıńız benen bólisiń.
+BoostingStartGiveaway	Utıs oyının baslaw
+BoostingBoostForGroups	Toparlar ushın bustlar
+BoostingBoostForChannels	Kanallar ushın bustlar
+BoostingBoostForGroupsInfo	Toparıńız aǵzaları onı **bust** ete aladı, sonda ol **dárejesin kóteredi** hám **eksklyuziv imkaniyatlarǵa** iye boladı.
+BoostingBoostForChannelsInfo	Kanalıńız jazılıwshıları onı **bust** ete aladı, sonda ol **dárejesin kóteredi** hám **eksklyuziv imkaniyatlarǵa** iye boladı.
+BoostingSelectPaidGiveaway	Sazlaw ushın aldınnan tólengen utıs oyının tańlań.
+BoostingAddChannelOrGroup	Topar yamasa kanal qosıw
+BoostingPremium	Telegram Premium
+BoostingStars	Telegram Juldızları
+BoostingCreateGiveaway	Utıs oyının jaratıw
+BoostingShowMoreGifts_one	Jáne %1$d sawǵa etilgen busttı kórsetiw
+BoostingShowMoreGifts_other	Jáne %1$d sawǵa etilgen busttı kórsetiw
+BoostingGiftsCount_one	%1$d sawǵa
+BoostingGiftsCount_other	%1$d sawǵa
+BoostingBoostsCount_one	%1$d bust
+BoostingBoostsCount_other	%1$d bust
+BoostingShowMoreBoosts_one	Jáne %1$d busttı kórsetiw
+BoostingShowMoreBoosts_other	Jáne %1$d busttı kórsetiw
+BoostingUnclaimed	Alınbaǵan
+BoostingToBeDistributed	Tarqatılıwı kerek
+BoostingBoostStars_one	%d Juldız
+BoostingBoostStars_other	%d Juldız
+BoostingShortMonths	%1$d ay
+BoostingStarsExpires	múddeti %s tamamlanadı
+BoostingExpires	bust múddeti %s tamamlanadı
+BoostingGiveaway	Utıs oyını
+BoostingGiveawayResults	Utıs oyını nátiyjeleri
+BoostingGiveawayChannelStarted	Kanal utıs oyının basladı
+BoostingGiveawayGroupStarted	Topar utıs oyının basladı
+BoostingRecipientWillBeSelected	Alıwshı utıs oyını tamamlanǵanda tańlanadı.
+BoostingIncompleteGiveaway	Tamamlanbaǵan utıs oyını
+BoostingNoRecipient	Alıwshı joq
+BoostingSelectCountry	Mámleketlerdi tańlaw
+BoostingTelegramPremiumFor	%s ǵa Telegram Premium
+BoostingWinnersRandomly	jeńimpazlar tosınnan tańlanadı
+BoostingAwardSpecificUsers	Belgili paydalanıwshılardı sıylıqlaw
+BoostingChannelWillReceiveBoost_one	bul kanal %d bust aladı
+BoostingChannelWillReceiveBoost_other	bul kanal %d bust aladı
+BoostingGroupWillReceiveBoost_one	bul topar %d bust aladı
+BoostingGroupWillReceiveBoost_other	bul topar %d bust aladı
+BoostingDateAndTime	Sáne hám waqıt
+BoostingBoostsViaGifts	Sawǵalar arqalı bustlar
+BoostingUsedGiftLink	Qollanılǵan sawǵa siltemesi
+BoostingGiftLink	Sawǵa siltemesi
+BoostingGetMoreBoost	Jazılıwshılarıńızǵa Premium sawǵa etip, kanalıńız ushın kóbirek bust alıń.
+BoostingGetMoreBoosts	Jazılıwshılarıńızǵa Premium sawǵa etip, kanalıńız ushın kóbirek bust alıń.
+BoostingGetMoreBoost2	Sıylıqlar utıs etip, kanalıńız ushın kóbirek bust hám jazılıwshı alıń.
+BoostingGetMoreBoosts2	Sıylıqlar utıs etip, kanalıńız ushın kóbirek bust hám jazılıwshı alıń.
+BoostingGetMoreBoostGroup	Aǵzalarıńızǵa Premium sawǵa etip, toparıńız ushın kóbirek bust alıń.
+BoostingGetMoreBoostsGroup	Jazılıwshılarıńızǵa Premium sawǵa etip, toparıńız ushın kóbirek bust alıń.
+BoostingGetMoreBoostByGifting	**%1$s** ti bust etiw ushın dosıńızǵa **Telegram Premium** sawǵa etip, kóbirek bust alıń.
+BoostingGetMoreBoostByGiftingCount_one	**%2$s** ti bust etiw ushın dosıńızǵa **Telegram Premium** sawǵa etip, jáne **%1$d** bust alıń.
+BoostingGetMoreBoostByGiftingCount_other	**%2$s** ti bust etiw ushın dosıńızǵa **Telegram Premium** sawǵa etip, jáne **%1$d** bust alıń.
+BoostingLinkUsed	Bul silteme **Telegram Premium**\njazılıwın aktivlestiriw ushın qollanılǵan.
+BoostingLinkAllows	Bul silteme sizge **Telegram Premium**\njazılıwın aktivlestiriwge imkaniyat beredi.
+BoostingLinkAllowsToUser	Bul silteme **%1$s** ǵa **Telegram Premium** jazılıwın aktivlestiriwge imkaniyat beredi.
+BoostingLinkAllowsAnyone	Bul silteme hár kimge **Telegram Premium**\njazılıwın aktivlestiriwge imkaniyat beredi.
+BoostingLinkNotActivated	Bul silteme ele aktivlestirilmegen.
+BoostingAllSubscribers	Barlıq jazılıwshılar
+BoostingNewSubscribers	Tek jańa jazılıwshılar
+BoostingAllMembers	Barlıq aǵzalar
+BoostingNewMembers	Tek jańa aǵzalar
+BoostingSelectDateTime	Sáne hám waqıttı tańlaw
+BoostingConfirm	Tastıyıqlaw
+BoostingFrom	Kimnen
+BoostingTo	Kimge
+BoostingGift	Sawǵa
+BoostingYouWereSelected	Sizdi kanal tańladı
+BoostingYouWereSelectedGroup	Sizdi topar tańladı
+BoostingReason	Sebebi
+BoostingDate	Sáne
+BoostingPreparedGiveaways	Aldınnan tólengen utıs oyınları
+BoostingPreparedGiveawayOne	Aldınnan tólengen utıs oyını
+BoostingPreparedGiveawaySubscriptionsPlural_one	%2$s ǵa %1$d jazılıw
+BoostingPreparedGiveawaySubscriptionsPlural_other	%2$s ǵa %1$d jazılıw
+BoostingStarsPreparedGiveawaySubscriptionsPlural_one	%1$d juldız
+BoostingStarsPreparedGiveawaySubscriptionsPlural_other	%1$d juldız
+BoostingSelectRecipients	alıwshılardı tańlaw
+BoostingFromAllCountries	barlıq mámleketlerden
+BoostingFromAllCountries1	%1$s dan
+BoostingFromAllCountries2	%1$s, %2$s dan
+BoostingFromAllCountries3	%1$s, %2$s, %3$s dan
+BoostingFromCountriesCount_one	%1$d mámleketten
+BoostingFromCountriesCount_other	%1$d mámleketten
+BoostingSendLinkToFriends	Sonday-aq **bul siltemeni** dosıńızǵa sawǵa retinde jibere alasız.
+BoostingSendLinkToAnyone	Sonday-aq **bul siltemeni** hár kimge sawǵa retinde jibere alasız.
+BoostingUsedLinkDate	Bul silteme %s kúni qollanılǵan.
+BoostingQuantityPrizes	Sıylıqlar sanı
+BoostingStarsQuantityPrizes	Jeńimpazlar sanı
+BoostingStarsQuantityPrizesInfo	Juldızlardı neshe jeńimpaz arasında bólistiriwdi tańlań.
+BoostingStarsOptions	Tarqatılatuǵın juldızlar
+BoostingStarOptionPerUser_one	hár paydalanıwshıǵa %d
+BoostingStarOptionPerUser_other	hár paydalanıwshıǵa %d
+BoostingStarsOptionsInfo	Neshe juldız utıs etiwdi hám 1 jılǵa neshe bust alıwdı tańlań.
+BoostingChooseHowMany	Neshe Premium jazılıwın utıs etiwdi hám neshe bust alıwdı tańlań.
+BoostingChannelsGroupsIncludedGiveaway	Qosılǵan toparlar hám kanallar
+BoostingChooseChannelsGroupsNeedToJoin	Utıs oyınına qatnasıw ushın paydalanıwshılar qosılıwı kerek bolǵan toparlar hám kanallardı tańlań.
+BoostingEligibleUsers	Utıs oyınına qatnasa alatuǵın paydalanıwshılar
+BoostingChooseLimitGiveaway	Utıs oyının tek ol baslanǵannan keyin kanalǵa qosılǵanlar yamasa belgili mámleketlerdegi paydalanıwshılar menen sheklewdi qáleysiz be, tańlań.
+BoostingChooseLimitGiveawayGroups	Utıs oyının tek ol baslanǵannan keyin toparǵa qosılǵanlar yamasa belgili mámleketlerdegi paydalanıwshılar menen sheklewdi qáleysiz be, tańlań.
+BoostingDateWhenGiveawayEnds	Utıs oyını tamamlanatuǵın sáne
+BoostingChooseRandom_one	Kanalıńızdıń %d jazılıwshısı Telegram Premium alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingChooseRandom_other	Kanalıńızdıń %d jazılıwshısı Telegram Premium alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingChooseRandomGroup_one	Toparıńızdıń %d aǵzası Telegram Premium alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingChooseRandomGroup_other	Toparıńızdıń %d aǵzası Telegram Premium alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingStarsChooseRandom_one	Kanalıńızdıń %1$d jazılıwshısı %2$s alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingStarsChooseRandom_other	Kanalıńızdıń %1$d jazılıwshısı %2$s alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingStarsChooseRandomGroup_one	Toparıńızdıń %1$d aǵzası %2$s alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingStarsChooseRandomGroup_other	Toparıńızdıń %1$d aǵzası %2$s alıw ushın qashan tosınnan tańlanatuǵının belgileń.
+BoostingStarsChooseRandomStars_one	%1$d Juldız
+BoostingStarsChooseRandomStars_other	%1$d Juldız
+GiveawayChooseUsersRandomly	Tosınnan tańlaw
+BoostingCheckStatistic	Bul utıs oyını kanalıńızdı qalay bust etkenin kóriw ushın kanalıńızdıń **Statistikasın** tekseriń.
+BoostingCheckGiftsStatistic	Sawǵalar kanalıńızdı qalay bust etkenin kóriw ushın kanalıńızdıń **Statistikasın** tekseriń.
+BoostingCheckStatisticGroup	Bul utıs oyını toparıńızdı qalay bust etkenin kóriw ushın toparıńızdıń **Statistikasın** tekseriń.
+BoostingCheckGiftsStatisticGroup	Sawǵalar toparıńızdı qalay bust etkenin kóriw ushın toparıńızdıń **Statistikasın** tekseriń.
+BoostingGiveawayCreated	Utıs oyını jaratıldı
+BoostingGiftLinkForwardedTo	Sawǵa siltemesi **%1$s** ǵa jiberildi.
+BoostingGiftLinkForwardedToSavedMsg	Sawǵa siltemesi **Saqlanǵan xabarlar**ǵa jiberildi.
+BoostingAwardsCreated	Premium jazılıwları sawǵa etildi
+BoostingGiveawayEnterYourPrize	Sıylıǵıńızdı kirgiziń
+BoostingGiveawayAdditionalPrizes	Qosımsha sıylıqlar
+BoostingGiveawayShowWinners	Jeńimpazlardı kórsetiw
+BoostingGiveawayShowWinnersHint	Utıs oyını tamamlanǵanda jeńimpazlar dizimin ashıq etiwdi tańlań.
+BoostingGiveawayAdditionPrizeHint	Jeńimpazlarǵa Premium jazılıwlarına qosımsha óz sıylıqlarıńızdı beriwdi qáleseńiz, bunı qosıń.
+BoostingStarsGiveawayAdditionPrizeHint	Jeńimpazlarǵa Juldızlarǵa qosımsha óz sıylıqlarıńızdı beriwdi qáleseńiz, bunı qosıń.
+BoostingGiveawayAdditionPrizeCountNameHint_one	Barlıq sıylıqlar: **%1$d** %2$s hám %3$s ǵa Telegram Premium jazılıwları.
+BoostingGiveawayAdditionPrizeCountNameHint_other	Barlıq sıylıqlar: **%1$d** %2$s hám %3$s ǵa Telegram Premium jazılıwları.
+BoostingGiveawayAdditionPrizeCountHint_one	Barlıq sıylıqlar: %2$s ǵa **%1$d** Telegram Premium jazılıwı.
+BoostingGiveawayAdditionPrizeCountHint_other	Barlıq sıylıqlar: %2$s ǵa **%1$d** Telegram Premium jazılıwı.
+BoostingStarsGiveawayAdditionPrizeCountNameHint_one	Barlıq sıylıqlar: **%2$d** %3$s hám **%1$d Juldız**.
+BoostingStarsGiveawayAdditionPrizeCountNameHint_other	Barlıq sıylıqlar: **%2$d** %3$s hám **%1$d Juldız**.
+BoostingStarsGiveawayAdditionPrizeCountHint_one	Barlıq sıylıqlar: **%1$d Juldız**.
+BoostingStarsGiveawayAdditionPrizeCountHint_other	Barlıq sıylıqlar: **%1$d Juldız**.
+BoostingGiveawayHowItWorksText_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan.
+BoostingGiveawayHowItWorksText_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan.
+BoostingStarsGiveawayHowItWorksText_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın **%1$d Juldız** satıp alǵan.
+BoostingStarsGiveawayHowItWorksText_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın **%1$d Juldız** satıp alǵan.
+BoostingGiveawayHowItWorksTextGroup_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan.
+BoostingGiveawayHowItWorksTextGroup_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan.
+BoostingStarsGiveawayHowItWorksTextGroup_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın **%1$d Juldız** satıp alǵan.
+BoostingStarsGiveawayHowItWorksTextGroup_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın **%1$d Juldız** satıp alǵan.
+BoostingGiveawayHowItWorksIncludeText_one	**%2$s** sıylıqlarǵa **%1$d** **%3$s** ti de qosqan. Bul sıylıqlardı jetkerip beriwge kanal administratorları juwapker.
+BoostingGiveawayHowItWorksIncludeText_other	**%2$s** sıylıqlarǵa **%1$d** **%3$s** ti de qosqan. Bul sıylıqlardı jetkerip beriwge kanal administratorları juwapker.
+BoostingGiveawayHowItWorksSubText_one	**%2$s** kúni Telegram **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.

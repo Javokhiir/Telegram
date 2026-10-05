@@ -1,0 +1,535 @@
+PaymentInvoiceSubscriptionLinkAlreadyPaid	Already subscribed!
+PaymentInvoice	INVOICE
+PaymentInvoiceDisabledStarsText	Not enough stars
+StarsPurchaseUnavailable	Purchasing stars is not available at this time.
+PaymentTestInvoice	TEST INVOICE
+PaymentCheckoutPay	PAY %1$s
+PaymentCheckoutMethod	Payment method
+PaymentCheckoutMethodNewCard	New card
+PaymentCheckoutProvider	Payment provider
+PaymentCheckoutName	Name
+PaymentCheckoutPhoneNumber	Phone number
+PaymentCheckoutEmail	Contact address
+PaymentCheckoutShippingMethod	Shipping method
+PaymentReceipt	Receipt
+PaymentConfirmationNewCard	Choose a different card
+PaymentConfirmationMessage	Your card %1$s is on file. To pay with this card, please enter your 2-Step-Verification password.
+PaymentPrecheckoutFailed	Sorry, the payment was cancelled by the bot.
+PaymentFailed	Sorry, the payment was declined.
+PaymentConnectionFailed	Unable to reach payment server. Please check your internet connection and try again.
+PaymentConfirmationError	There was an error during payment confirmation.
+PaymentWarning	Warning
+PaymentWarningText	Neither Telegram, nor %1$s will have access to your credit card information. Credit card details will be handled only by the payment system, %2$s.\n\nPayments will go directly to the developer of %1$s. Telegram cannot provide any guarantees, so proceed at your own risk. In case of problems, please contact the developer of %1$s or your bank.
+PaymentPassword	Password &amp; Email
+PaymentPasswordTitle	Password
+PaymentPasswordEnter	Enter a password
+PaymentPasswordReEnter	Re-enter your password
+PaymentPasswordInfo	Please create a password to protect your payment info. You\'ll be asked to enter it when you log in.
+PaymentPasswordEmailTitle	Recovery email
+PaymentPasswordEmail	Your email address
+PaymentPasswordEmailInfo	Please enter a valid email address. It is the only way to recover a forgotten password.
+PaymentPhoneToProvider	Phone will be passed to %1$s as billing info.
+PaymentEmailToProvider	Email address will be passed to %1$s as billing info.
+PaymentPhoneEmailToProvider	Phone and email address will be passed to %1$s as billing info.
+PaymentInfoHint	You paid **%1$s** for **%2$s**.
+PaymentInfoHintStars_other	You paid **%2$s** for **%1$d Stars**.
+PaymentAppNotFoundForDeeplink	No app found to handle this deep link.
+NewConversationShortcut	New conversation
+AutoNightSystemModeOff	System Default theme is disabled
+AutoNightModeOff	Auto-Night Mode is off
+SetEmojiStatus	Set Emoji Status
+ChangeEmojiStatus	Change Status
+Settings	Settings
+Refresh	Refresh
+AddressPlaceholder	Search %s or type URL
+Contacts	Contacts
+NewGroup	New Group
+Yesterday	yesterday
+NoResult	No results
+NoResultFoundFor	No results found for \"%s\".
+NoResultFoundForTag	No results found for %s
+NoResultFoundFor2	There were no results for \"%s\".\nTry a new search.
+NoChats	Welcome to Telegram
+RecentlyViewed	Recently viewed
+RecentlyViewedHide	HIDE
+NoChatsHelp	Start messaging by tapping the pencil button in the bottom right corner.
+NoChatsContactsHelp	Start messaging by tapping the pencil button in the bottom right corner.
+WaitingForNetwork	Waiting for network...
+Connecting	Connecting...
+Connected	Connected
+Ping	Ping: %1$d ms
+Ping2	%1$d ms ping
+Checking	Checking...
+Available	Available
+Unavailable	Unavailable
+ConnectingToProxy	Connecting to proxy
+ConnectingToProxyWithDots	Connecting to proxy...
+MenuProxyTitle	Proxy
+MenuProxyDisabled	Disabled
+MenuProxyConnecting	Connecting
+MenuProxyConnected	Connected
+ConnectingConnectProxy	Connect Proxy
+Updating	Updating...
+NewSecretChat	New Secret Chat
+AwaitingEncryption	Waiting for %s to get online...
+EncryptionRejected	Secret chat cancelled
+EncryptionProcessing	Exchanging encryption keys...
+EncryptedChatStartedOutgoing	%s joined your secret chat.
+EncryptedChatStartedIncoming	You joined the secret chat.
+ClearHistory	Clear history
+ClearAllHistory	Clear All History
+ClearRecentHistory	Clear history
+AlertClearHistory	Clear History
+EnableAutoDelete	Enable Auto-Delete
+AutoDeleteIn	Auto-delete in %1$s
+AutoDeleteHeader	Auto-delete messages in this chat
+AutoDeleteAlertTitle	Auto-delete messages
+AutoDeleteAlertUserInfo	Automatically delete new messages after a certain period of time for you and %1$s.
+AutoDeleteAlertGroupInfo	Automatically delete new messages after a certain period of time for members of this group.
+AutoDeleteAlertChannelInfo	Automatically delete new messages after a certain period of time for subscribers of this channel.
+AutoDeleteConfirm	Confirm
+AutoDelete24Hours	24 hours
+AutoDelete1Month	1 month
+AutoDelete7Days	1 week
+AutoDelete1Day	1 day
+AutoDeleteAfter1Month	After 1 month
+AutoDeleteAfter1Week	After 1 week
+AutoDeleteAfter1Day	After 1 day
+AutoDeleteInfo	Automatically delete new messages sent in this chat after a certain period of time.
+MuteNever	Never
+AutoDeleteNever	Never
+AutoDeleteSet	Set for this chat
+AutoDeleteSetInfo	Messages in this chat are automatically\ndeleted %1$s after they are sent.
+AutoDeleteHintOnText	New messages in this chat will be automatically deleted in %1$s.
+AutoDeleteHintOffText	Auto-delete is now disabled.
+AccAutoDeleteTimer	Auto-delete timer
+HistoryClearedUndo	History cleared.
+ChatsDeletedUndo	Chats deleted.
+DeleteContactTitle	Delete contact
+DeleteContactSubtitle	Are you sure you want to delete this contact?
+DeleteContactsTitle_one	Delete %d contact
+DeleteContactsTitle_other	Delete %d contacts
+DeleteContactsSubtitle	Are you sure you want to delete these contacts?
+ContactsDeletedUndo_one	%d contact deleted.
+ContactsDeletedUndo_other	%d contacts deleted.
+ChatsMute	Mute
+ChatsUnmute	Unmute
+ChatDeletedUndo	Chat deleted
+GroupDeletedUndo	Group deleted.
+ChannelDeletedUndo	Channel deleted.
+GroupLeftUndo	You left the group.
+ChannelLeftUndo	You left the channel.
+MonoforumDeletedUndo	Removed from your chat list.
+ArchivePinned	Archive pinned.
+ArchivePinnedInfo	Swipe left on the archive to hide it.
+ArchiveHidden	Archive hidden.
+ArchiveHiddenInfo	Swipe down to see the archive.
+ChatArchived	Chat archived.
+ChatsArchived	Chats archived.
+ChatArchivedInfo	Hide the archive by swiping left on it.
+Undo	Undo
+UndoNoCaps	Undo
+Redo	Redo
+ClearHistoryCache	Delete from cache
+DeleteChat	Delete and exit
+HideOnTop	Hide
+UnhideFromTop	Pin
+DialogPin	Pin
+DialogUnpin	Unpin
+Archive	Archive
+ArchiveSearchFilter	Archive
+Unarchive	Unarchive
+ArchivedChats	Archived Chats
+DeleteChatUser	Delete Chat
+HiddenName	Deleted Account
+SelectChat	Select Chat
+ChooseBot	Choose Bot
+ChooseBots	Choose Bots
+ChooseUser	Choose User
+ChooseUsers	Choose Users
+ChooseGroup	Choose Group
+ChooseChannel	Choose Channel
+SelectChats	Select Chats
+ForwardTo	Forward to...
+MyGroups	My Groups
+MyChannels	My Channels
+DisappearingPhoto	Secret Photo
+DisappearingVideo	Secret Video
+DisappearingGif	Secret GIF
+SearchMessages	Messages
+SearchMessagesIn	Messages in %s
+Search	Search
+SearchContacts	Search Contacts
+SearchPeopleByUsername	Search people by username
+SearchChats	Search Chats
+SearchTopics	Search Topics
+MuteNotifications	Mute forever
+MuteFor	Mute for %1$s
+MuteFor1h	Mute for 1 hour
+UnmuteNotifications	Unmute
+WillUnmuteIn	In %1$s
+MuteDisable	Disable
+Hashtags	HASHTAGS
+Recent	Recent
+ChatHints	People
+ChatHintsDeleteAlertTitle	Remove suggestion
+ChatHintsDeleteAlert	Are you sure you want to remove **%1$s** from suggestions?
+ChatHintsDelete	Remove %1$s from suggestions?
+LinkPreview	Link preview
+Draft	Draft
+HistoryCleared	History was cleared
+ArticleByAuthor	by %1$s
+ArticleDateByAuthor	%1$s by %2$s
+PreviewFeedback2	Wrong layout?
+PreviewFeedbackAuto	Automatically generated layout
+SendStickerPreview	Send Sticker
+SendGifPreview	Send GIF
+SendEmojiPreview	Send Emoji
+CopyEmojiPreview	Copy Emoji
+SetAsEmojiStatus	Set as Status
+SetAsEmojiStatusInfo	Emoji status set.
+RemoveStatus	Remove Status
+RemoveStatusInfo	Emoji status removed.
+ViewPackPreview	View Pack
+PinToTop	Pin to top
+PinFolderLimitReached	Sorry, you can\'t pin any more chats to the top.
+UnpinFromTop	Unpin from top
+MarkAsUnread	Mark as unread
+MarkAsRead	Mark as read
+MarkAllAsRead	Mark all as read
+HideAboveTheList	Hide above the list
+PinInTheList	Pin in the list
+Quote	Quote
+Spoiler	Spoiler
+Bold	Bold
+Italic	Italic
+Mono	Mono
+Strike	Strikethrough
+Underline	Underline
+Highlight	Highlight
+Subscript	Subscript
+Superscript	Superscript
+Regular	Regular
+FormattedDate	Date
+ContactsPermissionAlert	**Telegram** needs access to your contacts so that you can connect with your friends across all your devices. Your contacts will be continuously synced with Telegram\'s heavily encrypted cloud servers.
+ContactsPermissionAlertNotNow	Not now
+ContactsPermissionAlertContinue	Continue
+NotificationsPermissionAlertTitle	Turn on notifications
+NotificationsPermissionAlertSubtitle	Please allow Telegram to send you notifications to stay in touch with your friends and family.
+NotificationsPermissionAlert1	Get notified about new messages
+NotificationsPermissionAlert2	Learn when you are mentioned in groups
+NotificationsPermissionAlert3	Mute specific chats and types of chats
+NotificationsPermissionContinue	Continue
+NotificationsPermissionSettings	Open Settings
+YourContacts	Your contacts on Telegram
+ConnectingYourContacts	Connecting your contacts...
+ArchiveHintHeader1	This is your Archive
+ArchiveHintText1	Chats with enabled notifications get unarchived when new messages arrive.
+ArchiveHintHeader2	Muted chats
+ArchiveHintText2	Chats with disabled notifications stay archived when new messages arrive.
+ArchiveHintHeader3	Pinned chats
+ArchiveHintText3	You can pin an unlimited number of archived chats to the top.
+ScheduledOrNoSoundHint	Hold this button to schedule your message or send it without sound.
+ScheduledHint	Long tap to send your message later.
+HideNewChatsAlertTitle	Hide new chats?
+HideNewChatsAlertText	You are receiving many new chats from users who are not in your Contacts List. Do you want have such chats **automatically muted** and **archived**?
+GoToSettings	GO TO SETTINGS
+OpenProfile	Open Profile
+OpenChannel2	Open Channel
+OpenGroup2	Open Group
+SendMessage	Send Message
+Mention	Mention
+AvatarPreviewSearchMessages	Search Messages
+NotificationsMutedHint	Notifications muted
+NotificationsMutedHintChats_one	Notifications muted for %d chat
+NotificationsMutedHintChats_other	Notifications muted for %d chats
+NotificationsUnmutedHintChats_one	Notifications unmuted for %d chat
+NotificationsUnmutedHintChats_other	Notifications unmuted for %d chats
+NotificationsMutedForHint	Notifications muted for %1$s
+NotificationsUnmutedHint	Notifications unmuted
+NotificationsStoryMute	Do Not Notify
+NotificationsStoryMute2	Do Not Notify\nAbout Stories
+NotificationsStoryUnmute	Notify
+NotificationsStoryUnmute2	Notify About\nStories
+NotificationsStoryMutedHint	Disabled notifications for **%s** stories.
+NotificationsStoryUnmutedHint	You will receive a notification whenever **%s** posts a new story.
+MessagesDeletedHint_one	Message deleted
+MessagesDeletedHint_other	%1$d messages deleted
+SearchEmptyViewTitle	No Results
+SearchEmptyViewTitle2	No Results
+SearchEmptyViewFilteredSubtitle2	Try a new search.
+HashtagSearchEmptyViewFilteredSubtitle	There were no results for %s.\nTry another hashtag.
+SearchEmptyViewFilteredSubtitleMusic	Music from all your chats will be shown here.
+SearchEmptyViewFilteredSubtitleFiles	Files from all your chats will be shown here.
+SearchEmptyViewFilteredSubtitleLinks	Links from all your chats will be shown here.
+SearchEmptyViewFilteredSubtitleVoice	Voice from all your chats will be shown here.
+SearchEmptyViewFilteredSubtitleMedia	Media from all your chats will be shown here.
+SearchAllChatsShort	Chats
+MessagePinnedHint	Message pinned
+MessageUnpinnedHint	Message unpinned
+TapOnThePencilButton	Tap on the button to start a new chat
+CreateGroupForImport	Create a New Group to Import
+CreateChannelForThis	Create a New Channel For This
+NoSuchChannels	No such channels
+NoSuchChannelsInfo	You don\'t have channels that meet the requirements for this bot
+CreateGroupForThis	Create a New Group For This
+NoSuchGroups	No such groups
+NoSuchGroupsInfo	You don\'t have groups that meet the requirements for this bot
+NoSuchUsers	No such users
+NoSuchUsersInfo	No users found that meet the requirements for this bot
+ImportMessages	Import Messages
+ImportErrorTitle	Import Error
+ImportErrorFileFormatInvalid	Invalid file format.
+ImportErrorPeerInvalid	Unable to import history to selected chat.
+ImportErrorFileLang	Unknown file language.
+ImportErrorNotAdmin	You must be an admin in the group to import messages.
+ImportErrorChatInvalidUser	The file format is for a group, but you selected a user.
+ImportErrorChatInvalidGroup	The file format is for a user, but you selected a group.
+ImportErrorUserBlocked	Unable to import messages due to privacy settings.
+Import	IMPORT
+ImportToUser	Do you want to import messages from **%1$s** to the chat with **%2$s**?
+ImportToUserNoTitle	Do you want to import messages to the chat with **%1$s**?
+ImportToChat	Do you want to import messages from **%1$s** to the group **%2$s**?
+ImportToChatNoTitle	Do you want to import messages to the group **%1$s**?
+ImportMutualError	You can only import messages into private chats with users with whom you are mutual contacts.
+ImportNotAdmin	You must be an admin in the group to import messages.
+ImportedInfo	This message was imported from another app. We can\'t guarantee it\'s real.
+ImportUploading	Importing messages and media... **%d%%**
+ImportImportingTitle	Importing chat
+ImportImportingInfo	Please keep Telegram open\nuntil the import is completed.
+ImportCount	%1$s of %2$s
+ImportDone	Done
+ImportDoneTitle	Chat imported successfully!
+ImportDoneInfo	Save space on your device by importing more chats to Telegram.
+ImporImportingService	Importing messages and media...
+ImporImportingStickersService	Importing stickers...
+ImportHeader	Import messages and media to...
+ImportHeaderContacts	Or choose one of your contacts
+DiscardSelectionAlertTitle	Discard selection
+DiscardSelectionAlertMessage	Do you want to close the attach menu?
+EditWidget	Edit Widget
+EditWidgetContactsInfo	Display shortcuts to your most important chats for quick access.\n\nIf nobody is selected, your most frequent contacts will be shown in this widget.
+EditWidgetChatsInfo	Display the latest message from the chats you choose.\n\nIf no specific chats are selected, your most recent chats will be shown in this widget.
+WidgetPasscode2	Note: Your passcode will be **ignored** for widgets.
+SearchForChats	Search for chats...
+WidgetPreview	Preview of the widget
+TapToEditWidget	tap to edit widget
+TapToEditWidgetShort	tap to edit
+WidgetChats	Chats
+WidgetShortcuts	Shortcuts
+WidgetLoggedOff	Account was logged off.
+SetAsAdmin	Promote to admin
+EditAdminRights	Edit admin rights
+DeleteMega	Delete Group
+DeleteMegaForAll	Delete Group For All
+DeleteChannelForAll2	Delete Channel For All
+LeaveMega	Leave Group
+LeaveMegaMenu	Leave Group
+LeaveConversationMenu	Leave Conversation
+DeleteMegaMenu	Delete Group
+MegaAdminsInfo	You can add administrators to help you manage your group. Tap and hold to remove them.
+DeleteGroupForAll	Delete the group for all members
+DeleteChannelForAll	Delete for all subscribers
+ActionCreateMega	Group created
+MegaAddedBy	un1 added you to this group
+MegaLeaveAlert	Are you sure you want to leave the group?
+MegaLeaveAlertWithName	Are you sure you want to leave **%1$s**?
+GroupUserCantAdd	Sorry, you can\'t add this user to groups.
+GroupUserAddLimit	Sorry, this group is full.
+GroupUserLeftError	Sorry, if a person is no longer part of a group, you need to be in their Telegram contacts in order to add them back.\n\nNote that they can still join via the group\'s invite link as long as they are not in the Removed Users list.
+GroupUserCantAdmin	Sorry, too many administrators in this group.
+PublicChannelsTooMuch	Sorry, the target user has too many public groups or channels already. Please ask them to make one of their existing groups or channels private first.
+LocatedChannelsTooMuch	Sorry, the target user owns too many location-based groups. Please ask them to delete or transfer an existing one first.
+YourLocatedChannelsTooMuch	Sorry, you have too many location-based groups already. Please delete one of your existing ones first.
+GroupUserCantBot	Sorry, too many bots in this group.
+ActionPinnedText	un1 pinned \"%1$s\"
+ActionPinnedNoText	un1 pinned a message
+ActionPinnedPoll	un1 pinned a poll
+ActionPinnedQuiz	un1 pinned a quiz
+ActionPinnedPhoto	un1 pinned a photo
+ActionPinnedVideo	un1 pinned a video
+ActionPinnedFile	un1 pinned a file
+ActionPinnedSticker	un1 pinned a sticker
+ActionPinnedVoice	un1 pinned a voice message
+ActionPinnedRound	un1 pinned a video message
+ActionPinnedContact	un1 pinned a contact
+ActionPinnedGame	un1 pinned %1$s
+ActionPinnedGeo	un1 pinned a map
+ActionPinnedGeoLive	un1 pinned a live location
+ActionPinnedGif	un1 pinned a GIF
+ActionPinnedMusic	un1 pinned an audio file
+ActionMigrateFromGroup	This group was upgraded to a supergroup
+ActionMigrateFromGroupNotify	%1$s was upgraded to a supergroup
+NoBlockedGroup2	Users removed from the group by the admins can\'t rejoin via invite links.
+NoBlockedCommunity2	Users removed from the community by the admins can\'t rejoin via invite links.
+NoBlockedChannel2	Users removed from the channel by the admins can\'t rejoin via invite links.
+NewChannel	New Channel
+EnterChannelName	Channel name
+AddMutual	Add contacts to your channel
+ChannelUsernameHelp	If you set a permanent link, other people will be able to find and join your channel.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.
+MegaUsernameHelp	If you set a permanent link, other people will be able to find and join your group.\n\nYou can use a-z, 0-9 and underscores.\nMinimum length is 5 characters.
+ChannelUsernamePlaceholder	link
+ChannelPrivateLinkHelp	People can join your channel by following this link. You can revoke the link any time.
+MegaPrivateLinkHelp	People can join your group by following this link. You can revoke the link any time.
+DescriptionOptionalPlaceholder	Description (optional)
+DescriptionPlaceholder	Description
+DescriptionInfo	You can provide an optional description for your channel.
+GroupSettingsChangedAlert	You have changed some settings in this group. Apply changes?
+ChannelSettingsChangedAlert	You have changed some settings in this channel. Apply changes?
+ChannelPublic	Public Channel
+MegaPublic	Public Group
+MegaLocation	Location-based Group
+ChannelPublicInfo	Public channels can be found in search, anyone can join them.
+MegaPublicInfo	Public groups can be found in search, chat history is available to everyone and anyone can join.
+ChannelPrivate	Private Channel
+MegaPrivate	Private Group
+MonoforumMessages	direct messages
+ChannelPrivateInfo	Private channels can only be joined via an invite link.
+MegaPrivateInfo	Private groups can only be joined if you were invited or have an invite link.
+ChannelLinkTitle	Permanent link
+ChannelInviteLinkTitle	Invite Link
+GroupAddMembers	Add Members
+ChannelAddSubscribers	Add Subscribers
+LeaveChannel	Leave Channel
+LeaveChannelMenu	Leave channel
+ChannelSettings	Settings
+ChannelJoin	JOIN
+ChannelJoinNoCaps	Join
+ChannelJoinRequest	APPLY TO JOIN CHANNEL
+ChannelJoinRequestNoCaps	Apply to join channel
+ChannelJoinRequestSent	JOIN REQUEST SENT
+ChannelJoinRequestSentNoCaps	Join request sent
+GroupJoin	JOIN
+GroupJoinNoCaps	Join
+GroupJoinRequest	APPLY TO JOIN GROUP
+GroupJoinRequestNoCaps	Apply to join group
+GroupJoinRequestSent	JOIN REQUEST SENT
+GroupJoinRequestSentNoCaps	Join request sent
+ChannelBroadcast	Broadcast
+ChannelSilentBroadcast	Silent Broadcast
+ChannelAlertTitle	What is a Channel?
+ChannelAlertText	Channels are a tool for broadcasting your messages to unlimited audiences.
+ChannelAlertCreate2	Create Channel
+LinkInUse	Sorry, this name is already taken.
+LinkInvalid	Sorry, this name is invalid.
+LinkInvalidShort	Channel names must have at least 5 characters.
+LinkInvalidLong	The name must not exceed 32 characters.
+LinkInvalidStartNumber	Channel names can\'t start with a number.
+LinkInvalidShortMega	Group names must have at least 5 characters.
+LinkInvalidStartNumberMega	Group names can\'t start with a number.
+LinkChecking	Checking name…
+LinkAvailable	%1$s is available.
+ChannelMembers	Members
+ChannelAddToGroup	Add to group
+ChannelAddToChannel	Add to channel
+ChannelDeleteFromList	Delete from this list
+ChannelSubscribers	Subscribers
+ChannelBlacklist	Removed Users
+ChannelPermissions	Permissions
+ChannelPermissionsHeader	What can members of this group do?
+CommunityPermissionsHeader	What can members of this community do?
+ChannelAddException	Add Exception
+ChannelSearchException	Search Exceptions
+ChannelBlockedUsers	Removed users
+ChannelContacts	Contacts in this channel
+GroupContacts	Contacts in this group
+YourContactsToInvite	Your contacts
+ChannelBots	Bots
+ChannelOtherMembers	Other members
+ChannelOtherSubscribers	Other subscribers
+ChannelOtherSubscriberJoined	joined %1$s
+ChannelRestrictedUsers	Restricted users
+ChannelAdministrators	Administrators
+ChannelAdminSettings	Channel Settings
+ChannelStars	Balance
+ChannelDelete	Delete Channel
+ChannelDeleteMenu	Delete channel
+ChannelDeleteAlert	Wait! Deleting this channel will remove all members and all messages will be lost. Delete the channel anyway?
+ChannelLeaveAlert	Are you sure you want to leave the channel?
+ChannelLeaveAlertWithName	Are you sure you want to leave **%1$s**?
+ChannelDeleteInfo	You will lose all messages in this channel.
+ChannelEdit	Edit
+ChannelPublicEmptyUsernameTitle	Choose a link
+ChannelPublicEmptyUsername	Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.
+ActionCreateChannel	Channel created
+ActionGiftTonInbound	sent you a gift for **un2**
+ActionGiftInbound	un1 sent you a gift for **un2**
+ActionGiftOutbound	You have sent a gift for **un2**
+ActionPrepaidGiftInbound	un1 sent an upgrade worth **un2** for your gift
+ActionPrepaidGiftOutbound	You sent an upgrade worth **un2** for **un1**\'s gift
+ActionGiftSelf	You bought a gift for **un2**
+ActionGiftAuctionSelf	You won the auction with a bid of **un2**
+ActionGiftSomeone	Someone sent you a gift!
+ActionGiftChannel_one	**un1** sent a gift to **un2** for %d Star
+ActionGiftChannel_other	**un1** sent a gift to **un2** for %d Stars
+ActionUniqueGiftUpgradeInbound	**un1** turned the gift from you into a unique collectible
+ActionUniqueGiftUpgradeInboundChannel	**un1** turned the gift into a unique collectible
+ActionUniqueGiftUpgradeOutbound	You turned the gift from **un1** into a unique collectible
+ActionUniqueGiftUpgradeSelf	You turned the gift into a unique collectible
+ActionUniqueGiftTransferInbound	**un1** transferred you a gift!
+ActionUniqueGiftTransferService	**un1** transferred a gift to **un2**!
+ActionUniqueGiftTransferOutbound	You transferred a gift to **un1**
+ActionUniqueGiftTransferOutboundAssigned	You started displaying %s on your Telegram profile page.
+ActionUniqueGiftCrafted	You crafted a new gift!
+ActionUniqueGiftResaleService_one	**un1** sent a gift to **un2** for %d Star!
+ActionUniqueGiftResaleService_other	**un1** sent a gift to **un2** for %d Stars!
+ActionUniqueGiftResaleServiceTON	**un1** sent a gift to **un2** for %s TON!
+ActionUniqueGiftResaleOutboundTON	You bought this gift for %s TON
+ActionUniqueGiftResaleInboundTON	**un1** bought you a gift for %s TON!
+ActionUniqueGiftResaleOutbound_one	You bought this gift for %d Star
+ActionUniqueGiftResaleOutbound_other	You bought this gift for %d Stars
+ActionUniqueGiftResaleInbound_one	**un1** bought you a gift for %d Star!
+ActionUniqueGiftResaleInbound_other	**un1** bought you a gift for %d Stars!
+ActionUniqueGiftResaleSoldOutboundTON	You sold this gift for %s TON
+ActionUniqueGiftResaleSoldOutbound_one	You sold this gift for %d Star
+ActionUniqueGiftResaleSoldOutbound_other	You sold this gift for %d Stars
+ActionStarGiftInbound	%s sent you a gift
+ActionStarGift	Gift
+ActionGiftPremiumTitle2_one	%d Month Premium
+ActionGiftPremiumTitle2_other	%d Months Premium
+ActionGiftPremiumText	Subscription for exclusive Telegram features.
+ActionGiftPremiumView	View
+ActionStarGiveawayPrizeTitle	Congratulations!
+ActionStarGiveawayPrize_one	You won a prize in a giveaway organized by **un1**.\n\nYour prize is **%d Star**.
+ActionStarGiveawayPrize_other	You won a prize in a giveaway organized by **un1**.\n\nYour prize is **%d Stars**.
+ActionChannelChangedPhoto	Channel photo changed
+ActionChannelChangedVideo	Channel video changed
+ActionChannelRemovedPhoto	Channel photo removed
+ActionChannelChangedTitle	Channel name changed to un2
+ChangePublicLimitReached	Sorry, you have reserved too many public usernames. You can revoke the link from one of your older groups or channels, or create a private entity instead.
+ChannelCreator	Owner
+ChannelAdministrator	Administrator
+ChannelAdmin	Admin
+ChannelMute	MUTE
+ChannelMuteNoCaps	Mute
+ChannelUnmute	UNMUTE
+ChannelUnmuteNoCaps	Unmute
+ChannelAddAdmin	Add Admin
+ChannelBlockUser	Remove User
+GroupNotRestrictBoosters	Do Not Restrict Boosters
+GroupNotRestrictBoostersInfo	Turn this on to always allow users who boosted your group to send messages and media.
+GroupNotRestrictBoostersInfo2	Choose how many boosts a user must give to the group to bypass restrictions on sending messages.
+CallInviteViaLinkTitle	Invite via Link
+ChannelInviteViaLink	Invite via Link
+ChannelRemoveUserAdmin	Dismiss admin
+ChannelEditPermissions	Edit permissions
+ChannelAntiSpamUser	Telegram Anti-Spam
+ChannelAntiSpam	Aggressive Anti-Spam
+ChannelAntiSpamInfo	Telegram will filter more spam, but may occasionally affect ordinary messages. You can report False Positives in Recent Actions.
+ChannelAntiSpamInfo2	You can manage anti-spam settings in %s
+ChannelHideMembers	Hide Members
+ChannelHideMembersInfo	Switch on to hide the list of members in this group. Admins will remain visible.
+ChannelMemberTags	Allow Member Tags
+ChannelMemberTagsInfo	Turn this on to let members of the group to add short tags next to their names.
+ChannelAntiSpamFalsePositiveReported	Telegram moderators will review your report. Thank you!
+ChannelMembersInfo	Only channel administrators can see this list.
+ChannelLinkInfo	Anyone on Telegram will be able to join your channel by following this link.
+ChannelAdminsInfo	You can add administrators to help you manage your channel. Tap and hold to remove admins.
+ChannelCantOpenPrivate	Sorry, this channel is private, so you can’t view its content.
+ChannelCantOpenPrivate2	Sorry, this channel is private.
+ChannelCantOpenBannedByAdminTitle	Can\'t access the chat
+ChannelCantOpenBannedByAdmin	Sorry, you can\'t access this chat because you were banned by an admin.
+ChannelCantOpenBanned	Unfortunately, you were banned from participating in public groups.
+ChannelCantOpenNa	Sorry, this chat is no longer accessible.
+ChannelAddTo	Add %1$s to the channel?
+ChannelUserLeftError	Sorry, if a person is no longer part of a channel, you need to be in their Telegram contacts in order to add them back.\n\nNote that they could still join via the channel\'s invite link as long as they are not in the Removed users list.

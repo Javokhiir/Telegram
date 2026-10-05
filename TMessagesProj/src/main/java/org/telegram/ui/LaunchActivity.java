@@ -390,10 +390,18 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
     }
 
     private FrameMetricsOverlayView frameMetricsOverlayView;
+    private boolean unsupportedDevice;
     // private RefreshRateController refreshRateController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        if (!UMessageUnsupportedDeviceActivity.isSupported()) {
+            unsupportedDevice = true;
+            super.onCreate(savedInstanceState);
+            startActivity(new Intent(this, UMessageUnsupportedDeviceActivity.class));
+            finish();
+            return;
+        }
         isActive = true;
         activeInstanceCount++;
         if (BuildVars.DEBUG_VERSION) {
@@ -6732,6 +6740,8 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
     @Override
     protected void onPause() {
         super.onPause();
+        UMessageNearbyShareManager.onActivityPaused();
+        org.telegram.messenger.UMessageFriendLocations.onAppPaused();
         isResumed = false;
         if (privacyGuardAppShield != null) {
             privacyGuardAppShield.detach();
@@ -6860,6 +6870,10 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
 
     @Override
     protected void onDestroy() {
+        if (unsupportedDevice) {
+            super.onDestroy();
+            return;
+        }
         isActive = false;
         activeInstanceCount--;
         unregisterReceiver(batteryReceiver);
@@ -6988,6 +7002,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                 org.telegram.messenger.UMessagePremiumController.getInstance().register(a);
             }
         }
+        org.telegram.messenger.UMessageFriendLocations.onAppResumed();
         pipActivityHandler.onResume();
         if (onResumeStaticCallback != null) {
             onResumeStaticCallback.run();
@@ -6996,6 +7011,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
         if (Theme.selectedAutoNightType == Theme.AUTO_NIGHT_TYPE_SYSTEM) {
             Theme.checkAutoNightThemeConditions();
         }
+        UMessageNearbyShareManager.onActivityResumed(this);
         checkWasMutedByAdmin(true);
         //FileLog.d("UI resume time = " + (SystemClock.elapsedRealtime() - ApplicationLoader.startTime));
         NotificationCenter.getGlobalInstance().postNotificationName(NotificationCenter.startAllHeavyOperations, 4096);

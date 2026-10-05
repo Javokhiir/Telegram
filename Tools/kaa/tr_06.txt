@@ -1,0 +1,582 @@
+TerminateWebSessionInfo	Telegram akkauntıńızdan ajıratıw ushın basıń.
+TerminateWebSessionText	%1$s ti ajıratıwdı anıq qáleysiz be?
+TerminateWebSessionTitle	Sayttı ajıratıw
+TerminateWebSessionsTitle	Saytlardı ajıratıw
+Disconnect	Ajıratıw
+TerminateWebSessionStop	%1$s ti bloklaw
+TerminateAllWebSessions	Barlıq saytlardı ajıratıw
+AreYouSureWebSessions	Telegram arqalı kirgen barlıq saytlardı ajıratıwdı anıq qáleysiz be?
+ClearOtherWebSessionsHelp	Telegram arqalı kiriwdi qollap-quwatlaytuǵın saytlarǵa kire alasız.
+LoginAttempts	Tamamlanbaǵan kiriw urınıwları
+LoginAttemptsInfo	Joqarıdaǵı qurılmalardıń xabarlarıńızǵa ruqsatı joq. Kod durıs kirgizilgen, biraq durıs parol berilmegen.
+Filters	Papkalar
+CreateNewFilter	Jańa papka jaratıw
+CreateNewFilterInfo	Hár qıylı sáwbet toparları ushın papkalar jaratıń hám olar arasında tez almasıń.
+FilterRecommended	Usınılǵan papkalar
+FilterAllChats	Barlıq sáwbetler
+FilterAllChatsShort	Bárshesi
+FilterReorder	Tártibin ózgertiw
+FilterEdit	Papkanı ózgertiw
+FilterEditAll	Papkalardı ózgertiw
+FilterMuteAll	Bárshesin únsiz etiw
+FilterUnmuteAll	Bárshesiniń dawısın qosıw
+FilterContacts	Kontaktlar
+FilterNonContacts	Kontakt emesler
+FilterGroups	Toparlar
+FilterChannels	Kanallar
+FilterEditItem	Ózgertiw
+FilterDeleteItem	Óshiriw
+FilterDelete	Papkanı óshiriw
+FilterMuted	Únsiz
+FilterRead	Oqılǵan
+FilterArchived	Arxivlengen
+FilterAlwaysShow	Sáwbetlerdi qosıw
+FilterNeverShow	Sáwbetlerdi shıǵarıp taslaw
+FilterAddChats	Sáwbetler qosıw
+FilterRemoveChats	Sáwbetlerdi alıp taslaw
+FilterChatTypes	Sáwbet túrleri
+FilterChats	Sáwbetler
+FilterInclude	Qosılǵan sáwbetler
+FilterExclude	Shıǵarıp taslanǵan sáwbetler
+FilterIncludeInfo	Usı papkada kórinetuǵın sáwbetler hám sáwbet túrlerin tańlań.
+FilterExcludeInfo	Usı papkada kórinbeytuǵın sáwbetler hám sáwbet túrlerin tańlań.
+FilterBots	Botlar
+FilterAddingChats	Sáwbetler qosılmaqta
+FilterAddingChatsInfo	Bul papkanı siz ushın toltırıp atırmız, biraz kútiń...
+FilterNoChatsToDisplay	Sáwbetler tabılmadı
+FilterNoChatsToDisplayInfo	Házir bul papkaǵa hesh bir sáwbet kirmeydi.
+FilterNoChatsToForward	Sáwbetler tabılmadı
+FilterNoChatsToForwardInfo	Bul papkada jiberiw ushın sáwbetler joq.
+FilterNew	Jańa papka
+FilterNoChats	Sáwbetler joq
+FilterContact	Kontakt
+FilterNonContact	Kontakt emes
+FilterNameHeader	Papka atı
+FilterNameAnimationsEnable	Animaciyalardı qosıw
+FilterNameAnimationsDisable	Animaciyalardı óshiriw
+FilterNameHint	Papka atı
+FilterDeleteAlert	Bul papkanı óshiriwdi anıq qáleysiz be?
+FilterDeleteAlertLinks	Bul papkanı óshiriwdi anıq qáleysiz be? Bul usı papka menen bólisiw ushın qollanılǵan barlıq mirát siltemelerin de óshiredi.
+FilterDiscardTitle	Ózgerisler qollanılsın ba?
+FilterDiscardAlert	Siz bul papkanı ózgerttińiz. Ózgerisler qollanılsın ba?
+FilterDiscardNewTitle	Papka jaratılsın ba?
+FilterDiscardNewAlert	Siz ele papka jaratıwdı tamamlamadıńız. Házir jaratılsın ba?
+FilterDiscardNewSave	Jaratıw
+FilterShowMoreChats_one	Jáne %1$d sáwbetti kórsetiw
+FilterShowMoreChats_other	Jáne %1$d sáwbetti kórsetiw
+FilterRemoveExclusionTitle	Esaptan tısqarını alıp taslaw
+FilterRemoveInclusionTitle	Esaptan tısqarını alıp taslaw
+FilterRemoveExclusionText	\"%1$s\" ti bárqulla shıǵarıp taslanatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterRemoveExclusionChatText	\"%1$s\" ti bárqulla shıǵarıp taslanatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterRemoveExclusionUserText	\"%1$s\" ti bárqulla shıǵarıp taslanatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterRemoveInclusionText	\"%1$s\" ti bárqulla qosılatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterRemoveInclusionChatText	\"%1$s\" ti bárqulla qosılatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterRemoveInclusionUserText	\"%1$s\" ti bárqulla qosılatuǵın sáwbetlerden alıp taslawdı anıq qáleysiz be?
+FilterAvailableTitle	Sáwbet papkaları
+FilterAvailableText	Sáwbetlerińizdi papkalarǵa bóliw ushın *Sazlamalar / Papkalar* bólimin ashıń.
+FilterNameNonMuted	Únsiz emes
+FilterNameUnread	Oqılmaǵan
+FilterAddTo	Papkaǵa qosıw
+FilterRemoveFrom	Papkadan alıp taslaw
+FilterChoose	Papkanı tańlań
+FilterUserAddedToExisting	**%1$s** **%2$s** ge qosıldı
+FilterChatAddedToExisting	**%1$s** **%2$s** ge qosıldı
+FilterChatsAddedToExisting	**%1$s** **%2$s** ge qosıldı
+FilterUserRemovedFrom	**%1$s** **%2$s** den alıp taslandı
+FilterChatRemovedFrom	**%1$s** **%2$s** den alıp taslandı
+FilterChatsRemovedFrom	**%1$s** **%2$s** den alıp taslandı
+FilterAddToAlertFullTitle	Shekke jetti
+FilterAddToAlertFullText	Keshirersiz, papkadan 100 den artıq sáwbetti shıǵarıp taslay almaysız.
+Passcode	Kod-parol qulpı
+ChangePasscode	Kod-paroldı ózgertiw
+ChangePasscodeInfo	Qosımsha kod-parol ornatqanıńızda, sáwbetler betinde qulıp belgisi payda boladı. Telegram qosımshasın qulıplaw hám ashıw ushın onı basıń.\n\nEskertiw: kod-paroldı umıtsańız, qosımshanı óshirip, qayta ornatıwıńız kerek boladı. Barlıq jasırın sáwbetler joǵaladı.
+ChangePasscodeInfoShort	Kod-parol ornatqanıńızda, sáwbetler betinde qulıp belgisi payda boladı. Qosımshanı qulıplaw hám ashıw ushın onı basıń.
+EnablePasscode	Kod-paroldı qosıw
+ConfirmCreatePasscode	Kod-paroldı qayta kirgiziń
+PasscodeSwitchToPassword	Parolǵa ótiw
+PasscodeSwitchToPIN	PIN ge ótiw
+PasscodesDoNotMatchTryAgain	Kod-paroller sáykes kelmeydi. Qaytadan urınıp kóriń.
+EnterYourPasscode	Kod-parolıńızdı kirgiziń
+EnterYourPasscodeInfo	Bul sazlamanı basqarıw ushın házirgi Telegram kod-parolıńızdı kirgiziń.
+ForgotPasscode	Kod-paroldı umıttıńız ba?
+ForgotPasscodeInfo	Kod-paroldı umıtqan bolsańız, qosımshanı óshirip, qayta ornatıwıńız kerek boladı.\n\nBarlıq jasırın sáwbetler joǵaladı.
+PasscodeScreenHint	Qosımshanı qulıplaw hám ashıw ushın sáwbetler betindegi qulıp belgisin basıń.
+DisablePasscode	Kod-paroldı óshiriw
+DisablePasscodeConfirmMessage	Kod-paroldı óshiriwdi anıq qáleysiz be?
+DisablePasscodeTurnOff	Óshiriw
+EnterNewPasscode	Jańa kod-parolıńızdı kirgiziń
+EnterYourTelegramPasscode	Telegram kod-parolıńızdı kirgiziń
+AutoLock	Avto-qulıplaw
+AutoLockInfo	Belgili waqıt bolmaǵanıńızda kod-parol talap etiw.
+AutoLockInTime	%1$s tan keyin
+AutoLockDisabled	Óshirilgen
+UnlockFingerprint	Barmaq izi menen ashıw
+ScreenCapture	Qosımsha mazmunın wazıypalar diziminde kórsetiw
+ScreenCaptureHeader	Wazıypalar dizimindegi qosımsha mazmunı
+ScreenCaptureShowContent	Mazmundı kórsetiw
+ScreenCaptureInfo	Óshirilse, qosımshada skrinshot ala almaysız, biraq sáwbet mazmunı wazıypalar diziminde jasırıladı.
+ScreenCaptureAlert	Bul sáwbetlerińiz yamasa sáwbetler dizimińizdiń mazmunın wazıypalar diziminen jasıradı, biraq Telegramda skrinshot ala almaysız.\n\nBul kúshke kiriwi ushın qosımshanı qayta iske túsiriw kerek bolıwı múmkin.
+TooManyTries	Júdá kóp urınıw.\n%1$s tan keyin qaytadan urınıp kóriń.
+January	Yanvar
+February	Fevral
+March	Mart
+April	Aprel
+May	May
+June	Iyun
+July	Iyul
+August	Avgust
+September	Sentyabr
+October	Oktyabr
+November	Noyabr
+December	Dekabr
+SharedFilesTab2	Fayllar
+SharedMediaTab2	Media
+SharedMediaTabFull2	Ulıwma media
+SharedGroupsTab2	Toparlar
+SharedLinksTab2	Siltemeler
+SharedMusicTab2	Muzıka
+SharedPollTab	Sorawnamalar
+SharedVoiceTab2	Dawıs
+SharedGIFsTab2	GIFler
+SharedContentTitle	Ulıwma mazmun
+SimilarChannelsTab	Uqsas kanallar
+SimilarBotsTab	Uqsas botlar
+NoMedia	Bul sáwbette súwretler hám videolar menen bólisiń hám olarǵa qálegen qurılmańızdan kiriń.
+NoSharedAudio	Bul sáwbette muzıka menen bólisiń hám oǵan qálegen qurılmańızdan kiriń.
+NoSharedFiles	Bul sáwbette fayllar hám hújjetler menen bólisiń hám olarǵa qálegen qurılmańızdan kiriń.
+NoSharedLinks	Bul sáwbette siltemeler menen bólisiń hám olarǵa qálegen qurılmańızdan kiriń.
+NoSharedVoice	Bul sáwbette dawıslı xabarlar menen bólisiń hám olarǵa qálegen qurılmańızdan kiriń.
+NoMediaSecret	Bul sáwbettegi súwretler hám videolar usı jerde kórsetiledi.
+NoSharedAudioSecret	Bul sáwbettegi muzıka usı jerde kórsetiledi.
+NoSharedFilesSecret	Bul sáwbettegi fayllar hám hújjetler usı jerde kórsetiledi.
+NoSharedLinksSecret	Bul sáwbettegi siltemeler usı jerde kórsetiledi.
+NoSharedVoiceSecret	Bul sáwbettegi dawıslı xabarlar usı jerde kórsetiledi.
+NoSharedGifSecret	Bul sáwbettegi GIFler usı jerde kórsetiledi.
+Map	Karta
+Satellite	Sputnik
+Hybrid	Gibrid
+MetersAway2	%1$s m uzaqlıqta
+KMetersAway2	%1$s km uzaqlıqta
+FootsAway	%1$s fut uzaqlıqta
+MilesAway	%1$s mil uzaqlıqta
+FootsShort	%1$s fut
+MilesShort	%1$s mil
+MetersShort	%1$s m
+KMetersShort	%1$s km
+MetersFromYou2	sizden&#160;%1$s m
+KMetersFromYou2	sizden&#160;%1$s km
+FootsFromYou	sizden&#160;%1$s fut
+MilesFromYou	sizden&#160;%1$s mil
+Directions	Baǵdarlar
+GetDirections	Jol kórsetiw
+NoPlacesFound	Orınlar tabılmadı
+NoPlacesFoundInfo	Janıńızda **%1$s** boyınsha sáykeslik joq.
+SendLocation	Házirgi jaylasıwımdı jiberiw
+SendLiveLocation	Janlı jaylasıwım menen bólisiw...
+SendLiveLocationMenu	Janlı jaylasıwım menen bólisiw
+StopLiveLocation	Jaylasıw menen bólisiwdi toqtatıw
+SharingLiveLocation	Jaylasıw bólisilmekte...
+SharingLiveLocationAdd	waqıt qosıw ushın basıń
+StopLiveLocationAlertToTitle	Jaylasıw menen bólisiwdi toqtatıw
+StopLiveLocationAlertToUserText	**%1$s** penen janlı jaylasıwıńız benen bólisiwdi toqtatıwdı qáleysiz be?
+StopLiveLocationAlertToGroupText	**%1$s** penen janlı jaylasıwıńız benen bólisiwdi toqtatıwdı qáleysiz be?
+StopLiveLocationAlertAllText	Janlı jaylasıwıńız benen bólisiwdi toqtatıwdı qáleysiz be?
+SendLiveLocationInfo	Háreketlengenińizde real waqıtta jańalanadı
+SendSelectedLocation	Tańlanǵan jaylasıwdı jiberiw
+AttachSelectedLocation	Tańlanǵan jaylasıwdı biriktiriw
+SetThisLocation	Usı jaylasıwdı ornatıw
+UnknownLocation	Belgisiz jaylasıw
+ShareLocation	Jaylasıw
+SharedPlace	Orın
+AccurateTo	Anıqlıǵı %1$s
+NearbyVenue	Yamasa orındı tańlań
+LocationOnMap	Kartadaǵı jaylasıw
+TapToSendLocation	Usı jaylasıwdı jiberiw ushın basıń
+LiveLocations	Janlı jaylasıwlar
+LiveLocationContext	Janlı jaylasıw
+SendLiveLocationFor15m	15 minutqa
+SendLiveLocationFor1h	1 saatqa
+SendLiveLocationFor8h	8 saatqa
+SendLiveLocationForever	ózim óshirgenshe
+LocationUpdated	jańalandı
+LocationUpdatedFormatted	%1$s jańalandı
+LocationUpdatedJustNow	házir ǵana jańalandı
+SharingYouAndOtherName	Siz hám %1$s
+AttachLiveLocationIsSharing	%1$s %2$s penen bólispekte
+AttachLiveLocationIsSharingChat	%1$s %2$s penen bólispekte
+AttachLiveLocationIsSharingChats	%1$s %2$s penen bólispekte
+StopAllLocationSharings	BÁRSHESIN TOQTATIW
+SharingLiveLocationTitle	Siz janlı jaylasıwıńız benen %1$s penen bólisip atırsız
+LiveLocationAlertExpandTitle	Waqıt qosıw
+LiveLocationAlertExpandMessage	Jaylasıwıńız benen bólisiwdi qanshaǵa uzaytıwdı qáleysiz?
+LiveLocationAlertPrivate	%1$s anıq jaylasıwıńızdı qansha waqıt kóretuǵının tańlań.
+LiveLocationAlertGroup	Bul sáwbettegi adamlar janlı jaylasıwıńızdı qansha waqıt kóretuǵının tańlań.
+GpsDisabledAlertText	Jaylasıwǵa tiykarlanǵan imkaniyatlardan paydalanıw ushın GPS ti qosıń.
+ChatSetThisLocation	Usı jaylasıwdı ornatıw
+PlacesInThisArea	Usı aymaqtaǵı orınlar
+OpenInMaps	Kartalarda ashıw
+LocationNotifiation	Jaqınlasıw eskertiwi
+LocationNotifiationButtonUser	%1$s %2$s aralıqta bolǵanda xabarlaw
+LocationNotifiationButtonGroup	Birew %1$s aralıqta bolǵanda xabarlaw
+LocationNotifiationCloser	Siz álleqashan %1$s tan jaqınsız
+ShareLocationAlertTitle	Jaylasıw menen bólisiw
+ShareLocationAlertButton	Bólisiw
+ShareLocationAlertText	Eskertiw islewi ushın usı sáwbette janlı jaylasıwıńız benen bólisiń.
+ProximityTooltioUser	%1$s jaqın bolǵanda eskertiw
+ProximityTooltioGroup	Topardıń basqa aǵzaları jaqın bolǵanda eskertiw
+ProximityAlertSet	Jaqınlasıw eskertiwi ornatıldı
+ProximityAlertSetInfoUser	%1$s sizden %2$s aralıqta bolǵanda sizge xabar beremiz.
+ProximityAlertSetInfoGroup2	Birew sizden %1$s aralıqta bolǵanda sizge xabar beremiz.
+ProximityAlertCancelled	Jaqınlasıw eskertiwi biykarlandı
+Quality	Sapa
+QualityList	Video sapası
+QualityAuto	Avto
+QualityOriginal	Original
+Quality2160	Júdá joqarı
+Quality1440	Júdá joqarı
+Quality1080	Joqarı
+Quality720	Orta
+Quality480	Tómen
+Quality360	Tómen
+Quality240	Tómen
+Quality144	Tómen
+Quality2160Short	4K
+Quality1440Short	2K
+Quality1080Short	HD
+Quality720Short	HD
+QualitySource	Derek
+Speed	Tezlik
+SpeedSlow	Áste
+SpeedVerySlow	Júdá áste
+SpeedFast	Tez
+SpeedVeryFast	Júdá tez
+SpeedNormal	Ádettegi
+SpeedMedium	Orta
+SpeedSuperFast	Oǵada tez
+VideoSpeedVeryFast	Júdá tez
+VideoSpeedFast	Tez
+VideoSpeedCustom	Jeke %s
+VideoSpeedNormal	Ádettegi
+VideoSpeedSlow	Áste
+VideoSpeedVerySlow	Júdá áste
+SpeedHint	Kóbirek tezlik mánisleri ushın uzaq basıń.
+ShowAsList	Dizim túrinde kórsetiw
+ShowAsGrid	Tor túrinde kórsetiw
+ShowAllMedia	Barlıq medianı kórsetiw
+ShowStickers	Stikerlerdi kórsetiw
+ShowAllFiles	Barlıq fayllardı kórsetiw
+ShowAllGIFs	Barlıq GIFlerdi kórsetiw
+TapToDownload	Júklew ushın basıń
+OpenFile	FAYLDI ASHIW
+ShowInChat	Sáwbette kórsetiw
+CreateSticker	Stiker jaratıw
+StopDownload	Júklewdi toqtatıw
+SaveToGallery	Galereyaǵa saqlaw
+Of	%2$d tan %1$d
+OfS	%2$s tan %1$s
+TaggedMessages_one	%1$d xabar
+TaggedMessages_other	%1$d xabar
+SearchMessagesResultCount_one	%2$s nátiyje
+SearchMessagesResultCount_other	%2$s nátiyje
+SearchAsList	Dizim túrinde kórsetiw
+SearchAsChat	Sáwbet túrinde kórsetiw
+Gallery	Galereya
+AllPhotos	Barlıq súwretler
+AllMedia	Barlıq media
+AllVideos	Barlıq videolar
+NoPhotos	Ele súwretler joq
+PleaseDownload	Aldın medianı júklep alıń
+PleaseStreamDownload	Video tolıq júklenip bolǵansha kútiń.
+VideoDoesNotSupportStreaming	Bul video aǵımlı oynatıwǵa beyimlestirilmegen. Onı oynatıw ushın tolıq júklep alıw kerek bolıwı múmkin.
+CantPlayVideo	Qosımsha bul videonı oynata almadı. Sırtqı pleer menen oynatıp kóresiz be?
+NoRecentSearches	Sońǵı izlewler joq
+ImagesTab2	Súwretler
+GifsTab2	GIFler
+SearchImages	SÚWRETLERDI IZLEW
+SearchGifs	GIFLERDI IZLEW
+SearchImagesTitle	Internetten izlew
+SearchGifsTitle	GIFlerdi izlew
+CameraPermissionText	Kamerańızǵa ruqsat beriw ushın basıń
+GalleryPermissionText	Galereyańızǵa ruqsat beriw ushın basıń
+CropImage	Súwretti qırqıw
+Enhance	Jaqsılaw
+Highlights	Jarıq jerler
+Contrast	Kontrast
+Exposure	Ekspoziciya
+Warmth	Jıllılıq
+Saturation	Qanıqlıq
+Vignette	Vinetka
+Shadows	Sayalar
+Grain	Dánlilik
+Sharpen	Anıqlıq
+Fade	Ońıw
+SoftenSkin	Terini jumsartıw
+TintShadows	SAYALAR
+TintHighlights	JARIQ JERLER
+CurvesAll	BÁRSHESI
+CurvesRed	QIZIL
+CurvesGreen	JASIL
+CurvesBlue	KÓK
+BlurOff	Óshirilgen
+BlurLinear	Sızıqlı
+BlurRadial	Radial
+AreYouSureDeletePhotoTitle	Súwretti óshiriw
+AreYouSureDeletePhoto	Bul súwretti óshiriwdi anıq qáleysiz be?
+AreYouSureDeleteVideoTitle	Videonı óshiriw
+AreYouSureDeleteVideo	Bul videonı óshiriwdi anıq qáleysiz be?
+AreYouSureDeleteGIFTitle	GIF ti óshiriw
+AreYouSureDeleteGIF	Bul GIF ti óshiriwdi anıq qáleysiz be?
+AreYouSureDeletePhotoEveryone	Bul súwretti hámme ushın óshiriwdi anıq qáleysiz be?
+AreYouSureDeleteVideoEveryone	Bul videonı hámme ushın óshiriwdi anıq qáleysiz be?
+AreYouSureDeleteGIFEveryone	Bul GIF ti hámme ushın óshiriwdi anıq qáleysiz be?
+DiscardChanges	Ózgerislerdi biykarlaw
+PhotoEditorDiscardAlert	Barlıq ózgerislerdi biykarlawdı anıq qáleysiz be?
+ClearSearch	Izlew tariyxı tazalansın ba?
+ClearSearchAlert	Izlew tariyxıńızdı tazalawdı anıq qáleysiz be?
+ClearSearchAlertPartial_one	Bul sáwbetti izlew tariyxıńızdan alıp taslawdı qáleysiz be?
+ClearSearchAlertPartial_other	Bul %1$d sáwbetti izlew tariyxıńızdan alıp taslawdı qáleysiz be?
+ClearSearchAlertTitle	Izlew tariyxın tazalaw
+ClearSearchAlertPartialTitle	Izlew tariyxınan alıp taslaw
+ClearSearchSingleAlertTitle	Izlew tariyxı
+ClearSearchSingleUserAlertText	\"%1$s\" ti izlew tariyxınan alıp taslawdı anıq qáleysiz be?
+ClearSearchSingleChatAlertText	\"%1$s\" ti izlew tariyxınan alıp taslawdı anıq qáleysiz be?
+ClearSearchSingleHashtagAlertText	%1$s ti izlew tariyxıńızdan alıp taslawdı qáleysiz be?
+ClearSearchRemove	Alıp taslaw
+ClearButton	Tazalaw
+AddCaption	Jazıw qosıń...
+Caption	Jazıw
+PaintDelete	Óshiriw
+PaintEdit	Ózgertiw
+PaintArrow	Oq
+PaintDuplicate	Nusqalaw
+CropReset	Tiklew
+CropOriginal	Original
+CropSquare	Kvadrat
+SendWithoutGrouping	Toparlamay jiberiw
+SendWithoutCompression	Qıspay jiberiw
+ChooseCover	Profil videoıńız ushın muqaba tańlań
+SetAsMain	Tiykarǵı etip ornatıw
+EditPhoto	Redaktorda ashıw
+MainProfilePhotoSetHint	Endi bul sizdiń tiykarǵı profil súwretińiz.
+MainProfileVideoSetHint	Endi bul sizdiń tiykarǵı profil videoıńız.
+MainChannelProfilePhotoSetHint	Endi bul kanaldıń tiykarǵı súwreti.
+MainChannelProfileVideoSetHint	Endi bul kanaldıń tiykarǵı videosı.
+MainGroupProfilePhotoSetHint	Endi bul topardıń tiykarǵı súwreti.
+MainGroupProfileVideoSetHint	Endi bul topardıń tiykarǵı videosı.
+PhotoSavedHint	Súwret galereyaǵa saqlandı
+LivePhotoSavedHint	Háreketli súwret galereyaǵa saqlandı
+VideoSavedHint	Video galereyaǵa saqlandı
+PhotoSavedToDownloadsHintLinked	Súwret **júklengenler**ge saqlandı.
+VideoSavedToDownloadsHintLinked	Video **júklengenler**ge saqlandı.
+GifSavedHint	Saqlanǵan GIFlerge qosıldı
+GifSavedToDownloadsHintLinked	GIF **júklengenler**ge saqlandı.
+AudioSavedHint	Fayl muzıkaǵa saqlandı
+FileSavedHintLinked	Fayl **júklengenler**ge saqlandı.
+FilesSavedHintLinked_one	Fayl **júklengenler**ge saqlandı.
+FilesSavedHintLinked_other	%1$d fayl **júklengenler**ge saqlandı.
+PhotosSavedHint_one	Súwret galereyaǵa saqlandı
+PhotosSavedHint_other	%1$d súwret galereyaǵa saqlandı
+LivePhotosSavedHint_one	Háreketli súwret galereyaǵa saqlandı
+LivePhotosSavedHint_other	%1$d háreketli súwret galereyaǵa saqlandı
+VideosSavedHint_one	Video galereyaǵa saqlandı
+VideosSavedHint_other	%1$d video galereyaǵa saqlandı
+AudiosSavedHint_one	Fayl muzıkaǵa saqlandı
+AudiosSavedHint_other	%1$d fayl muzıkaǵa saqlandı
+MediaSavedHint_one	Element galereyaǵa saqlandı
+MediaSavedHint_other	%1$d element galereyaǵa saqlandı
+TwoStepVerification	Eki basqıshlı tekseriw
+TwoStepVerificationTitle	Eki basqıshlı tekseriw
+TwoStepVerificationPasswordSet	Parol ornatıldı!
+TwoStepVerificationPasswordSetInfo	Jańa qurılmada kirgenińizde SMS te kelgen kodqa qosımsha usı parol talap etiledi.
+TwoStepVerificationPasswordReturnSettings	Sazlamalarǵa qaytıw
+TwoStepVerificationPasswordReturnPassport	Passport qa qaytıw
+TwoStepVerificationSetPassword	Parol ornatıw
+TwoStepVerificationShowPassword	Paroldı kórsetiw
+SetAdditionalPassword	Qosımsha parol ornatıw
+SetAdditionalPasswordInfo	Jańa qurılmada kirgenińizde SMS te kelgen kodqa qosımsha talap etiletuǵın parol ornata alasız.
+YourPassword	Parolıńız
+YourPasswordHeader	Parolıńız
+YourPasswordRemember	Akkauntıńız eki basqıshlı tekseriw menen qorǵalǵan.\nParolıńızdı ele eslep qaldıńız ba?
+YourPasswordRememberYes	Awa, álbette
+YourPasswordRememberNo	Isenimim joq
+PasswordOn	Qosılǵan
+PasswordOff	Óshirilgen
+EnterPassword	Paroldı kirgiziń
+PleaseEnterCurrentPassword	Parolıńızdı kirgiziń
+CheckPassword	Paroldı tekseriw
+CheckPasswordInfo	Parolıńızdı ele eslep qaldıńız ba?
+CheckPasswordPerfect	Ájayıp!
+CheckPasswordPerfectInfo	Siz parolıńızdı ele esleysiz.
+CheckPasswordWrong	Siz qáte parol kirgizdińiz.
+CheckPasswordBackToSettings	Sazlamalarǵa qaytıw
+PleaseEnterCurrentPasswordTransfer	Ótkeriwdi tamamlaw ushın parolıńızdı kirgiziń.
+PleaseEnterCurrentPasswordWithdraw	Sheship alıw ushın parolıńızdı kirgiziń.
+PleaseEnterCurrentPasswordGiftTransfer	**%s** ti Fragment ke jiberiw ushın parolıńızdı kirgiziń.
+PleaseEnterNewFirstPassword	Jańa parol kirgiziń
+PleaseReEnterPassword	Parolıńızdı qayta kirgiziń
+NewPassword	Jańa parol
+PleaseEnterNewFirstPasswordLogin	Endi akkauntıńızǵa kiriw ushın qollanılatuǵın jańa parol ornata alasız.
+PleaseEnterNewFirstPasswordHint	Jańa paroldı kirgiziń
+PleaseEnterNewSecondPasswordHint	Jańa paroldı qayta kirgiziń
+RecoveryEmail	Tiklew emaili
+RecoveryEmailTitle	Tiklew emaili
+RecoveryEmailSubtitle	Parolıńızdı tiklew hám Telegram akkauntıńızǵa kiriwdi qayta alıw ushın tiklew emailin ornata alasız.
+YourEmail	Emailıńız
+YourNewEmail	Jańa emailıńız
+YourLoginEmailChangedSuccess	Emailıńız ózgertildi.
+YourEmailInfo	Haqıyqıy emailıńızdı qosıń. Bul umıtılǵan paroldı tiklewdiń birden-bir jolı.
+YourEmailSkip	Ótkerip jiberiw
+YourEmailSkipWarning	Eskertiw
+YourEmailSkipWarningText	Joq, shın aytaman.\n\nParolıńızdı umıtsańız, Telegram akkauntıńızǵa kiriw múmkinshiliginen ayırılasız. Onı tiklewdiń jolı bolmaydı.
+YourEmailAlmostThere	Derlik tayar!
+YourEmailAlmostThereText	Eki basqıshlı tekseriwdi sazlawdı tamamlaw ushın emailıńızdı tekseriń (spam papkasın da umıtpań).
+YourPasswordSuccess	Tabıslı!
+YourPasswordChangedSuccessText	Eki basqıshlı tekseriw parolıńız ózgertildi.
+YourEmailSuccessText	Eki basqıshlı tekseriw ushın tiklew emailıńız endi aktiv.
+YourEmailSuccessChangedText	Eki basqıshlı tekseriw ushın tiklew emailıńız ózgertildi.
+ChangePassword	Paroldı ózgertiw
+TurnPasswordOff	Paroldı óshiriw
+SetRecoveryEmail	Tiklew emailin ornatıw
+ChangeRecoveryEmail	Tiklew emailin ózgertiw
+TurnPasswordOffQuestionTitle	Paroldı óshiriw
+TurnPasswordOffQuestion	Parolıńızdı óshiriwdi anıq qáleysiz be?
+CancelPasswordQuestion	Eki basqıshlı tekseriwdi sazlawdı toqtatıwdı anıq qáleysiz be?
+CancelEmailQuestion	Tiklew emailin sazlawdı toqtatıwdı anıq qáleysiz be?
+CancelPasswordReset	Paroldı tiklew procesi biykarlansın ba? Keyin jańa tiklewdi sorasańız, ol jáne 7 kún aladı.
+CancelPasswordResetYes	AWA
+CancelPasswordResetNo	YAQ
+CancelReset	Tiklewdi biykarlaw
+CancelEmailQuestionTitle	Sazlawdı toqtatıw
+TurnPasswordOffPassport	Eskertiw! Telegram Passport ıńızda saqlanǵan barlıq maǵlıwmatlar joǵaladı!
+PasswordHint	Parol másláháti
+PasswordHintDescription	Parolıńız ushın qosımsha másláhát jarata alasız.
+PasswordHintPlaceholder	Másláhát
+PasswordHintText	Parolıńız ushın másláhát jaratıń
+PasswordHintTextLogin	Parolıńız ushın másláhát jaratıń.
+PasswordDoNotMatch	Paroller sáykes kelmeydi
+ReEnterPassword	Paroldı qayta kirgiziń
+AbortPassword	Eki basqıshlı tekseriwdi sazlawdı toqtatıw
+AbortPasswordMenu	Sazlawdı toqtatıw
+AbortEmail	Tiklew emailin sazlawdı toqtatıw
+Abort	Toqtatıw
+Disable	Óshiriw
+EmailPasswordConfirmText2	Eki basqıshlı tekseriwdi sazlawdı tamamlaw ushın emailıńızdı tekseriń (spam papkasın da umıtpań) hám biz házir jibergen kodtı kirgiziń.
+PasswordAsHintError	Másláhát parolıńızdan ózgeshe bolıwı kerek
+PasswordEmailInvalid	Jaramsız email mánzili. Onı durıs kirgizgenińizdi tekserip, qaytadan urınıp kóriń.
+RestorePasswordNoEmailTitle	Keshirersiz
+RestorePasswordNoEmailText	Paroldı ornatqanda tiklew emailin kórsetpegenińiz sebepli, qalǵan jollarıńız — paroldı eske túsiriw yamasa akkauntıńızdı qayta ornatıw.
+RestorePasswordNoEmailText2	Paroldı ornatqanda tiklew emailin kórsetpegenińiz sebepli, qalǵan jollarıńız — paroldı eske túsiriw yamasa parol tiklengenshe 7 kún kútiw.
+RestorePasswordResetPasswordText	Eki basqıshlı tekseriw parolıńızdı tiklewdi anıq qáleysiz be?
+RestorePasswordResetPasswordOk	Eki basqıshlı tekseriw parolıńız tiklendi.
+RestorePasswordResetAccount	AKKAUNTTI QAYTA ORNATIW
+RestorePasswordResetPassword	PAROLDI TIKLEW
+RestorePasswordResetIn	Parolıńızdı %1$s tan keyin tikley alasız
+ResetPassword	Paroldı tiklew
+RestoreEmailSentTitle	Tiklew kodı
+RestoreEmailSent	Siz kórsetken email mánziline tiklew kodın jiberdik:\n\n%1$s
+RestoreEmailSentInfo	Emailıńızdı tekserip, biz jibergen 6 sanlı kodtı kirgiziń.
+RestoreEmailTrouble	%1$s emailıńızǵa kiriwde mashqala bar ma?
+RestoreEmailTroubleNoEmail	Emailıńızǵa kiriwde mashqala bar ma?
+RestoreEmailTroubleText	Emailıńızǵa kiriwdi tikley almasańız, qalǵan jollarıńız — paroldı eske túsiriw yamasa akkauntıńızdı qayta ornatıw.
+RestoreEmailTroubleText2	Tiklew emailıńızǵa kire almasańız, qalǵan jollarıńız — paroldı eske túsiriw yamasa parol tiklengenshe 7 kún kútiw.
+RestoreEmailNoAccess	%1$s ge kire almay atırsız ba?
+ResetPasswordWait	Siz jaqında biykarlanǵan parol tiklewin soraǵan edińiz. Jańa soraw jiberiwden aldın %1$s kútiń.
+ResetMyAccount	AKKAUNTIMDI QAYTA ORNATIW
+ResetMyAccountWarning	Eskertiw
+ResetMyAccountWarningText	Bul háreketti biykarlap bolmaydı.\n\nAkkauntıńızdı qayta ornatsańız, barlıq xabarlarıńız hám sáwbetlerińiz óshiriledi.
+ResetMyAccountWarningReset	Akkaunttı qayta ornatıw
+LoginPassword	Parol
+LoginPasswordText	Sizde eki basqıshlı tekseriw qosılǵan, sonlıqtan akkauntıńız qosımsha parol menen qorǵalǵan.
+LoginPasswordTextShort	Eki basqıshlı tekseriw qosılǵan. Akkauntıńız qosımsha parol menen qorǵalǵan.
+ForgotPassword	Paroldı umıttıńız ba?
+PasswordRecovery	Paroldı tiklew
+PasswordCode	Kod
+PasswordReset	Parol óshirildi
+ResendCode	Kodtı qayta jiberiw
+VerificationCode	Tastıyıqlaw kodı
+EnterCode	Kodtı kirgiziń
+ResendCodeInfo	Tastıyıqlaw kodı emailıńızǵa jiberildi.
+EnabledPasswordText	Siz eki basqıshlı tekseriwdi qostıńız.\nTelegram akkauntıńızǵa kiriw ushın usı jerde ornatqan parolıńız kerek boladı.
+AddEmailTitle	Email qosıw
+AddEmailSubtitle	Akkauntıńızdı qorǵaw ushın haqıyqıy email mánzilińizdi kirgiziń.
+EnterNewEmail	Jańa email kirgiziń
+VerificationCodeSubtitle	%1$s emailıńızdı tekseriń (spam papkasın da umıtpań) hám biz házir jibergen kodtı kirgiziń.
+CheckYourEmail	Emailıńızdı tekseriń
+CheckYourEmailSubtitle	%1$s emailıńızǵa jibergen kodımızdı kirgiziń.
+CheckYourNewEmail	Jańa emailıńızdı tekseriń
+CheckYourNewEmailSubtitle	%1$s jańa emailıńızǵa jibergen kodımızdı kirgiziń.
+LoginOrSingInWithGoogle	yamasa
+DataSettings	Maǵlıwmatlar hám yad
+DataUsage	Disk hám tarmaq sarpı
+StorageUsage	Yad sarpı
+StorageCleared	Yad tazalandı
+StorageUsageCalculating	Kesh ólshemi esaplanbaqta...
+StorageUsageTelegram	Telegram qurılmańız yadınıń %s bólegin iyeleydi.
+StorageUsageTelegramLess	Telegram qurılmańız yadınıń %s bólegin iyeleydi.
+StorageCleared2	Kerek bolsa, barlıq medianı Telegram bultınan qayta júklep alıwǵa boladı.
+StorageUsageInfo	Barlıq media Telegram bultında qaladı hám kerek bolsa qayta júklep alıwǵa boladı.
+NetworkUsage	Trafik sarpı
+StoragePath	Saqlaw jolı
+NetworkUsageAllTab	Bárshesi
+NetworkUsageMobileTab	Mobil
+NetworkUsageWiFiTab	Wi-Fi
+NetworkUsageRoamingTab	Rouming
+MessagesDataUsage	Xabarlar hám basqa maǵlıwmatlar
+CountSent	Jiberilgen
+CountReceived	Alınǵan
+BytesSent	Jiberilgen baytlar
+BytesReceived	Alınǵan baytlar
+FilesSentCount_one	**%s** fayl jiberildi
+FilesSentCount_other	**%s** fayl jiberildi
+FilesReceivedCount_one	**%s** fayl alındı
+FilesReceivedCount_other	**%s** fayl alındı
+FilesDataUsage	Fayllar
+CallsDataUsage	Qońırawlar
+OutgoingCalls	Shıǵıs qońırawlar
+IncomingCalls	Kiris qońırawlar
+IncomingCallsSystemSetting	Ishki qońıraw xabarlandırıwları
+IncomingCallsSystemSettingDescription	Qońıraw dawısın Telegram -> Sazlamalar -> Xabarlandırıwlar hám dawıslar bóliminde ózgerte alasız.
+OutgoingCallsCount_one	%1$d shıǵıs qońıraw
+OutgoingCallsCount_other	%1$d shıǵıs qońıraw
+IncomingCallsCount_one	%1$d kiris qońıraw
+IncomingCallsCount_other	%1$d kiris qońıraw
+CallsTotalTime	Ulıwma waqıt
+TotalDataUsage	Jámi
+TotalNetworkUsage	Ulıwma tarmaq sarpı
+DataUsageSectionsInfo	Tolıq kóriw ushın hár bir bólimdi basıń.
+ResetStatistics	Statistikanı tiklew
+NetworkUsageSince	%1$s dan berli tarmaq sarpı
+YourNetworkUsageSince	%1$s dan berli tarmaq sarpıńız
+NoNetworkUsageSince	%1$s dan berli tarmaq sarpı joq
+ResetStatisticsAlertTitle	Statistikanı tiklew
+ResetStatisticsAlert	Paydalanıw statistikańızdı tiklewdi qáleysiz be?
+PrivacySettings	Qupıyalıq hám qáwipsizlik
+PrivacyTitle	Qupıyalıq
+PrivacyLastSeen	Sońǵı kóringen waqıt hám onlayn
+PrivacyMessagesContactsAndPremium	Kontaktlarım hám Premium paydalanıwshılar
+PrivacyMessages	Xabarlar
+PrivacyMessagesInfo	Kiris xabarlardı tek kontaktlar hám Premium paydalanıwshılar menen sheklewińiz múmkin.\n\n**Telegram Premium degen ne?**
+PrivacyVoiceMessages	Dawıslı xabarlar
+PrivacyMessagesTitle	Maǵan kim xabar jibere aladı?
+PrivacyVoiceMessagesTitle	Maǵan kim dawıslı xabar jibere aladı?
+PrivacyVoiceMessagesInfo	Sizge kim dawıslı xabar jibere alatuǵının anıq sheklewińiz múmkin.
+PrivacyVoiceMessagesInfo2	Joqarıdaǵı sazlamalardan ústin turatuǵın esaptan tısqarılar retinde paydalanıwshılar yamasa pútkil toparlardı qosa alasız.
+PrivacyVoiceMessagesPremiumOnly	Dawıslı xabarlardı alıwdı tek *Telegram Premium* jazılıwshıları shekley aladı.
+PrivacyProfilePhoto	Profil súwreti
+PrivacyProfilePhotoTitle	Profil súwretimdi kim kóre aladı?
+PrivacyProfilePhotoInfo	Profil súwretińizdi kim kóre alatuǵının anıq sheklewińiz múmkin.
+PrivacyProfilePhotoInfo3	Profil súwretińizdi **kórmeytuǵın** paydalanıwshılar yamasa pútkil toparlardı qosa alasız.
+PrivacyProfilePhotoInfo4	Profil súwretińizdi báribir kóretuǵın paydalanıwshılar yamasa pútkil toparlardı qosıń.
+PrivacyProfilePhotoInfo5	Joqarıdaǵı sazlamalardan ústin turatuǵın esaptan tısqarılar retinde paydalanıwshılar yamasa pútkil toparlardı qosıń.
+PrivacyBio	Ózi haqqında
+PrivacyBioTitle	Ózim haqqımdaǵı maǵlıwmattı kim kóre aladı?
+PrivacyBioInfo	Ózińiz haqqıńızdaǵı maǵlıwmattı kim kóre alatuǵının anıq sheklewińiz múmkin.
+PrivacyBioInfo3	Ózińiz haqqıńızdaǵı maǵlıwmattı kórmeytuǵın paydalanıwshılar yamasa pútkil toparlardı qosa alasız.
+PrivacyMusic	Saqlanǵan muzıka
+PrivacyMusicTitle	Profildegi saqlanǵan muzıkamdı kim kóre aladı?
+PrivacyMusicInfo	Muzıkańızdı kim kóre alatuǵının anıq sheklewińiz múmkin.
+PrivacyMusicInfo3	Muzıkańızdı kórmeytuǵın paydalanıwshılar yamasa pútkil toparlardı qosa alasız.
+PrivacyPhone	Telefon nomeri
+PrivacyPhoneTitle	Telefon nomerimdi kim kóre aladı?
+PrivacyPhoneTitle2	Meni nomerim boyınsha kim taba aladı?
+PrivacyPhoneInfo	Nomerińizdi kontaktlarına saqlaǵan paydalanıwshılar onı Telegramda da kóredi.

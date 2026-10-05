@@ -1,18 +1,24 @@
 package org.telegram.ui;
 
+import static org.telegram.messenger.AndroidUtilities.dp;
+
 import android.content.Context;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.FrameLayout;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
+import org.telegram.messenger.UMessageAds;
 import org.telegram.messenger.UMessageConfig;
+import org.telegram.messenger.UMessagePremiumController;
 import org.telegram.messenger.privacyguard.PrivacyGuardSettings;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.UItem;
+import org.telegram.ui.Components.UMessageAdBanner;
 import org.telegram.ui.Components.UMessageFeaturePreview;
 import org.telegram.ui.Components.UniversalAdapter;
 import org.telegram.ui.Components.UniversalRecyclerView;
@@ -67,6 +73,36 @@ public class UMessageFeatureActivity extends BaseFragment {
         }
     };
 
+    public static final Switch NEARBY_SHARE = new Switch(UMessageConfig.KEY_NEARBY_SHARE, R.string.UMessageNearbyShare, R.string.UMessageNearbyShareInfo) {
+        @Override
+        public boolean get() {
+            return UMessageConfig.isNearbyShareEnabled();
+        }
+
+        @Override
+        public void toggle(BaseFragment fragment, Runnable done) {
+            if (fragment.getParentActivity() instanceof LaunchActivity) {
+                UMessageNearbyShareManager.setEnabled((LaunchActivity) fragment.getParentActivity(), !get());
+            } else {
+                UMessageConfig.setNearbyShareEnabled(!get());
+            }
+            done.run();
+        }
+    };
+
+    public static final Switch UM_PREMIUM = new Switch(UMessageConfig.KEY_UM_PREMIUM, R.string.UMessagePremium, R.string.UMessagePremiumInfo) {
+        @Override
+        public boolean get() {
+            return UMessagePremiumController.getInstance().isSelfEnabled();
+        }
+
+        @Override
+        public void toggle(BaseFragment fragment, Runnable done) {
+            UMessagePremiumController.getInstance().setSelfEnabled(fragment.getCurrentAccount(), !get());
+            done.run();
+        }
+    };
+
     /** A Privacy Guard switch from {@link PrivacyGuardSettings}. */
     public static Switch privacyGuard(String key, int titleRes, int infoRes) {
         return new Switch(key, titleRes, infoRes) {
@@ -90,6 +126,7 @@ public class UMessageFeatureActivity extends BaseFragment {
 
     private UniversalRecyclerView listView;
     private UMessageFeaturePreview preview;
+    private UMessageAdBanner adBanner;
 
     public UMessageFeatureActivity(String key, int titleRes, int infoRes) {
         this(new Switch(key, titleRes, infoRes) {
@@ -135,6 +172,15 @@ public class UMessageFeatureActivity extends BaseFragment {
         listView.adapter.setApplyBackground(false);
         listView.setSections();
         contentView.addView(listView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+
+        final UMessageAds.Ad ad = UMessageAds.forPage(key, UMessageAds.PLACEMENT_BANNER);
+        if (ad != null) {
+            // Pinned to the very bottom; the list gets matching padding so nothing hides under it.
+            adBanner = new UMessageAdBanner(context, ad);
+            contentView.addView(adBanner, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, UMessageAdBanner.HEIGHT_DP, Gravity.BOTTOM, 12, 0, 12, 8));
+            listView.setPadding(0, 0, 0, dp(UMessageAdBanner.HEIGHT_DP + 20));
+            listView.setClipToPadding(false);
+        }
 
         fragmentView = contentView;
         return fragmentView;

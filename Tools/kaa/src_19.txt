@@ -1,0 +1,569 @@
+SMSFee1TextCountry	Telecom providers in your country (%s) charge Telegram very high prices for SMS.
+SMSFee2Title	Verification Required
+SMSFee2Text	Telegram needs to send you an SMS with a verification code to confirm your phone number.
+SMSFee3Title	Support via **Telegram Premium >**
+SMSFee3Text	Sign up for 1-week Telegram Premium subscription to help cover the SMS costs.
+SMSFee3TextDays_one	Sign up for %d day of Telegram Premium subscription to help cover the SMS costs.
+SMSFee3TextDays_other	Sign up for %d days of Telegram Premium subscription to help cover the SMS costs.
+SMSFeePurchaseTitle	Sign up for %s
+SMSFeePurchaseText	Get Telegram Premium for 1 week
+SMSFeePurchaseTextDays_one	Get Telegram Premium for %d day
+SMSFeePurchaseTextDays_other	Get Telegram Premium for %d days
+SMSFeeContact	Having issues? **Contact us**
+PostSuggestionsPriceUpdated_one	un1 now accepts direct messages for %1$d star
+PostSuggestionsPriceUpdated_other	un1 now accepts direct messages for %1$d stars
+PostSuggestionsEnabledUpdated	un1 now accepts direct messages
+PostSuggestionsDisabledUpdated	un1 disabled direct messages
+PaidMessagesPriceUpdated_one	un1 changed price to %1$d Star per message
+PaidMessagesPriceUpdated_other	un1 changed price to %1$d Stars per message
+PaidMessagesPriceUpdatedOut_one	You changed price to %1$d Star per message
+PaidMessagesPriceUpdatedOut_other	You changed price to %1$d Stars per message
+PaidMessagesRefunded_one	un1 refunded %1$d Star to you
+PaidMessagesRefunded_other	un1 refunded %1$d Stars to you
+PaidMessagesRefundedOut_one	You refunded %1$d Star to un1
+PaidMessagesRefundedOut_other	You refunded %1$d Stars to un1
+ReplyDialogMessageAuthor	Message Author
+ForwardDialogYourChannel	Your Channel
+ReplyDialogYourChats	Your Chats
+SearchAdsAboutTitle	About These Ads
+SearchAdsAboutSubtitle	Telegram Ads are very different from ads on other platforms. Ads such as this one:
+SearchAdsAbout1Title	Respect Your Privacy
+SearchAdsAbout1Subtitle	Ads like this do not use your personal information and are based on the search query you entered.
+SearchAdsAbout2Title	Can Be Removed
+SearchAdsAbout2Subtitle	You can turn off ads by subscribing to Telegram Premium. **Subscribe >**
+SearchAdsAbout2SubtitlePremium	You can turn off ads by subscribing to Telegram Premium and toggling off Ads. **Remove Ads >**
+SearchAdsAboutLaunchTitle	Can I Launch My Ad?
+SearchAdsAboutLaunchSubtitle	Anyone can create an ad to display in search results for any query. Check out the **Telegram Ad Platform** for details. %1$s
+SearchAdsAboutLaunchLearnMore	**Learn More >**
+SearchAdsAboutUnderstood	Understood
+UserDisallowedGifts	**%s** disallowed sending themselves gifts.
+Gift2UnpinAlertTitle	Too Many Pinned Gifts
+Gift2UnpinAlertSubtitle	Select a gift to unpin below
+Gift2UnpinAlertButton	Unpin
+Gift2ReplacedPinTitle	%s pinned
+Gift2ReplacedPinSubtitle	replacing %s
+SearchAd	Ad
+JoinCall	Join Call
+ViewCollection	VIEW COLLECTION
+GroupCallLinkTitle	Group Call
+GroupCallLinkText	You are invited to join a Telegram call.
+GroupCallLinkText2One	**%1$s** already joined this call.
+GroupCallLinkText2Two	**%1$s** and **%2$s** already joined this call.
+GroupCallLinkText2Many_one	**%2$s**, **%3$s** and **%1$d** more person already joined this call.
+GroupCallLinkText2Many_other	**%2$s**, **%3$s** and **%1$d** more people already joined this call.
+GroupCallLinkMicrophone	Turn on the microphone
+GroupCallLinkJoin	Join Group Call
+GroupCallCreateTitle	Start Group Call
+GroupCallCreateText	This call is no longer active. You can start a new one.
+GroupCallCreateAddMembers	Add members
+GroupCallCreateVoice	Voice
+GroupCallCreateVideo	Video
+GroupCallCreate2	Create New Call
+GroupCallShowInMainTabs	Show Calls Tab
+GroupCallTabWasShownTitle	**Calls** tab is now visible
+GroupCallTabWasHiddenTitle	**Calls** tab is now hidden
+GroupCalMessageDecryptionError	Unsupported message
+GroupCallCreateInfo_one	You can add up to %d participant to a call.
+GroupCallCreateInfo_other	You can add up to %d participants to a call.
+GroupCallCreateLink	Create Call Link
+GroupCallCreatedLinkTitle	Call Link
+GroupCallCreatedLinkText	Anyone on Telegram can join your call by following the link below.
+GroupCallCreatedLinkCopy	Copy
+GroupCallCreatedLinkShare	Share
+GroupCallCreatedLinkJoinOr	or
+GroupCallCreatedLinkJoinText	Be the first to join the call and add people from there. **Open Call >**
+GroupCallCreatedLinkRevoke	Revoke link
+VoipGroupInCallBranding	Incoming Group Call
+ConferenceCallOutgoing	Outgoing Group Call
+ConferenceCallIncoming	Incoming Group Call
+ConferenceCallMissed	Missed Group Call
+ConferenceCallOther_one	%d person
+ConferenceCallOther_other	%d people
+GroupCallCreatedLinkRevokedTitle	Link Revoked
+GroupCallCreatedLinkRevokedText	New link has been generated.
+GroupCallStopCallingInvite	Stop Calling
+GroupCallDiscardInvite	Cancel Invite
+BotRestoreStorageTitle	Import Data
+BotRestoreStorageText	**%s** is requesting permission to import data from a previous Telegram account used on device.
+BotRestoreStorageHeader	Account to import data from
+BotRestoreStorageButton	Import
+BotRestoreStorageCreatedAt	created on %s
+ConferenceEncrypted	End-to-End Encrypted
+ConferenceEncryptedSyncing	End-to-End Encrypted
+ConferenceEncryptedInfo	These four emojis represent the call\'s encryption key. They must match for all participants and change when someone joins or leaves.
+ConferenceEncryptedClose	Close
+ConferenceChat	Group Call
+ConferenceClosed	Group chat has been ended.
+ConferenceCallWithVideo	Call with video enabled
+NewCall	New Call
+NewCallSearch	Search for contacts or usernames...
+VoipAudioSwitchedToBluetooth	Audio switched to Bluetooth.
+VoipAudioSwitchedToBluetoothDevice	Audio switched to %s.
+VoipAudioSwitchedToHeadset	Audio switched to Headset.
+VoipAudioSwitchedToPhone	Audio switched to Phone.
+VoipAudioSwitchedToSpeaker	Audio switched to Speaker.
+ResellGiftTitle	Price in Stars
+ResellGiftTitleTON	Price in TON
+ResellGiftPriceTitle	Enter price in Stars
+ResellGiftPriceTitleTON	Enter price in TON
+ResellGiftButton	Put for Sale
+ResellGiftInfoTON	You will receive **%s** TON.
+ResellGiftInfo_one	You will receive **%d** Star.
+ResellGiftInfo_other	You will receive **%d** Stars.
+ResellGiftInfoMinTON	Minimum price is %s TON
+ResellGiftInfoMin_one	Minimum price is %d Star.
+ResellGiftInfoMin_other	Minimum price is **%d** Stars.
+ResellGiftPriceTooMuch	You can request maximum %s
+ResellGiftPriceTooSmall	You must request minimum %s
+ResellGiftPriceOnlyTON	Only Accept TON
+ResellGiftPriceHintOnlyTON	If the buyer pays you in TON, there\'s no risk of refunds, unlike Stars payments.
+ResellGiftFilterSortDateShort	Date
+ResellGiftFilterSortPriceShort	Price
+ResellGiftFilterSortNumberShort	Number
+ResellGiftFilterSortPrice	Sort by Price
+ResellGiftFilterSortDate	Sort by Date
+ResellGiftFilterSortNumber	Sort by Number
+ResellGiftBuy_one	Buy for ⭐️%d
+ResellGiftBuy_other	Buy for ⭐️%d
+ResellGiftBuyEq_one	Equals to ⭐️%d
+ResellGiftBuyEq_other	Equals to ⭐️%d
+ResellGiftBuyTON	Buy for ⭐️%s TON
+BoughtResoldGiftTitle	Gift acquired
+BoughtResoldGiftText	%s is now yours.
+BoughtResoldGiftToTitle	Gift sent
+BoughtResoldGiftToText	%s has been notified about your gift.
+Gift2OnSale	on sale
+Gift2Resale	resale
+Gift2ListingsCount_one	%d listings
+Gift2ListingsCount_other	%d listings
+Gift2ResaleNoCount	no results
+Gift2ResaleEnable	%s is now for sale!
+Gift2ResaleDisable	%s is removed from sale!
+Gift2BuyPriceText_one	Do you want to buy **%2$s** for **%1$d Star** and gift it to **%3$s**?
+Gift2BuyPriceText_other	Do you want to buy **%2$s** for **%1$d Stars** and gift it to **%3$s**?
+Gift2BuyPriceSelfText_one	Do you want to buy **%2$s** for **%1$d Star**?
+Gift2BuyPriceSelfText_other	Do you want to buy **%2$s** for **%1$d Stars**?
+Gift2BuyPriceTextTON	Do you want to buy **%2$s** for **%1$s TON** and gift it to **%3$s**?
+Gift2BuyPriceSelfTextTON	Do you want to buy **%2$s** for **%1$s TON**?
+Gift2BuyPriceOnlyTON	The seller only accepts TON as payment
+Gift2BuyPricePayHintTON	Pay with TON to skip the 21-day wait before transferring the gift again.
+Gift2BuyDoPrice2_one	Buy for ⭐️%d
+Gift2BuyDoPrice2_other	Buy for ⭐️%d
+Gift2BuyDoPrice2TON	Buy for ⭐️%s
+Gift2BuyInStars	Pay in Stars
+Gift2BuyInTON	Pay in TON
+Gift2ResaleFiltersSearch	Search…
+Gift2ResaleFilterModel	Model
+Gift2ResaleFilterModels_one	%d Model
+Gift2ResaleFilterModels_other	%d Models
+Gift2ResaleFilterSymbol	Symbol
+Gift2ResaleFilterSymbols_one	%d Symbol
+Gift2ResaleFilterSymbols_other	%d Symbols
+Gift2ResaleFilterBackdrop	Backdrop
+Gift2ResaleFilterBackdrops_one	%d Backdrop
+Gift2ResaleFilterBackdrops_other	%d Backdrops
+Gift2ResaleFiltersModelEmpty	No models found.
+Gift2ResaleFiltersBackdropEmpty	No backdrops found.
+Gift2ResaleFiltersSymbolEmpty	No symbols found.
+Gift2ResaleFiltersEmptyTitle	No gifts found
+Gift2ResaleFiltersEmptySubtitle	Currently, there are no gifts that match this filter.
+Gift2ResaleFiltersEmptyClear	Clear Filters
+Gift2ResaleFiltersClear	Clear Filters
+StoriesCreate_one	Create %d Story
+StoriesCreate_other	Create %d Stories
+StoriesCollage	Combine into Collage
+HintViewStoriesMultiple_one	Tap here to view your %d story
+HintViewStoriesMultiple_other	Tap here to view your %d stories
+CreateMultipleStories	Create Multiple Stories
+WebsiteSays	%s says
+SuggestedMessageDecline	Decline
+SuggestedMessageDeclineInfo	Do you want to decline publishing this post from **%1$s**?
+SuggestedMessageAcceptInfo	Do you want to publish this post from **%1$s**?
+SuggestedMessageAcceptInfoAdmin2	You will receive **%1$s** (%3$s) for publishing this post **%2$s**.
+SuggestedMessageAcceptInfoUser2	You will pay **%1$s** for publishing this post **%2$s**.
+SuggestedMessageAcceptInfoAnytimeAdmin2	You will receive **%1$s** (%2$s) for publishing this post.
+SuggestedMessageAcceptInfoAnytimeUser2	You will pay **%1$s** for publishing this post.
+SuggestedMessageAcceptInfo3	It must remain visible for at least **%d** hours after publication.
+SuggestedMessageAcceptStarsDisclaimer	Transactions in Stars may be reversed by the payment provider within 21 days. Only accept Stars from people you trust.
+SuggestedMessageDeclineReasonHint	Add a reason (optional)
+SuggestPostForStars	Message for ⭐️%s
+SuggestPostForFree	Message
+SuggestionLockedStars	**%1$s** charges **⭐️ %2$s** per message to its admin.
+SuggestionUnlockedStars	Send a direct message to the administrator of **%1$s**.
+ChatMessageSuggestions	Direct Messages
+PostSuggestions	Direct Messages
+PostSuggestionsOff	Off
+PostSuggestionsStars	⭐️ %d
+AllowPostSuggestions	Allow Direct Messages
+AllowPostSuggestionsHint2	Allow users to send messages to your channel, with an optional fee per message.
+PriceForEachSuggestion	Price for each message
+Suggest2ChannelSendHint	Send a message to the channel\'s admin
+ChannelLinkDirectMessages	Link to direct messages
+PostSuggestionsOfferTitle	Suggest a Message
+PostSuggestionsOfferChangeTitle	Suggest Changes
+PostSuggestionsOfferChangeUpdateTerms	Update Terms
+PostSuggestionsOfferSubtitleStars	Choose how many Stars to pay to publish this message.
+PostSuggestionsOfferSubtitleTON	Choose how many TON to pay to publish this message.
+PostSuggestionsOfferStars	Offer ⭐️%s
+PostSuggestionsOfferTON	Offer %s TON
+PostSuggestionsOffer	Offer
+PostSuggestionsSendWithOffer	Send with Offer
+PostSuggestionsOfferForFree	Offer for Free
+PostSuggestionsOfferTitlePriceStars	Enter Price in Stars
+PostSuggestionsOfferTitlePriceTON	Enter Price in TON
+PostSuggestionsOfferTitleTime	Publishing Time
+PostSuggestionsInlineAccept	Accept
+PostSuggestionsInlineDecline	Decline
+PostSuggestionsInlineEdit	Suggest Changes
+PostSuggestionsAnytime	Anytime
+PostSuggestionsAddTime	Edit Time
+PostSuggestionsAddTimeHint	Select the date and time you want the message to be published.
+PostSuggestionsAddTimeHint2	The post will remain available for at least %d hours from this date.
+PostSuggestionsPriceInfo2	You will receive %1$s of the selected fee (~%2$s$) for each incoming message.
+SuggestAPostBelow	Suggest a Post Below
+SuggestAPostBelowHint	Tap here to suggest a post for %s
+SuggestAPostBelowSubtitle	Tap to offer a price for publishing
+SuggestAPostBelowSubtitleStars	⭐️ %s for publishing anytime
+SuggestAPostBelowSubtitleStarsAndTime	⭐️ %s %s
+SuggestAPostTooMuch	You can offer maximum %s
+SuggestAPostTooSmall	You must offer minimum %s
+SuggestionAgreementReached	🤝 **Agreement Reached!**
+SuggestionAgreementReachedUser1	📆 Your post will be automatically published on **%s** **%s**
+SuggestionAgreementReachedUser1PresentPerfect	📆 Your post has been published on **%s**
+SuggestionAgreementReachedUser1PastSimple	📆 Your post was automatically published on **%s** **%s**
+SuggestionAgreementReachedAdmin1	📆 This post will be automatically published **%s** **%s**
+SuggestionAgreementReachedAdmin1PresentPerfect	📆 This post has been published on **%s**
+SuggestionAgreementReachedAdmin1PastSimple	📆 This post was automatically published on **%s** **%s**
+SuggestionAgreementReachedUser2	💰 You have been charged ⭐️ **%s**.
+SuggestionAgreementReachedAdmin2	💰 **%s** has been charged ⭐️ **%s**.
+SuggestionAgreementReachedUser3Stars	⏳ **%s** will receive your **Stars** once the post has been live for **%d** hours.
+SuggestionAgreementReachedAdmin3Stars	⏳ **%s** will receive the **Stars** once the post has been live for **%d** hours.
+SuggestionAgreementReachedUser4Stars	🔁 If **%s** removes the post before it has been live for **%d** hours, your **Stars** will be refunded.
+SuggestionAgreementReachedAdmin4Stars	🔁 If **%s** removes the post before it has been live for **%d** hours, **Stars** will be refunded to user.
+SuggestionAgreementReachedUser3TON	⏳ **%s** will receive your **TON** once the post has been live for **%d** hours.
+SuggestionAgreementReachedAdmin3TON	⏳ **%s** will receive the **TON** once the post has been live for **%d** hours.
+SuggestionAgreementReachedUser4TON	🔁 If **%s** removes the post before it has been live for **%d** hours, your **TON** will be refunded.
+SuggestionAgreementReachedAdmin4TON	🔁 If **%s** removes the post before it has been live for **%d** hours, **TON** will be refunded to user.
+SuggestionAgreementDeclinedYou	❌ **%s** rejected your message.
+SuggestionAgreementDeclinedThis	❌ **%s** rejected this message.
+SuggestionAgreementDeclinedYouComment	❌ **%s** rejected your message with the comment.
+SuggestionAgreementDeclinedThisComment	❌ **%s** rejected this message with the comment.
+SuggestionAgreementNotEnoughStars	⚠️ **Transaction failed** because **%s** didn’t have enough Stars.
+SuggestionOfferInfoTitleYou	**You** suggest to post this message.
+SuggestionOfferInfoTitle	**%s** suggest to post this message.
+SuggestionOfferInfoTitleEditedFromYou	**You** suggest a new %1$s for this message.
+SuggestionOfferInfoTitleEditedFromX	**%1$s** suggest a new %2$s for this message.
+SuggestionOfferInfoTitleEditedPrice	price
+SuggestionOfferInfoTitleEditedTime	time
+SuggestionOfferInfoTitleEditedText	text
+SuggestionOfferInfoTitleEditedMedia	media
+SuggestionOfferInfoTitleEditedAnd	and
+SuggestionOfferInfoPrice	Price
+SuggestionOfferInfoTime	Time
+SuggestionStarsWillBeLost	Stars will be lost
+SuggestionTONWillBeLost	TON will be lost
+SuggestionStarsWillBeLostInfo	You won’t receive Stars for this post if you delete it now. The post must remain visible for at least** %d hours** after it was published.
+SuggestionTONWillBeLostInfo	You won’t receive TON for this post if you delete it now. The post must remain visible for at least** %d hours** after it was published.
+SuggestionStarsWillBeLostDelete	Delete Anyway
+SuggestedOfferPaidUntil	Paid until %1$s
+SuggestedOfferStars	Offer Stars
+SuggestedOfferTON	Offer TON
+SuggestedOfferRefundByAdminAmountF	⭐️ %3$s was returned to %1$s because %2$s deleted the message
+SuggestedOfferRefundByUserAmountF	%2$s will not receive ⭐️ %3$s because %1$s requested a refund
+SuggestedOfferRefundByAdminAmountUnknown	The funds was returned to %1$s because %2$s deleted the message
+SuggestedOfferRefundByUserAmountUnknown	%2$s will not receive funds because %1$s requested a refund
+SuggestedOfferCompleteAmountF	%1$s has received ⭐️ %2$s for publishing post
+SuggestedOfferCompleteAmountUnknown	%1$s has received funds for publishing post
+TopicsTitle	Topics
+TopicsEnable	Enable Topics
+TopicsInfo	The group chat will be divided into topics created by admins and users.
+TopicsLayout	Topics layout
+TopicsLayoutInfo	Choose how topics appear for all members.
+TopicsLayoutList	List
+TopicsLayoutTabs	Tabs
+SendInStandardQuality	Send in standard quality
+SendInHighQuality	Send in high quality
+ShortHighQuality	HD
+PhotoWillBeSentInSD	The photo will be sent in standard quality.
+PhotoWillBeSentInHD	The photo will be sent in high quality.
+DebugMenuUseSystemBoldFont	Use Bold Font from System
+DebugMenuDontUseSystemBoldFont	Don\'t use Bold Font from System
+AllChatsShort	All
+AllTopicsShort	All
+AllTopicsSide	All
+VoicePauseHint	Pause to trim or replay
+RecordingTrimTitle	Trim to selected range?
+RecordingTrimText	Audio outside that range will be discarded, and recording will start immediately.
+MessageAuthorSentBy	Sent by **%s**
+ChannelOpenDirect	Direct Messages
+Todo	Checklist
+TodoTitle	New Checklist
+TodoEditTitle	Edit Checklist
+TodoAddTasksTitle	New Tasks
+TodoTitlePlaceholder	Title
+TodoItemsTitle	Checklist
+TodoTaskPlaceholder	Task
+TodoNewTask	Add a Task
+TodoNewTaskInfo_one	You can add %d more task.
+TodoNewTaskInfo_other	You can add %d more tasks.
+TodoAllowAddingTasks	Allow Others to Add Tasks
+TodoAllowMarkingDone	Allow Others to Mark As Done
+TodoCompleted_one	%2$d of %1$d completed
+TodoCompleted_other	%2$d of %1$d completed
+TodoCompletedBy_one	%2$d of %1$d completed by %3$s
+TodoCompletedBy_other	%2$d of %1$d completed by %3$s
+TodoTaskCompletedUnknown	un1 marked task as done
+TodoTaskCompletedOutUnknown	You marked task as done
+TodoTaskCompleted	un1 marked “%s” as done
+TodoTaskCompletedOut	You marked “%s” as done
+TodoTaskNotCompletedUnknown	un1 marked task as not done
+TodoTaskNotCompletedOutUnknown	You marked task as not done
+TodoTaskNotCompleted	un1 marked “%s” as not done
+TodoTaskNotCompletedOut	You marked “%s” as not done
+TodoAddedOneTaskOut	You added “%1$s” to checklist.
+TodoAddedTwoTaskOut	You added “%1$s” and “%2$s” to checklist.
+TodoAddedThreeTaskOut	You added “%1$s”, “%2$s” and “%3$s” to checklist.
+TodoAddedMoreTasksOut_one	You added “%2$s”, “%3$s”, “%4$s” and %1$d more task to checklist.
+TodoAddedMoreTasksOut_other	You added “%2$s”, “%3$s”, “%4$s” and %1$d more tasks to checklist.
+TodoAddedOneTask	un1 added “%1$s” to checklist.
+TodoAddedTwoTask	un1 added “%1$s” and “%2$s” to checklist.
+TodoAddedThreeTask	un1 added “%1$s”, “%2$s” and “%3$s” to checklist.
+TodoAddedMoreTasks_one	un1 added “%2$s”, “%3$s”, “%4$s” and %1$d more task to checklist.
+TodoAddedMoreTasks_other	un1 added “%2$s”, “%3$s”, “%4$s” and %1$d more tasks to checklist.
+TodoCompleteForbidden	**%s** has restricted others from editing this checklist.
+TodoCompleteForbiddenForward	You can\'t change forwarded checklist.
+TodoPremiumRequired	Only **Telegram Premium** subscribers can mark tasks as done.
+DirectRemoveFee	Remove Fee
+DirectChargeFee	Charge Fee
+DirectFee	%2$s pays **⭐️%1$d** for each message.
+DirectFeeNone	%1$s can send messages for free.
+TodoEditTasksButton	SAVE
+TodoAddTasksButton	ADD
+CallForbiddenInviteLinkTitle	Invite via Link
+CallForbiddenInviteLinkText	**%s** restricts calling them. You can send them an invite link to call instead.
+CallForbiddenInviteLinkButton	Send Invite Link
+ActionGiftTonTitle	Someone
+TopUpViaFragment	Top-Up via Fragment
+TopUpViaFragmentLink	https://fragment.com/ads/topup
+TopUpViaFragmentInfo	You can top-up your TON balance via Fragment.
+EditToDo	Edit
+AddTasks	Add Tasks
+MyTON	My TON
+TONBalanceTitle	TON Balance
+TONBalanceText	Offer TON to submit post suggestions to channels on Telegram
+TodoMenuHint	You are viewing actions for one task.\nYou can switch to actions for the list.
+PollMenuHint	You are viewing actions for one option.\nYou can switch to actions for the poll.
+TodoMenuTabTask	Task
+TodoMenuTabList	List
+PollMenuTabOption	Option
+PollMenuTabPoll	Poll
+TodoEditItem	Edit Item
+TodoDeleteItem	Delete Item
+MessageTodo	Checklist
+MessageTodoName	%s
+MessageGroupTodoList	Group Checklist
+MessageTodoList	Checklist
+TodoCheck	Check
+TodoUncheck	Uncheck
+Gift2ReleasedBy	released by **%s**
+Gift2ReleasedBy2	by **%s**
+Gift2ActionReleasedBy	Released by **%s**
+StoriesRemoveFromRecent	Remove from Recent
+TodoItemQuote	Reply to Item
+PollItemQuote	Reply to Option
+Gift2CollectionAll	All Gifts
+ProfileGiftsAdd	Add Gifts
+AgeVerificationTitle	Age Verification
+AgeVerificationTextGB	To access such content, you must confirm that you are at least **18** years old as required by UK law.\n\nThis is a one-time process using your phone\'s camera. Your selfie will not be stored by Telegram.
+AgeVerificationButton	Verify My Age
+AgeVerificationFailedTitle	Age Check Failed
+AgeVerificationFailedText	Sorry, you can\'t view 18+ content.
+AgeVerificationPassedTitle	Age Check Passed
+AgeVerificationNeedCameraPermission	Telegram needs access to your camera so that you can confirm your age.
+StoriesForwardTitle	Your Stories
+StoriesForwardText	Forward to stories
+Gift2CollectionEmptyTitle	Organize Your Gifts
+Gift2CollectionEmptyText	Add some of your gifts to this collection.
+Gift2CollectionEmptyButton	Add to Collection
+Gift2AddToCollection	Add to Collection
+Gift2NewCollection	Add Collection
+Gift2EditCollectionNameTitle	Edit Name
+Gift2NewCollectionTitle	Create a New Collection
+Gift2NewCollectionText	Choose a name for your collection and start adding your gifts there.
+Gift2NewCollectionHint	Title
+Gift2CollectionAddGiftsTitle	Add Gifts
+Gift2CollectionAddGiftsButton	Add Gifts
+Gift2RemoveFromCollection	Remove From Collection
+Gift2CollectionsAdd	Add Gifts
+Gift2CollectionsReorder	Reorder
+Gift2CollectionsRename	Edit Name
+Gift2CollectionsDelete	Delete Collection
+Gift2CollectionsShare	Share Collection
+Gift2PremiumTitle	Premium Gift
+Gift2PremiumSubtitle	Subscribe to **Telegram Premium** to send these gifts and unlock access to multiple additional features.
+Gift2PremiumSubtitleMany_one	Subscribe to **Telegram Premium** to send up to **%d** of these gifts and unlock access to multiple additional features.
+Gift2PremiumSubtitleMany_other	Subscribe to **Telegram Premium** to send up to **%d** of these gifts and unlock access to multiple additional features.
+Gift2SentRemainsLimit_one	You can send **%d** more.
+Gift2SentRemainsLimit_other	You can send **%d** more.
+Gift2PerUserLimit_one	You\'ve already sent **%d** of these gifts, and it\'s the limit.
+Gift2PerUserLimit_other	You\'ve already sent **%d** of these gifts, and it\'s the limit.
+Gift2AddedToCollection	**%1$s** added to **%2$s**.
+Gift2AddedToCollectionMany_one	**%1$d gift** added to **%2$s**.
+Gift2AddedToCollectionMany_other	**%1$d gifts** added to **%2$s**.
+Gift2RemovedFromCollection	**%1$s** removed from **%2$s**.
+Gift2RemovedFromCollectionMany_one	**%1$d gift** removed from **%2$s**.
+Gift2RemovedFromCollectionMany_other	**%1$d gifts** removed from **%2$s**.
+GiftCollectionSharedTo	Gift Collection forwarded to **%s**.
+GiftCollectionSharedToSavedMessages	Gift Collection forwarded to **Saved Messages**
+GiftCollectionSharedToManyChats_one	Gift Collection forwarded to **a chat**.
+GiftCollectionSharedToManyChats_other	Gift Collection forwarded to **%1$d chats**.
+StarRatingTitle	Rating
+StarRatingAdded	ADDED
+StarRatingDeduces	DEDUCTED
+StarRatingFuture_one	The rating will update in %d day after purchases.
+StarRatingFuture_other	The rating will update in %d days after purchases.
+StarRatingFuturePreview1_one	This will be your rating in %d day, after
+StarRatingFuturePreview1_other	This will be your rating in %d days, after
+StarRatingFuturePreview2_one	%d point are added.
+StarRatingFuturePreview2_other	%d points are added.
+StarRatingFuturePendingPoints_one	%d point are pending.
+StarRatingFuturePendingPoints_other	%d points are pending.
+StarRatingFuturePendingPointsAndLevel1_one	%d point and
+StarRatingFuturePendingPointsAndLevel1_other	%d points and
+StarRatingFuturePendingPointsAndLevel2_one	Level %d are pending.
+StarRatingFuturePendingPointsAndLevel2_other	Level %d are pending.
+StarRatingFuturePendingPointsPreview	**Preview >**
+StarRatingFuturePendingPointsPreviewBack	**Back >**
+StarRatingDescription	This rating reflects **%s\'s** activity\non Telegram. What affects it:
+StarRatingSelfDescription	This rating reflects your activity\non Telegram. What affects it:
+StarRatingTitle1	Gifts from Telegram
+StarRatingDescription1	%s 100% of the Stars spent on gifts purchased from Telegram.
+StarRatingTitle2	Gifts and Posts from Users
+StarRatingDescription2	%s 20% of the Stars spent on resold gifts, paid messages and channel posts.
+StarRatingTitle3	Refunds and Conversions
+StarRatingDescription3	%s 10x of refunded Stars and 85% of bought gifts converted to Stars.
+StarRatingButtonUnderstood	Understood
+StoriesAlbum	Album
+StoriesAlbumCreateNew	Create a New Album
+StoriesAlbumRename	Rename an Album
+StoriesAlbumMenuAddStories	Add Stories
+StoriesAlbumMenuShareLink	Share Link
+StoriesAlbumBottomButtonAddStories	Add Stories
+StoriesAlbumBottomButtonRemoveStoriesFromAlbum	Remove from album
+StoriesAlbumMenuEditName	Edit Name
+StoriesAlbumMenuArchive	Archive
+StoriesAlbumMenuPin	Pin
+StoriesAlbumMenuUnpin	Unpin
+StoriesAlbumMenuEdit	Edit
+StoriesAlbumMenuReorder	Reorder
+StoriesAlbumMenuSelect	Select
+StoriesAlbumMenuRemoveFromAlbum	Remove from Album
+StoriesAlbumMenuDeleteAlbum	Delete Album
+StoriesAlbumMenuDeleteAlbumAsk	Are you sure you want to delete the **%s** album?
+StoriesAlbumTitleInputHint	Title
+StoriesAlbumAddAlbum	Add Album
+StoriesAlbumNewAlbum	New Album
+StoriesAlbumAddToAlbum	Add to Album
+StoriesAlbumNameAllStories	All Stories
+StoriesAlbumCount_one	%d Album
+StoriesAlbumCount_other	%d Albums
+StoriesAlbumAddHint	Choose a name for your album and start adding your stories there.
+StoriesAlbumRenameHint	Choose a new name for your album.
+StoriesAlbumOrganizeTitle	Organize Your Stories
+StoriesAlbumOrganizeDescription	Add some of your stories to this album.
+SearchCountriesTitle	Global Search
+SearchCountriesSelect	Select
+SearchPostsTitle	Global Search
+SearchPostsText	Type a keyword to search all posts from public posts.
+SearchPostsButton	Search
+SearchPostsFreeSearches_one	%d free search remaining today.
+SearchPostsFreeSearches_other	%d free searches remaining today.
+SearchPostsButtonPay_one	Search for ⭐️%d
+SearchPostsButtonPay_other	Search for ⭐️%d
+SearchPostsFreeSearchUnlocksIn	free search unlocks in %s
+SearchPostsLimitReached	Limit Reached
+SearchPostsLimitReachedText_one	You can make up to %d search query per day.
+SearchPostsLimitReachedText_other	You can make up to %d search queries per day.
+SearchPostsNotFound	Not Found
+SearchPostsNotFoundText	No Posts found with \"%s\" query.
+SearchPostsButtonPremium	Subscribe to Premium
+SearchPostsPremium	Global search is a Premium feature.
+SearchPostsHeaderNews	Telegram News
+SearchPostsHeaderFound	Public Posts
+SearchPosts	Posts
+SearchPaidStars_one	**%d Star** spent on extra search.
+SearchPaidStars_other	**%d Stars** spent on extra search.
+Gift2UpgradeNext	Upgrade Next Gift
+Gift2GiftAnUpgrade	Gift an Upgrade
+ProfileActionsMessage	Message
+ProfileActionsDiscuss	Discuss
+ProfileActionsGift	Gift
+ProfileActionsShare	Share
+ProfileActionsCall	Call
+ProfileActionsVideo	Video
+ProfileActionsJoin	Join
+ProfileActionsReport	Report
+ProfileActionsLeave	Leave
+ProfileActionsVoiceChat	Voice Chat
+ProfileActionsLiveStream	Live Stream
+ProfileActionsAddStory	Add Story
+ProfileActionsStop	Stop
+ProfileActionsEditPhoto	Set Profile
+ProfileActionsEditPhoto2	Set Photo
+ProfileActionsEditUsername	Username
+ProfileActionsEditInfo	Edit Info
+PersonalChannel	personal channel
+ProfilePlaylistTitleMine	Your Playlist
+ProfilePlaylistTitle	%s\'s Playlist
+ProfileTabSetAsMain	Set as Main Tab
+ProfilePlaylistRemoveFromProfile	Remove from Profile
+AudioSaveTo	Save To...
+AudioAddToProfile	Add to Profile
+AudioRemoveFromProfile	Remove from Profile
+StoryAudioAddToSavedMessages	Add to Saved Messages
+StoryAudioAddToSavedMessagesToast	Saved in **Saved Messages**.
+StoryAudioAddToProfile	Add to Profile
+StoryAudioAddToProfileToast	Added to Profile.
+AudioSaveToMyProfile	To Profile
+AudioSaveToMyProfileSaved	Audio added to your Profile.
+AudioSaveToMyProfileUnsaved	Audio removed from your Profile.
+AudioSaveToMusicFolder	To Music Folder
+AudioSaveToSavedMessages	To Saved Messages
+AudioSaveToSavedMessagesSaved	Audio sent to Saved Messages.
+AudioSaveToInfo	Choose where you want this audio to be saved.
+ProfileButtonMute	Mute
+ProfileButtonUnmute	Unmute
+GiftValue2	Value
+GiftValue2LearnMore	learn more
+GiftValueAverage	This is average sale price of **%s** on Telegram and Fragment over the past month.
+GiftValueLastFragment	This is the price at which **%s** was last sold on Fragment.
+GiftValueLastTelegram	This is the price at which **%s** was last sold on Telegram.
+GiftValueInitialSale	Initial Sale
+GiftValueInitialPrice	Initial Price
+GiftValueLastSale	Last Sale
+GiftValueLastPrice	Last Price
+GiftValueMinPrice	Minimum Price
+GiftValueMinPriceInfo	**%1$s** is the floor price for **%2$s** gifts listed on Telegram and Fragment.
+GiftValueAveragePrice	Average Price
+GiftValueAveragePriceInfo	**%1$s** is the average sale price of **%2$s** gifts over the past month.
+GiftValueOnSaleTelegram	for sale on Telegram >
+GiftValueOnSaleFragment	for sale on Fragment >
+GiftSkipAnimation	Skip
+GiftThemesSetIn	Set as Theme in...
+GiftThemesSetInReuseInfo	This gift is already your theme in the chat with **%s**. Remove it there and use it here instead?
+GiftThemesSetInReuseConfirm	Yes
+GiftThemesSetByYou	**You** set **%s** as a new theme for this chat.
+GiftThemesSetByOther	**%1$s** set **%2$s** as a new theme for this chat.
+GiftThemesSetActionView	View
+GiftLocked	Gift Locked
+Gift2UpgradeCostsInfo	See how this price will decrease >
+Gift2UpgradeCostsTitle	Upgrade Cost
+Gift2UpgradeCostsText	Users who upgrade their gift first get collectibles with shorter numbers.
+Gift2UpgradeCostsFooter	Upgrade cost drops every minute.
+Understood	👌 Understood
+GiftAuctionInfoHeader	Auction
+GiftAuctionInfoText	Join the battle for exclusive gifts.
+GiftAuctionInfo1Header_one	Top %d Bidder
+GiftAuctionInfo1Header_other	Top %d Bidders
+GiftAuctionInfo1Text_one	%d gift is dropped at varying intervals to the top %d bidder by bid amount.
+GiftAuctionInfo1Text_other	%d gifts are dropped at varying intervals to the top %d bidders by bid amount.

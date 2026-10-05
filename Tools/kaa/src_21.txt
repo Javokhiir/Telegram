@@ -1,0 +1,375 @@
+PollV2AllowedCountriesListOther	%1$s and %2$s
+PollV2AllowedCountriesListMany	%d countries
+PollV2AllowedCountriesListManyP_one	%1$d country
+PollV2AllowedCountriesListManyP_other	%1$d countries
+PollV2SearchHint	Search Countries
+PollVotesCount_one	%d Vote
+PollVotesCount_other	%d Votes
+ActionManagedBotCreated	You created un1 bot for un2 to manage
+CreateManagedBotTitle	Create Bot
+CreateManagedBotText	**%s** would like you to create\nand manage a chatbot on your behalf.
+CreateManagedBotName	Bot Name
+CreateManagedBotNameInfo	Tap to edit bot name.
+CreateManagedBotUsername	Username
+CreateManagedBotUsernameInfo	Tap to edit bot name.
+CreateManagedBotButton	Create
+CreateManagedBotCreatedTitle	%s created!
+CreateManagedBotCreatedText	**%s** will manage this bot for you.
+CreateManagedBotUnsupported	**%s** doesn’t support Bot Management mode.
+ProfileBotManagedBy	Created and managed by **@%s**
+ManagedBotChatInfo	**%1$s** is ready!\n\nTap **Start** below to test your new chatbot. Its behavior is defined by **%2$s**.
+CreateManagedBotLimitTitle	Bot Limit Exceeded
+CreateManagedBotLimitTextTime	You can create another bot in %s.
+CreateManagedBotLimitTextPremium	Subscribe to **Premium** to create up to %1$d bots, or delete one of your %2$d bots via @BotFather
+CreateManagedBotLimitText	You can create up to %d bots, or delete your current ones via @BotFather
+UnverifiedApp	Unverified App
+StickerOrEmojiSearchResult	Search Result
+StickerOrEmojiGlobalSearchResult	Global Search Result
+AIEditor	AI Editor
+AIEditorHint	Rewrite, translate, or correct your text using AI.
+AIEditorTabTranslate	Translate
+AIEditorTabStyle	Style
+AIEditorTabFix	Fix
+AIEditorApply	Apply
+AIEditorLimitButton	Increase Limit
+AIEditorLimitTitle	Daily Limit Reached
+AIEditorLimitText	Get **Telegram Premium** for **50x** more AI text transformation per day.
+AIEditorChooseStyle	Choose a style
+AIEditorOriginalText	Original Text
+AIEditorFrom	From %s
+AIEditorFromOther	From %s
+AIEditorTo	To %s
+AIEditorToOther	To %s
+AIEditorOriginal	Original
+AIEditorResult	Result
+AIEditorBefore	Before
+AIEditorAfter	After
+AIEditorAnotherExample	Another Example
+AIEditorToneNeutral	Neutral
+AIEditorEmojify	emojify
+TranslateCopy	Copy Translation
+TranslateEntireChat	Translate Entire Chat
+AIEditorToneCreatedTitle	%s Style Created
+AIEditorToneCreatedText	Press and hold the style to edit or share the link.
+AIEditorToneAddedTitle	Style Added
+AIEditorToneAddedText	Tap \'AI\' > \'%s\' when typing your next long message.
+AIEditorStyleNewCreate	Create
+AIEditorEditStyle	Edit Style
+AIEditorShareStyle	Share Style
+AIEditorAddStyle	Add Style
+AIEditorStyleDone	Done
+AIEditorNewStyle	New Style
+AIEditorDeleteStyle	Delete Style
+AIEditorRemoveStyle	Remove Style
+AIEditorDeleteStyleText	Are you sure you want to delete this style? It will be removed for everyone who installed it.
+AIEditorStyleText	Add this style to instantly\nrewrite your messages.
+AIEditorUsedBy_one	Used by %d person.
+AIEditorUsedBy_other	Used by %d people.
+AIEditorCreatedBy	Created by **%s**.
+AIEditorStyleTitleHint	Style Name (for example: "Pirate")
+AIEditorStylePrompt	Prompt
+AIEditorStylePromptHint	Instructions (for example "write in bold, nautical tone, light slang (aye, matey), vivid sea imagery, playful swagger, rhythmic phrasing, adventurous mood")
+AIEditorStyleAddLink	Add a link to my account
+AIEditorStyleCreate	Create
+AIEditorStyleEdit	Save
+AIEditorStyleLimitTitle	Limit Reached
+AIEditorStyleLimitTextPremium	You can save up to %1$d styles, or subscribe to **Telegram Premium** for %2$d styles.
+AIEditorStyleLimitText	You can save up to %1$d styles.
+AIEditorStyleSharedTo	Sent AI Style link to **%s**.
+AIEditorStyleSharedToSavedMessages	Sent AI Style link to **Saved Messages**
+AIEditorStyleSharedToManyChats_one	Sent AI Style link to **a chat**.
+AIEditorStyleSharedToManyChats_other	Sent AI Style link to **%1$d chats**.
+AIEditorStyleNotFound	AI Style not found.
+WebBrowserExceptionsLimitTitle	Limit Reached
+WebBrowserExceptionsLimitMessage	You have reached the maximum number of website exceptions. Please remove some existing ones to add new ones.
+ApproveNewMembersTitle	Approve New Members
+ApprovalRequired	approval required
+ApproveNewMembersMessageChannel	New subscribers will now need approval from **%1$s** before they can join this channel.
+ApproveNewMembersMessageGroup	New members will now need approval from **%1$s** before they can send messages in this group.
+ApproveNewMembersDisabledMessageGroup	New members will no longer need approval from **%1$s** before they can send messages in this group.
+ApproveNewMembersDisabledMessageChannel	New subscribers will no longer need approval from **%1$s** before they can join this channel.
+ApproveNewMembersEnable	Enable
+ApproveNewMembersDisable	Disable
+ApproveNewMembersApplyToLinksTitle	Apply to existing invite links
+ApproveNewMembersEnableForLinks_one	Also enable **Approve New Members** for **%1$d existing invite link** in this group?
+ApproveNewMembersEnableForLinks_other	Also enable **Approve New Members** for **%1$d existing invite links** in this group?
+ApproveNewMembersDisableForLinks_one	Also disable **Approve New Members** for **%1$d existing invite link** in this group?
+ApproveNewMembersDisableForLinks_other	Also disable **Approve New Members** for **%1$d existing invite links** in this group?
+ApproveNewMembersEnableForLinksChannel_one	Also enable **Approve New Members** for **%1$d existing invite link** in this channel?
+ApproveNewMembersEnableForLinksChannel_other	Also enable **Approve New Members** for **%1$d existing invite links** in this channel?
+ApproveNewMembersDisableForLinksChannel_one	Also disable **Approve New Members** for **%1$d existing invite link** in this channel?
+ApproveNewMembersDisableForLinksChannel_other	Also disable **Approve New Members** for **%1$d existing invite links** in this channel?
+ApproveNewMembersApplyToLinksDontApply	Don\'t Apply
+ApproveNewMembersApplyToLinksApply	Apply
+GuardBotReplaceTitle	Replace Bot
+GuardBotReplaceMessage	**%1$s** is currently processing join requests. Switch to **%2$s** instead?
+GuardBotReplaceUseNew	Use %1$s
+GuardBotReplaceKeepCurrent	Keep %1$s
+GuardBotJoinRequestApproved	Your request to join **%1$s** has been approved
+GuardBotJoinRequestDeclined	Your request to join **%1$s** has been declined
+GuardBotJoinRequestQueued	Your request to join **%1$s** has been sent to the admins
+BotCantReadChatTooltip	This bot can\'t read the chat — only the message where it was mentioned.
+GuestBotFor	 for 
+WearAuthTitle	Use Telegram with WearOS
+WearAuthText	Connect your account to WatchOS device\nto use it separately from your watch.
+WearAuthEmojis	Compare emojis on your watch
+WearAuthEmojisLogIn	Log In
+Community	Community
+CommunityAddGroupToCommunity	Add Group to a Community
+CommunityAddChannelToCommunity	Add Channel to a Community
+CommunityAddBotToCommunity	Add Bot to a Community
+CommunityRemoveGroupFromCommunity	Remove Group from Community
+CommunityRemoveChannelFromCommunity	Remove Channel from Community
+CommunityRemoveBotFromCommunity	Remove Bot from Community
+CommunityAddGroupToCommunityInfo	Make your group part of a community with multiple related chats.
+CommunityAddChannelToCommunityInfo	Make your channel part of a community with multiple related chats.
+CommunityAddBotToCommunityInfo	Make your bot part of a community with multiple related chats.
+CommunityTitle	Community
+CommunityDescriptionGroup	Make your group part of a community with multiple related chats.
+CommunityDescriptionChannel	Make your channel part of a community with multiple related chats.
+CommunityDescriptionBot	Make your bot part of a community with multiple related chats.
+CommunityCreateCommunity	Create Community
+CommunityNoChatsToAdd	You have no chats to add to community.
+CommunityCommunityCreated	Community created!
+CommunityCommunityJoinedGroup	You joined this group to community!
+CommunityCommunityJoinedChannel	You joined this channel to community!
+CommunityCommunityPending	Your request to join community has been sent to the admins
+CommunityAddToExistingCommunity	Add to an existing community
+CommunityNewCommunityTitle	New Community
+CommunityNewCommunityNameHint	Community Name
+CommunitySettingsTitle	Community
+CommunitySettingsSetPhoto	Set Community Photo
+CommunitySettingsChangePhoto	Change Community Photo
+CommunitySectionCommunityName	Community name
+CommunitySectionWhoCanAddChats	Who can add chats
+CommunityWhoCanAddChatsAllMembers	All members
+CommunityWhoCanAddChatsAllMembersInfo	Allow members to add their groups and channels to the community.
+CommunityWhoCanAddChatsOnlyAdmins	Only admins
+CommunityWhoCanAddChatsOnlyAdminsInfo	Chats suggested by community members require admin approval.
+CommunityAdministrators	Administrators
+CommunityPendingRequests	Pending Requests
+CommunityRemovedUsers	Removed Users
+CommunityDelete	Delete Community
+CommunityAdministratorsTitle	Administrators
+CommunityAddAdmin	Add Admin
+CommunityAdminRightEditCommunityName	Edit Community Name
+CommunityAdminRightEditGroupList	Edit Group List
+CommunityAdminRightBanMembers	Ban Members
+CommunityWithChats_one	Community with %1$d chat
+CommunityWithChats_other	Community with %1$d chats
+CommunityShowAsOneChat	Show as One Chat
+CommunityShowAsOneChatInfo	Group all community chats into one item in the chat list.
+CommunitySectionChatsYouAreIn	Chats you are in
+CommunitySectionChatsYouCanView	Chats you can view
+CommunitySectionChatsYouCanJoin	Chats you can join
+CommunitySectionHiddenChats	Hidden chats
+CommunitySectionChatsYouCanRequestToJoin	Chats you can request to join
+CommunityAddAChatToCommunity	Add a Chat to Community
+CommunityMenuAddChat	Add Chat to Community
+CommunityMenuSettings	Settings
+CommunityMenuShowAsOneChat	Show as One Chat
+CommunityMenuShowAsSeparateChats	Show as Separate Chats
+CommunityPendingRequestsRow_one	%1$d Pending Request
+CommunityPendingRequestsRow_other	%1$d Pending Requests
+CommunityPendingRequest	Pending request
+CommunityYouAreAdminTitle	You are a community admin
+CommunityYouAreAdminMessage	You can now edit **%1$s** info and use other admin tools.
+CommunityYouAreAdminContinue	Continue
+CommunityYouAreAdminNoThanks	No, thanks
+CommunityMakeAdminTitle	Make Community Admin
+CommunityMakeAdminMessage	**%1$s** will be able to edit community info and use other admin tools.
+CommunityMakeAdminPromote	Promote
+CommunityPendingRequestsTitle	Pending Requests
+CommunityPendingRequestsInfo	Chats require admin approval before they\'re added to the community. **Change Settings >**
+CommunityPendingRequestsInfoNoChange	Chats require admin approval before they\'re added to the community.
+CommunityPendingRequestsSuggestedHeader_one	%1$d chat suggested for this community
+CommunityPendingRequestsSuggestedHeader_other	%1$d chats suggested for this community
+CommunityPendingRequestSuggestedGroup	**%s** suggested this group
+CommunityPendingRequestSuggestedChannel	**%s** suggested this channel
+CommunityPendingRequestSuggestedBot	**%s** suggested this bot
+CommunityPendingRequestOnlyVisibleToMembers	Only visible to its members
+CommunityPendingRequestDecline	Decline
+CommunityPendingRequestAdd	Add
+CommunityPendingRequestDeclineAll	Decline All
+CommunityPendingRequestAddAll	Add All
+CommunityDeclineAllTitle	Decline All
+CommunityDeclineAllMessage_one	Do you want to decline all **%1$d** request to join the community?
+CommunityDeclineAllMessage_other	Do you want to decline all **%1$d** requests to join the community?
+CommunityAddAllChatsTitle	Add All Chats
+CommunityAddAllChatsMessage_one	Do you want to add **%1$d** chat to the community?
+CommunityAddAllChatsMessage_other	Do you want to add **%1$d** chats to the community?
+CommunityInviteOnlyGroupInfo	This group is invite-only.\nOnly its members can view it.
+CommunityInviteOnlyChannelInfo	This channel is invite-only.\nOnly its members can view it.
+CommunityInviteOnlyGroupMessageOwner	Message Group Owner
+CommunityInviteOnlyChannelMessageOwner	Message Channels Owner
+CommunityAddToCommunityTitle	Add to Community
+CommunityAddToCommunityGroupMessage	If this group is approved by a community admin, its members will be able to join or request to join other chats in the community.
+CommunityAddToCommunityChannelMessage	If this channel is approved by a community admin, its subscribers will be able to join or request to join other chats in the community.
+CommunityAddChatTitle	Add Chat
+CommunityAddBotTitle	Add Bot
+CommunityChatVisibilitySection	Chat visibility
+CommunityChatVisibilityVisible	Visible
+CommunityChatVisibilityVisibleInfo	Anyone in the community will be able to see this chat.
+CommunityChatVisibilityVisibleBotInfo	Anyone in the community will be able to see this bot.
+CommunityChatVisibilityHidden	Hidden
+CommunityChatVisibilityHiddenInfo	Only invited members and community admins will see this chat.
+CommunityChatVisibilityHiddenBotInfo	Only invited members and community admins will see this bot.
+CommunityChatVisibilityCannotChange	You won\'t be able to change this later.
+CommunityAddToCommunityButton	Add to Community
+CommunityAddToCommunityRequestButton	Send Join Request
+CommunityMenuViewGroup	View Group
+CommunityMenuViewChannel	View Channel
+CommunityMenuViewBot	View Bot
+CommunityMenuRemoveFromCommunity	Remove from Community
+CommunityMenuRemoveGroupFromCommunityConfirm	Are you sure you want to remove this group from community?
+CommunityMenuRemoveChannelFromCommunityConfirm	Are you sure you want to remove this channel from community?
+CommunityMenuRemoveBotFromCommunityConfirm	Are you sure you want to remove this bot from community?
+CommunityRequestApprovedToast	You approved the request to add **%1$s** to the community.
+CommunityRequestDeclinedToast	You declined the request to add **%1$s** to the community.
+CommunityHiddenStatus	Hidden
+CommunityHiddenChatTooltipTitle	Hidden Chat
+CommunityHiddenChatTooltipMessage	Only invited members and community admins will see this chat.
+CommunityServiceMessageGroupAdded	**%1$s** added this group to the **%2$s** community.
+CommunityServiceMessageGroupYouAdded	**You** added this group to the **%1$s** community.
+CommunityServiceMessageGroupAddedUnknown	This group was added to the **%1$s** community.
+CommunityServiceMessageGroupRemoved	**%1$s** removed this group from community
+CommunityServiceMessageGroupYouRemoved	**You** removed this group from community
+CommunityServiceMessageGroupRemovedUnknown	This group was removed from community
+CommunityServiceMessageChannelAdded	**%1$s** added this channel to the **%2$s** community.
+CommunityServiceMessageChannelYouAdded	**You** added this channel to the **%1$s** community.
+CommunityServiceMessageChannelAddedUnknown	This channel was added to the **%1$s** community.
+CommunityServiceMessageChannelRemoved	**%1$s** removed this channel from community
+CommunityServiceMessageChannelYouRemoved	**You** removed this channel from community
+CommunityServiceMessageChannelRemovedUnknown	This channel was removed from community
+CommunityServiceMessageBotAdded	**%1$s** added this bot to the **%2$s** community.
+CommunityServiceMessageBotYouAdded	**You** added this bot to the **%1$s** community.
+CommunityServiceMessageBotAddedUnknown	This bot was added to the **%1$s** community.
+CommunityServiceMessageBotRemoved	**%1$s** removed this bot from community
+CommunityServiceMessageBotYouRemoved	**You** removed this bot from community
+CommunityServiceMessageBotRemovedUnknown	This bot was removed from community
+CommunityServiceMessageView	View
+CommunityUngroupChats	Ungroup Chats
+CommunityUngroupChatsText	Chats from this community will appear separately in your chat list.
+CommunityUngroupChatsButton	Ungroup
+CommunityBanFromCommunity	Ban from the Community
+CommunityBanFromCommunityInfo_one	User will be removed from **%1$d chat >**
+CommunityBanFromCommunityInfo_other	User will be removed from **%1$d chats >**
+CommunityBanWarningTitle	Warning
+CommunityBanUserTitle	Ban User
+CommunityBanWarningMessage_one	Banning **%2$s** will also remove **%1$d** their chat from the community.
+CommunityBanWarningMessage_other	Banning **%2$s** will also remove **%1$d** their chats from the community.
+CommunityBanWillRemoveFromChats_one	**%2$s** will be removed from **%1$d** community chat.
+CommunityBanWillRemoveFromChats_other	**%2$s** will be removed from **%1$d** community chats.
+CommunityHiddenGroupUnavailable	You can\'t join or view this group until an admin invites you.
+CommunityHiddenChannelUnavailable	You can\'t join or view this group until an admin invites you.
+ArticleEditor	Rich Editor
+ArticleHeading1	Heading 1
+ArticleHeading2	Heading 2
+ArticleHeading3	Heading 3
+ArticleHeading4	Heading 4
+ArticleHeading5	Heading 5
+ArticleHeading6	Heading 6
+ArticleHeading	Heading
+ArticleText	Text
+ArticleQuote	Quote
+ArticlePullquote	Pullquote
+ArticleCode	Code
+ArticleFooter	Footer
+ArticleNone	None
+ArticleToggleBlock	Toggle block
+ArticleIndent	Indent
+ArticleOutdent	Outdent
+ArticleListBulletedList	Bulleted list
+ArticleListNumberedList	Numbered list
+ArticleListChecklist	Checklist
+ArticleListBulleted	Bulleted
+ArticleListNumbered	Numbered
+ArticleListTodo	To-Do
+ArticleSaveDraftTitle	Save this draft?
+ArticleDeleteDraft	Delete draft
+ArticleDeleteDraftTitle	Delete this draft?
+ArticleDeleteDraftMessage	You will lose what you’ve written.
+ArticleSaveDraftMessage	You can save written text in a draft before closing.
+ArticleHintTitle	Title
+ArticleHintDetailsTitle	Title
+ArticleHintAuthor	Author
+ArticleHintLanguage	Language
+ArticleHintCode	Type code here...
+ArticleHintText	Type something...
+ArticleConversionTitle	Remove Formatting
+ArticleConversionText	This message uses rich formatting, which requires **Telegram Premium**.
+ArticleConversionSubscribe	Subscribe to Premium
+ArticleConversionConvert	Remove Formatting
+ArticleHintQuote	Enter quote
+ArticleLatexEquation	LaTeX Equation
+ArticleLatexError	Error
+ArticleCommandList	List
+ArticleCommandOrderedList	Ordered List
+ArticleCommandToggle	Toggle
+ArticleTableTitleHint	Add title
+ArticleCommandTable	Table
+ArticleCommandMath	Math
+ArticleCommandDivider	Divider
+ArticleCommandImage	Image
+ArticleCommandVideo	Video
+ArticleCommandAudio	Audio
+ArticleCommandMap	Map
+ArticleAlignment	Alignment
+ArticleRemoveHighlight	Remove Highlight
+ArticleHighlightCell	Highlight Cell
+ArticleHighlightCells	Highlight Cells
+ArticleHighlightColumn	Highlight Column
+ArticleHighlightRow	Highlight Row
+ArticleMergeCells	Merge Cells
+ArticleSplitCells	Split Cells
+ArticleInsertLeft	Insert Left
+ArticleInsertRight	Insert Right
+ArticleInsertAbove	Insert Above
+ArticleInsertBelow	Insert Below
+ArticleDeleteColumn	Delete Column
+ArticleDeleteRow	Delete Row
+ArticleTableBordered	Bordered
+ArticleTableCompact	Compact
+ArticleDeleteTable	Delete Table
+ArticleAICreate	Create With AI
+ArticleAIPrompt	Write a prompt...
+ArticleAIGenerate	Generate
+ArticleAIAddToPage	Add to Page
+WelcomeMessage	Welcome Message
+WelcomeMessageOff	Off
+WelcomeMessageEmptyTitle	Create a Welcome\nMessage
+WelcomeMessageEmptySubtitle	Automatically greet new\nmembers when they join.
+WelcomeMessageHint	New members will see this messages\nwhen they join
+WelcomeMessageHint2	Tap it to delete it
+WelcomeMessageEnter	Add a message
+WelcomeMessagesLimit_one	Limit of **%d** message reached.
+WelcomeMessagesLimit_other	Limit of **%d** messages reached.
+WelcomeMessageRevert	Revert
+WelcomeMessageRevertInfo	restores the message to\nits original content
+GiftMessageHint	Your message...
+GiftMessagePreviewInChat	Preview in chat
+GiftMessageMakeMessagePublic	Make message public
+GiftMessageSendNow	Send Now
+GiftMessageAddHint	Add message...
+GiftMessageAddTitle	Add Message
+GiftMessageAddDescription	You can add a message for **%1$s** or send **%2$s** right away.
+UnsupportedBlockTitle	Unsupported Block
+UnsupportedBlockMessage	Update Telegram to view this part of the message
+UnsupportedMessageTitle	Unsupported Message
+UnsupportedMessageMessage	Update Telegram to view this message
+UnsupportedUpdate	Update
+UMessagePublicInfo	Public footprint
+UMessagePublicInfoButton	Get info
+UMessagePublicInfoName	Name
+UMessagePublicInfoUsername	Username
+UMessagePublicInfoId	Telegram ID
+UMessagePublicInfoPhone	Visible phone
+UMessagePublicInfoBio	Bio
+UMessagePublicInfoCommonChats	Mutual chats
+UMessagePublicInfoPublicPosts	Public posts found
+UMessagePublicInfoChannels	Public groups and channels
+UMessagePublicInfoPeople	Related public accounts
+UMessagePublicInfoUnavailable	Not available
+UMessagePublicInfoNoUsername	Public Telegram search requires a username.
+UMessagePublicInfoSearchError	Public search is temporarily unavailable.
+UMessagePublicInfoPublicOnly	Only public information visible to your Telegram account is shown.

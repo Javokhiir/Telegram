@@ -107,6 +107,7 @@ public class ProfileActionsView extends View {
     public static final int KEY_EDIT_USERNAME = 15;
     public static final int KEY_EDIT_INFO = 16;
     public static final int KEY_SETTINGS = 17;
+    public static final int KEY_LOCATION = 18;
 
     private boolean isApplying;
     private boolean isNotificationsEnabled;
@@ -715,6 +716,7 @@ public class ProfileActionsView extends View {
             case MODE_USER:
                 insertIfAvailable(out, KEY_MESSAGE);
                 insertIfAvailable(out, KEY_NOTIFICATION);
+                insertIfAvailable(out, KEY_LOCATION);
                 insertIfAvailable(out, KEY_CALL);
                 insertIfAvailable(out, KEY_VIDEO);
                 insertIfNotAvailable(out, KEY_GIFT, KEY_VIDEO);
@@ -884,6 +886,9 @@ public class ProfileActionsView extends View {
                 break;
             case KEY_STORY:
                 newAction = new Action(ActionButton.STORY);
+                break;
+            case KEY_LOCATION:
+                newAction = new Action(ActionButton.LOCATION);
                 break;
             case KEY_STOP:
                 newAction = new Action(ActionButton.STOP);
@@ -1231,7 +1236,8 @@ public class ProfileActionsView extends View {
         SET_PHOTO(R.string.ProfileActionsEditPhoto2, R.drawable.filled_profile_photo, R.drawable.outline_profile_photo),
         EDIT_USERNAME(R.string.ProfileActionsEditUsername, R.drawable.filled_profile_edit_24, R.drawable.outline_profile_edit_24),
         EDIT_INFO(R.string.ProfileActionsEditInfo, R.drawable.filled_profile_edit_24, R.drawable.outline_profile_edit_24),
-        SETTINGS(R.string.Settings, R.drawable.filled_profile_settings, R.drawable.outline_profile_settings),;
+        SETTINGS(R.string.Settings, R.drawable.filled_profile_settings, R.drawable.outline_profile_settings),
+        LOCATION(R.string.UMessageFriendMapAction, R.drawable.filled_location, R.drawable.msg_location),;
 
         final @StringRes int title;
         final @DrawableRes int filledIcon;

@@ -10,9 +10,9 @@ import java.util.List;
 public final class UMessageProxyConfig {
 
     // ---- Built-in proxies (insert real values here) ----
-    private static final String PROXY_1_IP = "";
+    private static final String PROXY_1_IP = "198.13.49.231";
     private static final int PROXY_1_PORT = 443;
-    private static final String PROXY_1_SECRET = "";
+    private static final String PROXY_1_SECRET = "eeb01ef47e160f43552e1945e6e82c2cbe7777772e6d6963726f736f66742e636f6d";
 
     // To add more: declare PROXY_2_* and add a line to BUILT_IN below.
     private static final String[][] BUILT_IN = {

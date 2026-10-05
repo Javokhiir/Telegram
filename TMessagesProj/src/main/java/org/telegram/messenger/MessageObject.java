@@ -1923,6 +1923,7 @@ public class MessageObject {
 
         currentAccount = accountNum;
         messageOwner = message;
+        UMessageFriendLocations.decorate(accountNum, message);
         replyMessageObject = replyToMessage;
         eventId = eid;
         wasUnread = !messageOwner.out && messageOwner.unread;

@@ -1,0 +1,375 @@
+PollV2AllowedCountriesListOther	%1$s hám %2$s
+PollV2AllowedCountriesListMany	%d mámleket
+PollV2AllowedCountriesListManyP_one	%1$d mámleket
+PollV2AllowedCountriesListManyP_other	%1$d mámleket
+PollV2SearchHint	Mámleketlerdi izlew
+PollVotesCount_one	%d dawıs
+PollVotesCount_other	%d dawıs
+ActionManagedBotCreated	Siz un2 basqarıwı ushın un1 botın jarattıńız
+CreateManagedBotTitle	Bot jaratıw
+CreateManagedBotText	**%s** sizdiń atıńızdan chatbot jaratıp,\nonı basqarıwdı qáleydi.
+CreateManagedBotName	Bot atı
+CreateManagedBotNameInfo	Bot atın ózgertiw ushın basıń.
+CreateManagedBotUsername	Paydalanıwshı atı
+CreateManagedBotUsernameInfo	Bot atın ózgertiw ushın basıń.
+CreateManagedBotButton	Jaratıw
+CreateManagedBotCreatedTitle	%s jaratıldı!
+CreateManagedBotCreatedText	**%s** bul bottı siz ushın basqaradı.
+CreateManagedBotUnsupported	**%s** botlardı basqarıw rejimin qollap-quwatlamaydı.
+ProfileBotManagedBy	**@%s** jaratqan hám basqaradı
+ManagedBotChatInfo	**%1$s** tayar!\n\nJańa chatbotıńızdı sınap kóriw ushın tómendegi **Baslaw** túymesin basıń. Onıń is-háreketin **%2$s** belgileydi.
+CreateManagedBotLimitTitle	Botlar shegi asıp ketti
+CreateManagedBotLimitTextTime	Jáne bir bottı %s tan keyin jarata alasız.
+CreateManagedBotLimitTextPremium	%1$d ge shekem bot jaratıw ushın **Premium** ǵa jazılıń yamasa @BotFather arqalı %2$d botıńızdıń birewin óshiriń
+CreateManagedBotLimitText	%d ge shekem bot jarata alasız yamasa házirgi botlarıńızdı @BotFather arqalı óshire alasız
+UnverifiedApp	Tekserilmegen qosımsha
+StickerOrEmojiSearchResult	Izlew nátiyjesi
+StickerOrEmojiGlobalSearchResult	Global izlew nátiyjesi
+AIEditor	AI redaktor
+AIEditorHint	Tekstińizdi AI járdeminde qayta jazıń, awdarıń yamasa dúzetiń.
+AIEditorTabTranslate	Awdarıw
+AIEditorTabStyle	Stil
+AIEditorTabFix	Dúzetiw
+AIEditorApply	Qollanıw
+AIEditorLimitButton	Shekti asırıw
+AIEditorLimitTitle	Kúnlik shekke jetti
+AIEditorLimitText	Kúnine **50 ese** kóbirek AI tekst ózgertiwi ushın **Telegram Premium** alıń.
+AIEditorChooseStyle	Stildi tańlań
+AIEditorOriginalText	Túpnusqa tekst
+AIEditorFrom	%s tilinen
+AIEditorFromOther	%s tilinen
+AIEditorTo	%s tiline
+AIEditorToOther	%s tiline
+AIEditorOriginal	Túpnusqa
+AIEditorResult	Nátiyje
+AIEditorBefore	Aldın
+AIEditorAfter	Keyin
+AIEditorAnotherExample	Basqa mısal
+AIEditorToneNeutral	Neytral
+AIEditorEmojify	emoji qosıw
+TranslateCopy	Awdarmanı kóshirip alıw
+TranslateEntireChat	Pútkil sáwbetti awdarıw
+AIEditorToneCreatedTitle	%s stili jaratıldı
+AIEditorToneCreatedText	Ózgertiw yamasa siltemeni bólisiw ushın stildi basıp turıń.
+AIEditorToneAddedTitle	Stil qosıldı
+AIEditorToneAddedText	Keyingi uzın xabarıńızdı jazǵanda \'AI\' > \'%s\' túymesin basıń.
+AIEditorStyleNewCreate	Jaratıw
+AIEditorEditStyle	Stildi ózgertiw
+AIEditorShareStyle	Stildi bólisiw
+AIEditorAddStyle	Stil qosıw
+AIEditorStyleDone	Tayar
+AIEditorNewStyle	Jańa stil
+AIEditorDeleteStyle	Stildi óshiriw
+AIEditorRemoveStyle	Stildi alıp taslaw
+AIEditorDeleteStyleText	Bul stildi óshiriwdi anıq qáleysiz be? Ol onı ornatqan hámme ushın alıp taslanadı.
+AIEditorStyleText	Xabarlarıńızdı birden qayta jazıw\nushın usı stildi qosıń.
+AIEditorUsedBy_one	%d adam paydalanadı.
+AIEditorUsedBy_other	%d adam paydalanadı.
+AIEditorCreatedBy	**%s** jaratqan.
+AIEditorStyleTitleHint	Stil atı (mısalı: "Qaraqshı")
+AIEditorStylePrompt	Prompt
+AIEditorStylePromptHint	Kórsetpeler (mısalı "batıl, teńizshilerge tán tonda, jeńil sleng (aye, matey), janlı teńiz obrazları, oyınshıl maqtanshaqlıq, ırǵaqlı sóz dizbekleri, sayaxat keypiyatı menen jazıń")
+AIEditorStyleAddLink	Akkauntıma silteme qosıw
+AIEditorStyleCreate	Jaratıw
+AIEditorStyleEdit	Saqlaw
+AIEditorStyleLimitTitle	Shekke jetti
+AIEditorStyleLimitTextPremium	%1$d ge shekem stil saqlay alasız yamasa %2$d stil ushın **Telegram Premium** ǵa jazılıń.
+AIEditorStyleLimitText	%1$d ge shekem stil saqlay alasız.
+AIEditorStyleSharedTo	AI stil siltemesi **%s** ǵa jiberildi.
+AIEditorStyleSharedToSavedMessages	AI stil siltemesi **Saqlanǵan xabarlar** ǵa jiberildi
+AIEditorStyleSharedToManyChats_one	AI stil siltemesi **bir sáwbetke** jiberildi.
+AIEditorStyleSharedToManyChats_other	AI stil siltemesi **%1$d sáwbetke** jiberildi.
+AIEditorStyleNotFound	AI stil tabılmadı.
+WebBrowserExceptionsLimitTitle	Shekke jetti
+WebBrowserExceptionsLimitMessage	Veb-sayt esaptan tısqarılarınıń eń kóp sanına jettińiz. Jańaların qosıw ushın ayırım barların alıp taslań.
+ApproveNewMembersTitle	Jańa aǵzalardı maqullaw
+ApprovalRequired	maqullaw kerek
+ApproveNewMembersMessageChannel	Endi jańa jazılıwshılar bul kanalǵa qosılıwdan aldın **%1$s** maqullawın alıwı kerek boladı.
+ApproveNewMembersMessageGroup	Endi jańa aǵzalar bul toparda xabar jiberiwden aldın **%1$s** maqullawın alıwı kerek boladı.
+ApproveNewMembersDisabledMessageGroup	Endi jańa aǵzalarǵa bul toparda xabar jiberiwden aldın **%1$s** maqullawı kerek bolmaydı.
+ApproveNewMembersDisabledMessageChannel	Endi jańa jazılıwshılarǵa bul kanalǵa qosılıwdan aldın **%1$s** maqullawı kerek bolmaydı.
+ApproveNewMembersEnable	Qosıw
+ApproveNewMembersDisable	Óshiriw
+ApproveNewMembersApplyToLinksTitle	Bar mirát siltemelerine qollanıw
+ApproveNewMembersEnableForLinks_one	Bul topardaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** qosılsın ba?
+ApproveNewMembersEnableForLinks_other	Bul topardaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** qosılsın ba?
+ApproveNewMembersDisableForLinks_one	Bul topardaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** óshirilsin be?
+ApproveNewMembersDisableForLinks_other	Bul topardaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** óshirilsin be?
+ApproveNewMembersEnableForLinksChannel_one	Bul kanaldaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** qosılsın ba?
+ApproveNewMembersEnableForLinksChannel_other	Bul kanaldaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** qosılsın ba?
+ApproveNewMembersDisableForLinksChannel_one	Bul kanaldaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** óshirilsin be?
+ApproveNewMembersDisableForLinksChannel_other	Bul kanaldaǵı **%1$d bar mirát siltemesi** ushın da **Jańa aǵzalardı maqullaw** óshirilsin be?
+ApproveNewMembersApplyToLinksDontApply	Qollanbaw
+ApproveNewMembersApplyToLinksApply	Qollanıw
+GuardBotReplaceTitle	Bottı almastırıw
+GuardBotReplaceMessage	Házir qosılıw sorawların **%1$s** qayta islep atır. Onıń ornına **%2$s** ǵa ótesiz be?
+GuardBotReplaceUseNew	%1$s tı qollanıw
+GuardBotReplaceKeepCurrent	%1$s tı qaldırıw
+GuardBotJoinRequestApproved	**%1$s** ǵa qosılıw sorawıńız maqullandı
+GuardBotJoinRequestDeclined	**%1$s** ǵa qosılıw sorawıńız biykarlandı
+GuardBotJoinRequestQueued	**%1$s** ǵa qosılıw sorawıńız administratorlarǵa jiberildi
+BotCantReadChatTooltip	Bul bot sáwbetti oqıy almaydı — tek ózi atap ótilgen xabardı ǵana.
+GuestBotFor	 ushın 
+WearAuthTitle	Telegramdı WearOS penen paydalanıń
+WearAuthText	Akkauntıńızdı saattan bólek paydalanıw ushın\nWatchOS qurılmasına jalǵań.
+WearAuthEmojis	Saatıńızdaǵı emojilerdi salıstırıń
+WearAuthEmojisLogIn	Kiriw
+Community	Jámiyet
+CommunityAddGroupToCommunity	Topardı jámiyetke qosıw
+CommunityAddChannelToCommunity	Kanaldı jámiyetke qosıw
+CommunityAddBotToCommunity	Bottı jámiyetke qosıw
+CommunityRemoveGroupFromCommunity	Topardı jámiyetten alıp taslaw
+CommunityRemoveChannelFromCommunity	Kanaldı jámiyetten alıp taslaw
+CommunityRemoveBotFromCommunity	Bottı jámiyetten alıp taslaw
+CommunityAddGroupToCommunityInfo	Toparıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityAddChannelToCommunityInfo	Kanalıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityAddBotToCommunityInfo	Botıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityTitle	Jámiyet
+CommunityDescriptionGroup	Toparıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityDescriptionChannel	Kanalıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityDescriptionBot	Botıńızdı bir neshe baylanıslı sáwbeti bar jámiyettiń bólegine aylandırıń.
+CommunityCreateCommunity	Jámiyet jaratıw
+CommunityNoChatsToAdd	Jámiyetke qosatuǵın sáwbetlerińiz joq.
+CommunityCommunityCreated	Jámiyet jaratıldı!
+CommunityCommunityJoinedGroup	Bul topardı jámiyetke qostıńız!
+CommunityCommunityJoinedChannel	Bul kanaldı jámiyetke qostıńız!
+CommunityCommunityPending	Jámiyetke qosılıw sorawıńız administratorlarǵa jiberildi
+CommunityAddToExistingCommunity	Bar jámiyetke qosıw
+CommunityNewCommunityTitle	Jańa jámiyet
+CommunityNewCommunityNameHint	Jámiyet atı
+CommunitySettingsTitle	Jámiyet
+CommunitySettingsSetPhoto	Jámiyet súwretin ornatıw
+CommunitySettingsChangePhoto	Jámiyet súwretin ózgertiw
+CommunitySectionCommunityName	Jámiyet atı
+CommunitySectionWhoCanAddChats	Sáwbetlerdi kim qosa aladı
+CommunityWhoCanAddChatsAllMembers	Barlıq aǵzalar
+CommunityWhoCanAddChatsAllMembersInfo	Aǵzalarǵa óz toparları hám kanalların jámiyetke qosıwǵa ruqsat beriw.
+CommunityWhoCanAddChatsOnlyAdmins	Tek administratorlar
+CommunityWhoCanAddChatsOnlyAdminsInfo	Jámiyet aǵzaları usınǵan sáwbetler administrator maqullawın talap etedi.
+CommunityAdministrators	Administratorlar
+CommunityPendingRequests	Kútilip atırǵan sorawlar
+CommunityRemovedUsers	Alıp taslanǵan paydalanıwshılar
+CommunityDelete	Jámiyetti óshiriw
+CommunityAdministratorsTitle	Administratorlar
+CommunityAddAdmin	Administrator qosıw
+CommunityAdminRightEditCommunityName	Jámiyet atın ózgertiw
+CommunityAdminRightEditGroupList	Toparlar dizimin ózgertiw
+CommunityAdminRightBanMembers	Aǵzalardı bloklaw
+CommunityWithChats_one	%1$d sáwbeti bar jámiyet
+CommunityWithChats_other	%1$d sáwbeti bar jámiyet
+CommunityShowAsOneChat	Bir sáwbet retinde kórsetiw
+CommunityShowAsOneChatInfo	Jámiyettiń barlıq sáwbetlerin sáwbetler diziminde bir element etip toparlaw.
+CommunitySectionChatsYouAreIn	Siz aǵza bolǵan sáwbetler
+CommunitySectionChatsYouCanView	Siz kóre alatuǵın sáwbetler
+CommunitySectionChatsYouCanJoin	Siz qosıla alatuǵın sáwbetler
+CommunitySectionHiddenChats	Jasırın sáwbetler
+CommunitySectionChatsYouCanRequestToJoin	Qosılıwǵa soraw jibere alatuǵın sáwbetler
+CommunityAddAChatToCommunity	Jámiyetke sáwbet qosıw
+CommunityMenuAddChat	Jámiyetke sáwbet qosıw
+CommunityMenuSettings	Sazlamalar
+CommunityMenuShowAsOneChat	Bir sáwbet retinde kórsetiw
+CommunityMenuShowAsSeparateChats	Bólek sáwbetler retinde kórsetiw
+CommunityPendingRequestsRow_one	%1$d kútilip atırǵan soraw
+CommunityPendingRequestsRow_other	%1$d kútilip atırǵan soraw
+CommunityPendingRequest	Kútilip atırǵan soraw
+CommunityYouAreAdminTitle	Siz jámiyet administratorısız
+CommunityYouAreAdminMessage	Endi siz **%1$s** maǵlıwmatların ózgerte alasız hám basqa administrator qurallarınan paydalana alasız.
+CommunityYouAreAdminContinue	Dawam etiw
+CommunityYouAreAdminNoThanks	Yaq, raxmet
+CommunityMakeAdminTitle	Jámiyet administratorı etip tayınlaw
+CommunityMakeAdminMessage	**%1$s** jámiyet maǵlıwmatların ózgerte aladı hám basqa administrator qurallarınan paydalana aladı.
+CommunityMakeAdminPromote	Tayınlaw
+CommunityPendingRequestsTitle	Kútilip atırǵan sorawlar
+CommunityPendingRequestsInfo	Sáwbetler jámiyetke qosılıwdan aldın administrator maqullawın talap etedi. **Sazlamalardı ózgertiw >**
+CommunityPendingRequestsInfoNoChange	Sáwbetler jámiyetke qosılıwdan aldın administrator maqullawın talap etedi.
+CommunityPendingRequestsSuggestedHeader_one	Bul jámiyet ushın %1$d sáwbet usınıldı
+CommunityPendingRequestsSuggestedHeader_other	Bul jámiyet ushın %1$d sáwbet usınıldı
+CommunityPendingRequestSuggestedGroup	**%s** bul topardı usındı
+CommunityPendingRequestSuggestedChannel	**%s** bul kanaldı usındı
+CommunityPendingRequestSuggestedBot	**%s** bul bottı usındı
+CommunityPendingRequestOnlyVisibleToMembers	Tek óz aǵzalarına kórinedi
+CommunityPendingRequestDecline	Biykarlaw
+CommunityPendingRequestAdd	Qosıw
+CommunityPendingRequestDeclineAll	Bárshesin biykarlaw
+CommunityPendingRequestAddAll	Bárshesin qosıw
+CommunityDeclineAllTitle	Bárshesin biykarlaw
+CommunityDeclineAllMessage_one	Jámiyetke qosılıw boyınsha barlıq **%1$d** sorawdı biykarlawdı qáleysiz be?
+CommunityDeclineAllMessage_other	Jámiyetke qosılıw boyınsha barlıq **%1$d** sorawdı biykarlawdı qáleysiz be?
+CommunityAddAllChatsTitle	Barlıq sáwbetlerdi qosıw
+CommunityAddAllChatsMessage_one	Jámiyetke **%1$d** sáwbet qosıwdı qáleysiz be?
+CommunityAddAllChatsMessage_other	Jámiyetke **%1$d** sáwbet qosıwdı qáleysiz be?
+CommunityInviteOnlyGroupInfo	Bul toparǵa tek mirát arqalı kiriledi.\nOnı tek aǵzaları ǵana kóre aladı.
+CommunityInviteOnlyChannelInfo	Bul kanalǵa tek mirát arqalı kiriledi.\nOnı tek aǵzaları ǵana kóre aladı.
+CommunityInviteOnlyGroupMessageOwner	Topar iyesine jazıw
+CommunityInviteOnlyChannelMessageOwner	Kanal iyesine jazıw
+CommunityAddToCommunityTitle	Jámiyetke qosıw
+CommunityAddToCommunityGroupMessage	Eger bul topardı jámiyet administratorı maqullasa, onıń aǵzaları jámiyettegi basqa sáwbetlerge qosıla aladı yamasa qosılıwǵa soraw jibere aladı.
+CommunityAddToCommunityChannelMessage	Eger bul kanaldı jámiyet administratorı maqullasa, onıń jazılıwshıları jámiyettegi basqa sáwbetlerge qosıla aladı yamasa qosılıwǵa soraw jibere aladı.
+CommunityAddChatTitle	Sáwbet qosıw
+CommunityAddBotTitle	Bot qosıw
+CommunityChatVisibilitySection	Sáwbettiń kóriniwi
+CommunityChatVisibilityVisible	Kórinetuǵın
+CommunityChatVisibilityVisibleInfo	Jámiyettegi hár bir adam bul sáwbetti kóre aladı.
+CommunityChatVisibilityVisibleBotInfo	Jámiyettegi hár bir adam bul bottı kóre aladı.
+CommunityChatVisibilityHidden	Jasırın
+CommunityChatVisibilityHiddenInfo	Bul sáwbetti tek mirát etilgen aǵzalar hám jámiyet administratorları kóredi.
+CommunityChatVisibilityHiddenBotInfo	Bul bottı tek mirát etilgen aǵzalar hám jámiyet administratorları kóredi.
+CommunityChatVisibilityCannotChange	Bunı keyin ózgerte almaysız.
+CommunityAddToCommunityButton	Jámiyetke qosıw
+CommunityAddToCommunityRequestButton	Qosılıw sorawın jiberiw
+CommunityMenuViewGroup	Topardı kóriw
+CommunityMenuViewChannel	Kanaldı kóriw
+CommunityMenuViewBot	Bottı kóriw
+CommunityMenuRemoveFromCommunity	Jámiyetten alıp taslaw
+CommunityMenuRemoveGroupFromCommunityConfirm	Bul topardı jámiyetten alıp taslawdı anıq qáleysiz be?
+CommunityMenuRemoveChannelFromCommunityConfirm	Bul kanaldı jámiyetten alıp taslawdı anıq qáleysiz be?
+CommunityMenuRemoveBotFromCommunityConfirm	Bul bottı jámiyetten alıp taslawdı anıq qáleysiz be?
+CommunityRequestApprovedToast	**%1$s** tı jámiyetke qosıw sorawın maqulladıńız.
+CommunityRequestDeclinedToast	**%1$s** tı jámiyetke qosıw sorawın biykarladıńız.
+CommunityHiddenStatus	Jasırın
+CommunityHiddenChatTooltipTitle	Jasırın sáwbet
+CommunityHiddenChatTooltipMessage	Bul sáwbetti tek mirát etilgen aǵzalar hám jámiyet administratorları kóredi.
+CommunityServiceMessageGroupAdded	**%1$s** bul topardı **%2$s** jámiyetine qostı.
+CommunityServiceMessageGroupYouAdded	**Siz** bul topardı **%1$s** jámiyetine qostıńız.
+CommunityServiceMessageGroupAddedUnknown	Bul topar **%1$s** jámiyetine qosıldı.
+CommunityServiceMessageGroupRemoved	**%1$s** bul topardı jámiyetten alıp tasladı
+CommunityServiceMessageGroupYouRemoved	**Siz** bul topardı jámiyetten alıp tasladıńız
+CommunityServiceMessageGroupRemovedUnknown	Bul topar jámiyetten alıp taslandı
+CommunityServiceMessageChannelAdded	**%1$s** bul kanaldı **%2$s** jámiyetine qostı.
+CommunityServiceMessageChannelYouAdded	**Siz** bul kanaldı **%1$s** jámiyetine qostıńız.
+CommunityServiceMessageChannelAddedUnknown	Bul kanal **%1$s** jámiyetine qosıldı.
+CommunityServiceMessageChannelRemoved	**%1$s** bul kanaldı jámiyetten alıp tasladı
+CommunityServiceMessageChannelYouRemoved	**Siz** bul kanaldı jámiyetten alıp tasladıńız
+CommunityServiceMessageChannelRemovedUnknown	Bul kanal jámiyetten alıp taslandı
+CommunityServiceMessageBotAdded	**%1$s** bul bottı **%2$s** jámiyetine qostı.
+CommunityServiceMessageBotYouAdded	**Siz** bul bottı **%1$s** jámiyetine qostıńız.
+CommunityServiceMessageBotAddedUnknown	Bul bot **%1$s** jámiyetine qosıldı.
+CommunityServiceMessageBotRemoved	**%1$s** bul bottı jámiyetten alıp tasladı
+CommunityServiceMessageBotYouRemoved	**Siz** bul bottı jámiyetten alıp tasladıńız
+CommunityServiceMessageBotRemovedUnknown	Bul bot jámiyetten alıp taslandı
+CommunityServiceMessageView	Kóriw
+CommunityUngroupChats	Sáwbetlerdi ajıratıw
+CommunityUngroupChatsText	Bul jámiyettiń sáwbetleri sáwbetler dizimińizde bólek kórinedi.
+CommunityUngroupChatsButton	Ajıratıw
+CommunityBanFromCommunity	Jámiyette bloklaw
+CommunityBanFromCommunityInfo_one	Paydalanıwshı **%1$d sáwbetten alıp taslanadı >**
+CommunityBanFromCommunityInfo_other	Paydalanıwshı **%1$d sáwbetten alıp taslanadı >**
+CommunityBanWarningTitle	Eskertiw
+CommunityBanUserTitle	Paydalanıwshını bloklaw
+CommunityBanWarningMessage_one	**%2$s** tı bloklaw onıń **%1$d** sáwbetin de jámiyetten alıp taslaydı.
+CommunityBanWarningMessage_other	**%2$s** tı bloklaw onıń **%1$d** sáwbetin de jámiyetten alıp taslaydı.
+CommunityBanWillRemoveFromChats_one	**%2$s** jámiyettiń **%1$d** sáwbetinen alıp taslanadı.
+CommunityBanWillRemoveFromChats_other	**%2$s** jámiyettiń **%1$d** sáwbetinen alıp taslanadı.
+CommunityHiddenGroupUnavailable	Administrator mirát etpegenshe, bul toparǵa qosıla almaysız hám onı kóre almaysız.
+CommunityHiddenChannelUnavailable	Administrator mirát etpegenshe, bul toparǵa qosıla almaysız hám onı kóre almaysız.
+ArticleEditor	Keńeytilgen redaktor
+ArticleHeading1	1-tema
+ArticleHeading2	2-tema
+ArticleHeading3	3-tema
+ArticleHeading4	4-tema
+ArticleHeading5	5-tema
+ArticleHeading6	6-tema
+ArticleHeading	Tema
+ArticleText	Tekst
+ArticleQuote	Citata
+ArticlePullquote	Ajıratılǵan citata
+ArticleCode	Kod
+ArticleFooter	Tómengi kolontitul
+ArticleNone	Joq
+ArticleToggleBlock	Ashılatuǵın blok
+ArticleIndent	Shegınis qosıw
+ArticleOutdent	Shegınisti kemeytiw
+ArticleListBulletedList	Markerli dizim
+ArticleListNumberedList	Nomerlengen dizim
+ArticleListChecklist	Tekseriw dizimi
+ArticleListBulleted	Markerli
+ArticleListNumbered	Nomerlengen
+ArticleListTodo	Wazıypalar
+ArticleSaveDraftTitle	Bul shımtıq saqlansın ba?
+ArticleDeleteDraft	Shımtıqtı óshiriw
+ArticleDeleteDraftTitle	Bul shımtıq óshirilsin be?
+ArticleDeleteDraftMessage	Jazǵanlarıńızdı joǵaltasız.
+ArticleSaveDraftMessage	Jabıwdan aldın jazılǵan teksti shımtıqqa saqlay alasız.
+ArticleHintTitle	Atama
+ArticleHintDetailsTitle	Atama
+ArticleHintAuthor	Avtor
+ArticleHintLanguage	Til
+ArticleHintCode	Kodtı usı jerge jazıń...
+ArticleHintText	Bir nárse jazıń...
+ArticleConversionTitle	Formatlawdı alıp taslaw
+ArticleConversionText	Bul xabarda keńeytilgen formatlaw qollanılǵan, ol **Telegram Premium** dı talap etedi.
+ArticleConversionSubscribe	Premium ǵa jazılıw
+ArticleConversionConvert	Formatlawdı alıp taslaw
+ArticleHintQuote	Citatanı kiritiń
+ArticleLatexEquation	LaTeX teńlemesi
+ArticleLatexError	Qátelik
+ArticleCommandList	Dizim
+ArticleCommandOrderedList	Tártiplengen dizim
+ArticleCommandToggle	Ashılatuǵın blok
+ArticleTableTitleHint	Atama qosıw
+ArticleCommandTable	Keste
+ArticleCommandMath	Formula
+ArticleCommandDivider	Ajıratqısh
+ArticleCommandImage	Súwret
+ArticleCommandVideo	Video
+ArticleCommandAudio	Audio
+ArticleCommandMap	Karta
+ArticleAlignment	Tegislew
+ArticleRemoveHighlight	Belgilewdi alıp taslaw
+ArticleHighlightCell	Ketekti belgilew
+ArticleHighlightCells	Keteklerdi belgilew
+ArticleHighlightColumn	Baǵananı belgilew
+ArticleHighlightRow	Qatardı belgilew
+ArticleMergeCells	Keteklerdi biriktiriw
+ArticleSplitCells	Keteklerdi bóliw
+ArticleInsertLeft	Shepke qoyıw
+ArticleInsertRight	Ońǵa qoyıw
+ArticleInsertAbove	Joqarıǵa qoyıw
+ArticleInsertBelow	Tómenge qoyıw
+ArticleDeleteColumn	Baǵananı óshiriw
+ArticleDeleteRow	Qatardı óshiriw
+ArticleTableBordered	Shegaralı
+ArticleTableCompact	Iqsham
+ArticleDeleteTable	Kesteni óshiriw
+ArticleAICreate	AI járdeminde jaratıw
+ArticleAIPrompt	Prompt jazıń...
+ArticleAIGenerate	Jaratıw
+ArticleAIAddToPage	Betke qosıw
+WelcomeMessage	Qutlıqlaw xabarı
+WelcomeMessageOff	Óshirilgen
+WelcomeMessageEmptyTitle	Qutlıqlaw xabarın\njaratıń
+WelcomeMessageEmptySubtitle	Jańa aǵzalar qosılǵanda\nolardı avtomat qutlıqlań.
+WelcomeMessageHint	Jańa aǵzalar qosılǵanda\nusı xabarlardı kóredi
+WelcomeMessageHint2	Óshiriw ushın onı basıń
+WelcomeMessageEnter	Xabar qosıw
+WelcomeMessagesLimit_one	**%d** xabar shegine jetti.
+WelcomeMessagesLimit_other	**%d** xabar shegine jetti.
+WelcomeMessageRevert	Qaytarıw
+WelcomeMessageRevertInfo	xabardı dáslepki\nmazmunına qaytaradı
+GiftMessageHint	Xabarıńız...
+GiftMessagePreviewInChat	Sáwbette aldınnan kóriw
+GiftMessageMakeMessagePublic	Xabardı ashıq etiw
+GiftMessageSendNow	Házir jiberiw
+GiftMessageAddHint	Xabar qosıw...
+GiftMessageAddTitle	Xabar qosıw
+GiftMessageAddDescription	**%1$s** ushın xabar qosa alasız yamasa **%2$s** tı birden jibere alasız.
+UnsupportedBlockTitle	Qollap-quwatlanbaytuǵın blok
+UnsupportedBlockMessage	Xabardıń bul bólegin kóriw ushın Telegramdı jańalań
+UnsupportedMessageTitle	Qollap-quwatlanbaytuǵın xabar
+UnsupportedMessageMessage	Bul xabardı kóriw ushın Telegramdı jańalań
+UnsupportedUpdate	Jańalaw
+UMessagePublicInfo	Ashıq iz
+UMessagePublicInfoButton	Maǵlıwmat alıw
+UMessagePublicInfoName	Atı
+UMessagePublicInfoUsername	Paydalanıwshı atı
+UMessagePublicInfoId	Telegram ID
+UMessagePublicInfoPhone	Kórinetuǵın telefon
+UMessagePublicInfoBio	Ózi haqqında
+UMessagePublicInfoCommonChats	Ulıwma sáwbetler
+UMessagePublicInfoPublicPosts	Tabılǵan ashıq postlar
+UMessagePublicInfoChannels	Ashıq toparlar hám kanallar
+UMessagePublicInfoPeople	Baylanıslı ashıq akkauntlar
+UMessagePublicInfoUnavailable	Qoljetimli emes
+UMessagePublicInfoNoUsername	Telegramdaǵı ashıq izlew ushın paydalanıwshı atı kerek.
+UMessagePublicInfoSearchError	Ashıq izlew waqıtsha qoljetimli emes.
+UMessagePublicInfoPublicOnly	Tek Telegram akkauntıńızǵa kórinetuǵın ashıq maǵlıwmatlar ǵana kórsetiledi.

@@ -21,6 +21,9 @@
 
     <uses-permission android:name="android.permission.READ_CLIPBOARD"/>
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
@@ -33,6 +36,8 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
@@ -57,6 +62,7 @@
     <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
     <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
     <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
@@ -85,7 +91,7 @@
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.HIDE_OVERLAY_WINDOWS" />
 
-    <uses-sdk tools:overrideLibrary="com.google.mlkit.vision.segmentation.subject,com.google.mediapipe.tasks.vision,com.google.mediapipe.tasks.core"/>
+    <uses-sdk tools:overrideLibrary="com.google.mlkit.vision.segmentation.subject,com.google.mediapipe.tasks.vision,com.google.mediapipe.tasks.core,ai.onnxruntime"/>
 
     <queries>
         <package android:name="com.google.android.apps.maps"/>
@@ -112,7 +118,19 @@
         android:usesCleartextTraffic="true"
         android:enableOnBackInvokedCallback="true"
     >
+
+        <!-- U message: Snap Camera Kit API token from local.properties (SNAP_CAMERAKIT_TOKEN) -->
+        <meta-data
+            android:name="com.snap.camerakit.api.token"
+            android:value="${cameraKitApiToken}" />
         <!-- usesCleartextTraffic for browser supporting opening http:// links -->
+
+        <activity
+            android:name="org.telegram.ui.UMessageUnsupportedDeviceActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
 
         <activity-alias
             android:enabled="true"
@@ -500,6 +518,12 @@
             android:enabled="true"
             android:exported="true"
             android:foregroundServiceType="dataSync"
+        />
+        <service
+            android:name=".UMessageFriendLocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location"
         />
         <service
             android:name=".LocationSharingService"

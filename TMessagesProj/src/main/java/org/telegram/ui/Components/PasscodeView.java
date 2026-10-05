@@ -1439,9 +1439,12 @@ public class PasscodeView extends FrameLayout implements NotificationCenter.Noti
             ((MotionBackgroundDrawable) backgroundDrawable).setParentView(backgroundFrameLayout);
         }
 
-        passcodeTextView.setText(umCheck != null && umTitle != null ? umTitle : LocaleController.getString(R.string.AppLocked));
+        passcodeTextView.setText(umCheck != null && umTitle != null ? umTitle : LocaleController.getString(R.string.UMessagePasscodeEnter));
         if (umCheck != null) {
             numbersTitleView.setText(umTitle);
+            subtitleView.setVisibility(GONE);
+        } else {
+            numbersTitleView.setText(LocaleController.getString(R.string.UMessagePasscodeEnter));
             subtitleView.setVisibility(GONE);
         }
 

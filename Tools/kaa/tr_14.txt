@@ -1,0 +1,338 @@
+BoostingGiveawayHowItWorksSubText_other	**%2$s** kúni Telegram **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextSeveral1_one	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextSeveral1_other	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextSeveralEnd1_one	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextSeveralEnd1_other	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextSeveral2_one	hám dizimdegi basqa **%1$d** kanal
+BoostingGiveawayHowItWorksSubTextSeveral2_other	hám dizimdegi basqa **%1$d** kanal
+BoostingGiveawayHowItWorksSubTextDateSeveral1_one	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextDateSeveral1_other	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextDateSeveralEnd1_one	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextDateSeveralEnd1_other	**%2$s** kúni Telegram **%4$s** %5$s ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextDateSeveral2_one	hám dizimdegi basqa **%1$d** kanal, **%3$s** kúni saat **%2$s** tan keyin
+BoostingGiveawayHowItWorksSubTextDateSeveral2_other	hám dizimdegi basqa **%1$d** kanal, **%3$s** kúni saat **%2$s** tan keyin
+BoostingGiveawayHowItWorksSubTextDate_one	**%2$s** kúni Telegram **%6$s** kúni saat **%5$s** tan keyin **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksSubTextDate_other	**%2$s** kúni Telegram **%6$s** kúni saat **%5$s** tan keyin **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańlaydı.
+BoostingGiveawayHowItWorksTextEnd_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan edi.
+BoostingGiveawayHowItWorksTextEnd_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan edi.
+BoostingGiveawayHowItWorksTextEndGroup_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan edi.
+BoostingGiveawayHowItWorksTextEndGroup_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın %4$s ǵa **%3$s Telegram Premium** jazılıwın satıp alǵan edi.
+BoostingStarsGiveawayHowItWorksTextEnd_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın **%1$d Juldız** satıp alǵan edi.
+BoostingStarsGiveawayHowItWorksTextEnd_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar jazılıwshıları ushın **%1$d Juldız** satıp alǵan edi.
+BoostingStarsGiveawayHowItWorksTextEndGroup_one	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın **%1$d Juldız** satıp alǵan edi.
+BoostingStarsGiveawayHowItWorksTextEndGroup_other	Bul utıs oyınınıń demewshisi — **%2$s** administratorları, olar aǵzaları ushın **%1$d Juldız** satıp alǵan edi.
+BoostingGiveawayHowItWorksSubTextEnd_one	**%2$s** kúni Telegram **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextEnd_other	**%2$s** kúni Telegram **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextDateEnd_one	**%2$s** kúni Telegram **%6$s** kúni saat **%5$s** tan keyin **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingGiveawayHowItWorksSubTextDateEnd_other	**%2$s** kúni Telegram **%6$s** kúni saat **%5$s** tan keyin **%4$s** ge qosılǵan **%3$s** tosınnan paydalanıwshını avtomat tańladı.
+BoostingReduceQuantity	Sanın azaytıw
+BoostingGiveawayEnd	Utıs oyını tamamlandı
+BoostingGiveawayPrivateChannel	Kanal jabıq
+BoostingGiveawayPrivateGroup	Topar jabıq
+BoostingGiveawayPrivateChannelWarning	Jabıq kanaldı qosıwdı anıq qáleysiz be? Paydalanıwshılar oǵan mirát siltemesisiz qosıla almaydı.
+BoostingGiveawayPrivateGroupWarning	Jabıq topardı qosıwdı anıq qáleysiz be? Paydalanıwshılar oǵan mirát siltemesisiz qosıla almaydı.
+BoostingGiveawayYouNotWon	Siz bul utıs oyınında sıylıq utpadıńız.
+BoostingGiveawayYouWon	Siz bul utıs oyınında sıylıq uttıńız 🏆
+BoostingGiveawayViewPrize	Sıylıǵımdı kóriw
+BoostingGiveawayCanceledByPayment	Kanal tólemdi qaytarıp alıp, sıylıqlardı biykarladı.
+BoostingGiveawayUsedLinksPlural_one	Jeńimpazlardıń **%1$d** ewi sawǵa siltemesin qollanıp bolǵan.
+BoostingGiveawayUsedLinksPlural_other	Jeńimpazlardıń **%1$d** ewi sawǵa siltemelerin qollanıp bolǵan.
+BoostingReduceQuantityTextPlural_one	Baǵdarlamada **%1$d** %2$s jazılıwın satıp ala almaysız. Sıylıqlar sanın **%3$d** ge azaytıwdı qáleysiz be?
+BoostingReduceQuantityTextPlural_other	Baǵdarlamada **%1$d** %2$s jazılıwın satıp ala almaysız. Sıylıqlar sanın **%3$d** ge azaytıwdı qáleysiz be?
+BoostingReduceUsersTextPlural_one	Baǵdarlamada **%1$d** jazılıw satıp ala almaysız. Tek **%2$s** qoljetimli.
+BoostingReduceUsersTextPlural_other	Baǵdarlamada **%1$d** jazılıw satıp ala almaysız. Tek **%2$s** qoljetimli.
+BoostingSelectUpToGroupChannelPlural_one	%1$d ge shekem topar yamasa kanal tańlań
+BoostingSelectUpToGroupChannelPlural_other	%1$d ge shekem topar yamasa kanal tańlań
+BoostingSelectUpToCountriesPlural_one	%1$d ge shekem mámleket tańlań
+BoostingSelectUpToCountriesPlural_other	%1$d ge shekem mámleket tańlań
+BoostingApplyChangesUsers	Siz paydalanıwshılar dizimin ózgerttińiz. Ózgerisler qollanılsın ba?
+BoostingApplyChangesChannels	Siz kanallar dizimin ózgerttińiz. Ózgerisler qollanılsın ba?
+BoostingApplyChangesCountries	Siz mámleketler dizimin ózgerttińiz. Ózgerisler qollanılsın ba?
+BoostingGiveawayParticipant	Siz bul utıs oyınına qatnasıp atırsız, sebebi **%1$s** kanalına qosılǵansız.
+BoostingGiveawayParticipantMultiPlural_one	Siz bul utıs oyınına qatnasıp atırsız, sebebi **%2$s** kanalına (hám dizimdegi basqa **%1$d** kanalǵa) qosılǵansız.
+BoostingGiveawayParticipantMultiPlural_other	Siz bul utıs oyınına qatnasıp atırsız, sebebi **%2$s** kanalına (hám dizimdegi basqa **%1$d** kanalǵa) qosılǵansız.
+BoostingGiveawayTakePartMultiPlural_one	Bul utıs oyınına qatnasıw ushın **%3$s** ge shekem **%2$s** kanalına (hám dizimdegi basqa **%1$d** kanalǵa) qosılıń.
+BoostingGiveawayTakePartMultiPlural_other	Bul utıs oyınına qatnasıw ushın **%3$s** ge shekem **%2$s** kanalına (hám dizimdegi basqa **%1$d** kanalǵa) qosılıń.
+BoostingGiveawayTakePart	Bul utıs oyınına qatnasıw ushın **%2$s** ge shekem **%1$s** kanalına qosılıń.
+BoostingGiveawayNotEligible	Siz bul utıs oyınına qatnasa almaysız, sebebi bul kanalǵa **%1$s** kúni, yaǵnıy oyın baslanbastan aldın qosılǵansız.
+BoostingGiveawayNotEligibleAdmin	Siz bul utıs oyınına qatnasa almaysız, sebebi qatnasıwshı kanaldıń (**%1$s**) administratorısız.
+BoostingGiveawayNotEligibleAdminGroup	Siz bul utıs oyınına qatnasa almaysız, sebebi qatnasıwshı topardıń (**%1$s**) administratorısız.
+BoostingGiveawayNotEligibleCountry	Siz bul utıs oyınına qatnasa almaysız, sebebi mámleketińiz utıs oyını shártlerine kirgizilmegen.
+BoostingOnlyRecipientCode	Siltemeni tek alıwshı kóre aladı.
+BoostingOnlyGiveawayCreatorSeeLink	Siltemeni tek utıs oyınınıń dúziwshisi kóre aladı.
+BoostingSelectUpToWarningUsers	Eń kóbi 10 paydalanıwshı tańlay alasız.
+UserSelectorLimit_one	Eń kóbi %d paydalanıwshı tańlay alasız.
+UserSelectorLimit_other	Eń kóbi %d paydalanıwshı tańlay alasız.
+BoostingSelectUpToWarningChannelsGroupsPlural_one	%1$d ge shekem topar yamasa kanal tańlay alasız.
+BoostingSelectUpToWarningChannelsGroupsPlural_other	%1$d ge shekem topar yamasa kanal tańlay alasız.
+BoostingSelectUpToWarningCountriesPlural_one	Eń kóbi %1$d mámleket tańlay alasız.
+BoostingSelectUpToWarningCountriesPlural_other	Eń kóbi %1$d mámleket tańlay alasız.
+BoostingWaitWarningPlural_one	Bust qoljetimli bolǵansha kútiń yamasa **Telegram Premium** jazılıwın sawǵa etip, jáne **%1$d** bust alıń.
+BoostingWaitWarningPlural_other	Bust qoljetimli bolǵansha kútiń yamasa **Telegram Premium** jazılıwın sawǵa etip, jáne **%1$d** bust alıń.
+BoostingBoostAgain	Jáne bust etiw
+BoostingBoostGroupMenu	Topardı bust etiw
+BoostingBoostChannelMenu	Kanaldı bust etiw
+BoostingPremiumUserCanBoostGroupWithLink	**Premium** paydalanıwshılar toparıńızdı usı silteme arqalı bust ete aladı:
+BoostingReassignBoost	Busttı kóshiriw
+BoostingStartGiveawayConfirmTitle	Utıs oyının baslaw
+BoostingStartGiveawayConfirmText	Utıs oyının házir baslawdı anıq qáleysiz be?
+BoostingMoreBoostsNeeded	Kóbirek bust kerek
+BoostingReassignedFromPlural_one	%1$d bust %2$s tan kóshirildi
+BoostingReassignedFromPlural_other	%1$d bust %2$s tan kóshirildi
+BoostingFromOtherChannel_one	basqa %d kanal
+BoostingFromOtherChannel_other	basqa %d kanal
+BoostingReassignBoosts	Bustlardı kóshiriw
+BoostingReassignBoostTextPluralWithLink_one	**%2$s** ti bust etiw ushın aldınǵı busttı kóshiriń yamasa qosımsha **%1$d** bust alıw ushın dosıńızǵa %3$s.
+BoostingReassignBoostTextPluralWithLink_other	**%2$s** ti bust etiw ushın aldınǵı busttı kóshiriń yamasa qosımsha **%1$d** bust alıw ushın dosıńızǵa %3$s.
+BoostingReassignBoostTextLink	**Telegram Premium sawǵa etiń**
+BoostingPremiumChristmasSubTitle	Rojdestvoǵa Telegram Premium sawǵa etiń.
+BoostingPremiumChristmasToast	Telegram Premium di keyinirek Sazlamalarda sawǵa ete alasız
+BoostingRemoveBoostFrom	Bustıńızdı alıp taslaw:
+BoostingAvailableIn	%1$s tan keyin qoljetimli
+BoostingDurationOfPremium	Premium jazılıwlarınıń múddeti
+BoostingHowItWork	KÓBIREK BILIW
+BoostingGiveAwayAbout	Bul utıs oyını haqqında
+BoostingGiveAwayFromCountries	%1$s dan
+BoostingWinnersDate	**Jeńimpazlardı tańlaw sánesi**
+BoostingGiveawayPrizes	**Utıs oyını sıylıqları**
+BoostingGiveawayResultsMsgWinnersSelected	**Jeńimpazlar tańlandı!**
+BoostingGiveawayResultsMsgWinners_one	**Jeńimpaz**
+BoostingGiveawayResultsMsgWinners_other	**Jeńimpazlar**
+BoostingGiveawayResultsMsgAllWinnersReceivedLinks	Barlıq jeńimpazlar jeke xabarlarda sawǵa siltemelerin aldı.
+BoostingStarsGiveawayResultsMsgAllWinnersReceivedLinks_one	Barlıq jeńimpazlar jámi %d Juldız aldı.
+BoostingStarsGiveawayResultsMsgAllWinnersReceivedLinks_other	Barlıq jeńimpazlar jámi %d Juldız aldı.
+BoostingGiveawayResultsMsgAllAndMoreWinners_one	**Jáne %1$d!**
+BoostingGiveawayResultsMsgAllAndMoreWinners_other	**Jáne %1$d!**
+BoostingGiveawayResultsMsgWinnersTitle_one	**Utıs oyınınıń** %1$d jeńimpazı Telegram tárepinen tosınnan tańlandı.
+BoostingGiveawayResultsMsgWinnersTitle_other	**Utıs oyınınıń** %1$d jeńimpazı Telegram tárepinen tosınnan tańlandı.
+BoostingGiveawayMsgInfoPlural1_one	**%1$d** Telegram Premium
+BoostingGiveawayMsgInfoPlural1_other	**%1$d** Telegram Premium
+BoostingGiveawayMsgInfoPlural2_one	%2$s ǵa jazılıw.
+BoostingGiveawayMsgInfoPlural2_other	%2$s ǵa jazılıwlar.
+BoostingStarsGiveawayMsgInfoPlural1_one	**%1$d Juldız** tarqatıladı
+BoostingStarsGiveawayMsgInfoPlural1_other	**%1$d Juldız** tarqatıladı
+BoostingStarsGiveawayMsgInfoPlural2_one	**%1$d** jeńimpazǵa.
+BoostingStarsGiveawayMsgInfoPlural2_other	**%1$d** jeńimpaz arasında.
+BoostingGiveawayMsgParticipants	**Qatnasıwshılar**
+BoostingGiveawayMsgAllSubsPlural_one	Kanaldıń barlıq jazılıwshıları:
+BoostingGiveawayMsgAllSubsPlural_other	Kanallardıń barlıq jazılıwshıları:
+BoostingGiveawayMsgNewSubsPlural_one	Kanaldıń jańa jazılıwshıları:
+BoostingGiveawayMsgNewSubsPlural_other	Kanallardıń jańa jazılıwshıları:
+BoostingGiveawayMsgAllSubsGroupPlural_one	Topardıń barlıq aǵzaları:
+BoostingGiveawayMsgAllSubsGroupPlural_other	Toparlardıń barlıq aǵzaları:
+BoostingGiveawayMsgNewSubsGroupPlural_one	Topardıń jańa aǵzaları:
+BoostingGiveawayMsgNewSubsGroupPlural_other	Toparlardıń jańa aǵzaları:
+BoostingGiveawayMsgWithDivider	hám
+BoostingGiveawayMsgPrizes_one	**%1$d** %2$s
+BoostingGiveawayMsgPrizes_other	**%1$d** %2$s
+StoryReactionsWidgetLimit2_other	Storiske %d den artıq reakciya tegin qosa almaysız.
+UnconfirmedAuthTitle	Kimdur házir xabarlarıńızǵa kiriw imkaniyatın aldı!
+UnconfirmedAuthTitleBot	Bot házir xabarlarıńızǵa kiriw imkaniyatın aldı!
+UnconfirmedAuthConfirm	Awa, bul men
+UnconfirmedAuthDeny	Yaq, bul men emes!
+UnconfirmedAuthSingle	Akkauntıńızǵa %s tan jańa kiriw anıqlandı. Bul sizbisiz?
+UnconfirmedAuthSingleBot	%1$s akkauntıńızǵa %2$s tan jalǵandı. Bul sizbisiz?
+UnconfirmedAuthMultiple_one	Akkauntıńızǵa %d jańa kiriw anıqlandı. Bul sizbisiz?
+UnconfirmedAuthMultiple_other	Akkauntıńızǵa %d jańa kiriw anıqlandı. Bul sizbisiz?
+UnconfirmedAuthMultipleFrom_one	Akkauntıńızǵa %s tan %d jańa kiriw anıqlandı. Bul sizbisiz?
+UnconfirmedAuthMultipleFrom_other	Akkauntıńızǵa %s tan %d jańa kiriw anıqlandı. Bul sizbisiz?
+UnconfirmedAuthDeniedTitle_one	Jańa kiriwdiń aldı alındı
+UnconfirmedAuthDeniedTitle_other	Jańa kiriwlerdiń aldı alındı
+UnconfirmedAuthDeniedMessageSingle	%s tan kiriw háreketin toqtattıq.
+UnconfirmedAuthDeniedMessageMultiple	Tómendegilerden kiriw háreketlerin toqtattıq: %s
+UnconfirmedAuthDeniedWarning	Kiriw kodıńızdı hesh kimge jibermeń, bolmasa Telegram akkauntıńızdan ayırılıp qalıwıńız múmkin!
+UnconfirmedAuthConfirmed	Jańa kiriwge ruqsat berildi
+UnconfirmedAuthConfirmedBot	Jańa botqa ruqsat berildi
+UnconfirmedAuthConfirmedMessage	Aktiv kiriwlerińizdiń dizimin **Sazlamalar > Qurılmalar** bóliminde tekseriwińizge boladı.
+ChannelManageMessages	Xabarlardı basqarıw
+ChannelManageStories	Storislerdi basqarıw
+PremiumSubscribers	Premium jazılıwshılar
+PremiumMembers	Premium aǵzalar
+BoostsExisting	Bar bustlar
+BoostsToLevel	Dárejeni kóteriw ushın bustlar
+BoostersInfoDescription	Kanalıńızdı házir usı paydalanıwshılar bust etip atır.
+BoostersInfoGroupDescription	Toparıńızdı házir usı paydalanıwshılar bust etip atır.
+BoostChannel	Kanaldı bust etiw
+BoostGroup	Topardı bust etiw
+BoostBtn	Bust etiw
+GiveawayBtn	Utıs oyını
+FeaturesBtn	Imkaniyatlar
+UnlockBoostChannelFeatures	Imkaniyatlardı ashıw
+BoostLinkButton	BUST ETIW
+BoostingEnableStoriesForChannel	Kanal ushın storislerdi qosıw
+BoostingEnableStoriesForGroup	Topar ushın storislerdi qosıw
+BoostingAdditionalFeaturesTitle	Qosımsha imkaniyatlar
+BoostingAdditionalFeaturesSubtitle	**Bustlar** jıynaw arqalı toparıńız joqarıraq dárejelerge jetedi hám kóbirek imkaniyatlardı ashadı.
+BoostingAdditionalFeaturesSubtitleChannel	**Bustlar** jıynaw arqalı kanalıńız joqarıraq dárejelerge jetedi hám kóbirek imkaniyatlardı ashadı.
+BoostingRemoveRestrictionsSuccessTitle	Siz topardı bust ettińiz!
+BoostingRemoveRestrictionsSuccessSubTitle	Endi onda xabar jibere alasız.
+BoostingRemoveRestrictionsSubtitle_one	Xabar jiberiw sheklewlerin alıp taslaw ushın topardı **%1$d** ret bust etiń. Bustlarıńız **%2$s** ǵa jańa imkaniyatlardı ashıwǵa járdem beredi.
+BoostingRemoveRestrictionsSubtitle_other	Xabar jiberiw sheklewlerin alıp taslaw ushın topardı **%1$d** ret bust etiń. Bustlarıńız **%2$s** ǵa jańa imkaniyatlardı ashıwǵa járdem beredi.
+BotWebAppDisclaimerSubtitle	Siz **Telegram menen baylanıslı emes** ǵárezsiz tárep basqaratuǵın mini baǵdarlamadan paydalanbaqshısız. Dawam etiw ushın mini baǵdarlamalardıń Paydalanıw shártlerine kelisiwińiz kerek.
+BotWebAppDisclaimerCheck	Men **Paydalanıw shártlerine** kelisemen
+StoryPinnedToPostsDescription	Saqlanǵan storislerdi administrator alıp taslaǵansha basqalar kanal profilinde kóre aladı.
+YouBoostedChannel	Siz kanaldı bust ettińiz
+YouBoostedGroup	Siz topardı bust ettińiz
+YouBoostedChannel2	Siz %s ti bust ettińiz!
+PremiumNeeded	Premium kerek!
+PremiumNeededForBoosting	Kanallardı tek **Telegram Premium** jazılıwshıları bust ete aladı. **Telegram Premium ǵa** jazılıwdı qáleysiz be?
+PremiumNeededForBoostingGroup	Toparlardı tek **Telegram Premium** jazılıwshıları bust ete aladı. **Telegram Premium ǵa** jazılıwdı qáleysiz be?
+Replace	Almastırıw
+ReplaceAttachedPollMedia	Almastırıw
+ReplaceBoostChannelDescription	Siz házir **%1$s** ti bust etip atırsız. Onıń ornına **%2$s** ti bust etiwdi qáleysiz be?
+CantBoostTooOften	Júdá jiyi bust etiwge bolmaydı!
+CantBoostTooOftenDescription	Bust etetuǵın kanalıńızdı kúnine tek bir ret ózgerte alasız. Keyingi ret **%s** tan keyin bust ete alasız.
+BotAttachMenuShortcatAddedAttachAndSide	**%s** jarlıǵı tirkew menyusına hám qaptal menyuǵa qosıldı.
+BotAttachMenuShortcatAddedSide	**%s** jarlıǵı qaptal menyuǵa qosıldı.
+BotAttachMenuShortcatAddedAttach	**%s** jarlıǵı tirkew menyusına qosıldı.
+TermsOfUse	Paydalanıw shártleri
+BoostExpireOn	bust múddeti %s tamamlanadı
+BoostsExpireOn	bustlar múddeti %s tamamlanadı
+ChannelNeedBoostsForColorDescription	Kanal reńin tańlanǵanǵa ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForProfileColorDescription	Kanal profili reńin tańlanǵanǵa ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForReplyIconDescription	Kanal siltemesi stiliniń ikonkasın ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForProfileIconDescription	Kanal profili ikonkasın ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForEmojiStatusDescription	Kanaldıń emoji statusın ornatıw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForWearCollectiblesDescription	Kollekciyalıq buyımlardı taǵıw ushın kanalıńız **%d-dárejege** jetiwi kerek. **Premium** paydalanıwshılar kanalıńızdı usı silteme arqalı bust ete aladı:
+ChannelNeedBoostsForWallpaperDescription	Kanal tusqaǵazın ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsForCustomWallpaperDescription	Kanal tusqaǵazın óz súwretińizge ózgertiw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsDescription	Storis jaylastırıwdı qosıw ushın kanalıńızǵa %s kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsDescriptionNextLevel	Kúnine **%2$s** jaylastırıw ushın kanalıńızǵa %1$s kerek.\n\nPremium jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelNeedBoostsDescriptionForNewFeatures	Jańa imkaniyatlardı ashıw ushın **%1$s** ǵa %2$s kerek.
+ChannelNeedBoostsForSwitchOffAdsDescription	Reklamanı óshiriw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+UnlockBoostChannelAutotranslation	Xabarlardı avtomat awdarıw
+ChannelNeedBoostsForAutotranslationDescription	Xabarlardı avtomat awdarıwdı qosıw ushın kanalıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** jazılıwshılarıńızdan usı silteme arqalı kanalıńızdı bust etiwdi sorań:
+ChannelBoostsJustReachedLevel1	Bul kanal **1-dárejege** jetti hám endi storis jaylastıra aladı.
+ChannelBoostsJustReachedLevelNext	Bul kanal **%1$d-dárejege** jetti hám endi kúnine **%2$s** jaylastıra aladı.
+GroupNeedBoostsForColorDescription	Topar reńin tańlanǵanǵa ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForProfileColorDescription	Topar profili reńin tańlanǵanǵa ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForReplyIconDescription	Topar siltemesi stiliniń ikonkasın ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForProfileIconDescription	Topar profili ikonkasın ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForEmojiStatusDescription	Topardıń emoji statusın ornatıw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForWearCollectiblesDescription	Kollekciyalıq buyımlardı taǵıw ushın toparıńız **%d-dárejege** jetiwi kerek. **Premium** paydalanıwshılar toparıńızdı usı silteme arqalı bust ete aladı:
+GroupNeedBoostsForCustomEmojiPackDescription	Topardıń emoji toplamın ornatıw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForWallpaperDescription	Topar tusqaǵazın ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsForCustomWallpaperDescription	Topar tusqaǵazın óz súwretińizge ózgertiw ushın toparıńız **%d-dárejege** jetiwi kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsDescription	Storis jaylastırıwdı qosıw ushın toparıńızǵa %s kerek.\n\n**Premium** aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsDescriptionNextLevel	Kúnine **%2$s** jaylastırıw ushın toparıńızǵa %1$s kerek.\n\nPremium aǵzalarıńızdan usı silteme arqalı toparıńızdı bust etiwdi sorań:
+GroupNeedBoostsDescriptionForNewFeatures	Jańa imkaniyatlardı ashıw ushın **%1$s** ǵa %2$s kerek.
+GroupBoostsJustReachedLevel1	Bul topar **1-dárejege** jetti hám endi storis jaylastıra aladı.
+GroupBoostsJustReachedLevelNext	Bul topar **%1$d-dárejege** jetti hám endi kúnine **%2$s** jaylastıra aladı.
+GroupBoostedByUserWithTimes_one	**%2$s** topardı **%1$d** ret bust etti.
+GroupBoostedByUserWithTimes_other	**%2$s** topardı **%1$d** ret bust etti.
+GroupBoostedByUserWithDescription	**%1$s** ti bust etip, oǵan jańa imkaniyatlardı ashıwǵa járdem beriń hám xabarlarıńız ushın bust etiwshi **belgisin** alıń.
+NoBoostersHint	Házir kanalıńızdı hesh kim bust etpey atır
+NoBoostersGroupHint	Házir toparıńızdı hesh kim bust etpey atır
+BoostsMaxLevelReached	Eń joqarı dárejege jetildi
+MoreBoosts_one	jáne **%d** bust
+MoreBoosts_other	jáne **%d** bust
+BoostStories_one	**%d**&#160;storis
+BoostStories_other	**%d**&#160;storis
+BoostingIncreaseLevel	Storis shegin asırıw
+BoostingEnableColor	Reńlerdi ashıw
+BoostingEnableProfileColor	Profil reńlerin ashıw
+BoostingEnableEmojiStatus	Emoji statusın ashıw
+BoostingEnableWearCollectibles	Buyımdı taǵıw
+BoostingEnableGroupEmojiPack	Topar emoji toplamın ashıw
+BoostingEnableWallpaper	Tusqaǵazdı ashıw
+BoostingEnableLinkIcon	Silteme ikonkaların ashıw
+BoostingEnableProfileIcon	Profil ikonkaların ashıw
+StorySeekHelp	Aylandırıw ushın shepke yamasa ońǵa sıpırıń
+QuoteTo	Citata keltiriw…
+ReplyToDialog	Juwap beriw…
+ReplyTo	%s ǵa juwap
+ReplyToQuote	%s citatasına juwap
+ReplyToTask	Dizim wazıypasına juwap
+ReplyToTaskIn	%s daǵı elementke juwap
+ReplyToPoll	Sorawnama variantına juwap
+ReplyToPollIn	%s daǵı sorawnama variantına juwap
+PreviewQuoteUpdate	Citatanı jańalaw
+PreviewQuoteUpdateSubtitle	Citatanı ózgertiwińizge yamasa alıp taslawıńızǵa boladı
+ClearQuote	Citatanı tazalaw
+SelectSpecificQuote	Belgili citatanı tańlaw
+QuoteSelectedPart	Tańlanǵan bólimdi citatalaw
+QuoteToAnotherChat	Basqa sáwbetke juwap beriw
+ReplyToAnotherChat	Basqa sáwbette juwap beriw
+UpdatedQuoteTitle	Citata jańalandı
+UpdatedQuoteMessage	**%s** siz citatalap atırǵan xabardı jańaladı. Citatańızdı házirgi halına keltiriw ushın onı ózgertiń.
+ReplyPrivate	Bul juwap jeke sáwbetten.
+ReplyPrivateGroup	Bul juwap jabıq topardan.
+ReplyPrivateChannel	Bul juwap jabıq kanaldan.
+QuotePrivate	Bul citata jeke sáwbetten.
+QuotePrivateGroup	Bul citata jabıq topardan.
+QuotePrivateChannel	Bul citata jabıq kanaldan.
+QuoteNotFound	Dál citata tabılmadı
+MessageOptionsReply	Juwap
+MessageOptionsForward	Jiberiw
+MessageOptionsLink	Silteme
+MessageOptionsReplyTitle	Xabarǵa juwap
+MessageOptionsReplySubtitle	Citatanıń belgili bólimin tańlay alasız
+MessageOptionsLinkTitle	Siltemeni aldınnan kóriw
+MessageOptionsLinkSubtitle	Siltemeńizdi sazlay alasız
+LinkAbove	Joqarıǵa kóshiriw
+LinkBelow	Tómenge kóshiriw
+LinkMediaSmaller	Súwretti kishireytiw
+LinkMediaLarger	Súwretti úlkeytiw
+LinkVideoSmaller	Videonı kishireytiw
+LinkVideoLarger	Videonı úlkeytiw
+ApplyChanges	Ózgerislerdi qollanıw
+DoNotForward	Jibermew
+DoNotReply	Juwap bermew
+DoNotQuote	Citatalamaw
+DoNotLinkPreview	Aldınnan kórsetpew
+UserColorHint	Atıńızdı, jibergen siltemelerińizdi hám xabarlarıńızǵa juwaplardı boyaw ushın reń tańlay alasız.
+UserColorPreview	Atıńız hám xabarlarıńızǵa juwaplar tańlanǵan reńde kórsetiledi.
+UserColorPreviewReply	Xabarıńızǵa juwap
+UserColorPreviewLinkTitle	Siltemeni aldınnan kóriw
+UserColorPreviewLinkDescription	Tańlaǵan reńińiz siltemeni aldınnan kóriwdi de boyaydı.
+UserColorApplyIcon	Reń hám ikonkanı qollanıw
+UserColorApply	Stildi qollanıw
+UserColorApplyCollectible	Kollekciyalıq buyımdı taǵıw
+UserReplyIcon	Juwaplarǵa ikonka qosıw
+UserProfileIcon	Profilge ikonka qosıw
+UserProfileHint	Profilińiz ushın reń hám ikonka tańlań
+UserProfileHint2	Sonday-aq atıńızdıń reńin ózgertip, sizge berilgen juwaplardı sazlay alasız. **Ózgertiw >**
+UserReplyIconOff	Óshirilgen
+ChannelReplyIconOff	Óshirilgen
+ChannelColorTitle2	Kórinis
+ChannelColorHint	Kanalıńızdıń atın, ol jibergen siltemelerdi hám onıń xabarlarına juwaplardı boyaw ushın jeke reń tańlay alasız.
+ChannelColorPreview	Kanal atı hám onıń xabarına juwaplar tańlanǵan reńde kórsetiledi
+ChannelColorPreviewReply	Kanalıńız xabarına juwap
+ChannelColorPreviewLinkTitle	Siltemeni aldınnan kóriw
+ChannelColorPreviewLinkDescription	Tańlaǵan reńińiz siltemeni aldınnan kóriwdi de boyaydı.
+ChannelColorApply	Reń hám ikonkanı qollanıw
+ChannelReplyIcon	Juwaplarǵa ikonka qosıw
+ChannelProfileIcon	Profilge ikonka qosıw
+ChannelProfileHint	Profilińiz ushın reń hám ikonka tańlań
+ChannelColorTabName	At
+ChannelColorTabProfile	Profil
+UserColorTabName	At
+UserColorTabProfile	Profil
+QuoteOutdated	Eskirgen citata
+QuoteMaxError	Citata júdá uzın!
+QuoteMaxErrorMessage	Tańlanǵan tekst citatalaw ushın júdá uzın.
+StoriesIntroHeader	Storislerdi kóriw
+StoriesIntroSubHeader	Kórsetiwdi basqarıw ushın\nusı qımıllardan paydalanıń.
+StoriesIntroDismiss	Kóriwdi dawam etiw ushın basıń
+StoriesIntroGoForwardHeader	Alǵa ótiw
+StoriesIntroGoForwardSubHeader	Ekrandı basıń
+StoriesIntroPauseAndSeekHeader	Pauza hám aylandırıw
+StoriesIntroPauseAndSeekSubHeader	Basıp turıp, qaptalǵa jıljıtıń
+StoriesIntroGoBackHeader	Artqa qaytıw
+StoriesIntroGoBackSubHeader	Shep shetin basıń
+StoriesIntroGoToNextAuthorHeader	Keyingi avtorǵa ótiw
+StoriesIntroGoToNextAuthorSubHeader	Shepke yamasa ońǵa sıpırıń
+FlashWarmth	Jıllılıq
+FlashIntensity	Kúshi
+WallpaperDimming	Qarańǵılatıw
+UserColorUnsaved	Saqlanbaǵan ózgerisler
+UserColorUnsavedMessage	Siz reń yamasa ikonka sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+ChannelColorUnsaved	Saqlanbaǵan ózgerisler
+ChannelColorUnsavedMessage	Siz kórinis sazlamaların ózgerttińiz. Ózgerisler qollanılsın ba?
+OpenGift	ASHIW
+UserColorApplied	Atıńızdıń reńi jańalandı!
+GroupAppearanceUpdated	Topar kórinisi jańalandı
+ChannelAppearanceUpdated	Kanal kórinisi jańalandı
+ChannelColorApplied	Kanalıńızdıń reńi jańalandı!
+UserProfileColorApplied	Profilińizdiń reńi jańalandı!
+ChannelProfileColorApplied	Kanal profilińizdiń reńi jańalandı!

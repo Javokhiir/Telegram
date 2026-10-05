@@ -1,0 +1,494 @@
+ErrorSendRestrictedMediaAll	Keshirersiz, bul toparda media jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedPollsAll	Keshirersiz, bul toparda sorawnama jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedTodoAll	Keshirersiz, bul toparda dizim jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedVoiceAll	Keshirersiz, bul toparda dawıslı xabar jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedRoundAll	Keshirersiz, bul toparda video xabar jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedDocumentsAll	Keshirersiz, bul toparda hújjet jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedMusicAll	Keshirersiz, bul toparda muzıka jiberiwge ruqsat etilmegen.
+ErrorSendRestrictedPrivacyVoiceMessages	Keshirersiz, bul paydalanıwshınıń qupıyalıq sazlamaları sebepli oǵan dawıslı xabar jibere almaysız.
+ErrorSendRestrictedPrivacyVideoMessages	Keshirersiz, bul paydalanıwshınıń qupıyalıq sazlamaları sebepli oǵan video xabar jibere almaysız.
+UnableForward	Jiberip bolmaydı
+TosDecline	Ókinishke oray, bul siz Telegramda dizimnen óte almaytuǵınıńızdı bildiredi.\n\nBasqalardan ózgeshe, biz maǵlıwmatlarıńızdı reklama yamasa basqa kommerciyalıq maqsetlerde qollanbaymız. Telegram tek imkaniyatlarǵa bay bultlı xızmet retinde islewi ushın kerekli maǵlıwmatlardı ǵana saqlaydı. Maǵlıwmatlarıńızdı qalay qollanıwımızdı (mısalı, sinxronlanǵan kontaktlardı óshiriw) Qupıyalıq hám qáwipsizlik sazlamalarında ózgerte alasız.\n\nBiraq Telegramnıń kishipeyil talaplarına ulıwma kelispeseńiz, sizge bul xızmetti kórsete almaymız.
+TosAgeTitle	Jastı tekseriw
+PrivacyPolicyAndTerms	Qupıyalıq siyasatı hám Paydalanıw shártleri
+TosAgeText	Jasıńız %1$s yamasa onnan úlken ekenin tastıyıqlaw ushın Kelisemen túymesin basıń.
+TosUpdateDecline	Ókinishke oray, bul usı jerde xoshlasıwımız kerek ekenin bildiredi. Basqalardan ózgeshe, biz maǵlıwmatlarıńızdı reklama yamasa basqa kommerciyalıq maqsetlerde qollanbaymız. Telegram tek imkaniyatlarǵa bay bultlı xızmet retinde islewi ushın kerekli maǵlıwmatlardı ǵana saqlaydı. Maǵlıwmatlarıńızdı qalay qollanıwımızdı (mısalı, sinxronlanǵan kontaktlardı óshiriw) Qupıyalıq hám qáwipsizlik sazlamalarında ózgerte alasız.\n\nBiraq Telegramnıń kishipeyil talaplarına ulıwma kelispeseńiz, bul xızmetti kórsete almaymız. Akkauntıńızdı házir óshire alasız — yamasa jáne biraz qarap shıǵıp, maǵlıwmatlarıńızdı qollanıw usılımız unamasa, keyinirek óshire alasız.
+TosDeclineDeleteAccount	Eskertiw, bul Telegram akkauntıńızdı Telegram bultında saqlaǵan barlıq maǵlıwmatlarıńız benen birge qaytarıp bolmaytuǵın túrde óshiredi.\n\nÁhmiyetli: Hámmesin joǵaltıwdıń ornına, házir Biykarlaw túymesin basıp, akkaunttı óshiriwden aldın maǵlıwmatlarıńızdı eksportlay alasız. (Bunıń ushın Telegram Desktop tıń eń sońǵı versiyasın ashıp, Sazlamalar &gt; Telegram maǵlıwmatların eksportlaw bólimine ótiń.)
+PermissionStorageWithHint	Súwretler, videolar, muzıka hám basqa medianı jiberiwińiz hám saqlawıńız ushın **Telegram**ǵa yadqa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Fayllar hám media**nı qosıń.
+PermissionNoAudioWithHint	Dawıslı xabar jiberiwińiz ushın **Telegram**ǵa mikrofonǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Mikrofon**dı qosıń.
+PermissionNoBluetoothWithHint	Garnitura mikrofonınan video jazıw ushın **Telegram**ǵa bluetoothqa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Bluetooth**tı qosıń.
+PermissionNoAudioVideoWithHint	Dawıslı xabar jiberiwińiz ushın **Telegram**ǵa mikrofonǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Mikrofon**dı qosıń.
+PermissionNoCameraWithHint	Súwret hám video túsiriwińiz ushın **Telegram**ǵa kameraǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Kamera**nı qosıń.
+PermissionNoCameraMicVideo	Video xabar jiberiwińiz ushın **Telegram**ǵa kamera hám mikrofonǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Mikrofon** hám **Kamera**nı qosıń.
+PermissionNoLocation	Jaylasıwıńız benen doslarıńız benen bólisiwińiz ushın Telegramǵa jaylasıwıńızǵa ruqsat kerek.
+PermissionNoLocationStory	Storisińizge házirgi hawa rayı vidjetin qosıwıńız ushın Telegramǵa jaylasıwıńızǵa ruqsat kerek.
+PermissionNoLocationFriends	Jaylasıwıńız benen doslarıńız benen bólisiwińiz ushın **Telegram**ǵa jaylasıwǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Jaylasıw**dı qosıń.
+PermissionNoLocationNavigation	Jol kórsetiwlerdi alıwıńız ushın **Telegram**ǵa jaylasıwǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Jaylasıw**dı qosıń.
+PermissionNoContactsSharing	Kontaktlar menen doslarıńız benen bólisiwińiz ushın **Telegram**ǵa kontaktlarǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Kontaktlar**dı qosıń.
+PermissionNoContactsSaving	Kontaktlardı telefonıńızǵa saqlaw ushın **Telegram**ǵa kontaktlarǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Kontaktlar**dı qosıń.
+PermissionNoStorageAvatar	Profil súwretin júklewińiz ushın **Telegram**ǵa yadqa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Fayllar hám media**nı qosıń.
+PermissionNoAudioStorageStory	Storisińiz benen birge júklew ushın **Telegram**ǵa muzıka fayllerine ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Muzıka hám audio**nı qosıń.
+PermissionDrawAboveOtherApps	Videolardı «Súwret ishinde súwret» rejiminde oynatıw ushın Telegramǵa basqa qosımshalar ústinen kórsetiwge ruqsat kerek.
+PermissionDrawAboveOtherAppsGroupCall	Overley rejimi Telegramnan tısqarıda bolǵanıńızda da «basıp sóylew»den paydalanıwǵa hám kim sóylep atırǵanın kóriwge imkaniyat beredi.
+PermissionOpenSettings	SAZLAMALAR
+PermissionXiaomiLockscreen	Qońırawlar durıs islewi ushın Telegramǵa qulıplanǵan ekranda kórsetiliwge ruqsat beriń.
+PermissionFSILockscreen	Qońırawlar durıs islewi ushın Telegramǵa qulıplanǵan ekranda kórsetiliwge ruqsat beriń.
+PermissionBackgroundLocation	Bul sáwbette janlı jaylasıwıńız benen bólisiw ushın Telegramǵa jaylasıwıńızǵa bárqulla, sonıń ishinde qosımsha fonda bolǵanda da ruqsat kerek.\n\nJaylasıwıńızǵa tek siz tańlaǵan múddet dawamında ǵana kiremiz hám onı qálegen waqıtta toqtata alasız. Jaylasıwıńızdı usı sáwbette bólisiwden basqa hesh qanday maqsette qollanbaymız.
+PermissionDrawAboveOtherAppsTitle	Súwret ishinde súwret
+PermissionDrawAboveOtherAppsGroupCallTitle	Dawıslı sáwbet overleyi
+GrowthChartTitle	Ósiw
+FollowersChartTitle	Jazılıwshılar
+ViewsAndSharesChartTitle	Kóriwler hám bólisiwler
+ReactionsByEmotionChartTitle	Reakciyalar
+StoryInteractionsChartTitle	Storis kóriwleri hám bólisiwleri
+StoryReactionsByEmotionChartTitle	Storis reakciyaları
+ViewsBySourceChartTitle	Derek boyınsha kóriwler
+NewFollowersBySourceChartTitle	Derek boyınsha jańa jazılıwshılar
+LanguagesChartTitle	Tiller
+RecentPosts	Sońǵı postlar
+RecentPostsCapitalize	Sońǵı postlar
+ZoomOut	Kishireytiw
+IVInteractionsChartTitle	IV óz-ara tásirleri
+LoadingStats	Statistika júklenbekte...
+LoadingStatsDescription	Grafikler jaratılıp atırǵanda biraz kútiń.
+TopHoursChartTitle	Saatlar boyınsha kóriwler
+SlideUpToLock	Jazıwdı qulıplaw ushın joqarıǵa sıpırıń
+NotificationsChartTitle	Xabarlandırıwlar
+TotalDeviceFreeSize	%s bos
+ClearTelegramCache	Telegram keshin tazalaw
+StatisticOverview	Ulıwma kórinis
+ViewsPerPost	Bir postqa kóriwler
+ViewsPerStory	Bir storiske kóriwler
+SharesPerStory	Bir storiske bólisiwler
+ReactionsPerStory	Bir storiske reakciyalar
+ReactionsPerPost	Bir postqa reakciyalar
+SharesPerPost	Bir postqa bólisiwler
+EnabledNotifications	Qosılǵan xabarlandırıwlar
+ClearLocalDatabase	Jergilikli bazanı tazalaw
+TelegramCacheSize	%s Telegram keshi
+LocalDatabaseSize	%s Telegram jergilikli bazası
+CacheWasCleared	Qurılmańızda %s bosatıldı!
+TotalDeviceSize	%s basqa maǵlıwmatlar
+GroupMembersChartTitle	Topar aǵzaları
+NewMembersBySourceChartTitle	Derek boyınsha jańa aǵzalar
+MembersLanguageChartTitle	Aǵzalardıń tiykarǵı tili
+MessagesChartTitle	Xabarlar
+ActionsChartTitle	Háreketler
+MembersOverviewTitle	Aǵzalar
+MessagesOverview	Xabarlar
+ViewingMembers	Kóriwshi aǵzalar
+PostingMembers	Jazıwshı aǵzalar
+Characters_one	%1$d belgi
+Characters_other	%1$d belgi
+Deletions_one	%1$d óshiriw
+Deletions_other	%1$d óshiriw
+Bans_one	%1$d bloklaw
+Bans_other	%1$d bloklaw
+Restrictions_one	%1$d sheklew
+Restrictions_other	%1$d sheklew
+Invitations_one	%1$d mirát
+Invitations_other	%1$d mirát
+TopAdmins	Eń aktiv administratorlar
+TopMembers	Eń aktiv aǵzalar
+TopInviters	Eń kóp mirát etiwshiler
+CharactersPerMessage	bir xabarǵa %s
+TopDaysOfWeekChartTitle	Hápteniń eń aktiv kúnleri
+StatisticSearchUserHistory	Xabarlardı kóriw
+StatisticOpenProfile	Profildi ashıw
+SearchTipToday	Búgin
+SearchTipYesterday	Keshe
+StatisticViews	Kóriwler
+PublicShares	Ashıq bólisiwler
+PrivateShares	Jeke bólisiwler
+ViewStatistics	Statistikanı kóriw
+ViewChannelStats	Kanal statistikasın kóriw
+ViewMessageStatistic	Xabar statistikası
+ViewMessage	Xabardı ashıw
+Page1Title	Telegram
+Page2Title	Tez
+Page3Title	Biypul
+Page4Title	Qáwipsiz
+Page5Title	Kúshli
+Page6Title	Bultlı
+Page1Message	Dúnyadaǵı **eń tez** messendjer.\nOl **biypul** hám **qáwipsiz**.
+Page2Message	**Telegram** xabarlardı basqa hár qanday\nqosımshadan tezirek jetkeredi.
+Page3Message	**Telegram** sáwbetler hám media ushın biypul sheksiz bultlı saqlaw ornın beredi.
+Page4Message	**Telegram** xabarlarıńızdı xaker\nhújimlerinen qorǵaydı.
+Page5Message	**Telegram**da media hám sáwbetlerińizdiń\nólshemine shek joq.
+Page6Message	**Telegram** xabarlarıńızǵa bir neshe\nqurılmadan kiriwge imkaniyat beredi.
+StartMessaging	Sáwbetti baslaw
+AccountSettings	Akkaunt sazlamaları
+VoipUseLessData	Qońırawlar ushın kemirek trafik sarplaw
+VoipConnecting	Jalǵanbaqta
+VoipExchangingKeys	Shifrlaw giltleri almasılmaqta
+VoipWaiting	Kútilmekte
+VoipRequesting	Soralmaqta
+VoipCallEnded	Qońıraw tamamlandı
+VoipFailed	Jalǵanıp bolmadı
+VoipRinging	Shıńǵırlamaqta
+VoipBusy	Liniya bánt
+VoipInCallBranding	Telegram qońırawı
+VoipInVideoCallBranding	Telegram video qońırawı
+VoipInConferenceCallBranding	Telegram topar qońırawı
+VoipOutgoingCall	Dawam etip atırǵan Telegram qońırawı
+VoipVoiceChat	Dawam etip atırǵan dawıslı sáwbet
+VoipLiveStream	Dawam etip atırǵan tikkeley efir
+VoipConference	Dawam etip atırǵan video sáwbet
+VoipEndCall	Qońırawdı tamamlaw
+VoipEndCall2	Qońırawdı tamamlaw
+VoipOngoingAlertTitle	Basqa qońıraw dawam etpekte
+VoipOngoingAlert	Házir **%1$s** penen qońırawıńız dawam etpekte. Onı tamamlap, **%2$s** penen jańasın baslawdı qáleysiz be?
+VoipOngoingAlert2	**%1$s** penen qońıraw tamamlanıp, **%2$s** da dawıslı sáwbet baslansın ba?
+VoipOngoingChatAlertTitle	Basqa dawıslı sáwbet dawam etpekte
+VoipOngoingChatAlert	**%1$s** daǵı dawıslı sáwbetten shıǵıp, **%2$s** penen jańasın baslaysız ba?
+VoipOngoingChatAlert2	**%1$s** daǵı dawıslı sáwbetten shıǵıp, **%2$s** ǵa qońıraw etesiz be?
+VoipOngoingConferenceChatAlert	**%1$s** penen topar qońırawınan shıǵıp, **%2$s** penen jańasın baslaysız ba?
+VoipOngoingConferenceChatAlert2	**%1$s** penen topar qońırawınan shıǵıp, **%2$s** ǵa qońıraw etesiz be?
+VoipNotificationSettings	Dawıslı qońırawlar
+VoipSettingsRingtone	Qońıraw dawısı
+VoipRingtoneInfo	Bul kontakt sizge Telegramda qońıraw etkende qollanılatuǵın qońıraw dawısın sazlay alasız.
+Calls	Qońırawlar
+DeleteAllCalls	Barlıq qońırawlardı óshiriw
+HideCallTab	Qońırawlar bólimin jasırıw
+DeleteCalls	Qońırawlardı óshiriw
+DeleteCallsForEveryone	Hámme ushın óshiriw
+DeleteAllCallsText	Barlıq sońǵı qońırawlardı óshiriwdi qáleysiz be?
+DeleteSelectedCallsText	Tańlanǵan qońırawlardı sońǵılardan óshiriwdi qáleysiz be?
+CustomP2PInfo	Joqarıdaǵı sazlamalarǵa qaramastan, bul paydalanıwshılar menen qońırawlarda peer-to-peer qollanıladı yamasa qollanılmaydı.
+P2PEnabledWith	Peer-to-peer di qollanıw
+WhoCanCallMe	Maǵan kim qońıraw ete aladı?
+WhoCanCallMeInfo	Sizge kim qońıraw ete alatuǵının sheklewińiz múmkin.
+CustomCallInfo	Bul paydalanıwshılar joqarıdaǵı sazlamalarǵa qaramastan sizge qońıraw ete aladı yamasa ete almaydı.
+UseLessDataNever	Hesh qashan
+UseLessDataOnMobile	Tek mobil internette
+UseLessDataAlways	Bárqulla
+UseLessDataOnRoaming	Tek roumingte
+VoipAnswerCall	Juwap beriw
+VoipDeclineCall	Biykarlaw
+VoipOffline	Siz házir oflaynsız. Qońıraw etiw ushın internetke jalǵanıń.
+VoipGroupOffline	Siz házir oflaynsız. Dawıslı sáwbetlerge qosılıw ushın internetke jalǵanıń.
+VoipOfflineAirplane	Sizde házir ushaq rejimi qosılǵan. Qońıraw etiw ushın onı óshiriń yamasa Wi-Fi ǵa jalǵanıń.
+VoipGroupOfflineAirplane	Sizde házir ushaq rejimi qosılǵan. Dawıslı sáwbetlerge qosılıw ushın onı óshiriń yamasa Wi-Fi ǵa jalǵanıń.
+VoipOfflineTitle	Oflayn
+VoipOfflineAirplaneTitle	Ushaq rejimi
+VoipOfflineOpenSettings	Sazlamalar
+CallMessageOutgoing	Shıǵıs qońıraw
+CallMessageIncoming	Kiris qońıraw
+CallMessageVideoOutgoing	Shıǵıs video qońıraw
+CallMessageVideoIncoming	Kiris video qońıraw
+CallMessageIncomingMissed	Ótkerip jiberilgen qońıraw
+CallMessageOutgoingMissed	Biykarlanǵan qońıraw
+CallMessageIncomingDeclined	Qabıl etilmegen qońıraw
+CallMessageIncomingConferenceMissed	Ótkerip jiberilgen qońıraw
+CallMessageVideoIncomingConferenceMissed	Ótkerip jiberilgen video qońıraw
+CallMessageVideoIncomingMissed	Ótkerip jiberilgen video qońıraw
+CallMessageVideoOutgoingMissed	Biykarlanǵan video qońıraw
+CallMessageVideoIncomingDeclined	Qabıl etilmegen video qońıraw
+CallMessageWithDuration	%1$s (%2$s)
+NoRecentCalls	Sońǵı qońırawlar joq
+MakeYourFirstCall	Birinshi qońırawıńızdı eteń
+MakeYourFirstCallHint	Bir waqıtta %d ge shekem dos penen\ntolıq shifrlanǵan qońıraw ete alasız
+NoRecentCallsInfo	Sońǵı dawıslı hám video qońırawlarıńız\nusı jerde kórinedi.
+VoipPeerIncompatible	**%1$s** qosımshası sáykes kelmeytuǵın protokoldan paydalanbaqta. Oǵan qońıraw etiwińiz ushın ol qosımshasın jańalawı kerek.
+VoipPeerOutdated	**%1$s** qosımshası qońırawlardı qollap-quwatlamaydı. Oǵan qońıraw etiwińiz ushın ol qosımshasın jańalawı kerek.
+VoipPeerVideoOutdated	Keshirersiz, **%1$s** video qońırawlardı qollap-quwatlamaytuǵın eski Telegram versiyasınan paydalanbaqta.
+VoipPeerVideoOutdatedMakeVoice	Dawıslı qońıraw etiw
+VoipRateCallAlert	Telegram qońırawıńızdıń sapasın bahalań
+VoipNeedMicPermissionWithHint	Qońıraw etiwińiz ushın **Telegram**ǵa mikrofonǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Mikrofon**dı qosıń.
+VoipNeedMicCameraPermissionWithHint	Video qońıraw etiwińiz ushın **Telegram**ǵa kamera hám mikrofonǵa ruqsat kerek. Sazlamalar -> Ruqsatlar bólimin basıp, **Mikrofon** hám **Kamera**nı qosıń.
+VoipNeedCameraPermission	Video qońıraw etiwińiz ushın Telegramǵa kamerańızǵa ruqsat kerek.
+VoipFeedbackCommentHint	Qosımsha pikir qosıń
+CallBack	Qayta qońıraw etiw
+CallAgain	Jáne qońıraw etiw
+DefaultRingtone	Ádepki
+CallViaTelegram	Telegram qońırawı
+VideoCallViaTelegram	Telegram video qońırawı
+VoiceCallViaTelegram	Telegram dawıslı qońırawı
+VoiceCallViaCarrier	Operator arqalı qońıraw
+VoipAudioRoutingEarpiece	Sóylesiw dinamigi
+VoipAudioRoutingHeadset	Garnitura
+VoipAudioRoutingSpeaker	Dinamik
+VoipAudioRoutingPhone	Telefon
+VoipAudioRoutingBluetooth	Bluetooth
+VoipOutputDevices	Shıǵıs qurılmaları
+ReturnToCall	QOŃIRAWǴA QAYTIW
+CallNotAvailable	Keshirersiz, **%1$s** qońırawlardı qabıl etpeydi.
+CallEmojiKeyTooltip	Eger %1$s ekranındaǵı emojiler birdey bolsa, bul qońıraw 100%% qáwipsiz.
+CallMessageReportProblem	Qońırawdı bahalaw
+CallReportHint	Ne qáte boldı?
+CallReportIncludeLogs	Texnikalıq maǵlıwmattı qosıw
+CallReportLogsExplain	Sáwbet mazmunın ashpaydı hám mashqalanı tezirek sheshiwimizge járdem beredi.
+CallReportSent	Telegram qońırawların jaqsılawǵa járdem bergenińiz ushın raxmet.
+TranscriptionReportSent	Pikirińiz ushın raxmet.
+VoipQuickReplies	Tekst penen juwap beriw
+VoipQuickRepliesExplain	Bul tez juwaplar kiris qońırawǵa Telegram xabarı menen juwap bergenińizde qoljetimli boladı. Olardı qálegenińizshe ózgertiń.
+QuickReplyDefault1	Házir sóylese almayman. Ne boldı?
+QuickReplyDefault2	Házir qayta qońıraw etemen.
+QuickReplyDefault3	Keyinirek qońıraw etemen.
+QuickReplyDefault4	Házir sóylese almayman. Keyinirek qońıraw etesiz be?
+AllowCustomQuickReply	Jeke juwapqa ruqsat beriw
+VoipInCallBrandingWithName	%s ke Telegram qońırawı
+VoipInVideoCallBrandingWithName	%s ke Telegram video qońırawı
+VoipErrorUnknown	Házir Telegram qońırawın etip bolmaydı.
+RateCallEcho	Óz dawısımdı esittim
+RateCallNoise	Fon shawqımın esittim
+RateCallInterruptions	Ekinshi tárep joǵalıp turdı
+RateCallDistorted	Sóylew buzılıp esitildi
+RateCallSilentLocal	Ekinshi tárepti esite almadım
+RateCallSilentRemote	Ekinshi tárep meni esite almadı
+RateCallDropped	Qońıraw kútilmegende úzildi
+RateCallVideoDistorted	Video buzılıp kórindi
+RateCallVideoPixelated	Video piksellengen edi
+TapToTurnCamera	Kamerańızdı qosıw ushın usı jerdi basıń
+TapToHideCallsTab	**Qońırawlar** bólimin jasırıw ushın usı jerdi basıń
+VoipUnmute	Dawıstı qosıw
+VoipHoldAndTalk	yamasa basıp turıp sóyleń
+VoipTapToMute	Siz efirdesiz
+VoipTapToMuteShort	Siz efirdesiz
+VoipTapToMuteConferenceShort	Siz efirdesiz
+VoipMutedByAdmin	Administrator únsiz etken
+VoipMutedByAdminShort	Únsiz
+VoipMutedTapForSpeak	sóylewdi qáleseńiz basıń
+VoipMutedTapedForSpeak	Siz sóylewge ruqsat soradıńız
+VoipMutedTapedForSpeakShort	Kútiń...
+VoipMutedTapedForSpeakInfo	Sóylewshilerge xabar berdik
+VoipMute	Únsiz etiw
+VoipStartVideo	Videonı baslaw
+VoipStopVideo	Videonı toqtatıw
+VoipSpeaker	Dinamik
+VoipFlip	Aylandırıw
+VoipSwitchToVideoCall	Video qońırawǵa ótilsin be?
+VoipSwitch	ÓTIW
+VoipUserMicrophoneIsOff	%s mikrofonı óshirilgen
+VoipUserCameraIsOff	%s kamerası óshirilgen
+AcceptCall	Qabıl etiw
+DeclineCall	Biykarlaw
+RetryCall	Qaytalaw
+CallAlert	**%1$s** ǵa qońıraw etiwdi anıq qáleysiz be?
+CallAlertTitle	Dawıslı qońıraw
+VideoCallAlert	**%1$s** ǵa video qońıraw etiwdi anıq qáleysiz be?
+VideoCallAlertTitle	Video qońıraw
+VoipReconnecting	Qayta jalǵanbaqta
+StartVoipChat	Dawıslı sáwbetti baslaw
+StartVoipChatTitle	Dawıslı sáwbet
+StartVoipChannel	Tikkeley efirdi baslaw
+StartVoipChannelTitle	Tikkeley efir
+StartVoipChatPermission	Tikkeley efirlerdi basqarıw
+VoipChatJoin	Qosılıw
+VoipChatNotify	Maǵan xabar beriw
+MembersTalking_one	%1$s aǵza sóylep atır
+MembersTalking_other	%1$s aǵza sóylep atır
+Speaking	sóylep atır
+SpeakingWithVolume	%1$d%% sóylep atır
+Listening	tıńlap atır
+WantsToSpeak	sóylewdi qáleydi
+Invited	mirát etilgen
+ShadyJoining	qosılmaqta...
+ShadyLeaving	shıqpaqta...
+ConferenceCalling	qońıraw etilmekte...
+VoipGroupExpandStream	Keńeytiw
+VoipGroupMinimizeStream	Kishireytiw
+VoipGroupLeave	Shıǵıw
+VoipGroupEnd	Tamamlaw
+VoipConferenceRemoveMemberAlertTitle2	Qatnasıwshını shıǵarıw
+VoipConferenceRemoveMemberAlertText2	%1$s ti bul topar sáwbetinen shıǵarıwdı qáleysiz be?
+VoipGroupRemoveMemberAlertTitle2	Qatnasıwshını shıǵarıw
+VoipGroupRemoveMemberAlertText2	%1$s ti dawıslı sáwbetten shıǵarıp, onı %2$s da bloklawdı qáleysiz be?
+VoipChannelRemoveMemberAlertText2	%1$s ti tikkeley efirden shıǵarıp, onı %2$s da bloklawdı qáleysiz be?
+VoipGroupRemovedFromGroup	**%1$s** topardan shıǵarıldı.
+VoipConferenceKicked	**%1$s** topar sáwbetinen shıǵarıldı.
+VoipGroupUserCanNowSpeak	**%1$s** endi sóyley aladı.
+VoipGroupUserCanNowSpeakForYou	**%1$s** endi siz ushın dawıslı.
+VoipGroupUserCantNowSpeak	**%1$s** endi bul sáwbette únsiz etilgen.
+VoipGroupUserCantNowSpeakForYou	**%1$s** endi bul sáwbette siz ushın únsiz etilgen.
+VoipGroupMute	Únsiz etiw
+VoipGroupAllCanSpeak	Jańa qatnasıwshılar sóyley aladı
+VoipGroupOnlyAdminsCanSpeak	Jańa qatnasıwshılar únsiz etilgen
+VoipGroupShareInviteLink	Mirát siltemesi menen bólisiw
+VoipGroupEndChat	Dawıslı sáwbetti tamamlaw
+VoipGroupEndConference	Topar qońırawın tamamlaw
+VoipGroupCancelChat	Dawıslı sáwbetti biykarlaw
+VoipChannelEndChat	Tikkeley efirdi tamamlaw
+VoipChannelEnableComments	Pikirlerdi qosıw
+VoipChannelDisableComments	Pikirlerdi óshiriw
+VoipChannelCancelChat	Tikkeley efirdi biykarlaw
+VoipGroupConnecting	Jalǵanbaqta...
+VoipConferenceLeave	Video sáwbetten shıǵıw
+VoipGroupLeaveAlertTitle	Dawıslı sáwbetten shıǵıw
+VoipGroupLeaveAlertText	Bul dawıslı sáwbetten shıǵıwdı qáleysiz be?
+VoipGroupEndAlertTitle	Dawıslı sáwbetti tamamlaw
+VoipGroupEndAlertText	Bul dawıslı sáwbetti tamamlawdı qáleysiz be?
+VoipGroupLeaveAlertEndChat	Dawıslı sáwbetti tamamlaw
+VoipGroupViewVoiceChat	DAWISLI SÁWBETTI KÓRIW
+VoipGroupVoiceChat	Dawıslı sáwbet
+VoipGroupVideoChat	Video sáwbet
+VoipGroupScheduledVoiceChat	Rejelestirilgen dawıslı sáwbet
+VoipGroupOpenVoiceChat	Dawıslı sáwbetti ashıw
+VoipGroupInviteAlreadyParticipant	Tańlanǵan paydalanıwshı álleqashan bul dawıslı sáwbette.
+VoipGroupJoinAnonymousAdmin	Keshirersiz, dawıslı sáwbetlerge anonim administrator retinde qosıla almaysız.
+VoipGroupTooMuch	Keshirersiz, bul dawıslı sáwbet tolǵan.
+VoipGroupInviteText	Sálem! Dawıslı sáwbetimizge qosılıń: %1$s
+VoipChannelLeaveAlertTitle	Tikkeley efirden shıǵıw
+VoipChannelLeaveAlertText	Bul tikkeley efirden shıǵıwdı qáleysiz be?
+VoipChannelLeaveConferenceAlertTitle	Topar qońırawınan shıǵıw
+VoipChannelLeaveConferenceAlertText	Bul topar qońırawınan shıǵıwdı qáleysiz be?
+VoipChannelLeaveConferenceAlertEndChat	Topar qońırawın tamamlaw
+VoipChannelEndAlertTitle	Tikkeley efirdi tamamlaw
+VoipChannelEndAlertText	Bul tikkeley efirdi tamamlawdı qáleysiz be?
+VoipChannelLeaveAlertEndChat	Tikkeley efirdi tamamlaw
+VoipChannelViewVoiceChat	TIKKELEY EFIRDI KÓRIW
+VoipChannelVoiceChat	Tikkeley efir
+VoipChannelLabelLive	EFIRDE
+VoipChannelWatching	kórip atır
+VoipChannelScheduledVoiceChat	Rejelestirilgen tikkeley efir
+VoipChannelOpenVoiceChat	Tikkeley efirdi ashıw
+VoipChannelJoinAnonymousAdmin	Keshirersiz, tikkeley efirlerge anonim administrator retinde qosıla almaysız.
+VoipChannelTooMuch	Keshirersiz, bul tikkeley efir tolǵan.
+VoipChannelInviteText	Sálem! Tikkeley efirimizge qosılıń: %1$s
+VoipGroupInviteMember	Aǵzalardı mirát etiw
+VoipGroupShareLink	Mirát siltemesi menen bólisiw
+VoipConferenceAddPeople	Aǵza qosıw
+VoipConferenceShareLink	Silteme arqalı mirát etiw
+VoipGroupUserRemove	Shıǵarıw
+VoipGroupOpenProfile	Profildi ashıw
+VoipGroupOpenChannel	Kanaldı ashıw
+VoipGroupAllowToSpeak	Sóylewge ruqsat beriw
+VoipGroupSearchMembers	Mirát etiw ushın aǵzalardı izlew...
+VoipGroupCopyInviteLink	Mirát siltemesin kóshiriw
+VoipGroupCopyInviteLinkCopied	Mirát siltemesi almasıw buferine kóshirildi.
+VoipGroupUnmuteShort	Dawıstı qosıw
+VoipGroupAddMemberTitle	Aǵza qosıw
+VoipGroupAddMemberText	**%1$s** ti **%2$s** ge qosıwdı qáleysiz be?
+VoipGroupInvitedUser	Siz **%1$s** ti dawıslı sáwbetke mirát ettińiz.
+VoipChannelInvitedUser	Siz **%1$s** ti tikkeley efirge mirát ettińiz.
+VoipGroupAdd	Qosıw
+VoipGroupMuteForMe	Men ushın únsiz etiw
+VoipGroupMutedForMe	Men ushın únsiz etilgen
+VoipGroupUnmuteForMe	Men ushın dawıstı qosıw
+MembersTalkingNobody	Hesh kim sóylemey atır
+ViewersWatchingNobody	Hesh kim kórmey atır
+VoipGroupRecordCall	Jazıwdı baslaw
+VoipGroupStopRecordCall	Jazıwdı toqtatıw
+VoipGroupJoinAs	Dawıslı sáwbetke kim retinde qosılıw...
+VoipChannelJoinAs	Tikkeley efirge kim retinde qosılıw...
+VoipGroupDisplayAs	Meni kim retinde kórsetiw...
+VoipGroupStartAsInfo	Jeke akkauntıńız retinde me yamasa kanalıńız retinde kórsetiliwdi tańlań.
+VoipGroupStartAsInfoGroup	Jeke akkauntıńız, usı topar yamasa kanallarıńızdıń biri retinde kórsetiliwdi tańlań.
+VoipGroupContinueAs	%1$s retinde dawam etiw
+VoipGroupEditTitle	Dawıslı sáwbet atın ózgertiw
+VoipChannelEditTitle	Tikkeley efir atın ózgertiw
+VoipGroupEditPermissions	Ruqsatlardı ózgertiw
+VoipGroupUserChanged	Bul dawıslı sáwbet aǵzaları endi sizdi **%1$s** retinde kóredi
+VoipGroupTitle	Dawıslı sáwbet atı
+VoipChannelUserChanged	Bul tikkeley efir aǵzaları endi sizdi **%1$s** retinde kóredi
+VoipChannelTitle	Tikkeley efir atı
+VoipGroupInviteCanSpeak	Sóyley aladı
+VoipGroupInviteListenOnly	Tek tıńlaw
+VoipGroupCopySpeakerLinkNoCaps	Sóylewshi siltemesin kóshiriw
+VoipGroupCopyListenLinkNoCaps	Tıńlawshı siltemesin kóshiriw
+VoipGroupYouCanNowSpeak	Endi sóyley alasız.
+VoipGroupYouCanNowSpeakIn	Endi **%1$s** da sóyley alasız.
+VoipGroupStopRecordingTitle	Jazıwdı toqtatıw
+VoipGroupStopRecordingText	Bul dawıslı sáwbetti jazıwdı toqtatıwdı qáleysiz be?
+VoipChannelStopRecordingText	Bul tikkeley efirdi jazıwdı toqtatıwdı qáleysiz be?
+VoipGroupStartRecordingTitle	Jazıwdı baslaw
+VoipGroupStartRecordingText	Bul sáwbetti jazıwdı baslap, nátiyjesin audio faylǵa saqlawdı qáleysiz be?\n\nBasqa aǵzalar sáwbet jazılıp atırǵanın kóredi.
+VoipGroupStartRecordingRtmpText	Bul sáwbetti jazıwdı baslap, nátiyjesin audio faylǵa saqlawdı qáleysiz be?
+VoipGroupStartRecordingVideoText	Bul sáwbetti jazıwdı baslap, nátiyjesin video faylǵa saqlawdı qáleysiz be?\n\nBasqa aǵzalar sáwbet jazılıp atırǵanın kóredi.
+VoipChannelStartRecordingVideoText	Bul tikkeley efirdi jazıwdı baslap, nátiyjesin video faylǵa saqlawdı qáleysiz be?\n\nBasqa aǵzalar efir jazılıp atırǵanın kóredi.
+VoipGroupStartRecordingRtmpVideoText	Bul sáwbetti jazıwdı baslap, nátiyjesin video faylǵa saqlawdı qáleysiz be?
+VoipGroupSaveFileHint	Jazıw atı
+VoipGroupAudioRecordSaved	Audio **Saqlanǵan xabarlar**ǵa saqlandı.
+VoipGroupVideoRecordSaved	Video **Saqlanǵan xabarlar**ǵa saqlandı.
+VoipGroupAudioRecordStarted	Audio jazıw baslandı.
+VoipGroupVideoRecordStarted	Video jazıw baslandı.
+VoipGroupRecording	Dawıslı sáwbet jazılmaqta
+VoipChannelRecording	Tikkeley efir jazılmaqta
+VoipGroupPersonalAccount	jeke akkaunt
+VoipGroupCancelRaiseHand	Sóylew sorawın biykarlaw
+VoipGroupJoinAsSpeaker	SÓYLEWSHI RETINDE QOSILIW
+VoipGroupJoinAsLinstener	TIŃLAWSHI RETINDE QOSILIW
+VoipGroupJoinVoiceChatUrl	Dawıslı sáwbetke qosılıw
+VoipGroupJoinAnonymouseAlert	Bul dawıslı sáwbette jeke akkauntıńız retinde kóriniwdi anıq qáleysiz be?
+VoipGroupSoundMuted	Dawıslı sáwbet dawısı óshirildi.
+VoipGroupSoundUnmuted	Dawıslı sáwbet dawısı qosıldı.
+VoipGroupStart2	Dawıslı sáwbetti baslaǵanıńızda usı topar aǵzalarına xabar beriledi.
+VoipChannelStart2	Tikkeley efirdi baslaǵanıńızda usı kanal jazılıwshılarına xabar beriledi.
+VoipStreamStart	Basqa qosımsha arqalı video efir beriw ushın\nstriming qosımshańızǵa server URL mánzilin\nhám efir giltin kirgiziń.
+VoipChatDisplayedAs	Siz tómendegishe kórsetilesiz:
+VoipChatStreamSettings	Efir sazlamaları
+VoipChatStreamWithAnotherApp	Sonday-aq **basqa qosımsha >** arqalı efir bere alasız
+VoipChatStreamWithAnotherAppDescription	Striming qosımshańızda efirdi baslaǵannan keyin, tómendegi «Efirdi baslaw» túymesin basıń.
+VoipChatStreamWithAnotherAppDescriptionStory	Striming qosımshańızda efirdi baslaǵannan keyin, tómendegi «Efirdi jalǵaw» túymesin basıń.
+VoipChatStreamServerUrl	Server URL mánzili
+VoipChatStreamKey	Efir gilti
+VoipGroupStartVoiceChat	Dawıslı sáwbetti baslaw
+VoipGroupScheduleVoiceChat	Dawıslı sáwbetti rejelestiriw
+VoipChannelJoinVoiceChatUrl	Tikkeley efirge qosılıw
+VoipChannelJoinAnonymouseAlert	Bul tikkeley efirde jeke akkauntıńız retinde kóriniwdi anıq qáleysiz be?
+VoipChannelSoundMuted	Tikkeley efir dawısı óshirildi.
+VoipChannelSoundUnmuted	Tikkeley efir dawısı qosıldı.
+VoipChannelStartVoiceChat	Tikkeley efirdi baslaw
+VoipChannelStartStreaming	Efirdi baslaw
+VoipChannelScheduleVoiceChat	Tikkeley efirdi rejelestiriw
+VoipGroupStartNowShort	Házir baslaw
+VoipGroupSetReminderShort	Eske salıw
+VoipGroupCancelReminderShort	Eske salmaw
+VoipGroupScheduleInfo	Topar aǵzalarına dawıslı sáwbet %1$s tan keyin baslanatuǵını haqqında xabar beriledi.
+VoipChannelScheduleInfo	Kanal jazılıwshılarına tikkeley efir %1$s tan keyin baslanatuǵını haqqında xabar beriledi.
+VoipChatStartsIn	Baslanıwına
+VoipChatLateBy	Keshikti
+VoipChatShare	Bólisiw
+VoipChatReminderHint	Baslanǵanda sizge xabar beremiz.
+VoipChatUserJoined	**%1$s** dawıslı sáwbetke qosıldı.
+VoipChatChatJoined	**%1$s** dawıslı sáwbetke qosıldı.
+VoipChannelUserJoined	**%1$s** tikkeley efirge qosıldı.
+VoipChannelChatJoined	**%1$s** tikkeley efirge qosıldı.
+VoipChatActiveChats	Aktiv dawıslı sáwbetler
+VoipChatRecentCalls	Sońǵı qońırawlar
+RecentCalls	Sońǵı qońırawlar
+VoipChatStartScreenCapture	Ekran menen bólisiw
+VoipChatStopScreenCapture	Ekran menen bólisiwdi toqtatıw
+ThisIsYou	bul siz
+VoipGroupOpenChat	Sáwbetti ashıw
+VoipAddPhoto	Súwret qosıw
+VoipAddBio	Ózi haqqında qosıw
+VoipEditName	Attı ózgertiw
+VoipGroupBioEditAlertText	Ózińiz haqqıńızda bir neshe qatar qosa alasız. Bul tekstti hámme kóredi.
+VoipEditBio	Ózi haqqında ózgertiw
+VoipAddDescription	Táriyp qosıw
+VoipEditDescription	Táriypti ózgertiw
+TapToAddPhotoOrBio	súwret yamasa maǵlıwmat qosıw ushın basıń
+TapToAddBio	maǵlıwmat qosıw ushın basıń
+TapToAddPhoto	súwret qosıw ushın basıń
+TapToAddDescription	táriyp qosıw ushın basıń
+TapToAddPhotoOrDescription	Súwret yamasa táriyp qosıw ushın basıń
+VoipEditTitle	Attı ózgertiw
+VoipEditTitleHint	Atı
+VoipSetNewPhoto	Jańa súwret ornatıw
+VoipCamera	Kamera
+VoipMessage	Xabar
+CallVideoPin	Bekitiw
+CallVideoUnpin	Bekitiwdi alıw
+VoipGroupAudio	Audio
+VoipSelectAudioOutput	Audio shıǵısın tańlaw
+VoipVideoOnPause	Video pauzada
+VoipVideoScreenSharingTwoLines	Siz ekranıńız benen\nbólisip atırsız
+VoipVideoScreenSharing	Siz ekranıńız benen bólisip atırsız
+VoipVideoPrivateScreenSharing	Ekranıńızdaǵı hámme nárse, sonıń ishinde xabarlandırıwlar da bólisiledi.
+VoipVideoScreenStopSharing	BÓLISIWDI TOQTATIW
+VoipPhoneScreen	TELEFON EKRANI
+VoipFrontCamera	ALDIŃǴI KAMERA
+VoipBackCamera	ARTQI KAMERA
+VoipShareVideo	Video menen bólisiw
+VoipNoiseCancellation	Shawqımdı basıw
+VoipNoiseCancellationEnabled	Qosılǵan
+VoipNoiseCancellationDisabled	Óshirilgen
+VoipVideoNotAvailable	Video tek dáslepki\n%1$s ushın qoljetimli
+VoipVideoNotAvailableAdmin	Video sáwbette %1$s tan aslam.\nJańa qatnasıwshılar videonı kóriw ushın Telegramnıń eń sońǵı versiyasınan paydalanıwı kerek.
+VoipChannelVideoNotAvailableAdmin	Tikkeley efirde %1$s tan aslam.\nJańa qatnasıwshılar videonı kóriw ushın Telegramnıń eń sońǵı versiyasınan paydalanıwı kerek.
+VoipRecordAudio	TEK AUDIO
+VoipRecordPortrait	PORTRET VIDEO
+VoipRecordLandscape	ALBOM VIDEO
+VoipRecordVoiceChat	Dawıslı sáwbetti jazıw
+VoipChannelRecordVoiceChat	Tikkeley efirdi jazıw

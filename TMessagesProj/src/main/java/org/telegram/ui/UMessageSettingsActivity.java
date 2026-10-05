@@ -75,6 +75,9 @@ public class UMessageSettingsActivity extends BaseFragment {
     private static final int USE_PROXY = 20;
     private static final int HIDDEN_FOLDERS = 21;
     private static final int UM_PREMIUM = 22;
+    private static final int NEARBY_SHARE = 23;
+    private static final int SPEECH_ENABLED = 25;
+    private static final int SPEECH_MODEL = 26;
 
     /** Every switch on this screen, by its UMessageConfig key; the item id is TOGGLE_BASE + index. */
     private static final String[] TOGGLES = {
@@ -270,10 +273,28 @@ public class UMessageSettingsActivity extends BaseFragment {
                 .setChecked(UMessageConfig.isProxyFallbackEnabled()));
         items.add(UItem.asButtonCheck(UM_PREMIUM, LocaleController.getString(R.string.UMessagePremium), LocaleController.getString(R.string.UMessagePremiumInfo))
                 .setChecked(UMessagePremiumController.getInstance().isSelfEnabled()));
+        items.add(UItem.asButtonCheck(NEARBY_SHARE, LocaleController.getString(R.string.UMessageNearbyShare), LocaleController.getString(R.string.UMessageNearbyShareInfo))
+                .setChecked(UMessageConfig.isNearbyShareEnabled()));
         items.add(UItem.asButton(TEMPLATES, LocaleController.getString(R.string.UMessageTemplates), String.valueOf(UMessageConfig.getTemplates().size())));
         items.add(UItem.asButton(FOCUS, LocaleController.getString(R.string.UMessageFocus),
                 LocaleController.getString(UMessageConfig.isFocusEnabled() ? R.string.PasswordOn : R.string.PasswordOff)));
         items.add(UItem.asShadow(null));
+
+        if (org.telegram.messenger.UMessageUzbekSpeech.isSupported()) {
+            items.add(UItem.asHeader(LocaleController.getString(R.string.UMessageSpeechModelTitle)));
+            items.add(UItem.asCheck(SPEECH_ENABLED, LocaleController.getString(R.string.UMessageSpeechEnabled)).setChecked(org.telegram.messenger.UMessageUzbekSpeech.isEnabled()));
+            final long totalMb = org.telegram.messenger.UMessageUzbekSpeech.TOTAL_BYTES / (1024 * 1024);
+            String state;
+            if (org.telegram.messenger.UMessageUzbekSpeech.isDownloading()) {
+                state = LocaleController.formatString(R.string.UMessageSpeechModelProgress, (int) (org.telegram.messenger.UMessageUzbekSpeech.getProgressBytes() * 100 / org.telegram.messenger.UMessageUzbekSpeech.TOTAL_BYTES));
+            } else if (org.telegram.messenger.UMessageUzbekSpeech.isReady()) {
+                state = LocaleController.getString(R.string.UMessageSpeechModelDelete);
+            } else {
+                state = LocaleController.getString(R.string.UMessageSpeechModelDownload) + " · " + totalMb + " MB";
+            }
+            items.add(UItem.asButton(SPEECH_MODEL, LocaleController.getString(R.string.UMessageSpeechModelRow), state));
+            items.add(UItem.asShadow(LocaleController.formatString(R.string.UMessageSpeechModelInfo, totalMb)));
+        }
 
         items.add(UItem.asHeader(LocaleController.getString(R.string.UMessageSectionPrivacy)));
         addToggle(items, UMessageConfig.KEY_GHOST_MODE);
@@ -376,8 +397,12 @@ public class UMessageSettingsActivity extends BaseFragment {
     private void onItemClick(UItem item, View view, int position, float x, float y) {
         switch (item.id) {
             case BLOCK_ADS:
-            case USE_PROXY: {
-                final UMessageFeatureActivity.Switch sw = item.id == BLOCK_ADS ? UMessageFeatureActivity.BLOCK_ADS : UMessageFeatureActivity.USE_PROXY;
+            case USE_PROXY:
+            case NEARBY_SHARE:
+            case UM_PREMIUM: {
+                final UMessageFeatureActivity.Switch sw = item.id == BLOCK_ADS ? UMessageFeatureActivity.BLOCK_ADS
+                        : item.id == USE_PROXY ? UMessageFeatureActivity.USE_PROXY
+                        : item.id == UM_PREMIUM ? UMessageFeatureActivity.UM_PREMIUM : UMessageFeatureActivity.NEARBY_SHARE;
                 if (isSwitchClick(view, x)) {
                     sw.toggle(this, () -> listView.adapter.update(true));
                 } else {
@@ -385,9 +410,12 @@ public class UMessageSettingsActivity extends BaseFragment {
                 }
                 break;
             }
-            case UM_PREMIUM:
-                UMessagePremiumController.getInstance().setSelfEnabled(currentAccount, !UMessagePremiumController.getInstance().isSelfEnabled());
+            case SPEECH_ENABLED:
+                org.telegram.messenger.UMessageUzbekSpeech.setEnabled(!org.telegram.messenger.UMessageUzbekSpeech.isEnabled());
                 listView.adapter.update(true);
+                break;
+            case SPEECH_MODEL:
+                onSpeechModelClick();
                 break;
             case TEMPLATES:
                 presentFragment(new UMessageTemplatesActivity());
@@ -478,7 +506,7 @@ public class UMessageSettingsActivity extends BaseFragment {
 
     private static String getRoundEffectsValue() {
         final int preset = RoundVideoEffects.getConfiguredPreset();
-        final String name = LocaleController.getString(RoundVideoEffects.getPreset(preset).nameRes);
+        final String name = RoundVideoEffects.getPresetName(preset);
         if (preset == RoundVideoEffects.PRESET_ORIGINAL) {
             return name;
         }
@@ -797,6 +825,47 @@ public class UMessageSettingsActivity extends BaseFragment {
         actionBarVisibleAnimator.setInterpolator(CubicBezierInterpolator.EASE_OUT_QUINT);
         actionBarVisibleAnimator.setDuration(420);
         actionBarVisibleAnimator.start();
+    }
+
+    private final Runnable speechProgress = new Runnable() {
+        @Override
+        public void run() {
+            if (listView != null) listView.adapter.update(false);
+            if (org.telegram.messenger.UMessageUzbekSpeech.isDownloading()) AndroidUtilities.runOnUIThread(this, 700);
+        }
+    };
+
+    /** Download / cancel / delete the offline speech model. */
+    private void onSpeechModelClick() {
+        if (org.telegram.messenger.UMessageUzbekSpeech.isDownloading()) {
+            org.telegram.messenger.UMessageUzbekSpeech.cancelDownload();
+            AndroidUtilities.runOnUIThread(speechProgress, 500);
+        } else if (org.telegram.messenger.UMessageUzbekSpeech.isReady()) {
+            AlertDialog.Builder b = new AlertDialog.Builder(getParentActivity());
+            b.setTitle(LocaleController.getString(R.string.UMessageSpeechModelDelete));
+            b.setMessage(LocaleController.getString(R.string.UMessageSpeechModelDeleteInfo));
+            b.setPositiveButton(LocaleController.getString(R.string.Delete), (d, w) -> {
+                org.telegram.messenger.UMessageUzbekSpeech.delete();
+                listView.adapter.update(true);
+            });
+            b.setNegativeButton(LocaleController.getString(R.string.Cancel), null);
+            showDialog(b.create());
+        } else {
+            org.telegram.messenger.UMessageUzbekSpeech.download(new org.telegram.messenger.UMessageUzbekSpeech.DownloadListener() {
+                @Override
+                public void onProgress(long done, long total) {
+                }
+
+                @Override
+                public void onDone(boolean ok, String error) {
+                    if (listView != null) listView.adapter.update(true);
+                    if (!ok && error != null && !"cancelled".equals(error)) {
+                        BulletinFactory.of(UMessageSettingsActivity.this).createSimpleBulletin(R.raw.error, LocaleController.getString(R.string.UMessageSpeechModelFailed) + " (" + error + ")").show();
+                    }
+                }
+            });
+            AndroidUtilities.runOnUIThread(speechProgress, 300);
+        }
     }
 
     @Override

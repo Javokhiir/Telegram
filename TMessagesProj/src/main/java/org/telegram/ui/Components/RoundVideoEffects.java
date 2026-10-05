@@ -3,6 +3,7 @@ package org.telegram.ui.Components;
 import android.graphics.Color;
 import android.opengl.GLES20;
 
+import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;
 import org.telegram.messenger.UMessageConfig;
 
@@ -13,16 +14,12 @@ import org.telegram.messenger.UMessageConfig;
  */
 public class RoundVideoEffects {
 
+    // Preset ids: Original, Beauty, color filters, then the Snap lenses of the lens group.
+    // The Snap lenses load later from the network, so they get the ids after the fixed presets and the carousel
+    // shows them right after Original (see presetAt).
     public static final int PRESET_ORIGINAL = 0;
-    public static final int PRESET_CLARENDON = 1;
-    public static final int PRESET_JUNO = 2;
-    public static final int PRESET_LARK = 3;
-    public static final int PRESET_GINGHAM = 4;
-    public static final int PRESET_VALENCIA = 5;
-    public static final int PRESET_MOON = 6;
-    public static final int PRESET_NASHVILLE = 7;
-    public static final int PRESET_VINTAGE = 8;
-    public static final int PRESET_BEAUTY = 9;
+    public static final int PRESET_BEAUTY = 1;
+    public static final int PRESET_FILTER_FIRST = PRESET_BEAUTY + 1;
 
     /** Index = filterType uniform. */
     public static final String[] FILTER_NAMES = {
@@ -71,26 +68,31 @@ public class RoundVideoEffects {
         }
     }
 
-    private static final Preset[] PRESETS = {
-            new Preset(R.string.UMessageMakeupOriginal, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterClarendon, 1, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterJuno, 2, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterLark, 3, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterGingham, 4, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterValencia, 5, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterMoon, 6, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterNashville, 7, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageFilterVintage, 8, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60),
-            new Preset(R.string.UMessageRoundBeauty, 0, 0, 100, 0, 35, 0, 0, 0, 0, 50, 50, 60)
-    };
+    private static final Preset[] PRESETS = buildPresets();
+
+    private static Preset[] buildPresets() {
+        final java.util.ArrayList<Preset> list = new java.util.ArrayList<>();
+        list.add(new Preset(R.string.UMessageMakeupOriginal, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60));
+        list.add(new Preset(R.string.UMessageRoundBeauty, 0, 0, 100, 0, 35, 0, 0, 0, 0, 50, 50, 60));
+        final int[] filterNames = {R.string.UMessageFilterClarendon, R.string.UMessageFilterJuno, R.string.UMessageFilterLark,
+                R.string.UMessageFilterGingham, R.string.UMessageFilterValencia, R.string.UMessageFilterMoon,
+                R.string.UMessageFilterNashville, R.string.UMessageFilterVintage};
+        for (int i = 0; i < filterNames.length; i++) {
+            list.add(new Preset(filterNames[i], i + 1, 100, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60));
+        }
+        return list.toArray(new Preset[0]);
+    }
 
     /** Fully resolved values sent to the live preview and encoder. */
     public static final class Look {
         public final int preset, intensity, filter, filterIntensity, beauty, foundation, blush, eyes, eyeTone, lipstickPercent;
         public final Lipstick lipstick;
+        /** Snap Camera Kit lens id ({@link SnapCameraKit}), null for none. */
+        public final String lens;
 
         private Look(int preset, int intensity, int filter, int filterIntensity, int beauty, int foundation,
-                     int blush, int eyes, int eyeTone, int lipstickPercent, Lipstick lipstick) {
+                     int blush, int eyes, int eyeTone, int lipstickPercent, Lipstick lipstick, String lens) {
+            this.lens = lens;
             this.preset = preset;
             this.intensity = intensity;
             this.filter = filter;
@@ -105,35 +107,93 @@ public class RoundVideoEffects {
         }
     }
 
+    /** A Snap lens: no shader effects, the lens does everything. */
+    private static final Preset SNAP_PRESET = new Preset(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50, 50, 60);
+
     public static int getPresetCount() {
-        return PRESETS.length;
+        return PRESETS.length + SnapCameraKit.getLensCount();
+    }
+
+    public static boolean isSnapPreset(int preset) {
+        return preset >= PRESETS.length;
+    }
+
+    /** Index in {@link SnapCameraKit}'s lens list of a Snap preset. */
+    public static int getSnapLensIndex(int preset) {
+        return preset - PRESETS.length;
     }
 
     public static Preset getPreset(int index) {
-        return PRESETS[Math.max(0, Math.min(PRESETS.length - 1, index))];
+        if (isSnapPreset(index)) {
+            return SNAP_PRESET;
+        }
+        return PRESETS[Math.max(0, index)];
+    }
+
+    public static String getPresetName(int preset) {
+        if (isSnapPreset(preset)) {
+            final String name = SnapCameraKit.getLensName(getSnapLensIndex(preset));
+            return name != null ? name : "Snap";
+        }
+        return LocaleController.getString(getPreset(preset).nameRes);
+    }
+
+    /** Carousel position to preset id: Original, the Snap lenses, then the fixed presets. */
+    public static int presetAt(int position) {
+        final int lenses = SnapCameraKit.getLensCount();
+        if (position == 0) {
+            return PRESET_ORIGINAL;
+        }
+        if (position <= lenses) {
+            return PRESETS.length + position - 1;
+        }
+        return position - lenses;
+    }
+
+    public static int positionOf(int preset) {
+        if (preset == PRESET_ORIGINAL) {
+            return 0;
+        }
+        if (isSnapPreset(preset)) {
+            return preset - PRESETS.length + 1;
+        }
+        return preset + SnapCameraKit.getLensCount();
     }
 
     public static Look createLook(int preset, int intensity) {
-        preset = Math.max(0, Math.min(PRESETS.length - 1, preset));
+        preset = Math.max(0, preset);
         intensity = Math.max(0, Math.min(100, intensity));
-        final Preset recipe = PRESETS[preset];
+        final Preset recipe = getPreset(preset);
         final float amount = preset == PRESET_ORIGINAL ? 0f : intensity / 100f;
-        final int beauty = Math.round(recipe.beauty * amount);
-        final int foundation = 0;
+        // a Snap lens that is not loaded yet shows the camera as is
+        final String lens = isSnapPreset(preset) ? SnapCameraKit.getLensId(getSnapLensIndex(preset)) : null;
+        final int foundation = Math.round(recipe.foundation * amount);
         // Beauty's blush: the cheek mask from the face mesh, scaled like the smoothing
         final int blush = Math.round(recipe.blush * amount);
-        final int eyes = 0;
-        final int lipStrength = 0;
-        final Lipstick lipstick = null;
+        final int beauty = Math.round(recipe.beauty * amount);
+        final int eyes = Math.round(recipe.eyes * amount);
+        final int lipStrength = Math.round(recipe.lipstick * amount);
+        final Lipstick lipstick = lipStrength > 0 ? new Lipstick(lipStrength, recipe.shade, recipe.lipSaturation,
+                recipe.lipBrightness, recipe.lipSoftness) : null;
         return new Look(preset, intensity, recipe.filter, Math.round(recipe.filterStrength * amount), beauty,
-                foundation, blush, eyes, recipe.eyeTone, lipStrength, lipstick);
+                foundation, blush, eyes, recipe.eyeTone, lipStrength, lipstick, lens);
     }
 
     /** Uses only the saved color filter or Beauty; legacy makeup values are intentionally ignored. */
     public static int getConfiguredPreset() {
+        final int saved = UMessageConfig.getRoundEffectPreset();
+        // a saved Snap lens stays selected while the lens list is still loading
+        if (saved >= 0) {
+            return saved;
+        }
+        // legacy settings: a color filter or Beauty
         final int filter = UMessageConfig.getRoundFilter();
-        if (filter >= PRESET_CLARENDON && filter <= PRESET_VINTAGE) {
-            return filter;
+        if (filter > 0) {
+            for (int i = PRESET_FILTER_FIRST; i < PRESETS.length; i++) {
+                if (PRESETS[i].filter == filter) {
+                    return i;
+                }
+            }
         }
         return UMessageConfig.getRoundBeauty() > 0 ? PRESET_BEAUTY : PRESET_ORIGINAL;
     }
@@ -144,7 +204,7 @@ public class RoundVideoEffects {
 
     /** Saves the selected filter and clears every removed makeup layer. */
     public static void saveConfiguredLook(int preset, int intensity) {
-        preset = Math.max(0, Math.min(PRESETS.length - 1, preset));
+        preset = Math.max(0, preset);
         intensity = Math.max(0, Math.min(100, intensity));
         final Look look = createLook(preset, intensity);
         UMessageConfig.setRoundEffectPreset(preset);
@@ -200,6 +260,7 @@ public class RoundVideoEffects {
     public static class Uniforms {
         private int filter = -1, filterAmount = -1, beauty = -1, blush = -1, makeup = -1, eyeColor = -1, mask = -1, viewport = -1;
         private int lipMask = -1, lipColor = -1, lipParams = -1, lipChroma = -1;
+        private int makeupFrame = -1, makeupOn = -1;
 
         public void init(int program) {
             filter = GLES20.glGetUniformLocation(program, "filterType");
@@ -214,6 +275,20 @@ public class RoundVideoEffects {
             lipColor = GLES20.glGetUniformLocation(program, "lipColor");
             lipParams = GLES20.glGetUniformLocation(program, "lipParams");
             lipChroma = GLES20.glGetUniformLocation(program, "lipChroma");
+            makeupFrame = GLES20.glGetUniformLocation(program, "makeupFrame");
+            makeupOn = GLES20.glGetUniformLocation(program, "makeupOn");
+        }
+
+        /**
+         * The Snap lens frame (gl_FragCoord space, see {@link SnapCameraKit.Renderer}) replaces the camera color,
+         * 0 is off. Call with the program in use; binds texture unit 3 and leaves unit 0 active.
+         */
+        public void applyMakeup(int texture) {
+            GLES20.glUniform1i(makeupFrame, 3);
+            GLES20.glUniform1f(makeupOn, texture != 0 ? 1f : 0f);
+            GLES20.glActiveTexture(GLES20.GL_TEXTURE3);
+            GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, texture);
+            GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
         }
 
         /**
@@ -285,6 +360,8 @@ public class RoundVideoEffects {
             "uniform vec4 lipColor;\n" +  // pigment with luminance 1, a = strength (0 is off)
             "uniform vec4 lipParams;\n" + // saturation, brightness, shade depth, lip / skin color confidence
             "uniform vec4 lipChroma;\n" + // CbCr of the skin around the mouth, CbCr of the lips
+            "uniform sampler2D makeupFrame;\n" + // Snap lens frame in gl_FragCoord space
+            "uniform float makeupOn;\n" +
 
             "vec3 applyFilter(vec3 c) {\n" +
             "   if (filterType < 0.5 || filterAmount < 0.004) return c;\n" +
@@ -314,8 +391,9 @@ public class RoundVideoEffects {
             "}\n" +
 
             // edge-preserving blur tap: neighbours with a very different color (eyes, brows, hair) get no weight
-            "void beautyTap(vec2 uv, vec3 c, inout vec3 sum, inout float wsum) {\n" +
-            "   vec3 s = texture2D(sTexture, uv).rgb;\n" +
+            "void beautyTap(vec2 uv, vec2 o, vec3 c, inout vec3 sum, inout float wsum) {\n" +
+            // under a Snap lens the smoothing reads the lens frame, so the lens is smoothed, not erased
+            "   vec3 s = makeupOn > 0.5 ? texture2D(makeupFrame, gl_FragCoord.xy / viewportSize + o).rgb : texture2D(sTexture, uv + o).rgb;\n" +
             "   float w = max(0.0, 1.0 - length(s - c) * 4.0);\n" +
             "   sum += s * w;\n" +
             "   wsum += w;\n" +
@@ -387,25 +465,27 @@ public class RoundVideoEffects {
             "   float d = r * 0.7071;\n" +
             "   vec3 sum = c;\n" +
             "   float wsum = 1.0;\n" +
-            "   beautyTap(uv + vec2(r, 0.0), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(r, 0.0), c, sum, wsum);\n" +
-            "   beautyTap(uv + vec2(0.0, r), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(0.0, r), c, sum, wsum);\n" +
-            "   beautyTap(uv + vec2(d, d), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(d, d), c, sum, wsum);\n" +
-            "   beautyTap(uv + vec2(d, -d), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(d, -d), c, sum, wsum);\n" +
-            "   beautyTap(uv + vec2(2.0 * r, 0.0), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(2.0 * r, 0.0), c, sum, wsum);\n" +
-            "   beautyTap(uv + vec2(0.0, 2.0 * r), c, sum, wsum);\n" +
-            "   beautyTap(uv - vec2(0.0, 2.0 * r), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(r, 0.0), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(r, 0.0)), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(0.0, r), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(0.0, r)), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(d, d), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(d, d)), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(d, -d), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(d, -d)), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(2.0 * r, 0.0), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(2.0 * r, 0.0)), c, sum, wsum);\n" +
+            "   beautyTap(uv, vec2(0.0, 2.0 * r), c, sum, wsum);\n" +
+            "   beautyTap(uv, -(vec2(0.0, 2.0 * r)), c, sum, wsum);\n" +
             "   c = mix(c, sum / wsum, skin * beauty);\n" +
             "   c = mix(c, vec3(1.0) - (vec3(1.0) - c) * (vec3(1.0) - c), skin * 0.3 * beauty);\n" +
             "   return clamp(c, 0.0, 1.0);\n" +
             "}\n" +
 
             "vec3 applyEffects(vec3 c, vec2 uv) {\n" +
+            "   if (makeupOn > 0.5) c = texture2D(makeupFrame, gl_FragCoord.xy / viewportSize).rgb;\n" +
             "   float lip = lipCoverage(c);\n" +
-            "   return applyFilter(applyLipstick(applyBeauty(c, uv, lip), lip));\n" +
+            "   c = applyFilter(applyLipstick(applyBeauty(c, uv, lip), lip));\n" +
+            "   return c;\n" +
             "}\n";
 }

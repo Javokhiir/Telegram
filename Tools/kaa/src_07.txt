@@ -1,0 +1,464 @@
+PrivacyPhoneInfo3	Users who add your number to their contacts will see it on Telegram only if they are your contacts.
+PrivacyPhoneInfo2	You can add users or entire groups as exceptions that will override the settings above.
+PrivacyForwards	Forwarded Messages
+PrivacyForwardsEverybody	Link to your account
+PrivacyForwardsContacts	Link if allowed by the settings below
+PrivacyForwardsNobody	Not a link to your account
+PrivacyForwardsTitle	Who can add a link to my account when forwarding my messages?
+PrivacyForwardsInfo	Messages you send will not link back to your account when forwarded by other users.
+PrivacyForwardsInfo2	You can add users or entire groups as exceptions that will override the settings above.
+PrivacyForwardsMessageLine	Reinhardt, we need to find you some new tunes &#127926;.
+PrivacyP2PHeader	Peer-to-Peer
+PrivacyP2P	Peer-to-Peer in Calls
+PrivacyP2P2	Use Peer-to-Peer with
+PrivacyBots	Bots and websites
+PrivacyPaymentsClear	Clear Payment and Shipping Info
+PrivacyPaymentsClearAlertTitle	Clear payment info
+PrivacyPaymentsClearAlertText	Are you sure you want to clear your payment and shipping info?
+PrivacyPaymentsClearAlert	Delete your shipping info and instruct all payment providers to remove your saved credit cards? Note that Telegram never stores your credit card data.
+PrivacyPaymentsPaymentInfoCleared	Payment info cleared.
+PrivacyPaymentsShippingInfoCleared	Shipping info cleared.
+PrivacyPaymentsPaymentShippingCleared	Payment and shipping info cleared.
+PrivacyBotsInfo	Websites where you used Telegram to log in.
+PrivacyClearShipping	Shipping info
+PrivacyClearPayment	Payment info
+PrivacyDeleteCloudDrafts	Delete All Cloud Drafts
+LastSeenEverybody	Everybody
+LastSeenContacts	My Contacts
+LastSeenContactsPremium	Contacts &amp; Premium
+LastSeenNobody	Nobody
+LastSeenNobodyPremium	Premium users
+LastSeenEverybodyMinus	Everybody (-%1$d)
+LastSeenContactsPlus	My Contacts (+%1$d)
+LastSeenContactsMinus	My Contacts (-%1$d)
+LastSeenContactsMinusPlus	My Contacts (-%1$d, +%2$d)
+LastSeenContactsPremiumPlus	Contacts &amp; Premium (+%1$d)
+LastSeenContactsPremiumMinus	Contacts &amp; Premium (-%1$d)
+LastSeenContactsPremiumMinusPlus	Contacts &amp; Premium (-%1$d, +%2$d)
+LastSeenNobodyPlus	Nobody (+%1$d)
+LastSeenNobodyPremiumPlus	Premium (+%1$d)
+P2PEverybody	Everybody
+ContactsAndPremium	Contacts &amp; Premium
+ContactsAndFee	Paid
+P2PContacts	My Contacts
+P2PNobody	Nobody
+P2PEverybodyMinus	Everybody (-%1$d)
+P2PContactsPlus	My Contacts (+%1$d)
+P2PContactsMinus	My Contacts (-%1$d)
+P2PContactsMinusPlus	My Contacts (-%1$d, +%2$d)
+P2PNobodyPlus	Nobody (+%1$d)
+SecurityTitle	Security
+DeleteAccountTitle	Account self-destruct
+NewChatsFromNonContacts	New chats from unknown users
+ArchiveAndMute	Archive and Mute
+ArchiveAndMuteInfo	Automatically archive and mute new chats, groups and channels from non-contacts.
+DeleteMyAccount	Delete my account
+DeleteAccountIfAwayFor2	Delete my account if away for
+DeleteAccountIfAwayFor3	If away for
+DeleteAccountHelp	If you do not come online at least once within this period, your account will be deleted along with all messages and contacts.
+LastSeenTitle	Who can see your Last Seen time?
+AddExceptions	Add exceptions
+AddToExceptions	Add to exceptions
+CustomHelp	You won\'t see Last Seen and Online statuses for people with whom you don\'t share yours. Approximate last seen will be shown instead (recently, within a week, within a month).
+PrivacySettingsChangedAlert	You have changed some privacy settings. Apply changes?
+AlwaysShareWith	Always Share With
+NeverShareWith	Never Share With
+CustomShareSettingsHelp	You can add users or entire groups as exceptions that will override the settings above.
+AlwaysShareWithTitle	Always Share
+NeverShareWithTitle	Never Share
+EmpryUsersPlaceholder	Add Users
+PrivacyFloodControlError	Sorry, too many requests. Unable to change privacy settings now, please wait.
+PrivacyInvites	Invites
+PrivacyInvitesInfo	You can restrict which users are allowed to add you to groups and channels.
+WhoCanAddMe	Who can add me to group chats?
+WhoCanAddMeInfo	You can restrict who can add you to groups and channels with granular precision.
+AlwaysAllow	Always Allow
+NeverAllow	Never Allow
+CustomShareInfo	These users will or will not be able to add you to groups and channels regardless of the settings above.
+CustomShareGiftsInfo	You can add users or entire groups as exceptions that will override the settings above.
+GroupsAndChannelsHelp	Change who can add you to groups and channels.
+InviteToGroupError	Sorry, you can\'t add this user to groups because of user\'s privacy settings.
+InviteToChannelError	Sorry, you can\'t add this user to channels because of user\'s privacy settings.
+InviteToCommunityError	Sorry, you can\'t add this user to community because of user\'s privacy settings.
+CreateGroupError	Sorry, you can\'t create a group with these users because of their privacy settings.
+PrivacyCallsP2PHelp	Disabling peer-to-peer will relay all calls through Telegram servers to avoid revealing your IP address, but may slightly decrease audio quality.
+SyncContactsDelete	Delete Synced Contacts
+SuggestContacts	Suggest Frequent Contacts
+SuggestContactsInfo	Display people you message frequently at the top of the search section for quick access.
+SuggestContactsTitle	Disable suggestions
+SuggestContactsAlert	This will delete all data about the people you message frequently as well as the inline bots you are likely to use.
+PrivacyAddAnException	Add Users or Groups
+PrivacyExceptions	Exceptions
+BlockedEmpty	None
+SyncContactsDeleteTitle	Delete contacts
+SyncContactsDeleteText	This will remove your contacts from the Telegram servers.\n\nIf \'**Sync Contacts**\' is enabled, contacts will be re-synced.
+SendingVideo	Sending video...
+ConvertingVideo	Converting video...
+SendingGif	Sending GIF...
+Bot	bot
+BotShare	Share
+BotSettings	Settings
+BotHelp	Help
+BotStatusRead	has access to messages
+BotStatusCantRead	has no access to messages
+BotInfoTitle	What can this bot do?
+BotStart	START
+BotStart2	Start Bot
+BotUnblock	RESTART
+BotUnblockNoCaps	Restart
+BotRestart	Restart bot
+BotAddToMenu	Add to Menu
+BotCantOpenAttachMenuBot	This bot can\'t be opened in chats with bots.
+BotCantOpenAttachMenuUser	This bot can\'t be opened in chats with users.
+BotCantOpenAttachMenuGroup	This bot can\'t be opened in groups.
+BotCantOpenAttachMenuChannel	This bot can\'t be opened in channels.
+BotSetAttachLinkNotBot	This link does not lead to a bot.
+BotRemoveFromMenuTitle	Remove bot
+BotWebViewFileChooserTitle	Choose a file
+BotWebViewSettings	Settings
+BotWebViewOpenBot	Open bot
+BotWebViewToS	Terms of Use
+BotWebViewToSLink	https://telegram.org/tos/mini-apps
+BotWebViewReloadPage	Reload page
+BotWebViewDeleteBot	Delete bot
+BotWebViewReportBot	Report
+BotWebViewRequestAllow	Allow
+BotWebViewRequestDontAllow	Don\'t Allow
+BotWebViewChangesMayNotBeSaved	Changes that you made may not be saved.
+BotWebViewCloseAnyway	Close anyway
+BotWebViewRequestWriteTitle	Allow messaging
+BotWebViewRequestWriteMessage	Allow this bot to send you messages?
+BotMultiContactsSelectorLimit_one	You can select maximum %1$d user.
+BotMultiContactsSelectorLimit_other	You can select maximum %1$d users.
+Done	Done
+Open	Open
+Save	Save
+Cancel	Cancel
+Reduce	Reduce
+Close	Close
+Change	Change
+Add	Add
+Added	Added
+Edit	Edit
+EditOfferMessage	Edit Message
+EditOfferPrice	Edit Price
+EditOfferTime	Edit Time
+EditOfferAdd	Add Offer
+Send	Send
+SuggestedPostPublish	Publish
+SuggestedPostAcceptTitle	Accept Terms
+Call	Call
+VideoCall	Video Call
+Copy	Copy
+Restrict	Restrict
+Ban	Ban
+Rename	Rename
+Delete	Delete
+AddACaption	Add Caption
+Start	Start
+Forward	Forward
+Retry	Retry
+DeletePhoto	Remove photo
+Set	Set
+OK	OK
+Stop	Stop
+WaitMore	Wait more
+Continue	Continue
+CreateLink	Create Link
+RichEditorCreateLinkButton	Create Link Button
+RichEditorEditLinkButton	Edit Link Button
+RichEditorCreateCopyButton	Create Copy Button
+RichEditorEditCopyButton	Edit Copy Button
+RichEditorCreateProfileButton	Create Profile Button
+RichEditorEditProfileButton	Edit Profile Button
+RichEditorButtonText	Button Text
+RichEditorButtonURL	Button URL
+RichEditorButtonCopyText	Button Copy Text
+RichEditorChangeUser	Change User
+RichEditorUserProfile	User Profile
+RichEditorButton	Button
+RichEditorAddButton	Add Button
+Crop	CROP
+StoryCrop	Crop
+UpdateApp	Update app
+Update	UPDATE
+Accept	Accept
+Agree	Agree
+Decline	Decline
+Deactivate	DELETE NOW
+Back	Back
+SignUp	Sign Up
+DeclineDeactivate	Decline &amp; Delete
+Next	Next
+Enable	Enable
+ReportFalsePositive	Report False Positive
+ActionJoinedFromCommunityYou	You joined the group via un1 community
+ActionJoinedFromCommunityYouChannel	You joined the channel via un1 community
+ActionJoinedFromCommunityUser	un2 joined the group via un1 community
+ActionInviteYou	You joined the group via invite link
+ActionDeletedInviteLinkClickable	un1 deleted invite link un2
+ActionEditedInviteLinkClickable	un1 edited invite link un2 to un3
+ActionVolumeChanged	un1 changed un2 volume to %1$d%%
+ActionRevokedInviteLinkClickable	un1 revoked invite link un2
+ActionEditedInviteLinkToSameClickable	un1 edited invite link un2
+ActionTTLChanged	un1 has set messages to auto-delete in %1$s
+ActionTTLYouChanged	You set messages to auto-delete in %1$s
+ActionTTLChannelChanged	Messages in this channel will be automatically deleted after %1$s
+ActionTTLChannelDisabled	Messages in this channel will no longer be automatically deleted
+ActionTTLDisabled	un1 disabled the auto-delete timer
+ActionTTLYouDisabled	You disabled the auto-delete timer
+ActionInviteUser	un1 joined the group via invite link
+ActionInviteUserFolder	un1 joined the group via folder invite link
+ActionInviteChannelUser	un1 joined the channel via invite link
+ActionInviteChannelUserFolder	un1 joined the channel via folder invite link
+ActionKickUser	un1 removed un2
+ActionRefunded	un1 refunded back %1$s
+ActionLeftUser	un1 left the group
+ActionAddUser	un1 added un2
+ActionRemovedPhoto	un1 removed the group photo
+ActionChangedPhoto	un1 changed the group photo
+ActionChangedVideo	un1 changed the group video
+ActionChangedTitle	un1 changed the group name to un2
+ActionCreateGroup	un1 created the group
+ActionYouKickUser	You removed un2
+ActionYouLeftUser	You left the group
+ActionYouAddUser	You added un2
+ActionYouScored	You scored %1$s
+ActionUserScored	un1 scored %1$s
+ActionYouScoredInGame	You scored %1$s in un2
+ActionUserScoredInGame	un1 scored %1$s in un2
+ActionYouRemovedPhoto	You removed the group photo
+ActionYouChangedPhoto	You changed the group photo
+ActionYouChangedVideo	You changed the group video
+ActionYouChangedTitle	You changed the group name to un2
+ActionYouCreateGroup	You created the group
+ActionKickUserYou	un1 removed you
+ActionAddUserYou	un1 added you
+ActionAddUserSelf	un1 returned to the group
+ActionAddUserSelfMega	un1 joined the group
+ActionAddUserSelfYou	You returned to the group
+ActionUserWithinRadius	un1 is now within %1$s from you
+ActionUserWithinYouRadius	You are now within %1$s from un1
+ActionUserWithinOtherRadius	un1 is now within %1$s from un2
+ActionUserInvitedToGroup	un1 invited you to this group
+ActionUserInvitedToChannel	un1 invited you to this channel
+ActionGroupCallStarted	un1 started a voice chat
+ActionGroupCallStartedByYou	You started a voice chat
+ActionGroupCallScheduled	Voice chat scheduled on %1$s
+ActionChannelCallJustStarted	Live stream started
+ActionChannelCallScheduled	Live stream scheduled on %1$s
+ActionChannelCallEnded	Live stream finished (%s)
+ActionGroupCallEndedBy	un1 ended the voice chat (%s)
+ActionGroupCallEndedByYou	You ended the voice chat (%s)
+ActionGroupCallInvited	un1 invited un2 to the voice chat
+ActionGroupCallYouInvited	You invited un2 to the voice chat
+ActionGroupCallInvitedYou	un1 invited you to the voice chat
+ActionBotAllowed	You allowed this bot to message you when you logged in on %1$s.
+ActionBotAllowedApp	You allowed this bot to message you when you logged in on "%1$s" app.
+ActionBotAllowedWebapp	You allowed this bot to message you in web-app
+ActionBotDocuments	%1$s received the following documents: %2$s
+ActionBotDocumentIdentity	Personal details
+ActionBotDocumentAddress	Address
+ActionBotDocumentPassport	Passport
+ActionBotDocumentInternalPassport	Internal Passport
+ActionBotDocumentPassportRegistration	Passport Registration
+ActionBotDocumentTemporaryRegistration	Temporary Registration
+ActionBotDocumentDriverLicence	Driver Licence
+ActionBotDocumentIdentityCard	Identity Card
+ActionBotDocumentUtilityBill	Utility Bill
+ActionBotDocumentBankStatement	Bank Statement
+ActionBotDocumentRentalAgreement	Rental Agreement
+ActionBotDocumentPhone	Phone Number
+ActionBotDocumentEmail	Email Address
+ActionNewCreatorPending	un1 will be the new main admin in 7 days if un2 does not return.
+ActionChangeCreator	un1 has transferred ownership of the group to un2.
+UnsupportedMedia2	This message is not supported on your version of Telegram. Please update to the latest version.
+YourVersionIsLatest	Your version is up to date.
+AttachPhoto	Photo
+AttachVideo	Video
+AttachLivePhoto	Motion Photo
+LivePhotoOn	Motion Photo **On**
+LivePhotoOff	Motion Photo **Off**
+LivePhotosOn	Motion Photos turned **On**
+LivePhotosOff	Motion Photos turned **Off**
+AttachDestructingPhoto	Self-Destructing Photo
+AttachDestructingVideo	Self-Destructing Video
+AttachPhotoExpired	Photo has expired
+AttachVideoExpired	Video has expired
+AttachRoundExpired	Expired Video Message
+AttachVoiceExpired	Expired Voice Message
+AttachGif	GIF
+AttachLocation	Location
+AttachLiveLocation	Live Location
+AttachContact	Contact
+AttachQuickReplies	Replies
+AttachArticle	Article
+AttachDocument	File
+AttachSticker	Sticker
+AttachAudio	Voice message
+AttachRound	Video message
+AttachOnceAudio	One-time Voice Message
+AttachOnceRound	One-time Video Message
+AttachGame	Game
+FromYou	You
+NoNewCarMessages	No new messages
+NoCarMusic	No music in your chats
+ActionTakeScreenshootYou	You took a screenshot!
+ActionTakeScreenshoot	un1 took a screenshot!
+Album	Album
+LimitReached	Limit Reached
+InactiveChats	Inactive chats
+InactiveChannelSignature	channel, inactive for %1$s
+InactiveChatSignature	%1$s, inactive for %2$s
+LeaveChats	Leave %1$s
+TooManyCommunities	Too Many Communities
+TooManyCommunitiesHintJoin	Sorry, you are a member of too many groups or channels. Please leave some before joining a new one.
+TooManyCommunitiesHintCreate	Sorry, you are a member of too many groups or channels. Please leave some before creating a new one.
+TooManyCommunitiesHintEdit	Sorry, you are a member of too many groups and channels. For technical reasons, you need to leave some first before changing this setting in your groups.
+UserChannelTooMuchJoin	Sorry, the target user is a member of too many groups and channels. Please ask them to leave some first.
+LimitReachedPinnedTopics	Sorry, you can\'t pin more than %d topics to the top.
+DeleteAllMessagesAlert	Warning! This will **delete all messages** in this chat for **both** participants.
+DeleteAllMessagesChannelAlert	Warning! This will **delete all messages** in this channel.
+DeleteAllMessagesSavedAlert	Warning! This will **delete all messages** in this chat.
+DeleteAll	Delete All
+StopLoadingTitle	Stop loading?
+StopLoading	Do you want to cancel loading?
+UpdateTelegram	Update Telegram
+UpdateAppAlert	Sorry, your Telegram app is out of date and can\'t handle this request. Please update Telegram.
+InvalidPhoneNumber	Invalid phone number. Please check the number and try again.
+PleaseLoginPassport	Please log in to your Telegram account to use Telegram Passport.
+BannedPhoneNumber	This phone number is banned.
+CodeExpired	Code expired, please retry login.
+WrongCodeTitle	Wrong code
+FreshChangePhoneForbiddenTitle	Unable to terminate
+FreshChangePhoneForbidden	For security reasons, you can\'t change phone number from a device that you\'ve just connected. Please use an earlier connection or wait for a few hours.
+EmailNotAllowed	This email domain is not allowed.
+EmailTokenInvalid	Invalid email token.
+EmailAddressInvalid	Invalid email address.
+EmailLogin	Email Login
+EmailLoginChangeMessage	This email address will be used every time you log in to your Telegram account from a new device.
+ChangeEmail	Change Email
+FloodWait	Too many attempts, please try again later
+GuardBotTimeoutTitle	Join Request
+GuardBotTimeout	The admin bot cannot process the join request now. Try again later.
+FloodWaitTime	Too many attempts, please try again in %1$s
+InvalidCode	Invalid code
+PhoneNumberFlood	Sorry, you have deleted and re-created your account too many times recently. Please wait for a few days before signing up again.
+InvalidFirstName	Invalid first name
+InvalidLastName	Sorry, this last name can\'t be used
+Loading	Loading...
+NoPlayerInstalled	You don\'t have a video player, please install one to continue
+NoMailInstalled	Please send an email describing your problem to sms@telegram.org
+NoHandleAppInstalled	You don\'t have applications that can handle the file type \'%1$s\', please install one to continue
+InviteUser	This user does not have Telegram yet, send an invitation?
+AreYouSure	Are you sure?
+AddToTheGroupAlertTitle	Add bot
+AddToTheGroupAlertText	Do you want to add **%1$s** to the group **%2$s**?
+AddToTheGroupForwardCount	Number of last messages to forward:
+AddToTheGroup	Add %1$s to the group?
+AddManyMembersAlertTitle_one	Add member
+AddManyMembersAlertTitle_other	Add %1$d members
+AddMembersAlertNamesText	Are you sure you want to add %1$s to **%2$s**?
+AddManyMembersAlertNamesText_one	Are you sure you want to add member to **%2$s**?
+AddManyMembersAlertNamesText_other	Are you sure you want to add %1$d members to **%2$s**?
+AddMembersForwardMessages	Show the last 100 messages to the new members
+AddOneMemberForwardMessages	Show the last 100 messages to **%1$s**
+SendMessagesToText	Do you want to send this message to **%1$s**?
+SendGameToText	Do you want to share this game to **%1$s**?
+SendContactToText	Do you want to send this contact to **%1$s**?
+AreYouSureLogout	Are you sure you want to log out?\n\nNote that you can seamlessly use Telegram on all your devices at once.\n\nRemember, logging out kills all your Secret Chats.
+DeleteFewChatsTitle	Delete %1$s
+ClearFewChatsTitle	Clear %1$s
+ClearCacheFewChatsTitle	Empty cache for %1$s
+AreYouSureDeleteFewChats	Are you sure you want to delete selected chats?
+AreYouSureClearHistoryFewChats	Are you sure you want to clear history in selected chats?
+AreYouSureClearHistoryCacheFewChats	Delete all cached text and media from selected chats?
+AreYouSureDeleteAndExit	Are you sure you want to delete and leave the group?
+AreYouSureDeleteAndExitChannel	Are you sure you want to delete and leave the channel?
+AreYouSureDeleteAndExitName	Are you sure you want to delete and leave the group **%1$s**?
+AreYouSureDeleteThisChat	Are you sure you want to delete this chat?
+AreYouSureDeleteThisChatWithUser	Are you sure you want to delete the chat with **%1$s**?
+AreYouSureDeleteThisChatWithBot	Are you sure you want to delete the chat with **%1$s** and block them?
+AreYouSureDeleteThisChatSavedMessages	Are you sure you want to delete **Saved Messages**?
+AreYouSureDeleteThisChatWithSecretUser	Are you sure you want to delete the secret chat with **%1$s**?
+AreYouSureClearDraftsTitle	Delete cloud drafts
+AreYouSureClearDrafts	Are you sure you want to delete all cloud drafts?
+ShareYouLocationTitle	Share your location?
+ShareYouLocationInfo	This will send your current location to the bot.
+ShareYouLocationUnable	App was unable to determine your current location
+ShareYouLocationUnableManually	Choose manually
+ShareYouLocationInline	This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.
+ShareYouPhoneNumberTitle	Share your phone number?
+AreYouSureShareMyContactInfoBot	The bot will know your phone number. This can be useful for integration with other services.
+AreYouSureShareMyContactInfoWebapp	**%s** will know your phone number. This can be useful for integration with other services.
+AreYouSureShareMyContactInfoBotUnblock	This will also unblock the bot.
+AreYouSureShareMyContactInfoUser	Are you sure you want to share your phone number %1$s with **%2$s**?
+AreYouSureShareMyContactInfo	Are you sure you want to share your phone number?
+AreYouSureBlockContact2	Are you sure you want to block **%1$s**?
+AreYouSureUnblockContact	Are you sure you want to unblock this contact?
+AreYouSureDeleteContact	Are you sure you want to delete this contact?
+AreYouSureSecretChatTitle	Secret chat
+AreYouSureSecretChat	Are you sure you want to start a secret chat?
+AreYouSureRegistration	Are you sure you want to cancel registration?
+StopVerification	Do you want to stop the verification process?
+AreYouSureClearHistoryWithUser	Are you sure you want to clear your chat history with **%1$s**?
+AreYouSureClearHistoryWithSecretUser	Are you sure you want to clear your secret chat history with **%1$s**?
+AreYouSureClearHistoryWithChat	Are you sure you want to clear the chat history in **%1$s** for all users?
+AreYouSureClearHistoryWithChannel	Are you sure you want to clear the channel history in **%1$s**?
+AreYouSureClearHistory	Are you sure you want to delete all messages in this chat?
+AreYouSureClearHistorySavedMessages	Are you sure you want to clear **Saved Messages**?
+AreYouSureClearHistoryChannel	Delete all cached text and media from this channel?
+AreYouSureClearHistoryGroup	Delete all cached text and media from this group?
+DeleteMessagesTitle	Delete %1$s
+UnsaveMessagesTitle	Unsave %1$s
+DeleteSingleMessagesTitle	Delete message
+UnsaveSingleMessagesTitle	Unsave message
+DeleteMessagesTextGroupPart	You can also delete the %1$s from the inboxes of other group members by checking \"Delete for all members\".
+DeleteMessagesTextGroup	You can also delete the %1$s you sent from the inboxes of other group members by checking \"Unsend my messages\".
+DeleteMessagesText	You can also delete the %1$s you sent from **%2$s**\'s inbox by checking \"Unsend my messages\".
+AreYouSureUnsaveSingleMessage	Are you sure you want to remove this message from Saved Messages?
+AreYouSureDeleteSingleMessage	Are you sure you want to delete this message?
+AreYouSureDeleteFewMessages	Are you sure you want to delete these messages?
+AreYouSureUnsaveFewMessages	Are you sure you want to delete these messages?
+AreYouSureDeleteSingleMessageMega	Are you sure you want to delete this message for everyone?
+AreYouSureDeleteFewMessagesMega	Are you sure you want to delete these messages for everyone?
+DeleteMessagesOption	Unsend My Messages
+DeleteMessagesOptionAlso	Also delete for %1$s
+DeleteMessagesForBothSidesWherePossible	Delete for both sides where possible
+ClearHistoryOptionAlso	Also clear history for %1$s
+SendMessageTitle	Send message
+SendMessagesToGroupText	Do you want to send this message to **%1$s**?
+SendGameToGroupText	Do you want to share this game to **%1$s**?
+SendContactToGroupText	Do you want to send this contact to **%1$s**?
+NoUsernameFound	There is no Telegram account with this username.
+NoPhoneFound	There is no Telegram account with this phone number.
+NoFolderFound	No chat list found.
+NoTopicsCreated	no created topics
+NoMonoforumTopicsCreated	no received messages
+BotCantJoinGroups	This bot can\'t join groups.
+SecretLinkPreviewAlert	Would you like to enable extended link previews in Secret Chats? Note that link previews are generated on Telegram servers.
+SecretChatContextBotAlert	Please note that inline bots are provided by third-party developers. For the bot to work, the symbols you type after the bot\'s username are sent to the respective developer.
+EditMessageError	Sorry, you can\'t edit this message.
+AllowReadCall	Please allow Telegram to receive calls so that we can automatically enter your code for you.
+AllowReadCallAndLog	Please allow Telegram to receive calls and read the call log so that we can automatically enter your code for you.
+AllowReadCallLog	Please allow Telegram to read the call log so that we can automatically enter your code for you.
+AllowFillNumber	Please allow Telegram to receive calls so that we can automatically confirm your phone number.
+UserRestricted	Sorry, you are not allowed to do this.
+YouBlockedUser	Sorry, you can\'t add this user or bot to groups because you\'ve blocked them. Please unblock to proceed.
+AddAdminErrorNotAMember	Sorry, you can\'t add this user as an admin because they are not a member of this group and you are not allowed to add them.
+AddAdminErrorBlacklisted	Sorry, you can\'t add this user as an admin because they are in the Removed Users list and you can\'t unban them.
+AddUserErrorBlacklisted	Sorry, you can\'t add this user because they are in the Removed Users list and you can\'t unban them.
+AddBannedErrorAdmin	Sorry, you can\'t ban this user because they are an admin in this group and you are not allowed to demote them.
+ErrorSendRestrictedStickers	Sorry, the admins of this group have restricted you from sending stickers.
+ErrorSendRestrictedMedia	Sorry, the admins of this group have restricted you from sending media.
+ErrorSendRestrictedPhoto	Sorry, the admins of this group have restricted you from sending photo.
+ErrorSendRestrictedVideo	Sorry, the admins of this group have restricted you from sending video.
+ErrorSendRestrictedPolls	Sorry, the admins of this group have restricted you from sending polls.
+ErrorSendRestrictedTodo	Sorry, the admins of this group have restricted you from sending checklists.
+ErrorSendRestrictedVoice	Sorry, the admins of this group have restricted you from sending voice messages.
+ErrorSendRestrictedRound	Sorry, the admins of this group have restricted you from sending video messages.
+ErrorSendRestrictedDocuments	Sorry, the admins of this group have restricted you from sending documents.
+ErrorSendRestrictedMusic	Sorry, the admins of this group have restricted you from sending music.
+ErrorSendRestrictedStickersAll	Sorry, sending stickers is not allowed in this group.
+ErrorSendRestrictedPhotoAll	Sorry, sending photo is not allowed in this group.
+ErrorSendRestrictedVideoAll	Sorry, sending video is not allowed in this group.

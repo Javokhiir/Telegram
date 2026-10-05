@@ -1,0 +1,498 @@
+AboutTelegramPremium	Telegram Premium haqqında
+AdditionalReactions	Qosımsha reakciyalar
+AdditionalReactionsDescription	Telegram Premium ǵa jazılıp, xabarlarǵa kóbirek reakciyalardı ashıń.
+PremiumPreviewAppIconDescription2	Telegram Premium ǵa jazılıp, kóbirek qosımsha belgilerin ashıń.
+PaymentCheckoutAcceptRecurrent	Men %1$s *Paydalanıw shártleri*n qabıl etemen.
+PaymentCheckoutAcceptRecurrentFee	Men *Paydalanıw shártleri*n qabıl etemen.
+RevokeLinksAlert	Bul siltemelerdi biykarlawdı anıq qáleysiz be?\n\nToparlar jabıq boladı.
+RevokeLinksAlertChannel	Bul siltemelerdi biykarlawdı anıq qáleysiz be?\n\nKanallar jabıq boladı.
+ClearRecentStickersAlertMessage	Barlıq sońǵı stikerlerińizdi tazalawdı qáleysiz be?
+AllSessionsTerminated	Basqa barlıq seanslar tamamlandı.
+RichEditorDraftSaved	Shımtıq saqlandı.
+AllWebSessionsTerminated	Barlıq saytlar ajıratıldı.
+BotCantOpenAttachMenuSameBot	Bul bottı óziniń sáwbetinde ashıp bolmaydı.
+UnlockPremiumStickersDescription	Telegram Premium ǵa jazılıp, bul stikerdi hám jáne kóplegenlerin ashıń.
+LimitReachedPinDialogs	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań yamasa shekti **%2$d** sáwbetke eki ese asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedPinDialogsPremium	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań.
+LimitReachedPinDialogsLocked	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+LimitReachedPinSavedDialogs	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań yamasa shekti **%2$d** sáwbetke asırıw ushın **Telegram Premium** ǵa jazılıń.
+LimitReachedPinSavedDialogsPremium	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań.
+LimitReachedPinSavedDialogsLocked	Keshirersiz, joqarıǵa %1$d den artıq sáwbet bekite almaysız. Házir bekitilgenlerdiń ayırımların alıp taslań. Keleshekte bul shekti asırıwıńızǵa imkaniyat beriw ústinde islep atırmız.
+LastActiveCommunities	Jaqında aktiv bolǵan jámiyetler
+ChatsLeaveAlert	<![CDATA[>Tańlanǵan sáwbetlerden shıǵıwdı anıq qáleysiz be?]]>
+PremiumPreviewAdvancedChatManagementDescription	Ádepki papkanı ornatıw, kontakt emeslerden kelgen jańa sáwbetlerdi avto-arxivlew hám jasırıw quralları.
+PremiumPreviewAdvancedChatManagementDescription2	Telegram Premium jazılıwshıları ádepki papkanı ornata aladı, kontakt emeslerden kelgen jańa sáwbetlerdi avto-arxivley hám jasıra aladı.
+TelegramPremiumUserDialogTitle	**%s** — Telegram Premium jazılıwshısı.
+TelegramPremiumUserDialogSubtitle	**Telegram Premium** akkauntları iyeleri kóplegen qosımsha imkaniyatlarǵa eksklyuziv ruqsatqa iye.
+TelegramPremiumUserStatusDialogTitle	%1$s **%2$s** toplamındaǵı usı emojini házirgi statusı etip ornattı.
+TelegramPremiumUserStatusCollectibleDialogTitle	%1$s **%2$s** kollekciyasındaǵı usı emojini házirgi statusı etip ornattı.
+TelegramPremiumUserStatusDialogSubtitle	Emoji status — premium imkaniyat. **Telegram Premium** ǵa kiretuǵın basqa imkaniyatlar:
+TelegramPremiumUserStatusDefaultDialogTitle	Bul — %1$s tiń házirgi statusı.
+TelegramPremiumUserGiftedPremiumDialogTitleWithPlural	**%1$s** sizge Telegram Premium ǵa %2$s jazılıwdı sawǵa etti.
+TelegramPremiumUserGiftedPremiumDialogTitleWithPluralSomeone	Birew sizge Telegram Premium ǵa %1$s jazılıwdı sawǵa etti.
+TelegramPremiumUserGiftedPremiumDialogSubtitle	Endi sizde qosımsha imkaniyatlar bar.
+TelegramPremiumUserGiftedPremiumOutboundDialogTitleWithPlural	Siz **%1$s** ǵa Telegram Premium ǵa %2$s jazılıwdı sawǵa ettińiz.
+TelegramPremiumUserGiftedPremiumOutboundDialogSubtitle	Endi **%1$s** da qosımsha imkaniyatlar bar.
+PremiumPreviewNoAdsDescription2	Telegram Premium ǵa jazılıp, usınday reklamalardı alıp taslań.
+FeaturedStickersPremium	Trendtegi Premium stikerler
+UnlockPremiumEmojiPack	%1$s ti ashıw
+UnlockPremiumEmojiHint	Bul emojini ashıw ushın **Telegram Premium** ǵa jazılıń.
+UnlockPremiumEmojiReaction	Bul reakciyanı ashıw ushın **Telegram Premium** ǵa jazılıń.
+UnlockPremiumEmojiHint2	Sınap kóriw ushın bul emojilerdi **Saqlanǵan xabarlar**ǵa biypul jiberip kóriń.
+UnlockPremiumTranscriptionHint	Dawıstı tekstke aylandırıw ushın **Telegram Premium** ǵa jazılıń.
+PremiumMore	Jáne
+Unlock	Ashıw
+Restore	Tiklew
+PremiumPreviewEmojiPack	Bul emoji toplamı tek **Telegram Premium** jazılıwshıları ushın qoljetimli.
+AllReactions	Barlıq reakciyalar
+SomeReactions	Ayırım reakciyalar
+NoReactions	Reakciyalarsız
+OnlyAllowThisReactions	Tek usı reakciyalarǵa ruqsat beriw
+ReactionsAll	Bárshesi
+ReportReactionAndBan2	Bloklaw hám reakciyaǵa shaǵım etiw
+DeleteReaction	Reakciyanı óshiriw
+BanUser	Paydalanıwshını bloklaw
+BanUserMonoforum	Paydalanıwshını kanaldan bloklaw
+UnbanUserMonoforum	Paydalanıwshını kanaldan bloklaw
+AccDescrCustomEmoji	Jeke emoji
+RecentlyUsed	Jaqında qollanılǵan
+PopularReactions	Ataqlı
+EmojiPackCollectibles	Kollekciyalıq
+ReactionsLongtapHint	Super reakciya jiberiw ushın basıp turıń
+EmojiLongtapHint	Taymer ornatıw ushın emojini uzaq basıń
+EmojiStatusExpireHint	Statusıńız múddeti %s tamamlanadı
+EnableSomeReactionsInfo	Topar aǵzaları xabarlarǵa reakciya retinde tek ayırım ruqsat etilgen emojilerdi qollana aladı.
+EnableAllReactionsInfo	Topar aǵzaları xabarlarǵa reakciya retinde qálegen emojini qollana aladı.
+DisableReactionsInfo	Topar aǵzaları xabarlarǵa hesh qanday reakciya qosa almaydı.
+ClearRecentReactionsAlertTitle	Sońǵı emojilerdi tazalaw
+ClearRecentReactionsAlertMessage	Sońǵı reakciya emojilerińizdi usınıslardan tazalawdı qáleysiz be?
+SelectSendAsPeerPremiumHint	Hár qanday topar sáwbetinde kanallarıńız atınan pikir qaldıra alıw ushın **Telegram Premium** ǵa jazılıń.
+SelectSendAsPeerPremiumOpen	Ashıw
+SetEmojiStatusUntilTitle	Statustı qashanǵa shekem ornatıw…
+SetEmojiStatusUntilButton	Statustı ornatıw
+SetEmojiStatusUntil1Hour	1 saatqa ornatıw
+SetEmojiStatusUntil2Hours	2 saatqa ornatıw
+SetEmojiStatusUntil8Hours	8 saatqa ornatıw
+SetEmojiStatusUntil2Days	2 kúnge ornatıw
+SetEmojiStatusUntilOther	Basqa…
+ReportSpamUserEmojiStatusHint	Bul akkaunt atı janında %1$s ti jeke status retinde qollanadı. Bunday emoji statuslar %2$s nıń barlıq jazılıwshıları ushın qoljetimli.
+ReportSpamUserEmojiStatusHint2	%1$s — **Premium jazılıwshılar >** belgisi
+PremiumPreviewReactions2Description	Mıńlaǵan emoji menen reakciya qaldırıń — bir xabarǵa bir neshe reakciya.
+PremiumPreviewReactions2	Sheksiz reakciyalar
+PremiumPreviewEmojiStatus	Emoji status
+PremiumPreviewEmojiStatusDescription	Házirgi shınıǵıwıńızdı kórsetiw ushın atıńız janına mıńlaǵan emojilerdiń qálegenin qosıń.
+PremiumPreviewTranslations	Real waqıttaǵı awdarma
+PremiumPreviewTranslationsDescription	Kanallar hám sáwbetlerdi basqa tillerge real waqıtta awdarıw.
+PremiumPreviewEffects	Xabar effektleri
+PremiumPreviewEffectsDescription	Jeke xabarlarǵa 500 den aslam animaciyalı effekt qosıń.
+PremiumPreviewTodo	Dizimler
+PremiumPreviewTodoDescription	Wazıypalardı rejelestiriń, tapsırıń hám orınlań –\nqolaylı hám nátiyjeli.
+PremiumPreviewWallpaper	Eki tárep ushın tusqaǵaz
+PremiumPreviewWallpaperDescription	Ózińiz hám sáwbetlesińiz ushın jeke tusqaǵazlar ornatıń.
+PremiumPreviewProfileColor	At hám profil reńleri
+PremiumPreviewProfileColorDescription	Profilińiz hám xabarlarıńızǵa juwaplar ushın reń hám logotip tańlań.
+PremiumPreviewMoreBusinessFeatures	Kóbirek biznes imkaniyatları
+PremiumPreviewMoreBusinessFeaturesInfo	Jańa biznes imkaniyatları ushın bul bólimdi keyinirek tekseriń.
+PremiumPreviewFolderTags	Sáwbetlerińizdi belgileń
+PremiumPreviewFolderTagsDescription	Sáwbetler diziminde hár bir sáwbet ushın papka atların kórsetiw.
+PremiumPreviewBusinessEmojiStatus	Emoji status ornatıw
+PremiumPreviewBusinessEmojiStatusDescription	Atıńız janında biznesińizdiń házirgi statusın kórsetiń.
+PremiumPreviewSharingDisable	Bólisiwdi óshiriw
+PremiumPreviewSharingDisableDescription	Jeke sáwbetlerde skrinshot alıwdı, xabarlardı saqlawdı hám jiberiwdi óshiriń.
+PremiumPreviewAIEditor	AI quralları
+PremiumPreviewAIEditorDescription	Xabarlarıńızdı hám pútkil sáwbetlerdi qálegen stilińiz hám tilińizge aylandırıń.
+PremiumPreviewRichEditor	Bay formatlaw
+PremiumPreviewRichEditorDescription	Xabarlarǵa baslıqlar, kesteler, dizimler, AI hám inline media qosıń.
+MicrophoneForVoiceMessages	Dawıslı xabarlar ushın mikrofon
+MicrophoneForVoiceMessagesBuiltIn	Ishki
+MicrophoneForVoiceMessagesSco	Garnitura
+MicrophoneForVoiceMessagesScoIfConnected	Garnitura (jalǵanǵan bolsa)
+MicrophoneForVoiceMessagesScoHint	Garnitura mikrofonınan paydalanıw fon shawqımın azaytıwı múmkin, biraq dawıs sapasın biraz tómenletedi.
+ReactionInDialog	Xabarıńızǵa %s reakciyasın qaldırdı
+DialogNotAvailable	Qoljetimsiz
+SetUsernameHeader	Paydalanıwshı atın ornatıw
+UsernamesChannelHeader	Siltemeler tártibi
+UsernamesProfileHeader	Paydalanıwshı atları tártibi
+UsernameActivateLink	Siltemeni aktivlestiriw
+UsernameDeactivateLink	Siltemeni óshiriw
+UsernameLinkEditable	ózgertiw ushın basıń
+UsernameLinkActive	aktiv
+UsernameLinkInactive	aktiv emes
+UsernameProfileLinkEditable	ózgertiw ushın basıń
+UsernameProfileLinkActive	aktiv
+UsernameProfileLinkInactive	aktiv emes
+UsernameActivateLinkProfileMessage	Bul siltemeni maǵlıwmat betińizde kórsetiwdi qáleysiz be?
+UsernameDeactivateLinkProfileMessage	Bul siltemeni maǵlıwmat betińizden jasırıwdı qáleysiz be?
+UsernameActivateLinkChannelMessage	Bul siltemeni kanal maǵlıwmat betinde kórsetiwdi qáleysiz be?
+UsernameDeactivateLinkChannelMessage	Bul siltemeni kanal maǵlıwmat betinen jasırıwdı qáleysiz be?
+UsernameActivateErrorTitle	Aktiv siltemeler júdá kóp
+UsernameActivateErrorMessage	Keshirersiz, sizde aktiv ashıq siltemeler júdá kóp. Aldın aktiv ashıq siltemelerińizdiń birin jasırıń.
+Hide	Jasırıw
+Unhide	Kórsetiw
+Show	Kórsetiw
+UsernamesProfileHelp	Siltemelerdiń maǵlıwmat betińizde kórsetiliw tártibin ózgertiw ushın olardı súyrep kóshiriń.
+UsernamesChannelHelp	Siltemelerdiń kanal maǵlıwmat betinde kórsetiliw tártibin ózgertiw ushın olardı súyrep kóshiriń.
+ChannelTopics	Temalar
+NewTopic	Jańa tema
+CreateTopicTitle	Tema atın hám belgisin tańlań
+CreateGeneralTopicTitle	Tema atın tańlań
+EnterTopicName	Neni talqılawdı qáleysiz?
+TopicCreated	Tema jaratıldı
+CreateTopic	Tema jaratıw
+DiscardTopic	Temanı biykarlaw
+DiscardTopicMessage	Tema jaratılmadı, sebebi siz xabar jazbadıńız.\n\nBul temanı biykarlawdı qáleysiz be?
+Discard	Biykarlaw
+EditTopic	Temanı ózgertiw
+EditTopicHide	Temalarda kórsetiw
+EditTopicHideInfo	Eger \'General\' teması jasırılǵan bolsa, topar aǵzaları onı kóriw ushın temalar dizimin tómenge tartıwı múmkin.
+NoTopics	Bul jerde ele temalar joq
+NoTopicsDescription	Birinshi temańızdı baslaw ushın tómendegi túymeni basıń.
+NoTopicsDescriptionUser	Bul topardıń eski xabarları **’%s’** temasına kóshirildi.
+TapToCreateTopicHint	Tema jaratıw ushın basıń
+TopicViewAsMessages	Xabarlar túrinde kóriw
+CloseTopic	Temanı jabıw
+RestartTopic	Temanı qayta ashıw
+CloseTopics	Temalardı jabıw
+RestartTopics	Temalardı qayta ashıw
+OpenAllTopics	Barlıq temalar
+SavedViewAsChats	Sáwbetler túrinde kóriw
+SavedViewAsMessages	Xabarlar túrinde kóriw
+TopicViewAsTopics	Temalar túrinde kóriw
+DeleteSelectedTopics	Bul temalardı óshiriwdi anıq qáleysiz be?
+DeleteSelectedTopic	%s ti óshiriwdi anıq qáleysiz be?
+DeleteTopics_one	Temanı óshiriw
+DeleteTopics_other	Temalardı óshiriw
+Topics	Temalar
+TopicsTitleMedia	Media
+DiscussionInfoShort	Qosıw
+ChatHistoryShort	Sáwbet tariyxı
+NoIconsFound	Belgiler tabılmadı
+SelectTopic	Temanı tańlaw
+TopicNotificationsExceptions_one	Esaptan tısqarı retinde kórsetilgen **%d tema** bar.
+TopicNotificationsExceptions_other	Esaptan tısqarı retinde kórsetilgen **%d tema** bar.
+TopicProfileStatus	%s da
+TopicClosed	Tema jabıldı
+TopicHidden	General teması jasırıldı
+TopicHidden2	%s general temasın jasırdı
+TopicShown	General teması kórsetildi
+TopicShown2	%s general temasın kórsetti
+TopicRestarted	Tema qayta ashıldı
+TopicClosed2	%s temanı japtı
+TopicRestarted2	%s temanı qayta ashtı
+TopicClosedByAdmin	Tema jabıq
+AlmostDone	Derlik tayar
+TopicEmptyViewDescription	Temanı baslaw ushın birinshi xabardı jiberiń
+NotificationTopicExceptionsDesctription_one	%s, %d esaptan tısqarı
+NotificationTopicExceptionsDesctription_other	%s, %d esaptan tısqarı
+FloatingDebugEnable	Qalqıp turatuǵın otladkanı qosıw
+FloatingDebugDisable	Qalqıp turatuǵın otladkanı óshiriw
+DebugClearLocalDatabaseSuccess	Jergilikli baza tazalandı.
+DebugClearSendMessageAsPeers	«Xabardı kim retinde jiberiw» dizimin tazalaw
+DebugShareAlertSwitchDialogsMode	Bólisiw aynası dialogları rejimin almastırıw (%1$s)
+DebugShareAlertDialogsModeNormal	Ádettegi
+DebugShareAlertDialogsModeLess	Azıraq
+DebugShareAlertDialogsModeMore	Kóbirek
+DebugShareAlertTopicsSlowMotion	Bólisiw aynası temalarınıń áste háreketin almastırıw
+ForumToggleDescription	Topar sáwbeti administratorlar yamasa paydalanıwshılar jaratqan temalarǵa bólinedi.
+SwipeToReplyHint	Juwap beriw ushın sıpırıń
+SwipeToReplyHintMessage	Juwap beriw ushın qálegen xabardı shepke sıpırıń.
+ViewInTopic	Temada kóriw
+PinMessageInTopicAlert	Bul xabar temada bekitilsin be?
+ForumReplyToMessagesInTopic	Juwap beriw ushın xabardı shepke sıpırıń
+ChannelTopicsForbidden_one	Temalardı tek **%1$d aǵza**dan kóp bolǵan toparlarda qosıwǵa boladı.
+ChannelTopicsForbidden_other	Temalardı tek **%1$d aǵza**dan kóp bolǵan toparlarda qosıwǵa boladı.
+ChannelAntiSpamForbidden_one	Anti-Spam dı tek **%1$d aǵza**dan kóp bolǵan toparlarda qosıwǵa boladı.
+ChannelAntiSpamForbidden_other	Anti-Spam dı tek **%1$d aǵza**dan kóp bolǵan toparlarda qosıwǵa boladı.
+ChannelHiddenMembersForbidden_one	Aǵzalardı tek **%1$d aǵza**dan kóp bolǵan toparlarda jasırıwǵa boladı.
+ChannelHiddenMembersForbidden_other	Aǵzalardı tek **%1$d aǵza**dan kóp bolǵan toparlarda jasırıwǵa boladı.
+ChannelTopicsDiscussionForbidden	Kanallarǵa baylanǵan toparlarda temalar házirshe qoljetimsiz.
+TopicCreator	tema jaratıwshısı
+ManageTopicsPermission	Temalardı basqarıw
+CreateTopicsPermission	Temalar jaratıw
+TopicRenamedTo	%1$s tema atın %2$s ge ózgertti
+TopicIconChanged	Tema belgisi ózgertildi
+TopicIconChangedTo	%1$s tema belgisin %2$s ge ózgertti
+TopicsDeleted_one	Tema óshirildi.
+TopicsDeleted_other	Temalar óshirildi
+TopicRenamed	Tema atı ózgertildi
+TopicWasCreatedAction	%s jaratıldı
+TopicWasClosedAction	%1$s %2$s ti japtı
+TopicWasReopenedAction	%1$s %2$s ti qayta ashtı
+TopicWasRenamedToAction	%1$s tema atın %2$s ge ózgertti
+TopicWasRenamedToAction2	%1$s tema atın hám belgisin %2$s ge ózgertti
+TopicWasIconChangedToAction	%1$s tema belgisin %2$s ge ózgertti
+TopicChangeIconAndTitleTo	%1$s tema atın hám belgisin %2$s ge ózgertti
+TopicRenamedToInReply	tema atın %s ge ózgertti
+TopicIconChangedToInReply	tema belgisin %s ge ózgertti
+TopicChangeIconAndTitleToInReply	tema atın hám belgisin %s ge ózgertti
+SelectTopicIconHint	Tema belgisin tańlań
+PremiumSpeedPromo	Tezlikti asırıw
+ChannelCaptionLimitPremiumPromo_one	Jazıwdı qısqartıń yamasa shekti **%1$s** belgige eki ese asırıw ushın *Telegram Premium* ǵa jazılıń.
+ChannelCaptionLimitPremiumPromo_other	Jazıwdı qısqartıń yamasa shekti **%1$s** belgige eki ese asırıw ushın *Telegram Premium* ǵa jazılıń.
+AllChats	Barlıq sáwbetler
+DebugShareAlert	Bólisiw aynası
+DebugDialogsActivity	Dialoglar aynası
+DebugMessageSkeletons	Xabar qańqaları
+DebugMessageSkeletonsLightOverlayAlpha	Jarıq qatlam móldirligi
+DebugMessageSkeletonsSaturation	Qanıqlıq
+DebugGeneral	Ulıwma
+DebugTestBackend	Test serveri
+YouTubeVideoErrorInvalid	Bul videonıń URL mánzili jaramsız.
+YouTubeVideoErrorHTML	Bul videonı oynatıwǵa urınǵanda qátelik júz berdi.
+YouTubeVideoErrorNotFound	Video tabılmadı.
+YouTubeVideoErrorNotAvailableInApp	Bul videonı usı qosımsha ishinde oynatıp bolmaydı.
+YouTubeVideoErrorOpenExternal	YouTube ta kóriw
+AnonymousNumber	Anonim nomer
+AnonymousNumberNotice	Bul nomer SIM kartaǵa baylanbaǵan hám *Fragment* te alınǵan.
+AutoDeleteMessages	Xabarlardı avto-óshiriw
+SetCustomTime	Jeke waqıt ornatıw
+GlobalAutoDeleteInfo	Qosılsa, siz baslaǵan sáwbetlerdegi barlıq jańa xabarlar jiberilgennen keyin belgili waqıtta hámme ushın avtomat óshiriledi. Sonday-aq **bul sazlamanı bar sáwbetlerińizge de qollana alasız.**
+AutoDeleteDisabled	avto-óshiriw óshirilgen
+AutoDeleteConfirmMessage	Siz baslaǵan jańa sáwbetlerdegi barlıq xabarlar jiberilgennen %s keyin hámme ushın avtomat óshiriliwin anıq qáleysiz be?
+SelectChatsForDisableAutoDelete	ózin-ózi joq etiw taymerin óshiriw ushın
+AutoDeleteGlobalTimerEnabled	Siz baslaǵan barlıq jańa sáwbetlerdegi xabarlar **%s** tan keyin avtomat óshiriledi.
+AutoDeleteGlobalTimerDisabled	Barlıq jańa sáwbetler ushın ózin-ózi joq etiw taymeri óshirildi.
+AutodeleteTimerEnabledForChats	**%1$s** ózin-ózi joq etiw taymeri %2$s da qosıldı.
+AutodeleteTimerDisabledForChats	Ózin-ózi joq etiw taymeri %s da óshirildi.
+AutoDeletePopupDescription2	Sonday-aq Sazlamalarda barlıq sáwbetler ushın ádepki **ózin-ózi joq etiw taymerin** ornata alasız.
+GroupCreateAutodeleteDescription	Bul topardaǵı xabarlardı belgili waqıttan keyin hámme ushın avtomat óshiriw.
+GroupCreateMembersTwo	%1$s hám %2$s
+GroupCreateMembersThree	%1$s, %2$s hám %3$s
+GroupCreateMembersFour	%1$s, %2$s, %3$s hám %4$s
+GroupCreateMembersFive	%1$s, %2$s, %3$s, %4$s hám %5$s
+GroupCreateDiscussionDefaultName	%1$s sáwbeti
+AutoDeleteGlobalAction	**un1** barlıq sáwbetler ushın ózin-ózi joq etiw taymerinen paydalanadı.\nBul sáwbettegi barlıq jańa xabarlar jiberilgennen **%1$s** keyin avtomat óshiriledi.
+AutoDeleteGlobalActionFromYou	**Siz** barlıq sáwbetler ushın ózin-ózi joq etiw taymerin ornattıńız.\nBul sáwbettegi barlıq jańa xabarlar jiberilgennen **%s** keyin avtomat óshiriledi.
+NeedAdminRightForSetAutoDeleteTimer	Avto-óshiriwdi qosıw ushın sizge bul toparda administrator huqıqları kerek.
+SetAutoDeleteTimer	Avto-óshiriwdi ornatıw
+AutoDeleteCustom2	Jeke waqıt ornatıw
+CacheOtherChats	Basqa sáwbetler
+ClearCacheForChats	Tańlanǵan sáwbetler ushın keshlengen maǵlıwmatlardı óshiriwdi anıq qáleysiz be?
+ClearCacheForChat	Tańlanǵan sáwbet ushın keshlengen maǵlıwmatlardı óshiriwdi anıq qáleysiz be?
+SelectChatsForAutoDelete	ózin-ózi joq etiw taymerin qollanıw ushın
+SelectChatsForAutoDelete2	ózin-ózi joq etiw taymerine iye boladı
+SelectChatsForDisableAutoDelete2	ózin-ózi joq etiw taymeri alıp taslanadı
+DisableAutoDeleteTimer	Avto-óshiriwdi óshiriw
+PhotoEditorDraw	Súwret salıw
+PhotoEditorSticker	Stiker
+PhotoEditorText	Tekst
+PhotoEditorZoomOut	Kishireytiw
+PhotoEditorClearAll	Bárshesin tazalaw
+PaintRectangle	Tórtmúyeshlik
+PaintCircle	Sheńber
+PaintStar	Juldız
+PaintBubble	Kóbik
+PhotoEditorTypefaceRoboto	Roboto
+PhotoEditorTypefaceCondensed	Qısıńqı
+PhotoEditorTypefaceItalic	Kursiv
+PhotoEditorTypefaceSerif	Serif
+PhotoEditorTypefaceMono	Mono-serif
+PhotoEditorTypefaceMerriweather	Merriweather
+PhotoEditorTypefaceCourierNew	Courier New
+PaintPaletteGrid	Tor
+PaintPaletteSpectrum	Spektr
+PaintPaletteSliders	Sırǵıtqıshlar
+PaintPaletteSlidersRed	QIZIL
+PaintPaletteSlidersGreen	JASIL
+PaintPaletteSlidersBlue	KÓK
+PaintPaletteSlidersHexColor	Hex reń #
+UserSetPhoto	%s ushın súwret ornatıw
+SuggestPhotoFor	%s ushın súwret usınıw
+SetPhotoFor	%s ushın súwret ornatıw
+SuggestPhotoAlertMessage	**%s** ǵa akkauntı ushın usı súwretti ornatıwdı usınıwdı qáleysiz be?
+SuggestVideoAlertMessage	**%s** ǵa akkauntı ushın usı videonı ornatıwdı usınıwdı qáleysiz be?
+SuggestUserPhoto	%s ushın súwret usınıw
+SetUserPhotoAlertMessage	Bul súwretti **%1$s** ushın ornatıwdı qáleysiz be? Ol %2$s ornatqan hár qanday súwrettiń ornın basadı, biraq onı tek siz kóresiz.
+SetUserPhotoSelfAlertMessage	Bul súwretti profilińiz ushın ornatıwdı qáleysiz be?
+SuggestPhotoShort	Usınıw
+ResetToOriginalPhoto	Original súwretke qaytarıw
+RemovePublicPhoto	Ashıq súwretti alıp taslaw
+UserCustomPhotoSeted	Endi **%s** akkauntı ushın bárqulla usı súwretti kóresiz.
+NewContactTitle	Jańa kontakt
+CreateContact	Kontakt jaratıw
+ActionSuggestPhoto	Usınılǵan súwret
+ActionSuggestVideo	Usınılǵan video
+ActionSuggestPhotoFromYouDescription	Siz %s ǵa akkauntı ushın usı súwretti qollanıwdı usındıńız
+ActionSuggestVideoFromYouDescription	Siz %s ǵa akkauntı ushın usı videonı qollanıwdı usındıńız
+ActionSuggestPhotoToYouDescription	%s sizge akkauntıńız ushın usı súwretti qollanıwdı usınadı
+ActionSuggestVideoToYouDescription	%s sizge akkauntıńız ushın usı videonı qollanıwdı usınadı
+ApplyAvatarHintTitle	**Súwret jańalandı**
+ApplyAvatarHint	Onı **Sazlamalar**da ózgerte alasız.
+ActionSuggestPhotoShort	Usınılǵan profil súwreti
+ActionSuggestVideoShort	Usınılǵan profil videosı
+SetAsMyPhoto	Meniń súwretim etip ornatıw
+InviteToTelegramShort	Telegramǵa mirát etiw
+ActionAttachMenuBotAllowed	Siz bul bottı biriktiriw menyuıńızǵa qosqanıńızda oǵan sizge xabar jazıwǵa ruqsat berdińiz
+ActionRequestedPeer	Siz un1 menen un2 penen bólistińiz
+ActionRequestedPeerUserPlural_one	Siz paydalanıwshı menen un2 penen bólistińiz
+ActionRequestedPeerUserPlural_other	Siz paydalanıwshılar menen un2 penen bólistińiz
+ActionRequestedPeerChatPlural_one	Siz sáwbet penen un2 penen bólistińiz
+ActionRequestedPeerChatPlural_other	Siz sáwbetler menen un2 penen bólistińiz
+ActionRequestedPeerChannelPlural_one	Siz kanal menen un2 penen bólistińiz
+ActionRequestedPeerChannelPlural_other	Siz kanallar menen un2 penen bólistińiz
+EnablePhotoSpoiler	Spoyler menen jasırıw
+DisablePhotoSpoiler	Spoylerdi alıp taslaw
+UpdatePhotoForRest	Ashıq súwretti jańalaw
+ResetToOriginalPhotoTitle	Súwretti tiklew
+ResetToOriginalPhotoMessage	%s tiń original súwretine qaytarıwdı anıq qáleysiz be?
+SetPhotoForRest	Ashıq súwret ornatıw
+RemovePhotoForRestDescription	Ashıq súwretińizdi óshiriwdi anıq qáleysiz be?
+CustomAvatarTooltip	siz ornatqan súwret
+CustomAvatarTooltipVideo	siz ornatqan video
+FallbackTooltip	ashıq súwret
+PrivateChats	Jeke sáwbetler
+GroupChats	Topar sáwbetleri
+CacheChannels	Kanallar
+AddAnException	Esaptan tısqarı qosıw
+ExceptionShort_one	%d esaptan tısqarı
+ExceptionShort_other	%d esaptan tısqarı
+PhotoForRestTooltip	Bul súwret tiykarǵı súwretińizdi kóriwi sheklengenlerge kórsetiledi.
+SetPhoto	Súwret ornatıw
+SetVideo	Video ornatıw
+SuggestedVideo	Usınılǵan video
+SuggestedPhoto	Usınılǵan súwret
+SetCover	Bul video ushın muqaba ornatıń
+PhotoForRestDescription	Haqıyqıy profil súwretińizdi kóriwi sheklengenler ushın ashıq súwret júkley alasız.
+Remove	Alıp taslaw
+SuggestVideo	Video usınıw
+SuggestPhoto	Súwret usınıw
+SetSuggestedPhotoTooltip	%s sizge akkauntıńız ushın usı súwretti qollanıwdı usınadı.
+SetSuggestedVideoTooltip	%s sizge akkauntıńız ushın usı videonı qollanıwdı usınadı.
+ViewPhotoAction	Súwretti kóriw
+ViewVideoAction	Videonı kóriw
+Chats	Sáwbetler
+MediaTab	Media
+Files	Fayllar
+Music	Muzıka
+Voice	Dawıs
+AutoDeleteMediaNever	Hesh qashan
+DeleteException	Esaptan tısqarını óshiriw
+KeepMediaPopupDescription	Bul sáwbettiń keshlengen elementlerin qansha waqıt saqlawdı tańlań.
+MaxCacheSize	Keshtiń eń úlken ólshemi
+MaxCacheSizeInfo	Kesh ólshemi bul shekten asıp ketse, eń eski media qurılmadan óshiriledi.
+Select	Tańlaw
+Deselect	Tańlawdı alıw
+CacheOpenFile	Fayldı ashıw
+PlayFile	Fayldı oynatıw
+PowerUsage	Quwat sarpı
+DeleteAllProxies	Barlıq proksilerdi óshiriw
+DeleteAllProxiesConfirm	Barlıq proksilerdi óshiriwdi anıq qáleysiz be?
+AccDescrSendAs	%1$s retinde jiberiw
+SessionsSettingsInfo	Telegram akkauntıńızǵa kirgen qurılmalar dizimin qarap shıǵıń.
+SendMediaPermissionPhotos	Súwretler
+TapAndHoldToDeleteReaction	Reakciyanı óshiriw ushın basıp turıń.
+PollV2YouCanAddXCountriesOnly	Tek **%d** mámleket qosa alasız
+RestrictUserDeleteAllMessages	Barlıq xabarlardı óshiriw
+RestrictUserDeleteAllReactions	Barlıq reakciyalardı óshiriw
+SendMediaPermissionVideos	Videolar
+SendMediaPermissionStickersGifs	<![CDATA[Stikerler hám GIFler]]>
+SendMediaPermissionMusic	Muzıka
+SendMediaPermissionFiles	Fayllar
+SendMediaPermissionVoice	Dawıslı xabarlar
+SendMediaPermissionRound	Video xabarlar
+SendMediaEmbededLinks	Siltemelerdi ornatıw
+SendMediaPolls	Sorawnamalar
+UseEmoji	Emojidan paydalanıw
+UseProxyRotation	Proksilerdi avto-almastırıw
+ProxyRotationTimeoutInfo	Házirgi proksi islemey qalsa, eń jaqın aktiv proksige jalǵanıw kútiw waqtın sazlay alasız.
+ProxyRotationTimeoutSeconds	%1$d sek.
+PeerRequirements	Talaplar
+PeerRequirementPremiumTrue	Paydalanıwshıda Premium jazılıwı bolıwı kerek.
+PeerRequirementPremiumFalse	Paydalanıwshıda Premium jazılıwı bolmawı kerek.
+PeerRequirementChannelPublicTrue	Kanal ashıq bolıwı kerek.
+PeerRequirementChannelPublicFalse	Kanal jabıq bolıwı kerek.
+PeerRequirementGroupPublicTrue	Topar ashıq bolıwı kerek.
+PeerRequirementGroupPublicFalse	Topar jabıq bolıwı kerek.
+PeerRequirementChannelBotParticipant	Bot kanalda bolıwı kerek.
+PeerRequirementGroupBotParticipant	Bot toparda bolıwı kerek.
+PeerRequirementChannelCreatorTrue	Siz kanaldıń iyesi bolıwıńız kerek.
+PeerRequirementGroupCreatorTrue	Siz topardıń iyesi bolıwıńız kerek.
+PeerRequirementForumTrue	Toparda temalar qosılǵan bolıwı kerek.
+PeerRequirementForumFalse	Toparda temalar óshirilgen bolıwı kerek.
+PeerRequirementUserRights	Sizde tómendegi administrator huqıqları bolıwı kerek:
+PeerRequirementUserRight	Sizde tómendegige administrator huqıqı bolıwı kerek:
+SetCommunityPhoto	Jámiyet súwretin ornatıw
+SetChannelPhoto	Kanal súwretin ornatıw
+SetGroupPhoto	Topar súwretin ornatıw
+PhotoEditor	Súwret redaktorı
+ChooseBackground	Fondı tańlaw
+AreYouSureSendChatToBotTitle	%1$s %2$s ǵa jiberilsin be?
+AreYouSureSendChatToBotMessage	**%1$s** ti **%2$s** ǵa jiberiwdi anıq qáleysiz be?
+AreYouSureSendChatToBotAdd	Bul **%1$s** ti **%2$s** ǵa da qosadı.
+AreYouSureSendChatToBotAddRights	Bul **%1$s** ti **%2$s** ǵa tómendegi huqıqlar menen de qosadı: %3$s.
+MaxVideoSize	Videonıń eń úlken ólshemi
+SaveToGalleryHintUser	Jeke sáwbetlerdegi barlıq jańa medianı telefonıńız galereyasına avtomat saqlaw.
+SaveToGalleryHintGroup	Toparlardaǵı barlıq jańa medianı telefonıńız galereyasına avtomat saqlaw.
+SaveToGalleryHintChannels	Kanallardaǵı barlıq jańa medianı telefonıńız galereyasına avtomat saqlaw.
+SaveToGalleryHintCurrent	Bul sáwbettegi barlıq jańa medianı telefonıńız galereyasına avtomat saqlaw.
+SaveToGalleryPhotos	Súwretler
+SaveToGalleryVideos	Videolar
+SaveToGalleryVideoHintUser	Jeke sáwbetlerdegi tańlanǵan ólshemnen kishi barlıq videolar galereyańızǵa saqlanadı.
+SaveToGalleryVideoHintGroup	Toparlardaǵı tańlanǵan ólshemnen kishi barlıq videolar galereyańızǵa saqlanadı.
+SaveToGalleryVideoHintChannels	Kanallardaǵı tańlanǵan ólshemnen kishi barlıq videolar galereyańızǵa saqlanadı.
+SaveToGalleryVideoHintCurrent	Bul sáwbettegi tańlanǵan ólshemnen kishi barlıq videolar galereyańızǵa saqlanadı.
+AddException	Esaptan tısqarı qosıw
+SaveToGalleryException	Esaptan tısqarı
+SaveToGalleryOff	Óshirilgen
+SaveToGalleryVideosUpTo	%s ǵa shekemgi videolar
+SendPlainTextRestrictionHint	Bul topar administratorları tek %s jiberiwge ruqsat beredi.
+PlainTextRestrictedHint	Tekstke ruqsat etilmegen
+ChooseEmojiOrSticker	Emoji yamasa stiker tańlań
+UpToFileSize	%s ǵa shekem
+SaveException	Esaptan tısqarını saqlaw
+EditException	Esaptan tısqarını ózgertiw
+TranslateTo	Qaysı tilge awdarıw
+DetectedLanguage	Anıqlanǵan til
+DoNotTranslateLanguage	%s tilinen awdarmaw
+DoNotTranslateLanguageOther	%s tilinen awdarmaw
+TranslateToButton	%s tiline awdarıw
+TranslateToButtonOther	%s tiline awdarıw
+ShowOriginalButton	Originaldı kórsetiw
+ShowOriginalButtonLanguage	Originaldı kórsetiw (%s)
+AddedToDoNotTranslate	**%s** «Awdarmaw» dizimine qosıldı.
+AddedToDoNotTranslateOther	**%s** «Awdarmaw» dizimine qosıldı.
+TranslationBarHiddenForChannel	Awdarma paneli endi bul kanal ushın jasırıldı.
+TranslationBarHiddenForGroup	Awdarma paneli endi bul topar ushın jasırıldı.
+TranslationBarHiddenForChat	Awdarma paneli endi bul sáwbet ushın jasırıldı.
+NoEmojiOrStickersFound	Emoji yamasa stikerler tabılmadı
+SafetyNetErrorOccurred	Ishki qátelik júz berdi. Keyinirek qaytadan urınıp kóriń.
+UpgradePremiumTitle	**%1$d%%** shegirme menen Premium ǵa ótiń
+UpgradePremiumMessage	Shegirmeden paydalanıw ushın házir Telegram Premium nıń jıllıq tólem rejesine ótiń.
+SaveOnAnnualPremiumTitle	Jazılıwıńızda **%1$d%%** ǵa shekem únemleń
+SaveOnAnnualPremiumMessage	Shegirme alıw ushın házir Telegram Premium nıń jıllıq tólem rejesine jazılıń.
+PauseMusicOnRecord	Jazıw waqtında muzıkanı toqtatıp turıw
+PauseMusicOnRecordInfo	Video xabar jazıwdı baslaǵanıńızda muzıkanı toqtatıp turıw
+SetMyProfilePhotoAvatarConstructor	Súwretimdi ornatıw
+ProxyStatus	Status
+ClearStorageHintTitle	**%s** ǵa shekem bosatıń
+ClearStorageHintMessage	Telefonıńızdaǵı yadtı tazalań
+YourCurrentPlan	házirgi rejeńiz
+AccDescrDocumentType	%s faylı,
+AccDescrArchivedChatsShown	Arxivlengen sáwbetler kórsetilgen
+AccDescrArchivedChatsHidden	Arxivlengen sáwbetler jasırılǵan
+AccDescrNotificationsMuted	Únsiz
+AccDescrUserOnline	Onlayn
+LiteMode	Animaciyalar
+LiteModeInfo	Quwattı únemlew ushın háreket effektlerin azaytıw.
+LiteBatteryTitle	Quwat únemlew rejimi
+LiteBatteryRestricted	Bul sazlamalardı ózgertiw ushın quwat únemlew rejimin óshiriń.
+LowPowerEnabledTitle	Quwat únemlew rejimi qosılǵan
+LowPowerEnabledSubtitle	%s batareya qaldı
+LiteBatteryWhenBelow	%s tan tómen bolǵanda
+LiteBatteryDisabled	Óshirilgen
+LiteBatteryEnabled	Qosılǵan
+LiteBatteryAlwaysDisabled	Bárqulla óshirilgen
+LiteBatteryAlwaysEnabled	Bárqulla qosılǵan
+LiteBatteryInfoDisabled	Batareya az bolsa da quwat sarpın hesh qashan azaytpaw hám barlıq animaciyalardı saqlaw.
+LiteBatteryInfoBelow	Batareya %s tan tómen bolǵanda quwat sarpın hám animaciyalardı avtomat azaytıw.
+LiteBatteryInfoEnabled	Batareya dárejesine qaramastan bárqulla quwat sarpın azaytıw.
+LiteOptionsTitle	Quwat únemlew sazlamaları
+LiteOptionsAutoplayKeyboard	Klaviaturada avto-oynatıw
+LiteOptionsAutoplayChat	Sáwbette avto-oynatıw
+LiteOptionsAutoplayReactions	Reakciyalar menyuında avto-oynatıw
+LiteOptionsStickers	Animaciyalı stikerler
+LiteOptionsEmoji	Animaciyalı emoji
+LiteOptionsChat	Sáwbetlerdegi animaciyalar
+LiteOptionsBackground	Fon aylanıwı
+LiteOptionsTopics	Temalardaǵı qaptal menyu
+LiteOptionsSpoiler	Animaciyalı spoyler effekti

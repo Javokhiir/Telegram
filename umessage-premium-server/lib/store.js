@@ -1,4 +1,4 @@
-import { kv } from '@vercel/kv';
+import { kv } from './kv.js';
 
 // One record per user: whether U message premium was granted, until when, whether the user shows it,
 // and which premium sticker/emoji set they picked. This is an app-only flag, unrelated to Telegram Premium.

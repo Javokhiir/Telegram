@@ -1,0 +1,494 @@
+ErrorSendRestrictedMediaAll	Sorry, sending media is not allowed in this group.
+ErrorSendRestrictedPollsAll	Sorry, sending polls is not allowed in this group.
+ErrorSendRestrictedTodoAll	Sorry, sending checklists is not allowed in this group.
+ErrorSendRestrictedVoiceAll	Sorry, sending voice messages is not allowed in this group.
+ErrorSendRestrictedRoundAll	Sorry, sending video messages is not allowed in this group.
+ErrorSendRestrictedDocumentsAll	Sorry, sending documents is not allowed in this group.
+ErrorSendRestrictedMusicAll	Sorry, sending music is not allowed in this group.
+ErrorSendRestrictedPrivacyVoiceMessages	Sorry, you can\'t send voice messages to this user because of their privacy settings.
+ErrorSendRestrictedPrivacyVideoMessages	Sorry, you can\'t send video messages to this user because of their privacy settings.
+UnableForward	Unable to forward
+TosDecline	We\'re very sorry, but this means you can\'t sign up for Telegram.\n\nUnlike others, we don\'t use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy &amp; Security settings.\n\nBut if you\'re generally not OK with Telegram\'s modest requirements, it won\'t be possible for us to provide you with this service.
+TosAgeTitle	Age Verification
+PrivacyPolicyAndTerms	Privacy Policy and Terms of Service
+TosAgeText	Tap Agree to confirm that you are %1$s or over.
+TosUpdateDecline	We\'re very sorry, but this means we must part ways here. Unlike others, we don\'t use your data for ad targeting or other commercial purposes. Telegram only stores the information it needs to function as a feature-rich cloud service. You can adjust how we use your data (e.g., delete synced contacts) in Privacy &amp; Security settings.\n\nBut if you\'re generally not OK with Telegram\'s modest needs, it won\'t be possible for us to provide this service. You can deactivate your account now — or look around some more and deactivate it later if you feel you\'re not happy with the way we use your data.
+TosDeclineDeleteAccount	Warning, this will irreversibly delete your Telegram account along with all the data you store in the Telegram cloud.\n\nImportant: You can Cancel now and export your data before deleting your account instead of losing it all. (To do this, open the latest version of Telegram Desktop and go to Settings &gt; Export Telegram Data.)
+PermissionStorageWithHint	**Telegram** needs storage access so you can send and save photos, videos, music and other media. Tap Settings -> Permissions, and turn **Files and media** on.
+PermissionNoAudioWithHint	**Telegram** needs microphone access so that you can send voice messages. Tap Settings -> Permissions, and turn **Microphone** on.
+PermissionNoBluetoothWithHint	**Telegram** needs bluetooth access to record video from your headset microphone. Tap Settings -> Permissions, and turn **Bluetooth** on.
+PermissionNoAudioVideoWithHint	**Telegram** needs microphone access so that you can send voice messages. Tap Settings -> Permissions, and turn **Microphone** on. 
+PermissionNoCameraWithHint	**Telegram** needs camera access so that you can take photos and videos. Tap Settings -> Permissions, and turn **Camera** on.
+PermissionNoCameraMicVideo	**Telegram** needs camera and microphone access so that you can send video messages. Tap Settings -> Permissions, and turn **Microphone** and **Camera** on.
+PermissionNoLocation	Telegram needs access to your location so that you can share it with your friends.
+PermissionNoLocationStory	Telegram needs access to your location so that you can add your current weather widget to a story.
+PermissionNoLocationFriends	**Telegram** needs access to location so that you can share it with your friends. Tap Settings -> Permissions, and turn **Location** on.
+PermissionNoLocationNavigation	**Telegram** needs access to location so that you can get directions. Tap Settings -> Permissions, and turn **Location** on.
+PermissionNoContactsSharing	**Telegram** needs access to contacts so that you can share them with your friends. Tap Settings -> Permissions, and turn **Contacts** on.
+PermissionNoContactsSaving	**Telegram** needs access to contacts to save them on your phone. Tap Settings -> Permissions, and turn **Contacts** on.
+PermissionNoStorageAvatar	**Telegram** needs storage access so you can upload profile picture. Tap Settings -> Permissions, and turn **Files and media** on.
+PermissionNoAudioStorageStory	**Telegram** needs access to music files to upload with your story. Tap Settings -> Permissions, and turn **Music and Audio** on.
+PermissionDrawAboveOtherApps	Telegram needs access to draw above other apps to play videos in Picture-in-Picture mode.
+PermissionDrawAboveOtherAppsGroupCall	Overlay mode lets you use push-to-talk and see who is talking even when you are outside of Telegram.
+PermissionOpenSettings	SETTINGS
+PermissionXiaomiLockscreen	Please allow Telegram to be shown on the lock screen so that calls can work properly.
+PermissionFSILockscreen	Please allow Telegram to be shown on the lock screen so that calls can work properly.
+PermissionBackgroundLocation	To share your live location in this chat, Telegram needs access to your location all the time, including while the app is in the background.\n\nWe will access your location only for the duration you choose, and you can stop sharing it any time. We won\'t use your location for any purpose other than sharing it in this chat.
+PermissionDrawAboveOtherAppsTitle	Picture-in-Picture
+PermissionDrawAboveOtherAppsGroupCallTitle	Voice Chat Overlay
+GrowthChartTitle	Growth
+FollowersChartTitle	Followers
+ViewsAndSharesChartTitle	Views and Shares
+ReactionsByEmotionChartTitle	Reactions
+StoryInteractionsChartTitle	Story Views and Shares
+StoryReactionsByEmotionChartTitle	Story Reactions
+ViewsBySourceChartTitle	Views by source
+NewFollowersBySourceChartTitle	New followers by source
+LanguagesChartTitle	Languages
+RecentPosts	Recent posts
+RecentPostsCapitalize	Recent Posts
+ZoomOut	Zoom out
+IVInteractionsChartTitle	IV Interactions
+LoadingStats	Loading stats...
+LoadingStatsDescription	Please wait a few moments while we are generating graphs.
+TopHoursChartTitle	Views by hours
+SlideUpToLock	Slide up to lock recording
+NotificationsChartTitle	Notifications
+TotalDeviceFreeSize	%s Free
+ClearTelegramCache	Clear Telegram Cache
+StatisticOverview	Overview
+ViewsPerPost	Views Per Post
+ViewsPerStory	Views Per Story
+SharesPerStory	Shares Per Story
+ReactionsPerStory	Reactions Per Story
+ReactionsPerPost	Reactions Per Post
+SharesPerPost	Shares Per Post
+EnabledNotifications	Enabled Notifications
+ClearLocalDatabase	Clear Local Database
+TelegramCacheSize	%s Telegram Cache
+LocalDatabaseSize	%s Telegram Local Database
+CacheWasCleared	%s freed on your device!
+TotalDeviceSize	%s Other Data
+GroupMembersChartTitle	Group members
+NewMembersBySourceChartTitle	New members by source
+MembersLanguageChartTitle	Members\'s primary language
+MessagesChartTitle	Messages
+ActionsChartTitle	Actions
+MembersOverviewTitle	Members
+MessagesOverview	Messages
+ViewingMembers	Viewing Members
+PostingMembers	Posting Members
+Characters_one	%1$d symbol
+Characters_other	%1$d symbols
+Deletions_one	%1$d deletion
+Deletions_other	%1$d deletions
+Bans_one	%1$d ban
+Bans_other	%1$d bans
+Restrictions_one	%1$d restriction
+Restrictions_other	%1$d restrictions
+Invitations_one	%1$d invitation
+Invitations_other	%1$d invitations
+TopAdmins	Top admins
+TopMembers	Top members
+TopInviters	Top inviters
+CharactersPerMessage	%s per message
+TopDaysOfWeekChartTitle	Top days of week
+StatisticSearchUserHistory	View Messages
+StatisticOpenProfile	Open Profile
+SearchTipToday	Today
+SearchTipYesterday	Yesterday
+StatisticViews	Views
+PublicShares	Public Shares
+PrivateShares	Private Shares
+ViewStatistics	View Statistics
+ViewChannelStats	View Channel Stats
+ViewMessageStatistic	Message Statistic
+ViewMessage	Open Message
+Page1Title	Telegram
+Page2Title	Fast
+Page3Title	Free
+Page4Title	Secure
+Page5Title	Powerful
+Page6Title	Cloud-Based
+Page1Message	The world\'s **fastest** messaging app.\nIt is **free** and **secure**.
+Page2Message	**Telegram** delivers messages faster than\nany other application.
+Page3Message	**Telegram** provides free unlimited cloud storage for chats and media.
+Page4Message	**Telegram** keeps your messages safe\nfrom hacker attacks.
+Page5Message	**Telegram** has no limits on\nthe size of your media and chats.
+Page6Message	**Telegram** lets you access your messages\nfrom multiple devices.
+StartMessaging	Start Messaging
+AccountSettings	Account Settings
+VoipUseLessData	Use less data for calls
+VoipConnecting	Connecting
+VoipExchangingKeys	Exchanging encryption keys
+VoipWaiting	Waiting
+VoipRequesting	Requesting
+VoipCallEnded	Call ended
+VoipFailed	Failed to connect
+VoipRinging	Ringing
+VoipBusy	Line busy
+VoipInCallBranding	Telegram Call
+VoipInVideoCallBranding	Telegram Video Call
+VoipInConferenceCallBranding	Telegram Group Call
+VoipOutgoingCall	Ongoing Telegram call
+VoipVoiceChat	Ongoing Voice Chat
+VoipLiveStream	Ongoing Live Stream
+VoipConference	Ongoing Video Chat
+VoipEndCall	End call
+VoipEndCall2	End Call
+VoipOngoingAlertTitle	Another call in progress
+VoipOngoingAlert	You currently have an ongoing call with **%1$s**. Would you like to hang up and start a new one with **%2$s**?
+VoipOngoingAlert2	End call with **%1$s** and start voice chat in **%2$s**?
+VoipOngoingChatAlertTitle	Another voice chat in progress
+VoipOngoingChatAlert	Leave voice chat in **%1$s** and start a new one with **%2$s**?
+VoipOngoingChatAlert2	Leave voice chat in **%1$s** and call **%2$s**?
+VoipOngoingConferenceChatAlert	Leave group call with **%1$s** and start a new one with **%2$s**?
+VoipOngoingConferenceChatAlert2	Leave group call with **%1$s** and call **%2$s**?
+VoipNotificationSettings	Voice calls
+VoipSettingsRingtone	Ringtone
+VoipRingtoneInfo	You can customize the ringtone used when this contact calls you on Telegram.
+Calls	Calls
+DeleteAllCalls	Delete all calls
+HideCallTab	Hide Call Tab
+DeleteCalls	Delete calls
+DeleteCallsForEveryone	Delete for everyone
+DeleteAllCallsText	Do you want to delete all recent calls?
+DeleteSelectedCallsText	Do you want to delete selected calls from recent?
+CustomP2PInfo	Peer-to-peer in calls will or will not be used with these users regardless of the settings above.
+P2PEnabledWith	Use peer-to-peer with
+WhoCanCallMe	Who can call me?
+WhoCanCallMeInfo	You can restrict who can call you.
+CustomCallInfo	These users will or will not be able to call you regardless of the settings above.
+UseLessDataNever	Never
+UseLessDataOnMobile	Only on mobile data
+UseLessDataAlways	Always
+UseLessDataOnRoaming	Only while roaming
+VoipAnswerCall	Answer
+VoipDeclineCall	Decline
+VoipOffline	You\'re currently offline. Please connect to the Internet in order to make calls.
+VoipGroupOffline	You\'re currently offline. Please connect to the Internet to join voice chats.
+VoipOfflineAirplane	You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi in order to make calls.
+VoipGroupOfflineAirplane	You currently have airplane mode enabled. Please turn it off or connect to Wi-Fi to join voice chats.
+VoipOfflineTitle	Offline
+VoipOfflineAirplaneTitle	Airplane Mode
+VoipOfflineOpenSettings	Settings
+CallMessageOutgoing	Outgoing Call
+CallMessageIncoming	Incoming Call
+CallMessageVideoOutgoing	Outgoing Video Call
+CallMessageVideoIncoming	Incoming Video Call
+CallMessageIncomingMissed	Missed Call
+CallMessageOutgoingMissed	Cancelled Call
+CallMessageIncomingDeclined	Declined Call
+CallMessageIncomingConferenceMissed	Missed Call
+CallMessageVideoIncomingConferenceMissed	Missed Video Call
+CallMessageVideoIncomingMissed	Missed Video Call
+CallMessageVideoOutgoingMissed	Cancelled Video Call
+CallMessageVideoIncomingDeclined	Declined Video Call
+CallMessageWithDuration	%1$s (%2$s)
+NoRecentCalls	No recent calls
+MakeYourFirstCall	Make your first call
+MakeYourFirstCallHint	You can make end-to-end encrypted calls\nwith up to %d friends at once
+NoRecentCallsInfo	Your recent voice and video calls\nwill appear here.
+VoipPeerIncompatible	**%1$s**\'s app is using an incompatible protocol. They need to update their app before you can call them.
+VoipPeerOutdated	**%1$s**\'s app does not support calls. They need to update their app before you can call them.
+VoipPeerVideoOutdated	Sorry, **%1$s** is using an old version of Telegram that doesn\'t support video calls.
+VoipPeerVideoOutdatedMakeVoice	Make a voice call
+VoipRateCallAlert	Please rate the quality of your Telegram call
+VoipNeedMicPermissionWithHint	**Telegram** needs microphone access so that you can make calls. Tap Settings -> Permissions, and turn **Microphone** on.
+VoipNeedMicCameraPermissionWithHint	**Telegram** needs camera and microphone access so that you can make video calls. Tap Settings -> Permissions, and turn **Microphone** and **Camera** on.
+VoipNeedCameraPermission	Telegram needs access to your camera so that you can make video calls.
+VoipFeedbackCommentHint	Add an optional comment
+CallBack	Call Back
+CallAgain	Call Again
+DefaultRingtone	Default
+CallViaTelegram	Telegram Call
+VideoCallViaTelegram	Telegram Video Call
+VoiceCallViaTelegram	Telegram Voice Call
+VoiceCallViaCarrier	Call via Carrier
+VoipAudioRoutingEarpiece	Earpiece
+VoipAudioRoutingHeadset	Headset
+VoipAudioRoutingSpeaker	Speaker
+VoipAudioRoutingPhone	Phone
+VoipAudioRoutingBluetooth	Bluetooth
+VoipOutputDevices	Output Devices
+ReturnToCall	RETURN TO CALL
+CallNotAvailable	Sorry, **%1$s** doesn\'t accept calls.
+CallEmojiKeyTooltip	If emoji on %1$s\'s screen are the same, this call is 100%% secure.
+CallMessageReportProblem	Rate Call
+CallReportHint	What went wrong?
+CallReportIncludeLogs	Include technical information
+CallReportLogsExplain	Doesn\'t reveal chat contents and helps us fix the issue sooner.
+CallReportSent	Thank you for helping make Telegram calls better.
+TranscriptionReportSent	Thank you for your feedback.
+VoipQuickReplies	Respond with Text
+VoipQuickRepliesExplain	These quick responses will be available when you respond to an incoming call with a Telegram message. Change them to say anything you like.
+QuickReplyDefault1	Can\'t talk now. What\'s up?
+QuickReplyDefault2	I\'ll call you right back.
+QuickReplyDefault3	I\'ll call you later.
+QuickReplyDefault4	Can\'t talk now. Call me later?
+AllowCustomQuickReply	Allow Custom
+VoipInCallBrandingWithName	Telegram Call to %s
+VoipInVideoCallBrandingWithName	Telegram Video Call to %s
+VoipErrorUnknown	Can\'t place a Telegram call at the moment.
+RateCallEcho	I heard my own voice
+RateCallNoise	I heard background noise
+RateCallInterruptions	The other side kept disappearing
+RateCallDistorted	Speech was distorted
+RateCallSilentLocal	I couldn\'t hear the other side
+RateCallSilentRemote	The other side couldn\'t hear me
+RateCallDropped	Call ended unexpectedly
+RateCallVideoDistorted	Video was distorted
+RateCallVideoPixelated	Video was pixelated
+TapToTurnCamera	Tap here to turn on your camera
+TapToHideCallsTab	Tap here to hide **Calls** tab
+VoipUnmute	Unmute
+VoipHoldAndTalk	or hold and talk
+VoipTapToMute	You\'re Live
+VoipTapToMuteShort	You\'re Live
+VoipTapToMuteConferenceShort	You\'re Live
+VoipMutedByAdmin	Muted by admin
+VoipMutedByAdminShort	Muted
+VoipMutedTapForSpeak	tap if you want to speak
+VoipMutedTapedForSpeak	You asked to speak
+VoipMutedTapedForSpeakShort	Wait...
+VoipMutedTapedForSpeakInfo	We let the speakers know
+VoipMute	Mute
+VoipStartVideo	Start Video
+VoipStopVideo	Stop Video
+VoipSpeaker	Speaker
+VoipFlip	Flip
+VoipSwitchToVideoCall	Switch to video call?
+VoipSwitch	SWITCH
+VoipUserMicrophoneIsOff	%s\'s microphone is off
+VoipUserCameraIsOff	%s\'s camera is off
+AcceptCall	Accept
+DeclineCall	Decline
+RetryCall	Retry
+CallAlert	Are you sure you want to call **%1$s**?
+CallAlertTitle	Voice Call
+VideoCallAlert	Are you sure you want to video call **%1$s**?
+VideoCallAlertTitle	Video Call
+VoipReconnecting	Reconnecting
+StartVoipChat	Start Voice chat
+StartVoipChatTitle	Voice Chat
+StartVoipChannel	Start Live stream
+StartVoipChannelTitle	Live Stream
+StartVoipChatPermission	Manage Live Streams
+VoipChatJoin	Join
+VoipChatNotify	Notify Me
+MembersTalking_one	%1$s member talking
+MembersTalking_other	%1$s members talking
+Speaking	speaking
+SpeakingWithVolume	%1$d%% speaking
+Listening	listening
+WantsToSpeak	wants to speak
+Invited	invited
+ShadyJoining	joining...
+ShadyLeaving	leaving...
+ConferenceCalling	calling...
+VoipGroupExpandStream	Expand
+VoipGroupMinimizeStream	Minimize
+VoipGroupLeave	Leave
+VoipGroupEnd	End
+VoipConferenceRemoveMemberAlertTitle2	Remove participant
+VoipConferenceRemoveMemberAlertText2	Do you want to remove %1$s from this group chat?
+VoipGroupRemoveMemberAlertTitle2	Remove participant
+VoipGroupRemoveMemberAlertText2	Do you want to remove %1$s from the voice chat and ban them in %2$s?
+VoipChannelRemoveMemberAlertText2	Do you want to remove %1$s from the live stream and ban them in %2$s?
+VoipGroupRemovedFromGroup	**%1$s** removed from the group.
+VoipConferenceKicked	**%1$s** removed from the group chat.
+VoipGroupUserCanNowSpeak	**%1$s** can now speak.
+VoipGroupUserCanNowSpeakForYou	**%1$s** is now unmuted for you.
+VoipGroupUserCantNowSpeak	**%1$s** is now muted in this chat.
+VoipGroupUserCantNowSpeakForYou	**%1$s** is now muted in this chat for you.
+VoipGroupMute	Mute
+VoipGroupAllCanSpeak	New participants can speak
+VoipGroupOnlyAdminsCanSpeak	New paricipants are muted
+VoipGroupShareInviteLink	Share invite link
+VoipGroupEndChat	End voice chat
+VoipGroupEndConference	End group call
+VoipGroupCancelChat	Cancel voice chat
+VoipChannelEndChat	End live stream
+VoipChannelEnableComments	Enable Comments
+VoipChannelDisableComments	Disable Comments
+VoipChannelCancelChat	Cancel live stream
+VoipGroupConnecting	Connecting...
+VoipConferenceLeave	Leave video chat
+VoipGroupLeaveAlertTitle	Leave voice chat
+VoipGroupLeaveAlertText	Do you want to leave this voice chat?
+VoipGroupEndAlertTitle	End voice chat
+VoipGroupEndAlertText	Do you want to end this voice chat?
+VoipGroupLeaveAlertEndChat	End voice chat
+VoipGroupViewVoiceChat	VIEW VOICE CHAT
+VoipGroupVoiceChat	Voice Chat
+VoipGroupVideoChat	Video Chat
+VoipGroupScheduledVoiceChat	Scheduled Voice Chat
+VoipGroupOpenVoiceChat	Open voice chat
+VoipGroupInviteAlreadyParticipant	The selected user is already in this voice chat.
+VoipGroupJoinAnonymousAdmin	Sorry, you can\'t join voice chats as an anonymous administrator.
+VoipGroupTooMuch	Sorry, this voice chat is full.
+VoipGroupInviteText	Hey! Join our voice chat: %1$s
+VoipChannelLeaveAlertTitle	Leave live stream
+VoipChannelLeaveAlertText	Do you want to leave this live stream?
+VoipChannelLeaveConferenceAlertTitle	Leave group call
+VoipChannelLeaveConferenceAlertText	Do you want to leave this group call?
+VoipChannelLeaveConferenceAlertEndChat	End group call
+VoipChannelEndAlertTitle	End live stream
+VoipChannelEndAlertText	Do you want to end this live stream?
+VoipChannelLeaveAlertEndChat	End live stream
+VoipChannelViewVoiceChat	VIEW LIVE STREAM
+VoipChannelVoiceChat	Live Stream
+VoipChannelLabelLive	LIVE
+VoipChannelWatching	watching
+VoipChannelScheduledVoiceChat	Scheduled Live Stream
+VoipChannelOpenVoiceChat	Open live stream
+VoipChannelJoinAnonymousAdmin	Sorry, you can\'t join live streams as an anonymous administrator.
+VoipChannelTooMuch	Sorry, this live stream is full.
+VoipChannelInviteText	Hey! Join our live stream: %1$s
+VoipGroupInviteMember	Invite Members
+VoipGroupShareLink	Share Invite Link
+VoipConferenceAddPeople	Add Member
+VoipConferenceShareLink	Invite via Link
+VoipGroupUserRemove	Remove
+VoipGroupOpenProfile	Open Profile
+VoipGroupOpenChannel	Open Channel
+VoipGroupAllowToSpeak	Allow to speak
+VoipGroupSearchMembers	Search members to invite...
+VoipGroupCopyInviteLink	Copy Invite Link
+VoipGroupCopyInviteLinkCopied	Invite link copied to clipboard.
+VoipGroupUnmuteShort	Unmute
+VoipGroupAddMemberTitle	Add Member
+VoipGroupAddMemberText	Do you want to add **%1$s** to **%2$s**?
+VoipGroupInvitedUser	You invited **%1$s** to the voice chat.
+VoipChannelInvitedUser	You invited **%1$s** to the live stream.
+VoipGroupAdd	Add
+VoipGroupMuteForMe	Mute for me
+VoipGroupMutedForMe	Muted for me
+VoipGroupUnmuteForMe	Unmute for me
+MembersTalkingNobody	Nobody talking
+ViewersWatchingNobody	Nobody watching
+VoipGroupRecordCall	Start recording
+VoipGroupStopRecordCall	Stop recording
+VoipGroupJoinAs	Join Voice Chat as...
+VoipChannelJoinAs	Join Live Stream as...
+VoipGroupDisplayAs	Display me as...
+VoipGroupStartAsInfo	Choose whether you want to be displayed as your personal account or as your channel.
+VoipGroupStartAsInfoGroup	Choose whether you want to be displayed as your personal account, this group, or one of your channels.
+VoipGroupContinueAs	Continue as %1$s
+VoipGroupEditTitle	Edit voice chat title
+VoipChannelEditTitle	Edit live stream title
+VoipGroupEditPermissions	Edit permissions
+VoipGroupUserChanged	Members of this voice chat will now see you as **%1$s**
+VoipGroupTitle	Voice chat title
+VoipChannelUserChanged	Members of this live stream will now see you as **%1$s**
+VoipChannelTitle	Live stream title
+VoipGroupInviteCanSpeak	Can speak
+VoipGroupInviteListenOnly	Listen only
+VoipGroupCopySpeakerLinkNoCaps	Copy speaker link
+VoipGroupCopyListenLinkNoCaps	Copy listener link
+VoipGroupYouCanNowSpeak	You can now speak.
+VoipGroupYouCanNowSpeakIn	You can now speak in **%1$s**.
+VoipGroupStopRecordingTitle	Stop recording
+VoipGroupStopRecordingText	Do you want to stop recording this voice chat?
+VoipChannelStopRecordingText	Do you want to stop recording this live stream?
+VoipGroupStartRecordingTitle	Start recording
+VoipGroupStartRecordingText	Do you want to start recording this chat and save the result into an audio file?\n\nOther members will see that the chat is being recorded.
+VoipGroupStartRecordingRtmpText	Do you want to start recording this chat and save the result into an audio file?
+VoipGroupStartRecordingVideoText	Do you want to start recording this chat and save the result into a video file?\n\nOther members will see that the chat is being recorded.
+VoipChannelStartRecordingVideoText	Do you want to start recording this live stream and save the result into a video file?\n\nOther members will see that the stream is being recorded.
+VoipGroupStartRecordingRtmpVideoText	Do you want to start recording this chat and save the result into a video file?
+VoipGroupSaveFileHint	Recording Title
+VoipGroupAudioRecordSaved	Audio saved to **Saved Messages**.
+VoipGroupVideoRecordSaved	Video saved to **Saved Messages**.
+VoipGroupAudioRecordStarted	Audio recording started.
+VoipGroupVideoRecordStarted	Video recording started.
+VoipGroupRecording	Voice chat is being recorded
+VoipChannelRecording	Live stream is being recorded
+VoipGroupPersonalAccount	personal account
+VoipGroupCancelRaiseHand	Cancel request to speak
+VoipGroupJoinAsSpeaker	JOIN AS SPEAKER
+VoipGroupJoinAsLinstener	JOIN AS LISTENER
+VoipGroupJoinVoiceChatUrl	Join Voice Chat
+VoipGroupJoinAnonymouseAlert	Are sure you want to appear in this voice chat as your personal account?
+VoipGroupSoundMuted	Voice chat sound muted.
+VoipGroupSoundUnmuted	Voice chat sound unmuted.
+VoipGroupStart2	Members of this group will be notified once you start the voice chat.
+VoipChannelStart2	Subscribers of this channel will be notified once you start the live stream.
+VoipStreamStart	To stream video with another app,\nenter the server URL and Stream Key\nin your streaming app.
+VoipChatDisplayedAs	You will be displayed as:
+VoipChatStreamSettings	Stream settings
+VoipChatStreamWithAnotherApp	You can also stream with **another app >**
+VoipChatStreamWithAnotherAppDescription	Once you start broadcasting in your streaming app, tap Start Streaming below.
+VoipChatStreamWithAnotherAppDescriptionStory	Once you start broadcasting in your streaming app, tap Connect Stream below.
+VoipChatStreamServerUrl	Server URL
+VoipChatStreamKey	Stream Key
+VoipGroupStartVoiceChat	Start Voice Chat
+VoipGroupScheduleVoiceChat	Schedule Voice Chat
+VoipChannelJoinVoiceChatUrl	Join Live Stream
+VoipChannelJoinAnonymouseAlert	Are sure you want to appear in this live stream as your personal account?
+VoipChannelSoundMuted	Live stream sound muted.
+VoipChannelSoundUnmuted	Live stream sound unmuted.
+VoipChannelStartVoiceChat	Start Live Stream
+VoipChannelStartStreaming	Start Streaming
+VoipChannelScheduleVoiceChat	Schedule Live Stream
+VoipGroupStartNowShort	Start Now
+VoipGroupSetReminderShort	Remind me
+VoipGroupCancelReminderShort	Don\'t Remind
+VoipGroupScheduleInfo	Members of the group will be notified that the voice chat will start in %1$s.
+VoipChannelScheduleInfo	Subscribers of the channel will be notified that the live stream will start in %1$s.
+VoipChatStartsIn	Starts in
+VoipChatLateBy	Late by
+VoipChatShare	Share
+VoipChatReminderHint	We will notify you when it starts.
+VoipChatUserJoined	**%1$s** joined the voice chat.
+VoipChatChatJoined	**%1$s** joined the voice chat.
+VoipChannelUserJoined	**%1$s** joined the live stream.
+VoipChannelChatJoined	**%1$s** joined the live stream.
+VoipChatActiveChats	Active voice chats
+VoipChatRecentCalls	Recent calls
+RecentCalls	Recent calls
+VoipChatStartScreenCapture	Share screen
+VoipChatStopScreenCapture	Stop screen sharing
+ThisIsYou	this is you
+VoipGroupOpenChat	Open Chat
+VoipAddPhoto	Add Photo
+VoipAddBio	Add Bio
+VoipEditName	Edit Name
+VoipGroupBioEditAlertText	You can add a few lines about yourself. Everyone will see this text.
+VoipEditBio	Edit Bio
+VoipAddDescription	Add description
+VoipEditDescription	Edit description
+TapToAddPhotoOrBio	tap to add photo or bio
+TapToAddBio	tap to add bio
+TapToAddPhoto	tap to add photo
+TapToAddDescription	tap to add description
+TapToAddPhotoOrDescription	Tap to add photo or description
+VoipEditTitle	Edit title
+VoipEditTitleHint	Title
+VoipSetNewPhoto	Set New Photo
+VoipCamera	Camera
+VoipMessage	Message
+CallVideoPin	Pin
+CallVideoUnpin	Unpin
+VoipGroupAudio	Audio
+VoipSelectAudioOutput	Select audio output
+VoipVideoOnPause	Video on Pause
+VoipVideoScreenSharingTwoLines	You are sharing\nyour screen
+VoipVideoScreenSharing	You are sharing your screen
+VoipVideoPrivateScreenSharing	Everything on your screen, including notifications, will be shared.
+VoipVideoScreenStopSharing	STOP SHARING
+VoipPhoneScreen	PHONE SCREEN
+VoipFrontCamera	FRONT CAMERA
+VoipBackCamera	BACK CAMERA
+VoipShareVideo	Share Video
+VoipNoiseCancellation	Noise suppression
+VoipNoiseCancellationEnabled	Enabled
+VoipNoiseCancellationDisabled	Disabled
+VoipVideoNotAvailable	Video is only available\nfor the first %1$s
+VoipVideoNotAvailableAdmin	The video chat has over %1$s.\nNew participants must use the latest version of Telegram to view video.
+VoipChannelVideoNotAvailableAdmin	The live stream is over %1$s.\nNew participants must use the latest version of Telegram to view video.
+VoipRecordAudio	AUDIO ONLY
+VoipRecordPortrait	PORTRAIT VIDEO
+VoipRecordLandscape	LANDSCAPE VIDEO
+VoipRecordVoiceChat	Record voice chat
+VoipChannelRecordVoiceChat	Record live stream

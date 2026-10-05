@@ -1,0 +1,568 @@
+MonetizationProceedsStarsInfo	Stars from your total balance become available for spending on ads and rewards 21 days after they are earned.
+MonetizationProceedsStarsInfoLink	https://telegram.org/tos/stars/
+MonetizationProceedsTONInfo	TON from your total balance become available for spending on ads and rewards 3 days after they are earned.
+MonetizationProceedsTONInfoLink	https://telegram.org/tos/content-creator-rewards
+MonetizationProceedsStarsTONInfo	Stars and TON from your total balance become available for spending on ads and rewards 21 and 3 days respectively after they are earned.
+MonetizationProceedsStarsTONInfoLink	https://telegram.org/tos/content-creator-rewards
+MonetizationTransactions	Transaction history
+MonetizationMoreTransactions_one	Show %d more transaction
+MonetizationMoreTransactions_other	Show %d more transactions
+MonetizationSwitchOff	Switch Off Ads
+MonetizationSwitchOffInfo	You will not be eligible for any rewards if you switch off ads.
+MonetizationOverview	Proceeds overview
+MonetizationOverviewAvailable	Balance available to withdraw
+MonetizationOverviewLastWithdrawal	Proceeds since last withdrawal
+MonetizationOverviewTotal	Total lifetime proceeds
+MonetizationTransactionWithdraw	Withdrawal via Fragment
+MonetizationTransactionProceed	Proceeds from ads
+MonetizationTransactionRefund	Refund
+MonetizationTransactionPending	Pending
+MonetizationTransactionNotCompleted	Not Completed
+MonetizationTransactionDetailWithdraw	Balance withdrawal
+MonetizationTransactionDetailWithdrawButton	View in Blockchain Explorer
+MonetizationTransactionDetailProceed	Proceeds from ads displayed in
+MonetizationTransactionDetailRefund	Refunded back
+MonetizationGraphImpressions	Ad impressions
+MonetizationGraphRevenue	Ad revenue
+MonetizationWithdraw	Withdraw via Fragment
+MonetizationSelfWithdraw	Withdraw via Fragment
+MonetizationStarsBalance	Stars balance
+MonetizationStarsInfo	You can withdraw Stars using Fragment, or use Stars to advertise your channel. **Learn more >**
+MonetizationStarsInfoGroup	By withdrawing Stars using Fragment, you accept the **Terms of Service**.
+MonetizationStarsInfoLink	https://telegram.org/tos/stars
+MonetizationStarsWithdraw_other	Withdraw ⭐️%d
+MonetizationStarsWithdrawAll	Withdraw All
+MonetizationStarsWithdrawUntil	Withdraw
+MonetizationStarsAds	Buy Ads
+MonetizationTransactionsStars	Stars Transactions
+MonetizationTransactionsTON	TON Transactions
+ChartInTON	%s in TON
+ChartInXTR	%s in Stars
+ChartInUSD	%s in USD
+BotAllowBiometryTitle	Allow biometry
+BotAllowBiometryMessage	Do you want to allow **%s** to use biometry?
+DownloadSpeedLimited	Download speed limited
+DownloadSpeedLimitedMessage	Subscribe to **Telegram Premium** and increase download speeds %d times.
+UploadSpeedLimited	Upload speed limited
+UploadSpeedLimitedMessage	Subscribe to **Telegram Premium** and increase upload speeds %d times.
+PrivacyBiometryBotsButton	Bots with biometry access
+PrivacyBiometryBots	Bots with biometry
+PrivacyBiometryBotsInfo	Web-apps can request permission for fingerprint check.
+GreetingHow	%s added the message above for all empty chats **how?**
+GreetingHowSticker	%s set the sticker above for all empty chats **how?**
+EditAccountInfo2	Account
+EditAccountInfoHeader	Your Info
+AddUsername	Add Username
+AddBirthday	Add Birthday
+BirthdayRemove	Remove
+EditInfo	Edit Info
+EditProfileName	Your name
+EditProfileFirstName	First name
+EditProfileLastName	Last name
+EditProfileBio	Your bio
+EditProfileChannel	Your channel
+EditProfileChannelTitle	Personal channel
+EditProfileChannelAdd	Add
+EditProfileChannelSelect	Select your channel
+EditProfileChannelHide	Hide Personal Channel
+EditProfileChannelStartNew	Start a Channel
+EditProfileChannelSet	Personal channel added.
+EditProfileBioHint2	Bio
+EditProfileBioInfo2	A few words about you.
+EditProfileBioInfoEveryone	Everyone can see your bio. **Change >**
+EditProfileBioInfoEveryoneExcept	Everyone (except %d) can see your bio. **Change >**
+EditProfileBioInfoContacts	Your contacts can see your bio. **Change >**
+EditProfileBioInfoContactsExtra	Your contacts (%s) can see your bio. **Change >**
+EditProfileBioInfoNobody	Nobody can see your bio. **Change >**
+EditProfileBioInfoNobodyExcept	Nobody (except %d) can see your bio. **Change >**
+EditProfileBioInfoUnknown	Choose who can see your bio in **Settings**.
+EditProfileBirthday	Your birthday
+EditProfileBirthdayText	Date of Birth
+EditProfileBirthdayRemove	Remove Date of Birth
+EditProfileBirthdayAdd	Add
+EditProfileBirthdayInfoContacts	Only your contacts can see your birthday. **Change >**
+EditProfileBirthdayInfo	Choose who can see your birthday in **Settings.**
+EditProfileBirthdayTitle	Date of Birth
+EditProfileBirthdayButton	Save
+EditProfileHours	Change Opening Hours
+EditProfileLocation	Change Location
+EditProfileChatAutomation	Chat Automation
+EditProfileChatAutomationInfo	Add a bot to answer messages on your behalf.
+SessionBot	Chat Automation Bot
+SessionBotConnectedOn	connected on %s
+SessionBotConnectedFrom	Connected from
+SessionBotDevice	Device
+SessionBotLocation	Location
+SessionBotDate	Date
+ProfileChannel	Channel
+ProfileBirthdayValue	%1$s
+ProfileBirthdayValueYear_other	%2$s (%1$d years old)
+ProfileBirthdayTodayValue	🎂 %1$s
+ProfileBirthdayTodayValueYear_other	🎂 %2$s (%1$d years old)
+ProfileBirthday	Date of Birth
+ProfileBirthdayToday	Birthday today
+PrivacyGifts	Gifts
+PrivacyGiftsTitle	Automatically display gifts from
+PrivacyGiftsInfo	Choose whether gifts from specific senders need your approval before they’re visible to others on your profile.
+PrivacyGiftsShowIcon	Show Gift Icon in Chats
+PrivacyGiftsShowIconInfo	Display the %s Gift in the message input field for both participants in all chats.
+PrivacyGiftsTypeHeader	Accepted gift types
+PrivacyGiftsTypeUnlimited	Unlimited
+PrivacyGiftsTypeLimited	Limited-Edition
+PrivacyGiftsTypeUnique	Unique
+PrivacyGiftsTypeFromChannels	From Channels
+PrivacyGiftsTypePremium	Premium Subscription
+PrivacyGiftsTypeInfo	Choose the types of gifts that you allow others to send you.
+PrivacyBirthday	Date of Birth
+PrivacyBirthdayTitle	Who can see my birthday?
+PrivacyBirthdayInfo	You can restrict who can see you birthday with granular precision.
+PrivacyBirthdayInfo3	You can add users or entire groups as exception that will override the settings above.
+PrivacyBirthdaySet	You haven’t entered your date of birth yet.\n**Add my birthday >**
+PrivacyBirthdaySetDone	Date of birth added.
+PrivacyBirthdaySetDoneInfo	You can change your birth of date in settings.
+PrivacyBirthdayTooOftenTitle	Oops
+PrivacyBirthdayTooOftenMessage	Sorry, you can’t change your birthday so often.
+GiftsBirthdaySetup	Add Your Birthday
+BirthdaySetupTitle	Add your birthday! 🎂
+BirthdaySetupMessage	Let your contacts know when you’re celebrating
+BirthdaySetupLater	You can always set your birthday in profile settings.
+BirthdayTodaySingleTitle	It’s %s’s **birthday** today! 🎂
+BirthdayTodaySingleMessage2	Send them a Gift.
+BirthdayTodayMultipleTitle_other	%d contacts have **birthdays** today! 🎂
+BirthdayTodayMultipleMessage2	Send them a Gift.
+BirthdayToday	🎂 Birthday today
+BirthdayYesterday	Birthday yesterday
+BirthdayTomorrow	Birthday tomorrow
+UserBirthdayHint	🎂 %1$s’s having a birthday today. You can give %1$s **Telegram Premium** as a birthday gift.
+PrivacyUserTypes	User Types
+PrivacyPremium	Premium Users
+PrivacyPremiumText	all Telegram Premium subscribers
+PrivacyMiniapps	Mini Apps &amp; Bots
+PrivacyMiniappsText	all bots
+PrivacyPremiumAnd	Premium &amp; %s
+PrivacyValueBots	Mini Apps
+PrivacyValueBotsAnd	Mini Apps &amp; %s
+PrivacyValueChannels	Channels
+PrivacyValueChannelsAnd	Channels &amp; %s
+PrivacyValueOnlyBots	Mini Apps
+PrivacyValueEveryoneExceptBots	Except Mini Apps
+PrivacyValueEveryoneExceptBotsMinus	Except Mini Apps (-%1$d)
+PrivacyValueGiftsOnlyPremium	Only Premium
+PrivacyValueGiftsNone	None
+PrivacyExcludeBotUsers	Mini Apps
+PrivacyBotUsersAnd	Mini Apps &amp; %s
+PrivacyContactsAndBotUsers	Contacts &amp; Mini Apps
+PrivacyContactsAndBotUsersPlus	Contacts &amp; Mini Apps (+%1$d)
+PrivacyContactsAndBotUsersMinus	Contacts &amp; Mini Apps (-%1$d)
+PrivacyContactsAndBotUsersMinusPlus	Contacts &amp; Mini Apps (-%1$d, +%2$d)
+BizBotStatusManages	bot manages this chat
+BizBotStatusStopped	bot stopped
+BizBotStart	Start
+BizBotStop	Stop
+BizBotManage	Manage bot
+BizBotRemove	Remove bot\nfrom this chat
+ChannelInviteViaLink2	Add to Group
+CallInviteViaLink	Add to Call
+InvitePremiumBlockedUser	available only to Premium users
+InvitePremiumBlockedTitle	Upgrade to Premium
+InvitePremiumBlockedOne	**%1$s** only accepts invitations to groups from Contacts and **Premium** users.
+InvitePremiumBlockedTwo	**%1$s** and **%2$s** only accept invitations to groups from Contacts and **Premium** users.
+InvitePremiumBlockedThree	**%1$s**, **%2$s** and **%3$s** only accept invitations to groups from Contacts and **Premium** users.
+InvitePremiumBlockedMany_other	**%2$s**, **%3$s** and **%1$d** more people only accept invitations to groups from Contacts and **Premium** users.
+InviteMessagePremiumBlockedOne	**%1$s** only accepts messages and invitations to groups from Contacts and **Premium** users.
+InviteMessagePremiumBlockedTwo	**%1$s** and **%2$s** only accept messages and invitations to groups from Contacts and **Premium** users.
+InviteMessagePremiumBlockedThree	**%1$s**, **%2$s** and **%3$s** only accept invitations to groups from Contacts and **Premium** users.
+InviteMessagePremiumBlockedMany_other	**%2$s**, **%3$s** and **%1$d** more people only accept messages and invitations to groups from Contacts and **Premium** users.
+InviteCallMessagePremiumBlockedOne	**%1$s** only accepts messages and invitations to calls from Contacts and **Premium** users.
+InviteCallMessagePremiumBlockedTwo	**%1$s** and **%2$s** only accept messages and invitations to calls from Contacts and **Premium** users.
+InviteCallMessagePremiumBlockedThree	**%1$s**, **%2$s** and **%3$s** only accept invitations to calls from Contacts and **Premium** users.
+InviteCallMessagePremiumBlockedMany_other	**%2$s**, **%3$s** and **%1$d** more people only accept messages and invitations to calls from Contacts and **Premium** users.
+InvitePremiumBlockedSubscribe	Subscribe to Telegram Premium
+InvitePremiumBlockedOr	or
+InviteBlockedTitle	Invite via Link
+InviteBlockedOneMessage	You can send an invite link to the group in a private message instead.
+InviteBlockedManyMessage	You can send these people an invite link to the group in a private message instead.
+ProfilePhoneEdit	Replace number
+ProfileCopyUsername	Copy Username
+ProfileUsernameEdit	Change Username
+ProfileUsernameSet	Set Username
+ProfileEditBio	Edit bio
+ProfileHoursCopy	Copy hours
+ProfileHoursEdit	Edit hours
+ProfileHoursRemove	Remove
+ProfileLocationCopy	Copy address
+ProfileLocationView	View location
+ProfileLocationMaps	Open in Maps
+ProfileLocationEdit	Change location
+ProfileLocationRemove	Remove
+ProfileBirthdayChange	Change
+ProfileCopyLink	Copy link to profile
+ProfileChannelCopy	Copy Link
+ProfileChannelChange	Change Channel
+ShowAdsTitle	Ads in Channels
+ShowAds	Do Not Hide Ads
+ShowAdsInfo	As a Premium subscriber, you don’t see any ads on Telegram, but you can turn them on, for example, to view your own ads that you launched on the **Telegram Ad Platform >**
+ChannelsTab	Channels
+StoriesDeleted_one	%d story deleted
+StoriesDeleted_other	%d stories deleted
+GraceTitle	⚠️ Your Premium subscription is expiring!
+GraceMessage	Don’t lose access to exclusive features.
+GraceSuggestionTitle	Access to Telegram Premium is expiring!
+GraceSuggestionMessage	⚠️ Unfortunately, your latest payment didn’t come through. To keep your access to exclusive features, please renew the subscription.
+GraceSuggestionButton	Restore Subscription
+SearchMyChannels	Channels you joined
+SearchRecommendedChannels	Recommended Channels
+SearchChannels	Channels
+OpenStickerSet	VIEW STICKERS
+OpenEmojiSet	VIEW EMOJI
+OpenUniqueGift	VIEW COLLECTIBLE
+OpenGiftAuctionActive	JOIN
+OpenGiftAuctionView	VIEW
+OpenGiftAuctionResults	VIEW RESULTS
+StoriesPinned_one	Story pinned
+StoriesPinned_other	%d stories pinned
+StoriesUnpinned_one	Story unpinned.
+StoriesUnpinned_other	%d stories unpinned.
+StoriesPinnedText_one	Now it will be always shown on the top.
+StoriesPinnedText_other	Now they will be always shown on the top.
+StoriesPinLimit_other	You can’t pin more than %d posts.
+NotificationReactions	Reactions
+NotificationReactionsMessages	Messages
+NotificationReactionsStories	Stories
+NotifyMeAbout	Notify me about…
+NotifyMeAboutPrivate	New Messages in Private Chats
+NotifyMeAboutNewStories	New Stories
+NotifyMeAboutImportantStories	Important Stories
+NotifyMeAboutGroups	New Messages in Groups
+NotifyMeAboutChannels	New Messages in Channels
+NotifyMeAboutMessagesReactions	Reactions to My Messages
+NotifyMeAboutStoriesReactions	Reactions to My Stories
+NotifyFromContacts	From My Contacts
+NotifyFromEveryone	From Everyone
+NotifyFromNobody	Off
+NotifyMoreOptions	More Options
+NotifyLessOptions	Less Options
+NotifyAboutReactionsFrom	Notify about reactions from
+NotifyAboutReactionsFromContacts	My Contacts
+NotifyAboutReactionsFromEveryone	Everyone
+StickerCreateEmpty	Create
+NoChannelsTitle	No channels yet…
+NoChannelsMessage	You are not subscribed to any channel.
+SetIntroSticker	Set Intro Sticker
+SMSWordTitle	Enter word from SMS
+SMSWordBeginningText	We’ve sent an SMS with a secret word that starts with “**%2$s**” to your phone **%1$s**.
+SMSWordText	We’ve sent an SMS with a secret word to your phone **%1$s**.
+SMSWord	Secret word
+SMSWordHint	Enter Word from SMS
+SMSWordPasteHint	You can copy and paste the word here.
+SMSWordError	Incorrect, please try again
+SMSWordBeginningError	Incorrect word
+SMSPhraseTitle	Enter phrase from SMS
+SMSPhraseText	We’ve sent an SMS with a secret phrase to your phone **%1$s**.
+SMSPhraseBeginningText	We’ve sent an SMS with a secret phrase that starts with “**%2$s**” to your phone **%1$s**.
+SMSPhrase	Secret phrase
+SMSPhrasePasteHint	You can copy and paste the phrase here.
+SMSPhraseHint	Enter Phrase from SMS
+SMSPhraseError	Incorrect, please try again
+SMSPhraseBeginningError	Incorrect word
+RequestAnotherSMS	Request another SMS
+BackEnteringWord	&lt; Back to entering the word
+BackEnteringPhrase	&lt; Back to entering the phrase
+BackEnteringCode	&lt; Back to entering the code
+ReturnEnteringSMS	Return to entering the code >
+ReturnPhoneCall	Return to phone call >
+ReturnEnteringWord	Return to entering the word >
+ReturnEnteringPhrase	Return to entering the word >
+SmsAvailableIn2	You can request another\nSMS in %1$d:%2$02d
+CallAvailableIn2	Telegram can call you in %1$d:%2$02d
+ForwardedFrom	Forwarded from
+RestrictedParticipantSending	Restricted **%s** from sending any messages
+EventLogExpandMore_one	Show %d More Message
+EventLogExpandMore_other	Show %d More Messages
+NoLogFound	**No results found**
+NoLogFoundFiltered	**No results matching your filters**
+AddEffectMessageHint	Add an animated effect
+AnimatedEffectPremium	Subscribe to **Telegram Premium** to add this animated effect.
+StickerEffects	Effects from stickers
+NumberNotOnTelegram	This number is not on Telegram
+NoUsernameFound2	This user doesn’t exist on Telegram
+ViewProfile	View Profile >
+ViewGroupProfile	View Group Info >
+ViewChannelProfile	View Channel Info >
+BuyUsernameOnFragment	Buy on Fragment
+ViewChannel	View Channel
+UnlockToUse	Unlock to use Telegram
+UsePIN	Use PIN
+EnterPINorFingerprint	Enter your PIN or use a fingerprint
+EnterPIN	Enter your PIN
+AppLocked	Telegram Locked
+ShowSensitiveContent	Show 18+ Content
+ShowSensitiveContentInfo	Do not hide media that contain content suitable only for adults
+ConfirmSensitiveContentTitle	18+ Content
+ConfirmSensitiveContentText	Confirm that you are over 18 years old and update your settings to see potentially explicit and sensitive content.
+Confirm	Confirm
+MessageSensitiveContent	18+ Content
+MessageSensitiveContentShort	18+
+MessageShowSensitiveContentMediaTitle	18+ Content
+MessageShowSensitiveContentChannelTitle	18+ Content
+MessageShowSensitiveContentMediaText	This media may contain sensitive content suitable only for adults. Do you still want to view it?
+MessageShowSensitiveContentMediaTextClosed	This media may contain sensitive content suitable only for adults.
+MessageShowSensitiveContentMediaTextClosedButton	Cancel
+MessageShowSensitiveContentChannelText	This chat may contain sensitive content suitable only for adults. Do you still want to view it?
+MessageShowSensitiveContentChannelTextClosed	This chat may contain sensitive content suitable only for adults.
+MessageShowSensitiveContentChannelTextClosedButton	Cancel
+MessageShowSensitiveContentAlways	Always show 18+ media
+MessageShowSensitiveContentButton	View Anyway
+SensitiveContentSettingsToast	You can update the visibility of sensitive media in **Chat Settings > Show 18+ Content**
+MenuTelegramStars	Your Stars
+TelegramStars	Telegram Stars
+TelegramStarsInfo2	Buy Stars to unlock content and services\nin miniapps on Telegram. **More about Stars >**
+TelegramStarsChoose	Choose package
+TelegramStarsGift	Gift Stars to Friends
+StarsCount_one	%d Star
+StarsCount_other	%d Stars
+TonCount_one	%d TON
+TonCount_other	%d TON
+StarsCountX	%s Stars
+TonCountX	%s TON
+StarsTOS	By proceeding and purchasing Stars, you agree with the **Terms and Conditions**.
+StarsTOSLink	https://telegram.org/tos
+StarsBalance	Balance
+StarsTransactionsAll	All Transactions
+StarsTransactionsIncoming	Incoming
+StarsTransactionsOutgoing	Outgoing
+StarsTransactionInApp	In-App Purchase
+StarsTransactionHidden	Hidden User
+StarsTransactionUnknown	Unknown User
+StarsTransactionUnknownLink	https://fragment.com/stars
+StarsTransactionTONFromFragment	Fragment
+StarsTransactionTONFromFragmentLink	https://fragment.com/ads/topup
+StarsTransactionBot	Stars Top-Up Bot
+StarsTransactionUnsupported	In-App Purchase
+StarsTransactionAds	Ads
+StarsTransactionFloodskip	Paid Broadcast
+StarsTransactionFloodskipMessages_one	%d Message
+StarsTransactionFloodskipMessages_other	%d Messages
+StarsTransactionFragment	Purchase from Fragment
+StarsTransactionWithdrawFragment	Withdraw to Fragment
+StarsAcquired	Stars Acquired!
+StarsAcquiredInfo_other	**%d Stars** added to your balance.
+StarsPurchaseCompleted	Purchase Completed!
+StarsPurchaseCompletedInfo_other	You acquired "**%2$s**" in **%3$s** for **%1$d Stars**.
+StarsBotSubscriptionCompleted	Subscription purchased!
+StarsBotSubscriptionCompletedInfo_other	You subscribed to "**%2$s**" in **%3$s** for **%1$d Stars**/month.
+StarsMediaPurchaseCompleted	Media Unlocked
+StarsMediaPurchaseCompletedInfo_one	**%1$d Star** transferred to **%2$s**.
+StarsMediaPurchaseCompletedInfo_other	**%1$d Stars** transferred to **%2$s**.
+StarsConfirmPurchaseTitle	Confirm Your Purchase
+StarsConfirmPurchaseText2_one	Do you want to buy **%2$s** in **%3$s** for **%1$d** star?
+StarsConfirmPurchaseText2_other	Do you want to buy **%2$s** in **%3$s** for **%1$d** stars?
+StarsConfirmPurchaseButton_one	Confirm and Pay ⭐️ %d Star
+StarsConfirmPurchaseButton_other	Confirm and Pay ⭐️ %d Stars
+StarsConfirmPurchaseTOS	By purchasing you agree to the **Terms of Service**.
+StarsConfirmSubscriptionTitle	Confirm Your Subscription
+StarsConfirmSubscriptionText2_one	Do you want to subscribe to **%2$s** in **%3$s** for **%1$d** star per month?
+StarsConfirmSubscriptionText2_other	Do you want to subscribe to **%2$s** in **%3$s** for **%1$d** stars per month?
+StarsConfirmSubscriptionButton_other	Subscribe for ⭐️ %d / month
+StarsConfirmSubscriptionTOS	By subscribing you agree to the **Terms of Service**.
+StarsNeededTitle_one	%d Star Needed
+StarsNeededTitle_other	%d Stars Needed
+TonNeededTitle	%s TON Needed
+StarsNeededText	Buy **Stars** and use them on **%s** and other miniapps.
+StarsNeededBizText	Buy **Stars** and use them on **%s** and businesses.
+StarsNeededTextBuySubscription	Buy **Stars** and subscribe to **%s** and other channels.
+StarsNeededTextKeepSubscription	Buy **Stars** to keep your subscription for **%s**.
+StarsNeededTextKeepBotSubscription	Buy **Stars** to keep your subscription for **%s**.
+StarsNeededTextKeepBizSubscription	Buy **Stars** to keep your subscription for **%s**.
+StarsNeededTextReactions	Buy **Stars** to send paid reactions to **%s** and other channels.
+StarsNeededTextGift	Buy **Stars** to send gifts to **%s** and other contacts.
+StarsNeededTextGiftChannel	Buy **Stars** to send gifts to **%s** and other channels.
+StarsNeededTextPrivateMessage	Buy **Stars** to send message to **%s** and others.
+TonNeededTextSuggestMessage	Buy **TON** to suggest message to **%s** and others.
+StarsNeededTextGiftUpgrade	Buy **Stars** to upgrade your gifts.
+StarsNeededTextGiftTransfer	Buy **Stars** to transfer your gifts.
+StarsNeededTextGiftBuyResale	Buy **Stars** to buy gifts.
+StarsNeededTextSearch	Buy **Stars** to search posts.
+StarsNeededRemoveGiftDescription	Buy **Stars** to remove gifts\' descriptions.
+TonNeededTextGiftBuyResale	Buy **TON** to buy gifts.
+StarsNeededLiveComments	Buy **Stars** to highlight comments in live stories and send star reactions.
+StarsNeededTextLink	Buy **Stars** to keep your channel subscriptions.
+StarsNeededTextLink_subs	Buy **Stars** to keep your channel subscriptions.
+StarsNeededTextLink_subadvance12	Buy **Stars** to keep your subscriptions active for the next 12 months.
+CaptionAbove	Move Caption Up
+CaptionBelow	Move Caption Down
+AddFactCheck	Add Fact Check
+EditFactCheck	Edit Fact Check
+FactCheck	Fact Check
+FactCheckWhat	what’s this?
+FactCheckDialog	Fact Check
+FactCheckPlaceholder	Add Fact or Context
+FactCheckToast	This clarification was provided by a fact checking agency assigned by the department of the government of your country (%s) responsible for combating misinformation.
+FactCheckFooter	This clarification was provided by a fact checking agency assigned by the department of the government of your country (%s) responsible for combating misinformation.
+FactCheckEdited	Fact check updated.
+FactCheckDeleted	Fact check removed.
+SearchThisChat	This Chat
+SearchMyMessages	My Chats
+SearchPublicPosts	Public Posts
+SearchHashtagsHint	Search hashtags
+HashtagSearchPlaceholder	Enter a hashtag to find messages containing it.
+QuoteCollapse	Collapse
+QuoteExpand	Expand
+StarsTransactionSource	Via
+AppStore	App Store
+PlayMarket	Google Play
+Fragment	Fragment
+StarsTransactionRecipient	From
+StarsTransactionID	Transaction ID
+StarsTransactionIDCopied	Transaction ID is copied to clipboard
+WalletAddressCopied	Wallet address is copied to clipboard
+StarsTransactionDate	Date
+StarsTransactionFloodskipNumberName	Messages
+StarsTransactionFloodskipNumber_one	%d
+StarsTransactionFloodskipNumber_other	%d
+StarsTransactionTONDate	TON Transaction Date
+StarsTransactionViewInBlockchainExplorer	View in Blockchain Explorer
+StarsTransactionTOS	Review the **Terms of Service** for Stars.
+StarsNotAvailableTitle	Not Available
+StarsNotAvailableText	Sorry, no star purchases are available from your country.
+StarsRefunded	Refund
+StarsFailed	Failed
+StarsPending	Pending
+ChromeCrashTitle	Aw, Snap!
+ChromeCrashMessage	Something went wrong while displaying this webpage.\n\nIf it occurs frequently, consider updating **Android WebView**.
+StoryLinkPremium	Subscribe to **Telegram Premium** to add links to stories.
+LocationStories_one	%d story from this location
+LocationStories_other	%d stories from this location
+StoryLinkCreate	Create Link
+StoryLinkURLPlaceholder	Enter URL
+StoryLinkNamePlaceholder	Link Text
+StoryLinkNameHeader	Customize Link Text
+StoryLinkAdd	Add Link
+StoryLinkEdit	Update Link
+StoryLinkPreviewTitle	Link Preview
+StoryLinkPreviewSubtitle	You can customize your link
+StoryLinkCaptionAbove	Move Up
+StoryLinkCaptionBelow	Move Down
+StoryOpenLink	Open Link >
+BotStarsOverview	Proceeds overview
+BotStarsOverviewAvailableBalance	Available balance
+BotStarsOverviewTotalBalance	Total balance
+BotStarsOverviewTotalProceeds	Total lifetime proceeds
+BotStarsAvailableBalance	Available balance
+BotStarsOverviewInfo	Stars from your total balance become available for spending on ads and rewards 21 days after they are earned.
+SelfStarsOverviewInfo	Stars from your total balance will become available 21 days after they are earned.
+BotStarsWithdrawInfo	You can withdraw Stars using Fragment, or use Stars to advertise your bot. **Learn more >**
+SelfStarsWithdrawInfo_one	You can withdraw from %d Stars using Fragment. **Learn more >**
+SelfStarsWithdrawInfo_other	You can withdraw from %d Stars using Fragment. **Learn more >**
+BotStarsWithdrawInfoLink	https://telegram.org/privacy
+BotStarsButtonWithdrawShortAll	Withdraw all
+BotStarsButtonWithdrawShort_one	Withdraw ⭐️%d
+BotStarsButtonWithdrawShort_other	Withdraw ⭐️%d
+BotStarsButtonWithdrawShortUntil	Withdraw
+BotStarsWithdrawPlaceholder	Enter amount to withdraw
+BotStarsButtonWithdraw_one	Withdraw ⭐️%d via Fragment
+BotStarsButtonWithdraw_other	Withdraw ⭐️%d via Fragment
+BotStarsChartRevenue	Revenue
+BotStarsWithdrawMinLimit_other	You cannot withdraw less than **%d stars.**
+PaintBringToFront	To Front
+HashtagStoriesFound_one	%d Story found
+HashtagStoriesFound_other	%d Stories found
+HashtagStoriesFoundSubtitle	View stories with %s
+HashtagStoriesFoundChannel_one	%1$d story in **%2$s**
+HashtagStoriesFoundChannel_other	%1$d stories in **%2$s**
+HashtagMessagesFound_one	%d message found
+HashtagMessagesFound_other	%d messages found
+HashtagMessagesFoundChannel_one	%1$d message in **%2$s**
+HashtagMessagesFoundChannel_other	%1$d messages in **%2$s**
+HashtagMessagesFoundSubtitle	View posts with %s
+StoryLinkLimitTitle	Limit Reached
+StoryLinkLimitMessage_other	You can’t add more than %d links to a story.
+BotStarsWithdrawalToast	Next withdrawal will be available in **%s**.
+PeriodDHM	%1$sd:%2$sh:%3$sm
+BotMoreTabs_one	%2$s &amp; %1$d Other
+BotMoreTabs_other	%2$s &amp; %1$d Others
+AccDescrTabs	Web tabs %1$s
+MonetizationGraphStarsRevenue	Stars revenue
+BotCloseAllTabs	Close All Tabs
+PaidMediaButton	Make this content paid
+PaidMediaPriceButton	Edit price
+Stars_one	%d Star
+Stars_other	%d Stars
+StarsNano	Stars
+GiveawayStars_one	%d Star
+GiveawayStars_other	%d Stars
+StarsTransactionMedia	Media
+StarsTransactionMessage	Post
+PaidContentTitle	Paid Content
+PaidContentPriceTitle	Enter unlock cost
+PaidContentInfo	Users will have to transfer this amount of Stars to your channel in order to view this media. **Learn more >**
+PaidContentInfoLink	https://telegram.org/tos/stars
+PaidContentButton	Make This Media Paid
+PaidContentUpdateButton	Save Price
+PaidContentClearButton	Keep this media free
+StarMediaPurchase	Media Purchase
+PaidMediaPrice_one	⭐️%d
+PaidMediaPrice_other	⭐️%d
+UnlockPaidContent_one	Unlock for ⭐️%d
+UnlockPaidContent_other	Unlock for ⭐️%d
+UnlockPaidContentShort_one	⭐️%d
+UnlockPaidContentShort_other	⭐️%d
+StarsConfirmPurchaseMedia_SinglePhoto	a **photo**
+StarsConfirmPurchaseMedia_SingleVideo	a **video**
+StarsConfirmPurchaseMedia_Photos_one	**%d photo**
+StarsConfirmPurchaseMedia_Photos_other	**%d photos**
+StarsConfirmPurchaseMedia_Videos_one	**%s video**
+StarsConfirmPurchaseMedia_Videos_other	**%s videos**
+StarsConfirmPurchaseMediaOne2_one	Do you want to unlock %2$s in **%3$s** for **%1$d star**?
+StarsConfirmPurchaseMediaOne2_other	Do you want to unlock %2$s in **%3$s** for **%1$d stars**?
+StarsConfirmPurchaseMediaTwo2_one	Do you want to unlock %2$s and %3$s in **%4$s** for **%1$d star**?
+StarsConfirmPurchaseMediaTwo2_other	Do you want to unlock %2$s and %3$s in **%4$s** for **%1$d stars**?
+StarsConfirmPurchaseMediaBotOne2_one	Do you want to unlock %2$s from **%3$s** for **%1$d star**?
+StarsConfirmPurchaseMediaBotOne2_other	Do you want to unlock %2$s from **%3$s** for **%1$d stars**?
+StarsConfirmPurchaseMediaBotTwo2_one	Do you want to unlock %2$s and %3$s from **%4$s** for **%1$d star**?
+StarsConfirmPurchaseMediaBotTwo2_other	Do you want to unlock %2$s and %3$s from **%4$s** for **%1$d stars**?
+AttachPaidMedia	⭐️ %s
+GiftStarsTitle	Gift Stars
+GiftStarsSubtitle	With Stars, **%s** will be able to unlock content and services on Telegram.
+GiftStarsSubtitleLinkName	**See Examples >**
+ActionGiftStarsTitle_one	%d Star
+ActionGiftStarsTitle_other	%d Stars
+ActionGiftStarsSubtitle	With Stars, **%s** is able to unlock content and services on Telegram.
+ActionGiftStarsSubtitleYou	Use Stars to unlock content and services on Telegram.
+ActionGiftStarsView	View
+StarsGiftReceived	Received Gift
+StarsGiveawayPrizeReceived	Received Prize
+StarsGiftSent	Sent Gift
+StarsGiftSentPopup	Stars Gift Sent!
+StarsGiftSentPopupInfo_one	**%1$d Star** sent as gift to %2$s.
+StarsGiftSentPopupInfo_other	**%1$d Stars** sent as gift to %2$s.
+StarsGiveawaySentPopup	Giveaway Started!
+StarsGiveawaySentPopupInfo_one	Winners will receive a total of **%1$d Star**.
+StarsGiveawaySentPopupInfo_other	Winners will receive a total of **%1$d Stars**.
+WebEmpty	Webpage
+WebErrorTitle	Oops...
+WebErrorInfo	Failed to load page.
+WebErrorInfoDomain	Failed to load **%s**.
+WebErrorInfoBot	Failed to load **%s**.
+WebDownloading	Downloading...
+WebDownloadingFile	Downloading %s...
+WebDownloadAlertTitle	Download file
+WebDownloadAlertInfo	Start downloading **%s**?
+WebDownloadAlertInfoWithSize	Start downloading **%1$s** (%2$s)?
+WebDownloadAlertYes	Download
+WebSectionRecent	Recent searches
+WebSectionBookmarks	Bookmarks
+WebRecentClear	Clear
+WebRecentClearTitle	Clear recent searches?
+WebRecentClearText	Do you want to clear your recent search queries?
+SearchEngine	Search Engine
+OpenInTelegramBrowser	Open in Telegram
+OpenInTelegramBrowser2	Open In-App
+OpenInSystemBrowser	Open in...
+OpenInSystemBrowser2	Open in Browser
+AppsTab	Apps
+ProfileBotOpenApp	Open App
+ProfileBotOpenAppInfo	By launching this mini app, you agree to the **Terms of Service for Mini Apps.**
+ProfileBotOpenAppInfoLink	https://telegram.org/tos/mini-apps
+ProfileBotOpenAppInfoOwner	By publishing this mini app, you agree to the **Telegram Terms of Service for Developers.**
+ProfileBotOpenAppInfoOwnerLink	https://telegram.org/tos/mini-apps

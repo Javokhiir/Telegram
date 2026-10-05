@@ -10786,6 +10786,35 @@ public class MessagesStorage extends BaseController {
                 }
                 cursor.dispose();
             }
+            if (UserObject.isDeleted(user)) {
+                SQLiteCursor cursor = database.queryFinalized(String.format(Locale.US, "SELECT data FROM users WHERE uid = %d", user.id));
+                if (cursor.next()) {
+                    try {
+                        NativeByteBuffer oldData = cursor.byteBufferValue(0);
+                        if (oldData != null) {
+                            TLRPC.User oldUser = TLRPC.User.TLdeserialize(oldData, oldData.readInt32(false), false);
+                            oldData.reuse();
+                            if (oldUser != null) {
+                                if (TextUtils.isEmpty(user.first_name) && !TextUtils.isEmpty(oldUser.first_name)) {
+                                    user.first_name = oldUser.first_name;
+                                    user.flags |= 2;
+                                }
+                                if (TextUtils.isEmpty(user.last_name) && !TextUtils.isEmpty(oldUser.last_name)) {
+                                    user.last_name = oldUser.last_name;
+                                    user.flags |= 4;
+                                }
+                                if (user.photo == null && oldUser.photo != null) {
+                                    user.photo = oldUser.photo;
+                                    user.flags |= 32;
+                                }
+                            }
+                        }
+                    } catch (Exception e) {
+                        checkSQLException(e);
+                    }
+                }
+                cursor.dispose();
+            }
             state.requery();
             NativeByteBuffer data = new NativeByteBuffer(user.getObjectSize());
             user.serializeToStream(data);

@@ -1,0 +1,389 @@
+StoryCameraSavedDualBackHint	Tap here to disable the second camera
+StoryCameraSavedDualFrontHint	Tap here to disable the selfie camera
+CacheStories	Stories
+UnlockPremium	Subscribe to **Telegram Premium** to unlock this and many other features.
+ArchiveSettingUnmutedFolders	Unmuted chats
+ArchiveSettingUnmutedFoldersCheck	Always keep archived
+ArchiveSettingUnmutedFoldersInfo	Keep archived chats in the Archive even if they are unmuted and get a new message.
+ArchiveSettingUnmutedChats	Chats from folders
+ArchiveSettingUnmutedChatsCheck	Always keep archived
+ArchiveSettingUnmutedChatsInfo	Keep archived chats from folders in the Archive even if they are unmuted and get a new message.
+NewChatsFromNonContactsCheck	Automatically archive
+ArchiveHintSubtitle	Archived chats will remain in the Archive when you receive a new message. **Tap to change >**
+ArchiveHintSubtitleUnmutedMove	When you receive a new message, muted chats will remain in the Archive, while unmuted chats will be moved to Chats. **Tap to change >**
+ArchiveSettings	Archive Settings
+HowDoesItWork	How does it work?
+ArchiveHintSection1	Archived Chats
+ArchiveHintSection1Info	Move any chat into your Archive and back by swiping on it.
+ArchiveHintSection2	Hiding Archive
+ArchiveHintSection2Info	Hide the Archive from your Main screen by swiping on it.
+ArchiveHintSection3	Stories
+ArchiveHintSection3Info	Archive Stories from your contacts separately from chats with them.
+GotIt	Got it
+DebugMenuDualOff	Hide Dual Camera
+DebugMenuDualOffToast	Dual camera button is hidden
+DebugMenuDualOn	Show Dual Camera
+DebugMenuDualOnToast	Dual camera is enabled at your peril
+DualErrorTitle	:(
+DualErrorMessage	Unfortunately, the Dual camera mode is not supported on your device.
+StoriesTooMuch_one	You can’t post more than **%d story** in **24 hours**.
+StoriesTooMuch_other	You can’t post more than **%d stories** in **24 hours**.
+StoriesPremiumHint2	Posting stories is currently available only to subscribers of **Telegram Premium**.
+ArchivePeerStories	Hide Stories
+UnarchiveStories	Unhide Stories
+StoryPremiumFormatting	Subscribe to **Telegram Premium** to add links and text formatting to your stories.
+StoryPremiumWidgets2_other	Subscribe to **Telegram Premium** to add up to %d reactions and tags to a story.
+CaptionPremiumTitle	Maximum Length Reach
+CaptionPremiumSubtitle_other	Increase this limit **%1$d** times to **%2$s** symbols by subscribing to __Telegram Premium.__
+ExpiredViewsStubPremiumDescription	To unlock viewers’ lists for expired and saved stories, subscribe to **Telegram Premium.**
+LearnMore	Learn More
+SaveStoryToGalleryPremiumHint	**Subscribe to Premium** to save other people’s unprotected stories to your gallery.
+PremiumPreviewStories	Upgraded Stories
+PremiumPreviewStoriesDescription	Priority order, stealth mode, permanent views history and more.
+PremiumPreviewBusinessStories	Add a Post
+PremiumPreviewBusinessStoriesDescription	Publish photos and videos of your goods or services on your page.
+PremiumStoriesPriority	Priority Order
+PremiumStoriesPriorityDescription	Get more views as your stories are always displayed first.
+PremiumStoriesStealth	Stealth Mode
+PremiumStoriesStealthDescription	Hide the fact that you viewed other people’s stories.
+PremiumStoriesQuality	Higher quality
+PremiumStoriesQualityDescription	View video stories in double the resolution.
+PremiumStoriesViews	Permanent Views History
+PremiumStoriesViewsDescription	Check who opens your stories — even after they expire.
+PremiumStoriesExpiration	Expiration Durations
+PremiumStoriesExpirationDescription	Set custom expiration durations like 6 or 48 hours for your stories.
+PremiumStoriesSaveToGallery	Save Stories to Gallery
+PremiumStoriesSaveToGalleryDescription	Save other people’s unprotected stories to your Gallery.
+PremiumStoriesCaption	Longer Captions
+PremiumStoriesCaptionDescription	Add ten times longer captions to your stories — up to 2048 symbols.
+PremiumStoriesFormatting	Links and Formatting
+PremiumStoriesFormattingDescription	Add links and formatting in captions of your stories.
+UpgradedStories	Upgraded Stories
+StealthModeButton	Hide My View
+StealthModeTitle	Stealth Mode
+StealthModePremiumHint	Subscribe to Telegram Premium to hide the fact that you viewed peoples’ stories from them.
+ViewAnonymously	View\nAnonymously
+HideRecentViews	Hide Recent Views
+HideRecentViewsDescription	Hide my views in the last 5 minutes.
+HideNextViews	Hide Next Views
+HideNextViewsDescription	Hide my views in the next 25 minutes.
+UnlockStealthMode	Unlock Stealth Mode
+StealthModeHint	Turn Stealth Mode on to hide the fact that you viewed peoples’ stories from them.
+EnableStealthMode	Enable Stealth Mode
+EnableStealthModeAndOpenStory	Enable and open the story
+AvailableIn	Available in %s
+StealthModeOn	Stealth Mode On
+StealthModeOnHint	The creators of stories you viewed in the last 5 minutes or will view in the next 25 minutes won’t see you in viewers’ lists.
+StealthModeActiveHint	Stealth Mode active – %s
+StealthModeActiveHintShort	Stealth Mode %s
+GroupTooLarge	Group Too Large
+GroupTooLargeMessage	You can select groups that are up to 200 members.
+StealthModeIsActive	Stealth Mode Is Active
+StealthModeCooldownHint	Please wait until the **Stealth Mode** is ready to use again.
+StoryViewLocation	View Location >
+StoryViewMessage	View Message >
+LocationsShowAll	Show All
+StoryViewGift	Show Gift >
+AccDescrLike	Like
+ReactionLongTapHint	Long tap for more reactions
+ReactionAddReactionsHint	Add Reactions...
+ReactionCreateOwnPack	You can also **create your own** emoji packs and use them.
+ReactionAddEmojiFromAnyPack	You can add emoji from any emoji pack as a reaction.
+ReactionUpdateReactionsBtn	Update Reactions
+ReactionLevelRequiredBtn_one	Level %1$d Required
+ReactionLevelRequiredBtn_other	Level %1$d Required
+MaximumReactionsHeader	Maximum number of reactions
+MaximumReactionsValue_one	%d reaction per post
+MaximumReactionsValue_other	%d reactions per post
+MaximumReactionsInfo	Limit the number of different reactions that can be added to a post, including already published ones.
+ReactionReachLvlForReactionShort_one	Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.
+ReactionReachLvlForReactionShort_other	Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.
+ReactionReachLvlForReaction_one	Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.\n\nAsk your **Premium** subscribers to boost your channel with this link:
+ReactionReachLvlForReaction_other	Your channel needs to reach Level **%2$d** to add **%1$d** custom emoji as reactions.\n\nAsk your **Premium** subscribers to boost your channel with this link:
+ReactionCustomReactions	Custom Reactions
+ReactionApplyChangesDialog	You have changed the list of reactions. Apply changes?
+ReactionMaxCountError_one	You can select maximum %1$d reaction.
+ReactionMaxCountError_other	You can select maximum %1$d reactions.
+AllViewers	All viewers
+SortByReactions	Reactions First
+SortByReposts	Reposts First
+SortByTime	Newest First
+StoryViewsSortDescription	Choose the order for the  list of viewers.
+StoryReactionsSortDescription	Choose the order for the  list of reactions.
+NoContactsViewed	None of your contacts viewed this story.
+Viewers	Viewers
+StealthModeConfirmTitle	You are in Stealth Mode now
+StealthModeConfirmMessage	If you sending a reply or reaction, the creator of the story will also see you in the list of viewers.
+ServerErrorViewersTitle	Oops
+ServerErrorViewers	Information about the viewers wasn\'t recorded.
+ServerErrorViewersFull	Information about the other viewers wasn\'t recorded.
+StoryHidFromToast	%s would not be able to see your stories.
+StoryShownBackToToast	%s would be able to see your stories again.
+SearchImagesType	Type to search.
+NoViews	No views
+StoryViewsPremiumHint	To unlock viewers’ lists for expired and saved  stories, subscribe to **Telegram Premium.**
+Likes_one	%d like
+Likes_other	%d likes
+Reposts_one	%d repost
+Reposts_other	%d reposts
+Reactions_one	%d reaction
+Reactions_other	%d reactions
+LimitReachedStoriesCount2First_one	You can post **%d** story in **24** hours.
+LimitReachedStoriesCount2First_other	You can post **%d** stories in **24** hours.
+LimitReachedStoriesCount2Second_one	Subscribe to **Telegram Premium** to increase this limit to **%d**.
+LimitReachedStoriesCount2Second_other	Subscribe to **Telegram Premium** to increase this limit to **%d**.
+LimitReachedStoriesCount2Premium_one	Sorry, you can’t post more than **%d** story in **24** hours.
+LimitReachedStoriesCount2Premium_other	Sorry, you can’t post more than **%d** stories in **24** hours.
+LimitReachedStoriesWeekly	You can post **%1$d** stories in a week.\nSubscribe to **Telegram Premium** to increase this limit to **%2$d**.
+LimitReachedStoriesWeeklyPremium	Sorry, you can’t post more than **%1$d** stories in a week.
+LimitReachedStoriesMonthly	You can post **%1$d** stories in a month.\nSubscribe to **Telegram Premium** to increase this limit to **%2$d**.
+LimitReachedStoriesMonthlyPremium	Sorry, you can’t post more than **%1$d** stories in a month.
+UsersDeselectAll	Deselect All
+StoryWidgetLocation	Location
+StoryWidgetAudio	Audio
+StoryWidgetPhoto	Photo
+StoryWidgetLink	Link
+StoryReactionsHint	Send reaction as a private message
+StoryGroupReactionsHint	Send reaction as a message
+StoryAudioRemove	Remove Audio
+StoryRoundRemove	Remove Video
+StoryPrivacyPublishAs	Publish story as
+StoryPrivacyPublishLiveAs	Stream as
+StoryLivePrivacyPublishAs	Start live as
+StoryPrivacyWhoCanView	Who can view your story
+StoryLivePrivacyWhoCanView	Who can view this live
+OpenChannelArchiveStories	Archived Stories
+SaveToPosts	Save to Posts
+RemoveFromPosts	Remove from Posts
+TimerPeriodPhotoKeep	Photo will be kept.
+TimerPeriodVideoKeep	Video will be kept.
+TimerPeriodPhotoSetOnce	Photo set to view once
+TimerPeriodVideoSetOnce	Video set to view once
+VideoShownOnce	This video can only be viewed once.
+PhotoShownOnce	This photo can only be viewed once.
+TimerPeriodPhotoSetSeconds_one	Photo will be deleted in **%d** second after opening.
+TimerPeriodPhotoSetSeconds_other	Photo will be deleted in **%d** seconds after opening.
+TimerPeriodVideoSetSeconds_one	Video will be deleted in **%d** second after opening.
+TimerPeriodVideoSetSeconds_other	Video will be deleted in **%d** seconds after opening.
+Boosters	Boosters
+LinkForBoosting	Link for boosting
+Boosts	Boosts
+BoostsLevel	Level %d
+StarRatingLevel	Level %d
+StarRatingLevelNegative	Negative Rating
+StarRatingLevelNegativeYou_one	A negative rating indicates that your payments are unreliable. Spend **%1$d Star** to fix this issue.
+StarRatingLevelNegativeYou_other	A negative rating indicates that your payments are unreliable. Spend **%1$d Stars** to fix this issue.
+StarRatingLevelNegativeOther	A negative rating indicates that **%1$s’s** payments are unreliable.
+BoostsLevel2	Level
+BoostingBoostToSendMessages	Boost this group to send messages
+BoostingEnableStories	Enable Stories
+BoostingGroupBoostCount_one	The group has **%d** boost.
+BoostingGroupBoostCount_other	The group has **%d** boosts.
+BoostingGroupBoostWhatAreBoosts	What are boosts?
+BoostingGroupBoostWhatAreBoostsDescription_one	Every **Telegram Premium** subscriber can boost your group **%d** time and help you unlock more features by using this link:
+BoostingGroupBoostWhatAreBoostsDescription_other	Every **Telegram Premium** subscriber can boost your group **%d** times and help you unlock more features by using this link:
+BoostingStoriesByGiftingChannel2	Boost your channel by giving away prizes to your subscribers.
+BoostingStoriesByGiftingGroup2	Boost your group by giving away prizes to your members.
+BoostingStoriesByGiftingLink	Get boosts >
+BoostingStoriesFeaturesAndTerms	You can review the list of features and terms of use for Telegram Premium **here**.
+BoostingGiveawayShortStatusParticipating	You are participating in this giveaway.
+BoostingGiveawayShortStatusNotParticipating	You can\'t participate in this giveaway.
+BoostingGiveawayShortStatusEnded	The giveaway is ended.
+BoostingCongratulations	Congratulations!
+BoostingReceivedGiftFrom	You\'ve received a gift\nfrom **%s**.
+BoostingReceivedGiftNoName	You\'ve received a gift.
+BoostingReceivedStars_one	You\'ve received a prize of %1$d Star from %2$s!
+BoostingReceivedStars_other	You\'ve received a prize of %1$d Stars from %2$s!
+BoostingReceivedGiftDuration	Your gift is a **Telegram Premium**\nsubscription for %s.
+BoostingUnclaimedPrize	Unclaimed Prize
+BoostingYouHaveUnclaimedPrize	You have an unclaimed prize from a giveaway by **%s**.
+BoostingUnclaimedPrizeDuration	This prize is a **Telegram Premium** subscription for %s.
+BoostingReceivedPrizeFrom	You won a prize in a giveaway organized by **%s**.
+BoostingReceivedPrizeDuration	Your prize is a **Telegram Premium** subscription for %s.
+BoostingReceivedGiftOpenBtn	Open Gift Link
+BoostingSaveRecipients	Save Recipients
+BoostingGiveawayJustStarted	%s just started a giveaway of Telegram Premium subscriptions to its followers.
+BoostingGiveawayJustStartedGroup	%s just started a giveaway of Telegram Premium subscriptions to its members.
+BoostingStarsGiveawayJustStarted_one	%2$s just started a giveaway of %1$d Star to its followers.
+BoostingStarsGiveawayJustStarted_other	%2$s just started a giveaway of %1$d Stars to its followers.
+BoostingStarsGiveawayJustStartedGroup_one	%2$s just started a giveaway of %1$d Star to its members.
+BoostingStarsGiveawayJustStartedGroup_other	%2$s just started a giveaway of %1$d Stars to its members.
+BoostingGiveawayDeleteMsgTitle	Delete announcement
+BoostingGiveawayDeleteMsgText	Deleting this message won\'t cancel the giveaway - the winners will still be selected on **%s**.\n\nOnce deleted, the Giveaway Announcement cannot be restored.
+BoostingGiveawayServiceWinnersSelected_one	%d winner of the giveaway were randomly selected by Telegram and received private message with giftcode.
+BoostingGiveawayServiceWinnersSelected_other	%d winners of the giveaway were randomly selected by Telegram and received private messages with giftcodes.
+BoostingStarsGiveawayServiceWinnersSelected_one	%1$d winner of the giveaway were randomly selected by Telegram.
+BoostingStarsGiveawayServiceWinnersSelected_other	%1$d winners of the giveaway were randomly selected by Telegram.
+BoostingGiveawayServiceUndistributed_one	%d undistributed link codes were forwarded to channel administrators.
+BoostingGiveawayServiceUndistributed_other	%d undistributed links codes were forwarded to channel administrators.
+BoostingGiveawayServiceUndistributedGroup_one	%d undistributed link codes were forwarded to group administrators.
+BoostingGiveawayServiceUndistributedGroup_other	%d undistributed links codes were forwarded to group administrators.
+BoostingStarsGiveawayServiceUndistributed_one	%d undistributed stars were forwarded to channel administrators.
+BoostingStarsGiveawayServiceUndistributed_other	%d undistributed stars were forwarded to channel administrators.
+BoostingStarsGiveawayServiceUndistributedGroup_one	%d undistributed stars were forwarded to group administrators.
+BoostingStarsGiveawayServiceUndistributedGroup_other	%d undistributed stars were forwarded to group administrators.
+BoostingBoostsGroupByUserServiceMsg	%s boosted the group
+BoostingBoostsGroupByUserServiceMsgCount_other	%2$s boosted the group %1$d times
+BoostingBoostsChannelByUserServiceMsg	%s boosted the channel
+BoostingBoostsChannelByUserServiceMsgCount_other	%2$s boosted the channel %1$d times
+BoostingBoostsGroupByYouServiceMsg	You boosted the group
+BoostingBoostsGroupByYouServiceMsgCount_other	You boosted the group %1$d times
+BoostingBoostsChannelByYouServiceMsg	You boosted the channel
+BoostingBoostsChannelByYouServiceMsgCount_other	You boosted the channel %1$d times
+BoostingBoostsCountTitle_one	%d boost
+BoostingBoostsCountTitle_other	%d boosts
+BoostingSubscriptionsCountPlural_one	%2$s subscription
+BoostingSubscriptionsCountPlural_other	%2$s subscriptions
+BoostingStarsCountPlural_one	%1$d Star
+BoostingStarsCountPlural_other	%1$d Stars
+BoostingTelegramPremiumCountPlural_one	%1$d Telegram Premium
+BoostingTelegramPremiumCountPlural_other	%1$d Telegram Premium
+BoostingGetBoostsViaGifts	Get Boosts via Gifts
+BoostingUseLink	Use Link
+BoostingShareThisLink	Share this link with your subsсribers to get more boosts.
+BoostingShareThisLinkGroup	Share this link with your members to get more boosts.
+BoostingStartGiveaway	Start Giveaway
+BoostingBoostForGroups	Boosts for Groups
+BoostingBoostForChannels	Boosts for Channels
+BoostingBoostForGroupsInfo	Members of your group can **boost** it so that it **levels up** and gets **exclusive features**.
+BoostingBoostForChannelsInfo	Subscribers of your channel can **boost** it so that it **levels up** and gets **exclusive features**.
+BoostingSelectPaidGiveaway	Select a giveaway you already paid for to set it up.
+BoostingAddChannelOrGroup	Add Group or Channel
+BoostingPremium	Telegram Premium
+BoostingStars	Telegram Stars
+BoostingCreateGiveaway	Create Giveaway
+BoostingShowMoreGifts_one	Show %1$d More Gifted Boosts
+BoostingShowMoreGifts_other	Show %1$d More Gifted Boosts
+BoostingGiftsCount_one	%1$d Gift
+BoostingGiftsCount_other	%1$d Gifts
+BoostingBoostsCount_one	%1$d Boost
+BoostingBoostsCount_other	%1$d Boosts
+BoostingShowMoreBoosts_one	Show %1$d More Boost
+BoostingShowMoreBoosts_other	Show %1$d More Boosts
+BoostingUnclaimed	Unclaimed
+BoostingToBeDistributed	To be distributed
+BoostingBoostStars_one	%d Star
+BoostingBoostStars_other	%d Stars
+BoostingShortMonths	%1$dm
+BoostingStarsExpires	expires on %s
+BoostingExpires	boost expires on %s
+BoostingGiveaway	Giveaway
+BoostingGiveawayResults	Giveaway results
+BoostingGiveawayChannelStarted	Channel started a giveaway
+BoostingGiveawayGroupStarted	Group started a giveaway
+BoostingRecipientWillBeSelected	The recipient will be selected when the giveaway ends.
+BoostingIncompleteGiveaway	Incomplete Giveaway
+BoostingNoRecipient	No recipient
+BoostingSelectCountry	Select Countries
+BoostingTelegramPremiumFor	Telegram Premium for %s
+BoostingWinnersRandomly	winners are chosen randomly
+BoostingAwardSpecificUsers	Award Specific Users
+BoostingChannelWillReceiveBoost_one	this channel will receive %d boost
+BoostingChannelWillReceiveBoost_other	this channel will receive %d boosts
+BoostingGroupWillReceiveBoost_one	this group will receive %d boost
+BoostingGroupWillReceiveBoost_other	this group will receive %d boosts
+BoostingDateAndTime	Date and Time
+BoostingBoostsViaGifts	Boosts via Gifts
+BoostingUsedGiftLink	Used Gift Link
+BoostingGiftLink	Gift Link
+BoostingGetMoreBoost	Get more boosts for your channel by gifting Premium to your subscribers.
+BoostingGetMoreBoosts	Get more boosts for your channel by gifting Premium to your subscribers.
+BoostingGetMoreBoost2	Get more boosts and subscribers for your channel by giving away prizes.
+BoostingGetMoreBoosts2	Get more boosts and subscribers for your channel by giving away prizes.
+BoostingGetMoreBoostGroup	Get more boosts for your group by gifting Premium to your members.
+BoostingGetMoreBoostsGroup	Get more boosts for your group by gifting Premium to your subscribers.
+BoostingGetMoreBoostByGifting	To boost **%1$s**, get more boosts by gifting **Telegram Premium** to a friend.
+BoostingGetMoreBoostByGiftingCount_one	To boost **%2$s**, get **%1$d** more boost by gifting **Telegram Premium** to a friend.
+BoostingGetMoreBoostByGiftingCount_other	To boost **%2$s**, get **%1$d** more boosts by gifting **Telegram Premium** to a friend.
+BoostingLinkUsed	This link was used to activate\na **Telegram Premium** subscription.
+BoostingLinkAllows	This link allows you to activate\na **Telegram Premium** subscription.
+BoostingLinkAllowsToUser	This link allows **%1$s** to activate a **Telegram Premium** subscription.
+BoostingLinkAllowsAnyone	This link allows anyone to activate\na **Telegram Premium** subscription.
+BoostingLinkNotActivated	This link hasn\'t been activated yet.
+BoostingAllSubscribers	All subscribers
+BoostingNewSubscribers	Only new subscribers
+BoostingAllMembers	All members
+BoostingNewMembers	Only new members
+BoostingSelectDateTime	Select Date and Time
+BoostingConfirm	Confirm
+BoostingFrom	From
+BoostingTo	To
+BoostingGift	Gift
+BoostingYouWereSelected	You were selected by the channel
+BoostingYouWereSelectedGroup	You were selected by the group
+BoostingReason	Reason
+BoostingDate	Date
+BoostingPreparedGiveaways	Prepaid giveaways
+BoostingPreparedGiveawayOne	Prepaid giveaway
+BoostingPreparedGiveawaySubscriptionsPlural_one	%1$d subscription for %2$s
+BoostingPreparedGiveawaySubscriptionsPlural_other	%1$d subscriptions for %2$s
+BoostingStarsPreparedGiveawaySubscriptionsPlural_one	%1$d star
+BoostingStarsPreparedGiveawaySubscriptionsPlural_other	%1$d stars
+BoostingSelectRecipients	select recipients
+BoostingFromAllCountries	from all countries
+BoostingFromAllCountries1	from %1$s
+BoostingFromAllCountries2	from %1$s, %2$s
+BoostingFromAllCountries3	from %1$s, %2$s, %3$s
+BoostingFromCountriesCount_one	from %1$d country
+BoostingFromCountriesCount_other	from %1$d countries
+BoostingSendLinkToFriends	You can also **send this link** to a friend as a gift.
+BoostingSendLinkToAnyone	You can also **send this link** to anyone as a gift.
+BoostingUsedLinkDate	This link was used on %s.
+BoostingQuantityPrizes	Quantity of prizes
+BoostingStarsQuantityPrizes	Number of winners
+BoostingStarsQuantityPrizesInfo	Choose how many winners you want to distribute stars among.
+BoostingStarsOptions	Stars to distribute
+BoostingStarOptionPerUser_one	%d per user
+BoostingStarOptionPerUser_other	%d per user
+BoostingStarsOptionsInfo	Choose how many stars to give away and how many boosts to receive for 1 year.
+BoostingChooseHowMany	Choose how many Premium subscriptions to give away and boosts to receive.
+BoostingChannelsGroupsIncludedGiveaway	Groups and channels included
+BoostingChooseChannelsGroupsNeedToJoin	Choose groups and channels the users need to join to take part in the giveaway.
+BoostingEligibleUsers	Users eligible for the giveaway
+BoostingChooseLimitGiveaway	Choose if you want to limit the giveaway only to those who joined the channel after the giveaway started or to users from specific countries.
+BoostingChooseLimitGiveawayGroups	Choose if you want to limit the giveaway only to those who joined the group after the giveaway started or to users from specific countries.
+BoostingDateWhenGiveawayEnds	Date when giveaway ends
+BoostingChooseRandom_one	Choose when %d subscriber of your channel will be randomly selected to receive Telegram Premium.
+BoostingChooseRandom_other	Choose when %d subscribers of your channel will be randomly selected to receive Telegram Premium.
+BoostingChooseRandomGroup_one	Choose when %d members of your group will be randomly selected to receive Telegram Premium.
+BoostingChooseRandomGroup_other	Choose when %d members of your group will be randomly selected to receive Telegram Premium.
+BoostingStarsChooseRandom_one	Choose when %1$d subscriber of your channel will be randomly selected to receive %2$s.
+BoostingStarsChooseRandom_other	Choose when %1$d subscribers of your channel will be randomly selected to receive %2$s.
+BoostingStarsChooseRandomGroup_one	Choose when %1$d members of your group will be randomly selected to receive %2$s.
+BoostingStarsChooseRandomGroup_other	Choose when %1$d members of your group will be randomly selected to receive %2$s.
+BoostingStarsChooseRandomStars_one	%1$d Star
+BoostingStarsChooseRandomStars_other	%1$d Stars
+GiveawayChooseUsersRandomly	Choose Randomly
+BoostingCheckStatistic	Check your channels’ **Statistics** to see how this giveaway boosted your channel.
+BoostingCheckGiftsStatistic	Check your channels’ **Statistics** to see how gifts boosted your channel.
+BoostingCheckStatisticGroup	Check your groups’ **Statistics** to see how this giveaway boosted your group.
+BoostingCheckGiftsStatisticGroup	Check your groups’ **Statistics** to see how gifts boosted your group.
+BoostingGiveawayCreated	Giveaway created
+BoostingGiftLinkForwardedTo	Gift link forwarded to **%1$s**.
+BoostingGiftLinkForwardedToSavedMsg	Gift link forwarded to **Saved Messages**.
+BoostingAwardsCreated	Premium Subscriptions Gifted
+BoostingGiveawayEnterYourPrize	Enter Your Prize
+BoostingGiveawayAdditionalPrizes	Additional Prizes
+BoostingGiveawayShowWinners	Show Winners
+BoostingGiveawayShowWinnersHint	Choose whether to make the list of winners public when the giveaway ends.
+BoostingGiveawayAdditionPrizeHint	Turn this on if you want to give the winners your own prizes in addition to Premium subscriptions.
+BoostingStarsGiveawayAdditionPrizeHint	Turn this on if you want to give the winners your own prizes in addition to Stars.
+BoostingGiveawayAdditionPrizeCountNameHint_one	All prizes: **%1$d** %2$s with Telegram Premium subscriptions for %3$s.
+BoostingGiveawayAdditionPrizeCountNameHint_other	All prizes: **%1$d** %2$s with Telegram Premium subscriptions for %3$s.
+BoostingGiveawayAdditionPrizeCountHint_one	All prizes: **%1$d** Telegram Premium subscriptions for %2$s.
+BoostingGiveawayAdditionPrizeCountHint_other	All prizes: **%1$d** Telegram Premium subscriptions for %2$s.
+BoostingStarsGiveawayAdditionPrizeCountNameHint_one	All prizes: **%2$d** %3$s with **%1$d Star**.
+BoostingStarsGiveawayAdditionPrizeCountNameHint_other	All prizes: **%2$d** %3$s with **%1$d Stars**.
+BoostingStarsGiveawayAdditionPrizeCountHint_one	All prizes: **%1$d Star**.
+BoostingStarsGiveawayAdditionPrizeCountHint_other	All prizes: **%1$d Stars**.
+BoostingGiveawayHowItWorksText_one	This giveaway is sponsored by the admins of **%2$s**, who acquired **%3$s Telegram Premium** subscription for %4$s for its followers.
+BoostingGiveawayHowItWorksText_other	This giveaway is sponsored by the admins of **%2$s**, who acquired **%3$s Telegram Premium** subscriptions for %4$s for its followers.
+BoostingStarsGiveawayHowItWorksText_one	This giveaway is sponsored by the admins of **%2$s**, who acquired **%1$d Star** for its followers.
+BoostingStarsGiveawayHowItWorksText_other	This giveaway is sponsored by the admins of **%2$s**, who acquired **%1$d Stars** for its followers.
+BoostingGiveawayHowItWorksTextGroup_one	This giveaway is sponsored by the admins of **%2$s**, who acquired **%3$s Telegram Premium** subscription for %4$s for its members.
+BoostingGiveawayHowItWorksTextGroup_other	This giveaway is sponsored by the admins of **%2$s**, who acquired **%3$s Telegram Premium** subscriptions for %4$s for its members.
+BoostingStarsGiveawayHowItWorksTextGroup_one	This giveaway is sponsored by the admins of **%2$s**, who acquired **%1$d Star** for its members.
+BoostingStarsGiveawayHowItWorksTextGroup_other	This giveaway is sponsored by the admins of **%2$s**, who acquired **%1$d Stars** for its members.
+BoostingGiveawayHowItWorksIncludeText_one	**%2$s** also included **%1$d** **%3$s** in the prizes. Admins of the channel are responsible for delivering these prizes.
+BoostingGiveawayHowItWorksIncludeText_other	**%2$s** also included **%1$d** **%3$s** in the prizes. Admins of the channel are responsible for delivering these prizes.
+BoostingGiveawayHowItWorksSubText_one	On **%2$s**, Telegram will automatically select **%3$s** random user that joined **%4$s**.

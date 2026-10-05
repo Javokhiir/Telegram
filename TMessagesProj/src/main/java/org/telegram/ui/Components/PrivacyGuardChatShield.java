@@ -74,6 +74,11 @@ public class PrivacyGuardChatShield implements PrivacyGuardController.Host {
     private boolean attached;
     private boolean hidden;
     private boolean locked;
+    // After an unlock the analyzer still has verdicts in flight from before it heard the dismiss; without
+    // this grace one of them re-locked the screen right away and the cover could never be opened.
+    private static final long REVEAL_GRACE_MS = 1500;
+    private long revealedAt;
+    private boolean wasProtected;
     private boolean holdUntilResult;
     private int reason = PrivacyGuardStateMachine.REASON_UNKNOWN_VIEWER;
     private float progress;
@@ -200,13 +205,16 @@ public class PrivacyGuardChatShield implements PrivacyGuardController.Host {
         if (status.state == PrivacyGuardStateMachine.State.DISABLED) {
             locked = false;
         }
-        final boolean protect = status.isProtected();
+        final boolean protect = status.isProtected()
+                && android.os.SystemClock.elapsedRealtime() - revealedAt >= REVEAL_GRACE_MS;
         if (protect) {
             reason = status.reason;
-            if (PrivacyGuardSettings.getAction() == PrivacyGuardSettings.ACTION_LOCK) {
+            // lock on a new detection only, not on every repeat of the same one
+            if (!wasProtected && PrivacyGuardSettings.getAction() == PrivacyGuardSettings.ACTION_LOCK) {
                 locked = true;
             }
         }
+        wasProtected = protect;
         if (flagSecure != null) {
             flagSecure.invalidate();
         }
@@ -381,6 +389,8 @@ public class PrivacyGuardChatShield implements PrivacyGuardController.Host {
     /** The user chose to see the chat now; new viewers will hide it again. */
     private void reveal() {
         locked = false;
+        wasProtected = false;
+        revealedAt = android.os.SystemClock.elapsedRealtime();
         PrivacyGuardController.getInstance().dismiss();
         setHidden(false);
     }

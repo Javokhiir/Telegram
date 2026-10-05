@@ -1,0 +1,535 @@
+PaymentInvoiceSubscriptionLinkAlreadyPaid	Siz álleqashan jazılǵansız!
+PaymentInvoice	ESAP-FAKTURA
+PaymentInvoiceDisabledStarsText	Juldızlar jetkiliksiz
+StarsPurchaseUnavailable	Házirgi waqıtta juldız satıp alıw múmkin emes.
+PaymentTestInvoice	SINAQ ESAP-FAKTURA
+PaymentCheckoutPay	%1$s TÓLEW
+PaymentCheckoutMethod	Tólem usılı
+PaymentCheckoutMethodNewCard	Jańa karta
+PaymentCheckoutProvider	Tólem provayderi
+PaymentCheckoutName	Atı
+PaymentCheckoutPhoneNumber	Telefon nomeri
+PaymentCheckoutEmail	Baylanıs mánzili
+PaymentCheckoutShippingMethod	Jetkerip beriw usılı
+PaymentReceipt	Túbirtek
+PaymentConfirmationNewCard	Basqa kartanı tańlaw
+PaymentConfirmationMessage	%1$s kartańız saqlanǵan. Usı karta menen tólew ushın eki basqıshlı tastıyıqlaw parolin kiritiń.
+PaymentPrecheckoutFailed	Keshiriń, tólemdi bot biykarladı.
+PaymentFailed	Keshiriń, tólem qabıllanbadı.
+PaymentConnectionFailed	Tólem serverine baylanısıw múmkin bolmadı. Internet baylanısıńızdı tekserip, qayta urınıp kóriń.
+PaymentConfirmationError	Tólemdi tastıyıqlawda qátelik júz berdi.
+PaymentWarning	Eskertiw
+PaymentWarningText	Telegram da, %1$s da kredit kartańız maǵlıwmatlarına kire almaydı. Karta maǵlıwmatların tek %2$s tólem sisteması qayta isleydi.\n\nTólemler tikkeley %1$s islep shıǵıwshısına túsedi. Telegram hesh qanday kepillik bere almaydı, sonıń ushın óz táwekelińiz benen dawam etiń. Mashqala payda bolsa, %1$s islep shıǵıwshısına yamasa bankıńızǵa múrájat etiń.
+PaymentPassword	Parol &amp; Email
+PaymentPasswordTitle	Parol
+PaymentPasswordEnter	Parol kiritiń
+PaymentPasswordReEnter	Paroldi qayta kiritiń
+PaymentPasswordInfo	Tólem maǵlıwmatlarıńızdı qorǵaw ushın parol jaratıń. Kirgenińizde onı kiritiw soraladı.
+PaymentPasswordEmailTitle	Tiklew ushın email
+PaymentPasswordEmail	Email mánzilińiz
+PaymentPasswordEmailInfo	Durıs email mánzil kiritiń. Bul umıtılǵan paroldi tiklewdiń birden-bir jolı.
+PaymentPhoneToProvider	Telefon %1$s ge esap maǵlıwmatı retinde beriledi.
+PaymentEmailToProvider	Email mánzil %1$s ge esap maǵlıwmatı retinde beriledi.
+PaymentPhoneEmailToProvider	Telefon hám email mánzil %1$s ge esap maǵlıwmatı retinde beriledi.
+PaymentInfoHint	Siz **%2$s** ushın **%1$s** tóledińiz.
+PaymentInfoHintStars_other	Siz **%1$d Juldız** ushın **%2$s** tóledińiz.
+PaymentAppNotFoundForDeeplink	Bul siltemeni ashatuǵın qosımsha tabılmadı.
+NewConversationShortcut	Jańa sáwbet
+AutoNightSystemModeOff	Sistemalıq tema óshirilgen
+AutoNightModeOff	Avto-túngi rejim óshirilgen
+SetEmojiStatus	Emoji statusın ornatıw
+ChangeEmojiStatus	Statustı ózgertiw
+Settings	Sazlamalar
+Refresh	Jańalaw
+AddressPlaceholder	%s izlew yamasa URL jazıń
+Contacts	Kontaktlar
+NewGroup	Jańa topar
+Yesterday	keshe
+NoResult	Nátiyje joq
+NoResultFoundFor	\"%s\" boyınsha nátiyje tabılmadı.
+NoResultFoundForTag	%s boyınsha nátiyje tabılmadı
+NoResultFoundFor2	\"%s\" boyınsha nátiyje bolmadı.\nJańadan izlep kóriń.
+NoChats	Telegram ǵa xosh keldińiz
+RecentlyViewed	Jaqında kórilgenler
+RecentlyViewedHide	JASIRIW
+NoChatsHelp	Tómengi oń múyeshtegi qálem túymesin basıp, xabar jazıwdı baslań.
+NoChatsContactsHelp	Tómengi oń múyeshtegi qálem túymesin basıp, xabar jazıwdı baslań.
+WaitingForNetwork	Tarmaq kútilmekte...
+Connecting	Baylanısılmaqta...
+Connected	Baylanıstı
+Ping	Ping: %1$d ms
+Ping2	%1$d ms ping
+Checking	Tekserilmekte...
+Available	Qoljetimli
+Unavailable	Qoljetimsiz
+ConnectingToProxy	Proksige baylanısılmaqta
+ConnectingToProxyWithDots	Proksige baylanısılmaqta...
+MenuProxyTitle	Proksi
+MenuProxyDisabled	Óshirilgen
+MenuProxyConnecting	Baylanısılmaqta
+MenuProxyConnected	Baylanıstı
+ConnectingConnectProxy	Proksige baylanısıw
+Updating	Jańalanbaqta...
+NewSecretChat	Jańa jasırın sáwbet
+AwaitingEncryption	%s tarmaqqa kiriwi kútilmekte...
+EncryptionRejected	Jasırın sáwbet biykarlandı
+EncryptionProcessing	Shifrlaw giltleri almasılmaqta...
+EncryptedChatStartedOutgoing	%s jasırın sáwbetińizge qosıldı.
+EncryptedChatStartedIncoming	Siz jasırın sáwbetke qosıldıńız.
+ClearHistory	Tariyxtı tazalaw
+ClearAllHistory	Barlıq tariyxtı tazalaw
+ClearRecentHistory	Tariyxtı tazalaw
+AlertClearHistory	Tariyxtı tazalaw
+EnableAutoDelete	Avto-óshiriwdi qosıw
+AutoDeleteIn	%1$s keyin avto-óshiriw
+AutoDeleteHeader	Bul sáwbettegi xabarlardı avto-óshiriw
+AutoDeleteAlertTitle	Xabarlardı avto-óshiriw
+AutoDeleteAlertUserInfo	Belgili waqıttan keyin jańa xabarlardı siz hám %1$s ushın avtomat túrde óshiriw.
+AutoDeleteAlertGroupInfo	Belgili waqıttan keyin jańa xabarlardı bul topar aǵzaları ushın avtomat túrde óshiriw.
+AutoDeleteAlertChannelInfo	Belgili waqıttan keyin jańa xabarlardı bul kanal jazılıwshıları ushın avtomat túrde óshiriw.
+AutoDeleteConfirm	Tastıyıqlaw
+AutoDelete24Hours	24 saat
+AutoDelete1Month	1 ay
+AutoDelete7Days	1 hápte
+AutoDelete1Day	1 kún
+AutoDeleteAfter1Month	1 aydan keyin
+AutoDeleteAfter1Week	1 hápteden keyin
+AutoDeleteAfter1Day	1 kúnnen keyin
+AutoDeleteInfo	Bul sáwbette jiberilgen jańa xabarlardı belgili waqıttan keyin avtomat túrde óshiriw.
+MuteNever	Hesh qashan
+AutoDeleteNever	Hesh qashan
+AutoDeleteSet	Bul sáwbet ushın ornatıw
+AutoDeleteSetInfo	Bul sáwbettegi xabarlar jiberilgennen\n%1$s keyin avtomat túrde óshiriledi.
+AutoDeleteHintOnText	Bul sáwbettegi jańa xabarlar %1$s keyin avtomat túrde óshiriledi.
+AutoDeleteHintOffText	Avto-óshiriw endi óshirilgen.
+AccAutoDeleteTimer	Avto-óshiriw taymeri
+HistoryClearedUndo	Tariyx tazalandı.
+ChatsDeletedUndo	Sáwbetler óshirildi.
+DeleteContactTitle	Kontakttı óshiriw
+DeleteContactSubtitle	Bul kontakttı óshiriwge isenimińiz kámil me?
+DeleteContactsTitle_one	%d kontakttı óshiriw
+DeleteContactsTitle_other	%d kontakttı óshiriw
+DeleteContactsSubtitle	Bul kontaktlardı óshiriwge isenimińiz kámil me?
+ContactsDeletedUndo_one	%d kontakt óshirildi.
+ContactsDeletedUndo_other	%d kontakt óshirildi.
+ChatsMute	Únsiz etiw
+ChatsUnmute	Dawısın qosıw
+ChatDeletedUndo	Sáwbet óshirildi
+GroupDeletedUndo	Topar óshirildi.
+ChannelDeletedUndo	Kanal óshirildi.
+GroupLeftUndo	Siz topardan shıqtıńız.
+ChannelLeftUndo	Siz kanaldan shıqtıńız.
+MonoforumDeletedUndo	Sáwbetler dizimińizden alıp taslandı.
+ArchivePinned	Arxiv bekitildi.
+ArchivePinnedInfo	Arxivti jasırıw ushın onı shepke súyrleń.
+ArchiveHidden	Arxiv jasırıldı.
+ArchiveHiddenInfo	Arxivti kóriw ushın tómenge súyrleń.
+ChatArchived	Sáwbet arxivlendi.
+ChatsArchived	Sáwbetler arxivlendi.
+ChatArchivedInfo	Arxivti shepke súyrlep jasırıń.
+Undo	Biykarlaw
+UndoNoCaps	Biykarlaw
+Redo	Qaytalaw
+ClearHistoryCache	Keshten óshiriw
+DeleteChat	Óshiriw hám shıǵıw
+HideOnTop	Jasırıw
+UnhideFromTop	Bekitiw
+DialogPin	Bekitiw
+DialogUnpin	Bekitiwden alıw
+Archive	Arxiv
+ArchiveSearchFilter	Arxiv
+Unarchive	Arxivten shıǵarıw
+ArchivedChats	Arxivlengen sáwbetler
+DeleteChatUser	Sáwbetti óshiriw
+HiddenName	Óshirilgen akkaunt
+SelectChat	Sáwbetti tańlań
+ChooseBot	Bottı tańlań
+ChooseBots	Botlardı tańlań
+ChooseUser	Paydalanıwshını tańlań
+ChooseUsers	Paydalanıwshılardı tańlań
+ChooseGroup	Topardı tańlań
+ChooseChannel	Kanaldı tańlań
+SelectChats	Sáwbetlerdi tańlań
+ForwardTo	Kimge jiberiw...
+MyGroups	Meniń toparlarım
+MyChannels	Meniń kanallarım
+DisappearingPhoto	Jasırın súwret
+DisappearingVideo	Jasırın video
+DisappearingGif	Jasırın GIF
+SearchMessages	Xabarlar
+SearchMessagesIn	%s ishindegi xabarlar
+Search	Izlew
+SearchContacts	Kontaktlardı izlew
+SearchPeopleByUsername	Adamlardı paydalanıwshı atı boyınsha izlew
+SearchChats	Sáwbetlerdi izlew
+SearchTopics	Temalardı izlew
+MuteNotifications	Máńgige únsiz etiw
+MuteFor	%1$s ge únsiz etiw
+MuteFor1h	1 saatqa únsiz etiw
+UnmuteNotifications	Dawısın qosıw
+WillUnmuteIn	%1$s keyin
+MuteDisable	Óshiriw
+Hashtags	XESHTEGLER
+Recent	Sońǵılar
+ChatHints	Adamlar
+ChatHintsDeleteAlertTitle	Usınıstı alıp taslaw
+ChatHintsDeleteAlert	**%1$s** di usınıslardan alıp taslawǵa isenimińiz kámil me?
+ChatHintsDelete	%1$s di usınıslardan alıp taslaw kerekpe?
+LinkPreview	Silteme kórinisi
+Draft	Qaralama
+HistoryCleared	Tariyx tazalandı
+ArticleByAuthor	avtorı %1$s
+ArticleDateByAuthor	%1$s, avtorı %2$s
+PreviewFeedback2	Dizayn qáte me?
+PreviewFeedbackAuto	Avtomat jaratılǵan dizayn
+SendStickerPreview	Stiker jiberiw
+SendGifPreview	GIF jiberiw
+SendEmojiPreview	Emoji jiberiw
+CopyEmojiPreview	Emoji kóshiriw
+SetAsEmojiStatus	Status retinde ornatıw
+SetAsEmojiStatusInfo	Emoji statusı ornatıldı.
+RemoveStatus	Statustı alıp taslaw
+RemoveStatusInfo	Emoji statusı alıp taslandı.
+ViewPackPreview	Toplamdı kóriw
+PinToTop	Joqarıǵa bekitiw
+PinFolderLimitReached	Keshiriń, joqarıǵa basqa sáwbet bekite almaysız.
+UnpinFromTop	Joqarıdan alıw
+MarkAsUnread	Oqılmaǵan dep belgilew
+MarkAsRead	Oqılǵan dep belgilew
+MarkAllAsRead	Hámmesin oqılǵan dep belgilew
+HideAboveTheList	Dizim ústinde jasırıw
+PinInTheList	Dizimde bekitiw
+Quote	Citata
+Spoiler	Spoyler
+Bold	Qalıń
+Italic	Kursiv
+Mono	Mono
+Strike	Sızılǵan
+Underline	Astı sızılǵan
+Highlight	Ajıratıw
+Subscript	Tómengi indeks
+Superscript	Joqarǵı indeks
+Regular	Ádettegi
+FormattedDate	Sáne
+ContactsPermissionAlert	**Telegram** barlıq qurılmalarıńızda doslarıńız benen baylanısıwıńız ushın kontaktlarıńızǵa ruqsat soraydı. Kontaktlarıńız Telegram nıń kúshli shifrlanǵan bult serverleri menen úzliksiz sinxronlanadı.
+ContactsPermissionAlertNotNow	Házir emes
+ContactsPermissionAlertContinue	Dawam etiw
+NotificationsPermissionAlertTitle	Bildiriwlerdi qosıń
+NotificationsPermissionAlertSubtitle	Doslarıńız hám shańaraǵıńız benen baylanısta bolıw ushın Telegram ǵa bildiriw jiberiwge ruqsat beriń.
+NotificationsPermissionAlert1	Jańa xabarlar haqqında bildiriw alıń
+NotificationsPermissionAlert2	Toparlarda sizdi eslegende biliń
+NotificationsPermissionAlert3	Belgili sáwbetler hám sáwbet túrlerin únsiz etiń
+NotificationsPermissionContinue	Dawam etiw
+NotificationsPermissionSettings	Sazlamalardı ashıw
+YourContacts	Telegram daǵı kontaktlarıńız
+ConnectingYourContacts	Kontaktlarıńız baylanıstırılmaqta...
+ArchiveHintHeader1	Bul sizdiń Arxivińiz
+ArchiveHintText1	Bildiriwleri qosılǵan sáwbetler jańa xabar kelgende arxivten shıǵadı.
+ArchiveHintHeader2	Únsiz sáwbetler
+ArchiveHintText2	Bildiriwleri óshirilgen sáwbetler jańa xabar kelgende de arxivte qaladı.
+ArchiveHintHeader3	Bekitilgen sáwbetler
+ArchiveHintText3	Arxivlengen sáwbetlerdiń sheksiz sanın joqarıǵa bekite alasız.
+ScheduledOrNoSoundHint	Xabarıńızdı rejelestiriw yamasa dawıssız jiberiw ushın bul túymeni basıp turıń.
+ScheduledHint	Xabarıńızdı keyinirek jiberiw ushın uzaq basıń.
+HideNewChatsAlertTitle	Jańa sáwbetlerdi jasırıw kerekpe?
+HideNewChatsAlertText	Siz Kontaktlar dizimińizde joq paydalanıwshılardan kóp jańa sáwbetler alıp atırsız. Bunday sáwbetlerdi **avtomat únsiz etiw** hám **arxivlew** kerekpe?
+GoToSettings	SAZLAMALARǴA ÓTIW
+OpenProfile	Profildi ashıw
+OpenChannel2	Kanaldı ashıw
+OpenGroup2	Topardı ashıw
+SendMessage	Xabar jiberiw
+Mention	Eslew
+AvatarPreviewSearchMessages	Xabarlardı izlew
+NotificationsMutedHint	Bildiriwler únsiz etildi
+NotificationsMutedHintChats_one	%d sáwbet ushın bildiriwler únsiz etildi
+NotificationsMutedHintChats_other	%d sáwbet ushın bildiriwler únsiz etildi
+NotificationsUnmutedHintChats_one	%d sáwbet ushın bildiriwler qosıldı
+NotificationsUnmutedHintChats_other	%d sáwbet ushın bildiriwler qosıldı
+NotificationsMutedForHint	Bildiriwler %1$s ge únsiz etildi
+NotificationsUnmutedHint	Bildiriwler qosıldı
+NotificationsStoryMute	Xabarlamaw
+NotificationsStoryMute2	Storisler haqqında\nxabarlamaw
+NotificationsStoryUnmute	Xabarlaw
+NotificationsStoryUnmute2	Storisler haqqında\nxabarlaw
+NotificationsStoryMutedHint	**%s** storisleri ushın bildiriwler óshirildi.
+NotificationsStoryUnmutedHint	**%s** jańa storis jariyalaǵanda bildiriw alasız.
+MessagesDeletedHint_one	Xabar óshirildi
+MessagesDeletedHint_other	%1$d xabar óshirildi
+SearchEmptyViewTitle	Nátiyje joq
+SearchEmptyViewTitle2	Nátiyje joq
+SearchEmptyViewFilteredSubtitle2	Jańadan izlep kóriń.
+HashtagSearchEmptyViewFilteredSubtitle	%s boyınsha nátiyje bolmadı.\nBasqa xeshtegti sınap kóriń.
+SearchEmptyViewFilteredSubtitleMusic	Barlıq sáwbetlerińizdegi muzıka usı jerde kórsetiledi.
+SearchEmptyViewFilteredSubtitleFiles	Barlıq sáwbetlerińizdegi fayllar usı jerde kórsetiledi.
+SearchEmptyViewFilteredSubtitleLinks	Barlıq sáwbetlerińizdegi siltemeler usı jerde kórsetiledi.
+SearchEmptyViewFilteredSubtitleVoice	Barlıq sáwbetlerińizdegi dawıslı xabarlar usı jerde kórsetiledi.
+SearchEmptyViewFilteredSubtitleMedia	Barlıq sáwbetlerińizdegi media usı jerde kórsetiledi.
+SearchAllChatsShort	Sáwbetler
+MessagePinnedHint	Xabar bekitildi
+MessageUnpinnedHint	Xabar bekitiwden alındı
+TapOnThePencilButton	Jańa sáwbet baslaw ushın túymeni basıń
+CreateGroupForImport	Import ushın jańa topar jaratıw
+CreateChannelForThis	Bul ushın jańa kanal jaratıw
+NoSuchChannels	Bunday kanallar joq
+NoSuchChannelsInfo	Sizde bul bottıń talaplarına sáykes kanallar joq
+CreateGroupForThis	Bul ushın jańa topar jaratıw
+NoSuchGroups	Bunday toparlar joq
+NoSuchGroupsInfo	Sizde bul bottıń talaplarına sáykes toparlar joq
+NoSuchUsers	Bunday paydalanıwshılar joq
+NoSuchUsersInfo	Bul bottıń talaplarına sáykes paydalanıwshılar tabılmadı
+ImportMessages	Xabarlardı import etiw
+ImportErrorTitle	Import qáteligi
+ImportErrorFileFormatInvalid	Fayl formatı jaramsız.
+ImportErrorPeerInvalid	Tariyxtı tańlanǵan sáwbetke import etiw múmkin bolmadı.
+ImportErrorFileLang	Fayl tili belgisiz.
+ImportErrorNotAdmin	Xabarlardı import etiw ushın toparda admin bolıwıńız kerek.
+ImportErrorChatInvalidUser	Fayl formatı topar ushın, biraq siz paydalanıwshını tańladıńız.
+ImportErrorChatInvalidGroup	Fayl formatı paydalanıwshı ushın, biraq siz topardı tańladıńız.
+ImportErrorUserBlocked	Qupıyalıq sazlamaları sebepli xabarlardı import etiw múmkin emes.
+Import	IMPORT
+ImportToUser	**%1$s** degi xabarlardı **%2$s** menen sáwbetke import etiw kerekpe?
+ImportToUserNoTitle	Xabarlardı **%1$s** menen sáwbetke import etiw kerekpe?
+ImportToChat	**%1$s** degi xabarlardı **%2$s** toparına import etiw kerekpe?
+ImportToChatNoTitle	Xabarlardı **%1$s** toparına import etiw kerekpe?
+ImportMutualError	Xabarlardı tek óz-ara kontakt bolǵan paydalanıwshılar menen jeke sáwbetlerge import ete alasız.
+ImportNotAdmin	Xabarlardı import etiw ushın toparda admin bolıwıńız kerek.
+ImportedInfo	Bul xabar basqa qosımshadan import etilgen. Onıń haqıyqıy ekenine kepillik bere almaymız.
+ImportUploading	Xabarlar hám media import etilmekte... **%d%%**
+ImportImportingTitle	Sáwbet import etilmekte
+ImportImportingInfo	Import tamamlanǵansha\nTelegram dı ashıq qaldırıń.
+ImportCount	%2$s den %1$s
+ImportDone	Tayın
+ImportDoneTitle	Sáwbet tabıslı import etildi!
+ImportDoneInfo	Telegram ǵa kóbirek sáwbetlerdi import etip, qurılmańızda orın únemleń.
+ImporImportingService	Xabarlar hám media import etilmekte...
+ImporImportingStickersService	Stikerler import etilmekte...
+ImportHeader	Xabarlar hám medianı import etiw...
+ImportHeaderContacts	Yamasa kontaktlarıńızdan birin tańlań
+DiscardSelectionAlertTitle	Tańlawdı biykarlaw
+DiscardSelectionAlertMessage	Biriktiriw menyusın jabıw kerekpe?
+EditWidget	Vidjetti ózgertiw
+EditWidgetContactsInfo	Tez kiriw ushın eń áhmiyetli sáwbetlerińizge qısqa jollardı kórsetiń.\n\nHesh kim tańlanbasa, bul vidjette eń jiyi baylanısatuǵın kontaktlarıńız kórsetiledi.
+EditWidgetChatsInfo	Tańlaǵan sáwbetlerińizdegi eń sońǵı xabardı kórsetiń.\n\nArnawlı sáwbetler tańlanbasa, bul vidjette eń sońǵı sáwbetlerińiz kórsetiledi.
+WidgetPasscode2	Esletpe: Vidjetler ushın parol kodıńız **esapqa alınbaydı**.
+SearchForChats	Sáwbetlerdi izlew...
+WidgetPreview	Vidjet kórinisi
+TapToEditWidget	vidjetti ózgertiw ushın basıń
+TapToEditWidgetShort	ózgertiw ushın basıń
+WidgetChats	Sáwbetler
+WidgetShortcuts	Qısqa jollar
+WidgetLoggedOff	Akkaunttan shıǵıldı.
+SetAsAdmin	Admin etip tayınlaw
+EditAdminRights	Admin huqıqların ózgertiw
+DeleteMega	Topardı óshiriw
+DeleteMegaForAll	Topardı hámme ushın óshiriw
+DeleteChannelForAll2	Kanaldı hámme ushın óshiriw
+LeaveMega	Topardan shıǵıw
+LeaveMegaMenu	Topardan shıǵıw
+LeaveConversationMenu	Sáwbetten shıǵıw
+DeleteMegaMenu	Topardı óshiriw
+MegaAdminsInfo	Topardı basqarıwda járdem beriw ushın administratorlar qosa alasız. Olardı alıp taslaw ushın basıp turıń.
+DeleteGroupForAll	Topardı barlıq aǵzalar ushın óshiriw
+DeleteChannelForAll	Barlıq jazılıwshılar ushın óshiriw
+ActionCreateMega	Topar jaratıldı
+MegaAddedBy	un1 sizdi bul toparǵa qostı
+MegaLeaveAlert	Topardan shıǵıwǵa isenimińiz kámil me?
+MegaLeaveAlertWithName	**%1$s** dan shıǵıwǵa isenimińiz kámil me?
+GroupUserCantAdd	Keshiriń, bul paydalanıwshını toparlarǵa qosa almaysız.
+GroupUserAddLimit	Keshiriń, bul topar tolı.
+GroupUserLeftError	Keshiriń, eger adam endi topar aǵzası bolmasa, onı qaytadan qosıw ushın siz onıń Telegram kontaktlarında bolıwıńız kerek.\n\nEsletpe: eger ol Alıp taslanǵan paydalanıwshılar diziminde bolmasa, topardıń mirát siltemesi arqalı bári bir qosıla aladı.
+GroupUserCantAdmin	Keshiriń, bul toparda administratorlar júdá kóp.
+PublicChannelsTooMuch	Keshiriń, bul paydalanıwshıda ashıq toparlar yamasa kanallar álleqashan júdá kóp. Odan aldın bar toparlarınıń yamasa kanallarınıń birin jabıq etiwin sorań.
+LocatedChannelsTooMuch	Keshiriń, bul paydalanıwshıda jaylasıwǵa tiykarlanǵan toparlar júdá kóp. Odan aldın bar toparlarınıń birin óshiriwin yamasa basqaǵa beriwin sorań.
+YourLocatedChannelsTooMuch	Keshiriń, sizde jaylasıwǵa tiykarlanǵan toparlar álleqashan júdá kóp. Aldın bar toparlarıńızdıń birin óshiriń.
+GroupUserCantBot	Keshiriń, bul toparda botlar júdá kóp.
+ActionPinnedText	un1 \"%1$s\" xabarın bekitti
+ActionPinnedNoText	un1 xabardı bekitti
+ActionPinnedPoll	un1 sorawnamanı bekitti
+ActionPinnedQuiz	un1 viktorinanı bekitti
+ActionPinnedPhoto	un1 súwretti bekitti
+ActionPinnedVideo	un1 videonı bekitti
+ActionPinnedFile	un1 fayldı bekitti
+ActionPinnedSticker	un1 stikerdi bekitti
+ActionPinnedVoice	un1 dawıslı xabardı bekitti
+ActionPinnedRound	un1 video xabardı bekitti
+ActionPinnedContact	un1 kontakttı bekitti
+ActionPinnedGame	un1 %1$s oyının bekitti
+ActionPinnedGeo	un1 kartanı bekitti
+ActionPinnedGeoLive	un1 jonlı jaylasıwdı bekitti
+ActionPinnedGif	un1 GIF ti bekitti
+ActionPinnedMusic	un1 audio fayldı bekitti
+ActionMigrateFromGroup	Bul topar supertoparǵa aylandırıldı
+ActionMigrateFromGroupNotify	%1$s supertoparǵa aylandırıldı
+NoBlockedGroup2	Adminler topardan alıp taslaǵan paydalanıwshılar mirát siltemeleri arqalı qayta qosıla almaydı.
+NoBlockedCommunity2	Adminler jámiyetten alıp taslaǵan paydalanıwshılar mirát siltemeleri arqalı qayta qosıla almaydı.
+NoBlockedChannel2	Adminler kanaldan alıp taslaǵan paydalanıwshılar mirát siltemeleri arqalı qayta qosıla almaydı.
+NewChannel	Jańa kanal
+EnterChannelName	Kanal atı
+AddMutual	Kanalıńızǵa kontaktlar qosıń
+ChannelUsernameHelp	Turaqlı silteme ornatsańız, basqa adamlar kanalıńızdı tawıp, oǵan qosıla aladı.\n\na-z, 0-9 hám tómengi sızıqtan paydalanıwıńız múmkin.\nEń az uzınlıǵı 5 belgi.
+MegaUsernameHelp	Turaqlı silteme ornatsańız, basqa adamlar toparıńızdı tawıp, oǵan qosıla aladı.\n\na-z, 0-9 hám tómengi sızıqtan paydalanıwıńız múmkin.\nEń az uzınlıǵı 5 belgi.
+ChannelUsernamePlaceholder	silteme
+ChannelPrivateLinkHelp	Adamlar bul silteme arqalı kanalıńızǵa qosıla aladı. Siltemeni qálegen waqıtta biykarlay alasız.
+MegaPrivateLinkHelp	Adamlar bul silteme arqalı toparıńızǵa qosıla aladı. Siltemeni qálegen waqıtta biykarlay alasız.
+DescriptionOptionalPlaceholder	Táriyp (mindetli emes)
+DescriptionPlaceholder	Táriyp
+DescriptionInfo	Kanalıńız ushın qálewińizshe táriyp jazıwıńız múmkin.
+GroupSettingsChangedAlert	Siz bul topardıń ayırım sazlamaların ózgerttińiz. Ózgerislerdi qollanıw kerekpe?
+ChannelSettingsChangedAlert	Siz bul kanaldıń ayırım sazlamaların ózgerttińiz. Ózgerislerdi qollanıw kerekpe?
+ChannelPublic	Ashıq kanal
+MegaPublic	Ashıq topar
+MegaLocation	Jaylasıwǵa tiykarlanǵan topar
+ChannelPublicInfo	Ashıq kanallardı izlew arqalı tabıwǵa boladı, olarǵa hár kim qosıla aladı.
+MegaPublicInfo	Ashıq toparlardı izlew arqalı tabıwǵa boladı, sáwbet tariyxı hámmege kórinedi hám hár kim qosıla aladı.
+ChannelPrivate	Jabıq kanal
+MegaPrivate	Jabıq topar
+MonoforumMessages	jeke xabarlar
+ChannelPrivateInfo	Jabıq kanallarǵa tek mirát siltemesi arqalı qosılıwǵa boladı.
+MegaPrivateInfo	Jabıq toparlarǵa tek mirát etilgen bolsańız yamasa mirát siltemesi bolsa qosılıwǵa boladı.
+ChannelLinkTitle	Turaqlı silteme
+ChannelInviteLinkTitle	Mirát siltemesi
+GroupAddMembers	Aǵzalar qosıw
+ChannelAddSubscribers	Jazılıwshılar qosıw
+LeaveChannel	Kanaldan shıǵıw
+LeaveChannelMenu	Kanaldan shıǵıw
+ChannelSettings	Sazlamalar
+ChannelJoin	QOSILIW
+ChannelJoinNoCaps	Qosılıw
+ChannelJoinRequest	KANALǴA QOSILIWǴA ARZA BERIW
+ChannelJoinRequestNoCaps	Kanalǵa qosılıwǵa arza beriw
+ChannelJoinRequestSent	QOSILIW SORAWI JIBERILDI
+ChannelJoinRequestSentNoCaps	Qosılıw sorawı jiberildi
+GroupJoin	QOSILIW
+GroupJoinNoCaps	Qosılıw
+GroupJoinRequest	TOPARǴA QOSILIWǴA ARZA BERIW
+GroupJoinRequestNoCaps	Toparǵa qosılıwǵa arza beriw
+GroupJoinRequestSent	QOSILIW SORAWI JIBERILDI
+GroupJoinRequestSentNoCaps	Qosılıw sorawı jiberildi
+ChannelBroadcast	Taratıw
+ChannelSilentBroadcast	Únsiz taratıw
+ChannelAlertTitle	Kanal degen ne?
+ChannelAlertText	Kanallar — xabarlarıńızdı sheksiz auditoriyaǵa taratıw quralı.
+ChannelAlertCreate2	Kanal jaratıw
+LinkInUse	Keshiriń, bul at álleqashan bánt.
+LinkInvalid	Keshiriń, bul at jaramsız.
+LinkInvalidShort	Kanal atlarında keminde 5 belgi bolıwı kerek.
+LinkInvalidLong	At 32 belgiden aspawı kerek.
+LinkInvalidStartNumber	Kanal atları san menen baslana almaydı.
+LinkInvalidShortMega	Topar atlarında keminde 5 belgi bolıwı kerek.
+LinkInvalidStartNumberMega	Topar atları san menen baslana almaydı.
+LinkChecking	At tekserilmekte…
+LinkAvailable	%1$s bos.
+ChannelMembers	Aǵzalar
+ChannelAddToGroup	Toparǵa qosıw
+ChannelAddToChannel	Kanalǵa qosıw
+ChannelDeleteFromList	Bul dizimnen óshiriw
+ChannelSubscribers	Jazılıwshılar
+ChannelBlacklist	Alıp taslanǵan paydalanıwshılar
+ChannelPermissions	Ruqsatlar
+ChannelPermissionsHeader	Bul topar aǵzaları ne isley aladı?
+CommunityPermissionsHeader	Bul jámiyet aǵzaları ne isley aladı?
+ChannelAddException	Ayrıqshalıq qosıw
+ChannelSearchException	Ayrıqshalıqlardı izlew
+ChannelBlockedUsers	Alıp taslanǵan paydalanıwshılar
+ChannelContacts	Bul kanaldaǵı kontaktlar
+GroupContacts	Bul topardaǵı kontaktlar
+YourContactsToInvite	Kontaktlarıńız
+ChannelBots	Botlar
+ChannelOtherMembers	Basqa aǵzalar
+ChannelOtherSubscribers	Basqa jazılıwshılar
+ChannelOtherSubscriberJoined	%1$s qosıldı
+ChannelRestrictedUsers	Sheklengen paydalanıwshılar
+ChannelAdministrators	Administratorlar
+ChannelAdminSettings	Kanal sazlamaları
+ChannelStars	Balans
+ChannelDelete	Kanaldı óshiriw
+ChannelDeleteMenu	Kanaldı óshiriw
+ChannelDeleteAlert	Toqtań! Bul kanaldı óshirseńiz, barlıq aǵzalar alıp taslanadı hám barlıq xabarlar joǵaladı. Bári bir kanaldı óshiriw kerekpe?
+ChannelLeaveAlert	Kanaldan shıǵıwǵa isenimińiz kámil me?
+ChannelLeaveAlertWithName	**%1$s** dan shıǵıwǵa isenimińiz kámil me?
+ChannelDeleteInfo	Bul kanaldaǵı barlıq xabarlardı joǵaltasız.
+ChannelEdit	Ózgertiw
+ChannelPublicEmptyUsernameTitle	Silteme tańlań
+ChannelPublicEmptyUsername	Adamlar izlewde tawıp, basqalar menen bólisiwi ushın ashıq kanalıńızǵa silteme tańlań.\n\nEger bul sizge kerek bolmasa, onıń ornına jabıq kanal jaratıwdı usınamız.
+ActionCreateChannel	Kanal jaratıldı
+ActionGiftTonInbound	sizge **un2** ushın sawǵa jiberdi
+ActionGiftInbound	un1 sizge **un2** ushın sawǵa jiberdi
+ActionGiftOutbound	Siz **un2** ushın sawǵa jiberdińiz
+ActionPrepaidGiftInbound	un1 sawǵańız ushın **un2** turatuǵın jaqsılawdı jiberdi
+ActionPrepaidGiftOutbound	Siz **un1** sawǵası ushın **un2** turatuǵın jaqsılawdı jiberdińiz
+ActionGiftSelf	Siz **un2** ge sawǵa satıp aldıńız
+ActionGiftAuctionSelf	Siz **un2** usınısı menen auktsionda jeńdińiz
+ActionGiftSomeone	Birew sizge sawǵa jiberdi!
+ActionGiftChannel_one	**un1** **un2** ge %d Juldızǵa sawǵa jiberdi
+ActionGiftChannel_other	**un1** **un2** ge %d Juldızǵa sawǵa jiberdi
+ActionUniqueGiftUpgradeInbound	**un1** sizden kelgen sawǵanı unikal kolleksiyalıq buyımǵa aylandırdı
+ActionUniqueGiftUpgradeInboundChannel	**un1** sawǵanı unikal kolleksiyalıq buyımǵa aylandırdı
+ActionUniqueGiftUpgradeOutbound	Siz **un1** den kelgen sawǵanı unikal kolleksiyalıq buyımǵa aylandırdıńız
+ActionUniqueGiftUpgradeSelf	Siz sawǵanı unikal kolleksiyalıq buyımǵa aylandırdıńız
+ActionUniqueGiftTransferInbound	**un1** sizge sawǵa berdi!
+ActionUniqueGiftTransferService	**un1** **un2** ge sawǵa berdi!
+ActionUniqueGiftTransferOutbound	Siz **un1** ge sawǵa berdińiz
+ActionUniqueGiftTransferOutboundAssigned	Siz Telegram profil betińizde %s ti kórsete basladıńız.
+ActionUniqueGiftCrafted	Siz jańa sawǵa jasadıńız!
+ActionUniqueGiftResaleService_one	**un1** **un2** ge %d Juldızǵa sawǵa jiberdi!
+ActionUniqueGiftResaleService_other	**un1** **un2** ge %d Juldızǵa sawǵa jiberdi!
+ActionUniqueGiftResaleServiceTON	**un1** **un2** ge %s TON ǵa sawǵa jiberdi!
+ActionUniqueGiftResaleOutboundTON	Siz bul sawǵanı %s TON ǵa satıp aldıńız
+ActionUniqueGiftResaleInboundTON	**un1** sizge %s TON ǵa sawǵa satıp aldı!
+ActionUniqueGiftResaleOutbound_one	Siz bul sawǵanı %d Juldızǵa satıp aldıńız
+ActionUniqueGiftResaleOutbound_other	Siz bul sawǵanı %d Juldızǵa satıp aldıńız
+ActionUniqueGiftResaleInbound_one	**un1** sizge %d Juldızǵa sawǵa satıp aldı!
+ActionUniqueGiftResaleInbound_other	**un1** sizge %d Juldızǵa sawǵa satıp aldı!
+ActionUniqueGiftResaleSoldOutboundTON	Siz bul sawǵanı %s TON ǵa sattıńız
+ActionUniqueGiftResaleSoldOutbound_one	Siz bul sawǵanı %d Juldızǵa sattıńız
+ActionUniqueGiftResaleSoldOutbound_other	Siz bul sawǵanı %d Juldızǵa sattıńız
+ActionStarGiftInbound	%s sizge sawǵa jiberdi
+ActionStarGift	Sawǵa
+ActionGiftPremiumTitle2_one	%d aylıq Premium
+ActionGiftPremiumTitle2_other	%d aylıq Premium
+ActionGiftPremiumText	Telegram nıń ayrıqsha múmkinshiliklerine jazılıw.
+ActionGiftPremiumView	Kóriw
+ActionStarGiveawayPrizeTitle	Qutlıqlaymız!
+ActionStarGiveawayPrize_one	Siz **un1** shólkemlestirgen utıslı oyında jeńip shıqtıńız.\n\nSıylıǵıńız: **%d Juldız**.
+ActionStarGiveawayPrize_other	Siz **un1** shólkemlestirgen utıslı oyında jeńip shıqtıńız.\n\nSıylıǵıńız: **%d Juldız**.
+ActionChannelChangedPhoto	Kanal súwreti ózgertildi
+ActionChannelChangedVideo	Kanal videosı ózgertildi
+ActionChannelRemovedPhoto	Kanal súwreti alıp taslandı
+ActionChannelChangedTitle	Kanal atı un2 ge ózgertildi
+ChangePublicLimitReached	Keshiriń, siz júdá kóp ashıq paydalanıwshı atların bánt ettińiz. Eski toparlarıńızdıń yamasa kanallarıńızdıń birinen siltemeni alıp taslawıńız yamasa onıń ornına jabıq jaratıwıńız múmkin.
+ChannelCreator	Iyesi
+ChannelAdministrator	Administrator
+ChannelAdmin	Admin
+ChannelMute	ÚNSIZ ETIW
+ChannelMuteNoCaps	Únsiz etiw
+ChannelUnmute	DAWISIN QOSIW
+ChannelUnmuteNoCaps	Dawısın qosıw
+ChannelAddAdmin	Admin qosıw
+ChannelBlockUser	Paydalanıwshını alıp taslaw
+GroupNotRestrictBoosters	Busterlerdi shekleme
+GroupNotRestrictBoostersInfo	Toparıńızdı kúsheytken paydalanıwshılarǵa xabar hám media jiberiwge hámme waqıt ruqsat beriw ushın qosıń.
+GroupNotRestrictBoostersInfo2	Paydalanıwshı xabar jiberiw sheklewlerin aylanıp ótiwi ushın toparǵa qansha kúsheytiw beriwi kerekligin tańlań.
+CallInviteViaLinkTitle	Silteme arqalı mirát etiw
+ChannelInviteViaLink	Silteme arqalı mirát etiw
+ChannelRemoveUserAdmin	Adminlikten shıǵarıw
+ChannelEditPermissions	Ruqsatlardı ózgertiw
+ChannelAntiSpamUser	Telegram Anti-Spam
+ChannelAntiSpam	Kúshli Anti-Spam
+ChannelAntiSpamInfo	Telegram kóbirek spamdı súzedi, biraq geyde ádettegi xabarlarǵa da tásir etiwi múmkin. Qáte jaǵdaylar haqqında Sońǵı háreketlerde xabarlay alasız.
+ChannelAntiSpamInfo2	Anti-spam sazlamaların %s de basqara alasız
+ChannelHideMembers	Aǵzalardı jasırıw
+ChannelHideMembersInfo	Bul topardaǵı aǵzalar dizimin jasırıw ushın qosıń. Adminler kórinip turadı.
+ChannelMemberTags	Aǵza tegleri ruqsat etiledi
+ChannelMemberTagsInfo	Topar aǵzalarına atları qasına qısqa tegler qosıwǵa ruqsat beriw ushın qosıń.
+ChannelAntiSpamFalsePositiveReported	Telegram moderatorları xabarıńızdı kórip shıǵadı. Raxmet!
+ChannelMembersInfo	Bul dizimdi tek kanal administratorları kóre aladı.
+ChannelLinkInfo	Telegram daǵı hár kim bul silteme arqalı kanalıńızǵa qosıla aladı.
+ChannelAdminsInfo	Kanaldı basqarıwda járdem beriw ushın administratorlar qosa alasız. Adminlerdi alıp taslaw ushın basıp turıń.
+ChannelCantOpenPrivate	Keshiriń, bul kanal jabıq, sonıń ushın onıń mazmunın kóre almaysız.
+ChannelCantOpenPrivate2	Keshiriń, bul kanal jabıq.
+ChannelCantOpenBannedByAdminTitle	Sáwbetke kiriw múmkin emes
+ChannelCantOpenBannedByAdmin	Keshiriń, admin sizdi bloklaǵanı ushın bul sáwbetke kire almaysız.
+ChannelCantOpenBanned	Ókinishke oray, sizge ashıq toparlarda qatnasıwǵa tıyım salınǵan.
+ChannelCantOpenNa	Keshiriń, bul sáwbet endi qoljetimsiz.
+ChannelAddTo	%1$s di kanalǵa qosıw kerekpe?
+ChannelUserLeftError	Keshiriń, eger adam endi kanal aǵzası bolmasa, onı qaytadan qosıw ushın siz onıń Telegram kontaktlarında bolıwıńız kerek.\n\nEsletpe: eger ol Alıp taslanǵan paydalanıwshılar diziminde bolmasa, kanaldıń mirát siltemesi arqalı bári bir qosıla aladı.

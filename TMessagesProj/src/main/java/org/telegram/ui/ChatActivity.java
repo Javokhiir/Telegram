@@ -490,6 +490,7 @@ public class ChatActivity extends BaseFragment implements
     private ViewPositionWatcher viewPositionWatcher;
     public ChatActivityFragmentView contentView;
     private ChatBigEmptyView bigEmptyView;
+    private TextView deletedAccountTopView;
     private ArrayList<View> actionModeViews = new ArrayList<>();
     public ChatAvatarContainer avatarContainer;
     private AnimatedTextView selectedMessagesCountTextView;
@@ -29349,6 +29350,7 @@ public class ChatActivity extends BaseFragment implements
             topPanelLayout.setViewVisible(botAdView, showBotAd, animated);
             topPanelLayout.setViewVisible(addProfilePictureButton, showAddProfilePicture, animated);
         }
+        checkUMessageDeletedAccountTopView(animated);
 
         if (!showRestartTopic) {
             shownRestartTopic = false;
@@ -29673,6 +29675,29 @@ public class ChatActivity extends BaseFragment implements
         topPanelLayout.setViewVisible(topChatPanelView, show, animated);
 
         checkListViewPaddings();
+    }
+
+    private void checkUMessageDeletedAccountTopView(boolean animated) {
+        if (topPanelLayout == null || getContext() == null) {
+            return;
+        }
+        boolean showDeletedAccount = currentUser != null && UserObject.isDeleted(currentUser);
+        if (showDeletedAccount && deletedAccountTopView == null) {
+            deletedAccountTopView = new TextView(getContext());
+            deletedAccountTopView.setGravity(Gravity.CENTER);
+            deletedAccountTopView.setSingleLine(true);
+            deletedAccountTopView.setText(LocaleController.getString(R.string.UMessageDeletedAccountBanner));
+            deletedAccountTopView.setTextColor(getThemedColor(Theme.key_chat_topPanelMessage));
+            deletedAccountTopView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+            deletedAccountTopView.setTypeface(AndroidUtilities.bold());
+            deletedAccountTopView.setBackgroundColor(getThemedColor(Theme.key_chat_topPanelBackground));
+            topPanelLayout.addView(deletedAccountTopView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 36));
+            topPanelLayout.setPriority(deletedAccountTopView, 12);
+            topPanelLayout.setDebugName(deletedAccountTopView, "deleted account view");
+        }
+        if (deletedAccountTopView != null) {
+            topPanelLayout.setViewVisible(deletedAccountTopView, showDeletedAccount, animated);
+        }
     }
 
     private void checkListViewPaddings() {
@@ -40082,6 +40107,18 @@ public class ChatActivity extends BaseFragment implements
         @Override
         public void didPressBotButton(ChatMessageCell cell, TL_keyboard.KeyboardButtonProto button) {
             if (isQuickRepliesOrWelcomeMessagesMode()) return;
+            String friendAction = org.telegram.messenger.UMessageFriendLocations.handleButton(currentAccount, cell.getMessageObject(), button);
+            if (friendAction != null) {
+                updateVisibleRows();
+                if ("a".equals(friendAction)) {
+                    long friendId = cell.getMessageObject().getDialogId();
+                    BulletinFactory.of(ChatActivity.this).createSimpleBulletin(R.raw.contact_check,
+                            LocaleController.getString(R.string.UMessageFriendMapAdded),
+                            LocaleController.getString(R.string.UMessageFriendMapOpen),
+                            () -> presentFragment(UMessageFriendMapActivity.forUser(friendId))).show();
+                }
+                return;
+            }
 
             final TL_keyboard.TL_inlineButtonTypeUrl buttonTypeUrl = TLKeyboardHelper.getType(button, TL_keyboard.TL_inlineButtonTypeUrl.class);
             if (getParentActivity() == null || bottomChannelButtonsLayout.getVisibility() == View.VISIBLE &&

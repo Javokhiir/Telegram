@@ -41,6 +41,8 @@ public class UMessageConfig {
 
     /* "Use U Message Proxy": fall back to built-in proxies when direct connection fails (off by default) */
 
+    /** Preview/page key of the U message Premium switch (value lives in UMessagePremiumController). */
+    public static final String KEY_UM_PREMIUM = "um_premium";
     public static final String KEY_PROXY_FALLBACK = "proxy_fallback";
 
     private static volatile Boolean proxyFallback;
@@ -110,6 +112,18 @@ public class UMessageConfig {
             }
         }
         return null;
+    }
+
+    /* Nearby share: exchange contacts with U message users around via Nearby Connections */
+
+    public static final String KEY_NEARBY_SHARE = "nearby_share";
+
+    public static boolean isNearbyShareEnabled() {
+        return prefs().getBoolean(KEY_NEARBY_SHARE, true);
+    }
+
+    public static void setNearbyShareEnabled(boolean enabled) {
+        prefs().edit().putBoolean(KEY_NEARBY_SHARE, enabled).apply();
     }
 
     /* Focus mode: during the chosen hours only chats from the allowed folders notify */
@@ -275,6 +289,17 @@ public class UMessageConfig {
     private static final String KEY_ROUND_BLUSH = "round_blush";
     private static final String KEY_ROUND_EFFECT_PRESET = "round_effect_preset";
     private static final String KEY_ROUND_EFFECT_INTENSITY = "round_effect_intensity";
+
+    private static final String KEY_ROUND_MAKEUP = "round_makeup_manual";
+
+    /** U message: the user's own round video makeup as JSON (see MakeupSettings), null for the defaults. */
+    public static String getRoundMakeup() {
+        return prefs().getString(KEY_ROUND_MAKEUP, null);
+    }
+
+    public static void setRoundMakeup(String json) {
+        prefs().edit().putString(KEY_ROUND_MAKEUP, json).apply();
+    }
 
     /** Selected all-in-one makeup look. -1 means that the legacy individual controls still need migration. */
     public static int getRoundEffectPreset() {

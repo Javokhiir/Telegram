@@ -1,10 +1,11 @@
 import { getRecord, putRecord, publicView } from '../lib/store.js';
 import { json, readBody, isValidId } from '../lib/http.js';
+import { withUsage } from '../lib/meter.js';
 
 // POST /api/settings  { userId, enabled?, stickerSet? }
 // A premium user turns their own badge/features on or off and picks a premium sticker/emoji set.
 // MVP trust model: the caller sends its own userId. Tighten later with Telegram login verification.
-export default async function handler(req, res) {
+export default withUsage('settings', async function handler(req, res) {
   if (req.method !== 'POST') {
     return json(res, 405, { error: 'method_not_allowed' });
   }
@@ -30,4 +31,4 @@ export default async function handler(req, res) {
   }
   await putRecord(userId, record);
   return json(res, 200, publicView(userId, record));
-}
+});

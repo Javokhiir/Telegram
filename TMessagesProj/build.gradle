@@ -24,6 +24,14 @@ idea {
 }
 
 repositories {
+    maven {
+        url 'https://api.mapbox.com/downloads/v2/releases/maven'
+        authentication { basic(BasicAuthentication) }
+        credentials {
+            username = 'mapbox'
+            password = project.findProperty('MAPBOX_DOWNLOADS_TOKEN') ?: ''
+        }
+    }
     mavenCentral()
     google()
 }
@@ -38,6 +46,7 @@ configurations.all {
 }
 
 dependencies {
+    implementation 'com.microsoft.onnxruntime:onnxruntime-android:1.22.0'
     implementation 'androidx.core:core:1.16.0'
     implementation 'androidx.palette:palette:1.0.0'
     implementation 'androidx.exifinterface:exifinterface:1.3.6'
@@ -61,10 +70,14 @@ dependencies {
     implementation 'com.google.firebase:firebase-datatransport:18.1.0'
     implementation 'com.google.firebase:firebase-appindexing:20.0.0'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.mapbox.maps:android:11.16.0'
+    // offline Uzbek speech recognition (sherpa-onnx); packaged by the app modules
+    compileOnly files('libs/sherpa-onnx-static-1.13.8.aar')
     implementation 'com.google.android.gms:play-services-auth:20.4.0'
     implementation 'com.google.android.gms:play-services-vision:20.1.3'
     implementation 'com.google.android.gms:play-services-wearable:18.0.0'
     implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-nearby:19.3.0'
     implementation 'com.google.android.gms:play-services-wallet:19.1.0'
     implementation 'com.googlecode.mp4parser:isoparser:1.0.6'
     implementation 'com.stripe:stripe-android:2.0.2'
@@ -100,6 +113,7 @@ dependencies {
     implementation 'com.google.mlkit:translate:17.0.3' // U message: on-device translation
     implementation 'com.google.mediapipe:tasks-vision:1.0.0' // U message: low-latency live face mesh for round video makeup
     implementation 'com.google.ai.edge.litert:litert:1.4.0' // U message: Privacy Guard on-device face models (no telemetry)
+    implementation 'com.snap.camerakit:camerakit:1.50.0' // U message: Snapchat Lenses in round video (Snap Camera Kit)
     testImplementation 'junit:junit:4.13.2' // U message: Privacy Guard decision logic tests
 
     constraints {
@@ -143,6 +157,7 @@ android {
 
 
     defaultConfig {
+        resValue 'string', 'mapbox_access_token', (project.findProperty('MAPBOX_ACCESS_TOKEN') ?: '')
         minSdkVersion 21
         targetSdkVersion 36
 
@@ -153,6 +168,11 @@ android {
         vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
         multiDexEnabled true
+
+        // U message: Snap Camera Kit API token (staging until Snap approves the app), set SNAP_CAMERAKIT_TOKEN in local.properties
+        buildConfigField "boolean", "SNAP_CAMERAKIT_ENABLED", (getProps("SNAP_CAMERAKIT_TOKEN") ? "true" : "false")
+        manifestPlaceholders = [cameraKitApiToken: getProps("SNAP_CAMERAKIT_TOKEN") ?: ""]
+        buildConfigField "String", "SNAP_LENS_GROUP_ID", "\"" + (getProps("SNAP_LENS_GROUP_ID") ?: "") + "\""
 
         externalNativeBuild {
             cmake {

@@ -3234,7 +3234,7 @@ public class ChatActivityEnterView extends FrameLayout implements
                     }
 
                     final float r = dpf2(19);
-                    paint.setColor(getThemedColor(Theme.key_chat_messagePanelSend));
+                    paint.setColor(getMessagePanelActionBackgroundColor());
                     final float margin = dpf2(3);
                     final float height = dpf2(38);
                     final float width = dpf2(38);
@@ -6564,7 +6564,7 @@ public class ChatActivityEnterView extends FrameLayout implements
         audioVideoButtonContainer.setAlpha(audioVideoButtonContainerForbidden ? 0.5f : 1.0f);
         audioVideoButtonContainer.invalidate();
         audioVideoSendButton.setColorFilter(new PorterDuffColorFilter(audioVideoButtonContainerForbidden ?
-            getThemedColor(Theme.key_glass_defaultIcon) : Color.WHITE, PorterDuff.Mode.SRC_IN));
+            getThemedColor(Theme.key_glass_defaultIcon) : getMessagePanelActionIconColor(), PorterDuff.Mode.SRC_IN));
         audioVideoSendButton.invalidate();
         updateFieldHint(false);
         boolean currentModeVideo = isInVideoMode;
@@ -10375,7 +10375,7 @@ public class ChatActivityEnterView extends FrameLayout implements
         if (botKeyboardView != null) {
             botKeyboardView.updateColors();
         }
-        audioVideoSendButton.setColorFilter(new PorterDuffColorFilter(audioVideoButtonContainerForbidden ? getThemedColor(Theme.key_glass_defaultIcon) : Color.WHITE, PorterDuff.Mode.SRC_IN));
+        audioVideoSendButton.setColorFilter(new PorterDuffColorFilter(audioVideoButtonContainerForbidden ? getThemedColor(Theme.key_glass_defaultIcon) : getMessagePanelActionIconColor(), PorterDuff.Mode.SRC_IN));
         emojiButton.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_glass_defaultIcon), PorterDuff.Mode.SRC_IN));
         emojiButton.setBackground(Theme.createSelectorDrawable(getThemedColor(Theme.key_listSelector)));
         deleteRichDraftButton.setColorFilter(new PorterDuffColorFilter(getThemedColor(Theme.key_glass_defaultIcon), PorterDuff.Mode.SRC_IN));
@@ -14698,6 +14698,21 @@ public class ChatActivityEnterView extends FrameLayout implements
         return Theme.getColor(key);
     }
 
+    private boolean isUMessageDarkPanel() {
+        return resourcesProvider != null ? resourcesProvider.isDark() : Theme.isCurrentThemeDark();
+    }
+
+    private int getMessagePanelActionBackgroundColor() {
+        if (isUMessageDarkPanel()) {
+            return ColorUtils.blendARGB(getThemedColor(Theme.key_chat_messagePanelBackground), Color.WHITE, 0.10f);
+        }
+        return getThemedColor(Theme.key_chat_messagePanelSend);
+    }
+
+    private int getMessagePanelActionIconColor() {
+        return isUMessageDarkPanel() ? getThemedColor(Theme.key_glass_defaultIcon) : Color.WHITE;
+    }
+
     private Paint getThemedPaint(String paintKey) {
         Paint paint = resourcesProvider != null ? resourcesProvider.getPaint(paintKey) : null;
         return paint != null ? paint : Theme.getThemePaint(paintKey);
@@ -15422,7 +15437,8 @@ public class ChatActivityEnterView extends FrameLayout implements
         private int drawableColor;
 
         public void updateColors() {
-            int color = isNewDesignSendButton ? Color.WHITE : Theme.getColor(Theme.key_chat_messagePanelSend, resourcesProvider);
+            boolean darkPanel = resourcesProvider != null ? resourcesProvider.isDark() : Theme.isCurrentThemeDark();
+            int color = isNewDesignSendButton && darkPanel ? Theme.getColor(Theme.key_glass_defaultIcon, resourcesProvider) : isNewDesignSendButton ? Color.WHITE : Theme.getColor(Theme.key_chat_messagePanelSend, resourcesProvider);
             if (color != drawableColor) {
                 drawableColor = color;
                 drawable.setColorFilter(new PorterDuffColorFilter(color, PorterDuff.Mode.SRC_IN));
@@ -15431,11 +15447,11 @@ public class ChatActivityEnterView extends FrameLayout implements
                 drawableInverse.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_chat_messagePanelVoicePressed, resourcesProvider), PorterDuff.Mode.SRC_IN));
             }
             if (isNewDesignSendButton) {
-                backgroundPaint.setColor(Theme.getColor(Theme.key_chat_messagePanelSend, resourcesProvider));
+                backgroundPaint.setColor(darkPanel ? ColorUtils.blendARGB(Theme.getColor(Theme.key_chat_messagePanelBackground, resourcesProvider), Color.WHITE, 0.10f) : Theme.getColor(Theme.key_chat_messagePanelSend, resourcesProvider));
             } else if (shouldDrawBackground()) {
                 backgroundPaint.setColor(getFillColor());
             } else {
-                backgroundPaint.setColor(ColorUtils.setAlphaComponent(Color.WHITE, 75));
+                backgroundPaint.setColor(ColorUtils.setAlphaComponent(darkPanel ? Theme.getColor(Theme.key_glass_defaultIcon, resourcesProvider) : Color.WHITE, darkPanel ? 36 : 75));
             }
         }
 

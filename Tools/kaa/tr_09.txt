@@ -1,0 +1,789 @@
+VoipRecordVoiceChatInfo	Bul sáwbetti qalay jazıwdı tańlań
+VoipRecordStart	Jazıwdı baslaw
+VoipRateCallTitle	Bul qońırawdı bahalań
+VoipRateCallDescription	Bul qońırawdıń sapasın bahalań.
+VoipHintEncryptionKey	Bul qońırawdıń shifrlaw gilti
+VoipCallEncryptionEndToEnd	Bul qońıraw tolıq shifrlanǵan
+VoipWeakNetwork	Tarmaq signalı hálsiz
+VoipHideEmoji	Emojini jasırıw
+VoipMyMicrophoneState	Mikrofonıńız óshirilgen
+NoRtmpStreamFromAppOwner	**Oy!** Telegram striming qosımshańızdan kelip atırǵan efirdi kórmey atır.\n\nQosımshańızǵa durıs server URL mánzilin hám efir giltin kirgizgenińizdi tekseriń.
+NoRtmpStreamFromAppViewer	%1$s házir Telegramǵa tikkeley efir maǵlıwmatların jibermey atır.
+ManageInviteLinks	Mirát siltemelerin basqarıw
+ManageLinksInfoHelp	Waqıtı yamasa qollanıw sanı sheklengen qosımsha mirát siltemelerin jarata alasız.
+ManageLinksInfoHelpPaid	Waqıtı, qollanıw sanı sheklengen yamasa aqılı jazılıwdı talap etetuǵın qosımsha mirát siltemelerin jarata alasız.
+PrimaryLinkHelp	Telegramdaǵı hár bir adam usı silteme arqalı toparıńızǵa qosıla aladı.
+PrimaryLinkHelpChannel	Telegramdaǵı hár bir adam usı silteme arqalı kanalıńızǵa qosıla aladı.
+EditLink	Siltemeni ózgertiw
+SaveLink	Siltemeni saqlaw
+NoLimit	Sheksiz
+LimitByPeriod	Múddet boyınsha sheklew
+LimitNumberOfUses	Qollanıw sanın sheklew
+NewLink	Jańa silteme
+TimeLimitHint	Jeke múddet ornatıw
+UsesLimitHint	Jeke shek kirgiziń
+TimeLimitHelp	Siltemeniń múddetin belgili waqıttan keyin tamamlanatuǵın ete alasız.
+UsesLimitHelp	Siltemeni belgili san ret qollanılǵannan keyin tamamlanatuǵın ete alasız.
+NoOneJoinedYet	Ele hesh kim qosılmadı
+Expired	Múddeti ótken
+GetQRCode	QR kod alıw
+LinkCreatedeBy	Siltemeni jaratqan
+InviteByQRCode	QR kod arqalı mirát etiw
+ShareQrCode	QR kod penen bólisiw
+ScanQrCode	QR kodtı skanerlew
+Revoked	Biykarlanǵan
+LinkExpiresIn	Silteme múddeti %s tamamlanadı
+ExpireAfter	Múddeti tamamlanadı
+SetTimeLimit	Waqıt shegin ornatıw
+RevokedLinks	Biykarlanǵan siltemeler
+DeleteLink	Siltemeni óshiriw
+RevokedLink	Biykarlanǵan silteme
+LinkIsNoActive	Bul silteme endi islemeydi
+LinkIsExpired	Bul siltemeniń waqıt shegi ótti.
+LinkIsExpiredLimitReached	Bul silteme qollanıw shegine jetti.
+CreateNewLink	Jańa silteme jaratıw
+DeleteAllRevokedLinks	Barlıq biykarlanǵan siltemelerdi óshiriw
+NoOneJoined	Hesh kim qosılmadı
+NoOneSubscribed	Hesh kim jazılmadı
+LinkLimitReached	Shekke jetti
+QRCodeLinkHelpGroup	Telegramdaǵı hár bir adam toparıńızǵa qosılıw ushın bul kodtı skanerley aladı.
+DeleteLinkHelp	Bul siltemeni óshiredi.
+DeleteAllRevokedLinkHelp	Bul barlıq biykarlanǵan siltemelerdi óshiredi.
+LinksCreatedByThisAdmin	Usı administrator jaratqan mirát siltemeleri
+LinksCreatedByOtherAdmins	Basqa administratorlar jaratqan mirát siltemeleri
+PermanentLinkForThisAdmin	Usı administrator ushın mirát siltemesi
+QRCodeLinkHelpChannel	Telegramdaǵı hár bir adam kanalıńızǵa qosılıw ushın bul kodtı skanerley aladı.
+QRCodeLinkHelpChannelDirect	Telegramdaǵı hár bir adam kanalıńızǵa jazıw ushın bul kodtı skanerley aladı.
+QRCodeLinkHelpProxy	Doslarıńız bul kodtı telefon yamasa qosımsha kamerası menen skanerlep, usı proksidi qosa aladı.
+QRCodeLinkHelpFolder	Telegramdaǵı hár bir adam usı papkanı qosıw hám mirát siltemesine kirgen sáwbetlerge qosılıw ushın bul kodtı skanerley aladı.
+QRCodeLinkGroupCall	Telegramdaǵı hár bir adam topar qońırawıńızǵa qosılıw ushın bul kodtı skanerley aladı.
+LinkInfoChannel	Telegram ornatılǵan hár bir adam usı silteme arqalı kanalıńızǵa qosıla aladı.
+LinkExpiresInTime	Silteme múddeti %s tan keyin tamamlanadı
+PublicLink	Ashıq silteme
+InviteExpired	Bul mirát siltemesiniń múddeti ótken.
+LinkActionCopy	Kóshiriw
+LinkActionShare	Bólisiw
+InviteRevokedHint	Mirát siltemesi biykarlanǵan.
+ExpiredLink	Múddeti ótken silteme
+ContactShortcutMessage	%1$s ǵa xabar jazıw
+ContactShortcutVoiceCall	%1$s ǵa dawıslı qońıraw
+ContactShortcutVideoCall	%1$s ǵa video qońıraw
+RevokeLinks_one	Siltemeni biykarlaw
+RevokeLinks_other	%d siltemeni biykarlaw
+LeaveCommunities_one	Jámiyetten shıǵıw
+LeaveCommunities_other	%d jámiyetten shıǵıw
+RemoveDocumentsMessage_one	Bul hújjetti Júklengenlerden alıp taslawdı qáleysiz be?
+RemoveDocumentsMessage_other	Bul **%d hújjetti** Júklengenlerden alıp taslawdı qáleysiz be?
+RemoveDocumentsTitle_one	%d hújjetti alıp taslaw
+RemoveDocumentsTitle_other	%d hújjetti alıp taslaw
+ForceSetPasswordAlertMessage_one	Parolsız dawam etesiz be? Parol ornatpasańız, akkauntıńızǵa SMS arqalı tek %1$s kúnde bir ret kire alasız.
+ForceSetPasswordAlertMessage_other	Parolsız dawam etesiz be? Parol ornatpasańız, akkauntıńızǵa SMS arqalı tek %1$s kúnde bir ret kire alasız.
+MessagesDeletedUndo_one	%1$s kúnlik xabarlar óshirildi
+MessagesDeletedUndo_other	%1$s kúnlik xabarlar óshirildi
+DeleteDays_one	%1$s kúndi óshiriw
+DeleteDays_other	%1$s kúndi óshiriw
+MembersAreSpeakingToast_one	un1 sóylep atır
+MembersAreSpeakingToast_other	un1 sóylep atır
+DeleteBackground_one	Fondı óshiriw
+DeleteBackground_other	%1$d fondı óshiriw
+Recipient_one	%1$d alıwshı
+Recipient_other	%1$d alıwshı
+OnlineCount_one	%1$d onlayn
+OnlineCount_other	%1$d onlayn
+TelegramContacts_one	Telegramda %1$d kontakt
+TelegramContacts_other	Telegramda %1$d kontakt
+InviteTextNum_one	Sálem, men Telegram arqalı sáwbetlesip atırman – basqa %1$d kontaktımız da sonday. Bizge qosıl! Bul jerden júklep al: %2$s
+InviteTextNum_other	Sálem, men Telegram arqalı sáwbetlesip atırman – basqa %1$d kontaktımız da sonday. Bizge qosıl! Bul jerden júklep al: %2$s
+PeopleJoined_one	%1$d adam qosıldı
+PeopleJoined_other	%1$d adam qosıldı
+PeopleJoinedRemaining_one	%1$d qaldı
+PeopleJoinedRemaining_other	%1$d qaldı
+CanJoin_one	%1$d adam qosıla aladı
+CanJoin_other	%1$d adam qosıla aladı
+DaysLeft_one	%1$d kún qaldı
+DaysLeft_other	%1$d kún qaldı
+Chats_one	%1$d sáwbet
+Chats_other	%1$d sáwbet
+ChatsSelected_one	%1$d sáwbet
+ChatsSelected_other	%1$d sáwbet
+ChatsSelectedClearCache_one	%1$d sáwbet
+ChatsSelectedClearCache_other	%1$d sáwbet
+ChatsSelectedClear_one	%1$d sáwbet
+ChatsSelectedClear_other	%1$d sáwbet
+ChatsException_one	%1$d sáwbet
+ChatsException_other	%1$d sáwbet
+Channels_one	%1$d kanal
+Channels_other	%1$d kanal
+Bots_one	%1$d bot
+Bots_other	%1$d bot
+Groups_one	%1$d topar
+Groups_other	%1$d topar
+Members_one	%1$d aǵza
+Members_other	%1$d aǵza
+Participants_one	%1$d qatnasıwshı
+Participants_other	%1$d qatnasıwshı
+ViewersWatching_one	%1$d kórip atır
+ViewersWatching_other	%1$d kórip atır
+AndMoreTyping_one	hám jáne %1$d adam jazıp atır
+AndMoreTyping_other	hám jáne %1$d adam jazıp atır
+AndMoreTypingGroup_one	%1$s hám jáne %2$d adam jazıp atır
+AndMoreTypingGroup_other	%1$s hám jáne %2$d adam jazıp atır
+NewMessages_one	%1$d jańa xabar
+NewMessages_other	%1$d jańa xabar
+MessagesUnpinned_one	Xabar bekitiwden alındı
+MessagesUnpinned_other	%1$d xabar bekitiwden alındı
+messages_one	%1$d xabar
+messages_other	%1$d xabar
+MessagesBold_one	**%1$d** xabar
+MessagesBold_other	**%1$d** xabar
+items_one	%1$d element
+items_other	%1$d element
+FromChats_one	%1$d sáwbetten
+FromChats_other	%1$d sáwbetten
+SecondsSchedule_one	%1$d sekund
+SecondsSchedule_other	%1$d sekund
+MinutesSchedule_one	%1$d minut
+MinutesSchedule_other	%1$d minut
+HoursSchedule_one	%1$d saat
+HoursSchedule_other	%1$d saat
+DaysSchedule_one	%1$d kún
+DaysSchedule_other	%1$d kún
+Seconds_one	%1$d sekund
+Seconds_other	%1$d sekund
+Minutes_one	%1$d minut
+Minutes_other	%1$d minut
+Hours_one	%1$d saat
+Hours_other	%1$d saat
+Days_one	%1$d kún
+Days_other	%1$d kún
+Weeks_one	%1$d hápte
+Weeks_other	%1$d hápte
+Months_one	%1$d ay
+Months_other	%1$d ay
+MonthsShort_one	%1$d ay
+MonthsShort_other	%1$d ay
+YearsShort_one	%1$d j
+YearsShort_other	%1$d j
+Infinity	∞
+Lifetime	Ómirlik
+GiftMonths_one	%1$d aylıq
+GiftMonths_other	%1$d aylıq
+Gift2Months_one	%1$d ay
+Gift2Months_other	%1$d ay
+PrepaidGiveawayMonths_one	%1$d aylıq
+PrepaidGiveawayMonths_other	%1$d aylıq
+BoldMonths_one	**%1$d** ay
+BoldMonths_other	**%1$d** ay
+BoldYears_one	**%1$d** jıl
+BoldYears_other	**%1$d** jıl
+Years_one	%1$d jıl
+Years_other	%1$d jıl
+Users_one	%1$d paydalanıwshı
+Users_other	%1$d paydalanıwshı
+Times_one	%1$d ret
+Times_other	%1$d ret
+Meters_one	%1$d metr
+Meters_other	%1$d metr
+Stickers_one	%1$d stiker
+Stickers_other	%1$d stiker
+MasksCount_one	%1$d maska
+MasksCount_other	%1$d maska
+EmojiCount_one	%1$d emoji
+EmojiCount_other	%1$d emoji
+EmojiCountButton_one	%1$d emoji
+EmojiCountButton_other	%1$d emoji
+EmojiPackCount_one	%1$d emoji toplamı
+EmojiPackCount_other	%1$d emoji toplamı
+Subscribers_one	%1$d jazılıwshı
+Subscribers_other	%1$d jazılıwshı
+Exception_one	%1$d esaptan tısqarı
+Exception_other	%1$d esaptan tısqarı
+AutoException_one	%1$d avtomat esaptan tısqarı
+AutoException_other	%1$d avtomat esaptan tısqarı
+RemovedUser_one	%1$d shıǵarılǵan paydalanıwshı
+RemovedUser_other	%1$d shıǵarılǵan paydalanıwshı
+Points_one	%1$d
+Points_other	%1$d
+UpdatedMinutes_one	%1$d minut aldın jańalandı
+UpdatedMinutes_other	%1$d minut aldın jańalandı
+ShortNow	házir
+ShortToday	búgin
+ShortYesterday	keshe
+ShortMinutesAgo_one	%d min
+ShortMinutesAgo_other	%d min
+ShortHoursAgo_one	%d saat
+ShortHoursAgo_other	%d saat
+LessMinuteAgo	házir ǵana
+MinuteAgo	bir minut aldın
+MinutesAgo_one	%1$d minut aldın
+MinutesAgo_other	%1$d minut aldın
+HourAgo	bir saat aldın
+HoursAgo_one	%d saat aldın
+HoursAgo_other	%d saat aldın
+DayAgo	bir kún aldın
+DaysAgo_one	%d kún aldın
+DaysAgo_other	%d kún aldın
+MonthAgo	bir ay aldın
+MonthsAgo_one	%d ay aldın
+MonthsAgo_other	%d ay aldın
+YearAgo	bir jıl aldın
+YearsAgo_one	%d jıl aldın
+YearsAgo_other	%d jıl aldın
+SecondsBold_one	**%1$d** sekund
+SecondsBold_other	**%1$d** sekund
+MinutesBold_one	**%1$d** minut
+MinutesBold_other	**%1$d** minut
+HoursBold_one	**%1$d** saat
+HoursBold_other	**%1$d** saat
+DaysBold_one	**%1$d** kún
+DaysBold_other	**%1$d** kún
+Views_one	%1$s kóriw
+Views_other	%1$s kóriw
+Shares_one	%1$s bólisiw
+Shares_other	%1$s bólisiw
+PublicSharesCount_one	%1$s ashıq bólisiw
+PublicSharesCount_other	%1$s ashıq bólisiw
+Shared_one	%1$s bólisildi
+Shared_other	%1$s bólisildi
+StickerSets_one	%1$s stiker toplamı
+StickerSets_other	%1$s stiker toplamı
+ForwardedMessageCount_one	Jiberilgen xabar
+ForwardedMessageCount_other	%1$d jiberilgen xabar
+PreviewForwardMessagesCount_one	Xabardı jiberiw
+PreviewForwardMessagesCount_other	%1$d xabardı jiberiw
+Photos_one	%1$d súwret
+Photos_other	%1$d súwret
+Videos_one	%1$d video
+Videos_other	%1$d video
+Files_one	%1$d fayl
+Files_other	%1$d fayl
+MusicFiles_one	%1$d muzıka faylı
+MusicFiles_other	%1$d muzıka faylı
+CommonGroups_one	%1$d ulıwma topar
+CommonGroups_other	%1$d ulıwma topar
+Media_one	%1$d media
+Media_other	%1$d media
+Voice_one	%1$d dawıslı xabar
+Voice_other	%1$d dawıslı xabar
+Links_one	%1$d silteme
+Links_other	%1$d silteme
+GIFs_one	%1$d GIF
+GIFs_other	%1$d GIF
+BlockedUsersCount_one	%1$d bloklanǵan paydalanıwshı
+BlockedUsersCount_other	%1$d bloklanǵan paydalanıwshı
+ForwardedFile_one	Jiberilgen fayl
+ForwardedFile_other	%1$d jiberilgen fayl
+ForwardedPhoto_one	Jiberilgen súwret
+ForwardedPhoto_other	%1$d jiberilgen súwret
+PreviewForwardFile_one	Fayldı jiberiw
+PreviewForwardPhoto_one	Súwretti jiberiw
+PreviewForwardPhoto_other	%1$d súwretti jiberiw
+PreviewForwardVideo_one	Videonı jiberiw
+PreviewForwardVideo_other	%1$d videonı jiberiw
+PreviewForwardMusic_one	Audio fayldı jiberiw
+PreviewForwardMusic_other	%1$d audio fayldı jiberiw
+PreviewForwardAudio_one	Dawıslı xabardı jiberiw
+PreviewForwardAudio_other	%1$d dawıslı xabardı jiberiw
+PreviewForwardRound_one	Video xabardı jiberiw
+PreviewForwardRound_other	%1$d video xabardı jiberiw
+PreviewForwardLocation_one	Jaylasıwdı jiberiw
+PreviewForwardLocation_other	%1$d jaylasıwdı jiberiw
+PreviewForwardContact_one	Kontakttı jiberiw
+PreviewForwardContact_other	%1$d kontakttı jiberiw
+PreviewForwardSticker_one	Stikerdi jiberiw
+PreviewForwardSticker_other	%1$d stikerdi jiberiw
+PreviewForwardPoll_one	Sorawnamanı jiberiw
+PreviewForwardPoll_other	%1$d sorawnamanı jiberiw
+PreviewForwardTodo_one	Dizimdi jiberiw
+PreviewForwardTodo_other	%1$d dizimdi jiberiw
+ForwardedVideo_one	Jiberilgen video
+ForwardedVideo_other	%1$d jiberilgen video
+ForwardedMusic_one	Jiberilgen audio fayl
+ForwardedMusic_other	%1$d jiberilgen audio fayl
+ForwardedAudio_one	Jiberilgen dawıslı xabar
+ForwardedAudio_other	%1$d jiberilgen dawıslı xabar
+ForwardedRound_one	Jiberilgen video xabar
+ForwardedRound_other	%1$d jiberilgen video xabar
+ForwardedLocation_one	Jiberilgen jaylasıw
+ForwardedLocation_other	%1$d jiberilgen jaylasıw
+ForwardedContact_one	Jiberilgen kontakt
+ForwardedContact_other	%1$d jiberilgen kontakt
+ForwardedSticker_one	Jiberilgen stiker
+ForwardedSticker_other	%1$d jiberilgen stiker
+ForwardedPoll_one	Jiberilgen sorawnama
+ForwardedPoll_other	%1$d jiberilgen sorawnama
+AndOther_one	hám jáne %1$d
+AndOther_other	hám jáne %1$d
+PhotosSelected_one	%1$d súwret tańlandı
+PhotosSelected_other	%1$d súwret tańlandı
+VideosSelected_one	%1$d video tańlandı
+VideosSelected_other	%1$d video tańlandı
+MediaSelected_one	%1$d media tańlandı
+MediaSelected_other	%1$d media tańlandı
+ThemeInstallCount_one	%1$d adam bul temadan paydalanbaqta
+ThemeInstallCount_other	%1$d adam bul temadan paydalanbaqta
+CountOfResults_one	%2$d nátiyjeden %1$d
+CountOfResults_other	%2$d nátiyjeden %1$d
+UsersCount_one	%1$d paydalanıwshı
+UsersCount_other	%1$d paydalanıwshı
+UsersCountTitle_one	%1$d paydalanıwshı
+UsersCountTitle_other	%1$d paydalanıwshı
+MembersCountSelected_one	%2$d tan %1$d tańlandı
+MembersCountSelected_other	%2$d tan %1$d tańlandı
+ViewReplies_one	%1$d juwaptı kóriw
+ViewReplies_other	%1$d juwaptı kóriw
+Replies_one	%1$d juwap
+Replies_other	%1$d juwap
+Comments_one	%1$d pikir
+Comments_other	%1$d pikir
+CommentsCount_one	%1$d pikir
+CommentsCount_other	%1$d pikir
+CommentsNoNumber_one	pikir
+CommentsNoNumber_other	pikir
+PinnedMessagesCount_one	Bekitilgen xabar
+PinnedMessagesCount_other	%1$d bekitilgen xabar
+PeopleCanJoinViaLinkCount_one	%s adam usı silteme arqalı qosıla aladı
+PeopleCanJoinViaLinkCount_other	%s adam usı silteme arqalı qosıla aladı
+PinnedDialogsCount_one	Sáwbet bekitildi
+PinnedDialogsCount_other	%1$d sáwbet bekitildi
+UnpinnedDialogsCount_one	Sáwbet bekitiwden alındı
+UnpinnedDialogsCount_other	%1$d sáwbet bekitiwden alındı
+ForwardGroupMedia	Medianı jiberiw
+ForwardGroupMediaMessage	Neni jiberiwdi qáleysiz...
+SaveGroupMedia	Medianı saqlaw
+SaveGroupMediaMessage	Neni saqlawdı qáleysiz...
+ThisPhoto	Usı súwretti
+ThisMedia	Usı medianı
+AllNPhotos_one	Barlıq %1$d súwretti
+AllNPhotos_other	Barlıq %1$d súwretti
+AllNMedia_one	Barlıq %1$d medianı
+AllNMedia_other	Barlıq %1$d medianı
+MessageSeen_one	Kórildi
+MessageSeen_other	%1$d kórdi
+MessagePlayed_one	Tıńlandı
+MessagePlayed_other	%1$d tıńladı
+AccDescrGroup	Topar
+AccDescrChannel	Kanal
+AccDescrTopic	Tema
+AccDescrSecretChat	Jasırın sáwbet
+AccDescrSentDate	%s jiberildi
+AccDescrReceivedDate	%s alındı
+AccDescrScheduledDate	%s ge rejelestirilgen
+AccDescrPostedDate	%s járiyalandı
+AccDescrLivePhoto	Janlı súwret
+AccDescrRoundVideo	Video xabar
+AccDescrStoryPinned	Bekitilgen
+AccDescrGoBack	Artqa qaytıw
+AccDescrOpenMenu	Navigaciya menyuın ashıw
+AccDescrOpenMenu2	Menyudı ashıw
+AccDescrCloseMenu	Menyudı jabıw
+AccDescrOpenInPhotoViewer	Súwret kóriwshide ashıw
+AccDescrMusicInfo	%1$s — %2$s
+AccDescrMoreOptions	Jáne imkaniyatlar
+AccDescrSwitchToNightTheme	Túngi temaǵa ótiw
+AccDescrSwitchToDayTheme	Kúndizgi temaǵa ótiw
+AccDescrCloseTrendingStickers	Trendtegi stikerlerdi jabıw
+AccDescrCloseTrendingEmoji	Trendtegi emojilerdi jabıw
+AccDescrTagMessage	Xabar tegin ózgertiw
+AccActionPlay	Oynatıw
+AccActionPause	Pauza
+AccActionResume	Dawam etiw
+AccActionOnceActivate	Bir ret oynatıwdı qosıw
+AccActionOnceDeactivate	Bir ret oynatıwdı óshiriw
+AccActionDownload	Júklew
+AccActionCancelDownload	Júklewdi biykarlaw
+AccActionOpenFile	Fayldı ashıw
+AccActionMessageOptions	Xabar imkaniyatları
+AccActionOpenForwardedOrigin	Jiberilgen xabardıń deregi
+AccActionEnterSelectionMode	Tańlaw rejimine ótiw
+AccActionChatPreview	Sáwbetti aldınnan kóriw
+AccActionOpenTranscription	Dawıs transkripciyasın ashıw
+AccActionCloseTranscription	Transkripciyanı jabıw
+AccDescrEmojiButton	Emoji, stikerler hám GIFler
+AccDescrAttachButton	Media biriktiriw
+AccDescrChanSilentOn	Únsiz jiberiw
+AccDescrChanSilentOff	Xabarlandırıw menen jiberiw
+AccDescrBotCommands	Bot buyrıqları
+AccDescrBotKeyboard	Bot klaviaturası
+AccDescrVoiceMessage	Dawıslı xabar jazıw
+AccDescrVideoMessage	Video xabar jazıw
+AccDescrRemoveRoundVideo	Video xabardı alıp taslaw
+AccDescrCodeBlock	Kod blogı
+AccDescrCodeBlockLanguage	Kod blogı, %1$s
+AccDescrExpanded	Jayılǵan
+AccDescrCollapsed	Jıynalǵan
+AccDescrCheckbox	Belgilew qutısı
+AccDescrChecked	Belgilengen
+AccDescrNotChecked	Belgilenbegen
+AccDescrWithAdminTag	administrator tegi menen: %1$s
+AccDescrWithMemberTag	aǵza tegi menen: %1$s
+AccDescrLiked	Unaǵan
+AccDescrOpenChat	Sáwbetti ashıw
+AccDescrProfilePicture	Profil súwreti
+AccDescrChangeProfilePicture	Profil súwretin ózgertiw
+AccDescrContactSorting	Sortlawdı ózgertiw
+AccDescrShowAccounts	Akkauntlardı kórsetiw
+AccDescrHideAccounts	Akkauntlardı jasırıw
+AccDescrGoToMessage	Xabarǵa ótiw
+AccDescrPremiumSpeed	Tezlikti asırıw
+AccDescrCancelReply	Juwaptı biykarlaw
+AccDescrCancelForward	Jiberiwdi biykarlaw
+AccDescrCancelEdit	Ózgertiwdi biykarlaw
+AccDescrReplying	Juwap berilmekte:
+AccDescrForwarding	Jiberilmekte:
+AccDescrEditing	Ózgertilmekte
+AccDescrPasscodeLock	Qosımshanı qulıplaw
+AccDescrBackspace	Óshiriw túymesi
+AccDescrFingerprint	Barmaq izi
+AccDescrPrevious	Aldınǵı
+AccDescrRepeatOff	Tákirarlaw, óshirilgen
+AccDescrRepeatList	Tákirarlaw, pleylist
+AccDescrRepeatOne	Tákirarlaw, birew
+AccDescrClosePlayer	Audio pleerdi jabıw
+AccDescrPlayerSpeed	2X oynatıw
+AccDescrStopLiveLocation	Janlı jaylasıw menen bólisiwdi toqtatıw
+AccDescrInstantCamera	Tez kamera
+AccDescrShutter	Túsiriw túymesi
+AccDescrSwitchCamera	Kameranı almastırıw
+AccDescrCameraFlashOff	Jarqıldaq, óshirilgen
+AccDescrCameraFlashAuto	Jarqıldaq, avto
+AccDescrCameraFlashOn	Jarqıldaq, qosılǵan
+AccDescrDualCameraOn	Qos kamera, qosılǵan
+AccDescrDualCameraOff	Qos kamera, óshirilgen
+AccDescrCollage	Kollaj
+AccDescrCollageClose	Kollajdı jabıw
+AccDescrCameraGallery	Galereya
+AccDescrTakePhoto	Súwretke túsiriw
+AccDescrStartRecording	Jazıwdı baslaw
+AccDescrStopRecording	Jazıwdı toqtatıw
+AccDescrLockRecording	Jazıwdı qulıplaw
+AccDescrStickerSet	Stiker toplamı
+AccDescrGIFs	GIFler
+AccDescrStickers	Stikerler
+AccDescrExpandPanel	Paneldi jayıw
+AccDescrCollapsePanel	Paneldi jıynaw
+AccDescrUserOptions	Paydalanıwshı imkaniyatları
+AccDescrRotate	Burıw
+AccDescrMirror	Aynalıq shaǵılıstırıw
+AccDescrBrushType	Shotka túri
+AccDescrPaint	Súwret salıw
+AccDescrPlaceText	Tekst qoyıw
+AccDescrPhotoEditor	Súwret redaktorı
+AccDescrPhotoAdjust	Sazlawlar
+AccDescrPhotoViewer	Súwret kóriwshi
+AccDescrPageDown	Tómenge ótiw
+AccDescrMentionDown	Keyingi atap ótiwge ótiw
+AccDescrReactionMentionDown	Keyingi oqılmaǵan reakciyalarǵa ótiw
+AccDescrPollVotesMentionDown	Keyingi oqılmaǵan sorawnama dawısına ótiw
+AccDescrIVTitle	Atama
+AccDescrIVHeading	Baslıq
+AccDescrIVBlockquote	Citata
+AccDescrIVPullquote	Ajıratılǵan citata
+AccDescrIVKicker	Ústingi baslıq
+AccDescrIVFooter	Tómengi bólim
+AccDescrIVCode	Kod
+AccDescrIVDetails	Tolıq maǵlıwmat
+AccDescrIVExpanded	jayılǵan
+AccDescrIVCollapsed	jıynalǵan
+AccDescrIVRelatedArticle	Baylanıslı maqala
+AccDescrIVRelatedArticles	Baylanıslı maqalalar
+AccDescrIVEmbed	Ornatılǵan mazmun
+AccDescrIVEmbedPost	Ornatılǵan post
+AccDescrIVTable	Keste
+AccDescrIVButtons	Túymeler
+AccDescrIVFormula	Formula
+AccDescrIVSlideshow	Slayd-shou
+AccDescrIVAudio	Audio
+AccDescrIVTextStyle	Tekst stili
+AccDescrIVListStyle	Dizim stili
+AccDescrIVInsertDate	Sáneni qoyıw
+AccDescrMyLocation	Meniń jaylasıwım
+AccDescrLocationNotify	Aralıqta bolǵanda xabarlaw
+AccDescrVideoQuality	Video sapası
+AccDescrAspectRatio	Tárepler qatnası
+AccDescrMsgRead	Kórildi
+AccDescrMsgUnread	Kórilmedi
+AccDescrMsgSending	Jiberilmekte
+AccDescrMsgSendingError	Jiberiw qáteligi
+AccDescrMsgPlayed	Tıńlandı
+AccDescrMsgNotPlayed	Tıńlanbadı
+AccDescrSearchNext	Keyingi izlew nátiyjesi
+AccDescrSearchPrev	Aldınǵı izlew nátiyjesi
+AccDescrSearchByUser	Paydalanıwshı boyınsha filtrlew
+AccActionTakePicture	Súwretke túsiriw
+AccActionRecordVideo	Video jazıw
+AccSwipeForArchive	Arxiv ushın tómenge sıpırıń
+AccReleaseForArchive	Arxiv ushın jiberiń
+AccSwipeForGeneral	#general ushın tómenge sıpırıń
+AccReleaseForGeneral	#general ushın jiberiń
+AccDescrVideoCompressLow	Kishirek ólshem
+AccDescrVideoCompressHigh	Joqarıraq sapa
+AccDescrPlayerDuration	%2$s tan %1$s
+AccDescrDownloadProgress	%2$s tan %1$s júklendi
+AccDescrUploadProgress	%2$s tan %1$s jiberildi
+AccDescrNumberOfViews_one	%1$d ret kórildi
+AccDescrNumberOfViews_other	%1$d ret kórildi
+AccDescrNumberOfReplies_one	%1$d juwap bar
+AccDescrNumberOfReplies_other	%1$d juwap bar
+AccDescrPersonHasSeen	%1$s kórdi
+AccDescrReactedWith	%1$s %2$s reakciyasın qaldırdı
+AccDescrYouReactedWith	Siz %1$s reakciyasın qaldırdıńız
+AccDescrNumberOfPeopleReactions_one	%1$d adam %2$s reakciyasın qaldırdı
+AccDescrNumberOfPeopleReactions_other	%1$d adam %2$s reakciyasın qaldırdı
+AccDescrSendPhotos_one	%1$d súwretti jiberiw
+AccDescrSendPhotos_other	%1$d súwretti jiberiw
+AccDescrSendFiles_one	%1$d fayldı jiberiw
+AccDescrSendFiles_other	%1$d fayldı jiberiw
+AccDescrSendAudio_one	%1$d audio fayldı jiberiw
+AccDescrSendAudio_other	%1$d audio fayldı jiberiw
+AccDescrShareInChats_one	%1$d sáwbette bólisiw
+AccDescrShareInChats_other	%1$d sáwbette bólisiw
+AccDescrQuizCorrectAnswer	Durıs juwap
+AccDescrQuizIncorrectAnswer	Qáte juwap
+AccDescrQuizExplanation	Túsindirme
+AccDescrPipMode	«Súwret ishinde súwret» rejimi
+AccDescrVoipMicOn	Mikrofon qosılǵan
+AccDescrVoipMicOff	Mikrofon óshirilgen
+AccDescrVoipCamSwitchedToFront	Aldıńǵı kameraǵa ótildi
+AccDescrVoipCamSwitchedToBack	Artqı kameraǵa ótildi
+AccDescrVoipCamOn	Kamera qosılǵan
+AccDescrVoipCamOff	Kamera óshirilgen
+AccPinnedMessagesList	Bekitilgen xabarlar dizimi
+AccSwitchToFullscreen	Tolıq ekranǵa ótiw
+AccExitFullscreen	Tolıq ekrannan shıǵıw
+AccDescrSendAsPeer	%1$s retinde jiberiw
+AccDescrBotMenu	Bot menyuı
+AccDescrVerified	Tastıyıqlanǵan
+AccDescrMentionCount_one	%1$d atap ótiw
+AccDescrMentionCount_other	%1$d atap ótiw
+AccDescrUnreadCount_one	%1$d oqılmaǵan sáwbet
+AccDescrUnreadCount_other	%1$d oqılmaǵan sáwbet
+AccDescrMentionReaction	Jańa reakciya menen
+AccDescrSpeedSlider	Tezlikti tańlań
+AccDescrCaptureStory	Storis túsiriw
+AccDescrProfileMusic	Profil muzıkası
+AccDescrProfileRatingLevel	Profildiń juldızlar reyting dárejesi
+formatterBoostExpired	dd MMM, yyyy
+formatterGiveawayCard	dd MMM yyyy
+formatterGiveawayMonthDay	dd MMMM
+formatterGiveawayMonthDayYear	dd MMMM, yyyy
+formatterMonthYear	MMM yyyy
+formatterMonthOnly	MMMM
+formatterStats12H	dd MMM yyyy, h:mm a
+formatterStats24H	dd MMM yyyy, HH:mm
+formatterBannedUntil12H	dd MMM yyyy, h:mm a
+formatterBannedUntil24H	dd MMM yyyy, HH:mm
+formatterBannedUntilThisYear12H	dd MMM, h:mm a
+formatterBannedUntilThisYear24H	dd MMM, HH:mm
+formatterMonth	dd MMM
+formatterYear	dd.MM.yy
+formatterYearMax	dd.MM.yyyy
+chatDate	d MMMM
+chatDateShort	d MMM
+chatFullDate	d MMMM, yyyy
+formatterWeek	EEE
+formatterWeekLong	EEEE
+formatterDay24H	HH:mm
+formatterDay12H	h:mm a
+formatterDayWithSeconds24H	HH:mm:ss
+formatterDayWithSeconds12H	h:mm:ss a
+formatDateAtTime	%1$s saat %2$s
+formatDateSchedule	d MMM
+formatDateScheduleYear	d MMM yyyy
+SendTodayAt	\'Búgin saat\' HH:mm \'de jiberiw\'
+SendDayAt	d MMM \'saat\' HH:mm \'de jiberiw\'
+SendDayYearAt	d MMM yyyy \'saat\' HH:mm \'de jiberiw\'
+StartTodayAt	\'Búgin saat\' HH:mm \'de baslaw\'
+StartDayAt	d MMM \'saat\' HH:mm \'de baslaw\'
+StartDayYearAt	d MMM yyyy \'saat\' HH:mm \'de baslaw\'
+StartsTodayAt	\'Búgin saat\' HH:mm \'de baslanadı\'
+StartsDayAt	d MMM \'saat\' HH:mm \'de baslanadı\'
+StartsDayYearAt	d MMM yyyy \'saat\' HH:mm \'de baslanadı\'
+PublishTodayAt	\'Búgin saat\' HH:mm \'de járiyalaw\'
+PublishDayAt	d MMM \'saat\' HH:mm \'de járiyalaw\'
+PublishDayYearAt	d MMM yyyy \'saat\' HH:mm \'de járiyalaw\'
+StartShortTodayAt	\'Búgin,\' HH:mm
+StartShortDayAt	d MMM\',\' HH:mm
+StartShortDayYearAt	d MMM yyyy\',\' HH:mm
+RemindTodayAt	\'Búgin saat\' HH:mm \'de eske salıw\'
+RemindDayAt	d MMM \'saat\' HH:mm \'de eske salıw\'
+RemindDayYearAt	d MMM yyyy \'saat\' HH:mm \'de eske salıw\'
+BotsMenuTitle	Menyu
+SwipeToGoNextChannel	Keyingi oqılmaǵan kanalǵa ótiw ushın joqarıǵa tartıń
+ReleaseToGoNextChannel	Keyingi oqılmaǵan kanalǵa ótiw ushın jiberiń
+SwipeToGoNextFolder	Keyingi oqılmaǵan papkaǵa ótiw ushın joqarıǵa tartıń
+ReleaseToGoNextFolder	Keyingi oqılmaǵan papkaǵa ótiw ushın jiberiń
+SwipeToGoNextArchive	Arxivlengen kanallarǵa ótiw ushın joqarıǵa tartıń
+ReleaseToGoNextArchive	Arxivlengen kanallarǵa ótiw ushın jiberiń
+SwipeToGoNextRecommendedChannel	Keyingi kanalǵa ótiw ushın joqarıǵa tartıń
+ReleaseToGoNextRecommendedChannel	Keyingi kanalǵa ótiw ushın jiberiń
+SwipeToGoNextUnreadTopic	Keyingi oqılmaǵan temaǵa ótiw ushın joqarıǵa tartıń
+ReleaseToGoNextUnreadTopic	Keyingi oqılmaǵan temaǵa ótiw ushın jiberiń
+SwipeToGoNextTopicEnd	%1$s da oqılmaǵan temalar qalmadı
+SwipeToGoNextChannelEnd	Sizde oqılmaǵan kanallar joq
+FavoriteStickersShort	Saylandılar
+FeaturedStickersShort	Trendte
+RecentStickersShort	Sońǵılar
+IsChoosingSticker	%1$s stiker **oo** tańlap atır
+ChoosingSticker	stiker **oo** tańlap atır
+ChangeRecipient	Alıwshını ózgertiw
+ForwardSendMessages	Xabarlardı jiberiw
+ForwardPreviewSendersNameVisible	%s onıń jiberilgenin kóredi
+ForwardPreviewSendersNameVisibleGroup	Aǵzalar onıń jiberilgenin kóredi
+ForwardPreviewSendersNameVisibleChannel	Jazılıwshılar onıń jiberilgenin kóredi
+ForwardPreviewSendersNameHidden	%s olardıń jiberilgenin kórmeydi
+ForwardPreviewSendersNameHiddenGroup	Aǵzalar olardıń jiberilgenin kórmeydi
+ForwardPreviewSendersNameHiddenChannel	Jazılıwshılar olardıń jiberilgenin kórmeydi
+ShowForwardingOptions	Jiberiw imkaniyatların kórsetiw
+ShowCaption	Jazıwdı kórsetiw
+HideCaption	Jazıwdı jasırıw
+TapForForwardingOptions	Jiberiw imkaniyatları ushın usı jerdi basıń
+TapForReplyOptions	Juwap imkaniyatları ushın usı jerdi basıń
+SetWallpapers	Tusqaǵaz ornatıw
+SelectTheme	Temanı tańlaw
+ChatApplyTheme	Temanı qollanıw
+ChatResetTheme	Temanı tiklew
+ChatNoTheme	Temasız
+ChannelNoWallpaper	Tusqaǵazsız
+ChannelWallpaperUpdated	Tusqaǵaz jańalandı
+GroupsEmojiPackUpdated	Topar emoji toplamı jańalandı
+ChatThemeChangedYou	Siz sáwbet temasın %1$s ge ózgerttińiz
+ChatThemeChangedTo	%1$s sáwbet temasın %2$s ge ózgertti
+ChannelThemeChangedTo	%1$s kanal temasın %2$s ge ózgertti
+ChatThemeDisabled	%1$s sáwbet temasın óshirdi
+ChannelThemeDisabled	%1$s kanal temasın óshirdi
+ChatThemeDisabledYou	Siz sáwbet temasın óshirdińiz
+ChatThemeSaveDialogTitle	Ózgerisler saqlansın ba?
+ChatThemeSaveDialogText	Bul sáwbet ushın jańa temanı qollanıwdı qáleysiz be?
+ChatThemeSaveDialogApply	Qollanıw
+ChatThemeSaveDialogDiscard	Biykarlaw
+OptimizingTelegram	Telegram optimallastırılmaqta...
+OptimizingTelegramDescription1	Maǵlıwmatlar bazasınıń ólshemine qaray bul biraz waqıt alıwı múmkin. Process tamamlanǵansha qosımshanı ashıq qaldırıń.
+OptimizingTelegramDescription2	Qolaysızlıq ushın keshirim soraymız.
+EnjoyngAnimations	**oo** %1$s kórip atır
+IsEnjoyngAnimations	%1$s **oo** %2$s kórip atır
+ThemeAlsoAppliedForHint	Tema **%s** ushın da qollanıladı.
+ThemeAlsoDisabledForHint	Tema **%s** ushın da óshiriledi.
+MessageSeenTooltipMessage	Qupıyalıqtı qorǵaw ushın kóriwler tek **7 kún** saqlanadı
+EmojiInteractionTapHint	Eger **%s** házir sáwbetti kórip atırǵanda, ol da bul animaciyanı kórgen bolar edi.
+AttachMenu	Biriktiriw...
+Calendar	Kalendar
+MediaZoomIn	Úlkeytiw
+MediaZoomOut	Kishireytiw
+MediaShowPhotos	Súwretlerdi kórsetiw
+MediaShowVideos	Videolardı kórsetiw
+SharedMediaFastScrollHint	Tezirek aylandırıw ushın bul jolaqtı uslap turıp jılıstırıwıńız múmkin
+SettingsSwitchToNightMode	Túngi rejimge ótiw
+SettingsSwitchToDayMode	Kúndizgi rejimge ótiw
+SettingsBrowseThemes	Temalardı kóriw
+BrowseThemes	Temalardı kóriw
+BuildMyOwnTheme	Óz temamdı jaratıw
+EditCurrentTheme	Házirgi temanı ózgertiw
+CreateNewTheme	Jańa tema jaratıw
+ApproveNewMembers	Jańa aǵzalardı tastıyıqlaw
+ApproveNewMembers2	Jańa aǵzalardı tastıyıqlaw
+ApproveNewMembersUnavailablePublicGroup	Bul imkaniyat qoljetimsiz, sebebi ashıq topar siltemesi arqalı hár kim qosılıp, xabar jibere aladı.
+ApproveNewMembersDescription	Paydalanıwshılar tek administrator tastıyıqlaǵannan keyin qosılıwın qáleseńiz, bunı qosıń.
+ApproveNewMembersDescription2	Usı silteme arqalı qosılatuǵın adamlar ushın administrator tastıyıqlawın talap etiw.
+ApproveNewMembersDescriptionFrozen	Aylıq tólem talap etetuǵın siltemeler ushın administrator tastıyıqlawın qosa almaysız.
+NoMemberRequests	Qosılıw sorawları joq
+NoCommunityJoinRequests	Qosılıw sorawları joq
+RequestToJoinMembersTwo	%1$s, %2$s
+RequestToJoinMembersThree	%1$s, %2$s hám %3$s
+RequestToJoinMembersAll_one	%1$s, %2$s hám jáne %3$d aǵza
+RequestToJoinMembersAll_other	%1$s, %2$s hám jáne %3$d aǵza
+RequestToJoinGroup	Toparǵa qosılıwdı soraw
+RequestToJoinChannel	Kanalǵa qosılıwdı soraw
+RequestToJoinGroupDescription	Bul topar jańa aǵzalardı tek administratorları tastıyıqlaǵannan keyin qabıl etedi.
+RequestToJoinChannelDescription	Bul kanal jańa jazılıwshılardı tek administratorları tastıyıqlaǵannan keyin qabıl etedi.
+RequestToJoinSent	Qosılıw sorawı jiberildi
+RequestToJoinGroupSentDescription	Administratorlar sorawıńızdı tastıyıqlaǵannan keyin toparǵa qosılasız.
+RequestToJoinChannelSentDescription	Administratorlar sorawıńızdı tastıyıqlaǵannan keyin kanalǵa qosılasız.
+MemberRequests	Aǵzalıq sorawları
+SubscribeRequests	Jazılıw sorawları
+JoinRequests_one	%1$d adam qosılıwdı soradı
+JoinRequests_other	%1$d adam qosılıwdı soradı
+JoinUsersRequests_one	%1$d paydalanıwshı qosılıwdı soradı
+JoinUsersRequests_other	%1$d paydalanıwshı qosılıwdı soradı
+NoMemberRequestsDescription	Toparıńızǵa qosılıw ushın\nkútip turǵan sorawlar joq.
+NoCommunityJoinRequestsDescription	Jámiyetińizge qosılıw ushın\nkútip turǵan sorawlar joq.
+AddToGroup	Toparǵa qosıw
+AddToChannel	Kanalǵa qosıw
+AddToGroupOrChannel	Toparǵa yamasa kanalǵa qosıw
+BotAddToGroupOrChannelInfo	Bul bot topar yamasa kanaldı basqara aladı.
+Dismiss	Biykarlaw
+DismissRequest	Sorawdı biykarlaw
+RequestedToJoinAt	%1$s qosılıwdı soradı
+AddedBy	%1$s %2$s qosqan
+JoinedViaFolder	papka mirát siltemesi arqalı qosıldı
+HasBeenAddedToGroup	%1$s toparǵa qosıldı
+HasBeenAddedToChannel	%1$s kanalǵa qosıldı
+AddedMembersToGroup_other	**%d aǵza** toparǵa qosıldı
+AddedSubscribersToChannel_other	**%d jazılıwshı** kanalǵa qosıldı
+SearchMemberRequests	Aǵzalıq sorawların izlew
+RequestToJoinGroupApproved	Toparǵa qosılıw sorawıńız tastıyıqlandı
+RequestToJoinChannelApproved	Kanalǵa qosılıw sorawıńız tastıyıqlandı
+JoinedViaInviteLinkApproved	un1 un2 mirát siltemesi arqalı qosıldı, un3 tastıyıqladı
+JoinedViaRequestApproved	un1 qosıldı, un2 tastıyıqladı
+NoSubscribeRequests	Qosılıw sorawları joq
+NoSubscribeRequestsDescription	Bul kanalǵa qosılıw ushın\nkútip turǵan sorawlar joq.
+CalendarWeekNameShortMonday	D
+CalendarWeekNameShortTuesday	S
+CalendarWeekNameShortWednesday	S
+CalendarWeekNameShortThursday	P
+CalendarWeekNameShortFriday	J
+CalendarWeekNameShortSaturday	Sh
+CalendarWeekNameShortSunday	E
+LinkNameHint	Silteme atı (ıqtıyarıy)
+LinkNameHelp	Bul attı tek siz hám basqa administratorlar kóredi.
+CreateLinkHeader	JARATIW
+CreateLinkHeaderNoCaps	Jaratıw
+SaveLinkHeader	SAQLAW
+SaveLinkHeaderNoCaps	Saqlaw
+UserAcceptedToGroupAction	un1 toparǵa qabıl etildi
+UserAcceptedToGroupPush	%1$s toparǵa qabıl etildi
+UserAcceptedToGroupPushWithGroup	%2$s|%1$s toparǵa qabıl etildi
+ForwardsRestrictedInfoChannel	Bul kanalda kóshiriw hám jiberiwge ruqsat etilmegen.
+ForwardsRestrictedInfoGroup	Bul toparda kóshiriw hám jiberiwge ruqsat etilmegen.
+ForwardsRestrictedInfoUser	Bul paydalanıwshı ushın kóshiriw hám jiberiwge ruqsat etilmegen.
+ForwardsRestrictedInfoUserBecauseYou	Siz bul sáwbette kóshiriw hám jiberiwdi óshirdińiz.
+ForwardsRestrictedInfoUserBecauseUser	**%s** bul sáwbette kóshiriw hám jiberiwdi óshirdi.
+ForwardsRestrictedInfoBot	Bul bottan kóshiriw hám jiberiwge ruqsat etilmegen.
+TopicContainsEmojiPackSingle	Bul temada **%s** bar
+MessageContainsEmojiPackSingle	Bul xabarda **%s** bar
+StoryContainsEmojiPackSingle	Bul storiste **%s** bar
+MessageContainsEmojiPack	Bul xabarda %s toplamınan emoji bar.
+MessageContainsEmojiPacks_other	Bul xabarda **%d toplamnan** emoji bar.
+MessageContainsReactionsPack	Bul reakciyalarda %s toplamınan emoji bar.
+MessageContainsReactionsPacks_other	Bul reakciyalarda **%d toplamnan** emoji bar.
+MessageContainsReactionPack	Bul reakciya — %s toplamınan emoji.
+SendMessageAsTitle	Xabardı kim retinde jiberiw...
+OpenChannelPost	POSTTI KÓRIW
+SavingContentTitle	Mazmundı saqlaw
+RestrictSavingContent	Mazmundı saqlawdı sheklew
+RestrictSavingContentInfoGroup	Aǵzalar bul topardan xabarlardı jibere almaydı hám media fayllardı saqlay almaydı.
+RestrictSavingContentInfoChannel	Jazılıwshılar bul topardan xabarlardı jibere almaydı hám media fayllardı saqlay almaydı.
+ChannelSettingsJoinTitle	Jańa xabarlardı kim jibere aladı?
+ChannelSettingsJoinToSend	Tek aǵzalar
+ChannelSettingsJoinToSendInfo	Paydalanıwshılar xabar jiberiwden aldın toparıńızǵa qosılıwı kerek bolsa, bunı qosıń.
+ChannelSettingsJoinRequest	Jańa aǵzalardı tastıyıqlaw
+ChannelSettingsJoinRequestInfo	Paydalanıwshılar toparǵa tek administrator tastıyıqlaǵannan keyin qosılıwın qáleseńiz, bunı qosıń.
+ChannelSettingsJoinRequestInfo2	Kanalǵa qosılıwdı qálegen hár bir adamdı administrator tastıyıqlawı kerek.
+ChannelSettingsJoinRequestInfoManagedBy	Kanalǵa qosılıwdı qálegen hár bir adamdı administrator tastıyıqlawı kerek. **%s** basqaradı
+GroupPublicSettingsJoinRequestInfo2	Toparda xabar jiberiwdi qálegen hár bir adamdı administrator tastıyıqlawı kerek.
+GroupPrivateSettingsJoinRequestInfo2	Toparǵa qosılıwdı qálegen hár bir adamdı administrator tastıyıqlawı kerek.
+GroupPublicSettingsJoinRequestInfoManagedBy	Toparda xabar jiberiwdi qálegen hár bir adamdı administrator tastıyıqlawı kerek. **%s** basqaradı
+GroupPrivateSettingsJoinRequestInfoManagedBy	Toparǵa qosılıwdı qálegen hár bir adamdı administrator tastıyıqlawı kerek. **%s** basqaradı
+Allow	Ruqsat beriw
+Application	Qosımsha
+Location	IP mánzil boyınsha jaylasıw
+IpAddress	IP mánzil
+AcceptSecretChats	Jasırın sáwbetlerdi qabıl etiw
+AcceptSecretChatsDescription	Bul qurılmanı jasırın sáwbetler ushın qollanıw
+TerminateSession	Seanstı tamamlaw
+AuthAnotherClientInfo4	QR di skanerlep, *Telegram Desktop* yamasa *Telegram Web* ti baylanıstırıń.
+LinkDesktopDevice	Kompyuterdi baylanıstırıw
+TerminateOldSessionHeader	Eski seanslardı avtomat tamamlaw
+IfInactiveFor	eger usı múddet aktiv bolmasa
+AuthAnotherClientInfo5	QR kod alıw ushın *getdesktop.telegram.org* yamasa *web.telegram.org* saytına ótiń
+SessionsListInfo	Rásmiy Telegram qosımshası Android, iPhone, iPad, Windows, macOS hám Linux ushın qoljetimli.
